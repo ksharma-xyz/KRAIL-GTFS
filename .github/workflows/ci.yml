@@ -49,6 +49,12 @@ jobs:
           name: generated-json-files
           path: cache/NSW_STOPS.json
 
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+        with:
+          repository: 'ksharma-xyz/KRAIL-GTFS'
+          token: ${{ secrets.TOKEN }}
+
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
