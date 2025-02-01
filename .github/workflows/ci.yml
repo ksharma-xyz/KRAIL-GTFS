@@ -31,6 +31,9 @@ jobs:
       - name: Build and run tests
         run: ./gradlew build
 
+      - name: Download GTFS Data
+        run: ./gradlew runKRAIL-GTFS
+
       - name: Get current date and time
         id: date
         run: echo "DATE=$(date +'%d%b_%H%M')" >> $GITHUB_ENV

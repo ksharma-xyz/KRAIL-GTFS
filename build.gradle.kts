@@ -46,3 +46,10 @@ tasks.test {
 kotlin {
     jvmToolchain(21)
 }
+
+tasks.register<JavaExec>("runKRAIL-GTFS") {
+    group = "application"
+    description = "Run the main class of the project"
+    mainClass.set("app.krail.kgtfs.MainKt") // Replace with your main class
+    classpath = sourceSets["main"].runtimeClasspath
+}
