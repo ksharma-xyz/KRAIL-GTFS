@@ -31,9 +31,6 @@ jobs:
       - name: Build and run tests
         run: ./gradlew build
 
-      - name: Run the project
-        run: ./gradlew run
-
       - name: Get current date and time
         id: date
         run: echo "DATE=$(date +'%d%b_%H%M')" >> $GITHUB_ENV
