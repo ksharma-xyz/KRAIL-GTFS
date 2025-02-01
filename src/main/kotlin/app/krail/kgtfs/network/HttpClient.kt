@@ -44,6 +44,11 @@ fun getHttpClient(): HttpClient {
 }
 
 private fun getApiKey(): String {
+    val apiKey = System.getenv("NSW_TRANSPORT_API_KEY")
+    if (!apiKey.isNullOrEmpty()) {
+        return apiKey
+    }
+
     val properties = Properties()
     FileInputStream("local.properties").use { properties.load(it) }
     return properties.getProperty("NSW_TRANSPORT_API_KEY")
