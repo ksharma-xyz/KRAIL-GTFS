@@ -58,7 +58,7 @@ jobs:
       - name: Create Branch
         run: |
           timestamp=$(date +'%s')
-          branch_name="nsw-gtfs-stops"
+          branch_name="nsw-gtfs-stops-${timestamp}"
           git checkout -b $branch_name
           git push origin $branch_name
           echo "BRANCH_NAME=$branch_name" >> $GITHUB_ENV
