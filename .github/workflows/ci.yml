@@ -49,10 +49,6 @@ jobs:
           name: generated-json-files
           path: cache/NSW_STOPS.json
 
-      - name: Get current date and time
-        id: date
-        run: echo "DATE=$(date +'%d%b_%H%M')" >> $GITHUB_ENV
-
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
@@ -62,7 +58,7 @@ jobs:
       - name: Create Branch
         run: |
           timestamp=$(date +'%s')
-          branch_name="nsw-gtfs-stops-${GITHUB_ENV}"
+          branch_name="nsw-gtfs-stops"
           git checkout -b $branch_name
           git push origin $branch_name
           echo "BRANCH_NAME=$branch_name" >> $GITHUB_ENV
@@ -75,7 +71,7 @@ jobs:
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           commit-message: 'Add generated NSW_STOPS.json'
-          title: 'Add generated NSW_STOPS.json - ${{ env.DATE }}'
+          title: 'Add generated NSW_STOPS.json'
           body: |
             ### Description
             Automated PR to add GTFS Stops as a JSON files.
