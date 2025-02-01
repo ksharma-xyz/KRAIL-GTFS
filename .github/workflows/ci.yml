@@ -49,17 +49,14 @@ jobs:
           name: generated-json-files
           path: cache/NSW_STOPS.json
 
-      - name: Checkout target repo
-        uses: actions/checkout@v4
-        with:
-          repository: 'ksharma-xyz/KRAIL-GTFS'
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create new folder for artifact
+        run: mkdir -p ./nswstops
 
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: generated-json-files
-          path: ./cache
+          path: ./nswstops
 
       - name: Create Branch
         run: |
