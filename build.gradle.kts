@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.10"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.1.10"
+    id("com.squareup.wire") version "5.0.0-alpha04"
 }
 
 group = "app.krail.kgtfs"
@@ -35,6 +36,12 @@ dependencies {
     // CSV
     implementation("com.jsoizo:kotlin-csv-jvm:1.10.0")
 
+    /*implementation("com.squareup.wire:wire-runtime:4.4.3")
+    implementation("com.squareup.wire:wire-grpc-client:4.4.3")
+    implementation("com.squareup.wire:wire-moshi-adapter:4.4.3")
+    implementation("com.squareup.wire:wire-schema:4.4.3")
+    implementation("com.squareup.wire:wire-kotlin-generator:4.4.3")*/
+
     testImplementation(kotlin("test"))
     testImplementation("io.mockk:mockk:1.13.16")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.1")
@@ -59,4 +66,20 @@ tasks.register<JavaExec>("runKRAIL-GTFS") {
     description = "Run the main class of the project"
     mainClass.set("app.krail.kgtfs.MainKt") // Replace with your main class
     classpath = sourceSets["main"].runtimeClasspath
+}
+
+wire {
+    kotlin {
+        javaInterop = true
+        out = "$projectDir/build/generated/source/wire"
+        rpcCallStyle = "suspending"
+        rpcRole = "client"
+        singleMethodServices = false
+    }
+    protoPath {
+        srcDir("src/main/proto")
+    }
+    sourcePath {
+        srcDir("src/main/proto")
+    }
 }

@@ -10,9 +10,13 @@ message KrailNswStop {
   // The stop name is the name of the stop.
   string stopName = 2;
 
-  string lat = 3;
-  string lon = 4;
+  double lat = 3;
+  double lon = 4;
 
   // The product class is a list of transport modes that the stop is associated with.
-  repeated string productClass = 5;
+  repeated int32 productClass = 5;
+}
+
+message KrailNswStopList {
+  repeated KrailNswStop nswStops = 1;
 }
