@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package app.krail.kgtfs.proto;
+
+message KrailNswStop {
+
+  /** The stop ID is a unique identifier for the stop.   */
+  string stopId = 1;
+
+  // The stop name is the name of the stop.
+  string stopName = 2;
+
+  string lat = 3;
+  string lon = 4;
+
+  // The product class is a list of transport modes that the stop is associated with.
+  repeated string productClass = 5;
+}

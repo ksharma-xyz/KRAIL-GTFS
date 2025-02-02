@@ -34,7 +34,7 @@ object NswGtfsManager {
 
         println("Map Order: ${gtfsStopMap.keys}")
 
-        val result = createCommonGtfsStops(gtfsStopMap)
+        val result: List<StopJson> = createCommonGtfsStops(gtfsStopMap)
 
         val json = Json.encodeToString(result)
         File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(json)
