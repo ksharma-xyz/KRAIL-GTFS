@@ -1,10 +1,7 @@
-name: Run Project and Create PR
+name: CI Workflow
 
 on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 0 2 * *' # Runs at 00:00 on the 2nd of every month
+  workflow_call: # This makes the workflow reusable
 
 jobs:
   build:
@@ -14,12 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - uses: actions/checkout@v4
       - name: Setup environment variables
         run: |
           echo "NSW_TRANSPORT_API_KEY=${{ secrets.NSW_TRANSPORT_API_KEY }}" >> $GITHUB_ENV
 
-      - name: set up JDK
+      - name: Set up JDK
         uses: actions/setup-java@v4
         with:
           distribution: zulu
