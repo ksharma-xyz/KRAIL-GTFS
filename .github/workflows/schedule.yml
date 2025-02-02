@@ -2,7 +2,7 @@ name: Schedule a workflow
 
 on:
   schedule:
-    - cron: '30 11 * * *' # Runs at 11:30 UTC every day (21:30 AEST)
+    - cron: '0 12 * * *' # Runs at 12:00 UTC every day
 
 jobs:
   call-ci-workflow:
