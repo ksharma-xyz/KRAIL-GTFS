@@ -5,13 +5,11 @@ import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.model.StopJson
 import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.NswTransport.fetchAndProcessNswTransportData
+import app.krail.kgtfs.proto.KrailNswStop
+import app.krail.kgtfs.proto.KrailNswStopList
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import kotlinx.datetime.Clock
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.toJavaLocalDateTime
-import kotlinx.datetime.toLocalDateTime
-import java.time.format.DateTimeFormatter
+import java.io.FileOutputStream
 
 object NswGtfsManager {
 
@@ -34,12 +32,6 @@ object NswGtfsManager {
 
         val result: List<StopJson> = createCommonGtfsStops(gtfsStopMap)
         writeStopData(result)
-
-        /*  val prettyJson = prettyJson.encodeToString(result)
-          File("$cacheDirectory/NSW_STOPS_PRETTY$JSON_EXTENSION").writeText(prettyJson)
-
-          val json = json.encodeToString(result)
-          File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(json)*/
     }
 
     /**
@@ -79,26 +71,8 @@ object NswGtfsManager {
         return allStops
     }
 
-    private fun GtfsStop.toStopJson(transportModeType: NswTransportModeType): StopJson {
-        return StopJson(
-            id = stopId.toString(),
-            name = name,
-            lat = latitude?.toString() ?: "",
-            lon = longitude?.toString() ?: "",
-            productClass = mutableSetOf(transportModeType.productClass)
-        )
-    }
-
-    private fun datedStopsFileName(): String {
-        val currentMoment = Clock.System.now()
-        val formatter = DateTimeFormatter.ofPattern("ddMMMyyyy_HHmm")
-        val formattedDate =
-            currentMoment.toLocalDateTime(TimeZone.currentSystemDefault()).toJavaLocalDateTime().format(formatter)
-        return "NSW_STOPS_$formattedDate"
-    }
-
     // Replace hardcoded file-writing logic with calls to writeJsonToFile
-    private suspend fun writeStopData(result: List<StopJson>) {
+    private suspend fun writeStopData(result: List<StopJson>) = withContext(Dispatchers.IO) {
         // Write as pretty JSON
         writeJsonToFile(
             data = result,
@@ -114,5 +88,21 @@ object NswGtfsManager {
             fileName = "NSW_STOPS",
             pretty = false,
         )
+
+        // Write as Protobuf binary
+        val stopList = result.map { stop ->
+            KrailNswStop(
+                stopId = stop.id,
+                stopName = stop.name,
+                lat = stop.lat.toDouble(),
+                lon = stop.lon.toDouble(),
+                productClass = stop.productClass.map { it }
+            )
+        }
+        val protobufData = KrailNswStopList(nswStops = stopList)
+        val adapter = KrailNswStopList.ADAPTER
+        FileOutputStream("$cacheDirPath/NSW_STOPS.pb").use { output ->
+            output.write(adapter.encode(protobufData))
+        }
     }
 }
