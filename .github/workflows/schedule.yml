@@ -2,11 +2,10 @@ name: Schedule a workflow
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs at 12:00 UTC every day
+    - cron: '0 0 * * *' # Runs at 12:00 UTC every day
 
 jobs:
   call-ci-workflow:
     uses: ./.github/workflows/ci.yml
     with:
-    # Add any inputs if needed
-    secrets: inherit
+      secrets: inherit
