@@ -4,12 +4,10 @@ on:
   workflow_call:
     types: [completed]
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-    types: [opened, synchronize, reopened]
+    branches: [ main ]
+    types: [ opened, synchronize, reopened, ready_for_review ]
   schedule:
     - cron: '0 0 * * *' # Runs at 12:00 UTC every day
 
