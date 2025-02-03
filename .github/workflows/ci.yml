@@ -48,6 +48,9 @@ jobs:
     if: github.event_name == 'schedule'
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Download GTFS Data
         run: ./gradlew runKRAIL-GTFS
 
