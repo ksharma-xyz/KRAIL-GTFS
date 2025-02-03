@@ -2,12 +2,11 @@ name: CI Workflow
 
 on:
   workflow_call:
-    types: [completed]
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-    types: [ opened, synchronize, reopened, ready_for_review ]
+    types: [opened, synchronize, reopened, ready_for_review]
   schedule:
     - cron: '0 0 * * *' # Runs at 12:00 UTC every day
 
@@ -37,6 +36,9 @@ jobs:
     needs: setup
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Build and run tests
         run: ./gradlew build
 
@@ -73,6 +75,15 @@ jobs:
           name: generated-json-files
           path: ./nswstops
 
+      - name: Check for diffs
+        id: git-diff
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes detected. Skipping PR creation."
+            exit 0
+          fi
+
       - name: Create Branch
         run: |
           timestamp=$(date +'%s')
@@ -94,3 +105,9 @@ jobs:
           body: |
             ### Description
             Automated PR to add GTFS Stops as a JSON files.
+
+      - name: Auto Approve PR
+        uses: hmarr/auto-approve-action@v4
+        if: github.actor == 'github-actions[bot]'
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
