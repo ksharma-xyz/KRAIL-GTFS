@@ -43,8 +43,15 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(21)
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(JavaVersion.VERSION_21.majorVersion))
+    }
 }
 
 tasks.register<JavaExec>("runKRAIL-GTFS") {
