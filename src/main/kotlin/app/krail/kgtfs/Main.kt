@@ -10,10 +10,15 @@ fun main() {
     runBlocking {
         NswGtfsManager.fetch(refresh = true)
         buildUIFast()
+        buildCLI()
         exitProcess(0)
     }
 }
 
 fun buildUIFast() {
     println("UI")
+}
+
+fun buildCLI() {
+    println("CLI")
 }
