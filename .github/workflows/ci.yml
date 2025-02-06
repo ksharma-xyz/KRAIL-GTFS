@@ -13,7 +13,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request' || !contains(github.event.pull_request.labels.*.name, 'auto-generated')
+    if: github.event_name != 'pull_request' ||
+      !contains(github.event.pull_request.labels.*.name, 'auto-generated') ||
+      ${{ github.event.pull_request.draft == false }}
 
     steps:
       - name: Checkout repository
