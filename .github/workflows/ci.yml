@@ -30,6 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: setup
+    if: github.event_name != 'pull_request' || !contains(github.event.pull_request.labels.*.name, 'auto-generated')
 
     steps:
       - name: Checkout repository
@@ -107,6 +108,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
           base: main
+          labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           commit-message: 'Add generated NSW_STOPS.json'
