@@ -17,6 +17,8 @@ import java.time.format.DateTimeFormatter
 
 object NswGtfsManager {
 
+    private val json = Json { prettyPrint = true }
+
     /**
      * Fetches and processes GTFS data for all NSW transport modes.
      * Will save the stops.txt data as [StopJson] and convert to json file inside cache directory.
@@ -36,8 +38,8 @@ object NswGtfsManager {
 
         val result: List<StopJson> = createCommonGtfsStops(gtfsStopMap)
 
-        val json = Json.encodeToString(result)
-        File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(json)
+        val prettyJson = json.encodeToString(result)
+        File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(prettyJson)
     }
 
     /**
