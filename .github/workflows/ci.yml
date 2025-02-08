@@ -88,18 +88,6 @@ jobs:
             exit 0
           fi
 
-      - name: Extract Git Diff (Added & Deleted Lines)
-        id: extract-diff
-        run: |
-          git diff --unified=0 origin/main...HEAD -- cache/NSW_STOPS.json > diff_output.txt
-          if [ -s diff_output.txt ]; then
-            echo "DIFF_CONTENT<<EOF" >> $GITHUB_ENV
-            echo "$(cat diff_output.txt)" >> $GITHUB_ENV
-            echo "EOF" >> $GITHUB_ENV
-          else
-            echo "DIFF_CONTENT=No significant changes detected." >> $GITHUB_ENV
-          fi
-
       - name: Create Branch
         run: |
           timestamp=$(date +'%s')
@@ -121,12 +109,7 @@ jobs:
           title: 'Add generated NSW_STOPS.json'
           body: |
             ### Description
-            Automated PR to add GTFS Stops as a JSON file.
-
-            ### Changes Detected:
-            ```
-            ${{ env.DIFF_CONTENT }}
-            ```
+            Automated PR to add GTFS Stops as a JSON files.
 
       - name: Auto Approve PR
         uses: hmarr/auto-approve-action@v4
