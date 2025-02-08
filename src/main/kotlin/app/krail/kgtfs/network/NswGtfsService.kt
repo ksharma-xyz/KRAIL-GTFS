@@ -5,10 +5,12 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import kotlinx.coroutines.Dispatchers
+import okio.Path.Companion.toPath
 import java.nio.file.Paths
 
 val projectRoot = Paths.get("").toAbsolutePath().toString()
 val cacheDirectory = "$projectRoot/cache"
+val cacheDirPath = cacheDirectory.toPath()
 
 /**
  * Source: https://opendata.transport.nsw.gov.au/data/dataset/public-transport-timetables-realtime

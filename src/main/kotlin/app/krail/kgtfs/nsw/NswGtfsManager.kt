@@ -1,9 +1,9 @@
 package app.krail.kgtfs.nsw
 
-import app.krail.kgtfs.io.FileStorage.JSON_EXTENSION
+import app.krail.kgtfs.io.FileStorage.writeJsonToFile
 import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.network.cacheDirectory
+import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.NswTransport.fetchAndProcessNswTransportData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -11,13 +11,9 @@ import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toJavaLocalDateTime
 import kotlinx.datetime.toLocalDateTime
-import kotlinx.serialization.json.Json
-import java.io.File
 import java.time.format.DateTimeFormatter
 
 object NswGtfsManager {
-
-    private val json = Json { prettyPrint = true }
 
     /**
      * Fetches and processes GTFS data for all NSW transport modes.
@@ -37,9 +33,13 @@ object NswGtfsManager {
         println("Map Order: ${gtfsStopMap.keys}")
 
         val result: List<StopJson> = createCommonGtfsStops(gtfsStopMap)
+        writeStopData(result)
 
-        val prettyJson = json.encodeToString(result)
-        File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(prettyJson)
+        /*  val prettyJson = prettyJson.encodeToString(result)
+          File("$cacheDirectory/NSW_STOPS_PRETTY$JSON_EXTENSION").writeText(prettyJson)
+
+          val json = json.encodeToString(result)
+          File("$cacheDirectory/NSW_STOPS$JSON_EXTENSION").writeText(json)*/
     }
 
     /**
@@ -55,7 +55,7 @@ object NswGtfsManager {
                 if (existingStop != null) {
                     // Stop already exists, add the product class to the existing stop.
                     if (gtfsStop.name.contains("Coach Stop") || existingStop.name.contains("Coach Stop")) {
-                        println("Coach Stop: ${gtfsStop.name} - ${existingStop.name}")
+                        // println("Coach Stop: ${gtfsStop.name} - ${existingStop.name}")
                         existingStop.productClass.add(NswTransportModeType.COACH.productClass)
                     } else {
                         existingStop.productClass.add(mode.productClass)
@@ -64,7 +64,7 @@ object NswGtfsManager {
                     existingStop.name = gtfsStop.name
                 } else {
                     if (gtfsStop.name.contains("Coach Stop")) {
-                        println("Coach Stop: ${gtfsStop.name}")
+                        // println("Coach Stop: ${gtfsStop.name}")
                         allStops.add(
                             gtfsStop.toStopJson(mode).copy(
                                 productClass = mutableSetOf(NswTransportModeType.COACH.productClass)
@@ -95,5 +95,24 @@ object NswGtfsManager {
         val formattedDate =
             currentMoment.toLocalDateTime(TimeZone.currentSystemDefault()).toJavaLocalDateTime().format(formatter)
         return "NSW_STOPS_$formattedDate"
+    }
+
+    // Replace hardcoded file-writing logic with calls to writeJsonToFile
+    private suspend fun writeStopData(result: List<StopJson>) {
+        // Write as pretty JSON
+        writeJsonToFile(
+            data = result,
+            path = cacheDirPath,
+            fileName = "NSW_STOPS",
+            pretty = true,
+        )
+
+        // Write as compact JSON
+        writeJsonToFile(
+            data = result,
+            path = cacheDirPath,
+            fileName = "NSW_STOPS",
+            pretty = false,
+        )
     }
 }
