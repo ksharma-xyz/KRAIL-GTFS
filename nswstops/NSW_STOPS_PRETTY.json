@@ -19044,6 +19044,15 @@
         ]
     },
     {
+        "id": "206512",
+        "name": "Pacific Hwy at Hume St",
+        "lat": "-33.826311",
+        "lon": "151.19926",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "206513",
         "name": "Pacific Hwy before Christie St",
         "lat": "-33.823499",
@@ -19777,6 +19786,15 @@
         "name": "Longueville Rd opp Currambena Public School",
         "lat": "-33.821488",
         "lon": "151.171159",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "206640",
+        "name": "Longueville Rd opp River Rd West",
+        "lat": "-33.822691",
+        "lon": "151.172052",
         "productClass": [
             5
         ]
