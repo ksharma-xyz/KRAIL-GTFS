@@ -45191,8 +45191,8 @@
     {
         "id": "211561",
         "name": "Bartlett Park, Victoria Rd",
-        "lat": "-33.808278",
-        "lon": "151.068062",
+        "lat": "-33.808173",
+        "lon": "151.068255",
         "productClass": [
             5
         ]
@@ -51025,15 +51025,6 @@
         "name": "Avenue of Asia before Holker St",
         "lat": "-33.832784",
         "lon": "151.05783",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212766",
-        "name": "Sydney Olympic Park, Aquatic Terminal, Stand 1A",
-        "lat": "-33.849733",
-        "lon": "151.068303",
         "productClass": [
             5
         ]
@@ -57226,15 +57217,6 @@
         "name": "Regents Park Christian School, Regent St",
         "lat": "-33.881571",
         "lon": "151.02643",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "214376",
-        "name": "Birrong Station, Hudson Pde",
-        "lat": "-33.893047",
-        "lon": "151.023788",
         "productClass": [
             5
         ]
@@ -192276,15 +192258,6 @@
         ]
     },
     {
-        "id": "2142279",
-        "name": "Clyde Station, Berry St",
-        "lat": "-33.835187",
-        "lon": "151.017404",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2142281",
         "name": "Delany College, Bennalong St",
         "lat": "-33.83321",
@@ -193306,15 +193279,6 @@
         "name": "Park Rd opp Auburn Trinity Catholic College",
         "lat": "-33.849863",
         "lon": "151.030692",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2144236",
-        "name": "Auburn Station, Rawson St",
-        "lat": "-33.849424",
-        "lon": "151.033548",
         "productClass": [
             5
         ]
@@ -202180,24 +202144,6 @@
         "name": "Hambledon Cottage Reserve, Hassall St",
         "lat": "-33.818437",
         "lon": "151.014229",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2150393",
-        "name": "Harris Park Station, Station St East",
-        "lat": "-33.821968",
-        "lon": "151.008026",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2150395",
-        "name": "Station St at Marion St",
-        "lat": "-33.822223",
-        "lon": "151.008097",
         "productClass": [
             5
         ]
@@ -239841,15 +239787,6 @@
         ]
     },
     {
-        "id": "2220123",
-        "name": "Hurstville Station, Ormonde Pde, Stand P",
-        "lat": "-33.968221",
-        "lon": "151.103413",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2220124",
         "name": "Hillcrest Ave at Mabel St",
         "lat": "-33.970259",
@@ -241096,15 +241033,6 @@
         "name": "Jannali Public School, Sutherland Rd",
         "lat": "-34.018495",
         "lon": "151.061514",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2226105",
-        "name": "Como Station, Como Pde",
-        "lat": "-34.004582",
-        "lon": "151.067786",
         "productClass": [
             5
         ]
@@ -245853,28 +245781,10 @@
         ]
     },
     {
-        "id": "2233262",
-        "name": "Engadine Station, Railway Pde",
-        "lat": "-34.067478",
-        "lon": "151.014839",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2233264",
-        "name": "Heathcote Station, Princes Hwy",
-        "lat": "-34.087582",
-        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -297067,6 +296977,15 @@
         "name": "Big Ridge Lane",
         "lat": "-32.552938",
         "lon": "151.233149",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2335100",
+        "name": "McGann Dr before Kesterton Rise",
+        "lat": "-32.675453",
+        "lon": "151.361145",
         "productClass": [
             5
         ]
