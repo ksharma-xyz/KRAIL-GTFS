@@ -11782,7 +11782,7 @@
     },
     {
         "id": "203632",
-        "name": "Bunnerong Rd at Partannia Ave",
+        "name": "Bunnerong Rd at Partanna Ave",
         "lat": "-33.964683",
         "lon": "151.231304",
         "productClass": [
@@ -144919,7 +144919,7 @@
     },
     {
         "id": "256071",
-        "name": "Waminda Ave at Kauah St",
+        "name": "Waminda Ave at Karuah St",
         "lat": "-34.07312",
         "lon": "150.828535",
         "productClass": [
@@ -144964,7 +144964,7 @@
     },
     {
         "id": "256076",
-        "name": "Macquarie Ave opp Waminda Reserve",
+        "name": "Macquarie Ave opp Waminda Oval",
         "lat": "-34.064373",
         "lon": "150.835222",
         "productClass": [
@@ -145324,7 +145324,7 @@
     },
     {
         "id": "256421",
-        "name": "Eucalyptus Dr at Merrit Pl",
+        "name": "Eucalyptus Dr at Merritt Pl",
         "lat": "-33.994537",
         "lon": "150.903169",
         "productClass": [
@@ -145378,7 +145378,7 @@
     },
     {
         "id": "256427",
-        "name": "Groundsel Ave opp Hyacinth Rd",
+        "name": "Groundsel Ave opp Hyacinth Ave",
         "lat": "-33.999819",
         "lon": "150.897186",
         "productClass": [
@@ -145405,7 +145405,7 @@
     },
     {
         "id": "256430",
-        "name": "Astelia Pl opp Hovea Pl",
+        "name": "Astelia St opp Hovea Pl",
         "lat": "-33.996738",
         "lon": "150.892516",
         "productClass": [
@@ -145738,7 +145738,7 @@
     },
     {
         "id": "256468",
-        "name": "Astelia Pl at Groundsel Ave",
+        "name": "Astelia St at Hovea Pl",
         "lat": "-33.996637",
         "lon": "150.892633",
         "productClass": [
@@ -145954,7 +145954,7 @@
     },
     {
         "id": "256494",
-        "name": "Parliament Rd opp Dale Lane",
+        "name": "Parliament Rd after Atchison Rd",
         "lat": "-33.989493",
         "lon": "150.88335",
         "productClass": [
@@ -146305,7 +146305,7 @@
     },
     {
         "id": "256545",
-        "name": "Chester Rd after Warbler Ave",
+        "name": "Chester Rd opp Clifford Cres",
         "lat": "-34.010295",
         "lon": "150.870676",
         "productClass": [
@@ -147853,7 +147853,7 @@
     },
     {
         "id": "256759",
-        "name": "Queen St opp Doncaster St",
+        "name": "Queen St opp Doncaster Ave",
         "lat": "-34.048241",
         "lon": "150.738966",
         "productClass": [
@@ -148447,7 +148447,7 @@
     },
     {
         "id": "257018",
-        "name": "Merino Dr after Macathur Rd",
+        "name": "Merino Dr after Macarthur Rd",
         "lat": "-34.058782",
         "lon": "150.712066",
         "productClass": [
@@ -148555,7 +148555,7 @@
     },
     {
         "id": "257032",
-        "name": "Macarthur Rd opp Harrington St",
+        "name": "Macarthur Rd after Purcell St",
         "lat": "-34.055754",
         "lon": "150.707541",
         "productClass": [
@@ -157150,7 +157150,7 @@
     },
     {
         "id": "276253",
-        "name": "Boundary Rd opp St Albans Rd",
+        "name": "Boundary Rd before Coffey St",
         "lat": "-33.688166",
         "lon": "150.882554",
         "productClass": [
@@ -165061,7 +165061,7 @@
     },
     {
         "id": "278015",
-        "name": "Cliff Dr opp Katoomba Falls Reserve",
+        "name": "Katoomba Falls Kiosk, Cliff Dr",
         "lat": "-33.726345",
         "lon": "150.303678",
         "productClass": [
@@ -192312,6 +192312,15 @@
         ]
     },
     {
+        "id": "2142287",
+        "name": "Granville Station, Bridge St, Stand D",
+        "lat": "-33.832341",
+        "lon": "151.011551",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2142288",
         "name": "Halsall St at Woodville Rd",
         "lat": "-33.830578",
@@ -200124,6 +200133,15 @@
         ]
     },
     {
+        "id": "2148304",
+        "name": "Blacktown Rd before Tudor Ave",
+        "lat": "-33.785657",
+        "lon": "150.920862",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2148307",
         "name": "Blacktown Station, Stand L",
         "lat": "-33.767869",
@@ -200917,7 +200935,7 @@
     },
     {
         "id": "2148468",
-        "name": "Richmond Rd opp Eucumbene Cres",
+        "name": "Richmond Rd before Eucumbene Dr",
         "lat": "-33.749974",
         "lon": "150.884203",
         "productClass": [
@@ -202144,6 +202162,24 @@
         "name": "Hambledon Cottage Reserve, Hassall St",
         "lat": "-33.818437",
         "lon": "151.014229",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2150393",
+        "name": "Harris Park Station, Station St East",
+        "lat": "-33.821968",
+        "lon": "151.008026",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2150395",
+        "name": "Station St at Marion St",
+        "lat": "-33.822223",
+        "lon": "151.008097",
         "productClass": [
             5
         ]
@@ -273511,7 +273547,7 @@
     },
     {
         "id": "2284114",
-        "name": "Speers St opp Bradford St",
+        "name": "Speers St opp Barford St",
         "lat": "-32.964476",
         "lon": "151.625731",
         "productClass": [
@@ -307297,7 +307333,7 @@
     },
     {
         "id": "2560116",
-        "name": "St John The Evangelist Primary School, Cordeaux St",
+        "name": "St John The Evangelist, Cordeaux St",
         "lat": "-34.069279",
         "lon": "150.818066",
         "productClass": [
@@ -307837,7 +307873,7 @@
     },
     {
         "id": "2560177",
-        "name": "Cordeaux St opp St John The Evangelist Primary School",
+        "name": "Cordeaux St opp St John The Evangelist",
         "lat": "-34.069213",
         "lon": "150.818201",
         "productClass": [
@@ -307882,7 +307918,7 @@
     },
     {
         "id": "2560182",
-        "name": "Broughton St at Gwydir",
+        "name": "Broughton St at Gwydir Pl",
         "lat": "-34.077044",
         "lon": "150.828681",
         "productClass": [
@@ -308332,7 +308368,7 @@
     },
     {
         "id": "2560236",
-        "name": "Cemetery Park, Broughton St",
+        "name": "Centenary Park, Broughton St",
         "lat": "-34.070402",
         "lon": "150.823012",
         "productClass": [
@@ -308440,7 +308476,7 @@
     },
     {
         "id": "2560248",
-        "name": "Lindesay St before Chamberlain St",
+        "name": "Lindesay St after Ronald St",
         "lat": "-34.065337",
         "lon": "150.825715",
         "productClass": [
@@ -313840,7 +313876,7 @@
     },
     {
         "id": "2567141",
-        "name": "The Cascade, Waterworth Dr",
+        "name": "The Cascades, Waterworth Dr",
         "lat": "-34.051569",
         "lon": "150.753868",
         "productClass": [
@@ -314281,7 +314317,7 @@
     },
     {
         "id": "2567194",
-        "name": "Murdoch Reserve, Fairwater Dr",
+        "name": "Fairwater Dr before Swan Ct",
         "lat": "-34.030713",
         "lon": "150.730723",
         "productClass": [
