@@ -12276,6 +12276,15 @@
         ]
     },
     {
+        "id": "203691",
+        "name": "Port Botany Bus Depot",
+        "lat": "-33.970055",
+        "lon": "151.224517",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "203694",
         "name": "Beauchamp Rd opp Matraville Public School",
         "lat": "-33.955829",
@@ -52834,6 +52843,15 @@
         "name": "Presbyterian Ladies College, Young St",
         "lat": "-33.881905",
         "lon": "151.114772",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "213275",
+        "name": "Paisley Rd after The Strand",
+        "lat": "-33.882846",
+        "lon": "151.114337",
         "productClass": [
             5
         ]
@@ -120195,6 +120213,24 @@
         ]
     },
     {
+        "id": "230480",
+        "name": "George St at Greaves St",
+        "lat": "-32.900372",
+        "lon": "151.752014",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "230481",
+        "name": "Ingall St at Mounter St",
+        "lat": "-32.903001",
+        "lon": "151.746348",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "230490",
         "name": "Warabrook Bvd before Casuarina Cct",
         "lat": "-32.887742",
@@ -121648,15 +121684,6 @@
         "name": "University Dr opp Kimian Ave",
         "lat": "-32.896473",
         "lon": "151.70982",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "230830",
-        "name": "Warabrook Station",
-        "lat": "-32.888552",
-        "lon": "151.70945",
         "productClass": [
             5
         ]
@@ -132151,51 +132178,6 @@
         "name": "Gresford Rd opp Dungog Rd",
         "lat": "-32.566669",
         "lon": "151.595082",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "242012",
-        "name": "Dungog Station, Coach Stop",
-        "lat": "-32.402645",
-        "lon": "151.759121",
-        "productClass": [
-            7
-        ]
-    },
-    {
-        "id": "242016",
-        "name": "Wallarobba Station",
-        "lat": "-32.496191",
-        "lon": "151.69561",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "242018",
-        "name": "Hilldale Station, Hilldale Rd",
-        "lat": "-32.50357",
-        "lon": "151.650426",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "242054",
-        "name": "Wirragulla Station, Dungog Rd",
-        "lat": "-32.462955",
-        "lon": "151.742394",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "242055",
-        "name": "Martins Creek Station, Grace Ave",
-        "lat": "-32.557389",
-        "lon": "151.617944",
         "productClass": [
             5
         ]
@@ -145153,7 +145135,7 @@
     },
     {
         "id": "256098",
-        "name": "Waminda Reserve, Macquarie Ave",
+        "name": "Waminda Oval, Macquarie Ave",
         "lat": "-34.064688",
         "lon": "150.834922",
         "productClass": [
@@ -145765,7 +145747,7 @@
     },
     {
         "id": "256471",
-        "name": "Groundsel Ave at Hyacinth Rd",
+        "name": "Groundsel Ave at Hyacinth Ave",
         "lat": "-33.999696",
         "lon": "150.897191",
         "productClass": [
@@ -156556,7 +156538,7 @@
     },
     {
         "id": "276167",
-        "name": "Plumpton Long Day Care Centre, Rooty Hill Rd",
+        "name": "Rooty Hill Rd North opp Myra St",
         "lat": "-33.749028",
         "lon": "150.84159",
         "productClass": [
@@ -159265,7 +159247,7 @@
     },
     {
         "id": "276644",
-        "name": "North Pde opp Loyola College",
+        "name": "North Pde opp CathWest Innovation College",
         "lat": "-33.77121",
         "lon": "150.83082",
         "productClass": [
@@ -159274,7 +159256,7 @@
     },
     {
         "id": "276645",
-        "name": "Loyola College, North Pde",
+        "name": "CathWest Innovation College, North Pde",
         "lat": "-33.771005",
         "lon": "150.830965",
         "productClass": [
@@ -232641,6 +232623,15 @@
         ]
     },
     {
+        "id": "2200113",
+        "name": "Bankstown Interchange",
+        "lat": "-33.918186",
+        "lon": "151.03582",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2200147",
         "name": "Rookwood Rd opp Three Swallows Hotel",
         "lat": "-33.905805",
@@ -288837,24 +288828,6 @@
         ]
     },
     {
-        "id": "2320406",
-        "name": "Mindaribba Station Carpark, Tocal Rd",
-        "lat": "-32.667782",
-        "lon": "151.585275",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2320407",
-        "name": "Abbot St at Tulloch Ln",
-        "lat": "-32.74046",
-        "lon": "151.563",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2320408",
         "name": "Weblands St before Budgeree Dr",
         "lat": "-32.705663",
@@ -290569,15 +290542,6 @@
         "name": "Anderson Dr opp Tarro Public School",
         "lat": "-32.809723",
         "lon": "151.66597",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2322208",
-        "name": "Tarro Public School, Anderson Dr",
-        "lat": "-32.809793",
-        "lon": "151.665766",
         "productClass": [
             5
         ]
@@ -329869,7 +329833,7 @@
     },
     {
         "id": "2761167",
-        "name": "Power St Before Buttigieg Pl Walkway",
+        "name": "Power St before M7 Mwy",
         "lat": "-33.751789",
         "lon": "150.844263",
         "productClass": [
@@ -329878,7 +329842,7 @@
     },
     {
         "id": "2761168",
-        "name": "Power St After Parkwood St Walkway",
+        "name": "Power St before Parkwood St",
         "lat": "-33.752004",
         "lon": "150.844182",
         "productClass": [
@@ -330535,7 +330499,7 @@
     },
     {
         "id": "2763147",
-        "name": "Wilson Rd at Tamarind Dr",
+        "name": "Wilson Rd after Tamarind Dr",
         "lat": "-33.734655",
         "lon": "150.918422",
         "productClass": [
@@ -335296,7 +335260,7 @@
     },
     {
         "id": "2770182",
-        "name": "Emerson St after Sedgeman Cres",
+        "name": "Emerson St after Sedgman Cres",
         "lat": "-33.725006",
         "lon": "150.811482",
         "productClass": [
@@ -335341,7 +335305,7 @@
     },
     {
         "id": "2770187",
-        "name": "Emerson St before Sedgeman Cres",
+        "name": "Emerson St before Sedgman Cres",
         "lat": "-33.725123",
         "lon": "150.811323",
         "productClass": [
@@ -336547,7 +336511,7 @@
     },
     {
         "id": "2770333",
-        "name": "Captain Cook Dr at Mercator Crres",
+        "name": "Captain Cook Dr at Mercator Cres",
         "lat": "-33.72941",
         "lon": "150.79466",
         "productClass": [
@@ -336700,7 +336664,7 @@
     },
     {
         "id": "2770363",
-        "name": "Captain Cook Dr opp Mercator Crres",
+        "name": "Captain Cook Dr before Palmyra Ave",
         "lat": "-33.729508",
         "lon": "150.794726",
         "productClass": [
