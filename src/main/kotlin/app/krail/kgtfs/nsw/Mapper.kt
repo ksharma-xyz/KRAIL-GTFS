@@ -2,7 +2,7 @@ package app.krail.kgtfs.nsw
 
 import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.proto.KrailNswStop
+import app.krail.kgtfs.proto.NswStop
 
 fun GtfsStop.toStopJson(transportModeType: NswTransportModeType): StopJson {
     return StopJson(
@@ -14,8 +14,8 @@ fun GtfsStop.toStopJson(transportModeType: NswTransportModeType): StopJson {
     )
 }
 
-fun StopJson.toKrailGtfsStop(): KrailNswStop {
-    return KrailNswStop(
+fun StopJson.toKrailGtfsStop(): NswStop {
+    return NswStop(
         stopId = id,
         stopName = name,
         lat = lat.toDouble(),

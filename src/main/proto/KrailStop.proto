@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package app.krail.kgtfs.proto;
 
-message KrailNswStop {
+message NswStop {
 
   /** The stop ID is a unique identifier for the stop.   */
   string stopId = 1;
@@ -17,6 +17,6 @@ message KrailNswStop {
   repeated int32 productClass = 5;
 }
 
-message KrailNswStopList {
-  repeated KrailNswStop nswStops = 1;
+message NswStopList {
+  repeated NswStop nswStops = 1;
 }
