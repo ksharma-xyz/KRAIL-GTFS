@@ -1,11 +1,7 @@
 package app.krail.kgtfs.nsw
 
-import app.krail.kgtfs.io.FileStorage.writeJsonToFile
-import app.krail.kgtfs.io.NswStopsProtoIO.readProtoFile
-import app.krail.kgtfs.io.NswStopsProtoIO.writeProtoFile
 import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.NswTransport.fetchAndProcessNswTransportData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -21,7 +17,7 @@ object NswGtfsManager {
     suspend fun fetch(
         refresh: Boolean = true,
         modes: List<NswTransportModeType> = NswTransportModeType.entries.filterNot { it == NswTransportModeType.COACH }
-    ) = withContext(Dispatchers.Default) {
+    ): List<StopJson> = withContext(Dispatchers.Default) {
 
         val gtfsStopMap = modes.associateWith { mode ->
             mode.fetchAndProcessNswTransportData(fetchFromNetwork = refresh)
@@ -29,8 +25,7 @@ object NswGtfsManager {
 
         println("Map Order: ${gtfsStopMap.keys}")
 
-        val result: List<StopJson> = createCommonGtfsStops(gtfsStopMap)
-        writeStopData(result)
+        createCommonGtfsStops(gtfsStopMap)
     }
 
     /**
@@ -68,29 +63,5 @@ object NswGtfsManager {
             }
         }
         return allStops
-    }
-
-    // Replace hardcoded file-writing logic with calls to writeJsonToFile
-    private suspend fun writeStopData(result: List<StopJson>) = withContext(Dispatchers.IO) {
-        // Write as pretty JSON
-        writeJsonToFile(
-            data = result,
-            path = cacheDirPath,
-            fileName = "NSW_STOPS",
-            pretty = true,
-        )
-
-        // Write as compact JSON
-        writeJsonToFile(
-            data = result,
-            path = cacheDirPath,
-            fileName = "NSW_STOPS",
-            pretty = false,
-        )
-
-        // Write as Protobuf
-        writeProtoFile(data = result, filePath = "$cacheDirPath/NSW_STOPS.pb")
-
-        readProtoFile("$cacheDirPath/NSW_STOPS.pb")
     }
 }
