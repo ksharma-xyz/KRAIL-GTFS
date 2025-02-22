@@ -1,15 +1,14 @@
 package app.krail.kgtfs.nsw
 
 import app.krail.kgtfs.io.FileStorage.writeJsonToFile
+import app.krail.kgtfs.io.NswStopsProtoIO.readProtoFile
+import app.krail.kgtfs.io.NswStopsProtoIO.writeProtoFile
 import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.model.StopJson
 import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.NswTransport.fetchAndProcessNswTransportData
-import app.krail.kgtfs.proto.KrailNswStop
-import app.krail.kgtfs.proto.KrailNswStopList
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import java.io.FileOutputStream
 
 object NswGtfsManager {
 
@@ -89,20 +88,9 @@ object NswGtfsManager {
             pretty = false,
         )
 
-        // Write as Protobuf binary
-        val stopList = result.map { stop ->
-            KrailNswStop(
-                stopId = stop.id,
-                stopName = stop.name,
-                lat = stop.lat.toDouble(),
-                lon = stop.lon.toDouble(),
-                productClass = stop.productClass.map { it }
-            )
-        }
-        val protobufData = KrailNswStopList(nswStops = stopList)
-        val adapter = KrailNswStopList.ADAPTER
-        FileOutputStream("$cacheDirPath/NSW_STOPS.pb").use { output ->
-            output.write(adapter.encode(protobufData))
-        }
+        // Write as Protobuf
+        writeProtoFile(data = result, filePath = "$cacheDirPath/NSW_STOPS.pb")
+
+        readProtoFile("$cacheDirPath/NSW_STOPS.pb")
     }
 }
