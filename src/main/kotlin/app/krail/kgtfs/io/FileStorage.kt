@@ -9,8 +9,12 @@ import java.io.File
 
 object FileStorage {
 
-    private val prettyJson = Json { prettyPrint = true }
-    private val json = Json { prettyPrint = false }
+    val prettyJson = Json { prettyPrint = true }
+    val json = Json { prettyPrint = false }
+
+    const val ZIP_EXTENSION = ".zip"
+    const val TXT_EXTENSION = ".txt"
+    const val JSON_EXTENSION = ".json"
 
     suspend fun saveFile(fileName: String, data: ByteArray, directory: String) = withContext(Dispatchers.IO) {
         val dir = File(directory)
@@ -33,7 +37,7 @@ object FileStorage {
         pretty: Boolean = false
     ) = withContext(Dispatchers.IO) {
         // Configure JSON serializer based on the 'pretty' flag
-        val json = if (pretty) Json { prettyPrint = true } else Json
+        val json = if (pretty) prettyJson else json
 
         // Create the formatted file name (adds "PRETTY" if pretty is true)
         val finalFileName = if (pretty) "${fileName}_PRETTY$JSON_EXTENSION" else "$fileName$JSON_EXTENSION"
@@ -41,8 +45,4 @@ object FileStorage {
         // Write the serialized JSON data to the specified file path
         File(path.toFile(), finalFileName).writeText(json.encodeToString(data))
     }
-
-    const val ZIP_EXTENSION = ".zip"
-    const val TXT_EXTENSION = ".txt"
-    const val JSON_EXTENSION = ".json"
 }
