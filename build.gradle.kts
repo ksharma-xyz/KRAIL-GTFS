@@ -1,7 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.10"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.1.10"
-    id("com.squareup.wire") version "5.0.0-alpha04"
+    id("com.squareup.wire") version "5.3.0"
 }
 
 group = "app.krail.kgtfs"
