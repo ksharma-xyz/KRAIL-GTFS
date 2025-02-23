@@ -2,7 +2,7 @@ package app.krail.gtfs.io
 
 import app.krail.kgtfs.io.NswStopsProtoIO
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.proto.KrailNswStopList
+import app.krail.kgtfs.proto.NswStopList
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
@@ -30,7 +30,7 @@ class NswStopsProtoIOTest {
         NswStopsProtoIO.writeProtoFile(result, filePath)
 
         // Read the Protobuf file
-        val decoded: KrailNswStopList = NswStopsProtoIO.readProtoFile(filePath)
+        val decoded: NswStopList = NswStopsProtoIO.readProtoFile(filePath)
 
         // Verify the decoded data
         assertEquals(result.size, decoded.nswStops.size)
@@ -50,7 +50,7 @@ class NswStopsProtoIOTest {
         val filePath = "nswstops/NSW_STOPS.pb"
 
         // Read the Protobuf file
-        val decoded: KrailNswStopList = NswStopsProtoIO.readProtoFile(filePath)
+        val decoded: NswStopList = NswStopsProtoIO.readProtoFile(filePath)
 
         // Verify the total number of stops
         println("Total stops: ${decoded.nswStops.size}")
