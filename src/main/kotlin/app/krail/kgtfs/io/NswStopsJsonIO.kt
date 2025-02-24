@@ -10,7 +10,7 @@ import kotlinx.coroutines.withContext
 
 object NswStopsJsonIO {
 
-    suspend fun writeStopData(result: List<StopJson>) = withContext(Dispatchers.IO) {
+    suspend fun writeStopData(result: List<StopJson>): Unit = withContext(Dispatchers.IO) {
         // Write as pretty JSON
         writeJsonToFile(
             data = result,
