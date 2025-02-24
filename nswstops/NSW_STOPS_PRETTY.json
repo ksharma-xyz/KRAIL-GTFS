@@ -1190,8 +1190,8 @@
     {
         "id": "201070",
         "name": "Yurong St after William St",
-        "lat": "-33.874603",
-        "lon": "151.214416",
+        "lat": "-33.875197",
+        "lon": "151.214305",
         "productClass": [
             5
         ]
@@ -4284,15 +4284,6 @@
         ]
     },
     {
-        "id": "202076",
-        "name": "Sydney Domestic Airport, Keith Smith Ave",
-        "lat": "-33.93307",
-        "lon": "151.17845",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "202078",
         "name": "Control Tower, General Holmes Dr",
         "lat": "-33.946903",
@@ -4315,15 +4306,6 @@
         "name": "Wentworth Ave at Alfred Lane",
         "lat": "-33.93405",
         "lon": "151.197498",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "202083",
-        "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-        "lat": "-33.935337",
-        "lon": "151.165745",
         "productClass": [
             5
         ]
@@ -83160,6 +83142,15 @@
         ]
     },
     {
+        "id": "220533",
+        "name": "Princes Hwy after Subway Rd",
+        "lat": "-33.944094",
+        "lon": "151.142099",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "220534",
         "name": "Wollongong Rd opp Macquarie Lodge",
         "lat": "-33.940258",
@@ -117171,15 +117162,6 @@
         ]
     },
     {
-        "id": "229638",
-        "name": "Hamilton Station, Beaumont St, Stand A",
-        "lat": "-32.91808",
-        "lon": "151.748382",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "229711",
         "name": "Maitland Rd at Elizabeth St",
         "lat": "-32.907018",
@@ -119200,15 +119182,6 @@
         "name": "Stewart Ave opp King St",
         "lat": "-32.925966",
         "lon": "151.758695",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "230246",
-        "name": "Newcastle Interchange, Stand C",
-        "lat": "-32.92428",
-        "lon": "151.758161",
         "productClass": [
             5
         ]
@@ -121558,15 +121531,6 @@
         "name": "Sandgate Rd opp Shortland Public School",
         "lat": "-32.881585",
         "lon": "151.696172",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "230760",
-        "name": "Astra St before Sandgate Rd",
-        "lat": "-32.874016",
-        "lon": "151.702",
         "productClass": [
             5
         ]
@@ -126873,15 +126837,6 @@
         ]
     },
     {
-        "id": "232241",
-        "name": "Thornton Station, Karuah St",
-        "lat": "-32.783333",
-        "lon": "151.640192",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "232242",
         "name": "Railway Ave at Rockleigh St",
         "lat": "-32.782622",
@@ -131292,15 +131247,6 @@
         ]
     },
     {
-        "id": "233320",
-        "name": "Muswellbrook Station, Stand C",
-        "lat": "-32.267288",
-        "lon": "150.890583",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "233412",
         "name": "Nelson St at High St",
         "lat": "-32.682598",
@@ -131656,15 +131602,6 @@
         "name": "Dalwood Rd opp Preston Cl",
         "lat": "-32.653501",
         "lon": "151.374776",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233539",
-        "name": "Branxton Station, Railway St",
-        "lat": "-32.662141",
-        "lon": "151.346235",
         "productClass": [
             5
         ]
@@ -132126,33 +132063,6 @@
         "lon": "151.269872",
         "productClass": [
             5
-        ]
-    },
-    {
-        "id": "233613",
-        "name": "Macqueen St opp Aberdeen Station",
-        "lat": "-32.166877",
-        "lon": "150.891551",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233619",
-        "name": "Aberdeen Station, Macqueen St",
-        "lat": "-32.166908",
-        "lon": "150.891782",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233721",
-        "name": "Scone Station, Coach Stop",
-        "lat": "-32.046842",
-        "lon": "150.867091",
-        "productClass": [
-            7
         ]
     },
     {
@@ -155800,7 +155710,7 @@
     },
     {
         "id": "276066",
-        "name": "Desborough St before Marsden Rd",
+        "name": "Desborough Rd before Marsden Rd",
         "lat": "-33.780279",
         "lon": "150.783556",
         "productClass": [
@@ -158725,7 +158635,7 @@
     },
     {
         "id": "276568",
-        "name": "Windsor Rd opp Sydney St",
+        "name": "Junction Rd opp Globe St",
         "lat": "-33.660433",
         "lon": "150.876694",
         "productClass": [
@@ -159166,7 +159076,7 @@
     },
     {
         "id": "276635",
-        "name": "Rooty Hill Rd opp Spencer St",
+        "name": "Rooty Hill Rd North after Wolseley St",
         "lat": "-33.763686",
         "lon": "150.838723",
         "productClass": [
@@ -159202,7 +159112,7 @@
     },
     {
         "id": "276639",
-        "name": "Rooty Hill Rd opp Wolseley St",
+        "name": "Rooty Hill Rd North before Wolseley St",
         "lat": "-33.76352",
         "lon": "150.838582",
         "productClass": [
@@ -191052,15 +190962,6 @@
         ]
     },
     {
-        "id": "2141286",
-        "name": "Lidcombe Station, Church St",
-        "lat": "-33.862714",
-        "lon": "151.04345",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2141287",
         "name": "Rookwood Cemetery, Independent",
         "lat": "-33.871975",
@@ -218124,15 +218025,6 @@
         ]
     },
     {
-        "id": "2166211",
-        "name": "Hollywood Dr before Hume Hwy",
-        "lat": "-33.89509",
-        "lon": "150.957966",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2166212",
         "name": "Chadderton St opp Minh Quang Vhara buddist Association",
         "lat": "-33.893658",
@@ -235773,24 +235665,6 @@
         ]
     },
     {
-        "id": "2207267",
-        "name": "Slade Rd before Devon Rd",
-        "lat": "-33.932251",
-        "lon": "151.12523",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207268",
-        "name": "Slade Rd at Hartill Law Ave",
-        "lat": "-33.931857",
-        "lon": "151.126007",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2208102",
         "name": "Homer St at Beaconsfield Ave",
         "lat": "-33.933088",
@@ -239809,6 +239683,15 @@
         "name": "Waitara Pde before Seymour St",
         "lat": "-33.978978",
         "lon": "151.093009",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2220122",
+        "name": "Hurstville Station, Ormonde Pde, Stand N",
+        "lat": "-33.967618",
+        "lon": "151.102121",
         "productClass": [
             5
         ]
@@ -259993,9 +259876,18 @@
     },
     {
         "id": "2259479",
-        "name": "Barbin Dr before Yirang St",
-        "lat": "-33.154956",
-        "lon": "151.587074",
+        "name": "Barbin Dr before Kanangra Dr",
+        "lat": "-33.155816",
+        "lon": "151.585933",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2259480",
+        "name": "Gosford Rd before Wyee Rd",
+        "lat": "-33.186749",
+        "lon": "151.491325",
         "productClass": [
             5
         ]
@@ -287928,15 +287820,6 @@
         ]
     },
     {
-        "id": "2320281",
-        "name": "Telarah Station, Johnson St",
-        "lat": "-32.722687",
-        "lon": "151.540111",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2320284",
         "name": "Anambah Rd before Cagney Rd",
         "lat": "-32.701919",
@@ -290542,24 +290425,6 @@
         "name": "Anderson Dr opp Tarro Public School",
         "lat": "-32.809723",
         "lon": "151.66597",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2322209",
-        "name": "Addison St opp Beresfield Station",
-        "lat": "-32.799718",
-        "lon": "151.658196",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2322210",
-        "name": "Beresfield Station, Addison St",
-        "lat": "-32.799638",
-        "lon": "151.658314",
         "productClass": [
             5
         ]
@@ -328204,7 +328069,7 @@
     },
     {
         "id": "2760150",
-        "name": "Desborough St after Marsden Rd",
+        "name": "Desborough Rd after Marsden Rd",
         "lat": "-33.78042",
         "lon": "150.783523",
         "productClass": [
@@ -333640,7 +333505,7 @@
     },
     {
         "id": "2766146",
-        "name": "Evans Rd after Rooty Hill Rd",
+        "name": "Evans Rd after Rooty Hill Rd South",
         "lat": "-33.780334",
         "lon": "150.849832",
         "productClass": [
@@ -333955,7 +333820,7 @@
     },
     {
         "id": "2767110",
-        "name": "Doonside High School, Power St",
+        "name": "Doonside Technology High School, Power St",
         "lat": "-33.756462",
         "lon": "150.873994",
         "productClass": [
@@ -333964,7 +333829,7 @@
     },
     {
         "id": "2767111",
-        "name": "Goodstart Early Learning, Lakewood Dr",
+        "name": "Lakewood Dr before Woodcroft Dr",
         "lat": "-33.755261",
         "lon": "150.87914",
         "productClass": [
@@ -333991,7 +333856,7 @@
     },
     {
         "id": "2767114",
-        "name": "Lakewood Dr opp Goodstart Early Learning",
+        "name": "Lakewood Dr after Woodcroft Dr",
         "lat": "-33.755536",
         "lon": "150.878864",
         "productClass": [
@@ -334000,7 +333865,7 @@
     },
     {
         "id": "2767115",
-        "name": "Power St opp Doonside High School",
+        "name": "Power St opp Doonside Technology High School",
         "lat": "-33.756451",
         "lon": "150.872839",
         "productClass": [
@@ -337006,7 +336871,7 @@
     },
     {
         "id": "2770535",
-        "name": "Woodstock Ave after Karangi Rd",
+        "name": "Woodstock Ave opp Karangi Rd",
         "lat": "-33.750245",
         "lon": "150.811899",
         "productClass": [
@@ -342876,15 +342741,6 @@
         ]
     },
     {
-        "id": "214710",
-        "name": "Seven Hills Station",
-        "lat": "-33.774383",
-        "lon": "150.936437",
-        "productClass": [
-            1
-        ]
-    },
-    {
         "id": "20342",
         "name": "Seymour Station",
         "lat": "-37.024365",
@@ -346666,6 +346522,15 @@
         "name": "St Peters Station",
         "lat": "-33.9073952028",
         "lon": "151.180267452",
+        "productClass": [
+            1
+        ]
+    },
+    {
+        "id": "214710",
+        "name": "Seven Hills Station",
+        "lat": "-33.774430434",
+        "lon": "150.936513359",
         "productClass": [
             1
         ]
