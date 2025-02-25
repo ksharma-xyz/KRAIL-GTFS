@@ -31,7 +31,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.2")
 
     // https://ktor.io/docs/server-logging.html
-    implementation("ch.qos.logback:logback-classic:1.5.16")
+    implementation("ch.qos.logback:logback-classic:1.5.17")
 
     // CSV
     implementation("com.jsoizo:kotlin-csv-jvm:1.10.0")
