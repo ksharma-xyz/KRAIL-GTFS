@@ -6257,8 +6257,8 @@
     {
         "id": "202445",
         "name": "St Charles Primary School, Carrington Rd",
-        "lat": "-33.899235",
-        "lon": "151.253752",
+        "lat": "-33.898917",
+        "lon": "151.25383",
         "productClass": [
             5
         ]
@@ -7193,8 +7193,8 @@
     {
         "id": "202681",
         "name": "Murriverie Rd after Mitchell St",
-        "lat": "-33.882099",
-        "lon": "151.276232",
+        "lat": "-33.882048",
+        "lon": "151.275885",
         "productClass": [
             5
         ]
@@ -11432,8 +11432,8 @@
     {
         "id": "203575",
         "name": "Anzac Pde before Runic Lane",
-        "lat": "-33.935985",
-        "lon": "151.237729",
+        "lat": "-33.935744",
+        "lon": "151.237673",
         "productClass": [
             5
         ]
@@ -120186,6 +120186,15 @@
         ]
     },
     {
+        "id": "230479",
+        "name": "George St opp Greaves St",
+        "lat": "-32.900166",
+        "lon": "151.751496",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "230480",
         "name": "George St at Greaves St",
         "lat": "-32.900372",
@@ -156286,7 +156295,7 @@
     },
     {
         "id": "276148",
-        "name": "Rooty Hill Rd after Myra St",
+        "name": "Rooty Hill Rd North before Drysdale Cres",
         "lat": "-33.749212",
         "lon": "150.841805",
         "productClass": [
@@ -156457,7 +156466,7 @@
     },
     {
         "id": "276168",
-        "name": "St George Kindergarten, Rooty Hill Rd",
+        "name": "Rooty Hill Rd North opp Plumpton Rd",
         "lat": "-33.747663",
         "lon": "150.841883",
         "productClass": [
@@ -156466,7 +156475,7 @@
     },
     {
         "id": "276169",
-        "name": "Rooty Hill Rd after Jersey Rd",
+        "name": "Rooty Hill Rd North after Jersey Rd",
         "lat": "-33.743577",
         "lon": "150.842752",
         "productClass": [
@@ -156529,7 +156538,7 @@
     },
     {
         "id": "276178",
-        "name": "Rooty Hill Rd after Florence St",
+        "name": "Rooty Hill Rd North after Florence St",
         "lat": "-33.741944",
         "lon": "150.843246",
         "productClass": [
@@ -156538,7 +156547,7 @@
     },
     {
         "id": "276179",
-        "name": "Rooty Hill Rd before Lamb St",
+        "name": "Rooty Hill Rd North before Lamb St",
         "lat": "-33.743781",
         "lon": "150.842952",
         "productClass": [
@@ -158887,7 +158896,7 @@
     },
     {
         "id": "276612",
-        "name": "Rooty Hill Rd after Francis Rd",
+        "name": "Rooty Hill Rd South after Francis Rd",
         "lat": "-33.776809",
         "lon": "150.847764",
         "productClass": [
@@ -158905,7 +158914,7 @@
     },
     {
         "id": "276614",
-        "name": "Rooty Hill Rd at Dunsmore St",
+        "name": "Rooty Hill Rd South at Dunsmore St",
         "lat": "-33.774932",
         "lon": "150.846491",
         "productClass": [
@@ -158923,7 +158932,7 @@
     },
     {
         "id": "276616",
-        "name": "Rooty Hill Rd opp Evans Rd",
+        "name": "Rooty Hill Rd South opp Evans Rd",
         "lat": "-33.779577",
         "lon": "150.850107",
         "productClass": [
@@ -159022,7 +159031,7 @@
     },
     {
         "id": "276629",
-        "name": "Eastern Creek Public School Rooty Hill Rd",
+        "name": "Eastern Creek Public School, Rooty Hill Rd South",
         "lat": "-33.787263",
         "lon": "150.853667",
         "productClass": [
@@ -159031,7 +159040,7 @@
     },
     {
         "id": "276630",
-        "name": "Rooty Hill Rd at Cawarra St",
+        "name": "Rooty Hill Rd South at Cawarra St",
         "lat": "-33.784586",
         "lon": "150.852526",
         "productClass": [
@@ -159040,7 +159049,7 @@
     },
     {
         "id": "276631",
-        "name": "Rooty Hill Rd at Minchinbury St",
+        "name": "Rooty Hill Rd South at Minchinbury St",
         "lat": "-33.782606",
         "lon": "150.851709",
         "productClass": [
@@ -159049,7 +159058,7 @@
     },
     {
         "id": "276632",
-        "name": "Rooty Hill Rd at Evans Rd",
+        "name": "Rooty Hill Rd South at Evans Rd",
         "lat": "-33.779842",
         "lon": "150.850113",
         "productClass": [
@@ -159085,7 +159094,7 @@
     },
     {
         "id": "276636",
-        "name": "Rooty Hill Rd opp Sherbrooke St",
+        "name": "Rooty Hill Rd North opp Sherbrooke St",
         "lat": "-33.767206",
         "lon": "150.840636",
         "productClass": [
@@ -159094,7 +159103,7 @@
     },
     {
         "id": "276637",
-        "name": "Rooty Hill Rd opp Rooty Hill Public School",
+        "name": "Rooty Hill Rd North opp Rooty Hill Public School",
         "lat": "-33.768226",
         "lon": "150.841398",
         "productClass": [
@@ -159202,7 +159211,7 @@
     },
     {
         "id": "276650",
-        "name": "Rooty Hill Public School, Rooty Hill Rd",
+        "name": "Rooty Hill Public School, Rooty Hill Rd North",
         "lat": "-33.768264",
         "lon": "150.841231",
         "productClass": [
@@ -159211,7 +159220,7 @@
     },
     {
         "id": "276651",
-        "name": "St Aidan's Catholic Church, Rooty Hill Rd",
+        "name": "St Aidan's Catholic Church, Rooty Hill Rd North",
         "lat": "-33.765556",
         "lon": "150.839216",
         "productClass": [
@@ -159409,7 +159418,7 @@
     },
     {
         "id": "276674",
-        "name": "Rooty Hill Rd opp St Aidans Catholic Church",
+        "name": "Rooty Hill Rd North opp St Aidans Catholic Church",
         "lat": "-33.765464",
         "lon": "150.839356",
         "productClass": [
@@ -164398,15 +164407,6 @@
         "name": "Railway Pde at Park Rd",
         "lat": "-33.733901",
         "lon": "150.470619",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "277862",
-        "name": "Great Western Hwy opp Woodford Station",
-        "lat": "-33.735238",
-        "lon": "150.481199",
         "productClass": [
             5
         ]
@@ -224401,15 +224401,6 @@
         "name": "Dalmeny Dr opp Saint Catherine of Siena Primary School",
         "lat": "-33.952598",
         "lon": "150.868476",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2170730",
-        "name": "Hoxton Park Rd opp Balmain Rd",
-        "lat": "-33.926868",
-        "lon": "150.895687",
         "productClass": [
             5
         ]
@@ -333496,7 +333487,7 @@
     },
     {
         "id": "2766145",
-        "name": "Rooty Hill Rd opp Dunsmore St",
+        "name": "Rooty Hill Rd South opp Dunsmore St",
         "lat": "-33.775364",
         "lon": "150.846609",
         "productClass": [
@@ -333514,7 +333505,7 @@
     },
     {
         "id": "2766147",
-        "name": "Evans Rd before Rooty Hill Rd",
+        "name": "Evans Rd before Rooty Hill Rd South",
         "lat": "-33.780225",
         "lon": "150.849737",
         "productClass": [
@@ -336609,15 +336600,6 @@
         ]
     },
     {
-        "id": "2770380",
-        "name": "Mount Druitt Station, Stand J",
-        "lat": "-33.768683",
-        "lon": "150.820135",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2770384",
         "name": "Coates St opp Janet St",
         "lat": "-33.77963",
@@ -338211,15 +338193,6 @@
         ]
     },
     {
-        "id": "2777177",
-        "name": "Springwood Station, Station St",
-        "lat": "-33.698905",
-        "lon": "150.563507",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2777179",
         "name": "Valley Heights Station, Great Western Hwy",
         "lat": "-33.703974",
@@ -339160,15 +339133,6 @@
         "name": "Denman Pde at Dorset St",
         "lat": "-33.701029",
         "lon": "150.335068",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2780197",
-        "name": "Katoomba Station, Goldsmith Pl",
-        "lat": "-33.711904",
-        "lon": "150.312229",
         "productClass": [
             5
         ]
