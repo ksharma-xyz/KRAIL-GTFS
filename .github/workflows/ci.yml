@@ -71,6 +71,7 @@ jobs:
           path: |
             cache/NSW_STOPS.json
             cache/NSW_STOPS_PRETTY.json
+            cache/NSW_STOPS.pb
 
       - name: Create new folder for artifact
         run: mkdir -p ./nswstops
@@ -92,11 +93,6 @@ jobs:
           fi
           git diff --cached --unified=0 --word-diff=porcelain main -- cache/NSW_STOPS_PRETTY.json > diff_output.txt
           echo "NO_CHANGES=false" >> $GITHUB_ENV
-          {
-            echo "DIFF_OUTPUT<<EOF"
-            cat diff_output.txt
-            echo "EOF"
-          } >> "$GITHUB_ENV"
 
       - name: Create Branch
         if: env.NO_CHANGES == 'false'
@@ -122,11 +118,6 @@ jobs:
           body: |
             ### Description
             Automated PR to add GTFS Stops as JSON files.
-
-            ### Diff for NSW_STOPS_PRETTY.json
-            ```
-            ${{ env.DIFF_OUTPUT }}
-            ```
 
       - name: Auto Approve PR
         uses: hmarr/auto-approve-action@v4
