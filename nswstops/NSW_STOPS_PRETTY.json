@@ -16608,15 +16608,6 @@
         ]
     },
     {
-        "id": "206088",
-        "name": "Pacific Hwy at Mount St",
-        "lat": "-33.838665",
-        "lon": "151.206646",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "206090",
         "name": "Pacific Hwy at Berry St",
         "lat": "-33.836944",
@@ -19908,15 +19899,6 @@
         "name": "McClelland St at Eastern Valley Way",
         "lat": "-33.794732",
         "lon": "151.207892",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "206894",
-        "name": "McClelland St after Eastern Valley Way",
-        "lat": "-33.794911",
-        "lon": "151.207764",
         "productClass": [
             5
         ]
@@ -46323,78 +46305,6 @@
         ]
     },
     {
-        "id": "212268",
-        "name": "Welby St opp Alexandria Ave",
-        "lat": "-33.79009",
-        "lon": "151.091438",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212269",
-        "name": "Gordon St after Welby St",
-        "lat": "-33.790041",
-        "lon": "151.090055",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212270",
-        "name": "Gordon St at Welby St",
-        "lat": "-33.79005",
-        "lon": "151.090174",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212272",
-        "name": "Gordon St at Lansdowne St",
-        "lat": "-33.787165",
-        "lon": "151.089255",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212273",
-        "name": "Gordon St opp Lansdowne St",
-        "lat": "-33.787213",
-        "lon": "151.089377",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212275",
-        "name": "Lansdowne St at Edgar St",
-        "lat": "-33.787338",
-        "lon": "151.087541",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212276",
-        "name": "Lansdowne St opp Edgar St",
-        "lat": "-33.787272",
-        "lon": "151.087173",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212277",
-        "name": "Lansdowne St at Blaxland Rd",
-        "lat": "-33.787534",
-        "lon": "151.085805",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "212278",
         "name": "Moore Park, Balaclava Rd",
         "lat": "-33.786367",
@@ -57166,15 +57076,6 @@
         "name": "Alfred St at Hassall St",
         "lat": "-33.818957",
         "lon": "151.016777",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "215087",
-        "name": "Our Lady of Lebanon Church, Alice St",
-        "lat": "-33.821003",
-        "lon": "151.014472",
         "productClass": [
             5
         ]
@@ -179145,15 +179046,6 @@
         ]
     },
     {
-        "id": "2122210",
-        "name": "Pickford Ave before Lovell Rd",
-        "lat": "-33.790894",
-        "lon": "151.092526",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2122211",
         "name": "Terry Rd before Midson Rd",
         "lat": "-33.788534",
@@ -269827,33 +269719,6 @@
         "name": "George St opp Smith St",
         "lat": "-32.900028",
         "lon": "151.750782",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2304166",
-        "name": "Smith St after Amy St",
-        "lat": "-32.902317",
-        "lon": "151.750611",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2304167",
-        "name": "Mounter St at Walsh St",
-        "lat": "-32.903601",
-        "lon": "151.749117",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2304168",
-        "name": "Mounter St at Ingall St",
-        "lat": "-32.90324",
-        "lon": "151.746417",
         "productClass": [
             5
         ]
