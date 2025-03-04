@@ -78766,15 +78766,6 @@
         ]
     },
     {
-        "id": "220533",
-        "name": "Princes Hwy after Subway Rd",
-        "lat": "-33.944094",
-        "lon": "151.142099",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "220534",
         "name": "Wollongong Rd opp Macquarie Lodge",
         "lat": "-33.940258",
@@ -125033,6 +125024,15 @@
         ]
     },
     {
+        "id": "233320",
+        "name": "Muswellbrook Station",
+        "lat": "-32.267288",
+        "lon": "150.890583",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "233412",
         "name": "Nelson St at High St",
         "lat": "-32.682598",
@@ -125370,6 +125370,15 @@
         "name": "Dalwood Rd opp Preston Cl",
         "lat": "-32.653501",
         "lon": "151.374776",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "233539",
+        "name": "Branxton Station, Railway St",
+        "lat": "-32.662141",
+        "lon": "151.346235",
         "productClass": [
             5
         ]
@@ -125813,6 +125822,33 @@
         "lon": "151.269872",
         "productClass": [
             5
+        ]
+    },
+    {
+        "id": "233613",
+        "name": "Macqueen St opp Aberdeen Station",
+        "lat": "-32.166877",
+        "lon": "150.891551",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "233619",
+        "name": "Aberdeen Station, Macqueen St",
+        "lat": "-32.166908",
+        "lon": "150.891782",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "233721",
+        "name": "Scone Station, Coach Stop",
+        "lat": "-32.046842",
+        "lon": "150.867091",
+        "productClass": [
+            7
         ]
     },
     {
@@ -137707,7 +137743,7 @@
     },
     {
         "id": "255912",
-        "name": "Dobell Rd after Chevalier Way",
+        "name": "Glenroy Dr after Molvig St",
         "lat": "-34.050407",
         "lon": "150.809203",
         "productClass": [
@@ -137716,7 +137752,7 @@
     },
     {
         "id": "255913",
-        "name": "Dobell Rd after Norman Cres",
+        "name": "Glenroy Dr after Arkley Ave",
         "lat": "-34.048761",
         "lon": "150.81269",
         "productClass": [
@@ -137725,7 +137761,7 @@
     },
     {
         "id": "255914",
-        "name": "Dobell Rd opp Jullian Way",
+        "name": "Glenroy Dr opp Julian Way",
         "lat": "-34.046864",
         "lon": "150.814377",
         "productClass": [
@@ -137734,7 +137770,7 @@
     },
     {
         "id": "255915",
-        "name": "Dobell Rd opp Claymore Community Centre",
+        "name": "Glenroy Dr opp Claymore Community Centre",
         "lat": "-34.044725",
         "lon": "150.813596",
         "productClass": [
@@ -137815,7 +137851,7 @@
     },
     {
         "id": "255924",
-        "name": "Claymore Community Centre, Dobell Rd",
+        "name": "Claymore Community Centre, Glenroy Dr",
         "lat": "-34.044634",
         "lon": "150.813736",
         "productClass": [
@@ -137824,7 +137860,7 @@
     },
     {
         "id": "255925",
-        "name": "Dobell Rd at Julian Way",
+        "name": "Glenroy Dr at Julian Way",
         "lat": "-34.046591",
         "lon": "150.814713",
         "productClass": [
@@ -137833,7 +137869,7 @@
     },
     {
         "id": "255926",
-        "name": "Dobell Rd opp Norman Cres",
+        "name": "Glenroy Dr before Arkley Ave",
         "lat": "-34.048537",
         "lon": "150.812895",
         "productClass": [
@@ -137842,7 +137878,7 @@
     },
     {
         "id": "255927",
-        "name": "Dobell Rd opp Chevalier Way",
+        "name": "Glenroy Dr before Molvig St",
         "lat": "-34.050475",
         "lon": "150.80885",
         "productClass": [
@@ -152256,6 +152292,15 @@
         "name": "Rooty Hill Rd South opp Evans Rd",
         "lat": "-33.779577",
         "lon": "150.850107",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "276617",
+        "name": "Rooty Hill Rd South at Church St",
+        "lat": "-33.782217",
+        "lon": "150.851723",
         "productClass": [
             5
         ]
@@ -271371,24 +271416,6 @@
         ]
     },
     {
-        "id": "2315170",
-        "name": "Govt Rd after Shoal Bay Rd",
-        "lat": "-32.720486",
-        "lon": "152.172827",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2315171",
-        "name": "Govt Rd before Shoal Bay Rd",
-        "lat": "-32.720451",
-        "lon": "152.172696",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2316100",
         "name": "Ocean Ave at Argyle Ave",
         "lat": "-32.7865",
@@ -293315,7 +293342,7 @@
     },
     {
         "id": "2560191",
-        "name": "Greengate Rd after Claredon Pl",
+        "name": "Greengate Rd after Clarendon Pl",
         "lat": "-34.09254",
         "lon": "150.826135",
         "productClass": [
@@ -297710,6 +297737,15 @@
         "name": "Campbelltown Rd after Blomfield Rd",
         "lat": "-33.982613",
         "lon": "150.846948",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2565646",
+        "name": "Ingleburn Rd opp Ingleburn Station",
+        "lat": "-33.997575",
+        "lon": "150.864973",
         "productClass": [
             5
         ]
@@ -316699,6 +316735,16 @@
         ]
     },
     {
+        "id": "2765253",
+        "name": "Riverstone Station",
+        "lat": "-33.67922",
+        "lon": "150.860599",
+        "productClass": [
+            5,
+            1
+        ]
+    },
+    {
         "id": "2765254",
         "name": "Robert St before Garfield Rd W",
         "lat": "-33.690994",
@@ -318112,15 +318158,6 @@
         ]
     },
     {
-        "id": "2766102",
-        "name": "Evans Rd after Rooty Hill Rd",
-        "lat": "-33.780284",
-        "lon": "150.84991",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2766103",
         "name": "Rupertswood Rd opp Charlotte Rd",
         "lat": "-33.775564",
@@ -319211,7 +319248,7 @@
     },
     {
         "id": "2770100",
-        "name": "Daniel Thomas Plaza, Mount St",
+        "name": "Mount St after Zoe Pl",
         "lat": "-33.766625",
         "lon": "150.824845",
         "productClass": [
@@ -330498,15 +330535,6 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "276510",
-        "name": "Riverstone Station",
-        "lat": "-33.6790433699",
-        "lon": "150.860267864",
         "productClass": [
             1
         ]
