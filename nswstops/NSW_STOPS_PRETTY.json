@@ -50220,6 +50220,15 @@
         ]
     },
     {
+        "id": "213456",
+        "name": "Shaftesbury Rd at Simpson Ave",
+        "lat": "-33.875885",
+        "lon": "151.107463",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "213460",
         "name": "Parramatta Rd after Burwood Rd",
         "lat": "-33.868904",
@@ -145746,7 +145755,7 @@
     },
     {
         "id": "275229",
-        "name": "Silverdale Neighbourhood Centre, Weir Rd",
+        "name": "Warragamba Silverdale Community Centre, Weir Rd",
         "lat": "-33.888321",
         "lon": "150.60611",
         "productClass": [
@@ -146538,7 +146547,7 @@
     },
     {
         "id": "275379",
-        "name": "Lieutenant Bowen Dr opp Bowen Mtn Dr",
+        "name": "Lieutenant Bowen Dr at Bowen Mtn Dr",
         "lat": "-33.577298",
         "lon": "150.624",
         "productClass": [
@@ -147087,7 +147096,7 @@
     },
     {
         "id": "275476",
-        "name": "125 Grose Vale Rd",
+        "name": "Grose Vale Rd before Southern Cross Dr",
         "lat": "-33.586912",
         "lon": "150.709643",
         "productClass": [
@@ -147096,7 +147105,7 @@
     },
     {
         "id": "275477",
-        "name": "Grose Vale Rd opp 125",
+        "name": "Grose Vale Rd after Southern Cross Dr",
         "lat": "-33.586942",
         "lon": "150.708834",
         "productClass": [
@@ -147483,7 +147492,7 @@
     },
     {
         "id": "275668",
-        "name": "Port Erringhi Rd at Sirius Ct",
+        "name": "Port Erringhi Rd at Sirius Cres",
         "lat": "-33.51723",
         "lon": "150.895584",
         "productClass": [
@@ -149886,7 +149895,7 @@
     },
     {
         "id": "276168",
-        "name": "Rooty Hill Rd North opp Plumpton Rd",
+        "name": "St George Kindergarten, Rooty Hill Rd North",
         "lat": "-33.747663",
         "lon": "150.841883",
         "productClass": [
@@ -150012,7 +150021,7 @@
     },
     {
         "id": "276185",
-        "name": "Buckwell Dr opp Hassall Grove Plza",
+        "name": "Buckwell Dr opp Hassall Grove Plaza",
         "lat": "-33.734767",
         "lon": "150.836709",
         "productClass": [
@@ -156493,18 +156502,9 @@
     },
     {
         "id": "277519",
-        "name": "Old Nothern Rd after Singleton Rd",
+        "name": "Wiseman Ferry Village, Old Northern Rd",
         "lat": "-33.38505",
         "lon": "150.986052",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "277521",
-        "name": "Old Nothern Rd before Singleton Rd",
-        "lat": "-33.385164",
-        "lon": "150.986233",
         "productClass": [
             5
         ]
@@ -191791,7 +191791,7 @@
     },
     {
         "id": "2148506",
-        "name": "Blacktown Boys School School, Prince St",
+        "name": "Blacktown Boys School, Prince St",
         "lat": "-33.763593",
         "lon": "150.911535",
         "productClass": [
@@ -202150,6 +202150,15 @@
         ]
     },
     {
+        "id": "2160142",
+        "name": "Merrylands Rd at Railway Tce",
+        "lat": "-33.837054",
+        "lon": "150.992957",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2160143",
         "name": "Merrylands Rd after Ridge St",
         "lat": "-33.832682",
@@ -208472,6 +208481,15 @@
         "name": "Bartley St before Railway Pde",
         "lat": "-33.890353",
         "lon": "150.939478",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2166255",
+        "name": "Railway Pde before Cabramatta Rd W",
+        "lat": "-33.895859",
+        "lon": "150.938261",
         "productClass": [
             5
         ]
@@ -214985,15 +215003,6 @@
         ]
     },
     {
-        "id": "2171104",
-        "name": "Gabriella Ave at Gerald St",
-        "lat": "-33.893415",
-        "lon": "150.856578",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2171108",
         "name": "Spencer Rd at Leopold Pl",
         "lat": "-33.889374",
@@ -220133,6 +220142,24 @@
         ]
     },
     {
+        "id": "2193115",
+        "name": "Crinan St at Floss St",
+        "lat": "-33.909776",
+        "lon": "151.132119",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2193116",
+        "name": "Crinan St after Floss St",
+        "lat": "-33.90949",
+        "lon": "151.13153",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2194100",
         "name": "Campsie Public School, Evaline St",
         "lat": "-33.912314",
@@ -224826,6 +224853,24 @@
         "name": "Shaw St at Bexley Rd",
         "lat": "-33.938181",
         "lon": "151.113708",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2207267",
+        "name": "Slade Rd before Devon Rd",
+        "lat": "-33.932251",
+        "lon": "151.12523",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2207268",
+        "name": "Slade Rd at Hartill Law Ave",
+        "lat": "-33.931857",
+        "lon": "151.126007",
         "productClass": [
             5
         ]
@@ -234129,6 +234174,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234147,10 +234201,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -281938,6 +282010,15 @@
         ]
     },
     {
+        "id": "2325473",
+        "name": "Valley View Pl after Coolata Dr",
+        "lat": "-32.802436",
+        "lon": "151.344719",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2326101",
         "name": "Sawyers Gully Rd before Gingers Lane",
         "lat": "-32.802268",
@@ -284260,6 +284341,15 @@
         ]
     },
     {
+        "id": "2500308",
+        "name": "Kembla St before Bourke St",
+        "lat": "-34.414514",
+        "lon": "150.899739",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2500311",
         "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
         "lat": "-34.405704",
@@ -284399,6 +284489,15 @@
         "name": "Corrimal St before Gipps St",
         "lat": "-34.419194",
         "lon": "150.901109",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2500333",
+        "name": "Corrimal St after Georges Pl",
+        "lat": "-34.419261",
+        "lon": "150.901247",
         "productClass": [
             5
         ]
@@ -299715,8 +299814,8 @@
     {
         "id": "2567259",
         "name": "Mount Annan Christian College",
-        "lat": "-34.048113",
-        "lon": "150.775669",
+        "lat": "-34.04945",
+        "lon": "150.77528",
         "productClass": [
             5
         ]
@@ -304934,7 +305033,7 @@
     },
     {
         "id": "2747322",
-        "name": "UWS Werrington N Campus, GW Hwy",
+        "name": "Western Sydney University, Werrington North Campus, Great Western Hwy",
         "lat": "-33.765726",
         "lon": "150.747301",
         "productClass": [
@@ -304973,15 +305072,6 @@
         "name": "Derby St before Bringelly Rd",
         "lat": "-33.762545",
         "lon": "150.71914",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2747327",
-        "name": "GW Hwy opp UWS Werrington N Campus",
-        "lat": "-33.765156",
-        "lon": "150.746331",
         "productClass": [
             5
         ]
@@ -310272,7 +310362,7 @@
     },
     {
         "id": "2756210",
-        "name": "80 Richmond Rd",
+        "name": "Richmond Rd before Llandilo Rd",
         "lat": "-33.655316",
         "lon": "150.794293",
         "productClass": [
@@ -311010,7 +311100,7 @@
     },
     {
         "id": "2756310",
-        "name": "Ian St at Boomerang Dr",
+        "name": "Ian St at Nightingale Square",
         "lat": "-33.52661",
         "lon": "150.77906",
         "productClass": [
@@ -311640,7 +311730,7 @@
     },
     {
         "id": "2756491",
-        "name": "342 Macquarie St",
+        "name": "Macquarie St after Drummond St",
         "lat": "-33.623439",
         "lon": "150.802575",
         "productClass": [
@@ -311685,7 +311775,7 @@
     },
     {
         "id": "2756497",
-        "name": "Opp 104 Colonial Dr Opp Harradine Cr",
+        "name": "Colonial Dr opp Harradine Cres",
         "lat": "-33.63839",
         "lon": "150.799079",
         "productClass": [
@@ -311784,7 +311874,7 @@
     },
     {
         "id": "2758623",
-        "name": "East Kurrajong Rd at Putty Rd",
+        "name": "Putty Rd at East Kurrajong Rd",
         "lat": "-33.499589",
         "lon": "150.809596",
         "productClass": [
@@ -311892,7 +311982,7 @@
     },
     {
         "id": "2758644",
-        "name": "Kurrajong and Old Bells Line of Rds",
+        "name": "Old Bells Line Of Rd at Florence Ave",
         "lat": "-33.550678",
         "lon": "150.661225",
         "productClass": [
@@ -312117,7 +312207,7 @@
     },
     {
         "id": "2759124",
-        "name": "Little Smarties Children Centre, Colorado Dr",
+        "name": "Little Smarties Early Learning Centre, Colorado Dr",
         "lat": "-33.796605",
         "lon": "150.800469",
         "productClass": [
@@ -312153,7 +312243,7 @@
     },
     {
         "id": "2759128",
-        "name": "Erskine Park High School, Swallow Dr",
+        "name": "Swallow Dr opp Erskine Park High School",
         "lat": "-33.80813",
         "lon": "150.802154",
         "productClass": [
@@ -312291,6 +312381,15 @@
         "name": "Swallow Dr opp Shaula Cres",
         "lat": "-33.808034",
         "lon": "150.80179",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2759144",
+        "name": "Erskine Park High School, Swallow Dr",
+        "lat": "-33.808085",
+        "lon": "150.803123",
         "productClass": [
             5
         ]
@@ -312773,15 +312872,6 @@
         ]
     },
     {
-        "id": "2760108",
-        "name": "Brisbane St opp Perth St",
-        "lat": "-33.768196",
-        "lon": "150.792547",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2760110",
         "name": "Adelaide St opp Woodland Ave",
         "lat": "-33.771345",
@@ -313152,7 +313242,7 @@
     },
     {
         "id": "2760153",
-        "name": "Carrington Rd before Thomas St",
+        "name": "Carrington St before Thomas St",
         "lat": "-33.781553",
         "lon": "150.777861",
         "productClass": [
@@ -313765,7 +313855,7 @@
     },
     {
         "id": "2760268",
-        "name": "Susannah Dr after Forrester Rd",
+        "name": "Susannah Dr opp Murcutt St",
         "lat": "-33.739889",
         "lon": "150.784822",
         "productClass": [
@@ -314179,7 +314269,7 @@
     },
     {
         "id": "2761100",
-        "name": "Hebersham Public School, Pringle Rd",
+        "name": "Pringle Rd opp Hebersham Public School",
         "lat": "-33.748236",
         "lon": "150.827563",
         "productClass": [
@@ -314197,7 +314287,7 @@
     },
     {
         "id": "2761102",
-        "name": "Pringle Rd opp Church of Jesus Christ of Latter - Day St",
+        "name": "Pringle Rd opp Church of Jesus Christ of Latter-day Saints",
         "lat": "-33.752915",
         "lon": "150.826549",
         "productClass": [
@@ -314485,7 +314575,7 @@
     },
     {
         "id": "2761134",
-        "name": "Hyatts Rd after Luxford Rd",
+        "name": "Hyatts Rd at Orchard Gr",
         "lat": "-33.736715",
         "lon": "150.836764",
         "productClass": [
@@ -315281,15 +315371,6 @@
         "name": "Quakers Hill Pkwy before Chase Dr",
         "lat": "-33.729824",
         "lon": "150.914303",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2763138",
-        "name": "Quakers Hill Pkwy opp Tallagandra Dr",
-        "lat": "-33.738594",
-        "lon": "150.872097",
         "productClass": [
             5
         ]
@@ -316709,7 +316790,7 @@
     },
     {
         "id": "2765249",
-        "name": "Clarke St before Garfield Rd E",
+        "name": "Clarke St before Garfield Rd East",
         "lat": "-33.670801",
         "lon": "150.879254",
         "productClass": [
@@ -316800,7 +316881,7 @@
     },
     {
         "id": "2765267",
-        "name": "Llandilo Rd opp Sunnymead Rd",
+        "name": "Llandilo Rd opp Sunnymeade Rd",
         "lat": "-33.679706",
         "lon": "150.767554",
         "productClass": [
@@ -319311,7 +319392,7 @@
     },
     {
         "id": "2770109",
-        "name": "Church of Jesus Christ of Latter - Day St, Pringle Rd",
+        "name": "Church of Jesus Christ of Latter-day Saints, Pringle Rd",
         "lat": "-33.752893",
         "lon": "150.826397",
         "productClass": [
@@ -321174,7 +321255,7 @@
     },
     {
         "id": "2770335",
-        "name": "Captain Cook Dr before Roebuck Cres",
+        "name": "Captain Cook Dr at Roebuck Cres",
         "lat": "-33.726735",
         "lon": "150.797533",
         "productClass": [
@@ -321195,15 +321276,6 @@
         "name": "Captain Cook Dr before Rebuck Cres",
         "lat": "-33.723152",
         "lon": "150.797132",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2770338",
-        "name": "Captain Cook Dr at Roebuck Cres",
-        "lat": "-33.722164",
-        "lon": "150.795293",
         "productClass": [
             5
         ]
