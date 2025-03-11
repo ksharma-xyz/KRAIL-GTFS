@@ -47970,15 +47970,6 @@
         ]
     },
     {
-        "id": "212782",
-        "name": "Wentworth Pl after Footbridge Bvd",
-        "lat": "-33.825302",
-        "lon": "151.079002",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "212783",
         "name": "Wentworth Pl before Footbridge Bvd",
         "lat": "-33.825487",
@@ -49603,15 +49594,6 @@
         "name": "Presbyterian Ladies College, Young St",
         "lat": "-33.881905",
         "lon": "151.114772",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "213275",
-        "name": "Paisley Rd after The Strand",
-        "lat": "-33.882846",
-        "lon": "151.114337",
         "productClass": [
             5
         ]
@@ -67355,6 +67337,15 @@
         "name": "Seddon Park, Railway Pde",
         "lat": "-33.977086",
         "lon": "150.888088",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "216764",
+        "name": "Glenfield Station (Trackwork)",
+        "lat": "-33.971746",
+        "lon": "150.893951",
         "productClass": [
             5
         ]
@@ -143387,7 +143378,7 @@
     },
     {
         "id": "274591",
-        "name": "1642 Greendale Rd",
+        "name": "Greendale Rd after Matingara Way",
         "lat": "-33.876816",
         "lon": "150.642726",
         "productClass": [
@@ -146250,7 +146241,7 @@
     },
     {
         "id": "275338",
-        "name": "Bell Ave opp Valder Ave",
+        "name": "Valder Ave at Southee Rd",
         "lat": "-33.604883",
         "lon": "150.737108",
         "productClass": [
@@ -146367,7 +146358,7 @@
     },
     {
         "id": "275356",
-        "name": "Bell Ave at Valder Ave",
+        "name": "Valder Ave at Bell Ave",
         "lat": "-33.604781",
         "lon": "150.737078",
         "productClass": [
@@ -146637,7 +146628,7 @@
     },
     {
         "id": "275389",
-        "name": "Pamela Cres opp Bellbird Cres",
+        "name": "Pamela Cres before Bellbird Cres",
         "lat": "-33.574266",
         "lon": "150.624773",
         "productClass": [
@@ -147240,7 +147231,7 @@
     },
     {
         "id": "275626",
-        "name": "Spinks Rd opp Golden Valley Dr",
+        "name": "Spinks Rd after Golden Valley Dr",
         "lat": "-33.53595",
         "lon": "150.767451",
         "productClass": [
@@ -147285,7 +147276,7 @@
     },
     {
         "id": "275637",
-        "name": "Rifle Range Rd opp Raven Pl",
+        "name": "Windsor Sporting Complex, Rifle Range Rd",
         "lat": "-33.630742",
         "lon": "150.794017",
         "productClass": [
@@ -147753,7 +147744,7 @@
     },
     {
         "id": "275712",
-        "name": "Kurmond Village Shops, Bells Line Of Road",
+        "name": "Kurmond Village Shops, Bells Line of Rd",
         "lat": "-33.550764",
         "lon": "150.690761",
         "productClass": [
@@ -147762,7 +147753,7 @@
     },
     {
         "id": "275713",
-        "name": "Kurrajong Rd opp Kurmond Village Shops",
+        "name": "Bells Line of Rd opp Kurmond Village Shops",
         "lat": "-33.550518",
         "lon": "150.689637",
         "productClass": [
@@ -151569,7 +151560,7 @@
     },
     {
         "id": "276516",
-        "name": "Hollinsworth Rd at Richmond Rd",
+        "name": "Hollinsworth Rd at Townson Rd",
         "lat": "-33.717536",
         "lon": "150.844516",
         "productClass": [
@@ -153639,9 +153630,18 @@
     },
     {
         "id": "276821",
-        "name": "Glenwood Park Dr at Thompson Cres",
+        "name": "Glenwood Park Dr after Thompson Cres",
         "lat": "-33.727237",
         "lon": "150.930637",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "276822",
+        "name": "Glenwood Park Dr at Thompson Cres",
+        "lat": "-33.727",
+        "lon": "150.933073",
         "productClass": [
             5
         ]
@@ -192088,7 +192088,7 @@
     },
     {
         "id": "2148561",
-        "name": "Douglas Rd opp Tallawong Av",
+        "name": "Douglas Rd opp Tallawong Ave",
         "lat": "-33.78118",
         "lon": "150.882551",
         "productClass": [
@@ -214733,6 +214733,15 @@
         ]
     },
     {
+        "id": "2170801",
+        "name": "Remembrance Ave opp Warwick Farm Station",
+        "lat": "-33.913314",
+        "lon": "150.934711",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2170802",
         "name": "Hume Hwy opp Warwick Farm Station (NightRide)",
         "lat": "-33.912984",
@@ -215061,15 +215070,6 @@
         "name": "Spencer Rd at Marion St",
         "lat": "-33.889638",
         "lon": "150.85019",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2171119",
-        "name": "Gabriella Ave opp Gerald St",
-        "lat": "-33.893571",
-        "lon": "150.856583",
         "productClass": [
             5
         ]
@@ -298678,10 +298678,28 @@
         ]
     },
     {
+        "id": "2566206",
+        "name": "Elizabeth McRae opp Hotham",
+        "lat": "-34.03761",
+        "lon": "150.85103",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2566208",
         "name": "Bouddi St after Wyperfeld Pl",
         "lat": "-34.020558",
         "lon": "150.837618",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2566215",
+        "name": "Elizabeth McRae Ave after Hotham Rd",
+        "lat": "-34.03775",
+        "lon": "150.85117",
         "productClass": [
             5
         ]
@@ -299708,6 +299726,15 @@
         "name": "Governor Dr at Underwood Cct",
         "lat": "-34.016629",
         "lon": "150.719544",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2567208",
+        "name": "Camden Valley Way at Sir Warwick Fairfax Dr",
+        "lat": "-34.029247",
+        "lon": "150.753184",
         "productClass": [
             5
         ]
@@ -306167,7 +306194,7 @@
     },
     {
         "id": "2749319",
-        "name": "Cranebrook Rd before McCarthys Lane",
+        "name": "Castlereagh Rd before McCarthys Lane",
         "lat": "-33.725922",
         "lon": "150.695201",
         "productClass": [
@@ -306176,7 +306203,7 @@
     },
     {
         "id": "2749320",
-        "name": "Cranebrook Rd after Waterside Bvd",
+        "name": "Castlereagh Rd after Waterside Bvd",
         "lat": "-33.726349",
         "lon": "150.695336",
         "productClass": [
@@ -309632,7 +309659,7 @@
     },
     {
         "id": "2756115",
-        "name": "Rifle Range Rd at Raven Pl",
+        "name": "Rifle Range Rd opp Windsor Sporting Complex",
         "lat": "-33.630672",
         "lon": "150.794162",
         "productClass": [
@@ -310929,7 +310956,7 @@
     },
     {
         "id": "2756276",
-        "name": "Wisemans Ferry Rd opp Blakers Rd",
+        "name": "Wisemans Ferry Rd before Blakers Rd",
         "lat": "-33.471995",
         "lon": "150.97488",
         "productClass": [
@@ -311721,7 +311748,7 @@
     },
     {
         "id": "2756490",
-        "name": "59 Colonial Dr",
+        "name": "Colonial Dr opp Harradine Cres",
         "lat": "-33.637514",
         "lon": "150.79397",
         "productClass": [
@@ -311739,7 +311766,7 @@
     },
     {
         "id": "2756492",
-        "name": "48 Colonial Dr",
+        "name": "Colonial Dr before Harradine Cres",
         "lat": "-33.637067",
         "lon": "150.793162",
         "productClass": [
@@ -311774,15 +311801,6 @@
         ]
     },
     {
-        "id": "2756497",
-        "name": "Colonial Dr opp Harradine Cres",
-        "lat": "-33.63839",
-        "lon": "150.799079",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2756501",
         "name": "11 Bona Vista Dr Before Citrus Pl",
         "lat": "-33.578027",
@@ -311793,7 +311811,7 @@
     },
     {
         "id": "2756502",
-        "name": "Opp 30 Bona Vista Dr Across From The Cedars Av",
+        "name": "Bona Vista Dr opp The Cedars Ave",
         "lat": "-33.575732",
         "lon": "150.861858",
         "productClass": [
@@ -312675,7 +312693,7 @@
     },
     {
         "id": "2759192",
-        "name": "69 Solander Dr After Madison Cct",
+        "name": "Solander Dr after Madison Cct",
         "lat": "-33.798305",
         "lon": "150.770109",
         "productClass": [
@@ -312684,7 +312702,7 @@
     },
     {
         "id": "2759193",
-        "name": "61 Colorado Dr",
+        "name": "Colorado Dr after Coonawarra Dr",
         "lat": "-33.798846",
         "lon": "150.79972",
         "productClass": [
@@ -316115,7 +316133,7 @@
     },
     {
         "id": "2765162",
-        "name": "40 Terry Rd",
+        "name": "Terry Rd after Mason Rd",
         "lat": "-33.652212",
         "lon": "150.897932",
         "productClass": [
@@ -316619,7 +316637,7 @@
     },
     {
         "id": "2765225",
-        "name": "182 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd after Andromeda Pkwy",
         "lat": "-33.649304",
         "lon": "150.908827",
         "productClass": [
@@ -318321,7 +318339,7 @@
     },
     {
         "id": "2766116",
-        "name": "38 Peter Brock Dr",
+        "name": "Peter Brock Dr after Udogie Lane",
         "lat": "-33.802761",
         "lon": "150.878044",
         "productClass": [
@@ -320094,7 +320112,7 @@
     },
     {
         "id": "2770192",
-        "name": "Aurora Dr opp Kingdom Of Angels Family Learning Centre",
+        "name": "Aurora Dr before Luxford Rd",
         "lat": "-33.750357",
         "lon": "150.800656",
         "productClass": [
@@ -320517,7 +320535,7 @@
     },
     {
         "id": "2770241",
-        "name": "Whalan Reserve, Debrincat Ave",
+        "name": "Debrincat Ave after Wilkes Cres",
         "lat": "-33.75203",
         "lon": "150.794786",
         "productClass": [
@@ -321273,7 +321291,7 @@
     },
     {
         "id": "2770337",
-        "name": "Captain Cook Dr before Rebuck Cres",
+        "name": "Captain Cook Dr before Roebuck Cres",
         "lat": "-33.723152",
         "lon": "150.797132",
         "productClass": [
@@ -321975,7 +321993,7 @@
     },
     {
         "id": "2770578",
-        "name": "Palmyra Ave opp Australis Dr",
+        "name": "Palmyra Ave after Australis Dr",
         "lat": "-33.725613",
         "lon": "150.789204",
         "productClass": [
