@@ -1,19 +1,18 @@
-# GTFS Stops Processor
+# GTFS Data for KRAIL App
 
 This repository contains a Kotlin project designed to process GTFS (General Transit Feed Specification) data to generate
-a list of stops in JSON format. It includes functionality to create stop data and serialize it into both compact and
-pretty-printed JSON files. The project emphasizes ease of use, efficient memory handling, and modularity.
+a list of stops in JSON and Protobuf format. The GTFS stops.txt file is parsed into a StopJson object. This stops data is convereted into a 
+protouf binary / json format data which is used to power stop search functionality in the KRAIL App
 
 This data is designed to **support the KRAIL app**, which can be found at the following
-repository: [KRAIL GitHub Repository](https://github.com/ksharma-xyz/Krail). The JSON output generated here will be used
-within the app **KRAIL**.
+repository: [KRAIL GitHub Repository](https://github.com/ksharma-xyz/Krail). 
 
 ## Features
 
 - Parse and process GTFS stop data.
-- Convert transit stop data into JSON files.
+- Convert transit stop data into JSON and protobuf files.
 - Export both compact and pretty-printed JSON formats with automated file naming.
-- Efficient file I/O operations using coroutines (`Dispatchers.IO`).
+- Efficient file I/O operations using coroutines.
 
 ---
 
@@ -72,6 +71,7 @@ The JSON files are written to the specified directory (`cacheDirectory`) with pr
 
 - `NSW_STOPS.json`: Compact JSON data.
 - `NSW_STOPS_PRETTY.json`: Pretty-printed JSON data for readability.
+- `NSW_STOPS.pb`: The protobuf binary data for Stops.
 
 ---
 
