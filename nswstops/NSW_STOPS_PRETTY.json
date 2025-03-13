@@ -43219,7 +43219,7 @@
     },
     {
         "id": "211749",
-        "name": "Adderton Rd before Robert St",
+        "name": "Adderton Rd opp Telopea Light Rail",
         "lat": "-33.794731",
         "lon": "151.040556",
         "productClass": [
@@ -117385,8 +117385,8 @@
     {
         "id": "231727",
         "name": "Bagnall Ave before Soldiers Point Rd",
-        "lat": "-32.712789",
-        "lon": "152.070737",
+        "lat": "-32.712734",
+        "lon": "152.070015",
         "productClass": [
             5
         ]
@@ -143270,7 +143270,7 @@
     },
     {
         "id": "274579",
-        "name": "Mulgoa Rd at Fairlight Rd",
+        "name": "Mulgoa Rural Fire Brigade, Mulgoa Rd",
         "lat": "-33.837779",
         "lon": "150.650242",
         "productClass": [
@@ -143441,7 +143441,7 @@
     },
     {
         "id": "274598",
-        "name": "Silverdale Rd before Nortons Basin Rd",
+        "name": "Silverdale Rd after Farnsworth Ave",
         "lat": "-33.877313",
         "lon": "150.617735",
         "productClass": [
@@ -143477,7 +143477,7 @@
     },
     {
         "id": "274713",
-        "name": "O'Connell St opp John Flak Ave",
+        "name": "Caddens Corner Shopping Centre, O'Connell St",
         "lat": "-33.769401",
         "lon": "150.733719",
         "productClass": [
@@ -145025,7 +145025,7 @@
     },
     {
         "id": "274998",
-        "name": "The Northern Rd after Sheringham Rd",
+        "name": "The Northern Rd after Sherringham Rd",
         "lat": "-33.730588",
         "lon": "150.71918",
         "productClass": [
@@ -145503,7 +145503,7 @@
     },
     {
         "id": "275091",
-        "name": "St Stephens Retirement Village, Coreen Ave",
+        "name": "Anglicare St Stephens, Coreen Ave",
         "lat": "-33.747104",
         "lon": "150.710302",
         "productClass": [
@@ -146088,7 +146088,7 @@
     },
     {
         "id": "275317",
-        "name": "Kurrajong Rd after yarramundi Lane",
+        "name": "Kurrajong Rd after Old Kurrajong Rd",
         "lat": "-33.588892",
         "lon": "150.730219",
         "productClass": [
@@ -146313,7 +146313,7 @@
     },
     {
         "id": "275350",
-        "name": "Carrington Rd opp Bowmans Rd",
+        "name": "Carrington Rd at Bowmans Rd",
         "lat": "-33.647087",
         "lon": "150.751755",
         "productClass": [
@@ -146484,7 +146484,7 @@
     },
     {
         "id": "275373",
-        "name": "Kurrajong Rd before yarramundi Lane",
+        "name": "Kurrajong Rd before Old Kurrajong Rd",
         "lat": "-33.588999",
         "lon": "150.73013",
         "productClass": [
@@ -146610,7 +146610,7 @@
     },
     {
         "id": "275387",
-        "name": "244 Lieutenant Bowen Dr",
+        "name": "Lieutenant Bowen Dr before Waratah St",
         "lat": "-33.581697",
         "lon": "150.624849",
         "productClass": [
@@ -146907,7 +146907,7 @@
     },
     {
         "id": "275443",
-        "name": "Nepean Stud Farm, Grose Vale Rd",
+        "name": "Grose Vale Rd before Yobarine Ave",
         "lat": "-33.587319",
         "lon": "150.705027",
         "productClass": [
@@ -146916,7 +146916,7 @@
     },
     {
         "id": "275444",
-        "name": "Grose Vale Rd opp Nepean Stud Farm",
+        "name": "Grose Vale Rd after Yobarine Ave",
         "lat": "-33.58721",
         "lon": "150.705133",
         "productClass": [
@@ -146934,7 +146934,7 @@
     },
     {
         "id": "275446",
-        "name": "Grose Vale Rd at Enfield Ave walkway",
+        "name": "Grose Vale Rd before Pecks Rd",
         "lat": "-33.583404",
         "lon": "150.714734",
         "productClass": [
@@ -146970,7 +146970,7 @@
     },
     {
         "id": "275451",
-        "name": "17 Campbell St",
+        "name": "Campbell St before Elizabeth St",
         "lat": "-33.579221",
         "lon": "150.712086",
         "productClass": [
@@ -147078,7 +147078,7 @@
     },
     {
         "id": "275475",
-        "name": "365 Terrace Rd",
+        "name": "Terrace Rd before Wire Lane",
         "lat": "-33.564613",
         "lon": "150.752916",
         "productClass": [
@@ -147222,7 +147222,7 @@
     },
     {
         "id": "275625",
-        "name": "259 Spinks Rd",
+        "name": "Spinks Rd opp Golden Valley Dr",
         "lat": "-33.536365",
         "lon": "150.769443",
         "productClass": [
@@ -147600,7 +147600,7 @@
     },
     {
         "id": "275683",
-        "name": "29 Boomerang Dr",
+        "name": "Boomerang Dr after Macquarie Pl",
         "lat": "-33.533119",
         "lon": "150.775448",
         "productClass": [
@@ -147645,7 +147645,7 @@
     },
     {
         "id": "275690",
-        "name": "34 Mitchell Dr",
+        "name": "Mitchell Dr before Macquarie Pl",
         "lat": "-33.534203",
         "lon": "150.780621",
         "productClass": [
@@ -147654,7 +147654,7 @@
     },
     {
         "id": "275691",
-        "name": "Mitchell Dr before Macquarie Pl",
+        "name": "Mitchell Dr at Macquarie Pl",
         "lat": "-33.535046",
         "lon": "150.778844",
         "productClass": [
@@ -147789,7 +147789,7 @@
     },
     {
         "id": "275812",
-        "name": "Old Line Of Rd opp Parklands Retirement Village",
+        "name": "Old Bells Line Of Rd before Vincents Rd",
         "lat": "-33.552028",
         "lon": "150.671128",
         "productClass": [
@@ -147933,7 +147933,7 @@
     },
     {
         "id": "275828",
-        "name": "Bells Line Of Road opp Wark Hill Rd",
+        "name": "Bells Line Of Road opp Warks Hill Rd",
         "lat": "-33.531035",
         "lon": "150.631059",
         "productClass": [
@@ -147969,7 +147969,7 @@
     },
     {
         "id": "275832",
-        "name": "Parklands Retirement Village, Old Bells Line Of Road",
+        "name": "Old Bells Line Of Rd after Kurrajong Rd",
         "lat": "-33.551935",
         "lon": "150.67098",
         "productClass": [
@@ -148149,7 +148149,7 @@
     },
     {
         "id": "275854",
-        "name": "Woodburn Rd at Old Bells Line of Road",
+        "name": "Kurrajong Rural Fire Brigade, Old Bells Line of Road",
         "lat": "-33.554246",
         "lon": "150.665845",
         "productClass": [
@@ -149157,7 +149157,7 @@
     },
     {
         "id": "276068",
-        "name": "Desborough St opp Holmes St",
+        "name": "Desborough Rd opp Holmes St",
         "lat": "-33.781761",
         "lon": "150.789982",
         "productClass": [
@@ -151857,7 +151857,7 @@
     },
     {
         "id": "276552",
-        "name": "Riverstone Park, Garfield Rd",
+        "name": "Riverstone Park, Garfield Rd West",
         "lat": "-33.680849",
         "lon": "150.858992",
         "productClass": [
@@ -161487,6 +161487,15 @@
         ]
     },
     {
+        "id": "2031169",
+        "name": "Perouse Rd before Ivy St",
+        "lat": "-33.922339",
+        "lon": "151.243574",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2031170",
         "name": "Paine Reserve, Rainbow St",
         "lat": "-33.925006",
@@ -161527,6 +161536,15 @@
         "name": "Arden St at Clovelly Rd",
         "lat": "-33.911949",
         "lon": "151.258791",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2031176",
+        "name": "Perouse Rd before Avoca Lane",
+        "lat": "-33.922384",
+        "lon": "151.24344",
         "productClass": [
             5
         ]
@@ -176302,7 +176320,7 @@
     },
     {
         "id": "2117183",
-        "name": "Adderton Rd opp Robert St",
+        "name": "Telopea Light Rail, Adderton Rd",
         "lat": "-33.794947",
         "lon": "151.040581",
         "productClass": [
@@ -190243,7 +190261,7 @@
     },
     {
         "id": "2148203",
-        "name": "Tallawong Ave opp Bibbalong Lane",
+        "name": "Tallawong Ave opp Tallawong Ave Shops",
         "lat": "-33.776962",
         "lon": "150.883983",
         "productClass": [
@@ -190504,7 +190522,7 @@
     },
     {
         "id": "2148234",
-        "name": "Tambaroora Cr at Brook St",
+        "name": "Tambaroora Cres at Brook St",
         "lat": "-33.745834",
         "lon": "150.881746",
         "productClass": [
@@ -191881,7 +191899,7 @@
     },
     {
         "id": "2148522",
-        "name": "Auto Pl opp Peter Brock Dr",
+        "name": "Peter Brock Dr after Auto Pl",
         "lat": "-33.804906",
         "lon": "150.888468",
         "productClass": [
@@ -192704,24 +192722,6 @@
         "name": "Hambledon Cottage Reserve, Hassall St",
         "lat": "-33.818437",
         "lon": "151.014229",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2150393",
-        "name": "Harris Park Station, Station St East",
-        "lat": "-33.821968",
-        "lon": "151.008026",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2150395",
-        "name": "Station St at Marion St",
-        "lat": "-33.822223",
-        "lon": "151.008097",
         "productClass": [
             5
         ]
@@ -234174,15 +234174,6 @@
         ]
     },
     {
-        "id": "2233259",
-        "name": "Waterfall Station, Access Rd, McKell Ave",
-        "lat": "-34.135244",
-        "lon": "150.99522",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234201,28 +234192,10 @@
         ]
     },
     {
-        "id": "2233262",
-        "name": "Engadine Station, Railway Pde",
-        "lat": "-34.067478",
-        "lon": "151.014839",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2233264",
-        "name": "Heathcote Station, Princes Hwy",
-        "lat": "-34.087582",
-        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -302621,7 +302594,7 @@
     },
     {
         "id": "2576296",
-        "name": "644 Old Shop Wisemans Ferry Rd",
+        "name": "Wisemans Ferry Rd after Wheeny Creek Rd",
         "lat": "-33.527131",
         "lon": "150.934664",
         "productClass": [
@@ -302648,7 +302621,7 @@
     },
     {
         "id": "2576299",
-        "name": "1080 Wisemans Ferry Rd",
+        "name": "Wisemans Ferry Rd after Greenview Cl",
         "lat": "-33.499659",
         "lon": "150.950643",
         "productClass": [
@@ -302675,7 +302648,7 @@
     },
     {
         "id": "2576302",
-        "name": "1055 Wisemans Ferry Rd",
+        "name": "Wisemans Ferry Rd before Greenview Cl",
         "lat": "-33.499664",
         "lon": "150.950923",
         "productClass": [
@@ -302702,7 +302675,7 @@
     },
     {
         "id": "2576305",
-        "name": "637 Wisemans Ferry Rd",
+        "name": "Wisemans Ferry Rd before Wheeny Creek Rd",
         "lat": "-33.527245",
         "lon": "150.935038",
         "productClass": [
@@ -302774,7 +302747,7 @@
     },
     {
         "id": "2745106",
-        "name": "Mulgoa Fire Station Mulgoa Rd",
+        "name": "Mulgoa Rd opp Mulgoa Rural Fire Brigade",
         "lat": "-33.837741",
         "lon": "150.650075",
         "productClass": [
@@ -303062,7 +303035,7 @@
     },
     {
         "id": "2745145",
-        "name": "Genmore Pkwy after Glenquarry Dr",
+        "name": "Glenmore Pkwy after Glengarry Dr",
         "lat": "-33.792259",
         "lon": "150.689441",
         "productClass": [
@@ -304763,7 +304736,7 @@
     },
     {
         "id": "2747274",
-        "name": "Vincent Rd opp The Northern Rd",
+        "name": "The Northern Rd opp Vincent Rd",
         "lat": "-33.705891",
         "lon": "150.723927",
         "productClass": [
@@ -305906,7 +305879,7 @@
     },
     {
         "id": "2747442",
-        "name": "John Batman Av before Angel St",
+        "name": "John Batman Ave opp Werrington County Public",
         "lat": "-33.74511",
         "lon": "150.745978",
         "productClass": [
@@ -306635,7 +306608,7 @@
     },
     {
         "id": "2750138",
-        "name": "Coreen Ave opp St Stephens Retirement Village",
+        "name": "Coreen Ave opp Anglicare St Stephens",
         "lat": "-33.7472",
         "lon": "150.710565",
         "productClass": [
@@ -306896,7 +306869,7 @@
     },
     {
         "id": "2750177",
-        "name": "Tench Reserve, Tench Ave",
+        "name": "Tench Reserve South, Tench Ave",
         "lat": "-33.763607",
         "lon": "150.663302",
         "productClass": [
@@ -306905,7 +306878,7 @@
     },
     {
         "id": "2750178",
-        "name": "Tench Ave opp Tench Reserve",
+        "name": "Tench Ave opp Tench Reserve South",
         "lat": "-33.763918",
         "lon": "150.663099",
         "productClass": [
@@ -309254,7 +309227,7 @@
     },
     {
         "id": "2753114",
-        "name": "Londonderry Rd at White Gates Rd",
+        "name": "Londonderry Rd at Whitegates Rd",
         "lat": "-33.666958",
         "lon": "150.732245",
         "productClass": [
@@ -309560,7 +309533,7 @@
     },
     {
         "id": "2753677",
-        "name": "Pamela Cr at Lieutenant Bowen Dr",
+        "name": "Pamela Cres at Lieutenant Bowen Dr",
         "lat": "-33.576864",
         "lon": "150.623926",
         "productClass": [
@@ -309623,7 +309596,7 @@
     },
     {
         "id": "2756107",
-        "name": "Cliff Rd at Terrace Rd",
+        "name": "Terrace Rd at Cliff Rd",
         "lat": "-33.56543",
         "lon": "150.772241",
         "productClass": [
@@ -310019,15 +309992,6 @@
         ]
     },
     {
-        "id": "2756167",
-        "name": "Bligh Park Community Centre, Rifle Range Rd",
-        "lat": "-33.63726",
-        "lon": "150.804826",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2756168",
         "name": "Rifle Range Rd after Colonial Dr",
         "lat": "-33.636134",
@@ -310137,7 +310101,7 @@
     },
     {
         "id": "2756181",
-        "name": "James Meehan St opp Harris St",
+        "name": "James Meehan St before Harris St",
         "lat": "-33.621867",
         "lon": "150.81918",
         "productClass": [
@@ -310146,7 +310110,7 @@
     },
     {
         "id": "2756182",
-        "name": "James Meehan St opp Brickfield Rd",
+        "name": "James Meehan St before Fairey Rd",
         "lat": "-33.620012",
         "lon": "150.816985",
         "productClass": [
@@ -310713,7 +310677,7 @@
     },
     {
         "id": "2756249",
-        "name": "Eldon St opp Wellesley St",
+        "name": "Eldon St after Liverpool St",
         "lat": "-33.58638",
         "lon": "150.861789",
         "productClass": [
@@ -310875,7 +310839,7 @@
     },
     {
         "id": "2756267",
-        "name": "4900 Old Northern Rd",
+        "name": "Old Northern Rd after Laughtondale Gully Rd",
         "lat": "-33.425881",
         "lon": "150.984921",
         "productClass": [
@@ -310905,15 +310869,6 @@
         "name": "5017 Old Northern Rd",
         "lat": "-33.422914",
         "lon": "150.973311",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2756271",
-        "name": "4843 Old Northern Rd",
-        "lat": "-33.42809",
-        "lon": "150.989871",
         "productClass": [
             5
         ]
@@ -310965,7 +310920,7 @@
     },
     {
         "id": "2756277",
-        "name": "Wisemans Ferry Rd at Weavers Rd",
+        "name": "Wisemans Ferry Rd opp Weavers Rd",
         "lat": "-33.480557",
         "lon": "150.954279",
         "productClass": [
@@ -311613,7 +311568,7 @@
     },
     {
         "id": "2756425",
-        "name": "Suffolk St at George St",
+        "name": "Suffolk St after George St",
         "lat": "-33.608365",
         "lon": "150.818658",
         "productClass": [
@@ -311631,7 +311586,7 @@
     },
     {
         "id": "2756428",
-        "name": "Fitzgerald St after George St",
+        "name": "Fitzgerald St before Union Lane",
         "lat": "-33.606512",
         "lon": "150.82019",
         "productClass": [
@@ -311694,7 +311649,7 @@
     },
     {
         "id": "2756479",
-        "name": "6 Plimsoll St After Garfield St",
+        "name": "Plimsoll St after Garfield St",
         "lat": "-33.614895",
         "lon": "150.841697",
         "productClass": [
@@ -311703,7 +311658,7 @@
     },
     {
         "id": "2756480",
-        "name": "Opp 6 Plimsoll St Before Garfield St",
+        "name": "Plimsoll St before Garfield St",
         "lat": "-33.614786",
         "lon": "150.841667",
         "productClass": [
@@ -311712,7 +311667,7 @@
     },
     {
         "id": "2756481",
-        "name": "63 Old Hawkesbury Rd",
+        "name": "Old Hawkesbury Rd after McGrath Rd",
         "lat": "-33.619626",
         "lon": "150.842581",
         "productClass": [
@@ -311721,7 +311676,7 @@
     },
     {
         "id": "2756482",
-        "name": "67 Andrew Thompson Dr",
+        "name": "Andrew Thompson Dr before Books Cres",
         "lat": "-33.615338",
         "lon": "150.837655",
         "productClass": [
@@ -311730,18 +311685,9 @@
     },
     {
         "id": "2756488",
-        "name": "24 Sirius Rd",
+        "name": "Sirius Rd before Golden Gr",
         "lat": "-33.633346",
         "lon": "150.792298",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2756489",
-        "name": "50 Sirius Rd Opp Scarsborough Cr east",
-        "lat": "-33.634164",
-        "lon": "150.794713",
         "productClass": [
             5
         ]
@@ -311775,7 +311721,7 @@
     },
     {
         "id": "2756494",
-        "name": "Bootles Lane at Bathurst St",
+        "name": "Bootles Lane after Bathurst St",
         "lat": "-33.579156",
         "lon": "150.857785",
         "productClass": [
@@ -311784,7 +311730,7 @@
     },
     {
         "id": "2756495",
-        "name": "Opp 136 Colonial Dr Across From Turner Cl",
+        "name": "Colonial Dr opp Turner Cl",
         "lat": "-33.637398",
         "lon": "150.803158",
         "productClass": [
@@ -311793,7 +311739,7 @@
     },
     {
         "id": "2756496",
-        "name": "Opp 122 Colonial Dr Before Guardian Cr",
+        "name": "Colonial Dr before Guardian Cres",
         "lat": "-33.638308",
         "lon": "150.80155",
         "productClass": [
@@ -311802,7 +311748,7 @@
     },
     {
         "id": "2756501",
-        "name": "11 Bona Vista Dr Before Citrus Pl",
+        "name": "Bona Vista Dr before Citrus Pl",
         "lat": "-33.578027",
         "lon": "150.86108",
         "productClass": [
@@ -312063,7 +312009,7 @@
     },
     {
         "id": "2758653",
-        "name": "Woodburn Rd opp Kurrajong Rd",
+        "name": "Kurrajong Rd at Woodburn Rd",
         "lat": "-33.552489",
         "lon": "150.667312",
         "productClass": [
@@ -313215,7 +313161,7 @@
     },
     {
         "id": "2760148",
-        "name": "Desborough St after Holmes St",
+        "name": "Desborough Rd after Holmes St",
         "lat": "-33.781956",
         "lon": "150.790224",
         "productClass": [
@@ -313296,7 +313242,7 @@
     },
     {
         "id": "2760162",
-        "name": "Monfarville Street Park",
+        "name": "Monfarville Street Park, Monfarville St",
         "lat": "-33.775035",
         "lon": "150.776525",
         "productClass": [
@@ -313485,7 +313431,7 @@
     },
     {
         "id": "2760186",
-        "name": "Glossop St before Elm St",
+        "name": "Glossop St after Forrester Rd",
         "lat": "-33.75654",
         "lon": "150.776354",
         "productClass": [
@@ -315719,7 +315665,7 @@
     },
     {
         "id": "2765110",
-        "name": "A-Vina Caravan Park, Commercial Rd",
+        "name": "Ingenia Holidays Avina, Commercial Rd",
         "lat": "-33.642259",
         "lon": "150.867747",
         "productClass": [
@@ -316142,7 +316088,7 @@
     },
     {
         "id": "2765163",
-        "name": "48 Terry Rd",
+        "name": "Terry Rd opp Capella St",
         "lat": "-33.649589",
         "lon": "150.898545",
         "productClass": [
@@ -316151,7 +316097,7 @@
     },
     {
         "id": "2765164",
-        "name": "43 Terry Rd",
+        "name": "Terry Rd after Capella St",
         "lat": "-33.64978",
         "lon": "150.898627",
         "productClass": [
@@ -316430,7 +316376,7 @@
     },
     {
         "id": "2765201",
-        "name": "Commercial Rd opp A-Vina Van Village",
+        "name": "Commercial Rd opp Ingenia Holidays Avina",
         "lat": "-33.642389",
         "lon": "150.867684",
         "productClass": [
@@ -316619,7 +316565,7 @@
     },
     {
         "id": "2765223",
-        "name": "147 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd after Andromeda Pkwy",
         "lat": "-33.653064",
         "lon": "150.91099",
         "productClass": [
@@ -316631,15 +316577,6 @@
         "name": "Old Pitt Town Rd opp Andromeda Pkwy",
         "lat": "-33.64982",
         "lon": "150.908998",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2765225",
-        "name": "Old Pitt Town Rd after Andromeda Pkwy",
-        "lat": "-33.649304",
-        "lon": "150.908827",
         "productClass": [
             5
         ]
@@ -316691,7 +316628,7 @@
     },
     {
         "id": "2765231",
-        "name": "123 Old Pitt Town Rd",
+        "name": "125 Old Pitt Town Rd",
         "lat": "-33.640476",
         "lon": "150.908825",
         "productClass": [
@@ -316822,16 +316759,6 @@
         "lon": "150.893334",
         "productClass": [
             5
-        ]
-    },
-    {
-        "id": "2765253",
-        "name": "Riverstone Station",
-        "lat": "-33.67922",
-        "lon": "150.860599",
-        "productClass": [
-            5,
-            1
         ]
     },
     {
@@ -317097,7 +317024,7 @@
     },
     {
         "id": "2765299",
-        "name": "McCulloch St before Riverbrae Ave",
+        "name": "McCulloch St before Brighton St",
         "lat": "-33.682521",
         "lon": "150.876496",
         "productClass": [
@@ -318312,7 +318239,7 @@
     },
     {
         "id": "2766113",
-        "name": "94 Peter Brock Dr",
+        "name": "Peter Brock Dr before Auto Pl",
         "lat": "-33.804733",
         "lon": "150.888365",
         "productClass": [
@@ -318348,7 +318275,7 @@
     },
     {
         "id": "2766117",
-        "name": "Sentry Medical Pty, Peter Brock Dr",
+        "name": "22 Peter Brock Dr",
         "lat": "-33.802346",
         "lon": "150.874868",
         "productClass": [
@@ -318465,7 +318392,7 @@
     },
     {
         "id": "2766130",
-        "name": "Peter Brock Dr after Brabham Dr",
+        "name": "Alpha Hotel Eastern Creek, Peter Brock Rd",
         "lat": "-33.802362",
         "lon": "150.870569",
         "productClass": [
@@ -318474,7 +318401,7 @@
     },
     {
         "id": "2766131",
-        "name": "Peter Brock Drive opp Sentry Medical Pty",
+        "name": "Peter Brock Drive opp 22",
         "lat": "-33.802229",
         "lon": "150.874904",
         "productClass": [
@@ -319347,7 +319274,7 @@
     },
     {
         "id": "2770101",
-        "name": "Western Sydney Institute TAFE Mt Druitt College",
+        "name": "Western Sydney Institute TAFE Mt Druitt College, Mount St",
         "lat": "-33.769457",
         "lon": "150.823703",
         "productClass": [
@@ -321299,6 +321226,15 @@
         ]
     },
     {
+        "id": "2770338",
+        "name": "Captain Cook Dr after Roebuck Cres",
+        "lat": "-33.722164",
+        "lon": "150.795293",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2770339",
         "name": "Captain Cook Dr after Houtman Ave",
         "lat": "-33.72198",
@@ -321393,15 +321329,6 @@
         "name": "Captain Cook Dr at Resolution Ave",
         "lat": "-33.724995",
         "lon": "150.798019",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2770361",
-        "name": "Captain Cook Dr after Roebuck Cres",
-        "lat": "-33.727101",
-        "lon": "150.797248",
         "productClass": [
             5
         ]
@@ -328475,7 +328402,7 @@
         ]
     },
     {
-        "id": "204155",
+        "id": "20411",
         "name": "Balmain West Wharf",
         "lat": "-33.855",
         "lon": "151.1685",
@@ -329006,7 +328933,7 @@
         ]
     },
     {
-        "id": "200956",
+        "id": "200954",
         "name": "Pirrama Park Wharf",
         "lat": "-33.864735",
         "lon": "151.19088",
@@ -330616,6 +330543,15 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
+        "productClass": [
+            1
+        ]
+    },
+    {
+        "id": "276510",
+        "name": "Riverstone Station",
+        "lat": "-33.6790433699",
+        "lon": "150.860267864",
         "productClass": [
             1
         ]
