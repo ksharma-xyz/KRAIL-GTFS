@@ -111459,6 +111459,15 @@
         ]
     },
     {
+        "id": "229638",
+        "name": "Hamilton Station, Beaumont St",
+        "lat": "-32.91808",
+        "lon": "151.748382",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "229711",
         "name": "Maitland Rd at Elizabeth St",
         "lat": "-32.907018",
@@ -115583,6 +115592,15 @@
         ]
     },
     {
+        "id": "230760",
+        "name": "Astra St before Sandgate Rd",
+        "lat": "-32.874016",
+        "lon": "151.702",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "230811",
         "name": "University of Newcastle Western Entrance, University Dr",
         "lat": "-32.896677",
@@ -115697,6 +115715,16 @@
         "lon": "151.70982",
         "productClass": [
             5
+        ]
+    },
+    {
+        "id": "230830",
+        "name": "Warabrook Station",
+        "lat": "-32.888552",
+        "lon": "151.70945",
+        "productClass": [
+            5,
+            1
         ]
     },
     {
@@ -120794,6 +120822,15 @@
         ]
     },
     {
+        "id": "232241",
+        "name": "Thornton Station, Karuah St",
+        "lat": "-32.783333",
+        "lon": "151.640192",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "232242",
         "name": "Railway Ave at Rockleigh St",
         "lat": "-32.782622",
@@ -125816,33 +125853,6 @@
         ]
     },
     {
-        "id": "233613",
-        "name": "Macqueen St opp Aberdeen Station",
-        "lat": "-32.166877",
-        "lon": "150.891551",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233619",
-        "name": "Aberdeen Station, Macqueen St",
-        "lat": "-32.166908",
-        "lon": "150.891782",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233721",
-        "name": "Scone Station, Coach Stop",
-        "lat": "-32.046842",
-        "lon": "150.867091",
-        "productClass": [
-            7
-        ]
-    },
-    {
         "id": "234011",
         "name": "Maison Dieu Rd opp Country Acres Caravan Park",
         "lat": "-32.553803",
@@ -125865,6 +125875,52 @@
         "name": "Gresford Rd opp Dungog Rd",
         "lat": "-32.566669",
         "lon": "151.595082",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "242012",
+        "name": "Dungog Station, Coach Stop",
+        "lat": "-32.402645",
+        "lon": "151.759121",
+        "productClass": [
+            7
+        ]
+    },
+    {
+        "id": "242016",
+        "name": "Wallarobba Station",
+        "lat": "-32.496191",
+        "lon": "151.69561",
+        "productClass": [
+            5,
+            1
+        ]
+    },
+    {
+        "id": "242018",
+        "name": "Hilldale Station, Hilldale Rd",
+        "lat": "-32.50357",
+        "lon": "151.650426",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "242054",
+        "name": "Wirragulla Station, Dungog Rd",
+        "lat": "-32.462955",
+        "lon": "151.742394",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "242055",
+        "name": "Martins Creek Station, Grace Ave",
+        "lat": "-32.557389",
+        "lon": "151.617944",
         "productClass": [
             5
         ]
@@ -144089,7 +144145,7 @@
     },
     {
         "id": "274816",
-        "name": "Defence Orchard Hills, The Northern Rd",
+        "name": "Defence Establishment Orchard Hills, The Northern Rd",
         "lat": "-33.812292",
         "lon": "150.692088",
         "productClass": [
@@ -146133,7 +146189,7 @@
     },
     {
         "id": "275323",
-        "name": "Dight St",
+        "name": "Dight St before RAAF Base Richmond",
         "lat": "-33.596228",
         "lon": "150.776497",
         "productClass": [
@@ -146424,6 +146480,15 @@
         "name": "Percival St after Hawkesbury Valley Way",
         "lat": "-33.60837",
         "lon": "150.799504",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "275365",
+        "name": "Dight St before Clarendon St",
+        "lat": "-33.596316",
+        "lon": "150.776538",
         "productClass": [
             5
         ]
@@ -146826,7 +146891,7 @@
     },
     {
         "id": "275426",
-        "name": "18 Campbell St",
+        "name": "Campbell St before Pecks Rd",
         "lat": "-33.57941",
         "lon": "150.712092",
         "productClass": [
@@ -147069,7 +147134,7 @@
     },
     {
         "id": "275474",
-        "name": "Opp 270 Terrace Rd",
+        "name": "Terrace Rd after Brahma Rd",
         "lat": "-33.56729",
         "lon": "150.742959",
         "productClass": [
@@ -147573,7 +147638,7 @@
     },
     {
         "id": "275680",
-        "name": "Chestnut Dr opp Spinks Rd",
+        "name": "Chestnut Dr before Spinks Rd",
         "lat": "-33.533768",
         "lon": "150.772944",
         "productClass": [
@@ -147627,7 +147692,7 @@
     },
     {
         "id": "275688",
-        "name": "Mitchell Dr opp Ian St",
+        "name": "Mitchell Dr after Ian St",
         "lat": "-33.528764",
         "lon": "150.780986",
         "productClass": [
@@ -147978,7 +148043,7 @@
     },
     {
         "id": "275833",
-        "name": "Comleroy Rd Bells Line",
+        "name": "Bells Line of Road at Comleroy Rd",
         "lat": "-33.548038",
         "lon": "150.675629",
         "productClass": [
@@ -261138,6 +261203,15 @@
         ]
     },
     {
+        "id": "2285122",
+        "name": "Blackwood Cct before Bellona Ch",
+        "lat": "-32.898583",
+        "lon": "151.606947",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2285123",
         "name": "Cameron Park Plaza, Portland Dr",
         "lat": "-32.916389",
@@ -269427,15 +269501,6 @@
         ]
     },
     {
-        "id": "2303136",
-        "name": "Hamilton Station, Beaumont St",
-        "lat": "-32.918923",
-        "lon": "151.748003",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2303137",
         "name": "Beaumont St at Cleary St",
         "lat": "-32.921169",
@@ -274332,6 +274397,15 @@
         ]
     },
     {
+        "id": "2320281",
+        "name": "Telarah Station, Johnson St",
+        "lat": "-32.722687",
+        "lon": "151.540111",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2320284",
         "name": "Anambah Rd before Cagney Rd",
         "lat": "-32.701919",
@@ -275164,6 +275238,24 @@
         "name": "Lovedale Rd opp 724",
         "lat": "-32.741857",
         "lon": "151.388895",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2320406",
+        "name": "Mindaribba Station Carpark, Tocal Rd",
+        "lat": "-32.667782",
+        "lon": "151.585275",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2320407",
+        "name": "Abbot St at Tulloch Ln",
+        "lat": "-32.74046",
+        "lon": "151.563",
         "productClass": [
             5
         ]
@@ -276793,6 +276885,33 @@
         "name": "Anderson Dr opp Tarro Public School",
         "lat": "-32.809723",
         "lon": "151.66597",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2322208",
+        "name": "Tarro Public School, Anderson Dr",
+        "lat": "-32.809793",
+        "lon": "151.665766",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2322209",
+        "name": "Addison St opp Beresfield Station",
+        "lat": "-32.799718",
+        "lon": "151.658196",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2322210",
+        "name": "Beresfield Station, Addison St",
+        "lat": "-32.799638",
+        "lon": "151.658314",
         "productClass": [
             5
         ]
@@ -300145,15 +300264,6 @@
         ]
     },
     {
-        "id": "2570110",
-        "name": "Old Hume Hwy before Burragorang Rd",
-        "lat": "-34.076906",
-        "lon": "150.694778",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2570111",
         "name": "Camden Valley Way opp Curry Reserve",
         "lat": "-34.053264",
@@ -302756,7 +302866,7 @@
     },
     {
         "id": "2745107",
-        "name": "Mulgoa Public School Mulgoa Rd",
+        "name": "Mulgoa Public School, Mulgoa Rd",
         "lat": "-33.836391",
         "lon": "150.651249",
         "productClass": [
@@ -302909,7 +303019,7 @@
     },
     {
         "id": "2745127",
-        "name": "The Northern Rd opp Defence Orchard hills",
+        "name": "The Northern Rd opp Defence Establishment Orchard Hills",
         "lat": "-33.811382",
         "lon": "150.692404",
         "productClass": [
@@ -302966,15 +303076,6 @@
         "name": "970 Mulgoa Rd",
         "lat": "-33.821464",
         "lon": "150.652082",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2745135",
-        "name": "Mulgoa Public School, Mulgoa Rd",
-        "lat": "-33.836354",
-        "lon": "150.651465",
         "productClass": [
             5
         ]
@@ -310209,7 +310310,7 @@
     },
     {
         "id": "2756194",
-        "name": "Old Sackville Rd at Castlereagh Rd",
+        "name": "Old Sackville Rd at Copeland Rd",
         "lat": "-33.553469",
         "lon": "150.839021",
         "productClass": [
@@ -310488,7 +310589,7 @@
     },
     {
         "id": "2756226",
-        "name": "Old Hawkesbury Rd opp Bismarck St",
+        "name": "Old Hawkesbury Rd before Bismarck St",
         "lat": "-33.619638",
         "lon": "150.842754",
         "productClass": [
@@ -310695,7 +310796,7 @@
     },
     {
         "id": "2756251",
-        "name": "Pitt Town Dural Rd near Airstrip Rd",
+        "name": "Pitt Town Dural Rd opp Old Stock Rte Rd",
         "lat": "-33.581943",
         "lon": "150.881657",
         "productClass": [
@@ -315620,7 +315721,7 @@
     },
     {
         "id": "2765105",
-        "name": "Old Stock Route Rd at Wolseley Rd",
+        "name": "Old Stock Route Rd at Oakville Rd",
         "lat": "-33.622366",
         "lon": "150.854312",
         "productClass": [
@@ -316556,7 +316657,7 @@
     },
     {
         "id": "2765222",
-        "name": "196 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd before Andromeda Pkwy",
         "lat": "-33.652723",
         "lon": "150.910513",
         "productClass": [
@@ -318203,7 +318304,7 @@
     },
     {
         "id": "2766106",
-        "name": "Our Lady of Consolation, Evans Rd",
+        "name": "Evans Rd opp Our Lady of Consolation",
         "lat": "-33.781422",
         "lon": "150.847062",
         "productClass": [
@@ -321434,7 +321535,7 @@
     },
     {
         "id": "2770510",
-        "name": "Woolworths Distribution Centre, Sargent Rd",
+        "name": "Woolworths Distribution Centre, Sargents Rd",
         "lat": "-33.785941",
         "lon": "150.813775",
         "productClass": [
@@ -321443,7 +321544,7 @@
     },
     {
         "id": "2770511",
-        "name": "Sargent Rd opp Woolworths Distribution Centre",
+        "name": "Sargents Rd opp Woolworths Distribution Centre",
         "lat": "-33.78561",
         "lon": "150.81403",
         "productClass": [
@@ -327753,15 +327854,6 @@
         ]
     },
     {
-        "id": "242020",
-        "name": "Wallarobba Station",
-        "lat": "-32.496118",
-        "lon": "151.695624",
-        "productClass": [
-            1
-        ]
-    },
-    {
         "id": "258812",
         "name": "Wallendbeen Coach Stop",
         "lat": "-34.52920474",
@@ -327784,15 +327876,6 @@
         "name": "Wangaratta Station",
         "lat": "-36.355371",
         "lon": "146.31661",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "230420",
-        "name": "Warabrook Station",
-        "lat": "-32.887184",
-        "lon": "151.709989",
         "productClass": [
             1
         ]
