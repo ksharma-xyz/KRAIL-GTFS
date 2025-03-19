@@ -3861,15 +3861,6 @@
         ]
     },
     {
-        "id": "202076",
-        "name": "Sydney Domestic Airport, Keith Smith Ave",
-        "lat": "-33.93307",
-        "lon": "151.17845",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "202078",
         "name": "Control Tower, General Holmes Dr",
         "lat": "-33.946903",
@@ -3892,15 +3883,6 @@
         "name": "Wentworth Ave at Alfred Lane",
         "lat": "-33.93405",
         "lon": "151.197498",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "202083",
-        "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-        "lat": "-33.935337",
-        "lon": "151.165745",
         "productClass": [
             5
         ]
@@ -16745,8 +16727,8 @@
     {
         "id": "206128",
         "name": "Alfred St at Lavender St",
-        "lat": "-33.843892",
-        "lon": "151.210521",
+        "lat": "-33.84472",
+        "lon": "151.210873",
         "productClass": [
             5
         ]
@@ -18259,15 +18241,6 @@
         "name": "Longueville Rd opp Currambena Public School",
         "lat": "-33.821488",
         "lon": "151.171159",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "206640",
-        "name": "Longueville Rd opp River Rd West",
-        "lat": "-33.822691",
-        "lon": "151.172052",
         "productClass": [
             5
         ]
@@ -42885,6 +42858,15 @@
         ]
     },
     {
+        "id": "211663",
+        "name": "Kirby St after Patterson St",
+        "lat": "-33.811753",
+        "lon": "151.049605",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "211711",
         "name": "Telopea Light Rail, Sturt St",
         "lat": "-33.794574",
@@ -46928,8 +46910,8 @@
     {
         "id": "212566",
         "name": "Pennant Hills Rd after Castle Hill Rd",
-        "lat": "-33.746692",
-        "lon": "151.051206",
+        "lat": "-33.747395",
+        "lon": "151.050531",
         "productClass": [
             5
         ]
@@ -64492,6 +64474,15 @@
         "name": "Woodville Rd opp Kirrang Ave",
         "lat": "-33.885738",
         "lon": "150.975468",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "216313",
+        "name": "Wattle Ave at Waterside Cres",
+        "lat": "-33.88452",
+        "lon": "150.962241",
         "productClass": [
             5
         ]
@@ -183629,15 +183620,6 @@
         ]
     },
     {
-        "id": "2142287",
-        "name": "Granville Station, Bridge St",
-        "lat": "-33.832341",
-        "lon": "151.011551",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2142288",
         "name": "Halsall St at Woodville Rd",
         "lat": "-33.830578",
@@ -202210,15 +202192,6 @@
         "name": "Sherwood Grange Public School, Bruce St",
         "lat": "-33.836043",
         "lon": "150.959783",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2160142",
-        "name": "Merrylands Rd at Railway Tce",
-        "lat": "-33.837054",
-        "lon": "150.992957",
         "productClass": [
             5
         ]
@@ -224918,24 +224891,6 @@
         "name": "Shaw St at Bexley Rd",
         "lat": "-33.938181",
         "lon": "151.113708",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207267",
-        "name": "Slade Rd before Devon Rd",
-        "lat": "-33.932251",
-        "lon": "151.12523",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207268",
-        "name": "Slade Rd at Hartill Law Ave",
-        "lat": "-33.931857",
-        "lon": "151.126007",
         "productClass": [
             5
         ]
