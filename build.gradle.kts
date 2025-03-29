@@ -15,13 +15,13 @@ dependencies {
 
     // Networking
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
-    implementation("io.ktor:ktor-client-content-negotiation:3.1.1")
-    implementation("io.ktor:ktor-client-core:3.1.1")
-    implementation("io.ktor:ktor-client-cio:3.1.1")
-    implementation("io.ktor:ktor-client-okhttp:3.1.1")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.1")
-    implementation("io.ktor:ktor-client-logging:3.1.1")
-    implementation("io.ktor:ktor-client-auth:3.1.1")
+    implementation("io.ktor:ktor-client-content-negotiation:3.1.2")
+    implementation("io.ktor:ktor-client-core:3.1.2")
+    implementation("io.ktor:ktor-client-cio:3.1.2")
+    implementation("io.ktor:ktor-client-okhttp:3.1.2")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.2")
+    implementation("io.ktor:ktor-client-logging:3.1.2")
+    implementation("io.ktor:ktor-client-auth:3.1.2")
 
     // IO
     implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.7.0")
