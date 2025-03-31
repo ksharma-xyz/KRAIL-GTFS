@@ -11622,6 +11622,33 @@
         ]
     },
     {
+        "id": "203772",
+        "name": "Glebe Library, Wigram Rd",
+        "lat": "-33.877571",
+        "lon": "151.184882",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "203773",
+        "name": "Wigram Rd opp Glebe Library",
+        "lat": "-33.877516",
+        "lon": "151.184786",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "203775",
+        "name": "Federal Rd opp Pope Paul VI Reserve",
+        "lat": "-33.871957",
+        "lon": "151.180125",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "203776",
         "name": "Minogue Crescent Reserve, Minogue Cres",
         "lat": "-33.880485",
@@ -16734,15 +16761,6 @@
         ]
     },
     {
-        "id": "206094",
-        "name": "Waverton Station, Crows Nest Rd",
-        "lat": "-33.837018",
-        "lon": "151.198083",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "206113",
         "name": "Milsons Point Station, Broughton St",
         "lat": "-33.846624",
@@ -18376,15 +18394,6 @@
         "name": "Longueville Rd opp Currambena Public School",
         "lat": "-33.821488",
         "lon": "151.171159",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "206640",
-        "name": "Longueville Rd opp River Rd West",
-        "lat": "-33.822691",
-        "lon": "151.172052",
         "productClass": [
             5
         ]
@@ -21942,24 +21951,6 @@
         "name": "Calvert Ave before Fitzroy St",
         "lat": "-33.7655",
         "lon": "151.15002",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207182",
-        "name": "Killara Station, Culworth Ave",
-        "lat": "-33.765872",
-        "lon": "151.16175",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207183",
-        "name": "Culworth Ave opp Killara Station",
-        "lat": "-33.765815",
-        "lon": "151.161492",
         "productClass": [
             5
         ]
@@ -36008,10 +35999,10 @@
         ]
     },
     {
-        "id": "210157",
+        "id": "210159",
         "name": "Narabeen North Public School, Namona St",
-        "lat": "-33.699792",
-        "lon": "151.298036",
+        "lat": "-33.699765",
+        "lon": "151.297831",
         "productClass": [
             5
         ]
@@ -163883,15 +163874,6 @@
         ]
     },
     {
-        "id": "2065131",
-        "name": "St Leonards Station, Pacific Hwy (NightRide)",
-        "lat": "-33.823221",
-        "lon": "151.194545",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2065132",
         "name": "Pacific Hwy before Falcon St",
         "lat": "-33.827007",
@@ -163968,24 +163950,6 @@
         "name": "Ernest St after Miller St",
         "lat": "-33.826926",
         "lon": "151.208755",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065147",
-        "name": "Herbert St at Pacific Hwy",
-        "lat": "-33.823207",
-        "lon": "151.193662",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065150",
-        "name": "Milner Cres at Shirley Rd",
-        "lat": "-33.831924",
-        "lon": "151.192753",
         "productClass": [
             5
         ]
@@ -165246,15 +165210,6 @@
         "name": "Railway St at Help St",
         "lat": "-33.795879",
         "lon": "151.180456",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2067137",
-        "name": "Victoria Ave opp Katherine St",
-        "lat": "-33.797403",
-        "lon": "151.179068",
         "productClass": [
             5
         ]
@@ -234464,6 +234419,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234482,10 +234446,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -326783,6 +326765,15 @@
         ]
     },
     {
+        "id": "214110",
+        "name": "Lidcombe Station",
+        "lat": "-33.864163",
+        "lon": "151.046199",
+        "productClass": [
+            1
+        ]
+    },
+    {
         "id": "283412",
         "name": "Lightning Ridge Coach Stop",
         "lat": "-29.42706513",
@@ -330365,15 +330356,6 @@
         "name": "Lawson Station",
         "lat": "-33.7191448467",
         "lon": "150.429824445",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "214110",
-        "name": "Lidcombe Station",
-        "lat": "-33.8638893463",
-        "lon": "151.045389501",
         "productClass": [
             1
         ]
