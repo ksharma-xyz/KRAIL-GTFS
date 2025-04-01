@@ -4484,8 +4484,8 @@
     {
         "id": "202227",
         "name": "Bronte Rd at Gray St",
-        "lat": "-33.893001",
-        "lon": "151.249715",
+        "lat": "-33.893088",
+        "lon": "151.24967",
         "productClass": [
             5
         ]
@@ -5502,8 +5502,8 @@
     {
         "id": "202429",
         "name": "Macpherson St opp Wills Ave",
-        "lat": "-33.905041",
-        "lon": "151.256866",
+        "lat": "-33.904925",
+        "lon": "151.256087",
         "productClass": [
             5
         ]
@@ -5610,8 +5610,8 @@
     {
         "id": "202442",
         "name": "Macpherson St after Wills Ave",
-        "lat": "-33.905021",
-        "lon": "151.255806",
+        "lat": "-33.904953",
+        "lon": "151.255335",
         "productClass": [
             5
         ]
@@ -7123,8 +7123,8 @@
     {
         "id": "202935",
         "name": "Old South Head Rd opp Fernleigh Ave",
-        "lat": "-33.869245",
-        "lon": "151.276999",
+        "lat": "-33.868137",
+        "lon": "151.277474",
         "productClass": [
             5
         ]
@@ -78973,15 +78973,6 @@
         ]
     },
     {
-        "id": "220533",
-        "name": "Princes Hwy after Subway Rd",
-        "lat": "-33.944094",
-        "lon": "151.142099",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "220534",
         "name": "Wollongong Rd opp Macquarie Lodge",
         "lat": "-33.940258",
@@ -110793,15 +110784,6 @@
         ]
     },
     {
-        "id": "229323",
-        "name": "Hannell St after Harrison St",
-        "lat": "-32.90961",
-        "lon": "151.759287",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "229324",
         "name": "Hannell St after Cowper St",
         "lat": "-32.918407",
@@ -110878,24 +110860,6 @@
         "name": "The Avenue at Norfolk Ave",
         "lat": "-32.913968",
         "lon": "151.75219",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "229336",
-        "name": "Newcastle Interchange, Stewart Ave",
-        "lat": "-32.924",
-        "lon": "151.760002",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "229339",
-        "name": "Hannell St before Downie St",
-        "lat": "-32.913252",
-        "lon": "151.758237",
         "productClass": [
             5
         ]
@@ -113607,15 +113571,6 @@
         "name": "Marketown Shopping Centre, National Park St",
         "lat": "-32.927993",
         "lon": "151.760261",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "230245",
-        "name": "Stewart Ave opp King St",
-        "lat": "-32.925966",
-        "lon": "151.758695",
         "productClass": [
             5
         ]
@@ -158973,6 +158928,15 @@
         "name": "Lurline St opp Merriwa St",
         "lat": "-33.719544",
         "lon": "150.311961",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "278080",
+        "name": "Lurline St before Waratah St",
+        "lat": "-33.717926",
+        "lon": "150.312284",
         "productClass": [
             5
         ]
@@ -228982,15 +228946,6 @@
         ]
     },
     {
-        "id": "2220302",
-        "name": "Hurstville Fire Station, Butler Rd",
-        "lat": "-33.968042",
-        "lon": "151.101992",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2220303",
         "name": "Waitara Pde at The Crescent",
         "lat": "-33.981057",
@@ -229959,15 +229914,6 @@
         "name": "Jannali Public School, Sutherland Rd",
         "lat": "-34.018495",
         "lon": "151.061514",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2226105",
-        "name": "Como Station, Como Pde",
-        "lat": "-34.004582",
-        "lon": "151.067786",
         "productClass": [
             5
         ]
@@ -234419,15 +234365,6 @@
         ]
     },
     {
-        "id": "2233259",
-        "name": "Waterfall Station, Access Rd, McKell Ave",
-        "lat": "-34.135244",
-        "lon": "150.99522",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234446,28 +234383,10 @@
         ]
     },
     {
-        "id": "2233262",
-        "name": "Engadine Station, Railway Pde",
-        "lat": "-34.067478",
-        "lon": "151.014839",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2233264",
-        "name": "Heathcote Station, Princes Hwy",
-        "lat": "-34.087582",
-        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -271665,15 +271584,6 @@
         "name": "Fingal St opp Kerrigan St",
         "lat": "-32.719888",
         "lon": "152.15341",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2315158",
-        "name": "Tomaree Sports Field, Palmer Way",
-        "lat": "-32.737787",
-        "lon": "152.120599",
         "productClass": [
             5
         ]
@@ -317097,6 +317007,16 @@
         ]
     },
     {
+        "id": "2765253",
+        "name": "Riverstone Station",
+        "lat": "-33.67922",
+        "lon": "150.860599",
+        "productClass": [
+            5,
+            1
+        ]
+    },
+    {
         "id": "2765254",
         "name": "Robert St before Garfield Rd W",
         "lat": "-33.690994",
@@ -330860,15 +330780,6 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "276510",
-        "name": "Riverstone Station",
-        "lat": "-33.6790433699",
-        "lon": "150.860267864",
         "productClass": [
             1
         ]
