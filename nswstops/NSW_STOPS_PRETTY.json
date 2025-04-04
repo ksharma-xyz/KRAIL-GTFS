@@ -783,6 +783,15 @@
         ]
     },
     {
+        "id": "201019",
+        "name": "Prince Alfred Park Pool, Chalmers St",
+        "lat": "-33.887406",
+        "lon": "151.20649",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "201021",
         "name": "Crown St at Miles St",
         "lat": "-33.889517",
@@ -46333,7 +46342,7 @@
     },
     {
         "id": "212254",
-        "name": "Kent Road Public School, Kent Rd",
+        "name": "Kent Rd opp Kent Road Public School",
         "lat": "-33.786336",
         "lon": "151.109443",
         "productClass": [
@@ -46351,7 +46360,7 @@
     },
     {
         "id": "212256",
-        "name": "Kent Rd opp Kent Road Primary School",
+        "name": "Kent Road Public School, Kent Rd",
         "lat": "-33.786406",
         "lon": "151.109311",
         "productClass": [
@@ -91358,7 +91367,7 @@
     },
     {
         "id": "222947",
-        "name": "Taren Point Road opp Caringbah Home",
+        "name": "Taren Point Rd opp Caringbah Home",
         "lat": "-34.028904",
         "lon": "151.119825",
         "productClass": [
@@ -132615,7 +132624,7 @@
     },
     {
         "id": "252584",
-        "name": "Bellevue Road at Uralba St",
+        "name": "Bellevue Rd at Uralba St",
         "lat": "-34.427317",
         "lon": "150.853901",
         "productClass": [
@@ -132624,7 +132633,7 @@
     },
     {
         "id": "252585",
-        "name": "Bellevue Road opp Uralba St",
+        "name": "Bellevue Rd opp Uralba St",
         "lat": "-34.427274",
         "lon": "150.853643",
         "productClass": [
@@ -137361,6 +137370,15 @@
         "name": "Bringelly Rd after North Ave",
         "lat": "-33.945912",
         "lon": "150.773512",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "255790",
+        "name": "Bringelly Rd after Masterfield St",
+        "lat": "-33.943648",
+        "lon": "150.757004",
         "productClass": [
             5
         ]
@@ -143542,7 +143560,7 @@
     },
     {
         "id": "274580",
-        "name": "Mulgoa Rd before Allan Rd",
+        "name": "Mulgoa Rd after Allan Rd",
         "lat": "-33.839016",
         "lon": "150.649413",
         "productClass": [
@@ -146963,7 +146981,7 @@
     },
     {
         "id": "275396",
-        "name": "Gunbower Rd after Bowen Mountain Rd",
+        "name": "Bowen Mountain Rd after Gunbower Rd",
         "lat": "-33.573103",
         "lon": "150.634671",
         "productClass": [
@@ -147269,7 +147287,7 @@
     },
     {
         "id": "275455",
-        "name": "Bells Line of Road after Terrace Rd",
+        "name": "Bells Line Of Road after Terrace Rd",
         "lat": "-33.580458",
         "lon": "150.720262",
         "productClass": [
@@ -148241,7 +148259,7 @@
     },
     {
         "id": "275833",
-        "name": "Bells Line of Road at Comleroy Rd",
+        "name": "Bells Line Of Road at Comleroy Rd",
         "lat": "-33.548038",
         "lon": "150.675629",
         "productClass": [
@@ -148322,7 +148340,7 @@
     },
     {
         "id": "275842",
-        "name": "Bells Line of Road at Ghost Hill Rd",
+        "name": "Bells Line Of Road at Ghost Hill Rd",
         "lat": "-33.529762",
         "lon": "150.45312",
         "productClass": [
@@ -148376,7 +148394,7 @@
     },
     {
         "id": "275850",
-        "name": "Bells Line Of Rd opp Hanlons Road",
+        "name": "Bells Line Of Road opp Hanlons Rd",
         "lat": "-33.49795",
         "lon": "150.521749",
         "productClass": [
@@ -155801,6 +155819,15 @@
         ]
     },
     {
+        "id": "277357",
+        "name": "Burfitt Pde opp Glenbrook Station",
+        "lat": "-33.769053",
+        "lon": "150.621795",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "277359",
         "name": "Mount St after Great Western Hwy",
         "lat": "-33.763593",
@@ -158469,6 +158496,15 @@
         "name": "Katoomba St before Waratah St",
         "lat": "-33.71666",
         "lon": "150.31119",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "278013",
+        "name": "Katoomba St at Goyder Ave",
+        "lat": "-33.724405",
+        "lon": "150.309638",
         "productClass": [
             5
         ]
@@ -163542,7 +163578,7 @@
     },
     {
         "id": "2046143",
-        "name": "Club Five Dock RSL, Great North Road",
+        "name": "Club Five Dock RSL, Great North Rd",
         "lat": "-33.870133",
         "lon": "151.129375",
         "productClass": [
@@ -191982,7 +192018,7 @@
     },
     {
         "id": "2148485",
-        "name": "Holy Family High School, Quakers Rd",
+        "name": "St Andrews College, Junior Campus, Quakers Rd",
         "lat": "-33.741946",
         "lon": "150.888772",
         "productClass": [
@@ -191991,7 +192027,7 @@
     },
     {
         "id": "2148486",
-        "name": "St Andrews College, Breakfast Rd",
+        "name": "St Andrews College, Senior Campus, Breakfast Rd",
         "lat": "-33.749503",
         "lon": "150.889353",
         "productClass": [
@@ -192071,15 +192107,6 @@
         ]
     },
     {
-        "id": "2148504",
-        "name": "Tyndale Christian School, Bus Bay, Douglas Rd",
-        "lat": "-33.781693",
-        "lon": "150.885508",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2148505",
         "name": "Blacktown Girls HS",
         "lat": "-33.763606",
@@ -192090,7 +192117,7 @@
     },
     {
         "id": "2148506",
-        "name": "Blacktown Boys School, Prince St",
+        "name": "Blacktown Boys High School, Prince St",
         "lat": "-33.763593",
         "lon": "150.911535",
         "productClass": [
@@ -203557,7 +203584,7 @@
     },
     {
         "id": "2161148",
-        "name": "Guildford Road opp Guildford Swimming Centre",
+        "name": "Guildford Rd opp Guildford Swimming Centre",
         "lat": "-33.851674",
         "lon": "150.974673",
         "productClass": [
@@ -214448,7 +214475,7 @@
     },
     {
         "id": "2170715",
-        "name": "Pine Road opp Boab Pl",
+        "name": "Pine Rd opp Boab Pl",
         "lat": "-33.953364",
         "lon": "150.883329",
         "productClass": [
@@ -215909,6 +215936,15 @@
         "name": "Bringelly Rd at Kelly St",
         "lat": "-33.948398",
         "lon": "150.792324",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2171210",
+        "name": "Bringelly Rd at Edmondson Ave",
+        "lat": "-33.950512",
+        "lon": "150.808289",
         "productClass": [
             5
         ]
@@ -228928,6 +228964,15 @@
         ]
     },
     {
+        "id": "2220298",
+        "name": "Hurstville Station, Butler Rd",
+        "lat": "-33.968301",
+        "lon": "151.101811",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2220300",
         "name": "Queens Rd after Romani Ave",
         "lat": "-33.959633",
@@ -234365,6 +234410,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234383,10 +234437,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -287143,7 +287215,7 @@
     },
     {
         "id": "2526158",
-        "name": "Rainbird Drive before West Dapto Road",
+        "name": "Rainbird Dr at West Dapto Rd",
         "lat": "-34.47891",
         "lon": "150.783081",
         "productClass": [
@@ -287152,7 +287224,7 @@
     },
     {
         "id": "2526159",
-        "name": "Stewards Drive after Sheaffes Road",
+        "name": "Stewards Dr after Sheaffes Rd",
         "lat": "-34.470335",
         "lon": "150.776224",
         "productClass": [
@@ -302551,7 +302623,7 @@
     },
     {
         "id": "2570406",
-        "name": "The Lanes Carpark near Macquarie Grove Road",
+        "name": "The Lanes Carpark, The Lanes",
         "lat": "-34.025997",
         "lon": "150.710311",
         "productClass": [
@@ -303220,6 +303292,15 @@
         "name": "970 Mulgoa Rd",
         "lat": "-33.821464",
         "lon": "150.652082",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2745135",
+        "name": "Mulgoa Rd opp Mulgoa Public School",
+        "lat": "-33.836354",
+        "lon": "150.651465",
         "productClass": [
             5
         ]
@@ -311192,7 +311273,7 @@
     },
     {
         "id": "2756280",
-        "name": "Cattai Rd at Halcrows Rd",
+        "name": "Wisemans Ferry Rd at Halcrows Rd",
         "lat": "-33.549965",
         "lon": "150.919183",
         "productClass": [
@@ -312299,7 +312380,7 @@
     },
     {
         "id": "2758661",
-        "name": "Old Bells Line of Rd before Bells Line of Rd",
+        "name": "Old Bells Line Of Road before Bells Line Of Road",
         "lat": "-33.549704",
         "lon": "150.673646",
         "productClass": [
@@ -313091,7 +313172,7 @@
     },
     {
         "id": "2760111",
-        "name": "35 Adelaide St",
+        "name": "41 Adelaide St",
         "lat": "-33.771931",
         "lon": "150.796619",
         "productClass": [
@@ -316252,7 +316333,7 @@
     },
     {
         "id": "2765154",
-        "name": "Terry Rd after Alan Street",
+        "name": "Terry Rd after Alan St",
         "lat": "-33.660167",
         "lon": "150.89542",
         "productClass": [
@@ -316918,7 +316999,7 @@
     },
     {
         "id": "2765238",
-        "name": "Norwest Christian College",
+        "name": "Norwest Christian college, McCulloch St",
         "lat": "-33.677973",
         "lon": "150.873055",
         "productClass": [
@@ -319826,7 +319907,7 @@
     },
     {
         "id": "2770136",
-        "name": "Carlisle Ave opp Calala St",
+        "name": "Carlisle Ave before Luxford Rd",
         "lat": "-33.762703",
         "lon": "150.817767",
         "productClass": [
@@ -320429,7 +320510,7 @@
     },
     {
         "id": "2770207",
-        "name": "Bethel Christian Assembly Church, Ropes Creek Rd",
+        "name": "Bethel Christian School, Ropes Creek Rd",
         "lat": "-33.774699",
         "lon": "150.811351",
         "productClass": [
@@ -323461,6 +323542,15 @@
         ]
     },
     {
+        "id": "2777218",
+        "name": "Hawkesbury Rd after Macquarie Rd",
+        "lat": "-33.698716",
+        "lon": "150.571199",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2777219",
         "name": "Huntley Grange Rd after Frazer Rd",
         "lat": "-33.691803",
@@ -323902,6 +323992,15 @@
         ]
     },
     {
+        "id": "2780153",
+        "name": "St Canices Primary School, Lurline St",
+        "lat": "-33.71637",
+        "lon": "150.312338",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2780154",
         "name": "Katoomba St opp Warialda St",
         "lat": "-33.721384",
@@ -323942,6 +324041,15 @@
         "name": "Gladstone Rd at Craigend St",
         "lat": "-33.716911",
         "lon": "150.341611",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2780162",
+        "name": "Katoomba Station, Goldsmith Pl",
+        "lat": "-33.711841",
+        "lon": "150.312485",
         "productClass": [
             5
         ]
@@ -324095,6 +324203,15 @@
         "name": "Morven Gardens Centre, Morven Rd",
         "lat": "-33.713223",
         "lon": "150.343417",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2780194",
+        "name": "Bathurst Rd at Katoomba St (Temporary Stop)",
+        "lat": "-33.712443",
+        "lon": "150.311355",
         "productClass": [
             5
         ]
