@@ -53776,6 +53776,15 @@
         ]
     },
     {
+        "id": "214376",
+        "name": "Birrong Station, Hudson Pde",
+        "lat": "-33.893047",
+        "lon": "151.023788",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "214393",
         "name": "Kibo Rd at Second Ave",
         "lat": "-33.88085",
@@ -126042,33 +126051,6 @@
         ]
     },
     {
-        "id": "233613",
-        "name": "Macqueen St opp Aberdeen Station",
-        "lat": "-32.166877",
-        "lon": "150.891551",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233619",
-        "name": "Aberdeen Station, Macqueen St",
-        "lat": "-32.166908",
-        "lon": "150.891782",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "233721",
-        "name": "Scone Station, Coach Stop",
-        "lat": "-32.046842",
-        "lon": "150.867091",
-        "productClass": [
-            7
-        ]
-    },
-    {
         "id": "234011",
         "name": "Maison Dieu Rd opp Country Acres Caravan Park",
         "lat": "-32.553803",
@@ -145180,7 +145162,7 @@
     },
     {
         "id": "274984",
-        "name": "Devlin Rd after Castlereagh Rd",
+        "name": "Castlereagh Rd after Devlin Rd",
         "lat": "-33.65466",
         "lon": "150.672808",
         "productClass": [
@@ -146576,7 +146558,7 @@
     },
     {
         "id": "275348",
-        "name": "Mills Rd at Bowmans Rd",
+        "name": "Mills Rd at Bowman Rd",
         "lat": "-33.65774",
         "lon": "150.74616",
         "productClass": [
@@ -146612,7 +146594,7 @@
     },
     {
         "id": "275352",
-        "name": "RAAF Base, Londonderry Rd",
+        "name": "Londonderry Rd opp RAAF Base",
         "lat": "-33.640555",
         "lon": "150.736568",
         "productClass": [
@@ -152564,15 +152546,6 @@
         "name": "Rooty Hill Rd South opp Evans Rd",
         "lat": "-33.779577",
         "lon": "150.850107",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "276617",
-        "name": "Rooty Hill Rd South at Church St",
-        "lat": "-33.782217",
-        "lon": "150.851723",
         "productClass": [
             5
         ]
@@ -216328,15 +216301,6 @@
         ]
     },
     {
-        "id": "2171270",
-        "name": "Edmondson Ave before Thirteenth Ave",
-        "lat": "-33.924654",
-        "lon": "150.813655",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2171272",
         "name": "Edmondson Ave before Fifteenth Ave",
         "lat": "-33.919569",
@@ -260717,6 +260681,15 @@
         ]
     },
     {
+        "id": "2283237",
+        "name": "Awaba Rd opp Awaba Station",
+        "lat": "-33.013504",
+        "lon": "151.542432",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2283238",
         "name": "Coal Point Rd before Laycock St",
         "lat": "-33.029668",
@@ -267054,7 +267027,7 @@
     },
     {
         "id": "2290165",
-        "name": "Warners Bay Rd after Gadaga Rd",
+        "name": "Warners Bay Rd after Cadaga Rd",
         "lat": "-32.970469",
         "lon": "151.688094",
         "productClass": [
@@ -309525,6 +309498,15 @@
         ]
     },
     {
+        "id": "2753110",
+        "name": "RAAF Base, Londonderry Rd",
+        "lat": "-33.640487",
+        "lon": "150.736707",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2753111",
         "name": "Muscharry Rd at Trahlee Rd",
         "lat": "-33.646233",
@@ -310913,7 +310895,7 @@
     },
     {
         "id": "2756238",
-        "name": "Pitt Town Rd opp Saunders Rd",
+        "name": "Pitt Town Rd at Pitt Town Bottoms Rd",
         "lat": "-33.604358",
         "lon": "150.857038",
         "productClass": [
@@ -311012,7 +310994,7 @@
     },
     {
         "id": "2756250",
-        "name": "Buckingham St at Cattai Rd",
+        "name": "Cattai Rd at Buckingham St",
         "lat": "-33.585576",
         "lon": "150.866763",
         "productClass": [
@@ -311021,7 +311003,7 @@
     },
     {
         "id": "2756251",
-        "name": "Pitt Town Dural Rd opp Old Stock Rte Rd",
+        "name": "Pitt Town Dural Rd opp Old Stock Route Rd",
         "lat": "-33.581943",
         "lon": "150.881657",
         "productClass": [
@@ -311660,7 +311642,7 @@
     },
     {
         "id": "2756351",
-        "name": "Cattai Rd opp Mitchell Rd",
+        "name": "Cattai Rd before Pitt Town Dural Rd",
         "lat": "-33.580444",
         "lon": "150.875077",
         "productClass": [
@@ -316081,7 +316063,7 @@
     },
     {
         "id": "2765123",
-        "name": "Scheyville Rd opp Dunns Rd",
+        "name": "Scheyville Rd after Dunns Rd",
         "lat": "-33.594836",
         "lon": "150.906965",
         "productClass": [
