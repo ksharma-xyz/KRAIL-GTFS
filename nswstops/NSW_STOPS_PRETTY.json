@@ -297,6 +297,15 @@
         ]
     },
     {
+        "id": "200089",
+        "name": "Martin Place Station, Macquarie St",
+        "lat": "-33.868087",
+        "lon": "151.212159",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "200091",
         "name": "Paddy's Market Light Rail, Darling Dr",
         "lat": "-33.880624",
@@ -21960,6 +21969,24 @@
         "name": "Calvert Ave before Fitzroy St",
         "lat": "-33.7655",
         "lon": "151.15002",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "207182",
+        "name": "Killara Station, Culworth Ave",
+        "lat": "-33.765872",
+        "lon": "151.16175",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "207183",
+        "name": "Culworth Ave opp Killara Station",
+        "lat": "-33.765815",
+        "lon": "151.161492",
         "productClass": [
             5
         ]
@@ -114503,15 +114530,6 @@
         ]
     },
     {
-        "id": "230479",
-        "name": "George St opp Greaves St",
-        "lat": "-32.900166",
-        "lon": "151.751496",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "230480",
         "name": "George St at Greaves St",
         "lat": "-32.900372",
@@ -123055,7 +123073,7 @@
     },
     {
         "id": "232523",
-        "name": "Wollombi Rd opp Chidgey St",
+        "name": "Wollombi Rd at Michael St",
         "lat": "-32.839978",
         "lon": "151.341417",
         "productClass": [
@@ -123595,7 +123613,7 @@
     },
     {
         "id": "232594",
-        "name": "Wollombi Rd opp Michael St",
+        "name": "Wollombi Rd at Chidgey St",
         "lat": "-32.840046",
         "lon": "151.340892",
         "productClass": [
@@ -146765,7 +146783,7 @@
     },
     {
         "id": "275374",
-        "name": "309 Grose Vale Rd",
+        "name": "Grose Vale Rd before Ploughmans Bvd",
         "lat": "-33.587507",
         "lon": "150.692669",
         "productClass": [
@@ -148295,7 +148313,7 @@
     },
     {
         "id": "275839",
-        "name": "Karambi Orchard Bullock Rd, Bells Line Of Road",
+        "name": "Bells Line of Rd opp Billpilpin Botanic Orchard",
         "lat": "-33.51234",
         "lon": "150.4926",
         "productClass": [
@@ -152546,6 +152564,15 @@
         "name": "Rooty Hill Rd South opp Evans Rd",
         "lat": "-33.779577",
         "lon": "150.850107",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "276617",
+        "name": "Rooty Hill Rd South at Church St",
+        "lat": "-33.782217",
+        "lon": "150.851723",
         "productClass": [
             5
         ]
@@ -158844,9 +158871,9 @@
     },
     {
         "id": "278069",
-        "name": "Lurline St at Merriwa St",
-        "lat": "-33.72014",
-        "lon": "150.31204",
+        "name": "Katoomba RSL, Lurline St",
+        "lat": "-33.71862",
+        "lon": "150.312286",
         "productClass": [
             5
         ]
@@ -158943,9 +158970,9 @@
     },
     {
         "id": "278080",
-        "name": "Lurline St before Waratah St",
-        "lat": "-33.717926",
-        "lon": "150.312284",
+        "name": "Lurline St opp Katoomba RSL",
+        "lat": "-33.718667",
+        "lon": "150.312154",
         "productClass": [
             5
         ]
@@ -160715,6 +160742,24 @@
         ]
     },
     {
+        "id": "2000198",
+        "name": "Sydney Hospital, Macquarie St",
+        "lat": "-33.868305",
+        "lon": "151.212276",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2000199",
+        "name": "Prince Albert Rd opp College St",
+        "lat": "-33.870127",
+        "lon": "151.212809",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2000220",
         "name": "Clarence St after Market St",
         "lat": "-33.870318",
@@ -160755,6 +160800,15 @@
         "name": "Town Hall House, Druitt St",
         "lat": "-33.872796",
         "lon": "151.204573",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2000287",
+        "name": "St Mary's Cathedral, College St",
+        "lat": "-33.87245",
+        "lon": "151.212891",
         "productClass": [
             5
         ]
@@ -165183,6 +165237,15 @@
         "name": "Railway St at Help St",
         "lat": "-33.795879",
         "lon": "151.180456",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2067137",
+        "name": "Victoria Ave opp Katherine St",
+        "lat": "-33.797403",
+        "lon": "151.179068",
         "productClass": [
             5
         ]
@@ -181687,8 +181750,8 @@
     {
         "id": "2137160",
         "name": "Parramatta Rd at Lloyd George Ave",
-        "lat": "-33.867385",
-        "lon": "151.097226",
+        "lat": "-33.867479",
+        "lon": "151.097483",
         "productClass": [
             5
         ]
@@ -200292,7 +200355,7 @@
         "id": "2155482",
         "name": "York Rd opp Radcliffe Pl",
         "lat": "-33.708193",
-        "lon": "150.966599",
+        "lon": "150.966528",
         "productClass": [
             5
         ]
@@ -200320,6 +200383,15 @@
         "name": "Commercial Rd before Windsor Rd",
         "lat": "-33.687276",
         "lon": "150.921229",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2155490",
+        "name": "York Rd at Meredith Ave",
+        "lat": "-33.708147",
+        "lon": "150.966326",
         "productClass": [
             5
         ]
@@ -215914,15 +215986,6 @@
         ]
     },
     {
-        "id": "2171210",
-        "name": "Bringelly Rd at Edmondson Ave",
-        "lat": "-33.950512",
-        "lon": "150.808289",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2171211",
         "name": "Eastwood Rd at Ingleburn Rd",
         "lat": "-33.953502",
@@ -223412,7 +223475,7 @@
     },
     {
         "id": "2200349",
-        "name": "Artegall St opp Bankstown Lidcombe Hospital",
+        "name": "Artegall St opp Bankstown-Lidcombe Hospital",
         "lat": "-33.932782",
         "lon": "151.022028",
         "productClass": [
@@ -228158,6 +228221,15 @@
         "name": "West Botany St opp Tabrett St",
         "lat": "-33.947162",
         "lon": "151.150193",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2216165",
+        "name": "Bay St after Princes Hwy",
+        "lat": "-33.953049",
+        "lon": "151.138237",
         "productClass": [
             5
         ]
@@ -234374,15 +234446,6 @@
         ]
     },
     {
-        "id": "2233259",
-        "name": "Waterfall Station, Access Rd, McKell Ave",
-        "lat": "-34.135244",
-        "lon": "150.99522",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234401,28 +234464,10 @@
         ]
     },
     {
-        "id": "2233262",
-        "name": "Engadine Station, Railway Pde",
-        "lat": "-34.067478",
-        "lon": "151.014839",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2233264",
-        "name": "Heathcote Station, Princes Hwy",
-        "lat": "-34.087582",
-        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -274721,6 +274766,15 @@
         ]
     },
     {
+        "id": "2320308",
+        "name": "Elgin St before Ken Tubman Dr (Temporary Stop)",
+        "lat": "-32.73361",
+        "lon": "151.55442",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2320310",
         "name": "Mount Dee Rd at Cessnock Rd",
         "lat": "-32.744613",
@@ -280914,15 +280968,6 @@
         ]
     },
     {
-        "id": "2325283",
-        "name": "Wollombi Rd at Chidgey St",
-        "lat": "-32.839768",
-        "lon": "151.341417",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2325284",
         "name": "Millfield Rd at Davis St",
         "lat": "-32.89116",
@@ -282259,6 +282304,51 @@
         "name": "Cessnock Correctional Centre, Lindsay Ave",
         "lat": "-32.81862",
         "lon": "151.340941",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2325467",
+        "name": "Mathieson St after Keelendi Rd",
+        "lat": "-32.848993",
+        "lon": "151.330076",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2325468",
+        "name": "Mathieson St bf Keelendi Rd",
+        "lat": "-32.849044",
+        "lon": "151.330287",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2325469",
+        "name": "Mathieson St before Lochinvar St",
+        "lat": "-32.846706",
+        "lon": "151.331645",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2325471",
+        "name": "Catherine St after O'Neill St",
+        "lat": "-32.843506",
+        "lon": "151.336289",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2325472",
+        "name": "Catherine St before Francis St",
+        "lat": "-32.841908",
+        "lon": "151.339305",
         "productClass": [
             5
         ]
@@ -302452,7 +302542,7 @@
     },
     {
         "id": "2570389",
-        "name": "Barkers Lodge Rd opp Banksia Pl",
+        "name": "Barkers Lodge Rd after Banksia Pl",
         "lat": "-34.084387",
         "lon": "150.507746",
         "productClass": [
@@ -309679,7 +309769,7 @@
     },
     {
         "id": "2753605",
-        "name": "Grose vale Rd after Cabbage Tree Rd",
+        "name": "Grose Vale Rd at Grose Vale Community Ctr Rd",
         "lat": "-33.581467",
         "lon": "150.654803",
         "productClass": [
@@ -311273,7 +311363,7 @@
     },
     {
         "id": "2756282",
-        "name": "Millers Rd at Cattai Rd",
+        "name": "Cattai Rd at Millers Rd",
         "lat": "-33.569222",
         "lon": "150.896047",
         "productClass": [
@@ -311768,7 +311858,7 @@
     },
     {
         "id": "2756409",
-        "name": "Creek Ridge Rd opp Spinks Rd",
+        "name": "Spinks Rd opp Creek Ridge Rd",
         "lat": "-33.538271",
         "lon": "150.794124",
         "productClass": [
@@ -312200,7 +312290,7 @@
     },
     {
         "id": "2758632",
-        "name": "East Kurrajong Rd and Tennyson Rd",
+        "name": "East Kurrajong Rd at Tennyson Rd",
         "lat": "-33.51431",
         "lon": "150.763545",
         "productClass": [
@@ -317067,16 +317157,6 @@
         "lon": "150.893334",
         "productClass": [
             5
-        ]
-    },
-    {
-        "id": "2765253",
-        "name": "Riverstone Station",
-        "lat": "-33.67922",
-        "lon": "150.860599",
-        "productClass": [
-            5,
-            1
         ]
     },
     {
@@ -330879,6 +330959,15 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
+        "productClass": [
+            1
+        ]
+    },
+    {
+        "id": "276510",
+        "name": "Riverstone Station",
+        "lat": "-33.6790433699",
+        "lon": "150.860267864",
         "productClass": [
             1
         ]
