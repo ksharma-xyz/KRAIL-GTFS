@@ -315,6 +315,15 @@
         ]
     },
     {
+        "id": "200093",
+        "name": "The Royal Botanic Gardens, Macquarie St",
+        "lat": "-33.86485",
+        "lon": "151.212741",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "200096",
         "name": "Bridge St at Gresham St",
         "lat": "-33.863625",
@@ -9727,6 +9736,15 @@
         "name": "Carr St at Byron St",
         "lat": "-33.921853",
         "lon": "151.250441",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "203464",
+        "name": "Dolphin St before Brook St",
+        "lat": "-33.918601",
+        "lon": "151.2553",
         "productClass": [
             5
         ]
@@ -48010,15 +48028,6 @@
         "name": "Australia Ave before Herb Elliott Ave",
         "lat": "-33.847545",
         "lon": "151.072605",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212733",
-        "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
-        "lat": "-33.850129",
-        "lon": "151.062624",
         "productClass": [
             5
         ]
@@ -123722,8 +123731,8 @@
     {
         "id": "232618",
         "name": "Cessnock Rd opp Edgeworth David Memorial Park",
-        "lat": "-32.810931",
-        "lon": "151.43285",
+        "lat": "-32.810953",
+        "lon": "151.433016",
         "productClass": [
             5
         ]
@@ -123875,8 +123884,8 @@
     {
         "id": "232642",
         "name": "Edgeworth David Memorial Park, Cessnock Rd",
-        "lat": "-32.811108",
-        "lon": "151.433104",
+        "lat": "-32.811082",
+        "lon": "151.432723",
         "productClass": [
             5
         ]
@@ -152569,15 +152578,6 @@
         ]
     },
     {
-        "id": "276617",
-        "name": "Rooty Hill Rd South at Church St",
-        "lat": "-33.782217",
-        "lon": "150.851723",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "276618",
         "name": "Rooty Hill Rd South opp Cawarra St",
         "lat": "-33.784868",
@@ -158960,15 +158960,6 @@
         ]
     },
     {
-        "id": "278079",
-        "name": "Lurline St opp Merriwa St",
-        "lat": "-33.719544",
-        "lon": "150.311961",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "278080",
         "name": "Lurline St opp Katoomba RSL",
         "lat": "-33.718667",
@@ -160764,6 +160755,15 @@
         "name": "Clarence St after Market St",
         "lat": "-33.870318",
         "lon": "151.205388",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2000226",
+        "name": "Macquarie St opp The Royal Botanic Gardens",
+        "lat": "-33.864722",
+        "lon": "151.212616",
         "productClass": [
             5
         ]
@@ -214521,8 +214521,8 @@
     {
         "id": "2170715",
         "name": "Pine Rd opp Boab Pl",
-        "lat": "-33.953364",
-        "lon": "150.883329",
+        "lat": "-33.953296",
+        "lon": "150.883168",
         "productClass": [
             5
         ]
@@ -234446,6 +234446,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234464,10 +234473,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
