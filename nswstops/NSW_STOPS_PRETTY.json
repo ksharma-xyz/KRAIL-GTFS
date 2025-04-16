@@ -16770,15 +16770,6 @@
         ]
     },
     {
-        "id": "206082",
-        "name": "Civic Park, Miller St",
-        "lat": "-33.833888",
-        "lon": "151.20779",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "206090",
         "name": "Pacific Hwy at Berry St",
         "lat": "-33.836944",
@@ -48028,6 +48019,15 @@
         "name": "Australia Ave before Herb Elliott Ave",
         "lat": "-33.847545",
         "lon": "151.072605",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "212733",
+        "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
+        "lat": "-33.850129",
+        "lon": "151.062624",
         "productClass": [
             5
         ]
@@ -225130,6 +225130,24 @@
         ]
     },
     {
+        "id": "2207267",
+        "name": "Slade Rd before Devon Rd",
+        "lat": "-33.932251",
+        "lon": "151.12523",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2207268",
+        "name": "Slade Rd at Hartill Law Ave",
+        "lat": "-33.931857",
+        "lon": "151.126007",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2208102",
         "name": "Homer St at Beaconsfield Ave",
         "lat": "-33.933088",
@@ -274793,15 +274811,6 @@
         ]
     },
     {
-        "id": "2320308",
-        "name": "Elgin St before Ken Tubman Dr (Temporary Stop)",
-        "lat": "-32.73361",
-        "lon": "151.55442",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2320310",
         "name": "Mount Dee Rd at Cessnock Rd",
         "lat": "-32.744613",
@@ -316540,7 +316549,7 @@
     },
     {
         "id": "2765166",
-        "name": "76 Terry Rd",
+        "name": "Terry Rd at Newmarket Pkwy",
         "lat": "-33.642294",
         "lon": "150.902787",
         "productClass": [
@@ -316549,7 +316558,7 @@
     },
     {
         "id": "2765167",
-        "name": "63 Terry Rd",
+        "name": "Terry Rd opp Newmarket Pkwy",
         "lat": "-33.642378",
         "lon": "150.902925",
         "productClass": [
