@@ -288,28 +288,10 @@
         ]
     },
     {
-        "id": "200088",
-        "name": "Darling Dr opp Convention Centre",
-        "lat": "-33.872503",
-        "lon": "151.198211",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "200089",
         "name": "Martin Place Station, Macquarie St",
         "lat": "-33.868087",
         "lon": "151.212159",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "200091",
-        "name": "Paddy's Market Light Rail, Darling Dr",
-        "lat": "-33.880624",
-        "lon": "151.20186",
         "productClass": [
             5
         ]
@@ -558,15 +540,6 @@
         ]
     },
     {
-        "id": "200914",
-        "name": "Convention Centre, Darling Dr",
-        "lat": "-33.872915",
-        "lon": "151.198343",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "200916",
         "name": "Harris St at Pyrmont Bridge Rd",
         "lat": "-33.871078",
@@ -648,15 +621,6 @@
         ]
     },
     {
-        "id": "200925",
-        "name": "Pyrmont Bridge Rd opp Wattle St",
-        "lat": "-33.873657",
-        "lon": "151.192631",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "200926",
         "name": "Harris St after Allen St",
         "lat": "-33.87302",
@@ -688,15 +652,6 @@
         "name": "Fish Market Light Rail, Miller St",
         "lat": "-33.870534",
         "lon": "151.192004",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "200930",
-        "name": "Pyrmont Bridge Rd at Wattle St",
-        "lat": "-33.873781",
-        "lon": "151.192714",
         "productClass": [
             5
         ]
@@ -11514,28 +11469,10 @@
         ]
     },
     {
-        "id": "203744",
-        "name": "Bridge Rd at Palmerston Rd",
-        "lat": "-33.877288",
-        "lon": "151.187754",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "203746",
         "name": "Sydney Secondary College Blackwattle Bay Campus, Taylor St",
         "lat": "-33.876211",
         "lon": "151.187947",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "203754",
-        "name": "Bridge Rd opp Burton St",
-        "lat": "-33.876957",
-        "lon": "151.187933",
         "productClass": [
             5
         ]
@@ -12432,15 +12369,6 @@
         ]
     },
     {
-        "id": "204057",
-        "name": "Foster St at Marion St",
-        "lat": "-33.884415",
-        "lon": "151.147503",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "204060",
         "name": "Balmain Rd opp Sydney Secondary College Leichhardt Campus",
         "lat": "-33.879581",
@@ -12508,15 +12436,6 @@
         "name": "Catherine St opp War Memorial Park",
         "lat": "-33.878943",
         "lon": "151.164331",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204069",
-        "name": "Hawthorne Light Rail, Darley Rd",
-        "lat": "-33.87921",
-        "lon": "151.147893",
         "productClass": [
             5
         ]
@@ -12616,42 +12535,6 @@
         "name": "Lilyfield Light Rail, Catherine St",
         "lat": "-33.873663",
         "lon": "151.164589",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204085",
-        "name": "Leichhardt North Light Rail, Darley Rd",
-        "lat": "-33.875308",
-        "lon": "151.154134",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204086",
-        "name": "Darley Rd opp Leichhardt North Light Rail",
-        "lat": "-33.875476",
-        "lon": "151.15401",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204087",
-        "name": "Darley Rd opp Hawthorne Light Rail",
-        "lat": "-33.879422",
-        "lon": "151.147998",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204088",
-        "name": "Foster St after Marion St",
-        "lat": "-33.884548",
-        "lon": "151.147687",
         "productClass": [
             5
         ]
@@ -15145,15 +15028,6 @@
         "name": "Fort Street High School, Parramatta Rd",
         "lat": "-33.889019",
         "lon": "151.153812",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "204914",
-        "name": "Old Canterbury Rd at Cook St",
-        "lat": "-33.890954",
-        "lon": "151.146389",
         "productClass": [
             5
         ]
@@ -48024,15 +47898,6 @@
         ]
     },
     {
-        "id": "212733",
-        "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
-        "lat": "-33.850129",
-        "lon": "151.062624",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "212735",
         "name": "Edwin Flack Ave opp Accor Stadium",
         "lat": "-33.846862",
@@ -48703,15 +48568,6 @@
         "name": "Prospect Rd opp Trinity Grammar School",
         "lat": "-33.899623",
         "lon": "151.132166",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "213037",
-        "name": "Old Canterbury Rd opp Rosedale St",
-        "lat": "-33.896377",
-        "lon": "151.137362",
         "productClass": [
             5
         ]
@@ -49819,15 +49675,6 @@
         "name": "Presbyterian Ladies College, Young St",
         "lat": "-33.881905",
         "lon": "151.114772",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "213275",
-        "name": "Paisley Rd after The Strand",
-        "lat": "-33.882846",
-        "lon": "151.114337",
         "productClass": [
             5
         ]
@@ -78131,33 +77978,6 @@
         "name": "Old Canterbury Rd at Windsor Rd",
         "lat": "-33.89557",
         "lon": "151.141167",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "220313",
-        "name": "Constitution Rd opp Arlington Light Rail",
-        "lat": "-33.901924",
-        "lon": "151.137533",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "220314",
-        "name": "Old Canterbury Rd at Rosedale St",
-        "lat": "-33.896534",
-        "lon": "151.137404",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "220315",
-        "name": "Arlington Light Rail, Constitution Rd",
-        "lat": "-33.90197",
-        "lon": "151.137703",
         "productClass": [
             5
         ]
@@ -123576,42 +123396,6 @@
         ]
     },
     {
-        "id": "232587",
-        "name": "Wollombi Rd before Victoria St",
-        "lat": "-32.848268",
-        "lon": "151.329306",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "232588",
-        "name": "Wollombi Rd opp Lochinvar St",
-        "lat": "-32.846151",
-        "lon": "151.330754",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "232589",
-        "name": "Wollombi Rd opp O'Neill St",
-        "lat": "-32.843903",
-        "lon": "151.333709",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "232591",
-        "name": "Wollombi Rd before Desmond St",
-        "lat": "-32.842332",
-        "lon": "151.336422",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "232593",
         "name": "Wollombi Rd at Francis St",
         "lat": "-32.840863",
@@ -126398,6 +126182,15 @@
         "name": "Illawarra Performing Arts Centre, Burelli St",
         "lat": "-34.426727",
         "lon": "150.898346",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "250035",
+        "name": "St Francis Xavier Cathedral, Crown St",
+        "lat": "-34.426074",
+        "lon": "150.901659",
         "productClass": [
             5
         ]
@@ -160589,15 +160382,6 @@
         ]
     },
     {
-        "id": "2000109",
-        "name": "Exhibition Centre, Darling Dr",
-        "lat": "-33.877191",
-        "lon": "151.199977",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2000111",
         "name": "Art Gallery of NSW, Art Gallery Rd",
         "lat": "-33.868581",
@@ -160656,6 +160440,15 @@
         "name": "Art Gallery Rd opp Art Gallery of NSW",
         "lat": "-33.867003",
         "lon": "151.21791",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2000148",
+        "name": "Exchange Square, Bridge St",
+        "lat": "-33.863564",
+        "lon": "151.208388",
         "productClass": [
             5
         ]
@@ -160809,15 +160602,6 @@
         "name": "St Mary's Cathedral, College St",
         "lat": "-33.87245",
         "lon": "151.212891",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2000308",
-        "name": "Central Station, Forecourt, Coach Bay 4",
-        "lat": "-33.883273",
-        "lon": "151.204442",
         "productClass": [
             5
         ]
@@ -223555,6 +223339,15 @@
         ]
     },
     {
+        "id": "2200361",
+        "name": "Bankstown Central, The Appian Way",
+        "lat": "-33.917173",
+        "lon": "151.035519",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2200363",
         "name": "Three Swallows Hotel, Rookwood Rd",
         "lat": "-33.906006",
@@ -279951,15 +279744,6 @@
         ]
     },
     {
-        "id": "2325118",
-        "name": "O'Neill St at Wollombi Rd",
-        "lat": "-32.843297",
-        "lon": "151.33516",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2325119",
         "name": "Macquarie Ave at Wangi Ave",
         "lat": "-32.842209",
@@ -285049,6 +284833,15 @@
         "name": "Crown St opp Wollongong Hospital",
         "lat": "-34.425408",
         "lon": "150.884065",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2500373",
+        "name": "Harbour St after Crown St",
+        "lat": "-34.426504",
+        "lon": "150.902131",
         "productClass": [
             5
         ]
@@ -317044,7 +316837,7 @@
     },
     {
         "id": "2765229",
-        "name": "127 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd before George St",
         "lat": "-33.643837",
         "lon": "150.908376",
         "productClass": [
@@ -317494,7 +317287,7 @@
     },
     {
         "id": "2765309",
-        "name": "Maguires Rd at McClymonts Rd",
+        "name": "McClymonts Rd at Maguires Rd",
         "lat": "-33.615967",
         "lon": "150.92539",
         "productClass": [
