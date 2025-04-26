@@ -3879,6 +3879,15 @@
         ]
     },
     {
+        "id": "202076",
+        "name": "Sydney Domestic Airport, Keith Smith Ave",
+        "lat": "-33.93307",
+        "lon": "151.17845",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "202078",
         "name": "Control Tower, General Holmes Dr",
         "lat": "-33.946903",
@@ -3901,6 +3910,15 @@
         "name": "Wentworth Ave at Alfred Lane",
         "lat": "-33.93405",
         "lon": "151.197498",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "202083",
+        "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
+        "lat": "-33.935337",
+        "lon": "151.165745",
         "productClass": [
             5
         ]
@@ -10137,15 +10155,6 @@
         ]
     },
     {
-        "id": "203551",
-        "name": "Banks Ave at Westfield Dr",
-        "lat": "-33.943383",
-        "lon": "151.222793",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "203552",
         "name": "Wentworth Ave after Page St",
         "lat": "-33.939776",
@@ -11581,33 +11590,6 @@
         "name": "Parramatta Rd opp Victoria Park",
         "lat": "-33.884591",
         "lon": "151.191996",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "203772",
-        "name": "Glebe Library, Wigram Rd",
-        "lat": "-33.877571",
-        "lon": "151.184882",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "203773",
-        "name": "Wigram Rd opp Glebe Library",
-        "lat": "-33.877516",
-        "lon": "151.184786",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "203775",
-        "name": "Federal Rd opp Pope Paul VI Reserve",
-        "lat": "-33.871957",
-        "lon": "151.180125",
         "productClass": [
             5
         ]
@@ -47934,15 +47916,6 @@
         ]
     },
     {
-        "id": "212739",
-        "name": "Olympic Bvd opp Herb Elliot Ave",
-        "lat": "-33.849167",
-        "lon": "151.067551",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "212744",
         "name": "Newington Public School, Newington Bvd",
         "lat": "-33.840818",
@@ -48001,24 +47974,6 @@
         "name": "Avenue of Asia before Holker St",
         "lat": "-33.832784",
         "lon": "151.05783",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212766",
-        "name": "Sydney Olympic Park, Aquatic Terminal",
-        "lat": "-33.849733",
-        "lon": "151.068303",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "212772",
-        "name": "Sydney Olympic Park, Plaza Terminal",
-        "lat": "-33.84294",
-        "lon": "151.062648",
         "productClass": [
             5
         ]
@@ -147188,7 +147143,7 @@
     },
     {
         "id": "275476",
-        "name": "Grose Vale Rd before Southern Cross Dr",
+        "name": "Grose Vale Rd before Highland Entrance",
         "lat": "-33.586912",
         "lon": "150.709643",
         "productClass": [
@@ -147197,7 +147152,7 @@
     },
     {
         "id": "275477",
-        "name": "Grose Vale Rd after Southern Cross Dr",
+        "name": "Grose Vale Rd after Highland Entrance",
         "lat": "-33.586942",
         "lon": "150.708834",
         "productClass": [
@@ -169499,15 +169454,6 @@
         ]
     },
     {
-        "id": "2086107",
-        "name": "Northern Beaches Hospital, Warringah Rd",
-        "lat": "-33.751662",
-        "lon": "151.231279",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2086108",
         "name": "Yarraman Ave at Bantry Bay Rd",
         "lat": "-33.759305",
@@ -172329,15 +172275,6 @@
         "name": "St Davids Ave at Pittwater Rd",
         "lat": "-33.752351",
         "lon": "151.286416",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2099208",
-        "name": "Pittwater Rd at Howard Ave",
-        "lat": "-33.752353",
-        "lon": "151.287304",
         "productClass": [
             5
         ]
@@ -195627,6 +195564,24 @@
         ]
     },
     {
+        "id": "2153417",
+        "name": "Solent Cct after Lakeside Cres",
+        "lat": "-33.730702",
+        "lon": "150.961731",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2153418",
+        "name": "Solent Cct before Maitland Pl",
+        "lat": "-33.730274",
+        "lon": "150.965335",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2153419",
         "name": "Solent Cct opp Maitland Pl",
         "lat": "-33.730416",
@@ -196135,6 +196090,15 @@
         "name": "Free Settlers Dr after Hodges Rd",
         "lat": "-33.722136",
         "lon": "150.94363",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2153488",
+        "name": "Peel Rd opp Crestwood Public School",
+        "lat": "-33.74806",
+        "lon": "150.97101",
         "productClass": [
             5
         ]
@@ -228082,15 +228046,6 @@
         ]
     },
     {
-        "id": "2216165",
-        "name": "Bay St after Princes Hwy",
-        "lat": "-33.953049",
-        "lon": "151.138237",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2216177",
         "name": "Bay St opp George St",
         "lat": "-33.954",
@@ -228851,15 +228806,6 @@
         "name": "Bridge St after Forest Rd",
         "lat": "-33.964537",
         "lon": "151.095092",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2220298",
-        "name": "Hurstville Station, Butler Rd",
-        "lat": "-33.968301",
-        "lon": "151.101811",
         "productClass": [
             5
         ]
@@ -298090,6 +298036,15 @@
         "name": "Campbelltown Rd after Blomfield Rd",
         "lat": "-33.982613",
         "lon": "150.846948",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2565646",
+        "name": "Ingleburn Rd opp Ingleburn Station",
+        "lat": "-33.997575",
+        "lon": "150.864973",
         "productClass": [
             5
         ]
