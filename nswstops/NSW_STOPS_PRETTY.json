@@ -288,24 +288,6 @@
         ]
     },
     {
-        "id": "200089",
-        "name": "Martin Place Station, Macquarie St",
-        "lat": "-33.868087",
-        "lon": "151.212159",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "200093",
-        "name": "The Royal Botanic Gardens, Macquarie St",
-        "lat": "-33.86485",
-        "lon": "151.212741",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "200096",
         "name": "Bridge St at Gresham St",
         "lat": "-33.863625",
@@ -9700,15 +9682,6 @@
         "name": "Carr St at Byron St",
         "lat": "-33.921853",
         "lon": "151.250441",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "203464",
-        "name": "Dolphin St before Brook St",
-        "lat": "-33.918601",
-        "lon": "151.2553",
         "productClass": [
             5
         ]
@@ -53623,15 +53596,6 @@
         ]
     },
     {
-        "id": "214376",
-        "name": "Birrong Station, Hudson Pde",
-        "lat": "-33.893047",
-        "lon": "151.023788",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "214393",
         "name": "Kibo Rd at Second Ave",
         "lat": "-33.88085",
@@ -67400,6 +67364,15 @@
         "name": "Seddon Park, Railway Pde",
         "lat": "-33.977086",
         "lon": "150.888088",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "216764",
+        "name": "Glenfield Station (Trackwork)",
+        "lat": "-33.971746",
+        "lon": "150.893951",
         "productClass": [
             5
         ]
@@ -155576,15 +155549,6 @@
         ]
     },
     {
-        "id": "277357",
-        "name": "Burfitt Pde opp Glenbrook Station",
-        "lat": "-33.769053",
-        "lon": "150.621795",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "277359",
         "name": "Mount St after Great Western Hwy",
         "lat": "-33.763593",
@@ -158258,15 +158222,6 @@
         ]
     },
     {
-        "id": "278013",
-        "name": "Katoomba St at Goyder Ave",
-        "lat": "-33.724405",
-        "lon": "150.309638",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "278015",
         "name": "Katoomba Falls Kiosk, Cliff Dr",
         "lat": "-33.726345",
@@ -160490,37 +160445,10 @@
         ]
     },
     {
-        "id": "2000198",
-        "name": "Sydney Hospital, Macquarie St",
-        "lat": "-33.868305",
-        "lon": "151.212276",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2000199",
-        "name": "Prince Albert Rd opp College St",
-        "lat": "-33.870127",
-        "lon": "151.212809",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2000220",
         "name": "Clarence St after Market St",
         "lat": "-33.870318",
         "lon": "151.205388",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2000226",
-        "name": "Macquarie St opp The Royal Botanic Gardens",
-        "lat": "-33.864722",
-        "lon": "151.212616",
         "productClass": [
             5
         ]
@@ -160557,15 +160485,6 @@
         "name": "Town Hall House, Druitt St",
         "lat": "-33.872796",
         "lon": "151.204573",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2000287",
-        "name": "St Mary's Cathedral, College St",
-        "lat": "-33.87245",
-        "lon": "151.212891",
         "productClass": [
             5
         ]
@@ -208614,6 +208533,15 @@
         ]
     },
     {
+        "id": "2166255",
+        "name": "Railway Pde before Cabramatta Rd W",
+        "lat": "-33.895859",
+        "lon": "150.938261",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2166257",
         "name": "Avenel St after Sackville St",
         "lat": "-33.881703",
@@ -213988,15 +213916,6 @@
         ]
     },
     {
-        "id": "2170636",
-        "name": "Moore St opp Collimore Park",
-        "lat": "-33.921811",
-        "lon": "150.917385",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2170644",
         "name": "Hill Rd at Clingan Ave",
         "lat": "-33.93401",
@@ -214847,6 +214766,15 @@
         "name": "Wonga Rd at Webster Rd",
         "lat": "-33.93392",
         "lon": "150.899855",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2170801",
+        "name": "Remembrance Ave opp Warwick Farm Station",
+        "lat": "-33.913314",
+        "lon": "150.934711",
         "productClass": [
             5
         ]
@@ -323433,15 +323361,6 @@
         ]
     },
     {
-        "id": "2777218",
-        "name": "Hawkesbury Rd after Macquarie Rd",
-        "lat": "-33.698716",
-        "lon": "150.571199",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2777219",
         "name": "Huntley Grange Rd after Frazer Rd",
         "lat": "-33.691803",
@@ -323883,15 +323802,6 @@
         ]
     },
     {
-        "id": "2780153",
-        "name": "St Canices Primary School, Lurline St",
-        "lat": "-33.71637",
-        "lon": "150.312338",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2780154",
         "name": "Katoomba St opp Warialda St",
         "lat": "-33.721384",
@@ -323932,15 +323842,6 @@
         "name": "Gladstone Rd at Craigend St",
         "lat": "-33.716911",
         "lon": "150.341611",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2780162",
-        "name": "Katoomba Station, Goldsmith Pl",
-        "lat": "-33.711841",
-        "lon": "150.312485",
         "productClass": [
             5
         ]
@@ -324094,15 +323995,6 @@
         "name": "Morven Gardens Centre, Morven Rd",
         "lat": "-33.713223",
         "lon": "150.343417",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2780194",
-        "name": "Bathurst Rd at Katoomba St (Temporary Stop)",
-        "lat": "-33.712443",
-        "lon": "150.311355",
         "productClass": [
             5
         ]
@@ -326690,15 +326582,6 @@
         "lon": "153.5930451",
         "productClass": [
             7
-        ]
-    },
-    {
-        "id": "214110",
-        "name": "Lidcombe Station",
-        "lat": "-33.864163",
-        "lon": "151.046199",
-        "productClass": [
-            1
         ]
     },
     {
@@ -330284,6 +330167,15 @@
         "name": "Lawson Station",
         "lat": "-33.7191448467",
         "lon": "150.429824445",
+        "productClass": [
+            1
+        ]
+    },
+    {
+        "id": "214110",
+        "name": "Lidcombe Station",
+        "lat": "-33.8638893463",
+        "lon": "151.045389501",
         "productClass": [
             1
         ]
