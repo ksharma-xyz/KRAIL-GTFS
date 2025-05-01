@@ -16608,15 +16608,6 @@
         ]
     },
     {
-        "id": "206094",
-        "name": "Waverton Station, Crows Nest Rd",
-        "lat": "-33.837018",
-        "lon": "151.198083",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "206113",
         "name": "Milsons Point Station, Broughton St",
         "lat": "-33.846624",
@@ -21816,24 +21807,6 @@
         "name": "Calvert Ave before Fitzroy St",
         "lat": "-33.7655",
         "lon": "151.15002",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207182",
-        "name": "Killara Station, Culworth Ave",
-        "lat": "-33.765872",
-        "lon": "151.16175",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207183",
-        "name": "Culworth Ave opp Killara Station",
-        "lat": "-33.765815",
-        "lon": "151.161492",
         "productClass": [
             5
         ]
@@ -49617,6 +49590,15 @@
         ]
     },
     {
+        "id": "213275",
+        "name": "Paisley Rd after The Strand",
+        "lat": "-33.882846",
+        "lon": "151.114337",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "213311",
         "name": "Coronation Pde opp Tangarra St",
         "lat": "-33.894706",
@@ -72379,6 +72361,24 @@
         "name": "Edmondson Ave after Fourteenth Ave",
         "lat": "-33.922327",
         "lon": "150.814291",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "217983",
+        "name": "Edmondson Ave at Ninth Ave",
+        "lat": "-33.936622",
+        "lon": "150.811414",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "217985",
+        "name": "St Anthonys Catholic Church, Edmondson Ave",
+        "lat": "-33.928047",
+        "lon": "150.813113",
         "productClass": [
             5
         ]
@@ -126124,15 +126124,6 @@
         ]
     },
     {
-        "id": "250035",
-        "name": "St Francis Xavier Cathedral, Crown St",
-        "lat": "-34.426074",
-        "lon": "150.901659",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "250036",
         "name": "Bourke St at Ocean St",
         "lat": "-34.414877",
@@ -136547,6 +136538,15 @@
         ]
     },
     {
+        "id": "255640",
+        "name": "Kelvin Park Dr at Kelvin Park Dr",
+        "lat": "-33.936352",
+        "lon": "150.740059",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "255712",
         "name": "Fairbank Dr after Lillydale Ave",
         "lat": "-34.015821",
@@ -137118,6 +137118,15 @@
         "name": "Bringelly Rd after Masterfield St",
         "lat": "-33.943648",
         "lon": "150.757004",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "255791",
+        "name": "Bringelly Rd after King St",
+        "lat": "-33.947404",
+        "lon": "150.783925",
         "productClass": [
             5
         ]
@@ -163568,15 +163577,6 @@
         ]
     },
     {
-        "id": "2065131",
-        "name": "St Leonards Station, Pacific Hwy (NightRide)",
-        "lat": "-33.823221",
-        "lon": "151.194545",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2065132",
         "name": "Pacific Hwy before Falcon St",
         "lat": "-33.827007",
@@ -163653,24 +163653,6 @@
         "name": "Ernest St after Miller St",
         "lat": "-33.826926",
         "lon": "151.208755",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065147",
-        "name": "Herbert St at Pacific Hwy",
-        "lat": "-33.823207",
-        "lon": "151.193662",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065150",
-        "name": "Milner Cres at Shirley Rd",
-        "lat": "-33.831924",
-        "lon": "151.192753",
         "productClass": [
             5
         ]
@@ -164931,15 +164913,6 @@
         "name": "Railway St at Help St",
         "lat": "-33.795879",
         "lon": "151.180456",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2067137",
-        "name": "Victoria Ave opp Katherine St",
-        "lat": "-33.797403",
-        "lon": "151.179068",
         "productClass": [
             5
         ]
@@ -216040,15 +216013,6 @@
         ]
     },
     {
-        "id": "2171265",
-        "name": "St Anthonys Catholic Church, Edmondson Ave",
-        "lat": "-33.930111",
-        "lon": "150.812714",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2171266",
         "name": "Eleventh Ave at Twentyninth Ave",
         "lat": "-33.93094",
@@ -216944,15 +216908,6 @@
         "name": "Horningsea Park Dr opp Carruthers Dr",
         "lat": "-33.947987",
         "lon": "150.846344",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2171451",
-        "name": "Edmondson Ave at Ninth Ave",
-        "lat": "-33.936182",
-        "lon": "150.811483",
         "productClass": [
             5
         ]
@@ -234176,15 +234131,6 @@
         ]
     },
     {
-        "id": "2233259",
-        "name": "Waterfall Station, Access Rd, McKell Ave",
-        "lat": "-34.135244",
-        "lon": "150.99522",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234203,28 +234149,10 @@
         ]
     },
     {
-        "id": "2233262",
-        "name": "Engadine Station, Railway Pde",
-        "lat": "-34.067478",
-        "lon": "151.014839",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2233264",
-        "name": "Heathcote Station, Princes Hwy",
-        "lat": "-34.087582",
-        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -284757,15 +284685,6 @@
         ]
     },
     {
-        "id": "2500373",
-        "name": "Harbour St after Crown St",
-        "lat": "-34.426504",
-        "lon": "150.902131",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2500405",
         "name": "Ralph Black Dr before Montague St",
         "lat": "-34.406367",
@@ -320644,7 +320563,7 @@
     },
     {
         "id": "2770245",
-        "name": "Belmore Ave opp Bulolo Dr",
+        "name": "RAAF Memorial Park, Belmore Ave",
         "lat": "-33.75616",
         "lon": "150.815305",
         "productClass": [
