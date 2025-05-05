@@ -16608,6 +16608,15 @@
         ]
     },
     {
+        "id": "206094",
+        "name": "Waverton Station, Crows Nest Rd",
+        "lat": "-33.837018",
+        "lon": "151.198083",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "206113",
         "name": "Milsons Point Station, Broughton St",
         "lat": "-33.846624",
@@ -18241,15 +18250,6 @@
         "name": "Longueville Rd opp Currambena Public School",
         "lat": "-33.821488",
         "lon": "151.171159",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "206640",
-        "name": "Longueville Rd opp River Rd West",
-        "lat": "-33.822691",
-        "lon": "151.172052",
         "productClass": [
             5
         ]
@@ -51813,6 +51813,15 @@
         ]
     },
     {
+        "id": "213858",
+        "name": "Rhodes Station, Blaxland Rd",
+        "lat": "-33.830698",
+        "lon": "151.087315",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "213859",
         "name": "Rhodes Waterside, Rider Bvd",
         "lat": "-33.834262",
@@ -51889,6 +51898,15 @@
         "name": "Walker St opp Meredith Ave",
         "lat": "-33.82452",
         "lon": "151.088079",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "213879",
+        "name": "Blaxland Rd opp Rhodes Station",
+        "lat": "-33.830615",
+        "lon": "151.087496",
         "productClass": [
             5
         ]
@@ -64501,6 +64519,15 @@
         "name": "Woodville Rd opp Kirrang Ave",
         "lat": "-33.885738",
         "lon": "150.975468",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "216313",
+        "name": "Wattle Ave at Waterside Cres",
+        "lat": "-33.88452",
+        "lon": "150.962241",
         "productClass": [
             5
         ]
@@ -90863,9 +90890,9 @@
     },
     {
         "id": "222895",
-        "name": "Kingsway before Kiora Rd",
-        "lat": "-34.034348",
-        "lon": "151.10278",
+        "name": "Kingsway at Kiora Rd",
+        "lat": "-34.034336",
+        "lon": "151.102567",
         "productClass": [
             5
         ]
@@ -163577,6 +163604,15 @@
         ]
     },
     {
+        "id": "2065131",
+        "name": "St Leonards Station, Pacific Hwy (NightRide)",
+        "lat": "-33.823221",
+        "lon": "151.194545",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2065132",
         "name": "Pacific Hwy before Falcon St",
         "lat": "-33.827007",
@@ -163653,6 +163689,24 @@
         "name": "Ernest St after Miller St",
         "lat": "-33.826926",
         "lon": "151.208755",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2065147",
+        "name": "Herbert St at Pacific Hwy",
+        "lat": "-33.823207",
+        "lon": "151.193662",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2065150",
+        "name": "Milner Cres at Shirley Rd",
+        "lat": "-33.831924",
+        "lon": "151.192753",
         "productClass": [
             5
         ]
@@ -164913,6 +164967,15 @@
         "name": "Railway St at Help St",
         "lat": "-33.795879",
         "lon": "151.180456",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2067137",
+        "name": "Victoria Ave opp Katherine St",
+        "lat": "-33.797403",
+        "lon": "151.179068",
         "productClass": [
             5
         ]
@@ -195987,6 +196050,24 @@
         ]
     },
     {
+        "id": "2153486",
+        "name": "Unaipon Ave before Mawson Ave",
+        "lat": "-33.728899",
+        "lon": "150.943298",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2153487",
+        "name": "Unaipon Ave after Mawson Ave",
+        "lat": "-33.729124",
+        "lon": "150.943064",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2153488",
         "name": "Peel Rd opp Crestwood Public School",
         "lat": "-33.74806",
@@ -221944,6 +222025,15 @@
         ]
     },
     {
+        "id": "2200114",
+        "name": "Bankstown Central",
+        "lat": "-33.915956",
+        "lon": "151.033937",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2200147",
         "name": "Rookwood Rd opp Three Swallows Hotel",
         "lat": "-33.905805",
@@ -229820,19 +229910,19 @@
         ]
     },
     {
-        "id": "2228106",
-        "name": "Kingsway at Kiora Rd",
-        "lat": "-34.034293",
-        "lon": "151.101965",
+        "id": "2228107",
+        "name": "Kingsway after Kiora Rd",
+        "lat": "-34.034124",
+        "lon": "151.102738",
         "productClass": [
             5
         ]
     },
     {
-        "id": "2228107",
-        "name": "Kingsway after Kiora Rd",
-        "lat": "-34.034124",
-        "lon": "151.102738",
+        "id": "2228108",
+        "name": "Kingsway before Kiora Rd",
+        "lat": "-34.034434",
+        "lon": "151.103451",
         "productClass": [
             5
         ]
@@ -271364,6 +271454,15 @@
         ]
     },
     {
+        "id": "2315158",
+        "name": "Tomaree Sports Field, Palmer Way",
+        "lat": "-32.737787",
+        "lon": "152.120599",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2315159",
         "name": "Tomaree St before Church St",
         "lat": "-32.72322",
@@ -289961,8 +290060,8 @@
     {
         "id": "2529142",
         "name": "Southern Cross Bvd after Hinchinbrook Dr",
-        "lat": "-34.593464",
-        "lon": "150.855746",
+        "lat": "-34.594006",
+        "lon": "150.855153",
         "productClass": [
             5
         ]
@@ -316216,7 +316315,7 @@
     },
     {
         "id": "2765169",
-        "name": "Richmond Rd after Quarry Rd",
+        "name": "Richmond Rd after Hawthorne Ave",
         "lat": "-33.711506",
         "lon": "150.841418",
         "productClass": [
