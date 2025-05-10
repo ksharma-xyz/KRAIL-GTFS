@@ -738,6 +738,15 @@
         ]
     },
     {
+        "id": "201019",
+        "name": "Prince Alfred Park Pool, Chalmers St",
+        "lat": "-33.887406",
+        "lon": "151.20649",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "201021",
         "name": "Crown St at Miles St",
         "lat": "-33.889517",
@@ -12486,6 +12495,15 @@
         ]
     },
     {
+        "id": "204088",
+        "name": "Foster St after Marion St",
+        "lat": "-33.884548",
+        "lon": "151.147687",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "204094",
         "name": "Balmain Rd after Lilyfield Rd",
         "lat": "-33.874006",
@@ -21807,6 +21825,24 @@
         "name": "Calvert Ave before Fitzroy St",
         "lat": "-33.7655",
         "lon": "151.15002",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "207182",
+        "name": "Killara Station, Culworth Ave",
+        "lat": "-33.765872",
+        "lon": "151.16175",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "207183",
+        "name": "Culworth Ave opp Killara Station",
+        "lat": "-33.765815",
+        "lon": "151.161492",
         "productClass": [
             5
         ]
@@ -47835,6 +47871,15 @@
         ]
     },
     {
+        "id": "212733",
+        "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
+        "lat": "-33.850129",
+        "lon": "151.062624",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "212735",
         "name": "Edwin Flack Ave opp Accor Stadium",
         "lat": "-33.846862",
@@ -64524,15 +64569,6 @@
         ]
     },
     {
-        "id": "216313",
-        "name": "Wattle Ave at Waterside Cres",
-        "lat": "-33.88452",
-        "lon": "150.962241",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "216314",
         "name": "Hume Hwy at Belar Ave Path",
         "lat": "-33.892848",
@@ -67378,15 +67414,6 @@
         ]
     },
     {
-        "id": "216764",
-        "name": "Glenfield Station (Trackwork)",
-        "lat": "-33.971746",
-        "lon": "150.893951",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "216766",
         "name": "Belmont Rd after Canterbury Rd",
         "lat": "-33.974857",
@@ -69350,7 +69377,7 @@
     },
     {
         "id": "217165",
-        "name": "Lee & Clark Rd after Devonshire Rd",
+        "name": "Lee And Clark Rd after Devonshire Rd",
         "lat": "-33.910029",
         "lon": "150.786603",
         "productClass": [
@@ -69359,7 +69386,7 @@
     },
     {
         "id": "217166",
-        "name": "Herbert St opp Lee Clark Rd",
+        "name": "Herbert St opp Lee And Clark Rd",
         "lat": "-33.90872",
         "lon": "150.779543",
         "productClass": [
@@ -69521,7 +69548,7 @@
     },
     {
         "id": "217188",
-        "name": "Lee & Clark Rd after Herbert St",
+        "name": "Lee And Clark Rd after Herbert St",
         "lat": "-33.909063",
         "lon": "150.779924",
         "productClass": [
@@ -69530,7 +69557,7 @@
     },
     {
         "id": "217189",
-        "name": "Lee & Clark Rd before Devonshire Rd",
+        "name": "Lee And Clark Rd before Devonshire Rd",
         "lat": "-33.909921",
         "lon": "150.78668",
         "productClass": [
@@ -72403,9 +72430,9 @@
     },
     {
         "id": "217985",
-        "name": "St Anthonys Catholic Church, Edmondson Ave",
-        "lat": "-33.928047",
-        "lon": "150.813113",
+        "name": "Edmondson Ave after Twelfth Ave",
+        "lat": "-33.928065",
+        "lon": "150.81312",
         "productClass": [
             5
         ]
@@ -125826,6 +125853,33 @@
         ]
     },
     {
+        "id": "233613",
+        "name": "Macqueen St opp Aberdeen Station",
+        "lat": "-32.166877",
+        "lon": "150.891551",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "233619",
+        "name": "Aberdeen Station, Macqueen St",
+        "lat": "-32.166908",
+        "lon": "150.891782",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "233721",
+        "name": "Scone Station, Coach Stop",
+        "lat": "-32.046842",
+        "lon": "150.867091",
+        "productClass": [
+            7
+        ]
+    },
+    {
         "id": "234011",
         "name": "Maison Dieu Rd opp Country Acres Caravan Park",
         "lat": "-32.553803",
@@ -142642,9 +142696,9 @@
     },
     {
         "id": "257113",
-        "name": "Turnaround Rotherwood and Mt Hercules Rd",
-        "lat": "-34.138817",
-        "lon": "150.634282",
+        "name": "Mount Hercules Rd opp Rotherwood Rd",
+        "lat": "-34.138778",
+        "lon": "150.634233",
         "productClass": [
             5
         ]
@@ -149780,7 +149834,7 @@
     },
     {
         "id": "276149",
-        "name": "Special School Bottles Rd at Rooty Hill Rd N",
+        "name": "Plumpton House School, Bottles Rd",
         "lat": "-33.749908",
         "lon": "150.84104",
         "productClass": [
@@ -149789,18 +149843,18 @@
     },
     {
         "id": "276150",
-        "name": "Plumpton Public School Bottles Rd",
-        "lat": "-33.749515",
-        "lon": "150.839215",
+        "name": "Plumpton Public School, Bottles Rd",
+        "lat": "-33.749494",
+        "lon": "150.839223",
         "productClass": [
             5
         ]
     },
     {
         "id": "276151",
-        "name": "Plumpton Public Bottles Rd near Rooty Hill",
-        "lat": "-33.749624",
-        "lon": "150.839124",
+        "name": "Bottles Rd opp Plumpton Public School",
+        "lat": "-33.749608",
+        "lon": "150.83904",
         "productClass": [
             5
         ]
@@ -158276,6 +158330,15 @@
         ]
     },
     {
+        "id": "278018",
+        "name": "Katoomba St at Birdwood Ave",
+        "lat": "-33.727436",
+        "lon": "150.308871",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "278019",
         "name": "Katoomba St opp Goyder Ave",
         "lat": "-33.724461",
@@ -160395,15 +160458,6 @@
         "name": "Art Gallery Rd opp Art Gallery of NSW",
         "lat": "-33.867003",
         "lon": "151.21791",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2000148",
-        "name": "Exchange Square, Bridge St",
-        "lat": "-33.863564",
-        "lon": "151.208388",
         "productClass": [
             5
         ]
@@ -199309,7 +199363,7 @@
     },
     {
         "id": "2155375",
-        "name": "Withers Rd before Barry Rd",
+        "name": "Withers Rd at Sundown Rd",
         "lat": "-33.686423",
         "lon": "150.948389",
         "productClass": [
@@ -204089,17 +204143,17 @@
     {
         "id": "2162155",
         "name": "Hector St at Virgil Ave",
-        "lat": "-33.881532",
-        "lon": "151.007187",
+        "lat": "-33.88141",
+        "lon": "151.007199",
         "productClass": [
             5
         ]
     },
     {
         "id": "2162156",
-        "name": "Hector St and Virgil Av",
-        "lat": "-33.881712",
-        "lon": "151.006971",
+        "name": "Hector St at Virgil Av",
+        "lat": "-33.881982",
+        "lon": "151.006918",
         "productClass": [
             5
         ]
@@ -208582,15 +208636,6 @@
         "name": "Bartley St before Railway Pde",
         "lat": "-33.890353",
         "lon": "150.939478",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2166255",
-        "name": "Railway Pde before Cabramatta Rd W",
-        "lat": "-33.895859",
-        "lon": "150.938261",
         "productClass": [
             5
         ]
@@ -214825,15 +214870,6 @@
         ]
     },
     {
-        "id": "2170801",
-        "name": "Remembrance Ave opp Warwick Farm Station",
-        "lat": "-33.913314",
-        "lon": "150.934711",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2170802",
         "name": "Hume Hwy opp Warwick Farm Station (NightRide)",
         "lat": "-33.912984",
@@ -216089,6 +216125,15 @@
         "name": "Edmondson Ave at Thirteenth Ave",
         "lat": "-33.924654",
         "lon": "150.813807",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2171265",
+        "name": "St Anthonys Catholic Church, Edmondson Ave",
+        "lat": "-33.930111",
+        "lon": "150.812714",
         "productClass": [
             5
         ]
@@ -271454,15 +271499,6 @@
         ]
     },
     {
-        "id": "2315158",
-        "name": "Tomaree Sports Field, Palmer Way",
-        "lat": "-32.737787",
-        "lon": "152.120599",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2315159",
         "name": "Tomaree St before Church St",
         "lat": "-32.72322",
@@ -276912,6 +276948,15 @@
         "name": "Beresfield Station, Addison St",
         "lat": "-32.799638",
         "lon": "151.658314",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2322212",
+        "name": "Maitland Rd opp Hexham Station",
+        "lat": "-32.828647",
+        "lon": "151.684842",
         "productClass": [
             5
         ]
@@ -297655,7 +297700,7 @@
     },
     {
         "id": "2565138",
-        "name": "Lancaster before Aero",
+        "name": "Lancaster St before Aero Rd",
         "lat": "-33.992739",
         "lon": "150.863151",
         "productClass": [
@@ -297982,15 +298027,6 @@
         "name": "Campbelltown Rd after Blomfield Rd",
         "lat": "-33.982613",
         "lon": "150.846948",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2565646",
-        "name": "Ingleburn Rd opp Ingleburn Station",
-        "lat": "-33.997575",
-        "lon": "150.864973",
         "productClass": [
             5
         ]
@@ -316935,6 +316971,16 @@
         ]
     },
     {
+        "id": "2765253",
+        "name": "Riverstone Station",
+        "lat": "-33.67922",
+        "lon": "150.860599",
+        "productClass": [
+            5,
+            1
+        ]
+    },
+    {
         "id": "2765254",
         "name": "Robert St before Garfield Rd W",
         "lat": "-33.690994",
@@ -318343,6 +318389,24 @@
         "name": "Garfield Rd East after Clarke St",
         "lat": "-33.671683",
         "lon": "150.876256",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2765465",
+        "name": "Flametree Dr before Monotreme St",
+        "lat": "-33.70021",
+        "lon": "150.79355",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2765466",
+        "name": "Flametree Dr before Planthopper St",
+        "lat": "-33.700207",
+        "lon": "150.793404",
         "productClass": [
             5
         ]
@@ -323541,8 +323605,17 @@
         ]
     },
     {
+        "id": "2780118",
+        "name": "Gordon Falls Picnic Area, Olympian Pde",
+        "lat": "-33.72542",
+        "lon": "150.331929",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2780119",
-        "name": "Olympian Pde opp Balmoral Rd",
+        "name": "Elysian Rock Walk, Olympian Pde",
         "lat": "-33.725159",
         "lon": "150.329855",
         "productClass": [
@@ -330698,15 +330771,6 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "276510",
-        "name": "Riverstone Station",
-        "lat": "-33.6790433699",
-        "lon": "150.860267864",
         "productClass": [
             1
         ]
