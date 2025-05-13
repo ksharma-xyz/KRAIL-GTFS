@@ -3870,15 +3870,6 @@
         ]
     },
     {
-        "id": "202076",
-        "name": "Sydney Domestic Airport, Keith Smith Ave",
-        "lat": "-33.93307",
-        "lon": "151.17845",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "202078",
         "name": "Control Tower, General Holmes Dr",
         "lat": "-33.946903",
@@ -3901,15 +3892,6 @@
         "name": "Wentworth Ave at Alfred Lane",
         "lat": "-33.93405",
         "lon": "151.197498",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "202083",
-        "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-        "lat": "-33.935337",
-        "lon": "151.165745",
         "productClass": [
             5
         ]
@@ -38548,8 +38530,8 @@
     {
         "id": "210774",
         "name": "Bilambee Ave opp Bilga Ave",
-        "lat": "-33.64245",
-        "lon": "151.315756",
+        "lat": "-33.642581",
+        "lon": "151.316145",
         "productClass": [
             5
         ]
@@ -44617,6 +44599,33 @@
         "name": "Beecroft Rd after Hannah St",
         "lat": "-33.748775",
         "lon": "151.064158",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "211978",
+        "name": "Wongala Cres opp Beecroft Station",
+        "lat": "-33.749663",
+        "lon": "151.065817",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "211979",
+        "name": "The Crescent opp Cheltenham Station",
+        "lat": "-33.755805",
+        "lon": "151.078007",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "211980",
+        "name": "Cheltenham Station, The Crescent",
+        "lat": "-33.75588",
+        "lon": "151.078429",
         "productClass": [
             5
         ]
@@ -76453,7 +76462,7 @@
     },
     {
         "id": "219789",
-        "name": "Arundle Rd opp Bass Hill High School",
+        "name": "Arundle Rd opp Bass High School",
         "lat": "-33.898118",
         "lon": "150.991404",
         "productClass": [
@@ -76462,7 +76471,7 @@
     },
     {
         "id": "219790",
-        "name": "Bass Hill High School, Arundle Rd",
+        "name": "Bass High School, Arundle Rd",
         "lat": "-33.898307",
         "lon": "150.991007",
         "productClass": [
@@ -126200,6 +126209,15 @@
         "name": "Illawarra Performing Arts Centre, Burelli St",
         "lat": "-34.426727",
         "lon": "150.898346",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "250035",
+        "name": "St Francis Xavier Cathedral, Crown St",
+        "lat": "-34.426074",
+        "lon": "150.901659",
         "productClass": [
             5
         ]
@@ -196122,15 +196140,6 @@
         ]
     },
     {
-        "id": "2153488",
-        "name": "Peel Rd opp Crestwood Public School",
-        "lat": "-33.74806",
-        "lon": "150.97101",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2154100",
         "name": "Windsor Rd opp Norwest Bvd",
         "lat": "-33.732155",
@@ -224950,24 +224959,6 @@
         ]
     },
     {
-        "id": "2207267",
-        "name": "Slade Rd before Devon Rd",
-        "lat": "-33.932251",
-        "lon": "151.12523",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207268",
-        "name": "Slade Rd at Hartill Law Ave",
-        "lat": "-33.931857",
-        "lon": "151.126007",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2208102",
         "name": "Homer St at Beaconsfield Ave",
         "lat": "-33.933088",
@@ -238986,6 +238977,15 @@
         "name": "Donnison St before Mann St",
         "lat": "-33.426813",
         "lon": "151.341247",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2250632",
+        "name": "Gosford Station, Showground Rd",
+        "lat": "-33.423324",
+        "lon": "151.341356",
         "productClass": [
             5
         ]
@@ -257479,8 +257479,8 @@
     {
         "id": "2280235",
         "name": "Floraville Rd opp Royal Institute for Deaf & Blind Children",
-        "lat": "-33.005284",
-        "lon": "151.665196",
+        "lat": "-33.005266",
+        "lon": "151.665097",
         "productClass": [
             5
         ]
@@ -257506,8 +257506,8 @@
     {
         "id": "2280238",
         "name": "Floraville Rd opp Floraville Public School",
-        "lat": "-33.014733",
-        "lon": "151.664904",
+        "lat": "-33.014786",
+        "lon": "151.664824",
         "productClass": [
             5
         ]
