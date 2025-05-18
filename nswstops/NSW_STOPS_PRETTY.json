@@ -4392,6 +4392,15 @@
         ]
     },
     {
+        "id": "202220",
+        "name": "York Rd after Oxford St",
+        "lat": "-33.890886",
+        "lon": "151.241928",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "202221",
         "name": "Bourke St after Cuthbert St",
         "lat": "-33.897353",
@@ -4642,6 +4651,15 @@
         "productClass": [
             5,
             1
+        ]
+    },
+    {
+        "id": "202250",
+        "name": "York Rd before Oxford St",
+        "lat": "-33.890962",
+        "lon": "151.241776",
+        "productClass": [
+            5
         ]
     },
     {
@@ -49644,15 +49662,6 @@
         ]
     },
     {
-        "id": "213275",
-        "name": "Paisley Rd after The Strand",
-        "lat": "-33.882846",
-        "lon": "151.114337",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "213311",
         "name": "Coronation Pde opp Tangarra St",
         "lat": "-33.894706",
@@ -50287,6 +50296,15 @@
         "name": "Burwood Rd before Parramatta Rd",
         "lat": "-33.869997",
         "lon": "151.105049",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "213463",
+        "name": "Shaftesbury Rd opp Wyalong St",
+        "lat": "-33.879877",
+        "lon": "151.106472",
         "productClass": [
             5
         ]
@@ -63149,8 +63167,8 @@
     {
         "id": "216099",
         "name": "Hilltop Road Public School, Hilltop Rd",
-        "lat": "-33.826571",
-        "lon": "150.974087",
+        "lat": "-33.826534",
+        "lon": "150.974374",
         "productClass": [
             5
         ]
@@ -70954,8 +70972,8 @@
     {
         "id": "217666",
         "name": "Cowpasture Rd after Bossley Rd",
-        "lat": "-33.858821",
-        "lon": "150.87347",
+        "lat": "-33.858962",
+        "lon": "150.873423",
         "productClass": [
             5
         ]
@@ -76049,8 +76067,8 @@
     {
         "id": "219736",
         "name": "Johnston Rd opp Walther Ave",
-        "lat": "-33.894296",
-        "lon": "150.981921",
+        "lat": "-33.894197",
+        "lon": "150.981862",
         "productClass": [
             5
         ]
@@ -104657,8 +104675,8 @@
     {
         "id": "228187",
         "name": "Park Ave opp Swansea High School",
-        "lat": "-33.104183",
-        "lon": "151.641177",
+        "lat": "-33.103886",
+        "lon": "151.641162",
         "productClass": [
             5
         ]
@@ -180949,8 +180967,8 @@
     {
         "id": "2135189",
         "name": "Hume Hwy before Hedges Ave",
-        "lat": "-33.886278",
-        "lon": "151.071012",
+        "lat": "-33.886338",
+        "lon": "151.071155",
         "productClass": [
             5
         ]
@@ -183714,6 +183732,15 @@
         "name": "Woodville Rd at Clarke St",
         "lat": "-33.835565",
         "lon": "151.00168",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2142287",
+        "name": "Granville Station, Bridge St",
+        "lat": "-33.832341",
+        "lon": "151.011551",
         "productClass": [
             5
         ]
@@ -199976,7 +200003,7 @@
     {
         "id": "2155456",
         "name": "Kellyville Station, Guragura St",
-        "lat": "-33.713585",
+        "lat": "-33.713587",
         "lon": "150.935841",
         "productClass": [
             5
@@ -202327,6 +202354,15 @@
         "name": "Sherwood Grange Public School, Bruce St",
         "lat": "-33.836043",
         "lon": "150.959783",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2160142",
+        "name": "Merrylands Rd at Railway Tce",
+        "lat": "-33.837054",
+        "lon": "150.992957",
         "productClass": [
             5
         ]
@@ -207545,8 +207581,8 @@
     {
         "id": "2165195",
         "name": "Smart St before Nelson St",
-        "lat": "-33.86959",
-        "lon": "150.955877",
+        "lat": "-33.86935",
+        "lon": "150.955733",
         "productClass": [
             5
         ]
@@ -208645,6 +208681,15 @@
         "name": "Bartley St before Railway Pde",
         "lat": "-33.890353",
         "lon": "150.939478",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2166255",
+        "name": "Railway Pde before Cabramatta Rd W",
+        "lat": "-33.895859",
+        "lon": "150.938261",
         "productClass": [
             5
         ]
@@ -227508,8 +227553,8 @@
     {
         "id": "2213128",
         "name": "Killara Ave opp Killara Reserve",
-        "lat": "-33.947545",
-        "lon": "150.996174",
+        "lat": "-33.947667",
+        "lon": "150.996155",
         "productClass": [
             5
         ]
@@ -284829,6 +284874,24 @@
         ]
     },
     {
+        "id": "2500373",
+        "name": "Harbour St after Crown St",
+        "lat": "-34.426504",
+        "lon": "150.902131",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2500374",
+        "name": "Keira St before Market St",
+        "lat": "-34.422755",
+        "lon": "150.893704",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2500405",
         "name": "Ralph Black Dr before Montague St",
         "lat": "-34.406367",
@@ -302730,6 +302793,15 @@
         ]
     },
     {
+        "id": "2570482",
+        "name": "The Northern Rd after Cobbitty Rd",
+        "lat": "-34.01388",
+        "lon": "150.723986",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2570487",
         "name": "Oran Park Dr before Peter Brock Dr",
         "lat": "-34.002385",
@@ -311816,6 +311888,15 @@
         "name": "Holmes Dr opp 14",
         "lat": "-33.471129",
         "lon": "150.892836",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2756463",
+        "name": "Former Lower Portland PS TA",
+        "lat": "-33.433913",
+        "lon": "150.880939",
         "productClass": [
             5
         ]
