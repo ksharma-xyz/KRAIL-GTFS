@@ -39,7 +39,7 @@ object NswGtfsManager {
             stopList.forEach { gtfsStop ->
                 val existingStop = allStops.find { it.id == gtfsStop.stopId.id }
                 if (existingStop != null) {
-                    val isSydneyTrains = mode == NswTransportModeType.SYDNEY_TRAINS && mode.productClass == 1
+                    val isSydneyTrains = mode == NswTransportModeType.SYDNEY_TRAINS
 
                     if (gtfsStop.name.contains("Coach Stop") || existingStop.name.contains("Coach Stop")) {
                         existingStop.productClass.add(NswTransportModeType.COACH.productClass)

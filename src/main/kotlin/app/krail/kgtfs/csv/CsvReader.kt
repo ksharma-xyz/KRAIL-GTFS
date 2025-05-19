@@ -39,7 +39,7 @@ object CsvReader {
                 val stopLon = dataMap[GtfsStopField.STOP_LON]?.toDoubleOrNull()
                 val locationType = dataMap[GtfsStopField.LOCATION_TYPE]
                 val parentStation = dataMap[GtfsStopField.PARENT_STATION]
-                val finalStopId = parentStation.takeIf { !it.isNullOrEmpty() } ?: stopId
+                val finalStopId = parentStation?.takeIf { it.isNotEmpty() } ?: stopId
 
                 if (finalStopId != null && stopName != null && stopLat != null && stopLon != null) {
 
