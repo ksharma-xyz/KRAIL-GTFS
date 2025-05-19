@@ -738,15 +738,6 @@
         ]
     },
     {
-        "id": "201019",
-        "name": "Prince Alfred Park Pool, Chalmers St",
-        "lat": "-33.887406",
-        "lon": "151.20649",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "201021",
         "name": "Crown St at Miles St",
         "lat": "-33.889517",
@@ -16626,15 +16617,6 @@
         ]
     },
     {
-        "id": "206094",
-        "name": "Waverton Station, Crows Nest Rd",
-        "lat": "-33.837018",
-        "lon": "151.198083",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "206113",
         "name": "Milsons Point Station, Broughton St",
         "lat": "-33.846624",
@@ -21825,24 +21807,6 @@
         "name": "Calvert Ave before Fitzroy St",
         "lat": "-33.7655",
         "lon": "151.15002",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207182",
-        "name": "Killara Station, Culworth Ave",
-        "lat": "-33.765872",
-        "lon": "151.16175",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "207183",
-        "name": "Culworth Ave opp Killara Station",
-        "lat": "-33.765815",
-        "lon": "151.161492",
         "productClass": [
             5
         ]
@@ -122992,7 +122956,7 @@
     },
     {
         "id": "232531",
-        "name": "Wollombi Rd opp King St",
+        "name": "Wollombi Rd after Keelendi Rd",
         "lat": "-32.850733",
         "lon": "151.328111",
         "productClass": [
@@ -123001,7 +122965,7 @@
     },
     {
         "id": "232532",
-        "name": "Wollombi Rd opp George St",
+        "name": "Wollombi Rd after George St",
         "lat": "-32.853637",
         "lon": "151.325804",
         "productClass": [
@@ -163694,15 +163658,6 @@
         ]
     },
     {
-        "id": "2065131",
-        "name": "St Leonards Station, Pacific Hwy (NightRide)",
-        "lat": "-33.823221",
-        "lon": "151.194545",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2065132",
         "name": "Pacific Hwy before Falcon St",
         "lat": "-33.827007",
@@ -163779,24 +163734,6 @@
         "name": "Ernest St after Miller St",
         "lat": "-33.826926",
         "lon": "151.208755",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065147",
-        "name": "Herbert St at Pacific Hwy",
-        "lat": "-33.823207",
-        "lon": "151.193662",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2065150",
-        "name": "Milner Cres at Shirley Rd",
-        "lat": "-33.831924",
-        "lon": "151.192753",
         "productClass": [
             5
         ]
@@ -165057,15 +164994,6 @@
         "name": "Railway St at Help St",
         "lat": "-33.795879",
         "lon": "151.180456",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2067137",
-        "name": "Victoria Ave opp Katherine St",
-        "lat": "-33.797403",
-        "lon": "151.179068",
         "productClass": [
             5
         ]
@@ -183813,24 +183741,6 @@
         "name": "St Johns Rd opp Meroo St",
         "lat": "-33.871036",
         "lon": "151.018983",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2144104",
-        "name": "Albert Rd at Chisholm Rd",
-        "lat": "-33.867507",
-        "lon": "151.018265",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2144105",
-        "name": "Albert Rd opp Myall St",
-        "lat": "-33.867878",
-        "lon": "151.021108",
         "productClass": [
             5
         ]
@@ -203655,15 +203565,6 @@
         ]
     },
     {
-        "id": "2161235",
-        "name": "Shackel Ave at Railway St",
-        "lat": "-33.860016",
-        "lon": "150.980233",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2161236",
         "name": "Railway St opp Guildford Station",
         "lat": "-33.853563",
@@ -208186,15 +208087,6 @@
         "name": "Kurrara St after Georges River Rd",
         "lat": "-33.897599",
         "lon": "150.957994",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2166183",
-        "name": "Cabramatta Public School, Cabramatta Rd",
-        "lat": "-33.895",
-        "lon": "150.943275",
         "productClass": [
             5
         ]
@@ -214694,15 +214586,6 @@
         "name": "All Saints' College, Campbell St",
         "lat": "-33.918301",
         "lon": "150.927277",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2170764",
-        "name": "Epsom Rd opp McMillan Park",
-        "lat": "-33.928843",
-        "lon": "150.943222",
         "productClass": [
             5
         ]
@@ -228883,6 +228766,15 @@
         ]
     },
     {
+        "id": "2220302",
+        "name": "Hurstville Fire Station, Butler Rd",
+        "lat": "-33.968042",
+        "lon": "151.101992",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2220303",
         "name": "Waitara Pde at The Crescent",
         "lat": "-33.981057",
@@ -229851,6 +229743,15 @@
         "name": "Jannali Public School, Sutherland Rd",
         "lat": "-34.018495",
         "lon": "151.061514",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2226105",
+        "name": "Como Station, Como Pde",
+        "lat": "-34.004582",
+        "lon": "151.067786",
         "productClass": [
             5
         ]
@@ -234302,6 +234203,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234320,10 +234230,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -282167,26 +282095,26 @@
     {
         "id": "2325467",
         "name": "Mathieson St after Keelendi Rd",
-        "lat": "-32.848993",
-        "lon": "151.330076",
+        "lat": "-32.849004",
+        "lon": "151.330136",
         "productClass": [
             5
         ]
     },
     {
         "id": "2325468",
-        "name": "Mathieson St bf Keelendi Rd",
-        "lat": "-32.849044",
-        "lon": "151.330287",
+        "name": "Mathieson St before Keelendi Rd",
+        "lat": "-32.84904",
+        "lon": "151.330249",
         "productClass": [
             5
         ]
     },
     {
         "id": "2325469",
-        "name": "Mathieson St before Lochinvar St",
-        "lat": "-32.846706",
-        "lon": "151.331645",
+        "name": "Mathieson St at Lochinvar St",
+        "lat": "-32.846684",
+        "lon": "151.331716",
         "productClass": [
             5
         ]
@@ -311695,15 +311623,6 @@
         ]
     },
     {
-        "id": "2756380",
-        "name": "South Sydney Juniors Resort TA, Greens Rd",
-        "lat": "-33.422864",
-        "lon": "150.895069",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2756381",
         "name": "1073 River Rd",
         "lat": "-33.425072",
@@ -315072,7 +314991,7 @@
     },
     {
         "id": "2761169",
-        "name": "Stonecutters Dr after Symonds Rd",
+        "name": "Stonecutters Dr after Coronato Pde",
         "lat": "-33.729668",
         "lon": "150.865892",
         "productClass": [
@@ -318486,8 +318405,8 @@
     {
         "id": "2765466",
         "name": "Flametree Dr before Planthopper St",
-        "lat": "-33.700207",
-        "lon": "150.793404",
+        "lat": "-33.699642",
+        "lon": "150.793559",
         "productClass": [
             5
         ]
