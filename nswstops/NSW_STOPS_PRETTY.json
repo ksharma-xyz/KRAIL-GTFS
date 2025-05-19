@@ -113367,14 +113367,12 @@
         ]
     },
     {
-        "id": "229310",
+        "id": "230233",
         "name": "Newcastle Interchange",
-        "lat": "-32.924037",
-        "lon": "151.759079",
+        "lat": "-32.924248",
+        "lon": "151.758919",
         "productClass": [
-            5,
-            1,
-            4
+            5
         ]
     },
     {
@@ -125043,13 +125041,12 @@
         ]
     },
     {
-        "id": "233310",
+        "id": "233320",
         "name": "Muswellbrook Station",
-        "lat": "-32.267483",
-        "lon": "150.890319",
+        "lat": "-32.267288",
+        "lon": "150.890583",
         "productClass": [
-            5,
-            1
+            5
         ]
     },
     {
@@ -325200,7 +325197,7 @@
     },
     {
         "id": "254110",
-        "name": "Bomaderry Station",
+        "name": "Bomaderry (Nowra) Station",
         "lat": "-34.853877",
         "lon": "150.609952",
         "productClass": [
@@ -327199,6 +327196,15 @@
         ]
     },
     {
+        "id": "233310",
+        "name": "MuswellBrook Station",
+        "lat": "-32.267483",
+        "lon": "150.890319",
+        "productClass": [
+            1
+        ]
+    },
+    {
         "id": "272294",
         "name": "Muttama Coach Stop",
         "lat": "-34.80414247",
@@ -327241,6 +327247,16 @@
         "lon": "147.7168366",
         "productClass": [
             7
+        ]
+    },
+    {
+        "id": "229310",
+        "name": "Newcastle Interchange Station",
+        "lat": "-32.924037",
+        "lon": "151.759079",
+        "productClass": [
+            1,
+            4
         ]
     },
     {
@@ -327479,7 +327495,7 @@
     },
     {
         "id": "40001",
-        "name": "Roma Street (Brisbane)",
+        "name": "Brisbane Station",
         "lat": "-27.465272",
         "lon": "153.019115",
         "productClass": [
@@ -328326,7 +328342,7 @@
     },
     {
         "id": "25821",
-        "name": "Yass Junction",
+        "name": "Yass Junction Station",
         "lat": "-34.808917",
         "lon": "148.915032",
         "productClass": [
