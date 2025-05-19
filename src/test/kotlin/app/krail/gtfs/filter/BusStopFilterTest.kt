@@ -1,6 +1,5 @@
 package app.krail.gtfs.filter
 
-import app.krail.kgtfs.filter.BusStopsFilter
 import app.krail.kgtfs.filter.BusStopsFilter.filterOutBusStandData
 import app.krail.kgtfs.model.StopJson
 import org.junit.jupiter.api.Assertions.assertEquals
