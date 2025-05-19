@@ -113367,12 +113367,14 @@
         ]
     },
     {
-        "id": "230233",
+        "id": "229310",
         "name": "Newcastle Interchange",
-        "lat": "-32.924248",
-        "lon": "151.758919",
+        "lat": "-32.924037",
+        "lon": "151.759079",
         "productClass": [
-            5
+            5,
+            1,
+            4
         ]
     },
     {
@@ -125041,12 +125043,13 @@
         ]
     },
     {
-        "id": "233320",
+        "id": "233310",
         "name": "Muswellbrook Station",
-        "lat": "-32.267288",
-        "lon": "150.890583",
+        "lat": "-32.267483",
+        "lon": "150.890319",
         "productClass": [
-            5
+            5,
+            1
         ]
     },
     {
@@ -325197,7 +325200,7 @@
     },
     {
         "id": "254110",
-        "name": "Bomaderry (Nowra) Station",
+        "name": "Bomaderry Station",
         "lat": "-34.853877",
         "lon": "150.609952",
         "productClass": [
@@ -325557,7 +325560,7 @@
     },
     {
         "id": "200060",
-        "name": "Central Chalmers Street Light Rail",
+        "name": "Central Station",
         "lat": "-33.883852",
         "lon": "151.206272",
         "productClass": [
@@ -327196,15 +327199,6 @@
         ]
     },
     {
-        "id": "233310",
-        "name": "MuswellBrook Station",
-        "lat": "-32.267483",
-        "lon": "150.890319",
-        "productClass": [
-            1
-        ]
-    },
-    {
         "id": "272294",
         "name": "Muttama Coach Stop",
         "lat": "-34.80414247",
@@ -327247,16 +327241,6 @@
         "lon": "147.7168366",
         "productClass": [
             7
-        ]
-    },
-    {
-        "id": "229310",
-        "name": "Newcastle Interchange Light Rail",
-        "lat": "-32.924037",
-        "lon": "151.759079",
-        "productClass": [
-            1,
-            4
         ]
     },
     {
@@ -327495,7 +327479,7 @@
     },
     {
         "id": "40001",
-        "name": "Brisbane Station",
+        "name": "Roma Street (Brisbane)",
         "lat": "-27.465272",
         "lon": "153.019115",
         "productClass": [
@@ -328143,7 +328127,7 @@
     },
     {
         "id": "214510",
-        "name": "Westmead Light Rail",
+        "name": "Westmead Station",
         "lat": "-33.808523",
         "lon": "150.988028",
         "productClass": [
@@ -328342,7 +328326,7 @@
     },
     {
         "id": "25821",
-        "name": "Yass Junction Station",
+        "name": "Yass Junction",
         "lat": "-34.808917",
         "lon": "148.915032",
         "productClass": [
@@ -328612,7 +328596,7 @@
     },
     {
         "id": "20414",
-        "name": "Balmain East Wharf, Side B",
+        "name": "Balmain East Wharf",
         "lat": "-33.856816",
         "lon": "151.196172",
         "productClass": [
@@ -328639,7 +328623,7 @@
     },
     {
         "id": "2000441",
-        "name": "Barangaroo, Wharf 1, Side B",
+        "name": "Barangaroo Wharf 1",
         "lat": "-33.864377",
         "lon": "151.200591",
         "productClass": [
@@ -328648,7 +328632,7 @@
     },
     {
         "id": "2000442",
-        "name": "Barangaroo, Wharf 2, Side B",
+        "name": "Barangaroo Wharf 2",
         "lat": "-33.86497",
         "lon": "151.200649",
         "productClass": [
@@ -328675,7 +328659,7 @@
     },
     {
         "id": "21371",
-        "name": "Cabarita Wharf, Side B",
+        "name": "Cabarita Wharf",
         "lat": "-33.84096251",
         "lon": "151.1164853",
         "productClass": [
@@ -328693,7 +328677,7 @@
     },
     {
         "id": "20003",
-        "name": "Circular Quay, Wharf 2, Side B",
+        "name": "Circular Quay Wharf 2",
         "lat": "-33.86070941",
         "lon": "151.2120563",
         "productClass": [
@@ -328702,7 +328686,7 @@
     },
     {
         "id": "20004",
-        "name": "Circular Quay, Wharf 3, Side B",
+        "name": "Circular Quay Wharf 3",
         "lat": "-33.86067453",
         "lon": "151.2115165",
         "productClass": [
@@ -328711,7 +328695,7 @@
     },
     {
         "id": "20005",
-        "name": "Circular Quay, Wharf 4, Side B",
+        "name": "Circular Quay Wharf 4",
         "lat": "-33.86062192",
         "lon": "151.2109988",
         "productClass": [
@@ -328720,7 +328704,7 @@
     },
     {
         "id": "20006",
-        "name": "Circular Quay, Wharf 5, Side B",
+        "name": "Circular Quay Wharf 5",
         "lat": "-33.86056963",
         "lon": "151.2105027",
         "productClass": [
@@ -328729,7 +328713,7 @@
     },
     {
         "id": "2000274",
-        "name": "Circular Quay, Wharf 6, Side B",
+        "name": "Circular Quay Wharf 6",
         "lat": "-33.860508",
         "lon": "151.210018",
         "productClass": [
@@ -328747,7 +328731,7 @@
     },
     {
         "id": "20009",
-        "name": "Cockatoo Island Wharf, Side B",
+        "name": "Cockatoo Island Wharf",
         "lat": "-33.84559502",
         "lon": "151.1732389",
         "productClass": [
@@ -328882,7 +328866,7 @@
     },
     {
         "id": "20601",
-        "name": "McMahons Point Wharf, Side B",
+        "name": "McMahons Point Wharf",
         "lat": "-33.848849",
         "lon": "151.206601",
         "productClass": [
@@ -328900,7 +328884,7 @@
     },
     {
         "id": "20611",
-        "name": "Milsons Point Wharf, Side B",
+        "name": "Milsons Point Wharf",
         "lat": "-33.84939898",
         "lon": "151.2106384",
         "productClass": [
@@ -328999,7 +328983,7 @@
     },
     {
         "id": "21271",
-        "name": "Sydney Olympic Park Wharf, Side B",
+        "name": "Sydney Olympic Park Wharf",
         "lat": "-33.821989",
         "lon": "151.078837",
         "productClass": [
@@ -329506,7 +329490,7 @@
     },
     {
         "id": "200020",
-        "name": "Circular Quay Light Rail",
+        "name": "Circular Quay Station",
         "lat": "-33.861323585",
         "lon": "151.210389837",
         "productClass": [
