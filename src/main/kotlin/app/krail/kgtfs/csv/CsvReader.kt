@@ -6,7 +6,6 @@ import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.Path
-import kotlin.text.get
 
 object CsvReader {
 
@@ -18,14 +17,10 @@ object CsvReader {
         csvReader().openAsync(path.toString()) {
             readAllWithHeaderAsSequence().forEach { row: Map<String, String> ->
 
-                if (row.values.any { it.contains("Seven Hills Station", ignoreCase = true) })
-                    println("Path: $path - Row: $row")
-
                 val item = mapper(row)
                 if (item != null) {
                     items.add(item)
                 }
-//                println("Row: $row")
             }
         }
         return@withContext items
@@ -44,17 +39,7 @@ object CsvReader {
                 val stopLon = dataMap[GtfsStopField.STOP_LON]?.toDoubleOrNull()
                 val locationType = dataMap[GtfsStopField.LOCATION_TYPE]
                 val parentStation = dataMap[GtfsStopField.PARENT_STATION]
-
                 val finalStopId = parentStation.takeIf { !it.isNullOrEmpty() } ?: stopId
-
-                if (stopId == "214732" || stopId == "214710") {
-                    println("path: $path")
-                    println("\t Stop($nswTransportModeType): id:$stopId, name:$stopName, lat:$stopLat, lon:$stopLon - from $dataMap")
-                    println("\t parentStation: $parentStation")
-                    println("\t finalStopId: $finalStopId")
-                }
-
-                //  println("Stop($nswTransportModeType): id:$stopId, name:$stopName, lat:$stopLat, lon:$stopLon - $dataMap")
 
                 if (finalStopId != null && stopName != null && stopLat != null && stopLon != null) {
 
