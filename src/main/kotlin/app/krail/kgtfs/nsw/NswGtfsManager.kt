@@ -39,18 +39,20 @@ object NswGtfsManager {
             stopList.forEach { gtfsStop ->
                 val existingStop = allStops.find { it.id == gtfsStop.stopId.id }
                 if (existingStop != null) {
-                    // Stop already exists, add the product class to the existing stop.
+                    val isSydneyTrains = mode == NswTransportModeType.SYDNEY_TRAINS
+
                     if (gtfsStop.name.contains("Coach Stop") || existingStop.name.contains("Coach Stop")) {
-                        // println("Coach Stop: ${gtfsStop.name} - ${existingStop.name}")
                         existingStop.productClass.add(NswTransportModeType.COACH.productClass)
                     } else {
                         existingStop.productClass.add(mode.productClass)
                     }
 
-                    existingStop.name = gtfsStop.name
+                    // Always prefer SYDNEY_TRAINS name for productClass 1
+                    if (isSydneyTrains) {
+                        existingStop.name = gtfsStop.name
+                    }
                 } else {
                     if (gtfsStop.name.contains("Coach Stop")) {
-                        // println("Coach Stop: ${gtfsStop.name}")
                         allStops.add(
                             gtfsStop.toStopJson(mode).copy(
                                 productClass = mutableSetOf(NswTransportModeType.COACH.productClass)

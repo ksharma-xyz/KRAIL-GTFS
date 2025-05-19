@@ -40,4 +40,40 @@ class BusStopFilterTest {
             assertEquals(expected[i].productClass, result[i].productClass)
         }
     }
+
+
+    @Test
+    fun `filterOutBusStandData merges stops and productClass correctly`() {
+        val input = listOf(
+            StopJson(
+                id = "214732",
+                name = "Seven Hills Station, Stand A",
+                lat = "-33.77",
+                lon = "150.93",
+                productClass = mutableSetOf(1)
+            ),
+            StopJson(
+                id = "214733",
+                name = "Seven Hills Station, Stand B",
+                lat = "-33.77",
+                lon = "150.93",
+                productClass = mutableSetOf(1)
+            ),
+            StopJson(
+                id = "214710",
+                name = "Seven Hills Station",
+                lat = "-33.77",
+                lon = "150.93",
+                productClass = mutableSetOf(5)
+            ),
+        )
+
+        val result = filterOutBusStandData(input)
+
+        assertEquals(1, result.size)
+
+        val sevenHills = result.find { it.name == "Seven Hills Station" }!!
+        assertEquals(setOf(1, 5), sevenHills.productClass)
+        assertEquals("214710", sevenHills.id)
+    }
 }

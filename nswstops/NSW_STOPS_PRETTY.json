@@ -4635,10 +4635,10 @@
         ]
     },
     {
-        "id": "202249",
+        "id": "202210",
         "name": "Bondi Junction Station",
-        "lat": "-33.891398",
-        "lon": "151.249272",
+        "lat": "-33.8912022841",
+        "lon": "151.2483843",
         "productClass": [
             5,
             1
@@ -6589,10 +6589,10 @@
         ]
     },
     {
-        "id": "202713",
+        "id": "202710",
         "name": "Edgecliff Station",
-        "lat": "-33.879496",
-        "lon": "151.23624",
+        "lat": "-33.8792514754",
+        "lon": "151.23616135",
         "productClass": [
             5,
             1
@@ -8993,10 +8993,10 @@
         ]
     },
     {
-        "id": "203290",
+        "id": "203294",
         "name": "Juniors Kingsford Light Rail",
-        "lat": "-33.924935",
-        "lon": "151.228867",
+        "lat": "-33.924978",
+        "lon": "151.22927",
         "productClass": [
             5,
             4
@@ -18741,10 +18741,10 @@
         ]
     },
     {
-        "id": "206718",
+        "id": "206710",
         "name": "Chatswood Station",
-        "lat": "-33.796108",
-        "lon": "151.181217",
+        "lat": "-33.797134",
+        "lon": "151.180821",
         "productClass": [
             5,
             2,
@@ -22082,10 +22082,10 @@
         ]
     },
     {
-        "id": "207235",
+        "id": "207210",
         "name": "Gordon Station",
-        "lat": "-33.756694",
-        "lon": "151.154666",
+        "lat": "-33.7560086417",
+        "lon": "151.154528026",
         "productClass": [
             5,
             1
@@ -23325,10 +23325,10 @@
         ]
     },
     {
-        "id": "207467",
+        "id": "207410",
         "name": "Turramurra Station",
-        "lat": "-33.73225",
-        "lon": "151.12861",
+        "lat": "-33.7321822059",
+        "lon": "151.128281842",
         "productClass": [
             5,
             1
@@ -25252,10 +25252,10 @@
         ]
     },
     {
-        "id": "207756",
+        "id": "207763",
         "name": "Hornsby Station",
-        "lat": "-33.70291",
-        "lon": "151.098169",
+        "lat": "-33.703985",
+        "lon": "151.097911",
         "productClass": [
             5,
             1
@@ -41444,10 +41444,10 @@
         ]
     },
     {
-        "id": "211424",
+        "id": "211420",
         "name": "West Ryde Station",
-        "lat": "-33.807093",
-        "lon": "151.089509",
+        "lat": "-33.8071721307",
+        "lon": "151.09022893",
         "productClass": [
             5,
             1
@@ -53145,10 +53145,10 @@
         ]
     },
     {
-        "id": "214288",
+        "id": "214240",
         "name": "Granville Station",
-        "lat": "-33.833287",
-        "lon": "151.011806",
+        "lat": "-33.833175985",
+        "lon": "151.012494676",
         "productClass": [
             5,
             1
@@ -55495,10 +55495,10 @@
         ]
     },
     {
-        "id": "214732",
+        "id": "214710",
         "name": "Seven Hills Station",
-        "lat": "-33.773759",
-        "lon": "150.936266",
+        "lat": "-33.774430434",
+        "lon": "150.936513359",
         "productClass": [
             5,
             1
@@ -55982,10 +55982,10 @@
         ]
     },
     {
-        "id": "214811",
+        "id": "214810",
         "name": "Blacktown Station",
-        "lat": "-33.768056",
-        "lon": "150.906713",
+        "lat": "-33.768602",
+        "lon": "150.907353",
         "productClass": [
             5,
             1
@@ -65838,10 +65838,10 @@
         ]
     },
     {
-        "id": "216526",
+        "id": "216510",
         "name": "Fairfield Station",
-        "lat": "-33.871623",
-        "lon": "150.957949",
+        "lat": "-33.8723306485",
+        "lon": "150.957071112",
         "productClass": [
             5,
             1
@@ -70321,10 +70321,10 @@
         ]
     },
     {
-        "id": "217421",
+        "id": "217426",
         "name": "Edmondson Park Station",
-        "lat": "-33.969641",
-        "lon": "150.858817",
+        "lat": "-33.9693",
+        "lon": "150.8587",
         "productClass": [
             5,
             1
@@ -72158,10 +72158,10 @@
         ]
     },
     {
-        "id": "217938",
+        "id": "217933",
         "name": "Leppington Station",
-        "lat": "-33.954763",
-        "lon": "150.808011",
+        "lat": "-33.9544",
+        "lon": "150.8081",
         "productClass": [
             5,
             1
@@ -77811,10 +77811,10 @@
         ]
     },
     {
-        "id": "220080",
+        "id": "220010",
         "name": "Bankstown Station",
-        "lat": "-33.918061",
-        "lon": "151.035756",
+        "lat": "-33.9178645357",
+        "lon": "151.034686895",
         "productClass": [
             5,
             1
@@ -78208,10 +78208,10 @@
         ]
     },
     {
-        "id": "220421",
+        "id": "220450",
         "name": "Sydenham Station, Railway Pde",
-        "lat": "-33.914483",
-        "lon": "151.165908",
+        "lat": "-33.913943",
+        "lon": "151.16671",
         "productClass": [
             5
         ]
@@ -92725,10 +92725,10 @@
         ]
     },
     {
-        "id": "223231",
+        "id": "223210",
         "name": "Sutherland Station",
-        "lat": "-34.032312",
-        "lon": "151.056482",
+        "lat": "-34.0317869151",
+        "lon": "151.05719008",
         "productClass": [
             5,
             1
@@ -94976,10 +94976,10 @@
         ]
     },
     {
-        "id": "225041",
+        "id": "225040",
         "name": "Gosford Station",
-        "lat": "-33.422252",
-        "lon": "151.342265",
+        "lat": "-33.423776",
+        "lon": "151.341682",
         "productClass": [
             5,
             1
@@ -96102,10 +96102,10 @@
         ]
     },
     {
-        "id": "225612",
+        "id": "2256477",
         "name": "Woy Woy Station",
-        "lat": "-33.485316",
-        "lon": "151.323761",
+        "lat": "-33.485616",
+        "lon": "151.323571",
         "productClass": [
             5,
             1
@@ -98146,10 +98146,10 @@
         ]
     },
     {
-        "id": "225921",
+        "id": "225920",
         "name": "Wyong Station",
-        "lat": "-33.28533",
-        "lon": "151.425119",
+        "lat": "-33.285646",
+        "lon": "151.425207",
         "productClass": [
             5,
             1
@@ -101810,10 +101810,10 @@
         ]
     },
     {
-        "id": "226411",
+        "id": "226410",
         "name": "Morisset Station",
-        "lat": "-33.108659",
-        "lon": "151.488251",
+        "lat": "-33.109246289",
+        "lon": "151.487733869",
         "productClass": [
             5,
             1
@@ -113372,9 +113372,7 @@
         "lat": "-32.924248",
         "lon": "151.758919",
         "productClass": [
-            5,
-            1,
-            4
+            5
         ]
     },
     {
@@ -138077,10 +138075,10 @@
         ]
     },
     {
-        "id": "256018",
+        "id": "256020",
         "name": "Campbelltown Station",
-        "lat": "-34.064138",
-        "lon": "150.814237",
+        "lat": "-34.063947",
+        "lon": "150.814017",
         "productClass": [
             5,
             1
@@ -138105,10 +138103,10 @@
         ]
     },
     {
-        "id": "256022",
+        "id": "2560714",
         "name": "Macarthur Square, Kellicar Rd",
-        "lat": "-34.074265",
-        "lon": "150.796803",
+        "lat": "-34.074397",
+        "lon": "150.796598",
         "productClass": [
             5
         ]
@@ -145557,10 +145555,10 @@
         ]
     },
     {
-        "id": "275075",
+        "id": "275010",
         "name": "Penrith Station",
-        "lat": "-33.750237",
-        "lon": "150.69469",
+        "lat": "-33.750063",
+        "lon": "150.696094",
         "productClass": [
             5,
             1
@@ -154972,10 +154970,10 @@
         ]
     },
     {
-        "id": "277060",
+        "id": "277010",
         "name": "Mount Druitt Station",
-        "lat": "-33.768976",
-        "lon": "150.819798",
+        "lat": "-33.7695423347",
+        "lon": "150.819798807",
         "productClass": [
             5,
             1
@@ -181955,10 +181953,10 @@
         ]
     },
     {
-        "id": "2141173",
+        "id": "2141286",
         "name": "Lidcombe Station, Church St",
-        "lat": "-33.863396",
-        "lon": "151.045123",
+        "lat": "-33.862714",
+        "lon": "151.04345",
         "productClass": [
             5
         ]
@@ -192269,10 +192267,10 @@
         ]
     },
     {
-        "id": "2150106",
+        "id": "215020",
         "name": "Parramatta Station",
-        "lat": "-33.817264",
-        "lon": "151.004069",
+        "lat": "-33.817664",
+        "lon": "151.00549",
         "productClass": [
             5,
             1
@@ -210567,10 +210565,10 @@
         ]
     },
     {
-        "id": "2170171",
+        "id": "217020",
         "name": "Liverpool Station",
-        "lat": "-33.923396",
-        "lon": "150.927469",
+        "lat": "-33.9251096928",
+        "lon": "150.927054186",
         "productClass": [
             5,
             1
@@ -228865,10 +228863,10 @@
         ]
     },
     {
-        "id": "2220327",
+        "id": "222010",
         "name": "Hurstville Station",
-        "lat": "-33.966324",
-        "lon": "151.10208",
+        "lat": "-33.9674535563",
+        "lon": "151.102757149",
         "productClass": [
             5,
             1
@@ -309912,10 +309910,10 @@
         ]
     },
     {
-        "id": "2756123",
+        "id": "275620",
         "name": "Windsor Station",
-        "lat": "-33.613654",
-        "lon": "150.811537",
+        "lat": "-33.6139276709",
+        "lon": "150.811408003",
         "productClass": [
             5,
             1
@@ -313918,10 +313916,10 @@
         ]
     },
     {
-        "id": "2760230",
+        "id": "276010",
         "name": "St Marys Station",
-        "lat": "-33.762687",
-        "lon": "150.775118",
+        "lat": "-33.7622558528",
+        "lon": "150.77602901",
         "productClass": [
             5,
             1
@@ -315152,10 +315150,10 @@
         ]
     },
     {
-        "id": "2762106",
+        "id": "276220",
         "name": "Schofields Station",
-        "lat": "-33.704073",
-        "lon": "150.873931",
+        "lat": "-33.704452",
+        "lon": "150.874138",
         "productClass": [
             5,
             1
@@ -327252,6 +327250,16 @@
         ]
     },
     {
+        "id": "229310",
+        "name": "Newcastle Interchange Station",
+        "lat": "-32.924037",
+        "lon": "151.759079",
+        "productClass": [
+            1,
+            4
+        ]
+    },
+    {
         "id": "263123",
         "name": "Nimmitabel Coach Stop",
         "lat": "-36.51357866",
@@ -328612,24 +328620,6 @@
         ]
     },
     {
-        "id": "204153",
-        "name": "Balmain East Wharf, Side A",
-        "lat": "-33.85683",
-        "lon": "151.196224",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "204154",
-        "name": "Balmain East Wharf, Side B",
-        "lat": "-33.856819",
-        "lon": "151.196115",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "20411",
         "name": "Balmain West Wharf",
         "lat": "-33.855",
@@ -328657,46 +328647,10 @@
         ]
     },
     {
-        "id": "2000236",
-        "name": "Barangaroo, Wharf 1, Side A",
-        "lat": "-33.864249",
-        "lon": "151.200518",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000237",
-        "name": "Barangaroo, Wharf 1, Side B",
-        "lat": "-33.864387",
-        "lon": "151.200426",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "2000442",
         "name": "Barangaroo Wharf 2",
         "lat": "-33.86497",
         "lon": "151.200649",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000238",
-        "name": "Barangaroo, Wharf 2, Side A",
-        "lat": "-33.864798",
-        "lon": "151.200525",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000239",
-        "name": "Barangaroo, Wharf 2, Side B",
-        "lat": "-33.864946",
-        "lon": "151.20042",
         "productClass": [
             9
         ]
@@ -328729,24 +328683,6 @@
         ]
     },
     {
-        "id": "2137185",
-        "name": "Cabarita Wharf, Side A",
-        "lat": "-33.84067",
-        "lon": "151.11693",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2137186",
-        "name": "Cabarita Wharf, Side B",
-        "lat": "-33.84077",
-        "lon": "151.1169",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "20462",
         "name": "Chiswick Wharf",
         "lat": "-33.84554855",
@@ -328765,46 +328701,10 @@
         ]
     },
     {
-        "id": "2000212",
-        "name": "Circular Quay, Wharf 2, Side A",
-        "lat": "-33.86078",
-        "lon": "151.21212",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000215",
-        "name": "Circular Quay, Wharf 2, Side B",
-        "lat": "-33.860775",
-        "lon": "151.211954",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "20004",
         "name": "Circular Quay Wharf 3",
         "lat": "-33.86067453",
         "lon": "151.2115165",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000216",
-        "name": "Circular Quay, Wharf 3, Side A",
-        "lat": "-33.86075",
-        "lon": "151.211603",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000217",
-        "name": "Circular Quay, Wharf 3, Side B",
-        "lat": "-33.860729",
-        "lon": "151.211413",
         "productClass": [
             9
         ]
@@ -328819,24 +328719,6 @@
         ]
     },
     {
-        "id": "2000223",
-        "name": "Circular Quay, Wharf 4, Side A",
-        "lat": "-33.860684",
-        "lon": "151.211065",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000225",
-        "name": "Circular Quay, Wharf 4, Side B",
-        "lat": "-33.86066",
-        "lon": "151.210906",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "20006",
         "name": "Circular Quay Wharf 5",
         "lat": "-33.86056963",
@@ -328846,46 +328728,10 @@
         ]
     },
     {
-        "id": "2000227",
-        "name": "Circular Quay, Wharf 5, Side A",
-        "lat": "-33.860621",
-        "lon": "151.210575",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000229",
-        "name": "Circular Quay, Wharf 5, Side B",
-        "lat": "-33.860604",
-        "lon": "151.210416",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "2000274",
         "name": "Circular Quay Wharf 6",
         "lat": "-33.860508",
         "lon": "151.210018",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000234",
-        "name": "Circular Quay, Wharf 6, Side A",
-        "lat": "-33.860563",
-        "lon": "151.21008",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "2000235",
-        "name": "Circular Quay, Wharf 6, Side B",
-        "lat": "-33.860544",
-        "lon": "151.209921",
         "productClass": [
             9
         ]
@@ -328904,24 +328750,6 @@
         "name": "Cockatoo Island Wharf",
         "lat": "-33.84559502",
         "lon": "151.1732389",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "211033",
-        "name": "Cockatoo Island Wharf, Side A",
-        "lat": "-33.845512",
-        "lon": "151.173467",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "211043",
-        "name": "Cockatoo Island Wharf, Side B",
-        "lat": "-33.845604",
-        "lon": "151.173467",
         "productClass": [
             9
         ]
@@ -329062,24 +328890,6 @@
         ]
     },
     {
-        "id": "206076",
-        "name": "McMahons Point Wharf, Side A",
-        "lat": "-33.8489",
-        "lon": "151.206668",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "206080",
-        "name": "McMahons Point Wharf, Side B",
-        "lat": "-33.848907",
-        "lon": "151.206567",
-        "productClass": [
-            9
-        ]
-    },
-    {
         "id": "21141",
         "name": "Meadowbank Wharf",
         "lat": "-33.821257",
@@ -329093,24 +328903,6 @@
         "name": "Milsons Point Wharf",
         "lat": "-33.84939898",
         "lon": "151.2106384",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "206122",
-        "name": "Milsons Point Wharf, Side A",
-        "lat": "-33.849358",
-        "lon": "151.210497",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "206126",
-        "name": "Milsons Point Wharf, Side B",
-        "lat": "-33.850022",
-        "lon": "151.211173",
         "productClass": [
             9
         ]
@@ -329210,24 +329002,6 @@
         "name": "Sydney Olympic Park Wharf",
         "lat": "-33.821989",
         "lon": "151.078837",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "212751",
-        "name": "Sydney Olympic Park Wharf, Side A",
-        "lat": "-33.82196",
-        "lon": "151.078827",
-        "productClass": [
-            9
-        ]
-    },
-    {
-        "id": "212753",
-        "name": "Sydney Olympic Park Wharf, Side B",
-        "lat": "-33.822019",
-        "lon": "151.078796",
         "productClass": [
             9
         ]
@@ -331390,15 +331164,6 @@
         ]
     },
     {
-        "id": "2145587",
-        "name": "Westmead Light Rail",
-        "lat": "-33.807602",
-        "lon": "150.987587",
-        "productClass": [
-            4
-        ]
-    },
-    {
         "id": "2150115",
         "name": "Tramway Avenue Light Rail",
         "lat": "-33.817206",
@@ -331489,15 +331254,6 @@
         ]
     },
     {
-        "id": "229315",
-        "name": "Newcastle Interchange Light Rail",
-        "lat": "-32.92433126",
-        "lon": "151.7594339",
-        "productClass": [
-            4
-        ]
-    },
-    {
         "id": "2300107",
         "name": "Honeysuckle Light Rail",
         "lat": "-32.92646601",
@@ -331561,43 +331317,7 @@
         ]
     },
     {
-        "id": "2000447",
-        "name": "Central Chalmers Street Light Rail",
-        "lat": "-33.88423",
-        "lon": "151.207671",
-        "productClass": [
-            4
-        ]
-    },
-    {
-        "id": "2000449",
-        "name": "Circular Quay Light Rail",
-        "lat": "-33.861481",
-        "lon": "151.210042",
-        "productClass": [
-            4
-        ]
-    },
-    {
-        "id": "2000454",
-        "name": "Wynyard Light Rail",
-        "lat": "-33.866682",
-        "lon": "151.207209",
-        "productClass": [
-            4
-        ]
-    },
-    {
-        "id": "2000458",
-        "name": "Town Hall Light Rail",
-        "lat": "-33.873868",
-        "lon": "151.20693",
-        "productClass": [
-            4
-        ]
-    },
-    {
-        "id": "2010108",
+        "id": "201029",
         "name": "Surry Hills Light Rail",
         "lat": "-33.888074",
         "lon": "151.211899",
@@ -331606,7 +331326,7 @@
         ]
     },
     {
-        "id": "2021101",
+        "id": "202195",
         "name": "Moore Park Light Rail",
         "lat": "-33.893756",
         "lon": "151.22182",
@@ -331615,7 +331335,7 @@
         ]
     },
     {
-        "id": "2021103",
+        "id": "202158",
         "name": "Royal Randwick Light Rail",
         "lat": "-33.90517",
         "lon": "151.228855",
@@ -331651,7 +331371,7 @@
         ]
     },
     {
-        "id": "203286",
+        "id": "203295",
         "name": "Kingsford Light Rail",
         "lat": "-33.921875",
         "lon": "151.226899",
@@ -331660,7 +331380,7 @@
         ]
     },
     {
-        "id": "203353",
+        "id": "203362",
         "name": "ES Marks Light Rail",
         "lat": "-33.905829",
         "lon": "151.223941",
@@ -331669,7 +331389,7 @@
         ]
     },
     {
-        "id": "203355",
+        "id": "203361",
         "name": "Kensington Light Rail",
         "lat": "-33.909374",
         "lon": "151.223372",
@@ -331678,7 +331398,7 @@
         ]
     },
     {
-        "id": "203357",
+        "id": "203360",
         "name": "UNSW Anzac Parade Light Rail",
         "lat": "-33.916652",
         "lon": "151.225935",
