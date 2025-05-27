@@ -25,7 +25,7 @@ dependencies {
 
     // IO
     implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.7.0")
-    implementation("com.squareup.okio:okio:3.11.0")
+    implementation("com.squareup.okio:okio:3.12.0")
 
     // Date Time
     implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.2")
