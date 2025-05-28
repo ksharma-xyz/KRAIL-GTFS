@@ -49563,6 +49563,15 @@
         ]
     },
     {
+        "id": "213275",
+        "name": "Paisley Rd after The Strand",
+        "lat": "-33.882846",
+        "lon": "151.114337",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "213311",
         "name": "Coronation Pde opp Tangarra St",
         "lat": "-33.894706",
@@ -55551,7 +55560,7 @@
     },
     {
         "id": "214755",
-        "name": "Lucas Rd opp Seven Hill Public School",
+        "name": "Lucas Rd opp Seven Hills Public School",
         "lat": "-33.76959",
         "lon": "150.938234",
         "productClass": [
@@ -108610,15 +108619,6 @@
         "name": "Highfields Pde Exit at Pacific Hwy",
         "lat": "-32.953173",
         "lon": "151.712063",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "228938",
-        "name": "Princeton Ave opp Dalvern Cl",
-        "lat": "-32.94973",
-        "lon": "151.70085",
         "productClass": [
             5
         ]
@@ -188920,7 +188920,7 @@
     },
     {
         "id": "2147217",
-        "name": "Seven Hill Public School, Lucas Rd",
+        "name": "Seven Hills Public School, Lucas Rd",
         "lat": "-33.769406",
         "lon": "150.937954",
         "productClass": [
@@ -224763,24 +224763,6 @@
         "name": "Shaw St at Bexley Rd",
         "lat": "-33.938181",
         "lon": "151.113708",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207267",
-        "name": "Slade Rd before Devon Rd",
-        "lat": "-33.932251",
-        "lon": "151.12523",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2207268",
-        "name": "Slade Rd at Hartill Law Ave",
-        "lat": "-33.931857",
-        "lon": "151.126007",
         "productClass": [
             5
         ]
