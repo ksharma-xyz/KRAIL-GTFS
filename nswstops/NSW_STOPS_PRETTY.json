@@ -4383,6 +4383,15 @@
         ]
     },
     {
+        "id": "202220",
+        "name": "York Rd after Oxford St",
+        "lat": "-33.890886",
+        "lon": "151.241928",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "202221",
         "name": "Bourke St after Cuthbert St",
         "lat": "-33.897353",
@@ -4633,6 +4642,15 @@
         "productClass": [
             5,
             1
+        ]
+    },
+    {
+        "id": "202250",
+        "name": "York Rd before Oxford St",
+        "lat": "-33.890962",
+        "lon": "151.241776",
+        "productClass": [
+            5
         ]
     },
     {
@@ -8427,7 +8445,7 @@
     },
     {
         "id": "203189",
-        "name": "Clovelly Rd Terminus",
+        "name": "Clovelly Beach, Clovelly Rd",
         "lat": "-33.913934",
         "lon": "151.265943",
         "productClass": [
@@ -10391,8 +10409,8 @@
     {
         "id": "203584",
         "name": "Maroubra Rd at Anzac Pde",
-        "lat": "-33.941451",
-        "lon": "151.238911",
+        "lat": "-33.941458",
+        "lon": "151.238799",
         "productClass": [
             5
         ]
@@ -44642,8 +44660,8 @@
     {
         "id": "212028",
         "name": "Pennant Hills Rd before Pomona St",
-        "lat": "-33.734552",
-        "lon": "151.076991",
+        "lat": "-33.734907",
+        "lon": "151.076841",
         "productClass": [
             5
         ]
@@ -150516,7 +150534,7 @@
     },
     {
         "id": "276261",
-        "name": "Schofields Rd before Railway Tce",
+        "name": "Schofields Rd opp Calder St",
         "lat": "-33.70267",
         "lon": "150.870234",
         "productClass": [
@@ -150570,7 +150588,7 @@
     },
     {
         "id": "276267",
-        "name": "Schofields Rd before Hambledon Rd",
+        "name": "Schofields Rd opp Sciberras Ave",
         "lat": "-33.696619",
         "lon": "150.891521",
         "productClass": [
@@ -150578,8 +150596,17 @@
         ]
     },
     {
+        "id": "276268",
+        "name": "Schofields Rd opp Edgar Barlow Park",
+        "lat": "-33.695724",
+        "lon": "150.899294",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "276269",
-        "name": "Schofields Rd before Alex Ave",
+        "name": "Schofields Rd at Sciberras Ave",
         "lat": "-33.697067",
         "lon": "150.89054",
         "productClass": [
@@ -150605,8 +150632,17 @@
         ]
     },
     {
+        "id": "276273",
+        "name": "Schofields Rd before Railway Tce",
+        "lat": "-33.700429",
+        "lon": "150.876525",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "276275",
-        "name": "Schofields Rd before Veron Rd",
+        "name": "Schofields Rd after Calder St",
         "lat": "-33.703325",
         "lon": "150.869549",
         "productClass": [
@@ -154443,6 +154479,15 @@
         "name": "The Ponds High School, Bus Bay",
         "lat": "-33.703984",
         "lon": "150.8972",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "276954",
+        "name": "Edgar Barlow Park, Schofields Rd",
+        "lat": "-33.696195",
+        "lon": "150.898387",
         "productClass": [
             5
         ]
@@ -160272,6 +160317,15 @@
         ]
     },
     {
+        "id": "278631",
+        "name": "Mount Victoria Station, Coach Stop",
+        "lat": "-33.588097",
+        "lon": "150.25663",
+        "productClass": [
+            7
+        ]
+    },
+    {
         "id": "278653",
         "name": "Mount Victoria Public School, Victoria St",
         "lat": "-33.59222",
@@ -160294,6 +160348,15 @@
         "name": "Mt Piddington Rd opp Beck St",
         "lat": "-33.594368",
         "lon": "150.256481",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "279018",
+        "name": "Lithgow Station, Railway Pde",
+        "lat": "-33.480579",
+        "lon": "150.156385",
         "productClass": [
             5
         ]
@@ -192628,10 +192691,10 @@
         ]
     },
     {
-        "id": "2150302",
+        "id": "2150304",
         "name": "Pitt T-Way",
-        "lat": "-33.818364",
-        "lon": "150.995768",
+        "lat": "-33.818517",
+        "lon": "150.99517",
         "productClass": [
             5
         ]
@@ -199560,17 +199623,8 @@
     {
         "id": "2155422",
         "name": "Annangrove Rd after Edwards Rd",
-        "lat": "-33.661752",
-        "lon": "150.922997",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2155423",
-        "name": "Annangrove Rd before Edwards Rd",
-        "lat": "-33.66166",
-        "lon": "150.922935",
+        "lat": "-33.661619",
+        "lon": "150.923141",
         "productClass": [
             5
         ]
@@ -203990,15 +204044,6 @@
         "name": "Hector St at Virgil Ave",
         "lat": "-33.88141",
         "lon": "151.007199",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2162156",
-        "name": "Hector St at Virgil Av",
-        "lat": "-33.881982",
-        "lon": "151.006918",
         "productClass": [
             5
         ]
@@ -256352,8 +256397,8 @@
     {
         "id": "2280120",
         "name": "Floraville Rd before Pacific Hwy",
-        "lat": "-33.024607",
-        "lon": "151.662121",
+        "lat": "-33.024625",
+        "lon": "151.662073",
         "productClass": [
             5
         ]
@@ -257180,8 +257225,8 @@
     {
         "id": "2280225",
         "name": "Belmont Bus Depot, Floraville Rd",
-        "lat": "-33.024841",
-        "lon": "151.662075",
+        "lat": "-33.024917",
+        "lon": "151.66188",
         "productClass": [
             5
         ]
@@ -290003,7 +290048,7 @@
     },
     {
         "id": "2529167",
-        "name": "Wentworth St opp Oak Flats Primary School",
+        "name": "Wentworth St opp Oak Flats Public School",
         "lat": "-34.561911",
         "lon": "150.818566",
         "productClass": [
@@ -316753,6 +316798,16 @@
         ]
     },
     {
+        "id": "2765253",
+        "name": "Riverstone Station",
+        "lat": "-33.67922",
+        "lon": "150.860599",
+        "productClass": [
+            5,
+            1
+        ]
+    },
+    {
         "id": "2765254",
         "name": "Robert St before Garfield Rd W",
         "lat": "-33.690994",
@@ -318041,7 +318096,7 @@
     },
     {
         "id": "2765448",
-        "name": "Kaluta Ave opp Periwinkle St",
+        "name": "Melonba Public School, Kaluta Ave",
         "lat": "-33.699001",
         "lon": "150.804169",
         "productClass": [
@@ -318050,7 +318105,7 @@
     },
     {
         "id": "2765449",
-        "name": "Kaluta Ave after Periwinkle St",
+        "name": "Kaluta Ave opp Melonba Public School",
         "lat": "-33.699504",
         "lon": "150.804528",
         "productClass": [
@@ -319187,6 +319242,15 @@
         "name": "Perfection Ave opp St John XXIII Primary School",
         "lat": "-33.705526",
         "lon": "150.926366",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2768127",
+        "name": "Perfection Ave after Yarrandale St",
+        "lat": "-33.715948",
+        "lon": "150.927025",
         "productClass": [
             5
         ]
@@ -324533,6 +324597,15 @@
         "name": "Blaxland Rd opp Westbourne Ave",
         "lat": "-33.705972",
         "lon": "150.376196",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2790115",
+        "name": "Zig Zag Station, Chifley Rd",
+        "lat": "-33.477797",
+        "lon": "150.221304",
         "productClass": [
             5
         ]
@@ -330373,15 +330446,6 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "276510",
-        "name": "Riverstone Station",
-        "lat": "-33.6790433699",
-        "lon": "150.860267864",
         "productClass": [
             1
         ]
