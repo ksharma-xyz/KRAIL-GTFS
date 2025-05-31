@@ -21,6 +21,8 @@ val stopIdParkRideMappings = listOf(
     StopIdParkRideMapping(stopId = "209913", parkRideFacilityId = "13", parkRideName = "Park&Ride - Dee Why"),
     StopIdParkRideMapping(stopId = "211420", parkRideFacilityId = "14", parkRideName = "Park&Ride - West Ryde"),
     StopIdParkRideMapping(stopId = "223210", parkRideFacilityId = "15", parkRideName = "Park&Ride - Sutherland"),
+    StopIdParkRideMapping(stopId = "2232126", parkRideFacilityId = "15", parkRideName = "Park&Ride - Sutherland"),
+    StopIdParkRideMapping(stopId = "2232254", parkRideFacilityId = "15", parkRideName = "Park&Ride - Sutherland"),
     StopIdParkRideMapping(stopId = "217933", parkRideFacilityId = "16", parkRideName = "Park&Ride - Leppington"),
     StopIdParkRideMapping(
         stopId = "217426",
