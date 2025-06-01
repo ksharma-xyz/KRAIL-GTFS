@@ -5,6 +5,7 @@ import app.krail.kgtfs.io.FileStorage.TXT_EXTENSION
 import app.krail.kgtfs.io.FileStorage.ZIP_EXTENSION
 import app.krail.kgtfs.io.FileStorage.saveFile
 import app.krail.kgtfs.io.ZipFileManager.unzip
+import app.krail.kgtfs.io.cacheDirectory
 import app.krail.kgtfs.model.GtfsStop
 import app.krail.kgtfs.network.NswGtfsService.fetchBusesGtfs
 import app.krail.kgtfs.network.NswGtfsService.fetchLightRailCbdAndSoutheastGtfs
@@ -16,7 +17,6 @@ import app.krail.kgtfs.network.NswGtfsService.fetchNswTrainsGtfs
 import app.krail.kgtfs.network.NswGtfsService.fetchSydneyFerriesGtfs
 import app.krail.kgtfs.network.NswGtfsService.fetchSydneyMetroGtfs
 import app.krail.kgtfs.network.NswGtfsService.fetchSydneyTrainsGtfs
-import app.krail.kgtfs.network.cacheDirectory
 import io.ktor.client.statement.*
 import okio.Path.Companion.toPath
 

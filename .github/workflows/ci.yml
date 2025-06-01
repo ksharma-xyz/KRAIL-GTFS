@@ -70,9 +70,12 @@ jobs:
             cache/NSW_STOPS.json
             cache/NSW_STOPS_PRETTY.json
             cache/NSW_STOPS.pb
+            cache/NSW_PARKRIDE.json
+            cache/NSW_PARKRIDE_PRETTY.json
 
-      - name: Create new folder for artifact
-        run: mkdir -p ./nswstops
+      - name: Create new folders for artifact
+        run: |
+            mkdir -p ./nswstops
 
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -89,8 +92,6 @@ jobs:
             echo "NO_CHANGES=true" >> $GITHUB_ENV
             exit 0
           fi
-          git diff --cached --unified=0 --word-diff=porcelain main -- cache/NSW_STOPS_PRETTY.json > diff_output.txt
-          echo "NO_CHANGES=false" >> $GITHUB_ENV
 
       - name: Create Branch
         if: env.NO_CHANGES == 'false'
@@ -111,11 +112,11 @@ jobs:
           labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
-          commit-message: 'Add generated NSW_STOPS.json'
-          title: 'Add generated NSW_STOPS.json'
+          commit-message: 'Add generated NSW_STOPS and NSW_PARKRIDE JSON'
+          title: 'Add generated NSW_STOPS and NSW_PARKRIDE JSON'
           body: |
             ### Description
-            Automated PR to add GTFS Stops as JSON files.
+            Automated PR to add GTFS Stops and Park & Ride as JSON files.
 
       - name: Auto Approve PR
         uses: hmarr/auto-approve-action@v4
