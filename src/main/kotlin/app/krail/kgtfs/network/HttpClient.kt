@@ -5,6 +5,7 @@ import io.ktor.client.engine.okhttp.*
 import io.ktor.client.plugins.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.plugins.logging.*
+import io.ktor.client.statement.HttpResponse
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import kotlinx.serialization.json.Json
@@ -28,7 +29,7 @@ fun getHttpClient(): HttpClient {
             level = LogLevel.BODY
             logger = object : Logger {
                 override fun log(message: String) {
-                   // println(message)
+                    // println(message)
                 }
             }
             sanitizeHeader { header -> header == HttpHeaders.Authorization }
@@ -53,3 +54,7 @@ private fun getApiKey(): String {
     FileInputStream("local.properties").use { properties.load(it) }
     return properties.getProperty("NSW_TRANSPORT_API_KEY")
 }
+
+fun HttpResponse.validateHttpResponse(apiName: String) =
+    if (status == HttpStatusCode.OK) Result.success(this)
+    else throw Exception("API Request for $apiName failed: $status")
