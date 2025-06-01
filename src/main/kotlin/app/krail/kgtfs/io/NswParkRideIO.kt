@@ -32,13 +32,13 @@ suspend fun writeParkRideData(result: List<StopJson>) = withContext(Dispatchers.
 
     writeJsonToFile(
         data = filteredMappings,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE_PRETTY",
         pretty = true,
     )
     writeJsonToFile(
         data = filteredMappings,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE",
         pretty = false,
     )

@@ -36,13 +36,13 @@ suspend fun processParkRideData(stops: List<StopJson>) = withContext(Dispatchers
     // 5. Write mapped data to JSON files
     writeJsonToFile(
         data = mapped,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE_PRETTY",
         pretty = true,
     )
     writeJsonToFile(
         data = mapped,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE",
         pretty = false,
     )
