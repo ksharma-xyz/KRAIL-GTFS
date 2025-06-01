@@ -11,7 +11,7 @@ fun main() {
     println("Welcome to KRAIL GTFS")
 
     runBlocking {
-        NswGtfsManager.fetch(refresh = true)
+        NswGtfsManager.fetch(refresh = false)
             .let(::filterOutBusStandData)
             .let {
                 writeStopData(it)

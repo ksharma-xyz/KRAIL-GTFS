@@ -4,7 +4,6 @@ import app.krail.kgtfs.io.FileStorage.writeJsonToFile
 import app.krail.kgtfs.io.NswStopsProtoIO.readProtoFile
 import app.krail.kgtfs.io.NswStopsProtoIO.writeProtoFile
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.network.cacheDirPath
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
