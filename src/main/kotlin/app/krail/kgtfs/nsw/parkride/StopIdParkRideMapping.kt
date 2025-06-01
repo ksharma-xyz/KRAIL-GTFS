@@ -1,11 +1,21 @@
 package app.krail.kgtfs.nsw.parkride
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class StopIdParkRideMapping(
+    @SerialName("stopId")
     val stopId: String,
+
+    @SerialName("parkRideFacilityId")
     val parkRideFacilityId: String,
+
+    @SerialName("parkRideName")
     val parkRideName: String,
 )
 
+// Source of truth for this data is https://opendata.transport.nsw.gov.au/data/dataset/car-park-api/resource/b880cae7-ed81-4d3e-9aba-b948d6626b20
 val stopIdParkRideMappings = listOf(
     StopIdParkRideMapping(
         stopId = "207210",

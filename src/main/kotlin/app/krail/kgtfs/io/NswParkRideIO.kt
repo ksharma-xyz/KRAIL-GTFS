@@ -1,0 +1,40 @@
+package app.krail.kgtfs.io
+
+import app.krail.kgtfs.io.FileStorage.writeJsonToFile
+import app.krail.kgtfs.model.StopJson
+import app.krail.kgtfs.nsw.parkride.stopIdParkRideMappings
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okio.Path.Companion.toPath
+
+const val NSW_PARK_RIDE_DIR = "nswstops/parkride"
+
+/**
+ * Writes the park & ride data to JSON files.
+ *
+ * This function filters the provided list of stops to only include those that have a corresponding
+ * park & ride mapping, and then writes the filtered mappings to two JSON files: one pretty-printed
+ * and one compact.
+ *
+ * @param result The list of [StopJson] objects to filter and write.
+ */
+suspend fun writeParkRideData(result: List<StopJson>) = withContext(Dispatchers.IO) {
+    // Extract all stop IDs from the result list and put them in a Set for fast lookup
+    val stopIds = result.map { stop -> stop.id }.toSet()
+
+    // Filter the park & ride mappings to only include those whose stopId is present in the result set
+    val filteredMappings = stopIdParkRideMappings.filter { it.stopId in stopIds }
+
+    writeJsonToFile(
+        data = filteredMappings,
+        path = NSW_PARK_RIDE_DIR.toPath(),
+        fileName = "NSW_PARKRIDE_PRETTY",
+        pretty = true,
+    )
+    writeJsonToFile(
+        data = filteredMappings,
+        path = NSW_PARK_RIDE_DIR.toPath(),
+        fileName = "NSW_PARKRIDE",
+        pretty = false,
+    )
+}
