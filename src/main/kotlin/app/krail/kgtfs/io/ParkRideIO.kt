@@ -30,7 +30,11 @@ suspend fun processParkRideData(stops: List<StopJson>) = withContext(Dispatchers
     val mappedFacilityIds = mapped.map { it.parkRideFacilityId }.toSet()
     val unmappedFacilityIds = facilityMap.keys.filter { it !in mappedFacilityIds }
     if (unmappedFacilityIds.isNotEmpty()) {
-        println("Facility IDs from API not mapped to any stopId: $unmappedFacilityIds")
+        println("Facility IDs from API not mapped to any stopId:")
+        unmappedFacilityIds.forEach { id ->
+            val name = facilityMap[id]
+            println("  - $id: $name")
+        }
     }
 
     // 5. Write mapped data to JSON files
