@@ -17,11 +17,6 @@ const val NSW_PARK_RIDE_DIR = "nswstops/parkride"
  * and one compact.
  *
  * @param result The list of [StopJson] objects to filter and write.
- *
- * NOTE: This function assumes that `stopIdParkRideMappings` is a pre-populated list of mappings
- * This function can be used to write park & ride data after fetching it from the API.
- * This is a static way to write the park & ride data based on the provided stop list.
- * for fresh data from api everytime use [processParkRideData] instead.
  */
 suspend fun writeParkRideData(result: List<StopJson>) = withContext(Dispatchers.IO) {
     // Extract all stop IDs from the result list and put them in a Set for fast lookup
@@ -32,13 +27,13 @@ suspend fun writeParkRideData(result: List<StopJson>) = withContext(Dispatchers.
 
     writeJsonToFile(
         data = filteredMappings,
-        path = cacheDirPath,
+        path = NSW_PARK_RIDE_DIR.toPath(),
         fileName = "NSW_PARKRIDE_PRETTY",
         pretty = true,
     )
     writeJsonToFile(
         data = filteredMappings,
-        path = cacheDirPath,
+        path = NSW_PARK_RIDE_DIR.toPath(),
         fileName = "NSW_PARKRIDE",
         pretty = false,
     )
