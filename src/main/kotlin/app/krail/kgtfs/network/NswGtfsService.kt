@@ -5,6 +5,12 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import kotlinx.coroutines.Dispatchers
+import okio.Path.Companion.toPath
+import java.nio.file.Paths
+
+val projectRoot = Paths.get("").toAbsolutePath().toString()
+val cacheDirectory = "$projectRoot/cache"
+val cacheDirPath = cacheDirectory.toPath()
 
 /**
  * Source: https://opendata.transport.nsw.gov.au/data/dataset/public-transport-timetables-realtime
@@ -66,6 +72,9 @@ object NswGtfsService {
         httpClient.get("$NSW_TRANSPORT_BASE_URL/$GTFS_SCHEDULE_V1/ferries/sydneyferries")
             .validateHttpResponse("Sydney Ferries")
     }
+
+    private fun HttpResponse.validateHttpResponse(apiName: String) =
+        if (status == HttpStatusCode.OK) Result.success(this) else throw Exception("API Request for $apiName failed: $status")
 
     private const val NSW_TRANSPORT_BASE_URL = "https://api.transport.nsw.gov.au"
     private const val GTFS_SCHEDULE_V1 = "v1/gtfs/schedule"
