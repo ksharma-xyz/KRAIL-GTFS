@@ -20948,15 +20948,6 @@
         ]
     },
     {
-        "id": "207039",
-        "name": "15 Adelaide Ave",
-        "lat": "-33.770566",
-        "lon": "151.184973",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "207041",
         "name": "Sydney Rd at Woodlands Rd",
         "lat": "-33.773805",
@@ -63597,6 +63588,15 @@
         ]
     },
     {
+        "id": "216159",
+        "name": "Guildford Fire Station, Guildford Rd",
+        "lat": "-33.854341",
+        "lon": "150.988151",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "216160",
         "name": "Guildford Rd at West St",
         "lat": "-33.854987",
@@ -70123,6 +70123,15 @@
         ]
     },
     {
+        "id": "217363",
+        "name": "Bardia Pde opp Miri Cres",
+        "lat": "-33.956676",
+        "lon": "150.947668",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "217364",
         "name": "Village Way at Conroy Rd",
         "lat": "-33.956078",
@@ -71604,6 +71613,15 @@
         "name": "Newleaf Pde opp Palisade Cres",
         "lat": "-33.891394",
         "lon": "150.895726",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "217756",
+        "name": "Newleaf Pde at Bishop Cres",
+        "lat": "-33.891245",
+        "lon": "150.897799",
         "productClass": [
             5
         ]
@@ -202690,6 +202708,15 @@
         ]
     },
     {
+        "id": "2160199",
+        "name": "Memorial Ave at Merrylands Rd",
+        "lat": "-33.836719",
+        "lon": "150.989054",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2160203",
         "name": "Douglas St at Cross Rd",
         "lat": "-33.827594",
@@ -202802,6 +202829,24 @@
         "name": "Canal T-Way",
         "lat": "-33.839388",
         "lon": "150.967409",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2160222",
+        "name": "Newman St after Memorial Ave",
+        "lat": "-33.83827",
+        "lon": "150.988291",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2160223",
+        "name": "Newman St at Memorial Ave",
+        "lat": "-33.838176",
+        "lon": "150.988454",
         "productClass": [
             5
         ]
@@ -208090,6 +208135,15 @@
         ]
     },
     {
+        "id": "2166183",
+        "name": "Cabramatta Public School, Cabramatta Rd",
+        "lat": "-33.895",
+        "lon": "150.943275",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2166184",
         "name": "Cabramatta Station, Broomfield St",
         "lat": "-33.894993",
@@ -208571,6 +208625,15 @@
         "name": "Bartley St before Railway Pde",
         "lat": "-33.890353",
         "lon": "150.939478",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2166255",
+        "name": "Railway Pde before Cabramatta Rd W",
+        "lat": "-33.895859",
+        "lon": "150.938261",
         "productClass": [
             5
         ]
@@ -214791,6 +214854,15 @@
         "name": "Wonga Rd at Webster Rd",
         "lat": "-33.93392",
         "lon": "150.899855",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2170801",
+        "name": "Remembrance Ave opp Warwick Farm Station",
+        "lat": "-33.913314",
+        "lon": "150.934711",
         "productClass": [
             5
         ]
@@ -228719,6 +228791,15 @@
         ]
     },
     {
+        "id": "2220302",
+        "name": "Hurstville Fire Station, Butler Rd",
+        "lat": "-33.968042",
+        "lon": "151.101992",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2220303",
         "name": "Waitara Pde at The Crescent",
         "lat": "-33.981057",
@@ -229687,6 +229768,15 @@
         "name": "Jannali Public School, Sutherland Rd",
         "lat": "-34.018495",
         "lon": "151.061514",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2226105",
+        "name": "Como Station, Como Pde",
+        "lat": "-34.004582",
+        "lon": "151.067786",
         "productClass": [
             5
         ]
@@ -234138,6 +234228,15 @@
         ]
     },
     {
+        "id": "2233259",
+        "name": "Waterfall Station, Access Rd, McKell Ave",
+        "lat": "-34.135244",
+        "lon": "150.99522",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233260",
         "name": "Engadine West Public School, Ridge Rd",
         "lat": "-34.058815",
@@ -234156,10 +234255,28 @@
         ]
     },
     {
+        "id": "2233262",
+        "name": "Engadine Station, Railway Pde",
+        "lat": "-34.067478",
+        "lon": "151.014839",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2233263",
         "name": "Princes Hwy at Oliver St",
         "lat": "-34.087921",
         "lon": "151.007096",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2233264",
+        "name": "Heathcote Station, Princes Hwy",
+        "lat": "-34.087582",
+        "lon": "151.007895",
         "productClass": [
             5
         ]
@@ -254779,15 +254896,6 @@
         "name": "83 Sunrise Ave",
         "lat": "-33.22461",
         "lon": "151.552796",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2263100",
-        "name": "Lake Haven Centre, Lake Haven Dr",
-        "lat": "-33.241448",
-        "lon": "151.502471",
         "productClass": [
             5
         ]
@@ -279431,6 +279539,15 @@
         "name": "Seaham Rd at Sohpia Jane Dr",
         "lat": "-32.700705",
         "lon": "151.71093",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2324316",
+        "name": "Dairyman Dr before Milkhouse Dr",
+        "lat": "-32.739557",
+        "lon": "151.77413",
         "productClass": [
             5
         ]
