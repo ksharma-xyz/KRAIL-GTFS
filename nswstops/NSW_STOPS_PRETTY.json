@@ -4149,15 +4149,6 @@
         ]
     },
     {
-        "id": "202156",
-        "name": "Moore Park Bus Interchange",
-        "lat": "-33.89071",
-        "lon": "151.22191",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "202159",
         "name": "Oxford St at Glenmore Rd",
         "lat": "-33.883629",
@@ -10168,6 +10159,15 @@
         "name": "Heffron Rd after Bunnerong Rd",
         "lat": "-33.94011",
         "lon": "151.227707",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "203551",
+        "name": "Banks Ave at Westfield Dr",
+        "lat": "-33.943383",
+        "lon": "151.222793",
         "productClass": [
             5
         ]
@@ -24642,8 +24642,8 @@
     {
         "id": "207636",
         "name": "Boundary Rd opp Daly Ave",
-        "lat": "-33.707046",
-        "lon": "151.133007",
+        "lat": "-33.707032",
+        "lon": "151.132794",
         "productClass": [
             5
         ]
@@ -44263,7 +44263,7 @@
     },
     {
         "id": "211912",
-        "name": "42 Cardinal Ave",
+        "name": "Cardinal Ave after Grace Ave",
         "lat": "-33.747685",
         "lon": "151.053376",
         "productClass": [
@@ -47530,7 +47530,7 @@
     },
     {
         "id": "212648",
-        "name": "138 Purchase Rd",
+        "name": "Purchase Rd after Kentia Pde",
         "lat": "-33.714149",
         "lon": "151.044956",
         "productClass": [
@@ -47961,6 +47961,15 @@
         ]
     },
     {
+        "id": "212739",
+        "name": "Olympic Bvd opp Herb Elliot Ave",
+        "lat": "-33.849167",
+        "lon": "151.067551",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "212744",
         "name": "Newington Public School, Newington Bvd",
         "lat": "-33.840818",
@@ -48019,6 +48028,15 @@
         "name": "Avenue of Asia before Holker St",
         "lat": "-33.832784",
         "lon": "151.05783",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "212771",
+        "name": "Sydney Olympic Park, Aquatic Terminal",
+        "lat": "-33.849504",
+        "lon": "151.067815",
         "productClass": [
             5
         ]
@@ -58522,7 +58540,7 @@
     },
     {
         "id": "215344",
-        "name": "Model Farms Rd opp Willmott Ave",
+        "name": "Model Farms Rd after Willmott Ave",
         "lat": "-33.776057",
         "lon": "150.992467",
         "productClass": [
@@ -58828,7 +58846,7 @@
     },
     {
         "id": "215378",
-        "name": "27 Asquith Ave",
+        "name": "Asquith Ave after Melbourne Rd",
         "lat": "-33.773318",
         "lon": "150.997045",
         "productClass": [
@@ -60196,7 +60214,7 @@
     },
     {
         "id": "215612",
-        "name": "Old Northern Rd opp Blue Gum Dr",
+        "name": "Old Northern Rd before Blue Gum Dr",
         "lat": "-33.710562",
         "lon": "151.011219",
         "productClass": [
@@ -60223,7 +60241,7 @@
     },
     {
         "id": "215616",
-        "name": "Old Northern Rd after Bluegum Dr",
+        "name": "Old Northern Rd after Blue Gum Dr",
         "lat": "-33.710419",
         "lon": "151.0114",
         "productClass": [
@@ -71394,7 +71412,7 @@
     },
     {
         "id": "217727",
-        "name": "Mount St before Cowpasture Rd",
+        "name": "John the Baptist Primary School, Mount St",
         "lat": "-33.886443",
         "lon": "150.863343",
         "productClass": [
@@ -72123,7 +72141,7 @@
     },
     {
         "id": "217919",
-        "name": "Jamboree Ave at Konara St",
+        "name": "Jamboree Ave before Konara St",
         "lat": "-33.983221",
         "lon": "150.804679",
         "productClass": [
@@ -78887,6 +78905,15 @@
         "name": "Turrella St opp Turrella Station",
         "lat": "-33.929928",
         "lon": "151.140873",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "220533",
+        "name": "Princes Hwy after Subway Rd",
+        "lat": "-33.944094",
+        "lon": "151.142099",
         "productClass": [
             5
         ]
@@ -160803,15 +160830,6 @@
         ]
     },
     {
-        "id": "2021108",
-        "name": "Sydney Cricket Ground, Driver Ave",
-        "lat": "-33.89102",
-        "lon": "151.223485",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2023100",
         "name": "Victoria Rd opp Rivers St",
         "lat": "-33.882047",
@@ -197129,7 +197147,7 @@
     },
     {
         "id": "2154245",
-        "name": "Castle Hill Village, Slade Ave",
+        "name": "Lober Square, Broughton Ave",
         "lat": "-33.729043",
         "lon": "151.022383",
         "productClass": [
@@ -228003,6 +228021,15 @@
         "name": "West Botany St opp Tabrett St",
         "lat": "-33.947162",
         "lon": "151.150193",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2216165",
+        "name": "Bay St after Princes Hwy",
+        "lat": "-33.953049",
+        "lon": "151.138237",
         "productClass": [
             5
         ]
@@ -317851,6 +317878,15 @@
         ]
     },
     {
+        "id": "2765407",
+        "name": "Fontana Dr before Old Pitt Town Rd",
+        "lat": "-33.638385",
+        "lon": "150.904661",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2765409",
         "name": "Valletta Dr after Cavalo Wy",
         "lat": "-33.632443",
@@ -318386,6 +318422,24 @@
         "name": "Bolwarra Dr before Parkway Dr",
         "lat": "-33.689476",
         "lon": "150.813633",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2765474",
+        "name": "Northbourne Dr opp Gamarada Park",
+        "lat": "-33.68971",
+        "lon": "150.819188",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2765475",
+        "name": "Gamarada Park, Northbourne Dr",
+        "lat": "-33.689411",
+        "lon": "150.819115",
         "productClass": [
             5
         ]
