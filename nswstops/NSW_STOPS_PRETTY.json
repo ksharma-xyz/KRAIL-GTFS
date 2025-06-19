@@ -22822,7 +22822,7 @@
     },
     {
         "id": "207383",
-        "name": "Wallalong  Cres after Apollo Ave",
+        "name": "Wallalong Cres after Apollo Ave",
         "lat": "-33.765076",
         "lon": "151.123132",
         "productClass": [
@@ -25360,10 +25360,10 @@
         ]
     },
     {
-        "id": "207763",
+        "id": "207720",
         "name": "Hornsby Station",
-        "lat": "-33.703985",
-        "lon": "151.097911",
+        "lat": "-33.703007",
+        "lon": "151.098462",
         "productClass": [
             5,
             1
@@ -48033,10 +48033,19 @@
         ]
     },
     {
-        "id": "212771",
+        "id": "212766",
         "name": "Sydney Olympic Park, Aquatic Terminal",
-        "lat": "-33.849504",
-        "lon": "151.067815",
+        "lat": "-33.849733",
+        "lon": "151.068303",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "212772",
+        "name": "Sydney Olympic Park, Plaza Terminal",
+        "lat": "-33.84294",
+        "lon": "151.062648",
         "productClass": [
             5
         ]
@@ -53011,7 +53020,7 @@
     },
     {
         "id": "214258",
-        "name": "Woodville Rd opp Chiltern Rd",
+        "name": "Woodville Rd after Chiltern Rd",
         "lat": "-33.863565",
         "lon": "150.991146",
         "productClass": [
@@ -55695,7 +55704,7 @@
     },
     {
         "id": "214755",
-        "name": "Lucas Rd opp Seven Hills Public School",
+        "name": "Lucas Rd opp Seven Hill Public School",
         "lat": "-33.76959",
         "lon": "150.938234",
         "productClass": [
@@ -58180,7 +58189,7 @@
     },
     {
         "id": "215249",
-        "name": "Northmead Primary School, Kleins Rd",
+        "name": "Northmead Public School, Kleins Rd",
         "lat": "-33.785765",
         "lon": "150.991643",
         "productClass": [
@@ -58189,7 +58198,7 @@
     },
     {
         "id": "215251",
-        "name": "Northmead High School, Fletcher St",
+        "name": "Northmead Creative and Performing Arts High School, Fletcher St",
         "lat": "-33.787475",
         "lon": "150.998315",
         "productClass": [
@@ -58198,7 +58207,7 @@
     },
     {
         "id": "215252",
-        "name": "Kleins Rd opp Northmead Primary School",
+        "name": "Kleins Rd opp Northmead Public School",
         "lat": "-33.786515",
         "lon": "150.991681",
         "productClass": [
@@ -60349,7 +60358,7 @@
     },
     {
         "id": "215633",
-        "name": "Mills Rd opp 18",
+        "name": "Mills Rd before Temora Rd",
         "lat": "-33.699653",
         "lon": "150.98963",
         "productClass": [
@@ -60376,7 +60385,7 @@
     },
     {
         "id": "215636",
-        "name": "170 Glenhaven Rd",
+        "name": "Glenhaven Rd after Larapinta Pl",
         "lat": "-33.695705",
         "lon": "150.980839",
         "productClass": [
@@ -60556,7 +60565,7 @@
     },
     {
         "id": "215659",
-        "name": "207 Pitt Town Rd",
+        "name": "Pitt Town Rd before Clarke Way",
         "lat": "-33.625315",
         "lon": "150.950658",
         "productClass": [
@@ -60565,7 +60574,7 @@
     },
     {
         "id": "215660",
-        "name": "Pitt Town Rd opp Clarke Wy",
+        "name": "Pitt Town Rd opp Clarke Way",
         "lat": "-33.626681",
         "lon": "150.951423",
         "productClass": [
@@ -60583,7 +60592,7 @@
     },
     {
         "id": "215662",
-        "name": "187 Pitt Town Rd",
+        "name": "Pitt Town Rd before Coppertail Pl",
         "lat": "-33.630528",
         "lon": "150.953984",
         "productClass": [
@@ -60763,7 +60772,7 @@
     },
     {
         "id": "215683",
-        "name": "Kenthurst Rd opp Kenthurst Uniting Church",
+        "name": "Kenthurst Uniting Church, Kenthurst Rd",
         "lat": "-33.666705",
         "lon": "151.004136",
         "productClass": [
@@ -60772,7 +60781,7 @@
     },
     {
         "id": "215684",
-        "name": "95 Kenthurst Rd",
+        "name": "Kenthurst Rd before Volunteer Rd",
         "lat": "-33.669403",
         "lon": "151.00708",
         "productClass": [
@@ -60790,7 +60799,7 @@
     },
     {
         "id": "215687",
-        "name": "Kenthurst Tennis Centre, Kenthurst Rd",
+        "name": "Hills Grammar Tennis Centre, Kenthurst Rd",
         "lat": "-33.682856",
         "lon": "151.011453",
         "productClass": [
@@ -60799,7 +60808,7 @@
     },
     {
         "id": "215688",
-        "name": "Kenthurst Rd opp Kenthurst Tennis Centre",
+        "name": "Kenthurst Rd opp Hills Grammar Tennis Centre",
         "lat": "-33.682552",
         "lon": "151.011061",
         "productClass": [
@@ -60934,7 +60943,7 @@
     },
     {
         "id": "215716",
-        "name": "Old Northern Rd before Knock Farrel Rd",
+        "name": "Old Northern Rd before Knock Farrell Rd",
         "lat": "-33.607202",
         "lon": "151.01608",
         "productClass": [
@@ -61033,7 +61042,7 @@
     },
     {
         "id": "215727",
-        "name": "Old Northern Rd opp Knock Farrel Rd",
+        "name": "Old Northern Rd opp Knock Farrell Rd",
         "lat": "-33.606399",
         "lon": "151.015386",
         "productClass": [
@@ -61204,7 +61213,7 @@
     },
     {
         "id": "215749",
-        "name": "884 Old Northern Rd",
+        "name": "Old Northern Rd after Cattai Ridge Rd",
         "lat": "-33.614648",
         "lon": "151.019324",
         "productClass": [
@@ -61321,7 +61330,7 @@
     },
     {
         "id": "215762",
-        "name": "Old Northern Rd at Echidna Grove",
+        "name": "Old Northern Rd at Echidna Gr",
         "lat": "-33.51987",
         "lon": "151.027171",
         "productClass": [
@@ -61510,7 +61519,7 @@
     },
     {
         "id": "215834",
-        "name": "1191 Old Northern Rd",
+        "name": "Old Northern Rd after Cranstons Rd",
         "lat": "-33.652288",
         "lon": "151.019963",
         "productClass": [
@@ -61537,7 +61546,7 @@
     },
     {
         "id": "215840",
-        "name": "Old Northern Rd opp Wyoming Rd",
+        "name": "Old Northern Rd after Wyoming Rd",
         "lat": "-33.668702",
         "lon": "151.025778",
         "productClass": [
@@ -61734,15 +61743,6 @@
         ]
     },
     {
-        "id": "215865",
-        "name": "710 Old Northern Rd",
-        "lat": "-33.663057",
-        "lon": "151.025712",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "215866",
         "name": "718 Old Northern Rd",
         "lat": "-33.660855",
@@ -61765,15 +61765,6 @@
         "name": "Old Northern Rd before Cranstons Rd",
         "lat": "-33.652295",
         "lon": "151.019801",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "215870",
-        "name": "Old Northern Rd after Cranstons Rd",
-        "lat": "-33.650137",
-        "lon": "151.020654",
         "productClass": [
             5
         ]
@@ -62041,7 +62032,7 @@
     },
     {
         "id": "215919",
-        "name": "Seventh-day Adventist Church, Arcadia St",
+        "name": "Seventh-day Adventist Church, Arcadia Rd",
         "lat": "-33.645327",
         "lon": "151.044508",
         "productClass": [
@@ -62086,7 +62077,7 @@
     },
     {
         "id": "215926",
-        "name": "Arcadia Rd opp Rosscommon Rd",
+        "name": "Arcadia Rd opp Roscommon Rd",
         "lat": "-33.623875",
         "lon": "151.041481",
         "productClass": [
@@ -62113,7 +62104,7 @@
     },
     {
         "id": "215929",
-        "name": "St Benedicts Monastry, Arcadia Rd",
+        "name": "St Benedict's Monastery, Arcadia Rd",
         "lat": "-33.620873",
         "lon": "151.04724",
         "productClass": [
@@ -62284,7 +62275,7 @@
     },
     {
         "id": "215958",
-        "name": "Arcadia Rd after Rosscommon Rd",
+        "name": "Arcadia Rd after Roscommon Rd",
         "lat": "-33.624235",
         "lon": "151.041452",
         "productClass": [
@@ -62320,7 +62311,7 @@
     },
     {
         "id": "215965",
-        "name": "Fagen Park, Arcadia Rd",
+        "name": "Fagan Park, Arcadia Rd",
         "lat": "-33.643239",
         "lon": "151.041519",
         "productClass": [
@@ -62329,7 +62320,7 @@
     },
     {
         "id": "215966",
-        "name": "Arcadia Rd before Gribbenmount Rd",
+        "name": "Arcadia Rd opp Seventh-day Adventist Church",
         "lat": "-33.645209",
         "lon": "151.044613",
         "productClass": [
@@ -62401,7 +62392,7 @@
     },
     {
         "id": "215978",
-        "name": "7 Mid Dural Rd",
+        "name": "Mid Dural Rd before Johnson Rd",
         "lat": "-33.65191",
         "lon": "151.037413",
         "productClass": [
@@ -62446,7 +62437,7 @@
     },
     {
         "id": "215984",
-        "name": "Galston High School Galston Rd",
+        "name": "Galston High School, Galston Rd",
         "lat": "-33.660292",
         "lon": "151.039885",
         "productClass": [
@@ -63247,7 +63238,7 @@
     },
     {
         "id": "216116",
-        "name": "Woodville Rd opp Rawson Rd",
+        "name": "Woodville Rd after Rawson Rd",
         "lat": "-33.860235",
         "lon": "150.993388",
         "productClass": [
@@ -63931,7 +63922,7 @@
     },
     {
         "id": "216211",
-        "name": "Woodville Rd opp Springfield St",
+        "name": "Woodville Rd after Springfield St",
         "lat": "-33.864732",
         "lon": "150.990057",
         "productClass": [
@@ -117670,15 +117661,6 @@
         ]
     },
     {
-        "id": "231741",
-        "name": "Salamander Way opp 174a",
-        "lat": "-32.739988",
-        "lon": "152.101712",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "231742",
         "name": "Salamander Way opp 156",
         "lat": "-32.738661",
@@ -149364,7 +149346,7 @@
     },
     {
         "id": "276074",
-        "name": "Hewitt  St opp Albany Lane",
+        "name": "Hewitt St opp Albany Lane",
         "lat": "-33.786095",
         "lon": "150.799491",
         "productClass": [
@@ -150624,7 +150606,7 @@
     },
     {
         "id": "276259",
-        "name": "Guntawong Rd  before Clarke St",
+        "name": "Guntawong Rd before Clarke St",
         "lat": "-33.682553",
         "lon": "150.889438",
         "productClass": [
@@ -154044,7 +154026,7 @@
     },
     {
         "id": "276866",
-        "name": "Meurants Lane opp Angara Cct",
+        "name": "Meurants Lane after Angara Cct",
         "lat": "-33.74034",
         "lon": "150.941632",
         "productClass": [
@@ -154146,15 +154128,6 @@
         "name": "Forman Ave opp Arrowsmith St",
         "lat": "-33.731616",
         "lon": "150.928383",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "276879",
-        "name": "Forman Ave opp Packsaddle St",
-        "lat": "-33.732538",
-        "lon": "150.93158",
         "productClass": [
             5
         ]
@@ -160416,15 +160389,6 @@
         ]
     },
     {
-        "id": "278631",
-        "name": "Mount Victoria Station, Coach Stop",
-        "lat": "-33.588097",
-        "lon": "150.25663",
-        "productClass": [
-            7
-        ]
-    },
-    {
         "id": "278653",
         "name": "Mount Victoria Public School, Victoria St",
         "lat": "-33.59222",
@@ -160447,15 +160411,6 @@
         "name": "Mt Piddington Rd opp Beck St",
         "lat": "-33.594368",
         "lon": "150.256481",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "279018",
-        "name": "Lithgow Station, Railway Pde",
-        "lat": "-33.480579",
-        "lon": "150.156385",
         "productClass": [
             5
         ]
@@ -169506,6 +169461,15 @@
         ]
     },
     {
+        "id": "2086107",
+        "name": "Northern Beaches Hospital, Warringah Rd",
+        "lat": "-33.751662",
+        "lon": "151.231279",
+        "productClass": [
+            5
+        ]
+    },
+    {
         "id": "2086108",
         "name": "Yarraman Ave at Bantry Bay Rd",
         "lat": "-33.759305",
@@ -172327,6 +172291,15 @@
         "name": "St Davids Ave at Pittwater Rd",
         "lat": "-33.752351",
         "lon": "151.286416",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2099208",
+        "name": "Pittwater Rd at Howard Ave",
+        "lat": "-33.752353",
+        "lon": "151.287304",
         "productClass": [
             5
         ]
@@ -177157,7 +177130,7 @@
     },
     {
         "id": "2118194",
-        "name": "St Gerard's Primary School, North Rocks Rd",
+        "name": "St Gerard's Catholic Primary School, North Rocks Rd",
         "lat": "-33.765961",
         "lon": "151.050448",
         "productClass": [
@@ -177850,7 +177823,7 @@
     },
     {
         "id": "2120192",
-        "name": "St Agatha's Parish Primary School, Trebor Rd",
+        "name": "St Agatha's Primary School, Trebor Rd",
         "lat": "-33.738399",
         "lon": "151.066969",
         "productClass": [
@@ -180163,7 +180136,7 @@
     },
     {
         "id": "2126124",
-        "name": "New Line Rd opp Valda St",
+        "name": "New Line Rd opp 79",
         "lat": "-33.736766",
         "lon": "151.046517",
         "productClass": [
@@ -183061,7 +183034,7 @@
     },
     {
         "id": "2142156",
-        "name": "St Thomas Church Hall, Woodville Rd",
+        "name": "Woodville Rd at Bradman St",
         "lat": "-33.842613",
         "lon": "150.998819",
         "productClass": [
@@ -183556,7 +183529,7 @@
     },
     {
         "id": "2142232",
-        "name": "Woodville Rd opp Daniel St",
+        "name": "Woodville Rd after William St",
         "lat": "-33.833903",
         "lon": "151.002226",
         "productClass": [
@@ -190891,7 +190864,7 @@
     },
     {
         "id": "2148261",
-        "name": "Sunnyholt Rd before Bessemer St",
+        "name": "Blacktown North Public School, Sunnyholt Rd",
         "lat": "-33.75891",
         "lon": "150.914022",
         "productClass": [
@@ -191809,7 +191782,7 @@
     },
     {
         "id": "2148472",
-        "name": "Brother Alberts Home For Retirement Village, Quakers Rd",
+        "name": "Holy Family Services, Quakers Rd",
         "lat": "-33.741186",
         "lon": "150.887798",
         "productClass": [
@@ -193304,7 +193277,7 @@
     },
     {
         "id": "2151151",
-        "name": "Muirfield High School, Access Rd, Barclay Rd",
+        "name": "Muirfield High School, Barclay Rd",
         "lat": "-33.765816",
         "lon": "151.021652",
         "productClass": [
@@ -193439,7 +193412,7 @@
     },
     {
         "id": "2153107",
-        "name": "Baulkham Hills Rd opp Balcombe Heights Scout Hall",
+        "name": "Baulkham Hills Rd opp Col Sutton Reserve",
         "lat": "-33.76326",
         "lon": "150.965387",
         "productClass": [
@@ -194114,7 +194087,7 @@
     },
     {
         "id": "2153208",
-        "name": "78-82 Old Northern Rd",
+        "name": "Old Northern Rd after Hill St",
         "lat": "-33.756517",
         "lon": "150.992333",
         "productClass": [
@@ -195068,7 +195041,7 @@
     },
     {
         "id": "2153332",
-        "name": "Seven Hills Rd before Hilda Rd",
+        "name": "Seven Hills Rd after Marina Rd",
         "lat": "-33.760292",
         "lon": "150.967249",
         "productClass": [
@@ -195698,7 +195671,7 @@
     },
     {
         "id": "2153427",
-        "name": "22 Coronation Rd",
+        "name": "Coronation Rd after Mulgray Ave",
         "lat": "-33.754448",
         "lon": "150.985577",
         "productClass": [
@@ -197732,7 +197705,7 @@
     },
     {
         "id": "2155103",
-        "name": "Wellgate Ave at Liberty Way",
+        "name": "Bentley Ave at Liberty Way",
         "lat": "-33.678066",
         "lon": "150.933482",
         "productClass": [
@@ -197822,9 +197795,9 @@
     },
     {
         "id": "2155117",
-        "name": "Withers Rd at Nullabor St",
-        "lat": "-33.685252",
-        "lon": "150.952278",
+        "name": "Withers Rd opp North Kellyville Square",
+        "lat": "-33.685463",
+        "lon": "150.95142",
         "productClass": [
             5
         ]
@@ -197867,7 +197840,7 @@
     },
     {
         "id": "2155125",
-        "name": "Withers Rd after Hezlett Rd",
+        "name": "North Kellyville Square, Withers Rd",
         "lat": "-33.68548",
         "lon": "150.951895",
         "productClass": [
@@ -199487,7 +199460,7 @@
     },
     {
         "id": "2155388",
-        "name": "39 Arnold Ave",
+        "name": "Arnold Ave after Gainsford Dr",
         "lat": "-33.715339",
         "lon": "150.941248",
         "productClass": [
@@ -199496,7 +199469,7 @@
     },
     {
         "id": "2155389",
-        "name": "Arnold Ave before Halfpenny Ave",
+        "name": "Arnold Ave before Half Penny Ave",
         "lat": "-33.716832",
         "lon": "150.941536",
         "productClass": [
@@ -199748,7 +199721,7 @@
     },
     {
         "id": "2155421",
-        "name": "324 Annangrove Rd",
+        "name": "Annangrove Rd opp Limestone Rd",
         "lat": "-33.666735",
         "lon": "150.917739",
         "productClass": [
@@ -199937,7 +199910,7 @@
     },
     {
         "id": "2155446",
-        "name": "Fairway Dr opp Severn Vale Dr",
+        "name": "Fairway Dr after Severn Vale Dr",
         "lat": "-33.723364",
         "lon": "150.955322",
         "productClass": [
@@ -200531,7 +200504,7 @@
     },
     {
         "id": "2156132",
-        "name": "268 Annangrove Rd",
+        "name": "Annangrove Rd after Joylyn Rd",
         "lat": "-33.657406",
         "lon": "150.935313",
         "productClass": [
@@ -200576,7 +200549,7 @@
     },
     {
         "id": "2156137",
-        "name": "211 Annangrove Rd",
+        "name": "Annangrove Rd after Langlands Rd",
         "lat": "-33.662498",
         "lon": "150.947123",
         "productClass": [
@@ -200732,15 +200705,6 @@
         "name": "Kenthurst Rd after Volunteer Rd",
         "lat": "-33.669993",
         "lon": "151.007284",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2156155",
-        "name": "Kenthurst Uniting Church, Kenthurst Rd",
-        "lat": "-33.666391",
-        "lon": "151.003772",
         "productClass": [
             5
         ]
@@ -201287,7 +201251,7 @@
     },
     {
         "id": "2156230",
-        "name": "6-8 Shoplands Rd",
+        "name": "6 Shoplands Rd",
         "lat": "-33.653663",
         "lon": "150.945608",
         "productClass": [
@@ -201368,7 +201332,7 @@
     },
     {
         "id": "2156239",
-        "name": "Lawrence Rd before Strath Pl",
+        "name": "Lawrence Rd at Strath Pl",
         "lat": "-33.638789",
         "lon": "150.988081",
         "productClass": [
@@ -201611,7 +201575,7 @@
     },
     {
         "id": "2156268",
-        "name": "Annangrove Rd opp Kingcott Pl",
+        "name": "Annangrove Rd after Kingcott Pl",
         "lat": "-33.675583",
         "lon": "150.96409",
         "productClass": [
@@ -201827,7 +201791,7 @@
     },
     {
         "id": "2158120",
-        "name": "St Judes Anglican Cemetery, Old Northern Rd",
+        "name": "St Judes Anglican Church Cemetery, Old Northern Rd",
         "lat": "-33.684032",
         "lon": "151.027849",
         "productClass": [
@@ -201988,15 +201952,6 @@
         ]
     },
     {
-        "id": "2158148",
-        "name": "Kenthurst Rd opp Pellitt Lane",
-        "lat": "-33.689514",
-        "lon": "151.015614",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2158149",
         "name": "Old Northern Rd after Garemyn Rd",
         "lat": "-33.633684",
@@ -202019,15 +201974,6 @@
         "name": "Arcadia Rd opp 60",
         "lat": "-33.636226",
         "lon": "151.040156",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2159102",
-        "name": "Galston High School, Galston Rd",
-        "lat": "-33.660043",
-        "lon": "151.039745",
         "productClass": [
             5
         ]
@@ -202061,7 +202007,7 @@
     },
     {
         "id": "2159106",
-        "name": "180 Arcadia Rd",
+        "name": "Arcadia Rd after Calabash Rd",
         "lat": "-33.614976",
         "lon": "151.067334",
         "productClass": [
@@ -202799,7 +202745,7 @@
     },
     {
         "id": "2160213",
-        "name": "Woodville Rd after Patten St",
+        "name": "Woodville Rd after Patten Ave",
         "lat": "-33.843297",
         "lon": "150.998413",
         "productClass": [
@@ -204716,7 +204662,7 @@
     },
     {
         "id": "2163151",
-        "name": "Leightonfield Station, Access Road, Christina Rd",
+        "name": "Leightonfield Station, Christina Rd",
         "lat": "-33.88115",
         "lon": "150.984711",
         "productClass": [
@@ -204797,7 +204743,7 @@
     },
     {
         "id": "2163214",
-        "name": "Woodville Rd opp Allowrie Rd",
+        "name": "Woodville Rd before Allowrie Rd",
         "lat": "-33.8876",
         "lon": "150.9744",
         "productClass": [
@@ -238099,7 +238045,7 @@
     },
     {
         "id": "2250431",
-        "name": "Frederick St after Central Coast  Highway",
+        "name": "Frederick St after Central Coast Highway",
         "lat": "-33.435328",
         "lon": "151.346502",
         "productClass": [
@@ -262372,7 +262318,7 @@
     },
     {
         "id": "2285305",
-        "name": "Harper Ave at Campana  Ave",
+        "name": "Harper Ave at Campana Ave",
         "lat": "-32.920013",
         "lon": "151.628551",
         "productClass": [
@@ -290903,7 +290849,7 @@
     },
     {
         "id": "2530119",
-        "name": "Kanahooka Rd opp  Hayes Park Public School",
+        "name": "Kanahooka Rd opp Hayes Park Public School",
         "lat": "-34.492444",
         "lon": "150.815365",
         "productClass": [
@@ -315683,7 +315629,7 @@
     },
     {
         "id": "2763166",
-        "name": "Quakers Hill Station, Railway Rd (NightRide)",
+        "name": "Quakers Hill Station, Railway Rd",
         "lat": "-33.727074",
         "lon": "150.885769",
         "productClass": [
@@ -316493,7 +316439,7 @@
     },
     {
         "id": "2765189",
-        "name": "Old Pitt Town Rd at Boundary Rd",
+        "name": "Old Pitt Town Rd after Boundary Rd",
         "lat": "-33.633886",
         "lon": "150.890901",
         "productClass": [
@@ -316835,7 +316781,7 @@
     },
     {
         "id": "2765233",
-        "name": "122 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd after Valletta Dr",
         "lat": "-33.636005",
         "lon": "150.896709",
         "productClass": [
@@ -316844,7 +316790,7 @@
     },
     {
         "id": "2765234",
-        "name": "105 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd before Valletta Dr",
         "lat": "-33.636078",
         "lon": "150.897013",
         "productClass": [
@@ -316853,7 +316799,7 @@
     },
     {
         "id": "2765235",
-        "name": "99 Old Pitt Town Rd",
+        "name": "Old Pitt Town Rd before Kewney St",
         "lat": "-33.634752",
         "lon": "150.893559",
         "productClass": [
@@ -316948,6 +316894,16 @@
         "lon": "150.893334",
         "productClass": [
             5
+        ]
+    },
+    {
+        "id": "2765253",
+        "name": "Riverstone Station",
+        "lat": "-33.67922",
+        "lon": "150.860599",
+        "productClass": [
+            5,
+            1
         ]
     },
     {
@@ -317072,6 +317028,15 @@
         "name": "Vineyard Station, Riverstone Pde (NightRide)",
         "lat": "-33.650173",
         "lon": "150.851248",
+        "productClass": [
+            5
+        ]
+    },
+    {
+        "id": "2765276",
+        "name": "Riverstone Pde opp Vineyard Station",
+        "lat": "-33.650499",
+        "lon": "150.851616",
         "productClass": [
             5
         ]
@@ -317285,7 +317250,7 @@
     },
     {
         "id": "2765322",
-        "name": "341 Pitt Town Rd",
+        "name": "Pitt Town Rd before Maguires Rd",
         "lat": "-33.595945",
         "lon": "150.925816",
         "productClass": [
@@ -317627,7 +317592,7 @@
     },
     {
         "id": "2765364",
-        "name": "Guntawong Rd  after Clarke St",
+        "name": "Guntawong Rd after Clarke St",
         "lat": "-33.682436",
         "lon": "150.88943",
         "productClass": [
@@ -324133,15 +324098,6 @@
         ]
     },
     {
-        "id": "2780197",
-        "name": "Katoomba Station, Goldsmith Pl",
-        "lat": "-33.711904",
-        "lon": "150.312229",
-        "productClass": [
-            5
-        ]
-    },
-    {
         "id": "2780200",
         "name": "Northcote Rd after Gladstone Rd",
         "lat": "-33.718781",
@@ -324740,15 +324696,6 @@
         "name": "Blaxland Rd opp Westbourne Ave",
         "lat": "-33.705972",
         "lon": "150.376196",
-        "productClass": [
-            5
-        ]
-    },
-    {
-        "id": "2790115",
-        "name": "Zig Zag Station, Chifley Rd",
-        "lat": "-33.477797",
-        "lon": "150.221304",
         "productClass": [
             5
         ]
@@ -330589,15 +330536,6 @@
         "name": "Richmond Station",
         "lat": "-33.5991116405",
         "lon": "150.753211003",
-        "productClass": [
-            1
-        ]
-    },
-    {
-        "id": "276510",
-        "name": "Riverstone Station",
-        "lat": "-33.6790433699",
-        "lon": "150.860267864",
         "productClass": [
             1
         ]
