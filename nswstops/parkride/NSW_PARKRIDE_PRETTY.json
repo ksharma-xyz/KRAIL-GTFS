@@ -10,6 +10,11 @@
     "parkRideName": "Park&Ride - Kiama"
   },
   {
+    "stopId": "225041",
+    "parkRideFacilityId": "8",
+    "parkRideName": "Park&Ride - Gosford"
+  },
+  {
     "stopId": "225040",
     "parkRideFacilityId": "8",
     "parkRideName": "Park&Ride - Gosford"
@@ -43,6 +48,11 @@
     "stopId": "209913",
     "parkRideFacilityId": "13",
     "parkRideName": "Park&Ride - Dee Why"
+  },
+  {
+    "stopId": "211424",
+    "parkRideFacilityId": "14",
+    "parkRideName": "Park&Ride - West Ryde"
   },
   {
     "stopId": "211420",
@@ -90,6 +100,16 @@
     "parkRideName": "Park&Ride - Campbelltown Hurley St"
   },
   {
+    "stopId": "275075",
+    "parkRideFacilityId": "21",
+    "parkRideName": "Park&Ride - Penrith (at-grade)"
+  },
+  {
+    "stopId": "275075",
+    "parkRideFacilityId": "22",
+    "parkRideName": "Park&Ride - Penrith (multi-level)"
+  },
+  {
     "stopId": "275010",
     "parkRideFacilityId": "21",
     "parkRideName": "Park&Ride - Penrith (at-grade)"
@@ -106,6 +126,11 @@
   },
   {
     "stopId": "276220",
+    "parkRideFacilityId": "24",
+    "parkRideName": "Park&Ride - Schofields"
+  },
+  {
+    "stopId": "2762106",
     "parkRideFacilityId": "24",
     "parkRideName": "Park&Ride - Schofields"
   },
@@ -191,6 +216,11 @@
   },
   {
     "stopId": "214710",
+    "parkRideFacilityId": "488",
+    "parkRideName": "Park&Ride - Seven Hills"
+  },
+  {
+    "stopId": "214732",
     "parkRideFacilityId": "488",
     "parkRideName": "Park&Ride - Seven Hills"
   },
