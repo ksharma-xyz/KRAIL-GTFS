@@ -2,6 +2,7 @@ package app.krail.kgtfs.io
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okio.IOException
 import okio.Path
@@ -9,7 +10,11 @@ import java.io.File
 
 object FileStorage {
 
-    val prettyJson = Json { prettyPrint = true }
+    @OptIn(ExperimentalSerializationApi::class)
+    val prettyJson = Json {
+        prettyPrint = true
+        prettyPrintIndent = "  "
+    }
     val json = Json { prettyPrint = false }
 
     const val ZIP_EXTENSION = ".zip"

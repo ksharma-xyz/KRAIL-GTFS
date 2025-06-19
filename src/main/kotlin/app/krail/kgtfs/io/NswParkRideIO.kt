@@ -2,6 +2,7 @@ package app.krail.kgtfs.io
 
 import app.krail.kgtfs.io.FileStorage.writeJsonToFile
 import app.krail.kgtfs.model.StopJson
+import app.krail.kgtfs.nsw.parkride.StopIdParkRideMapping
 import app.krail.kgtfs.nsw.parkride.stopIdParkRideMappings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -18,23 +19,41 @@ const val NSW_PARK_RIDE_DIR = "nswstops/parkride"
  *
  * @param result The list of [StopJson] objects to filter and write.
  */
-suspend fun writeParkRideData(result: List<StopJson>) = withContext(Dispatchers.IO) {
-    // Extract all stop IDs from the result list and put them in a Set for fast lookup
-    val stopIds = result.map { stop -> stop.id }.toSet()
-
-    // Filter the park & ride mappings to only include those whose stopId is present in the result set
+suspend fun writeParkRideData(
+    result: List<StopJson>,
+    staticMappings: List<StopIdParkRideMapping> = loadStaticParkRideMappings(),
+) = withContext(Dispatchers.IO) {
+    val stopIds = result.map { it.id }.toSet()
     val filteredMappings = stopIdParkRideMappings.filter { it.stopId in stopIds }
+    val mergedMappings = (staticMappings + filteredMappings)
+        .distinctBy { it.stopId to it.parkRideFacilityId }
+        .sortedBy { it.parkRideName }
 
     writeJsonToFile(
-        data = filteredMappings,
+        data = mergedMappings,
         path = NSW_PARK_RIDE_DIR.toPath(),
-        fileName = "NSW_PARKRIDE_PRETTY",
+        fileName = "NSW_PARKRIDE",
         pretty = true,
     )
     writeJsonToFile(
-        data = filteredMappings,
+        data = mergedMappings,
         path = NSW_PARK_RIDE_DIR.toPath(),
         fileName = "NSW_PARKRIDE",
         pretty = false,
     )
 }
+
+/**
+ * Adding some mapping data these stopId's either represent an old StopID which was wrong or a new StopID is now available
+ * therefore, we need to support those saved trips which have these StopID's for Park and Ride to display in the app automatically.
+ */
+fun loadStaticParkRideMappings(): List<StopIdParkRideMapping> = listOf(
+    StopIdParkRideMapping("2762106", "24", "Park&Ride - Schofields"),
+    StopIdParkRideMapping("207720", "25", "Park&Ride - Hornsby"),
+    StopIdParkRideMapping("207763", "25", "Park&Ride - Hornsby"),
+    StopIdParkRideMapping("275075", "21", "Park&Ride - Penrith (at-grade)"),
+    StopIdParkRideMapping("275075", "22", "Park&Ride - Penrith (multi-level)"),
+    StopIdParkRideMapping("214732", "488", "Park&Ride - Seven Hills"),
+    StopIdParkRideMapping("2103108", "12", "Park&Ride - Mona Vale"),
+    StopIdParkRideMapping("225041", "8", "Park&Ride - Gosford")
+)
