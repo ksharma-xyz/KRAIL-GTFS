@@ -4,7 +4,6 @@ import app.krail.kgtfs.filter.BusStopsFilter.filterOutBusStandData
 import app.krail.kgtfs.io.NswStopsJsonIO.writeStopData
 import app.krail.kgtfs.io.writeParkRideData
 import app.krail.kgtfs.nsw.NswGtfsManager
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.runBlocking
 import kotlin.system.exitProcess
 
