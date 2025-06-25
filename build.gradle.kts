@@ -24,7 +24,7 @@ dependencies {
     implementation("io.ktor:ktor-client-auth:3.2.0")
 
     // IO
-    implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.7.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.8.0")
     implementation("com.squareup.okio:okio:3.13.0")
 
     // Date Time
