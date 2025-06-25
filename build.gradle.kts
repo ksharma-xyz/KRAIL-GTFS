@@ -28,7 +28,7 @@ dependencies {
     implementation("com.squareup.okio:okio:3.13.0")
 
     // Date Time
-    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.6.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.7.0-0.6.x-compat")
 
     // https://ktor.io/docs/server-logging.html
     implementation("ch.qos.logback:logback-classic:1.5.18")
