@@ -4149,6 +4149,15 @@
     ]
   },
   {
+    "id": "202156",
+    "name": "Moore Park Bus Interchange",
+    "lat": "-33.89071",
+    "lon": "151.22191",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202159",
     "name": "Oxford St at Glenmore Rd",
     "lat": "-33.883629",
@@ -4419,15 +4428,6 @@
     ]
   },
   {
-    "id": "202220",
-    "name": "York Rd after Oxford St",
-    "lat": "-33.890886",
-    "lon": "151.241928",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202221",
     "name": "Bourke St after Cuthbert St",
     "lat": "-33.897353",
@@ -4678,15 +4678,6 @@
     "productClass": [
       5,
       1
-    ]
-  },
-  {
-    "id": "202250",
-    "name": "York Rd before Oxford St",
-    "lat": "-33.890962",
-    "lon": "151.241776",
-    "productClass": [
-      5
     ]
   },
   {
@@ -16734,6 +16725,15 @@
     ]
   },
   {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -17656,15 +17656,6 @@
     "name": "Wollstonecraft Station, Milner Cres",
     "lat": "-33.831628",
     "lon": "151.192605",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206512",
-    "name": "Pacific Hwy at Hume St",
-    "lat": "-33.826311",
-    "lon": "151.19926",
     "productClass": [
       5
     ]
@@ -48231,15 +48222,6 @@
     ]
   },
   {
-    "id": "212799",
-    "name": "Dawn Fraser Ave before Park St",
-    "lat": "-33.846359",
-    "lon": "151.07127",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212811",
     "name": "Cricket Central, Silverwater Rd",
     "lat": "-33.827286",
@@ -60781,7 +60763,7 @@
   },
   {
     "id": "215683",
-    "name": "Kenthurst Uniting Church, Kenthurst Rd",
+    "name": "Kenthurst Rd opp Kenthurst Uniting Church",
     "lat": "-33.666705",
     "lon": "151.004136",
     "productClass": [
@@ -123142,6 +123124,15 @@
     ]
   },
   {
+    "id": "232550",
+    "name": "Campbell St opp Mulbring St",
+    "lat": "-32.916227",
+    "lon": "151.311464",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "232551",
     "name": "Helena St before Truro St",
     "lat": "-32.914631",
@@ -136609,7 +136600,7 @@
   },
   {
     "id": "255639",
-    "name": "Greendale before Wentworth",
+    "name": "Greendale Rd before Wentworth Rd",
     "lat": "-33.939651",
     "lon": "150.730947",
     "productClass": [
@@ -142730,7 +142721,7 @@
   },
   {
     "id": "257143",
-    "name": "Picton Shire Hall and Library, Menangle St",
+    "name": "Wollondilly Shire Council, Menangle St",
     "lat": "-34.170141",
     "lon": "150.612593",
     "productClass": [
@@ -160731,6 +160722,15 @@
     ]
   },
   {
+    "id": "2021108",
+    "name": "Sydney Cricket Ground, Driver Ave",
+    "lat": "-33.89102",
+    "lon": "151.223485",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2023100",
     "name": "Victoria Rd opp Rivers St",
     "lat": "-33.882047",
@@ -163638,6 +163638,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163714,6 +163723,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -164974,6 +165001,15 @@
     "name": "Railway St at Help St",
     "lat": "-33.795879",
     "lon": "151.180456",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -183672,15 +183708,6 @@
     ]
   },
   {
-    "id": "2142287",
-    "name": "Granville Station, Bridge St",
-    "lat": "-33.832341",
-    "lon": "151.011551",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142288",
     "name": "Halsall St at Woodville Rd",
     "lat": "-33.830578",
@@ -192799,24 +192826,6 @@
     ]
   },
   {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2150396",
     "name": "Pitt St after Great Western Hwy",
     "lat": "-33.817826",
@@ -200642,6 +200651,15 @@
     "name": "Kenthurst Rd after Volunteer Rd",
     "lat": "-33.669993",
     "lon": "151.007284",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2156155",
+    "name": "Kenthurst Uniting Church, Kenthurst Rd",
+    "lat": "-33.666391",
+    "lon": "151.003772",
     "productClass": [
       5
     ]
@@ -215967,7 +215985,7 @@
   },
   {
     "id": "2171267",
-    "name": "Austral Public School, Twenty Ninth Ave",
+    "name": "Austral Public School, Tenth Ave",
     "lat": "-33.933213",
     "lon": "150.812234",
     "productClass": [
@@ -245820,15 +245838,6 @@
     ]
   },
   {
-    "id": "2259242",
-    "name": "Warnervale Rd after Minnesota Rd",
-    "lat": "-33.249908",
-    "lon": "151.465543",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2259243",
     "name": "Porters Creek Public School, Warnervale Rd",
     "lat": "-33.248536",
@@ -248056,15 +248065,6 @@
     "name": "Mataram Rd at Forest Oak Rd",
     "lat": "-33.242927",
     "lon": "151.487475",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2259614",
-    "name": "Warnervale Rd before Virginia Rd",
-    "lat": "-33.249358",
-    "lon": "151.461881",
     "productClass": [
       5
     ]
@@ -269706,42 +269706,6 @@
     ]
   },
   {
-    "id": "2304164",
-    "name": "George St after Holt St",
-    "lat": "-32.899671",
-    "lon": "151.748445",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2304165",
-    "name": "George St opp Smith St",
-    "lat": "-32.900028",
-    "lon": "151.750782",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2304172",
-    "name": "George St at Smith St",
-    "lat": "-32.90018",
-    "lon": "151.750684",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2304173",
-    "name": "George St at Holt St",
-    "lat": "-32.899794",
-    "lon": "151.748102",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2304174",
     "name": "Ingall St at Hann St",
     "lat": "-32.898684",
@@ -284296,15 +284260,6 @@
     ]
   },
   {
-    "id": "2500308",
-    "name": "Kembla St before Bourke St",
-    "lat": "-34.414514",
-    "lon": "150.899739",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2500311",
     "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
     "lat": "-34.405704",
@@ -284444,15 +284399,6 @@
     "name": "Corrimal St before Gipps St",
     "lat": "-34.419194",
     "lon": "150.901109",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2500333",
-    "name": "Corrimal St after Georges Pl",
-    "lat": "-34.419261",
-    "lon": "150.901247",
     "productClass": [
       5
     ]
@@ -311883,7 +311829,7 @@
   },
   {
     "id": "2758631",
-    "name": "Kurrajong East Public School, East Kurrajong",
+    "name": "Kurrajong East Public School, East Kurrajong Rd",
     "lat": "-33.511285",
     "lon": "150.778235",
     "productClass": [
@@ -316750,16 +316696,6 @@
     "lon": "150.893334",
     "productClass": [
       5
-    ]
-  },
-  {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
     ]
   },
   {
@@ -330374,6 +330310,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
