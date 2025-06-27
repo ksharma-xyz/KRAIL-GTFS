@@ -14,7 +14,7 @@ repositories {
 dependencies {
 
     // Networking
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     implementation("io.ktor:ktor-client-content-negotiation:3.2.0")
     implementation("io.ktor:ktor-client-core:3.2.0")
     implementation("io.ktor:ktor-client-cio:3.2.0")
