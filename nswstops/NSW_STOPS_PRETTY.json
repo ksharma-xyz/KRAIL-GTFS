@@ -288,24 +288,6 @@
     ]
   },
   {
-    "id": "200088",
-    "name": "Darling Dr opp Convention Centre",
-    "lat": "-33.872503",
-    "lon": "151.198211",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "200091",
-    "name": "Paddy's Market Light Rail, Darling Dr",
-    "lat": "-33.880624",
-    "lon": "151.20186",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200096",
     "name": "Bridge St at Gresham St",
     "lat": "-33.863625",
@@ -540,15 +522,6 @@
     ]
   },
   {
-    "id": "200914",
-    "name": "Convention Centre, Darling Dr",
-    "lat": "-33.872915",
-    "lon": "151.198343",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200916",
     "name": "Harris St at Pyrmont Bridge Rd",
     "lat": "-33.871078",
@@ -630,15 +603,6 @@
     ]
   },
   {
-    "id": "200925",
-    "name": "Pyrmont Bridge Rd opp Wattle St",
-    "lat": "-33.873657",
-    "lon": "151.192631",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200926",
     "name": "Harris St after Allen St",
     "lat": "-33.87302",
@@ -670,15 +634,6 @@
     "name": "Fish Market Light Rail, Miller St",
     "lat": "-33.870534",
     "lon": "151.192004",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "200930",
-    "name": "Pyrmont Bridge Rd at Wattle St",
-    "lat": "-33.873781",
-    "lon": "151.192714",
     "productClass": [
       5
     ]
@@ -11478,28 +11433,10 @@
     ]
   },
   {
-    "id": "203744",
-    "name": "Bridge Rd at Palmerston Rd",
-    "lat": "-33.877288",
-    "lon": "151.187754",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "203746",
     "name": "Sydney Secondary College Blackwattle Bay Campus, Taylor St",
     "lat": "-33.876211",
     "lon": "151.187947",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203754",
-    "name": "Bridge Rd opp Burton St",
-    "lat": "-33.876957",
-    "lon": "151.187933",
     "productClass": [
       5
     ]
@@ -12369,15 +12306,6 @@
     ]
   },
   {
-    "id": "204057",
-    "name": "Foster St at Marion St",
-    "lat": "-33.884415",
-    "lon": "151.147503",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "204060",
     "name": "Balmain Rd opp Sydney Secondary College Leichhardt Campus",
     "lat": "-33.879581",
@@ -12445,15 +12373,6 @@
     "name": "Catherine St opp War Memorial Park",
     "lat": "-33.878943",
     "lon": "151.164331",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204069",
-    "name": "Hawthorne Light Rail, Darley Rd",
-    "lat": "-33.87921",
-    "lon": "151.147893",
     "productClass": [
       5
     ]
@@ -12553,33 +12472,6 @@
     "name": "Lilyfield Light Rail, Catherine St",
     "lat": "-33.873663",
     "lon": "151.164589",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204085",
-    "name": "Leichhardt North Light Rail, Darley Rd",
-    "lat": "-33.875308",
-    "lon": "151.154134",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204086",
-    "name": "Darley Rd opp Leichhardt North Light Rail",
-    "lat": "-33.875476",
-    "lon": "151.15401",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204087",
-    "name": "Darley Rd opp Hawthorne Light Rail",
-    "lat": "-33.879422",
-    "lon": "151.147998",
     "productClass": [
       5
     ]
@@ -15082,15 +14974,6 @@
     "name": "Fort Street High School, Parramatta Rd",
     "lat": "-33.889019",
     "lon": "151.153812",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204914",
-    "name": "Old Canterbury Rd at Cook St",
-    "lat": "-33.890954",
-    "lon": "151.146389",
     "productClass": [
       5
     ]
@@ -21911,6 +21794,24 @@
     ]
   },
   {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "207185",
     "name": "Werona Ave after Locksley St",
     "lat": "-33.76584",
@@ -27801,7 +27702,7 @@
   },
   {
     "id": "208511",
-    "name": "Narabang Way after Minna Cl",
+    "name": "Austlink Business Park, Narabang Way",
     "lat": "-33.705048",
     "lon": "151.207967",
     "productClass": [
@@ -27810,27 +27711,9 @@
   },
   {
     "id": "208512",
-    "name": "Belrose Super Centre, Garigal Rd",
+    "name": "HomeCo Belrose, Garigal Rd",
     "lat": "-33.704527",
     "lon": "151.213096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "208513",
-    "name": "Garigal Rd opp Belrose Super Centre",
-    "lat": "-33.704589",
-    "lon": "151.213398",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "208514",
-    "name": "Narabang Way opp Minna Cl",
-    "lat": "-33.705108",
-    "lon": "151.207693",
     "productClass": [
       5
     ]
@@ -48595,15 +48478,6 @@
     "name": "Prospect Rd opp Trinity Grammar School",
     "lat": "-33.899623",
     "lon": "151.132166",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "213037",
-    "name": "Old Canterbury Rd opp Rosedale St",
-    "lat": "-33.896377",
-    "lon": "151.137362",
     "productClass": [
       5
     ]
@@ -77960,33 +77834,6 @@
     "name": "Old Canterbury Rd at Windsor Rd",
     "lat": "-33.89557",
     "lon": "151.141167",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220313",
-    "name": "Constitution Rd opp Arlington Light Rail",
-    "lat": "-33.901924",
-    "lon": "151.137533",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220314",
-    "name": "Old Canterbury Rd at Rosedale St",
-    "lat": "-33.896534",
-    "lon": "151.137404",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220315",
-    "name": "Arlington Light Rail, Constitution Rd",
-    "lat": "-33.90197",
-    "lon": "151.137703",
     "productClass": [
       5
     ]
@@ -160362,15 +160209,6 @@
     ]
   },
   {
-    "id": "2000109",
-    "name": "Exhibition Centre, Darling Dr",
-    "lat": "-33.877191",
-    "lon": "151.199977",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000111",
     "name": "Art Gallery of NSW, Art Gallery Rd",
     "lat": "-33.868581",
@@ -160546,15 +160384,6 @@
     "name": "Town Hall House, Druitt St",
     "lat": "-33.872796",
     "lon": "151.204573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000308",
-    "name": "Central Station, Forecourt, Coach Bay 4",
-    "lat": "-33.883273",
-    "lon": "151.204442",
     "productClass": [
       5
     ]
@@ -208495,15 +208324,6 @@
     ]
   },
   {
-    "id": "2166255",
-    "name": "Railway Pde before Cabramatta Rd W",
-    "lat": "-33.895859",
-    "lon": "150.938261",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2166257",
     "name": "Avenel St after Sackville St",
     "lat": "-33.881703",
@@ -213509,15 +213329,6 @@
     ]
   },
   {
-    "id": "2170565",
-    "name": "Kurrajong Rd after Beech Rd",
-    "lat": "-33.944246",
-    "lon": "150.881451",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2170574",
     "name": "Newbridge Rd opp Holly Ave",
     "lat": "-33.929213",
@@ -214715,15 +214526,6 @@
     ]
   },
   {
-    "id": "2170801",
-    "name": "Remembrance Ave opp Warwick Farm Station",
-    "lat": "-33.913314",
-    "lon": "150.934711",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2170802",
     "name": "Hume Hwy opp Warwick Farm Station (NightRide)",
     "lat": "-33.912984",
@@ -215381,28 +215183,10 @@
     ]
   },
   {
-    "id": "2171174",
-    "name": "Bringelly Rd opp Glen Allen Rd",
-    "lat": "-33.946601",
-    "lon": "150.778248",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2171175",
     "name": "Rossmore Public School, Bringelly Rd",
     "lat": "-33.945937",
     "lon": "150.770454",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171176",
-    "name": "Bringelly Rd at Allenby Rd",
-    "lat": "-33.945129",
-    "lon": "150.765729",
     "productClass": [
       5
     ]
@@ -215448,15 +215232,6 @@
     "name": "Kelvin Park Dr after Bringelly Rd",
     "lat": "-33.939975",
     "lon": "150.739658",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171184",
-    "name": "Camden Valley Way before Park Rd",
-    "lat": "-33.979508",
-    "lon": "150.803429",
     "productClass": [
       5
     ]
@@ -215592,24 +215367,6 @@
     "name": "Kelvin Park Dr before Bringelly Rd",
     "lat": "-33.940143",
     "lon": "150.739826",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171205",
-    "name": "Bringelly Rd opp Allenby Rd",
-    "lat": "-33.945033",
-    "lon": "150.766166",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171207",
-    "name": "Bringelly Rd at Glen Allen Rd",
-    "lat": "-33.946516",
-    "lon": "150.778463",
     "productClass": [
       5
     ]
@@ -215961,15 +215718,6 @@
     "name": "Edmondson Ave at Thirteenth Ave",
     "lat": "-33.924654",
     "lon": "150.813807",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171265",
-    "name": "St Anthonys Catholic Church, Edmondson Ave",
-    "lat": "-33.930111",
-    "lon": "150.812714",
     "productClass": [
       5
     ]
@@ -216650,37 +216398,10 @@
     ]
   },
   {
-    "id": "2171419",
-    "name": "Bringelly Rd at Masterfield St",
-    "lat": "-33.943856",
-    "lon": "150.757671",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2171420",
     "name": "Bringelly Rd at Jersey Rd",
     "lat": "-33.941197",
     "lon": "150.747927",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171421",
-    "name": "971 Bringelly Rd",
-    "lat": "-33.940398",
-    "lon": "150.735742",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171422",
-    "name": "Bringelly Rd before Wentworth Rd",
-    "lat": "-33.94007",
-    "lon": "150.732492",
     "productClass": [
       5
     ]
@@ -216767,33 +216488,6 @@
     ]
   },
   {
-    "id": "2171438",
-    "name": "517 Bringelly Rd",
-    "lat": "-33.947206",
-    "lon": "150.78284",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171440",
-    "name": "785 Bringelly Rd",
-    "lat": "-33.94246",
-    "lon": "150.754509",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171441",
-    "name": "909 Bringelly Rd",
-    "lat": "-33.940868",
-    "lon": "150.742391",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2171444",
     "name": "Bringelly Rd opp Jersey Rd",
     "lat": "-33.94091",
@@ -216843,15 +216537,6 @@
     "name": "Horningsea Park Dr opp Carruthers Dr",
     "lat": "-33.947987",
     "lon": "150.846344",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171451",
-    "name": "Edmondson Ave at Ninth Ave",
-    "lat": "-33.936182",
-    "lon": "150.811483",
     "productClass": [
       5
     ]
@@ -284260,6 +283945,15 @@
     ]
   },
   {
+    "id": "2500308",
+    "name": "Kembla St before Bourke St",
+    "lat": "-34.414514",
+    "lon": "150.899739",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2500311",
     "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
     "lat": "-34.405704",
@@ -284399,6 +284093,15 @@
     "name": "Corrimal St before Gipps St",
     "lat": "-34.419194",
     "lon": "150.901109",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2500333",
+    "name": "Corrimal St after Georges Pl",
+    "lat": "-34.419261",
+    "lon": "150.901247",
     "productClass": [
       5
     ]
@@ -299803,15 +299506,6 @@
     ]
   },
   {
-    "id": "2567276",
-    "name": "Sir Warwick Fairfax Dr before Camden Valley Way",
-    "lat": "-34.029539",
-    "lon": "150.752393",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2567278",
     "name": "St Clares PS (Bus Bay)",
     "lat": "-34.049413",
@@ -303731,15 +303425,6 @@
     "name": "Manning St opp Edward St",
     "lat": "-33.76628",
     "lon": "150.725488",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2747127",
-    "name": "Manning St before Bargo Bvd",
-    "lat": "-33.767677",
-    "lon": "150.72521",
     "productClass": [
       5
     ]
@@ -317033,7 +316718,7 @@
   },
   {
     "id": "2765320",
-    "name": "End of Phipps Rd",
+    "name": "93 Phipps Rd",
     "lat": "-33.57512",
     "lon": "150.898769",
     "productClass": [
@@ -324979,6 +324664,15 @@
     ]
   },
   {
+    "id": "253320",
+    "name": "Bombo Station",
+    "lat": "-34.657949",
+    "lon": "150.854049",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "2425102",
     "name": "Booral Coach Stop",
     "lat": "-32.46671149",
@@ -325428,6 +325122,15 @@
     "lon": "147.1470945",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "250030",
+    "name": "Coniston Station",
+    "lat": "-34.437443",
+    "lon": "150.885469",
+    "productClass": [
+      1
     ]
   },
   {
@@ -326781,6 +326484,15 @@
     ]
   },
   {
+    "id": "253310",
+    "name": "Minnamurra Station",
+    "lat": "-34.625722",
+    "lon": "150.852206",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "257510",
     "name": "Mittagong Station",
     "lat": "-34.45268",
@@ -327049,6 +326761,15 @@
     "lon": "147.1968688",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "252920",
+    "name": "Oak Flats Station",
+    "lat": "-34.572243",
+    "lon": "150.820892",
+    "productClass": [
+      1
     ]
   },
   {
@@ -327344,6 +327065,15 @@
     "name": "Seymour Station",
     "lat": "-37.024365",
     "lon": "145.138408",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "2529218",
+    "name": "Shellharbour Junction Station",
+    "lat": "-34.5912",
+    "lon": "150.8448",
     "productClass": [
       1
     ]
@@ -327679,6 +327409,15 @@
     "lon": "153.029194",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "252610",
+    "name": "Unanderra Station",
+    "lat": "-34.454409",
+    "lon": "150.846341",
+    "productClass": [
+      1
     ]
   },
   {
@@ -329135,15 +328874,6 @@
     ]
   },
   {
-    "id": "253320",
-    "name": "Bombo Station",
-    "lat": "-34.6580285016",
-    "lon": "150.853975458",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "251810",
     "name": "Bellambi Station",
     "lat": "-34.363318415",
@@ -329383,15 +329113,6 @@
     "name": "Cronulla Station",
     "lat": "-34.0562517119",
     "lon": "151.151542409",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "250030",
-    "name": "Coniston Station",
-    "lat": "-34.4374548931",
-    "lon": "150.885529169",
     "productClass": [
       1
     ]
@@ -330018,15 +329739,6 @@
     ]
   },
   {
-    "id": "253310",
-    "name": "Minnamurra Station",
-    "lat": "-34.625699757",
-    "lon": "150.85225749",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "214820",
     "name": "Marayong Station",
     "lat": "-33.7464511113",
@@ -330112,15 +329824,6 @@
     "name": "North Wollongong Station",
     "lat": "-34.4125932568",
     "lon": "150.891349169",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "252920",
-    "name": "Oak Flats Station",
-    "lat": "-34.572230751",
-    "lon": "150.82090794",
     "productClass": [
       1
     ]
@@ -330423,15 +330126,6 @@
     ]
   },
   {
-    "id": "2529218",
-    "name": "Shellharbour Junction Station",
-    "lat": "-34.5912",
-    "lon": "150.8448",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "252910",
     "name": "Dunmore Station",
     "lat": "-34.6059132924",
@@ -330608,15 +330302,6 @@
     "name": "Towradgi Station",
     "lat": "-34.384686325",
     "lon": "150.901238888",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "252610",
-    "name": "Unanderra Station",
-    "lat": "-34.4544287823",
-    "lon": "150.846262892",
     "productClass": [
       1
     ]
