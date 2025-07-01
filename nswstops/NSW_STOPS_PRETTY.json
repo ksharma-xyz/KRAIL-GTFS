@@ -11559,6 +11559,33 @@
     ]
   },
   {
+    "id": "203772",
+    "name": "Glebe Library, Wigram Rd",
+    "lat": "-33.877571",
+    "lon": "151.184882",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203773",
+    "name": "Wigram Rd opp Glebe Library",
+    "lat": "-33.877516",
+    "lon": "151.184786",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203775",
+    "name": "Federal Rd opp Pope Paul VI Reserve",
+    "lat": "-33.871957",
+    "lon": "151.180125",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203776",
     "name": "Minogue Crescent Reserve, Minogue Cres",
     "lat": "-33.880485",
@@ -64461,24 +64488,6 @@
     ]
   },
   {
-    "id": "216314",
-    "name": "Hume Hwy at Belar Ave Path",
-    "lat": "-33.892848",
-    "lon": "150.985028",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "216315",
-    "name": "Hume Hwy opp Farrell Rd",
-    "lat": "-33.895192",
-    "lon": "150.989333",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -75957,24 +75966,6 @@
     ]
   },
   {
-    "id": "219742",
-    "name": "Hume Hwy opp Johnston Rd",
-    "lat": "-33.892299",
-    "lon": "150.981075",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219743",
-    "name": "Hume Hwy at Mundamatta St Path",
-    "lat": "-33.894097",
-    "lon": "150.987953",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219744",
     "name": "Hume Hwy at Chester Hill Rd",
     "lat": "-33.898656",
@@ -76164,15 +76155,6 @@
     ]
   },
   {
-    "id": "219770",
-    "name": "Hume Hwy opp Bass Hill Plaza",
-    "lat": "-33.897996",
-    "lon": "150.994734",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219771",
     "name": "Chester Hill Rd after Hume Hwy",
     "lat": "-33.89823",
@@ -76249,15 +76231,6 @@
     "name": "Bass Hill Plaza, Hume Hwy",
     "lat": "-33.898181",
     "lon": "150.994486",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219781",
-    "name": "Hume Hwy at Adeline St",
-    "lat": "-33.897176",
-    "lon": "150.992774",
     "productClass": [
       5
     ]
@@ -78698,15 +78671,6 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220533",
-    "name": "Princes Hwy after Subway Rd",
-    "lat": "-33.944094",
-    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -181827,10 +181791,10 @@
     ]
   },
   {
-    "id": "2141286",
+    "id": "2141173",
     "name": "Lidcombe Station, Church St",
-    "lat": "-33.862714",
-    "lon": "151.04345",
+    "lat": "-33.863396",
+    "lon": "151.045123",
     "productClass": [
       5
     ]
@@ -191731,15 +191695,6 @@
     "name": "Blacktown Girls HS",
     "lat": "-33.763606",
     "lon": "150.911533",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2148506",
-    "name": "Blacktown Boys High School, Prince St",
-    "lat": "-33.763593",
-    "lon": "150.911535",
     "productClass": [
       5
     ]
@@ -228323,6 +228278,15 @@
     ]
   },
   {
+    "id": "2220298",
+    "name": "Hurstville Station, Butler Rd",
+    "lat": "-33.968301",
+    "lon": "151.101811",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2220300",
     "name": "Queens Rd after Romani Ave",
     "lat": "-33.959633",
@@ -228336,15 +228300,6 @@
     "name": "Westfield Hurstville, Cross St",
     "lat": "-33.96618",
     "lon": "151.103948",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2220302",
-    "name": "Hurstville Fire Station, Butler Rd",
-    "lat": "-33.968042",
-    "lon": "151.101992",
     "productClass": [
       5
     ]
@@ -229318,15 +229273,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -233778,15 +233724,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233805,28 +233742,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -236068,15 +235987,6 @@
     "name": "Chamberlain Rd opp Darryl Rd",
     "lat": "-33.398414",
     "lon": "151.357717",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2250250",
-    "name": "Day St at Barbara St",
-    "lat": "-33.399796",
-    "lon": "151.356655",
     "productClass": [
       5
     ]
@@ -304807,15 +304717,6 @@
     ]
   },
   {
-    "id": "2747352",
-    "name": "Park Ave opp Kingswood Station",
-    "lat": "-33.758279",
-    "lon": "150.72121",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2747354",
     "name": "Shane Park Rd after Palmyra Ave (Hail & Ride)",
     "lat": "-33.718536",
@@ -313342,8 +313243,8 @@
   {
     "id": "276010",
     "name": "St Marys Station",
-    "lat": "-33.762269",
-    "lon": "150.776097",
+    "lat": "-33.7622558528",
+    "lon": "150.77602901",
     "productClass": [
       5,
       1
@@ -316384,6 +316285,16 @@
     ]
   },
   {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -316829,42 +316740,6 @@
     "name": "McCulloch St before Cranbourne St",
     "lat": "-33.68482",
     "lon": "150.878057",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765337",
-    "name": "Edmund St after Garfield Rd East",
-    "lat": "-33.66968",
-    "lon": "150.878009",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765338",
-    "name": "Edmund St before Garfield Rd East",
-    "lat": "-33.669618",
-    "lon": "150.878118",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765339",
-    "name": "Edmund St before Canterbury St",
-    "lat": "-33.667825",
-    "lon": "150.876599",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765340",
-    "name": "Edmund St opp Canterbury St",
-    "lat": "-33.667774",
-    "lon": "150.876751",
     "productClass": [
       5
     ]
@@ -324943,6 +324818,15 @@
     ]
   },
   {
+    "id": "G2664",
+    "name": "Canberra Hospital, Gilmore Cr",
+    "lat": "-35.344006",
+    "lon": "149.1017",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "G2382",
     "name": "Canberra Hospital, Yamba Dr",
     "lat": "-35.346484",
@@ -330013,15 +329897,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]
