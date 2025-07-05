@@ -2,11 +2,11 @@ package app.krail.kgtfs.io
 
 import app.krail.kgtfs.io.FileStorage.writeJsonToFile
 import app.krail.kgtfs.model.StopJson
+import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.parkride.StopIdParkRideMapping
 import app.krail.kgtfs.nsw.parkride.stopIdParkRideMappings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okio.Path.Companion.toPath
 
 const val NSW_PARK_RIDE_DIR = "nswstops/parkride"
 
@@ -31,13 +31,13 @@ suspend fun writeParkRideData(
 
     writeJsonToFile(
         data = mergedMappings,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE",
         pretty = true,
     )
     writeJsonToFile(
         data = mergedMappings,
-        path = NSW_PARK_RIDE_DIR.toPath(),
+        path = cacheDirPath,
         fileName = "NSW_PARKRIDE",
         pretty = false,
     )
