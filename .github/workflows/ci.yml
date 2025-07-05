@@ -93,24 +93,22 @@ jobs:
       - name: Check for diffs
         id: git-diff
         run: |
-          # Stage relevant files manually instead of using `git add .`
-          git add cache/NSW_STOPS*.json cache/NSW_PARKRIDE*.json
-      
+          git add nswstops/NSW_STOPS*.json nswstops/parkride/NSW_PARKRIDE*.json
+
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping PR creation."
             echo "NO_CHANGES=true" >> $GITHUB_ENV
             exit 0
           fi
-      
-          # Save diffs to GitHub outputs (in-memory, not file)
+
           echo "NO_CHANGES=false" >> $GITHUB_ENV
       
           echo "stops_diff<<EOF" >> $GITHUB_OUTPUT
-          git diff --cached --unified=0 --word-diff=porcelain main -- cache/NSW_STOPS_PRETTY.json >> $GITHUB_OUTPUT
+          git diff --cached --unified=0 --word-diff=porcelain main -- nswstops/NSW_STOPS_PRETTY.json >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
       
           echo "parkride_diff<<EOF" >> $GITHUB_OUTPUT
-          git diff --cached --unified=0 --word-diff=porcelain main -- cache/NSW_PARKRIDE_PRETTY.json >> $GITHUB_OUTPUT
+          git diff --cached --unified=0 --word-diff=porcelain main -- nswstops/parkride/NSW_PARKRIDE_PRETTY.json >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Create Branch
