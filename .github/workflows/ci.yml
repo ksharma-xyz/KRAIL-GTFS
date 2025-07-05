@@ -9,11 +9,11 @@ on:
     types: [ opened, synchronize, reopened, ready_for_review ]
   schedule:
     - cron: '0 0 */3 * *' # Runs at 12:00 UTC every 3 days
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request' || ${{ github.event.pull_request.draft == false }}
+    if: github.event_name != 'pull_request' || github.event.pull_request.draft != true
 
     steps:
       - name: Checkout repository
