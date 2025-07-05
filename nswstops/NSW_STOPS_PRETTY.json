@@ -42786,6 +42786,24 @@
     ]
   },
   {
+    "id": "211642",
+    "name": "Victoria Rd after Brodie St",
+    "lat": "-33.809773",
+    "lon": "151.030208",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211643",
+    "name": "Dudley St before Crowgey St",
+    "lat": "-33.80943",
+    "lon": "151.030556",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "211644",
     "name": "Park Rd at Pine St",
     "lat": "-33.811599",
@@ -192187,6 +192205,33 @@
     ]
   },
   {
+    "id": "2150142",
+    "name": "Smith St after George St",
+    "lat": "-33.815361",
+    "lon": "151.006083",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150144",
+    "name": "Church St after Grose St",
+    "lat": "-33.806378",
+    "lon": "151.005607",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150145",
+    "name": "Church St before Fennell St",
+    "lat": "-33.805158",
+    "lon": "151.005981",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2150150",
     "name": "Parramatta Leagues Club, O'Connell St",
     "lat": "-33.806932",
@@ -192227,6 +192272,15 @@
     "name": "Argyle St before O'Connell St",
     "lat": "-33.815968",
     "lon": "150.998917",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150167",
+    "name": "Victoria Rd before Sorrell St",
+    "lat": "-33.808665",
+    "lon": "151.006756",
     "productClass": [
       5
     ]
@@ -192610,6 +192664,15 @@
     ]
   },
   {
+    "id": "2150388",
+    "name": "Smith St after Darcy St",
+    "lat": "-33.816631",
+    "lon": "151.005844",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2150396",
     "name": "Pitt St after Great Western Hwy",
     "lat": "-33.817826",
@@ -192974,6 +193037,15 @@
     "name": "Barclay Rd opp Mill Dr",
     "lat": "-33.764772",
     "lon": "151.011734",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2151144",
+    "name": "Church St after Factory St",
+    "lat": "-33.799882",
+    "lon": "151.003869",
     "productClass": [
       5
     ]
@@ -233724,6 +233796,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233742,10 +233823,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
