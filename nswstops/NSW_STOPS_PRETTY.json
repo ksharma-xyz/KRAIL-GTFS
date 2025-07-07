@@ -129014,8 +129014,8 @@
   {
     "id": "251524",
     "name": "Lawrence Hargrave Dr before Henley Rd",
-    "lat": "-34.312535",
-    "lon": "150.928354",
+    "lat": "-34.312448",
+    "lon": "150.928498",
     "productClass": [
       5
     ]
@@ -129086,8 +129086,8 @@
   {
     "id": "251534",
     "name": "Lawrence Hargrave Dr at Henley Rd",
-    "lat": "-34.312547",
-    "lon": "150.928611",
+    "lat": "-34.312594",
+    "lon": "150.928526",
     "productClass": [
       5
     ]
@@ -146926,8 +146926,8 @@
   {
     "id": "275455",
     "name": "Bells Line Of Road after Terrace Rd",
-    "lat": "-33.580458",
-    "lon": "150.720262",
+    "lat": "-33.580918",
+    "lon": "150.720911",
     "productClass": [
       5
     ]
@@ -158888,8 +158888,8 @@
   {
     "id": "278232",
     "name": "Sinclair Cres opp Wentworth Falls Lakes Reserve",
-    "lat": "-33.705378",
-    "lon": "150.370013",
+    "lat": "-33.705572",
+    "lon": "150.369171",
     "productClass": [
       5
     ]
@@ -302855,7 +302855,7 @@
   },
   {
     "id": "2745178",
-    "name": "Bradley St before Yerrang Av",
+    "name": "Bradley St before Yerrang Ave",
     "lat": "-33.805372",
     "lon": "150.681046",
     "productClass": [
@@ -303278,7 +303278,7 @@
   },
   {
     "id": "2745242",
-    "name": "Bradley St after Parkway Av",
+    "name": "Bradley St after Parkway Ave",
     "lat": "-33.805509",
     "lon": "150.682857",
     "productClass": [
