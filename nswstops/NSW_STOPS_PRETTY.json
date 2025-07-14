@@ -328295,33 +328295,6 @@
     ]
   },
   {
-    "id": "20951",
-    "name": "Manly, Wharf 1",
-    "lat": "-33.80046",
-    "lon": "151.283796",
-    "productClass": [
-      9
-    ]
-  },
-  {
-    "id": "209525",
-    "name": "Manly, Wharf 2",
-    "lat": "-33.800508",
-    "lon": "151.283958",
-    "productClass": [
-      9
-    ]
-  },
-  {
-    "id": "209593",
-    "name": "Manly, Wharf 3",
-    "lat": "-33.800592",
-    "lon": "151.284619",
-    "productClass": [
-      9
-    ]
-  },
-  {
     "id": "20601",
     "name": "McMahons Point Wharf",
     "lat": "-33.848849",
@@ -330800,6 +330773,15 @@
     "lon": "151.225935",
     "productClass": [
       4
+    ]
+  },
+  {
+    "id": "209573",
+    "name": "Manly Wharf",
+    "lat": "-33.80046",
+    "lon": "151.283796",
+    "productClass": [
+      9
     ]
   }
 ]
