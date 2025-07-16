@@ -19004,6 +19004,15 @@
     ]
   },
   {
+    "id": "206760",
+    "name": "Railway St at Help St",
+    "lat": "-33.795357",
+    "lon": "151.180414",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206762",
     "name": "Pacific Hwy at Ellis St",
     "lat": "-33.800287",
@@ -42714,24 +42723,6 @@
     ]
   },
   {
-    "id": "211642",
-    "name": "Victoria Rd after Brodie St",
-    "lat": "-33.809773",
-    "lon": "151.030208",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211643",
-    "name": "Dudley St before Crowgey St",
-    "lat": "-33.80943",
-    "lon": "151.030556",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "211644",
     "name": "Park Rd at Pine St",
     "lat": "-33.811599",
@@ -47781,15 +47772,6 @@
     ]
   },
   {
-    "id": "212733",
-    "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
-    "lat": "-33.850129",
-    "lon": "151.062624",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212735",
     "name": "Edwin Flack Ave opp Accor Stadium",
     "lat": "-33.846862",
@@ -47898,10 +47880,10 @@
     ]
   },
   {
-    "id": "212775",
+    "id": "212772",
     "name": "Sydney Olympic Park, Plaza Terminal",
-    "lat": "-33.843312",
-    "lon": "151.063306",
+    "lat": "-33.84294",
+    "lon": "151.062648",
     "productClass": [
       5
     ]
@@ -48368,8 +48350,8 @@
   {
     "id": "213014",
     "name": "Liverpool Rd before Oaklands Ave",
-    "lat": "-33.888022",
-    "lon": "151.135507",
+    "lat": "-33.887992",
+    "lon": "151.135543",
     "productClass": [
       5
     ]
@@ -51786,6 +51768,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -51862,6 +51853,15 @@
     "name": "Walker St opp Meredith Ave",
     "lat": "-33.82452",
     "lon": "151.088079",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
     "productClass": [
       5
     ]
@@ -108489,6 +108489,15 @@
     ]
   },
   {
+    "id": "228938",
+    "name": "Princeton Ave opp Dalvern Cl",
+    "lat": "-32.94973",
+    "lon": "151.70085",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "228942",
     "name": "Brunker Rd at Mandalong Rd",
     "lat": "-32.930608",
@@ -123178,6 +123187,15 @@
     ]
   },
   {
+    "id": "232589",
+    "name": "Wollombi Rd opp O'Neill St",
+    "lat": "-32.843903",
+    "lon": "151.333709",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "232593",
     "name": "Wollombi Rd at Francis St",
     "lat": "-32.840863",
@@ -123740,6 +123758,15 @@
     "name": "Sawyers Gully Rd at Bakers Lane",
     "lat": "-32.77701",
     "lon": "151.443999",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232699",
+    "name": "156 Sawyers Gully Rd",
+    "lat": "-32.790157",
+    "lon": "151.457764",
     "productClass": [
       5
     ]
@@ -164754,15 +164781,6 @@
     ]
   },
   {
-    "id": "2067134",
-    "name": "Railway St at Help St",
-    "lat": "-33.795879",
-    "lon": "151.180456",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2068101",
     "name": "High St opp Robert St",
     "lat": "-33.799385",
@@ -192142,33 +192160,6 @@
     ]
   },
   {
-    "id": "2150142",
-    "name": "Smith St after George St",
-    "lat": "-33.815361",
-    "lon": "151.006083",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150144",
-    "name": "Church St after Grose St",
-    "lat": "-33.806378",
-    "lon": "151.005607",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150145",
-    "name": "Church St before Fennell St",
-    "lat": "-33.805158",
-    "lon": "151.005981",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2150150",
     "name": "Parramatta Leagues Club, O'Connell St",
     "lat": "-33.806932",
@@ -192209,15 +192200,6 @@
     "name": "Argyle St before O'Connell St",
     "lat": "-33.815968",
     "lon": "150.998917",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150167",
-    "name": "Victoria Rd before Sorrell St",
-    "lat": "-33.808665",
-    "lon": "151.006756",
     "productClass": [
       5
     ]
@@ -192601,15 +192583,6 @@
     ]
   },
   {
-    "id": "2150388",
-    "name": "Smith St after Darcy St",
-    "lat": "-33.816631",
-    "lon": "151.005844",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2150396",
     "name": "Pitt St after Great Western Hwy",
     "lat": "-33.817826",
@@ -192974,15 +192947,6 @@
     "name": "Barclay Rd opp Mill Dr",
     "lat": "-33.764772",
     "lon": "151.011734",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2151144",
-    "name": "Church St after Factory St",
-    "lat": "-33.799882",
-    "lon": "151.003869",
     "productClass": [
       5
     ]
@@ -208283,6 +208247,15 @@
     "name": "Bartley St before Railway Pde",
     "lat": "-33.890353",
     "lon": "150.939478",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
     "productClass": [
       5
     ]
@@ -279202,6 +279175,15 @@
     ]
   },
   {
+    "id": "2325125",
+    "name": "Wollombi Rd before Percy St",
+    "lat": "-32.836852",
+    "lon": "151.345958",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2325126",
     "name": "Wollombi Rd at Helen St",
     "lat": "-32.834486",
@@ -279818,6 +279800,15 @@
     "name": "West Ave at Tinkerbark Pde",
     "lat": "-32.836729",
     "lon": "151.349101",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325223",
+    "name": "West Ave after Lyell St",
+    "lat": "-32.836522",
+    "lon": "151.34875",
     "productClass": [
       5
     ]
@@ -281591,6 +281582,123 @@
     "name": "Hecla St at Campbell St",
     "lat": "-32.920066",
     "lon": "151.311528",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325475",
+    "name": "Margaret St after Francis St",
+    "lat": "-32.842411",
+    "lon": "151.340466",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325476",
+    "name": "Margaret St after Michael St",
+    "lat": "-32.841056",
+    "lon": "151.343234",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325477",
+    "name": "Campbell St opp Alfred St",
+    "lat": "-32.839346",
+    "lon": "151.345053",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325478",
+    "name": "Miller St before Wollombi Rd",
+    "lat": "-32.835437",
+    "lon": "151.349561",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325479",
+    "name": "Miller St before West Av",
+    "lat": "-32.835792",
+    "lon": "151.349912",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325480",
+    "name": "Cessnock West Public School Alfred St",
+    "lat": "-32.838497",
+    "lon": "151.345574",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325481",
+    "name": "Opp Cessnock West Public School Alfred St",
+    "lat": "-32.838592",
+    "lon": "151.34566",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325482",
+    "name": "Daniel St before James St",
+    "lat": "-32.840896",
+    "lon": "151.345713",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325483",
+    "name": "Florence St before Shedden St",
+    "lat": "-32.835021",
+    "lon": "151.347542",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325484",
+    "name": "Shedden St before Percy St",
+    "lat": "-32.835629",
+    "lon": "151.346161",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325485",
+    "name": "Francis St before Catherine St",
+    "lat": "-32.841356",
+    "lon": "151.339375",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325486",
+    "name": "Shedden St before Florence St",
+    "lat": "-32.835119",
+    "lon": "151.346632",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2325487",
+    "name": "Catherine St before Michael St",
+    "lat": "-32.84115",
+    "lon": "151.340862",
     "productClass": [
       5
     ]
