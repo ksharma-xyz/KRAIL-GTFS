@@ -43,7 +43,7 @@ dependencies {
     implementation("com.squareup.wire:wire-kotlin-generator:4.4.3")*/
 
     testImplementation(kotlin("test"))
-    testImplementation("io.mockk:mockk:1.14.4")
+    testImplementation("io.mockk:mockk:1.14.5")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
 }
 
