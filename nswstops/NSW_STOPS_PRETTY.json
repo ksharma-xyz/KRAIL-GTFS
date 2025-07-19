@@ -21785,6 +21785,24 @@
     ]
   },
   {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "207185",
     "name": "Werona Ave after Locksley St",
     "lat": "-33.76584",
@@ -44523,6 +44541,33 @@
     ]
   },
   {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -47767,6 +47812,15 @@
     "name": "Australia Ave before Herb Elliott Ave",
     "lat": "-33.847545",
     "lon": "151.072605",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212733",
+    "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
+    "lat": "-33.850129",
+    "lon": "151.062624",
     "productClass": [
       5
     ]
@@ -123187,10 +123241,37 @@
     ]
   },
   {
+    "id": "232587",
+    "name": "Wollombi Rd before Victoria St",
+    "lat": "-32.848268",
+    "lon": "151.329306",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232588",
+    "name": "Wollombi Rd opp Lochinvar St",
+    "lat": "-32.846151",
+    "lon": "151.330754",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "232589",
     "name": "Wollombi Rd opp O'Neill St",
     "lat": "-32.843903",
     "lon": "151.333709",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232591",
+    "name": "Wollombi Rd before Desmond St",
+    "lat": "-32.842332",
+    "lon": "151.336422",
     "productClass": [
       5
     ]
@@ -144196,15 +144277,6 @@
     ]
   },
   {
-    "id": "274858",
-    "name": "Luddenhan Rd before Mamre Rd",
-    "lat": "-33.803951",
-    "lon": "150.768494",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "274859",
     "name": "Wentworth Rd at The Northern Rd",
     "lat": "-33.793741",
@@ -144218,15 +144290,6 @@
     "name": "Verdelho Way opp Cabarnet Cct",
     "lat": "-33.799862",
     "lon": "150.744071",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "274863",
-    "name": "Luddenhan Rd after Mamre Rd",
-    "lat": "-33.804067",
-    "lon": "150.768649",
     "productClass": [
       5
     ]
@@ -147924,7 +147987,7 @@
   },
   {
     "id": "275836",
-    "name": "Bells Line of Road before Hanlons Rd",
+    "name": "Bells Line of Road before Hanlons Rd South",
     "lat": "-33.49841",
     "lon": "150.522629",
     "productClass": [
@@ -157599,6 +157662,15 @@
     ]
   },
   {
+    "id": "277862",
+    "name": "Great Western Hwy opp Woodford Station",
+    "lat": "-33.735238",
+    "lon": "150.481199",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "277863",
     "name": "Great Western Hwy before Glen St",
     "lat": "-33.734569",
@@ -160366,6 +160438,15 @@
     "name": "Town Hall House, Druitt St",
     "lat": "-33.872796",
     "lon": "151.204573",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2000313",
+    "name": "Bathurst St before Pitt St",
+    "lat": "-33.874373",
+    "lon": "151.207699",
     "productClass": [
       5
     ]
@@ -164776,6 +164857,15 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -279175,15 +279265,6 @@
     ]
   },
   {
-    "id": "2325125",
-    "name": "Wollombi Rd before Percy St",
-    "lat": "-32.836852",
-    "lon": "151.345958",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2325126",
     "name": "Wollombi Rd at Helen St",
     "lat": "-32.834486",
@@ -281587,28 +281668,10 @@
     ]
   },
   {
-    "id": "2325475",
-    "name": "Margaret St after Francis St",
-    "lat": "-32.842411",
-    "lon": "151.340466",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2325476",
     "name": "Margaret St after Michael St",
     "lat": "-32.841056",
     "lon": "151.343234",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325477",
-    "name": "Campbell St opp Alfred St",
-    "lat": "-32.839346",
-    "lon": "151.345053",
     "productClass": [
       5
     ]
@@ -281623,82 +281686,10 @@
     ]
   },
   {
-    "id": "2325479",
-    "name": "Miller St before West Av",
-    "lat": "-32.835792",
-    "lon": "151.349912",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2325480",
     "name": "Cessnock West Public School Alfred St",
     "lat": "-32.838497",
     "lon": "151.345574",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325481",
-    "name": "Opp Cessnock West Public School Alfred St",
-    "lat": "-32.838592",
-    "lon": "151.34566",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325482",
-    "name": "Daniel St before James St",
-    "lat": "-32.840896",
-    "lon": "151.345713",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325483",
-    "name": "Florence St before Shedden St",
-    "lat": "-32.835021",
-    "lon": "151.347542",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325484",
-    "name": "Shedden St before Percy St",
-    "lat": "-32.835629",
-    "lon": "151.346161",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325485",
-    "name": "Francis St before Catherine St",
-    "lat": "-32.841356",
-    "lon": "151.339375",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325486",
-    "name": "Shedden St before Florence St",
-    "lat": "-32.835119",
-    "lon": "151.346632",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325487",
-    "name": "Catherine St before Michael St",
-    "lat": "-32.84115",
-    "lon": "151.340862",
     "productClass": [
       5
     ]
@@ -286649,6 +286640,24 @@
     "name": "Neeson Rd at Saddleback Cres",
     "lat": "-34.467155",
     "lon": "150.773941",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2526168",
+    "name": "Darkes Rd af Summit St",
+    "lat": "-34.477842",
+    "lon": "150.791351",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2526169",
+    "name": "Darkes Rd bf Summit St",
+    "lat": "-34.477832",
+    "lon": "150.79145",
     "productClass": [
       5
     ]
@@ -316906,6 +316915,42 @@
     ]
   },
   {
+    "id": "2765337",
+    "name": "Edmund St after Garfield Rd East",
+    "lat": "-33.66968",
+    "lon": "150.878009",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765338",
+    "name": "Edmund St before Garfield Rd East",
+    "lat": "-33.669618",
+    "lon": "150.878118",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765339",
+    "name": "Edmund St before Canterbury St",
+    "lat": "-33.667825",
+    "lon": "150.876599",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765340",
+    "name": "Edmund St opp Canterbury St",
+    "lat": "-33.667774",
+    "lon": "150.876751",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2765341",
     "name": "Edmund St before Crown St",
     "lat": "-33.664326",
@@ -320443,6 +320488,15 @@
     ]
   },
   {
+    "id": "2770272",
+    "name": "Luxford Rd opp Hatherton Rd",
+    "lat": "-33.740549",
+    "lon": "150.796911",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2770273",
     "name": "Luxford Rd after Manila Rd",
     "lat": "-33.743704",
@@ -321104,6 +321158,15 @@
     "name": "Luxford Rd at Bougainville Rd",
     "lat": "-33.736666",
     "lon": "150.798214",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2770369",
+    "name": "Luxford Rd after Hatherton Rd",
+    "lat": "-33.739803",
+    "lon": "150.796603",
     "productClass": [
       5
     ]
@@ -322711,6 +322774,15 @@
     ]
   },
   {
+    "id": "2777177",
+    "name": "Springwood Station, Station St",
+    "lat": "-33.698905",
+    "lon": "150.563507",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -323597,6 +323669,15 @@
     "name": "Denman Pde at Dorset St",
     "lat": "-33.701029",
     "lon": "150.335068",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780197",
+    "name": "Katoomba Station, Goldsmith Pl",
+    "lat": "-33.711904",
+    "lon": "150.312229",
     "productClass": [
       5
     ]
