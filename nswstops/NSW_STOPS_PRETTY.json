@@ -11550,6 +11550,33 @@
     ]
   },
   {
+    "id": "203772",
+    "name": "Glebe Library, Wigram Rd",
+    "lat": "-33.877571",
+    "lon": "151.184882",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203773",
+    "name": "Wigram Rd opp Glebe Library",
+    "lat": "-33.877516",
+    "lon": "151.184786",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203775",
+    "name": "Federal Rd opp Pope Paul VI Reserve",
+    "lat": "-33.871957",
+    "lon": "151.180125",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203776",
     "name": "Minogue Crescent Reserve, Minogue Cres",
     "lat": "-33.880485",
@@ -22292,8 +22319,8 @@
   {
     "id": "207332",
     "name": "Grandview St opp Pymble Station",
-    "lat": "-33.744643",
-    "lon": "151.142699",
+    "lat": "-33.744716",
+    "lon": "151.142977",
     "productClass": [
       5
     ]
@@ -49594,15 +49621,6 @@
     "name": "Presbyterian Ladies College, Young St",
     "lat": "-33.881905",
     "lon": "151.114772",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
     "productClass": [
       5
     ]
@@ -175313,8 +175331,8 @@
   {
     "id": "2113226",
     "name": "Waterloo Rd opp Coolinga St",
-    "lat": "-33.783266",
-    "lon": "151.126177",
+    "lat": "-33.782878",
+    "lon": "151.125615",
     "productClass": [
       5
     ]
@@ -217903,8 +217921,8 @@
   {
     "id": "2176235",
     "name": "Bulls Rd opp Box Rd",
-    "lat": "-33.873821",
-    "lon": "150.909319",
+    "lat": "-33.873771",
+    "lon": "150.909446",
     "productClass": [
       5
     ]
@@ -233823,15 +233841,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233850,28 +233859,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -324781,15 +324772,6 @@
     ]
   },
   {
-    "id": "253320",
-    "name": "Bombo Station",
-    "lat": "-34.657949",
-    "lon": "150.854049",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "2425102",
     "name": "Booral Coach Stop",
     "lat": "-32.46671149",
@@ -325248,15 +325230,6 @@
     "lon": "147.1470945",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "250030",
-    "name": "Coniston Station",
-    "lat": "-34.437443",
-    "lon": "150.885469",
-    "productClass": [
-      1
     ]
   },
   {
@@ -326610,15 +326583,6 @@
     ]
   },
   {
-    "id": "253310",
-    "name": "Minnamurra Station",
-    "lat": "-34.625722",
-    "lon": "150.852206",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "257510",
     "name": "Mittagong Station",
     "lat": "-34.45268",
@@ -326887,15 +326851,6 @@
     "lon": "147.1968688",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "252920",
-    "name": "Oak Flats Station",
-    "lat": "-34.572243",
-    "lon": "150.820892",
-    "productClass": [
-      1
     ]
   },
   {
@@ -327191,15 +327146,6 @@
     "name": "Seymour Station",
     "lat": "-37.024365",
     "lon": "145.138408",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "2529218",
-    "name": "Shellharbour Junction Station",
-    "lat": "-34.5912",
-    "lon": "150.8448",
     "productClass": [
       1
     ]
@@ -327535,15 +327481,6 @@
     "lon": "153.029194",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "252610",
-    "name": "Unanderra Station",
-    "lat": "-34.454409",
-    "lon": "150.846341",
-    "productClass": [
-      1
     ]
   },
   {
@@ -328973,6 +328910,15 @@
     ]
   },
   {
+    "id": "253320",
+    "name": "Bombo Station",
+    "lat": "-34.6580285016",
+    "lon": "150.853975458",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "251810",
     "name": "Bellambi Station",
     "lat": "-34.363318415",
@@ -329212,6 +329158,15 @@
     "name": "Cronulla Station",
     "lat": "-34.0562517119",
     "lon": "151.151542409",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "250030",
+    "name": "Coniston Station",
+    "lat": "-34.4374548931",
+    "lon": "150.885529169",
     "productClass": [
       1
     ]
@@ -329838,6 +329793,15 @@
     ]
   },
   {
+    "id": "253310",
+    "name": "Minnamurra Station",
+    "lat": "-34.625699757",
+    "lon": "150.85225749",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "214820",
     "name": "Marayong Station",
     "lat": "-33.7464511113",
@@ -329923,6 +329887,15 @@
     "name": "North Wollongong Station",
     "lat": "-34.4125932568",
     "lon": "150.891349169",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "252920",
+    "name": "Oak Flats Station",
+    "lat": "-34.572230751",
+    "lon": "150.82090794",
     "productClass": [
       1
     ]
@@ -330225,6 +330198,15 @@
     ]
   },
   {
+    "id": "2529218",
+    "name": "Shellharbour Junction Station",
+    "lat": "-34.5912",
+    "lon": "150.8448",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "252910",
     "name": "Dunmore Station",
     "lat": "-34.6059132924",
@@ -330401,6 +330383,15 @@
     "name": "Towradgi Station",
     "lat": "-34.384686325",
     "lon": "150.901238888",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "252610",
+    "name": "Unanderra Station",
+    "lat": "-34.4544287823",
+    "lon": "150.846262892",
     "productClass": [
       1
     ]
