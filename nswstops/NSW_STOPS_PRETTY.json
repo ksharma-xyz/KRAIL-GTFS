@@ -6292,6 +6292,15 @@
     ]
   },
   {
+    "id": "202655",
+    "name": "Bondi Rd at Sandridge St",
+    "lat": "-33.895581",
+    "lon": "151.273022",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202656",
     "name": "Bondi Rd at Dudley St",
     "lat": "-33.89531",
@@ -10114,6 +10123,15 @@
     "name": "Heffron Rd after Bunnerong Rd",
     "lat": "-33.94011",
     "lon": "151.227707",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203551",
+    "name": "Banks Ave at Westfield Dr",
+    "lat": "-33.943383",
+    "lon": "151.222793",
     "productClass": [
       5
     ]
@@ -16630,6 +16648,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -44577,33 +44604,6 @@
     ]
   },
   {
-    "id": "211978",
-    "name": "Wongala Cres opp Beecroft Station",
-    "lat": "-33.749663",
-    "lon": "151.065817",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211979",
-    "name": "The Crescent opp Cheltenham Station",
-    "lat": "-33.755805",
-    "lon": "151.078007",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211980",
-    "name": "Cheltenham Station, The Crescent",
-    "lat": "-33.75588",
-    "lon": "151.078429",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -71565,7 +71565,7 @@
   },
   {
     "id": "217766",
-    "name": "Our Lady Of Mt Carmel Primary School, Cabramatta Rd W",
+    "name": "Our Lady of Mt Carmel Primary School, Cabramatta Rd W",
     "lat": "-33.894218",
     "lon": "150.899059",
     "productClass": [
@@ -71592,7 +71592,7 @@
   },
   {
     "id": "217772",
-    "name": "Humphries Rd opp Our Lady of Mount Carmel Primary School",
+    "name": "Humphries Rd opp Our Lady of Mt Carmel Primary School",
     "lat": "-33.892864",
     "lon": "150.898392",
     "productClass": [
@@ -71610,7 +71610,7 @@
   },
   {
     "id": "217774",
-    "name": "Our Lady Of Mount Carmel Primary School, Humphries Rd",
+    "name": "Our Lady of Mt Carmel Primary School, Humphries Rd",
     "lat": "-33.892767",
     "lon": "150.898671",
     "productClass": [
@@ -125770,33 +125770,6 @@
     ]
   },
   {
-    "id": "233613",
-    "name": "Macqueen St opp Aberdeen Station",
-    "lat": "-32.166877",
-    "lon": "150.891551",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233619",
-    "name": "Aberdeen Station, Macqueen St",
-    "lat": "-32.166908",
-    "lon": "150.891782",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233721",
-    "name": "Scone Station, Coach Stop",
-    "lat": "-32.046842",
-    "lon": "150.867091",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -160758,10 +160731,28 @@
     ]
   },
   {
+    "id": "2026116",
+    "name": "Warners Av after Wairora Ave (Temp - City 2 Surf)",
+    "lat": "-33.888309",
+    "lon": "151.277365",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2026121",
     "name": "Fletcher St at Silva St",
     "lat": "-33.897348",
     "lon": "151.270708",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2026123",
+    "name": "Sandridge St before Wilga",
+    "lat": "-33.896231",
+    "lon": "151.27286",
     "productClass": [
       5
     ]
@@ -161487,6 +161478,15 @@
     ]
   },
   {
+    "id": "2031169",
+    "name": "Perouse Rd before Ivy St",
+    "lat": "-33.922339",
+    "lon": "151.243574",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2031170",
     "name": "Paine Reserve, Rainbow St",
     "lat": "-33.925006",
@@ -161527,6 +161527,15 @@
     "name": "Arden St at Clovelly Rd",
     "lat": "-33.911949",
     "lon": "151.258791",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2031176",
+    "name": "Perouse Rd before Avoca Lane",
+    "lat": "-33.922384",
+    "lon": "151.24344",
     "productClass": [
       5
     ]
@@ -163548,6 +163557,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163624,6 +163642,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -208405,15 +208441,6 @@
     ]
   },
   {
-    "id": "2166255",
-    "name": "Railway Pde before Cabramatta Rd W",
-    "lat": "-33.895859",
-    "lon": "150.938261",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2166257",
     "name": "Avenel St after Sackville St",
     "lat": "-33.881703",
@@ -217731,7 +217758,7 @@
   },
   {
     "id": "2176206",
-    "name": "Polding St opp Butler Ave",
+    "name": "Polding St after Butler Ave",
     "lat": "-33.856007",
     "lon": "150.893274",
     "productClass": [
@@ -217947,7 +217974,7 @@
   },
   {
     "id": "2176232",
-    "name": "Bulls Rd opp Kembla St",
+    "name": "Bulls Rd at Box Rd",
     "lat": "-33.874092",
     "lon": "150.908598",
     "productClass": [
@@ -217956,7 +217983,7 @@
   },
   {
     "id": "2176233",
-    "name": "Innisfail Park, Bulls Rd",
+    "name": "Bulls Rd opp Innisfail Park",
     "lat": "-33.871674",
     "lon": "150.910591",
     "productClass": [
@@ -218001,7 +218028,7 @@
   },
   {
     "id": "2176251",
-    "name": "Bulls Rd opp Strzelecki Cl",
+    "name": "Bulls Rd before Strzelecki Cl",
     "lat": "-33.875465",
     "lon": "150.907124",
     "productClass": [
@@ -218010,7 +218037,7 @@
   },
   {
     "id": "2176252",
-    "name": "Bulls Rd at Devenport St",
+    "name": "Bulls Rd at Devonport St",
     "lat": "-33.87709",
     "lon": "150.905138",
     "productClass": [
@@ -218208,18 +218235,9 @@
   },
   {
     "id": "2176281",
-    "name": "St Johns Park, Humphries Rd",
+    "name": "Humphries Rd before Bowtell Ave",
     "lat": "-33.883017",
     "lon": "150.908276",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2176282",
-    "name": "Humphries Rd opp Bowtell Ave",
-    "lat": "-33.884007",
-    "lon": "150.90713",
     "productClass": [
       5
     ]
@@ -218694,7 +218712,7 @@
   },
   {
     "id": "2177133",
-    "name": "Tarlington Pde before Wall Pl",
+    "name": "Tarlington Pde before Wall St",
     "lat": "-33.890395",
     "lon": "150.892329",
     "productClass": [
@@ -218703,7 +218721,7 @@
   },
   {
     "id": "2177134",
-    "name": "Tarlington Pde Opp Wall Pl",
+    "name": "Tarlington Pde after Wall St",
     "lat": "-33.890565",
     "lon": "150.892289",
     "productClass": [
@@ -227661,6 +227679,15 @@
     "name": "West Botany St opp Tabrett St",
     "lat": "-33.947162",
     "lon": "151.150193",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2216165",
+    "name": "Bay St after Princes Hwy",
+    "lat": "-33.953049",
+    "lon": "151.138237",
     "productClass": [
       5
     ]
@@ -276469,15 +276496,6 @@
     "name": "Beresfield Station, Addison St",
     "lat": "-32.799638",
     "lon": "151.658314",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2322212",
-    "name": "Maitland Rd opp Hexham Station",
-    "lat": "-32.828647",
-    "lon": "151.684842",
     "productClass": [
       5
     ]
