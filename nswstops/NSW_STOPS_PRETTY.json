@@ -3861,15 +3861,6 @@
     ]
   },
   {
-    "id": "202076",
-    "name": "Sydney Domestic Airport, Keith Smith Ave",
-    "lat": "-33.93307",
-    "lon": "151.17845",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -3892,15 +3883,6 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202083",
-    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-    "lat": "-33.935337",
-    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -67396,15 +67378,6 @@
     ]
   },
   {
-    "id": "216773",
-    "name": "Glenfield Rd opp Atlantic Bvd",
-    "lat": "-33.966688",
-    "lon": "150.898437",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216811",
     "name": "Elizabeth Dr before Maxwells Ave",
     "lat": "-33.912973",
@@ -70223,7 +70196,7 @@
   },
   {
     "id": "217418",
-    "name": "Rynan Ave after Camden Valley Way",
+    "name": "Rynan Ave opp Drinkwater Ln",
     "lat": "-33.952866",
     "lon": "150.850564",
     "productClass": [
@@ -70241,7 +70214,7 @@
   },
   {
     "id": "217420",
-    "name": "Rynan Ave at Antwerp Ave",
+    "name": "Rynan Ave opp Billet Rd",
     "lat": "-33.956465",
     "lon": "150.849993",
     "productClass": [
@@ -125770,6 +125743,33 @@
     ]
   },
   {
+    "id": "233613",
+    "name": "Macqueen St opp Aberdeen Station",
+    "lat": "-32.166877",
+    "lon": "150.891551",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233619",
+    "name": "Aberdeen Station, Macqueen St",
+    "lat": "-32.166908",
+    "lon": "150.891782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233721",
+    "name": "Scone Station, Coach Stop",
+    "lat": "-32.046842",
+    "lon": "150.867091",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -136924,7 +136924,7 @@
   },
   {
     "id": "255761",
-    "name": "The Hermitage Way at Digitaria Dr",
+    "name": "The Hermitage Way after Digitaria Dr",
     "lat": "-34.020187",
     "lon": "150.774163",
     "productClass": [
@@ -136933,7 +136933,7 @@
   },
   {
     "id": "255762",
-    "name": "The Hermitage Way at Yaldara St",
+    "name": "The Hermitage Way before Mannes Rd",
     "lat": "-34.020168",
     "lon": "150.774281",
     "productClass": [
@@ -136960,7 +136960,7 @@
   },
   {
     "id": "255765",
-    "name": "Gledswood Hill Dr before Baxter Wy",
+    "name": "Galloway Green, Gledswood Hills Dr",
     "lat": "-34.014055",
     "lon": "150.783014",
     "productClass": [
@@ -137248,7 +137248,7 @@
   },
   {
     "id": "255828",
-    "name": "Epping Forest Dr opp Eschol Park",
+    "name": "Epping Forest Dr opp Eschol Park Sports Complex",
     "lat": "-34.032187",
     "lon": "150.810299",
     "productClass": [
@@ -137311,7 +137311,7 @@
   },
   {
     "id": "255838",
-    "name": "Emerald Dr opp Alabaster Pl",
+    "name": "Thomas Clarkson Reserve, Emerald Dr",
     "lat": "-34.038995",
     "lon": "150.811257",
     "productClass": [
@@ -137608,7 +137608,7 @@
   },
   {
     "id": "255872",
-    "name": "Gould Rd opp Beryl Cl",
+    "name": "Gould Rd before Preston St",
     "lat": "-34.041948",
     "lon": "150.817899",
     "productClass": [
@@ -137626,9 +137626,18 @@
   },
   {
     "id": "255874",
-    "name": "Eagle Farm Reserve, Gould Rd",
+    "name": "Gould Rd opp Opal Pl",
     "lat": "-34.036528",
     "lon": "150.820821",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255875",
+    "name": "Eagle Farm Reserve, Gould Rd",
+    "lat": "-34.03429",
+    "lon": "150.81967",
     "productClass": [
       5
     ]
@@ -148284,7 +148293,7 @@
   },
   {
     "id": "275918",
-    "name": "Banks Dr at Mamre Rd",
+    "name": "Banks Dr before Mamre Rd",
     "lat": "-33.788465",
     "lon": "150.770692",
     "productClass": [
@@ -217659,7 +217668,7 @@
   },
   {
     "id": "2176190",
-    "name": "Fairfield City Council, Avoca Dr",
+    "name": "Fairfield City Council, Avoca Rd",
     "lat": "-33.87966",
     "lon": "150.915589",
     "productClass": [
@@ -269499,6 +269508,69 @@
     ]
   },
   {
+    "id": "2304164",
+    "name": "George St after Holt St",
+    "lat": "-32.899671",
+    "lon": "151.748445",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304165",
+    "name": "George St opp Smith St",
+    "lat": "-32.900028",
+    "lon": "151.750782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304166",
+    "name": "Smith St after Amy St",
+    "lat": "-32.902317",
+    "lon": "151.750611",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304167",
+    "name": "Mounter St at Walsh St",
+    "lat": "-32.903601",
+    "lon": "151.749117",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304168",
+    "name": "Mounter St at Ingall St",
+    "lat": "-32.90324",
+    "lon": "151.746417",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304172",
+    "name": "George St at Smith St",
+    "lat": "-32.90018",
+    "lon": "151.750684",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304173",
+    "name": "George St at Holt St",
+    "lat": "-32.899794",
+    "lon": "151.748102",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2304174",
     "name": "Ingall St at Hann St",
     "lat": "-32.898684",
@@ -286663,15 +286735,6 @@
     ]
   },
   {
-    "id": "2526158",
-    "name": "Rainbird Dr at West Dapto Rd",
-    "lat": "-34.47891",
-    "lon": "150.783081",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2526159",
     "name": "Stewards Dr after Sheaffes Rd",
     "lat": "-34.470335",
@@ -286820,15 +286883,6 @@
     "name": "Sheaffes Rd at Paynes Rd",
     "lat": "-34.471503",
     "lon": "150.779153",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2526185",
-    "name": "West Dapto Rd at Darkes Rd",
-    "lat": "-34.474714",
-    "lon": "150.790173",
     "productClass": [
       5
     ]
@@ -312336,15 +312390,6 @@
     "name": "Cook Pde opp Windrush Cct",
     "lat": "-33.801956",
     "lon": "150.777067",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2759182",
-    "name": "Mamre Rd before Banks Dr",
-    "lat": "-33.789469",
-    "lon": "150.77008",
     "productClass": [
       5
     ]
