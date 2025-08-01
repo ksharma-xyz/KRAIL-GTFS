@@ -3861,15 +3861,6 @@
     ]
   },
   {
-    "id": "202076",
-    "name": "Sydney Domestic Airport, Keith Smith Ave",
-    "lat": "-33.93307",
-    "lon": "151.17845",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -3892,15 +3883,6 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202083",
-    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-    "lat": "-33.935337",
-    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -16630,6 +16612,15 @@
     "name": "Monte Sant Angelo College, Miller St",
     "lat": "-33.835293",
     "lon": "151.2075",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206088",
+    "name": "Pacific Hwy at Mount St",
+    "lat": "-33.838665",
+    "lon": "151.206646",
     "productClass": [
       5
     ]
@@ -51966,6 +51957,15 @@
     ]
   },
   {
+    "id": "214011",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866877",
+    "lon": "151.085865",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -52060,15 +52060,6 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214027",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866812",
-    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -52240,6 +52231,15 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214052",
+    "name": "The Crescent opp Flemington Station",
+    "lat": "-33.865328",
+    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -67396,15 +67396,6 @@
     ]
   },
   {
-    "id": "216773",
-    "name": "Glenfield Rd opp Atlantic Bvd",
-    "lat": "-33.966688",
-    "lon": "150.898437",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216811",
     "name": "Elizabeth Dr before Maxwells Ave",
     "lat": "-33.912973",
@@ -70223,7 +70214,7 @@
   },
   {
     "id": "217418",
-    "name": "Rynan Ave after Camden Valley Way",
+    "name": "Rynan Ave opp Drinkwater Ln",
     "lat": "-33.952866",
     "lon": "150.850564",
     "productClass": [
@@ -70241,7 +70232,7 @@
   },
   {
     "id": "217420",
-    "name": "Rynan Ave at Antwerp Ave",
+    "name": "Rynan Ave opp Billet Rd",
     "lat": "-33.956465",
     "lon": "150.849993",
     "productClass": [
@@ -78707,6 +78698,15 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "220533",
+    "name": "Princes Hwy after Subway Rd",
+    "lat": "-33.944094",
+    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -125770,6 +125770,33 @@
     ]
   },
   {
+    "id": "233613",
+    "name": "Macqueen St opp Aberdeen Station",
+    "lat": "-32.166877",
+    "lon": "150.891551",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233619",
+    "name": "Aberdeen Station, Macqueen St",
+    "lat": "-32.166908",
+    "lon": "150.891782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233721",
+    "name": "Scone Station, Coach Stop",
+    "lat": "-32.046842",
+    "lon": "150.867091",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -136924,7 +136951,7 @@
   },
   {
     "id": "255761",
-    "name": "The Hermitage Way at Digitaria Dr",
+    "name": "The Hermitage Way after Digitaria Dr",
     "lat": "-34.020187",
     "lon": "150.774163",
     "productClass": [
@@ -136933,7 +136960,7 @@
   },
   {
     "id": "255762",
-    "name": "The Hermitage Way at Yaldara St",
+    "name": "The Hermitage Way before Mannes Rd",
     "lat": "-34.020168",
     "lon": "150.774281",
     "productClass": [
@@ -136960,7 +136987,7 @@
   },
   {
     "id": "255765",
-    "name": "Gledswood Hill Dr before Baxter Wy",
+    "name": "Galloway Green, Gledswood Hills Dr",
     "lat": "-34.014055",
     "lon": "150.783014",
     "productClass": [
@@ -137248,7 +137275,7 @@
   },
   {
     "id": "255828",
-    "name": "Epping Forest Dr opp Eschol Park",
+    "name": "Epping Forest Dr opp Eschol Park Sports Complex",
     "lat": "-34.032187",
     "lon": "150.810299",
     "productClass": [
@@ -137311,7 +137338,7 @@
   },
   {
     "id": "255838",
-    "name": "Emerald Dr opp Alabaster Pl",
+    "name": "Thomas Clarkson Reserve, Emerald Dr",
     "lat": "-34.038995",
     "lon": "150.811257",
     "productClass": [
@@ -137608,7 +137635,7 @@
   },
   {
     "id": "255872",
-    "name": "Gould Rd opp Beryl Cl",
+    "name": "Gould Rd before Preston St",
     "lat": "-34.041948",
     "lon": "150.817899",
     "productClass": [
@@ -137626,9 +137653,18 @@
   },
   {
     "id": "255874",
-    "name": "Eagle Farm Reserve, Gould Rd",
+    "name": "Gould Rd opp Opal Pl",
     "lat": "-34.036528",
     "lon": "150.820821",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255875",
+    "name": "Eagle Farm Reserve, Gould Rd",
+    "lat": "-34.03429",
+    "lon": "150.81967",
     "productClass": [
       5
     ]
@@ -137752,7 +137788,7 @@
   },
   {
     "id": "255915",
-    "name": "Glenroy Dr opp Claymore Community Centre",
+    "name": "Glenroy Dr opp Gould Rd",
     "lat": "-34.044725",
     "lon": "150.813596",
     "productClass": [
@@ -137833,7 +137869,7 @@
   },
   {
     "id": "255924",
-    "name": "Claymore Community Centre, Glenroy Dr",
+    "name": "Glenroy Dr after Gould Rd",
     "lat": "-34.044634",
     "lon": "150.813736",
     "productClass": [
@@ -138077,7 +138113,7 @@
   },
   {
     "id": "256035",
-    "name": "Harbord Rd after Tristane Pl",
+    "name": "Kanbyugal Reserve, Harbord Rd",
     "lat": "-34.048089",
     "lon": "150.825731",
     "productClass": [
@@ -138149,7 +138185,7 @@
   },
   {
     "id": "256044",
-    "name": "Fishers Ghost Coach Terminal, Campbelltown Rd",
+    "name": "Campbelltown Rd before Plough Inn Rd",
     "lat": "-34.048077",
     "lon": "150.82846",
     "productClass": [
@@ -138725,7 +138761,7 @@
   },
   {
     "id": "256412",
-    "name": "Macquarie Fields TAFE Campus, Victoria Rd",
+    "name": "TAFE Macquarie Fields, Victoria Rd",
     "lat": "-33.984673",
     "lon": "150.892946",
     "productClass": [
@@ -139580,7 +139616,7 @@
   },
   {
     "id": "256527",
-    "name": "Cumberland Rd before Minto Rd",
+    "name": "Cumberland Rd before Collins Prom",
     "lat": "-34.015055",
     "lon": "150.860095",
     "productClass": [
@@ -139697,7 +139733,7 @@
   },
   {
     "id": "256540",
-    "name": "Cumberland Rd opp Suffolk St",
+    "name": "Cumberland Rd after Suffolk St",
     "lat": "-34.003432",
     "lon": "150.86422",
     "productClass": [
@@ -140201,7 +140237,7 @@
   },
   {
     "id": "256616",
-    "name": "Raby Rd opp Eagle Vale Rd",
+    "name": "Raby Rd after Eagle Vale Rd",
     "lat": "-34.029152",
     "lon": "150.820033",
     "productClass": [
@@ -140336,7 +140372,7 @@
   },
   {
     "id": "256632",
-    "name": "Campbelltown Rd opp Aberfeldy Cres Access",
+    "name": "Campbelltown Rd after Swettenham Rd",
     "lat": "-34.028494",
     "lon": "150.832056",
     "productClass": [
@@ -140354,7 +140390,7 @@
   },
   {
     "id": "256634",
-    "name": "Westmoreland Rd before Bennett St",
+    "name": "John Rider Reserve, Westmoreland Rd",
     "lat": "-34.044987",
     "lon": "150.853554",
     "productClass": [
@@ -148284,7 +148320,7 @@
   },
   {
     "id": "275918",
-    "name": "Banks Dr at Mamre Rd",
+    "name": "Banks Dr before Mamre Rd",
     "lat": "-33.788465",
     "lon": "150.770692",
     "productClass": [
@@ -163017,6 +163053,15 @@
     ]
   },
   {
+    "id": "2046104",
+    "name": "Fairlight St at Smiths Ln",
+    "lat": "-33.87023",
+    "lon": "151.130162",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2046106",
     "name": "Ramsay Rd at Fairlight St",
     "lat": "-33.869913",
@@ -163345,6 +163390,15 @@
     "name": "Harris Rd at Kings Rd",
     "lat": "-33.869006",
     "lon": "151.122366",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2046153",
+    "name": "Fairlight St at Ramsay Rd",
+    "lat": "-33.870066",
+    "lon": "151.131507",
     "productClass": [
       5
     ]
@@ -181521,6 +181575,24 @@
     ]
   },
   {
+    "id": "2138105",
+    "name": "Marquet St before Mary St",
+    "lat": "-33.83075",
+    "lon": "151.085365",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2138106",
+    "name": "Marquet St after Mary St",
+    "lat": "-33.830734",
+    "lon": "151.08517",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2138107",
     "name": "Gauthorpe St after Shoreline Dr",
     "lat": "-33.828131",
@@ -181926,10 +181998,10 @@
     ]
   },
   {
-    "id": "2141173",
+    "id": "2141286",
     "name": "Lidcombe Station, Church St",
-    "lat": "-33.863396",
-    "lon": "151.045123",
+    "lat": "-33.862714",
+    "lon": "151.04345",
     "productClass": [
       5
     ]
@@ -183582,6 +183654,15 @@
     ]
   },
   {
+    "id": "2142279",
+    "name": "Clyde Station, Berry St",
+    "lat": "-33.835187",
+    "lon": "151.017404",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -184419,10 +184500,10 @@
     ]
   },
   {
-    "id": "2144223",
+    "id": "2144236",
     "name": "Auburn Station, Rawson St",
-    "lat": "-33.849364",
-    "lon": "151.033711",
+    "lat": "-33.849424",
+    "lon": "151.033548",
     "productClass": [
       5
     ]
@@ -192758,6 +192839,24 @@
     "name": "Hambledon Cottage Reserve, Hassall St",
     "lat": "-33.818437",
     "lon": "151.014229",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150393",
+    "name": "Harris Park Station, Station St East",
+    "lat": "-33.821968",
+    "lon": "151.008026",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150395",
+    "name": "Station St at Marion St",
+    "lat": "-33.822223",
+    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -209270,7 +209369,7 @@
   },
   {
     "id": "2168187",
-    "name": "Wilson Rd at Frigate Bird Ave",
+    "name": "Wilson Rd at Frigate-Bird Ave",
     "lat": "-33.920965",
     "lon": "150.863111",
     "productClass": [
@@ -214131,7 +214230,7 @@
   },
   {
     "id": "2170718",
-    "name": "Box Rd at Pine Rd",
+    "name": "Box Rd after Pine Rd",
     "lat": "-33.953961",
     "lon": "150.889643",
     "productClass": [
@@ -214743,7 +214842,7 @@
   },
   {
     "id": "2170841",
-    "name": "San Marino Dr after Sicilia St",
+    "name": "San Marino Dr after Venezia St",
     "lat": "-33.944558",
     "lon": "150.871763",
     "productClass": [
@@ -215139,7 +215238,7 @@
   },
   {
     "id": "2171146",
-    "name": "Catherine Fields Rd at Heatherfield Cl",
+    "name": "Catherine Fields Rd opp Heatherfield Cl",
     "lat": "-33.989476",
     "lon": "150.761067",
     "productClass": [
@@ -215157,7 +215256,7 @@
   },
   {
     "id": "2171148",
-    "name": "Deepfields Rd at Barry Ave",
+    "name": "Deepfields Rd after Catherine Fields Rd",
     "lat": "-33.969617",
     "lon": "150.760382",
     "productClass": [
@@ -215436,7 +215535,7 @@
   },
   {
     "id": "2171195",
-    "name": "Horningsea Park Dr opp Bunya Park",
+    "name": "Horningsea Park Dr before Bunya Way",
     "lat": "-33.945801",
     "lon": "150.844807",
     "productClass": [
@@ -215670,7 +215769,7 @@
   },
   {
     "id": "2171232",
-    "name": "Fifteenth Ave at Mustang Cl",
+    "name": "Fifteenth Ave before Mustang Cl",
     "lat": "-33.923065",
     "lon": "150.846082",
     "productClass": [
@@ -215760,7 +215859,7 @@
   },
   {
     "id": "2171251",
-    "name": "Ramsay Rd opp Emmits Farm Rd",
+    "name": "Ramsay Rd opp Emmets Farm Rd",
     "lat": "-33.924741",
     "lon": "150.762929",
     "productClass": [
@@ -215823,7 +215922,7 @@
   },
   {
     "id": "2171259",
-    "name": "Shree Ram Krishna Temple, Fifteenth Ave",
+    "name": "265 Fifteenth Ave",
     "lat": "-33.920258",
     "lon": "150.825847",
     "productClass": [
@@ -216138,7 +216237,7 @@
   },
   {
     "id": "2171311",
-    "name": "Pacific Palms Cct before Nineteenth Ave",
+    "name": "Pacific Palms Cct at Nineteenth Ave",
     "lat": "-33.931484",
     "lon": "150.856497",
     "productClass": [
@@ -217659,7 +217758,7 @@
   },
   {
     "id": "2176190",
-    "name": "Fairfield City Council, Avoca Dr",
+    "name": "Fairfield City Council, Avoca Rd",
     "lat": "-33.87966",
     "lon": "150.915589",
     "productClass": [
@@ -228485,6 +228584,15 @@
     ]
   },
   {
+    "id": "2220302",
+    "name": "Hurstville Fire Station, Butler Rd",
+    "lat": "-33.968042",
+    "lon": "151.101992",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2220303",
     "name": "Waitara Pde at The Crescent",
     "lat": "-33.981057",
@@ -229453,15 +229561,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -260157,6 +260256,15 @@
     ]
   },
   {
+    "id": "2283237",
+    "name": "Awaba Rd opp Awaba Station",
+    "lat": "-33.013504",
+    "lon": "151.542432",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2283238",
     "name": "Coal Point Rd before Laycock St",
     "lat": "-33.029668",
@@ -269494,6 +269602,69 @@
     "name": "Ingall St opp Hann St",
     "lat": "-32.898434",
     "lon": "151.747383",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304164",
+    "name": "George St after Holt St",
+    "lat": "-32.899671",
+    "lon": "151.748445",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304165",
+    "name": "George St opp Smith St",
+    "lat": "-32.900028",
+    "lon": "151.750782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304166",
+    "name": "Smith St after Amy St",
+    "lat": "-32.902317",
+    "lon": "151.750611",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304167",
+    "name": "Mounter St at Walsh St",
+    "lat": "-32.903601",
+    "lon": "151.749117",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304168",
+    "name": "Mounter St at Ingall St",
+    "lat": "-32.90324",
+    "lon": "151.746417",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304172",
+    "name": "George St at Smith St",
+    "lat": "-32.90018",
+    "lon": "151.750684",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2304173",
+    "name": "George St at Holt St",
+    "lat": "-32.899794",
+    "lon": "151.748102",
     "productClass": [
       5
     ]
@@ -286663,15 +286834,6 @@
     ]
   },
   {
-    "id": "2526158",
-    "name": "Rainbird Dr at West Dapto Rd",
-    "lat": "-34.47891",
-    "lon": "150.783081",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2526159",
     "name": "Stewards Dr after Sheaffes Rd",
     "lat": "-34.470335",
@@ -286820,15 +286982,6 @@
     "name": "Sheaffes Rd at Paynes Rd",
     "lat": "-34.471503",
     "lon": "150.779153",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2526185",
-    "name": "West Dapto Rd at Darkes Rd",
-    "lat": "-34.474714",
-    "lon": "150.790173",
     "productClass": [
       5
     ]
@@ -296581,8 +296734,17 @@
     ]
   },
   {
+    "id": "2560617",
+    "name": "Parkhill Ave after Katherine St",
+    "lat": "-34.048521",
+    "lon": "150.842621",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2560618",
-    "name": "Parkhill Ave after Burrinjuck St",
+    "name": "Parkhill Ave before Leumeah St",
     "lat": "-34.050905",
     "lon": "150.842488",
     "productClass": [
@@ -297077,7 +297239,7 @@
   },
   {
     "id": "2565101",
-    "name": "Bugatti Dr opp Ford Pl",
+    "name": "Bugatti Dr before Ford Pl",
     "lat": "-34.002321",
     "lon": "150.883388",
     "productClass": [
@@ -297203,7 +297365,7 @@
   },
   {
     "id": "2565124",
-    "name": "Jamboree Ave opp Scout St",
+    "name": "Jamboree Ave opp Resolution Ave",
     "lat": "-33.978766",
     "lon": "150.811269",
     "productClass": [
@@ -297320,7 +297482,7 @@
   },
   {
     "id": "2565142",
-    "name": "Willowdale Dr at Commissioners Dr",
+    "name": "Willowdale Dr before Commissioners Dr",
     "lat": "-33.981216",
     "lon": "150.81511",
     "productClass": [
@@ -297644,7 +297806,7 @@
   },
   {
     "id": "2565654",
-    "name": "Oxford Rd after Collins Prom",
+    "name": "Oxford Rd before Kingfisher St",
     "lat": "-34.006194",
     "lon": "150.875737",
     "productClass": [
@@ -297797,7 +297959,7 @@
   },
   {
     "id": "2566113",
-    "name": "Campbelltown Christian Community Church, Townson Ave",
+    "name": "Townson Ave at Alderney St",
     "lat": "-34.03913",
     "lon": "150.847685",
     "productClass": [
@@ -297824,7 +297986,7 @@
   },
   {
     "id": "2566116",
-    "name": "Elizabeth McRae Ave opp Kaputar St",
+    "name": "Scarborough Park, Elizabeth McRae Ave",
     "lat": "-34.03526",
     "lon": "150.85139",
     "productClass": [
@@ -297851,7 +298013,7 @@
   },
   {
     "id": "2566124",
-    "name": "Minto Rd opp Warwick St",
+    "name": "Minto Rd after Warwick St",
     "lat": "-34.023564",
     "lon": "150.844289",
     "productClass": [
@@ -297995,7 +298157,7 @@
   },
   {
     "id": "2566145",
-    "name": "Minto Rd opp Ohlfsen Rd",
+    "name": "Minto Rd after Ohlfsen Rd",
     "lat": "-34.01791",
     "lon": "150.856403",
     "productClass": [
@@ -298112,7 +298274,7 @@
   },
   {
     "id": "2566160",
-    "name": "Ballantrae Dr before Arisaig Pl",
+    "name": "Ballantrae Dr at Stranraer Dr",
     "lat": "-34.021952",
     "lon": "150.829592",
     "productClass": [
@@ -298184,7 +298346,7 @@
   },
   {
     "id": "2566168",
-    "name": "Spitfire Dr before Hurricane Dr",
+    "name": "Raby Shopping Village, Spitfire Dr",
     "lat": "-34.02593",
     "lon": "150.820161",
     "productClass": [
@@ -298211,7 +298373,7 @@
   },
   {
     "id": "2566171",
-    "name": "113 Spitfire Dr",
+    "name": "Spitfire Dr after Sunderland Dr",
     "lat": "-34.018526",
     "lon": "150.821991",
     "productClass": [
@@ -298274,7 +298436,7 @@
   },
   {
     "id": "2566178",
-    "name": "Mcdonnell St at Convair Pl",
+    "name": "McDonnell St at Convair Pl",
     "lat": "-34.012613",
     "lon": "150.814769",
     "productClass": [
@@ -298283,7 +298445,7 @@
   },
   {
     "id": "2566179",
-    "name": "Mcdonnell St opp Saunders Pl",
+    "name": "McDonnell St opp Saunders Pl",
     "lat": "-34.011719",
     "lon": "150.813116",
     "productClass": [
@@ -298292,7 +298454,7 @@
   },
   {
     "id": "2566180",
-    "name": "Mcdonnell St at Armstrong St",
+    "name": "McDonnell St at Armstrong St",
     "lat": "-34.011821",
     "lon": "150.811108",
     "productClass": [
@@ -298310,7 +298472,7 @@
   },
   {
     "id": "2566182",
-    "name": "Mcdonnell St after Northrop St",
+    "name": "McDonnell St after Northrop St",
     "lat": "-34.015023",
     "lon": "150.809163",
     "productClass": [
@@ -298427,7 +298589,7 @@
   },
   {
     "id": "2566195",
-    "name": "Kabbarli Early Learning Centre, Guernsey Ave",
+    "name": "Guernsey Ave after Benham Rd",
     "lat": "-34.023005",
     "lon": "150.854518",
     "productClass": [
@@ -298580,7 +298742,7 @@
   },
   {
     "id": "2566247",
-    "name": "Townson Ave at Jenner Way",
+    "name": "Townson Ave at Cradle Ave",
     "lat": "-34.037005",
     "lon": "150.848822",
     "productClass": [
@@ -299777,7 +299939,7 @@
   },
   {
     "id": "2567295",
-    "name": "Anderson Rd opp Simpson Cl",
+    "name": "Anderson Rd before Simpson Cl",
     "lat": "-34.031168",
     "lon": "150.754873",
     "productClass": [
@@ -299804,7 +299966,7 @@
   },
   {
     "id": "2567298",
-    "name": "Anderson Rd opp Anzac Ave",
+    "name": "Anderson Rd before Anzac Ave",
     "lat": "-34.033662",
     "lon": "150.759755",
     "productClass": [
@@ -312336,15 +312498,6 @@
     "name": "Cook Pde opp Windrush Cct",
     "lat": "-33.801956",
     "lon": "150.777067",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2759182",
-    "name": "Mamre Rd before Banks Dr",
-    "lat": "-33.789469",
-    "lon": "150.77008",
     "productClass": [
       5
     ]
