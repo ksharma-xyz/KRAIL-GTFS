@@ -114231,15 +114231,6 @@
     ]
   },
   {
-    "id": "230481",
-    "name": "Ingall St at Mounter St",
-    "lat": "-32.903001",
-    "lon": "151.746348",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "230482",
     "name": "Greaves St at George St",
     "lat": "-32.900395",
@@ -265449,24 +265440,6 @@
     ]
   },
   {
-    "id": "2289204",
-    "name": "Princeton Ave opp Edison St",
-    "lat": "-32.950596",
-    "lon": "151.699898",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2289206",
-    "name": "St Philip's Catholic Church, Vista Pde",
-    "lat": "-32.948566",
-    "lon": "151.699821",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2289207",
     "name": "Nesbitt Park, Grayson Ave",
     "lat": "-32.948891",
@@ -265516,15 +265489,6 @@
     "name": "Grayson Ave opp Nesbitt Park",
     "lat": "-32.948648",
     "lon": "151.698237",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2289213",
-    "name": "St James Primary School, Vista Pde",
-    "lat": "-32.948871",
-    "lon": "151.700544",
     "productClass": [
       5
     ]
@@ -316690,16 +316654,6 @@
     ]
   },
   {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -330329,6 +330283,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
