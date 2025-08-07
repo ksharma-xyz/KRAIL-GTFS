@@ -135,11 +135,6 @@ jobs:
           body: |
             ### JSON Update Summary
 
-            #### NSW_STOPS_PRETTY.json Diff:
-            ```diff
-            ${{ steps.git-diff.outputs.stops_diff }}
-            ```
-
             #### NSW_PARKRIDE_PRETTY.json Diff:
             ```diff
             ${{ steps.git-diff.outputs.parkride_diff }}
