@@ -49536,6 +49536,15 @@
     ]
   },
   {
+    "id": "213275",
+    "name": "Paisley Rd after The Strand",
+    "lat": "-33.882846",
+    "lon": "151.114337",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213311",
     "name": "Coronation Pde opp Tangarra St",
     "lat": "-33.894706",
@@ -51750,6 +51759,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -51826,6 +51844,15 @@
     "name": "Walker St opp Meredith Ave",
     "lat": "-33.82452",
     "lon": "151.088079",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
     "productClass": [
       5
     ]
@@ -70187,6 +70214,15 @@
     ]
   },
   {
+    "id": "217489",
+    "name": "Rynan Ave opp Antwerp Ave",
+    "lat": "-33.956796",
+    "lon": "150.849678",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "217490",
     "name": "Jardine Dr before Forsyth Rd",
     "lat": "-33.958239",
@@ -72087,6 +72123,15 @@
     ]
   },
   {
+    "id": "217954",
+    "name": "Bringelly Rd after Browns Rd",
+    "lat": "-33.951297",
+    "lon": "150.81739",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "217955",
     "name": "St Anthony's College, Austral",
     "lat": "-33.929992",
@@ -72199,6 +72244,15 @@
     "name": "83 Dwyer Rd",
     "lat": "-33.986184",
     "lon": "150.783018",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217979",
+    "name": "Bringelly Rd opp Skyline Cres",
+    "lat": "-33.951768",
+    "lon": "150.830104",
     "productClass": [
       5
     ]
@@ -161406,15 +161460,6 @@
     ]
   },
   {
-    "id": "2031169",
-    "name": "Perouse Rd before Ivy St",
-    "lat": "-33.922339",
-    "lon": "151.243574",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2031170",
     "name": "Paine Reserve, Rainbow St",
     "lat": "-33.925006",
@@ -161455,15 +161500,6 @@
     "name": "Arden St at Clovelly Rd",
     "lat": "-33.911949",
     "lon": "151.258791",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2031176",
-    "name": "Perouse Rd before Avoca Lane",
-    "lat": "-33.922384",
-    "lon": "151.24344",
     "productClass": [
       5
     ]
@@ -183573,6 +183609,15 @@
     ]
   },
   {
+    "id": "2142287",
+    "name": "Granville Station, Bridge St",
+    "lat": "-33.832341",
+    "lon": "151.011551",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2142288",
     "name": "Halsall St at Woodville Rd",
     "lat": "-33.830578",
@@ -202141,6 +202186,15 @@
     ]
   },
   {
+    "id": "2160142",
+    "name": "Merrylands Rd at Railway Tce",
+    "lat": "-33.837054",
+    "lon": "150.992957",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2160143",
     "name": "Merrylands Rd after Ridge St",
     "lat": "-33.832682",
@@ -208391,6 +208445,15 @@
     "name": "Bartley St before Railway Pde",
     "lat": "-33.890353",
     "lon": "150.939478",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
     "productClass": [
       5
     ]
@@ -215021,6 +215084,15 @@
     ]
   },
   {
+    "id": "2171134",
+    "name": "Camden Valley Way opp George Rd",
+    "lat": "-33.984763",
+    "lon": "150.796486",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2171136",
     "name": "Camden Valley Way opp Deepfields Rd",
     "lat": "-33.999176",
@@ -215795,6 +215867,15 @@
     ]
   },
   {
+    "id": "2171265",
+    "name": "St Anthonys Catholic Church, Edmondson Ave",
+    "lat": "-33.930111",
+    "lon": "150.812714",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2171266",
     "name": "Eleventh Ave at Twentyninth Ave",
     "lat": "-33.93094",
@@ -215826,6 +215907,15 @@
     "name": "Edmondson Ave before Twelfth Ave",
     "lat": "-33.927497",
     "lon": "150.813084",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2171271",
+    "name": "Edmondson Ave at Fourteenth Ave",
+    "lat": "-33.921756",
+    "lon": "150.814215",
     "productClass": [
       5
     ]
@@ -216501,6 +216591,15 @@
     "name": "Cowpasture Rd after Tibooburra Rd",
     "lat": "-33.929607",
     "lon": "150.847158",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2171430",
+    "name": "Fifteenth Ave at Herley Ave",
+    "lat": "-33.915683",
+    "lon": "150.791979",
     "productClass": [
       5
     ]
@@ -229395,6 +229494,15 @@
     ]
   },
   {
+    "id": "2226105",
+    "name": "Como Station, Como Pde",
+    "lat": "-34.004582",
+    "lon": "151.067786",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2226113",
     "name": "Tudar Rd at Jefferson Cres",
     "lat": "-34.014704",
@@ -233841,6 +233949,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233859,10 +233976,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -297256,6 +297391,24 @@
     ]
   },
   {
+    "id": "2565135",
+    "name": "Williamson Rd opp Zac Pac",
+    "lat": "-33.99536",
+    "lon": "150.853848",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2565136",
+    "name": "Williamson Road opp Zac Pac",
+    "lat": "-33.998694",
+    "lon": "150.848889",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2565138",
     "name": "Lancaster St before Aero Rd",
     "lat": "-33.992739",
@@ -297404,6 +297557,15 @@
     "name": "Leppington House Dr at Wollahan Ave",
     "lat": "-33.984602",
     "lon": "150.819186",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2565161",
+    "name": "Williamson Before Stennett",
+    "lat": "-34.002044",
+    "lon": "150.842899",
     "productClass": [
       5
     ]
