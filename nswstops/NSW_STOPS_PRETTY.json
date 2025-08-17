@@ -3861,6 +3861,15 @@
     ]
   },
   {
+    "id": "202076",
+    "name": "Sydney Domestic Airport, Keith Smith Ave",
+    "lat": "-33.93307",
+    "lon": "151.17845",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -3883,6 +3892,15 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202083",
+    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
+    "lat": "-33.935337",
+    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -6269,15 +6287,6 @@
     "name": "South Bondi Beach, Campbell Pde",
     "lat": "-33.894371",
     "lon": "151.273303",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202655",
-    "name": "Bondi Rd at Sandridge St",
-    "lat": "-33.895581",
-    "lon": "151.273022",
     "productClass": [
       5
     ]
@@ -19008,6 +19017,15 @@
     "name": "Victoria Ave at Gibbes St",
     "lat": "-33.790911",
     "lon": "151.200573",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206760",
+    "name": "Railway St at Help St",
+    "lat": "-33.795357",
+    "lon": "151.180414",
     "productClass": [
       5
     ]
@@ -49536,15 +49554,6 @@
     ]
   },
   {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "213311",
     "name": "Coronation Pde opp Tangarra St",
     "lat": "-33.894706",
@@ -51885,15 +51894,6 @@
     ]
   },
   {
-    "id": "214011",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866877",
-    "lon": "151.085865",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -51988,6 +51988,15 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214027",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866812",
+    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -52159,15 +52168,6 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214052",
-    "name": "The Crescent opp Flemington Station",
-    "lat": "-33.865328",
-    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -60367,7 +60367,7 @@
   },
   {
     "id": "215654",
-    "name": "Pitt Town Rd after Clarke Wy",
+    "name": "Pitt Town Rd after Clarke Way",
     "lat": "-33.625139",
     "lon": "150.950338",
     "productClass": [
@@ -67019,18 +67019,9 @@
   },
   {
     "id": "216727",
-    "name": "Harrow Rd opp Champion St",
+    "name": "Blinman Oval, Harrow Rd",
     "lat": "-33.972962",
     "lon": "150.904415",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "216728",
-    "name": "Harrow Rd opp Karius St",
-    "lat": "-33.971709",
-    "lon": "150.904647",
     "productClass": [
       5
     ]
@@ -71746,8 +71737,8 @@
   {
     "id": "217816",
     "name": "Emporium Ave after Topaz Ave",
-    "lat": "-33.825298",
-    "lon": "150.798049",
+    "lat": "-33.825364",
+    "lon": "150.797705",
     "productClass": [
       5
     ]
@@ -72151,7 +72142,7 @@
   },
   {
     "id": "217959",
-    "name": "Rickard before Heath",
+    "name": "Rickard Rd opp Moon St",
     "lat": "-33.967638",
     "lon": "150.801341",
     "productClass": [
@@ -112143,6 +112134,33 @@
     ]
   },
   {
+    "id": "229896",
+    "name": "Christo Rd at Asher St",
+    "lat": "-32.910892",
+    "lon": "151.72888",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "229897",
+    "name": "Christo Rd at Georgetown Rd",
+    "lat": "-32.911357",
+    "lon": "151.732006",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "229898",
+    "name": "Christo Rd at Stephen St",
+    "lat": "-32.911413",
+    "lon": "151.731267",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "229911",
     "name": "Stockland Jesmond, Blue Gum Rd",
     "lat": "-32.902788",
@@ -137779,7 +137797,7 @@
   },
   {
     "id": "255920",
-    "name": "Dobell Rd opp Dobell Reserve",
+    "name": "Dobell Rd after Drysdale St",
     "lat": "-34.043732",
     "lon": "150.804661",
     "productClass": [
@@ -146745,7 +146763,7 @@
   },
   {
     "id": "275418",
-    "name": "North Richmond Village, Bells Line Of Road",
+    "name": "North Richmond Village, Bells Line Of Rd",
     "lat": "-33.581232",
     "lon": "150.720899",
     "productClass": [
@@ -146772,7 +146790,7 @@
   },
   {
     "id": "275422",
-    "name": "Bells Line Of Road at Crooked Lane",
+    "name": "Bells Line Of Rd at Crooked Lane",
     "lat": "-33.574764",
     "lon": "150.714423",
     "productClass": [
@@ -147708,7 +147726,7 @@
   },
   {
     "id": "275712",
-    "name": "Kurmond Village Shops, Bells Line of Rd",
+    "name": "Kurmond Village Shops, Bells Line Of Rd",
     "lat": "-33.550764",
     "lon": "150.690761",
     "productClass": [
@@ -147717,7 +147735,7 @@
   },
   {
     "id": "275713",
-    "name": "Bells Line of Rd opp Kurmond Village Shops",
+    "name": "Bells Line Of Rd opp Kurmond Village Shops",
     "lat": "-33.550518",
     "lon": "150.689637",
     "productClass": [
@@ -147924,7 +147942,7 @@
   },
   {
     "id": "275831",
-    "name": "Kurrajong Village Shops, Old Bells Line of Road",
+    "name": "Kurrajong Village Shops, Old Bells Line Of Rd",
     "lat": "-33.553417",
     "lon": "150.667785",
     "productClass": [
@@ -147969,7 +147987,7 @@
   },
   {
     "id": "275836",
-    "name": "Bells Line of Road before Hanlons Rd South",
+    "name": "Bells Line Of Rd before Hanlons Rd South",
     "lat": "-33.49841",
     "lon": "150.522629",
     "productClass": [
@@ -148113,7 +148131,7 @@
   },
   {
     "id": "275854",
-    "name": "Kurrajong Rural Fire Brigade, Old Bells Line of Road",
+    "name": "Kurrajong Rural Fire Brigade, Old Bells Line Of Rd",
     "lat": "-33.554246",
     "lon": "150.665845",
     "productClass": [
@@ -152254,8 +152272,8 @@
   {
     "id": "276618",
     "name": "Rooty Hill Rd South opp Cawarra St",
-    "lat": "-33.784868",
-    "lon": "150.85285",
+    "lat": "-33.784628",
+    "lon": "150.852716",
     "productClass": [
       5
     ]
@@ -160416,15 +160434,6 @@
     ]
   },
   {
-    "id": "2000313",
-    "name": "Bathurst St before Pitt St",
-    "lat": "-33.874373",
-    "lon": "151.207699",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000319",
     "name": "Wentworth Ave after Elizabeth St",
     "lat": "-33.878891",
@@ -160713,28 +160722,10 @@
     ]
   },
   {
-    "id": "2026116",
-    "name": "Warners Av after Wairora Ave (Temp - City 2 Surf)",
-    "lat": "-33.888309",
-    "lon": "151.277365",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2026121",
     "name": "Fletcher St at Silva St",
     "lat": "-33.897348",
     "lon": "151.270708",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2026123",
-    "name": "Sandridge St before Wilga",
-    "lat": "-33.896231",
-    "lon": "151.27286",
     "productClass": [
       5
     ]
@@ -161460,6 +161451,15 @@
     ]
   },
   {
+    "id": "2031169",
+    "name": "Perouse Rd before Ivy St",
+    "lat": "-33.922339",
+    "lon": "151.243574",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2031170",
     "name": "Paine Reserve, Rainbow St",
     "lat": "-33.925006",
@@ -161500,6 +161500,15 @@
     "name": "Arden St at Clovelly Rd",
     "lat": "-33.911949",
     "lon": "151.258791",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2031176",
+    "name": "Perouse Rd before Avoca Lane",
+    "lat": "-33.922384",
+    "lon": "151.24344",
     "productClass": [
       5
     ]
@@ -164866,15 +164875,6 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2067134",
-    "name": "Railway St at Help St",
-    "lat": "-33.795879",
-    "lon": "151.180456",
     "productClass": [
       5
     ]
@@ -183546,15 +183546,6 @@
     ]
   },
   {
-    "id": "2142279",
-    "name": "Clyde Station, Berry St",
-    "lat": "-33.835187",
-    "lon": "151.017404",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -184401,10 +184392,10 @@
     ]
   },
   {
-    "id": "2144236",
+    "id": "2144223",
     "name": "Auburn Station, Rawson St",
-    "lat": "-33.849424",
-    "lon": "151.033548",
+    "lat": "-33.849364",
+    "lon": "151.033711",
     "productClass": [
       5
     ]
@@ -191837,8 +191828,8 @@
   {
     "id": "2148507",
     "name": "Prospect Hwy after Stoddart Rd",
-    "lat": "-33.798752",
-    "lon": "150.917462",
+    "lat": "-33.799877",
+    "lon": "150.91704",
     "productClass": [
       5
     ]
@@ -192740,24 +192731,6 @@
     "name": "Hambledon Cottage Reserve, Hassall St",
     "lat": "-33.818437",
     "lon": "151.014229",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -213204,7 +213177,7 @@
   },
   {
     "id": "2170530",
-    "name": "Flowerdale Rd at Anderson Ave",
+    "name": "Flowerdale Rd after Anderson Ave",
     "lat": "-33.922163",
     "lon": "150.908433",
     "productClass": [
@@ -219676,8 +219649,8 @@
   {
     "id": "2190259",
     "name": "Muir Rd after Hume Hwy",
-    "lat": "-33.896457",
-    "lon": "151.04919",
+    "lat": "-33.895736",
+    "lon": "151.048555",
     "productClass": [
       5
     ]
@@ -301019,7 +300992,7 @@
   },
   {
     "id": "2570223",
-    "name": "South Cct at Skelton St",
+    "name": "South Cct after Redman Grange",
     "lat": "-34.00311",
     "lon": "150.746552",
     "productClass": [
@@ -325016,11 +324989,11 @@
   },
   {
     "id": "283914",
-    "name": "Brewarrina Coach Stop",
+    "name": "Brewarrina Central",
     "lat": "-29.96197523",
     "lon": "146.8613145",
     "productClass": [
-      7
+      1
     ]
   },
   {
