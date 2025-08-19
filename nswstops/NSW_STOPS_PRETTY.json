@@ -78649,15 +78649,6 @@
     ]
   },
   {
-    "id": "220533",
-    "name": "Princes Hwy after Subway Rd",
-    "lat": "-33.944094",
-    "lon": "151.142099",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "220534",
     "name": "Wollongong Rd opp Macquarie Lodge",
     "lat": "-33.940258",
@@ -113367,6 +113358,15 @@
     ]
   },
   {
+    "id": "230314",
+    "name": "Smith St at Parkway Ave",
+    "lat": "-32.933094",
+    "lon": "151.75891",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "230315",
     "name": "Tudor St before Gordon Ave",
     "lat": "-32.924708",
@@ -113389,6 +113389,15 @@
     "name": "Hamilton Public School, Tudor St",
     "lat": "-32.923697",
     "lon": "151.743701",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "230318",
+    "name": "Parkway Ave after National Park St",
+    "lat": "-32.931612",
+    "lon": "151.755914",
     "productClass": [
       5
     ]
@@ -136779,15 +136788,6 @@
     ]
   },
   {
-    "id": "255745",
-    "name": "Healy St between McKenzie Bvd",
-    "lat": "-34.027097",
-    "lon": "150.775479",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "255746",
     "name": "Village Cct Shops",
     "lat": "-34.026134",
@@ -148699,8 +148699,8 @@
   {
     "id": "275986",
     "name": "Solander Dr after Naoli Pl",
-    "lat": "-33.798425",
-    "lon": "150.770168",
+    "lat": "-33.798405",
+    "lon": "150.770049",
     "productClass": [
       5
     ]
@@ -162990,15 +162990,6 @@
     ]
   },
   {
-    "id": "2046104",
-    "name": "Fairlight St at Smiths Lane",
-    "lat": "-33.87023",
-    "lon": "151.130162",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2046106",
     "name": "Ramsay Rd at Fairlight St",
     "lat": "-33.869913",
@@ -163327,15 +163318,6 @@
     "name": "Harris Rd at Kings Rd",
     "lat": "-33.869006",
     "lon": "151.122366",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2046153",
-    "name": "Fairlight St at Ramsay Rd",
-    "lat": "-33.870066",
-    "lon": "151.131507",
     "productClass": [
       5
     ]
@@ -228485,15 +228467,6 @@
     ]
   },
   {
-    "id": "2220302",
-    "name": "Hurstville Fire Station, Butler Rd",
-    "lat": "-33.968042",
-    "lon": "151.101992",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2220303",
     "name": "Waitara Pde at The Crescent",
     "lat": "-33.981057",
@@ -229462,15 +229435,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -238651,6 +238615,15 @@
     "name": "Donnison St before Mann St",
     "lat": "-33.426813",
     "lon": "151.341247",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2250632",
+    "name": "Gosford Station, Showground Rd",
+    "lat": "-33.423324",
+    "lon": "151.341356",
     "productClass": [
       5
     ]
