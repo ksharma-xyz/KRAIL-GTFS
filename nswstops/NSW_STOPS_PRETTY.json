@@ -44559,6 +44559,33 @@
     ]
   },
   {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -51894,6 +51921,15 @@
     ]
   },
   {
+    "id": "214011",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866877",
+    "lon": "151.085865",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -51988,15 +52024,6 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214027",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866812",
-    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -52168,6 +52195,15 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214052",
+    "name": "The Crescent opp Flemington Station",
+    "lat": "-33.865328",
+    "lon": "151.070651",
     "productClass": [
       5
     ]
