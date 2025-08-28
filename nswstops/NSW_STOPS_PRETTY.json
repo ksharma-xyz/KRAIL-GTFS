@@ -325377,6 +325377,15 @@
     ]
   },
   {
+    "id": "2450752",
+    "name": "Coffs Harbour Coach Terminal",
+    "lat": "-30.298962",
+    "lon": "153.11185",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "28772",
     "name": "Condobolin Station",
     "lat": "-33.083963",
