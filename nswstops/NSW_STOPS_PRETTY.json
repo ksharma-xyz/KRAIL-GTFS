@@ -288,24 +288,6 @@
     ]
   },
   {
-    "id": "200088",
-    "name": "Darling Dr opp Convention Centre",
-    "lat": "-33.872503",
-    "lon": "151.198211",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "200091",
-    "name": "Paddy's Market Light Rail, Darling Dr",
-    "lat": "-33.880624",
-    "lon": "151.20186",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200096",
     "name": "Bridge St at Gresham St",
     "lat": "-33.863625",
@@ -540,15 +522,6 @@
     ]
   },
   {
-    "id": "200914",
-    "name": "Convention Centre, Darling Dr",
-    "lat": "-33.872915",
-    "lon": "151.198343",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200916",
     "name": "Harris St at Pyrmont Bridge Rd",
     "lat": "-33.871078",
@@ -630,15 +603,6 @@
     ]
   },
   {
-    "id": "200925",
-    "name": "Pyrmont Bridge Rd opp Wattle St",
-    "lat": "-33.873657",
-    "lon": "151.192631",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200926",
     "name": "Harris St after Allen St",
     "lat": "-33.87302",
@@ -670,15 +634,6 @@
     "name": "Fish Market Light Rail, Miller St",
     "lat": "-33.870534",
     "lon": "151.192004",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "200930",
-    "name": "Pyrmont Bridge Rd at Wattle St",
-    "lat": "-33.873781",
-    "lon": "151.192714",
     "productClass": [
       5
     ]
@@ -11460,28 +11415,10 @@
     ]
   },
   {
-    "id": "203744",
-    "name": "Bridge Rd at Palmerston Rd",
-    "lat": "-33.877288",
-    "lon": "151.187754",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "203746",
     "name": "Sydney Secondary College Blackwattle Bay Campus, Taylor St",
     "lat": "-33.876211",
     "lon": "151.187947",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203754",
-    "name": "Bridge Rd opp Burton St",
-    "lat": "-33.876957",
-    "lon": "151.187933",
     "productClass": [
       5
     ]
@@ -12351,15 +12288,6 @@
     ]
   },
   {
-    "id": "204057",
-    "name": "Foster St at Marion St",
-    "lat": "-33.884415",
-    "lon": "151.147503",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "204060",
     "name": "Balmain Rd opp Sydney Secondary College Leichhardt Campus",
     "lat": "-33.879581",
@@ -12427,15 +12355,6 @@
     "name": "Catherine St opp War Memorial Park",
     "lat": "-33.878943",
     "lon": "151.164331",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204069",
-    "name": "Hawthorne Light Rail, Darley Rd",
-    "lat": "-33.87921",
-    "lon": "151.147893",
     "productClass": [
       5
     ]
@@ -12535,33 +12454,6 @@
     "name": "Lilyfield Light Rail, Catherine St",
     "lat": "-33.873663",
     "lon": "151.164589",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204085",
-    "name": "Leichhardt North Light Rail, Darley Rd",
-    "lat": "-33.875308",
-    "lon": "151.154134",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204086",
-    "name": "Darley Rd opp Leichhardt North Light Rail",
-    "lat": "-33.875476",
-    "lon": "151.15401",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204087",
-    "name": "Darley Rd opp Hawthorne Light Rail",
-    "lat": "-33.879422",
-    "lon": "151.147998",
     "productClass": [
       5
     ]
@@ -15064,15 +14956,6 @@
     "name": "Fort Street High School, Parramatta Rd",
     "lat": "-33.889019",
     "lon": "151.153812",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "204914",
-    "name": "Old Canterbury Rd at Cook St",
-    "lat": "-33.890954",
-    "lon": "151.146389",
     "productClass": [
       5
     ]
@@ -19107,15 +18990,6 @@
     "name": "Victoria Ave at Gibbes St",
     "lat": "-33.790911",
     "lon": "151.200573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206760",
-    "name": "Railway St at Help St",
-    "lat": "-33.795357",
-    "lon": "151.180414",
     "productClass": [
       5
     ]
@@ -48537,15 +48411,6 @@
     ]
   },
   {
-    "id": "213037",
-    "name": "Old Canterbury Rd opp Rosedale St",
-    "lat": "-33.896377",
-    "lon": "151.137362",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "213038",
     "name": "Lackey St opp Summer Hill Station",
     "lat": "-33.890611",
@@ -77388,15 +77253,6 @@
     ]
   },
   {
-    "id": "220017",
-    "name": "West Tce opp Morgan Lane",
-    "lat": "-33.918823",
-    "lon": "151.037054",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "220018",
     "name": "Bankstown Station, Restwell St",
     "lat": "-33.918642",
@@ -77897,33 +77753,6 @@
     "name": "Old Canterbury Rd at Windsor Rd",
     "lat": "-33.89557",
     "lon": "151.141167",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220313",
-    "name": "Constitution Rd opp Arlington Light Rail",
-    "lat": "-33.901924",
-    "lon": "151.137533",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220314",
-    "name": "Old Canterbury Rd at Rosedale St",
-    "lat": "-33.896534",
-    "lon": "151.137404",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220315",
-    "name": "Arlington Light Rail, Constitution Rd",
-    "lat": "-33.90197",
-    "lon": "151.137703",
     "productClass": [
       5
     ]
@@ -157770,15 +157599,6 @@
     ]
   },
   {
-    "id": "277862",
-    "name": "Great Western Hwy opp Woodford Station",
-    "lat": "-33.735238",
-    "lon": "150.481199",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "277863",
     "name": "Great Western Hwy before Glen St",
     "lat": "-33.734569",
@@ -159959,8 +159779,8 @@
   {
     "id": "278549",
     "name": "Blackheath Station, Great Western Hwy",
-    "lat": "-33.633369",
-    "lon": "150.284635",
+    "lat": "-33.633747",
+    "lon": "150.284636",
     "productClass": [
       5
     ]
@@ -160371,15 +160191,6 @@
     ]
   },
   {
-    "id": "2000109",
-    "name": "Exhibition Centre, Darling Dr",
-    "lat": "-33.877191",
-    "lon": "151.199977",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000111",
     "name": "Art Gallery of NSW, Art Gallery Rd",
     "lat": "-33.868581",
@@ -160555,15 +160366,6 @@
     "name": "Town Hall House, Druitt St",
     "lat": "-33.872796",
     "lon": "151.204573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000308",
-    "name": "Central Station, Forecourt, Coach Bay 4",
-    "lat": "-33.883273",
-    "lon": "151.204442",
     "productClass": [
       5
     ]
@@ -164988,6 +164790,15 @@
     ]
   },
   {
+    "id": "2067134",
+    "name": "Railway St at Help St",
+    "lat": "-33.795879",
+    "lon": "151.180456",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2068101",
     "name": "High St opp Robert St",
     "lat": "-33.799385",
@@ -167382,15 +167193,6 @@
     ]
   },
   {
-    "id": "2076123",
-    "name": "Charles Curtis Park, Pine St",
-    "lat": "-33.730106",
-    "lon": "151.091055",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2076124",
     "name": "Pine St at Begonia Rd",
     "lat": "-33.729826",
@@ -167465,17 +167267,8 @@
   {
     "id": "2076134",
     "name": "Oak St at Pine St",
-    "lat": "-33.729622",
-    "lon": "151.089033",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2076135",
-    "name": "Pine St opp Charles Curtis Park",
-    "lat": "-33.729962",
-    "lon": "151.090811",
+    "lat": "-33.729584",
+    "lon": "151.08904",
     "productClass": [
       5
     ]
@@ -167485,15 +167278,6 @@
     "name": "Willowtree St at Calga Ave",
     "lat": "-33.728802",
     "lon": "151.091408",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2076137",
-    "name": "Calga Ave after Willowtree St",
-    "lat": "-33.728507",
-    "lon": "151.091025",
     "productClass": [
       5
     ]
@@ -167971,15 +167755,6 @@
     "name": "Loreto College South, Osborn Rd",
     "lat": "-33.72601",
     "lon": "151.096885",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2076243",
-    "name": "Calga Ave before Campbell Ave",
-    "lat": "-33.728407",
-    "lon": "151.091057",
     "productClass": [
       5
     ]
@@ -183618,15 +183393,6 @@
     ]
   },
   {
-    "id": "2142275",
-    "name": "Parramatta Rd opp F.S Garside Park",
-    "lat": "-33.831967",
-    "lon": "151.015018",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142276",
     "name": "F.S Garside Park, Parramatta Rd",
     "lat": "-33.831788",
@@ -193574,7 +193340,7 @@
   },
   {
     "id": "2153150",
-    "name": "Westwood Wy before Bella Vista Dr",
+    "name": "Westwood Way before Bella Vista Dr",
     "lat": "-33.742096",
     "lon": "150.956068",
     "productClass": [
@@ -221784,15 +221550,6 @@
     "name": "Bankstown Central, Link Rd",
     "lat": "-33.917167",
     "lon": "151.036519",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2200113",
-    "name": "Bankstown Interchange",
-    "lat": "-33.918186",
-    "lon": "151.03582",
     "productClass": [
       5
     ]
@@ -281893,6 +281650,15 @@
     ]
   },
   {
+    "id": "2325487",
+    "name": "Catherine St before Michael St",
+    "lat": "-32.84115",
+    "lon": "151.340862",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2326101",
     "name": "Sawyers Gully Rd before Gingers Lane",
     "lat": "-32.802268",
@@ -322990,15 +322756,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -323885,15 +323642,6 @@
     "name": "Denman Pde at Dorset St",
     "lat": "-33.701029",
     "lon": "150.335068",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2780197",
-    "name": "Katoomba Station, Goldsmith Pl",
-    "lat": "-33.711904",
-    "lon": "150.312229",
     "productClass": [
       5
     ]
