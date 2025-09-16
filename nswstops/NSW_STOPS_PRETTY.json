@@ -29242,8 +29242,8 @@
   {
     "id": "208736",
     "name": "Warringah Rd opp Melwood Ave",
-    "lat": "-33.759778",
-    "lon": "151.212147",
+    "lat": "-33.75984",
+    "lon": "151.21231",
     "productClass": [
       5
     ]
@@ -47871,6 +47871,15 @@
     ]
   },
   {
+    "id": "212767",
+    "name": "Sydney Olympic Park, Aquatic Terminal",
+    "lat": "-33.850096",
+    "lon": "151.068585",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212772",
     "name": "Sydney Olympic Park, Plaza Terminal",
     "lat": "-33.84294",
@@ -49531,15 +49540,6 @@
     "name": "Presbyterian Ladies College, Young St",
     "lat": "-33.881905",
     "lon": "151.114772",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
     "productClass": [
       5
     ]
@@ -52479,15 +52479,6 @@
     ]
   },
   {
-    "id": "214191",
-    "name": "Walters Rd opp Seventh Ave",
-    "lat": "-33.876651",
-    "lon": "151.030503",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214192",
     "name": "Kingsland Rd opp Jenkins St",
     "lat": "-33.877518",
@@ -53515,15 +53506,6 @@
     ]
   },
   {
-    "id": "214374",
-    "name": "Regents Park Christian School, Regent St",
-    "lat": "-33.881571",
-    "lon": "151.02643",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214393",
     "name": "Kibo Rd at Second Ave",
     "lat": "-33.88085",
@@ -53816,33 +53798,6 @@
     "name": "Park Rd opp York St",
     "lat": "-33.872666",
     "lon": "151.025794",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214449",
-    "name": "St Johns Rd opp Grey Box Gum Reserve",
-    "lat": "-33.871924",
-    "lon": "151.025556",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214450",
-    "name": "St Johns Reserve, St Johns Rd",
-    "lat": "-33.871757",
-    "lon": "151.024356",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214451",
-    "name": "Kennington Oval, St Johns Rd",
-    "lat": "-33.871512",
-    "lon": "151.022508",
     "productClass": [
       5
     ]
@@ -67243,15 +67198,6 @@
     ]
   },
   {
-    "id": "216764",
-    "name": "Glenfield Station (Trackwork)",
-    "lat": "-33.971746",
-    "lon": "150.893951",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216766",
     "name": "Belmont Rd after Canterbury Rd",
     "lat": "-33.974857",
@@ -76893,15 +76839,6 @@
     ]
   },
   {
-    "id": "219918",
-    "name": "Auburn Rd after Alexander St",
-    "lat": "-33.901654",
-    "lon": "151.021384",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219919",
     "name": "Brodie St before McMahon Rd",
     "lat": "-33.901074",
@@ -76978,24 +76915,6 @@
     "name": "Brodie St before Auburn Rd",
     "lat": "-33.901037",
     "lon": "151.020861",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219935",
-    "name": "Auburn Rd opp Alexander St",
-    "lat": "-33.901925",
-    "lon": "151.021522",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219936",
-    "name": "Auburn Rd before Church Rd",
-    "lat": "-33.903816",
-    "lon": "151.021248",
     "productClass": [
       5
     ]
@@ -173700,15 +173619,6 @@
     ]
   },
   {
-    "id": "2112114",
-    "name": "Smalls Rd opp Smalls Road Public School",
-    "lat": "-33.799248",
-    "lon": "151.109364",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2112115",
     "name": "Smalls Road Public School, Smalls Rd",
     "lat": "-33.799393",
@@ -181539,33 +181449,6 @@
     ]
   },
   {
-    "id": "2141131",
-    "name": "Walters Rd at Seventh Ave",
-    "lat": "-33.876491",
-    "lon": "151.030365",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141133",
-    "name": "Walters Rd at Fifth Ave",
-    "lat": "-33.876744",
-    "lon": "151.032327",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141134",
-    "name": "Walters Rd at Fourth Ave",
-    "lat": "-33.876886",
-    "lon": "151.033329",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2141136",
     "name": "Vaughan St before Livingstone Rd",
     "lat": "-33.864345",
@@ -182245,15 +182128,6 @@
     "name": "Georges Ave after Joseph St",
     "lat": "-33.8722",
     "lon": "151.043192",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141278",
-    "name": "Berala Public School, Harrow Rd",
-    "lat": "-33.869162",
-    "lon": "151.027848",
     "productClass": [
       5
     ]
@@ -183550,24 +183424,6 @@
     "name": "St Johns Rd opp Meroo St",
     "lat": "-33.871036",
     "lon": "151.018983",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2144104",
-    "name": "Albert Rd at Chisholm Rd",
-    "lat": "-33.867507",
-    "lon": "151.018265",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2144105",
-    "name": "Albert Rd opp Myall St",
-    "lat": "-33.867878",
-    "lon": "151.021108",
     "productClass": [
       5
     ]
@@ -187897,15 +187753,6 @@
     "name": "Driftway Dr before Butu Wargun Dr",
     "lat": "-33.817549",
     "lon": "150.931241",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2145677",
-    "name": "Greystanes Rd opp Nowra St",
-    "lat": "-33.811474",
-    "lon": "150.936635",
     "productClass": [
       5
     ]
@@ -203329,15 +203176,6 @@
     ]
   },
   {
-    "id": "2161235",
-    "name": "Shackel Ave at Railway St",
-    "lat": "-33.860016",
-    "lon": "150.980233",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2161236",
     "name": "Railway St opp Guildford Station",
     "lat": "-33.853563",
@@ -207824,15 +207662,6 @@
     "name": "Kurrara St after Georges River Rd",
     "lat": "-33.897599",
     "lon": "150.957994",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2166183",
-    "name": "Cabramatta Public School, Cabramatta Rd",
-    "lat": "-33.895",
-    "lon": "150.943275",
     "productClass": [
       5
     ]
@@ -214310,15 +214139,6 @@
     ]
   },
   {
-    "id": "2170764",
-    "name": "Epsom Rd opp McMillan Park",
-    "lat": "-33.928843",
-    "lon": "150.943222",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2170765",
     "name": "Mount Pritchard Public School, Hemphill Ave",
     "lat": "-33.900924",
@@ -220088,15 +219908,6 @@
     ]
   },
   {
-    "id": "2196112",
-    "name": "Highclere Ave after Waratah St",
-    "lat": "-33.921771",
-    "lon": "151.056042",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2196114",
     "name": "Wattle St at Highclere Ave",
     "lat": "-33.917147",
@@ -220146,15 +219957,6 @@
     "name": "Karne St at Martin St",
     "lat": "-33.936868",
     "lon": "151.066007",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2196124",
-    "name": "Breust Pl at Kelly St",
-    "lat": "-33.92505",
-    "lon": "151.054408",
     "productClass": [
       5
     ]
@@ -233796,15 +233598,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233823,28 +233616,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -296995,15 +296770,6 @@
     ]
   },
   {
-    "id": "2564127",
-    "name": "Atchison Rd after Saywell Rd",
-    "lat": "-33.989056",
-    "lon": "150.88264",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2564132",
     "name": "Oakley Rd before Bensley Rd",
     "lat": "-34.002452",
@@ -297584,15 +297350,6 @@
     "name": "Campbelltown Rd after Blomfield Rd",
     "lat": "-33.982613",
     "lon": "150.846948",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2565646",
-    "name": "Ingleburn Rd opp Ingleburn Station",
-    "lat": "-33.997575",
-    "lon": "150.864973",
     "productClass": [
       5
     ]
