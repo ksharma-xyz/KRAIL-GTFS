@@ -4104,15 +4104,6 @@
     ]
   },
   {
-    "id": "202156",
-    "name": "Moore Park Bus Interchange",
-    "lat": "-33.89071",
-    "lon": "151.22191",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202159",
     "name": "Oxford St at Glenmore Rd",
     "lat": "-33.883629",
@@ -10101,6 +10092,15 @@
     ]
   },
   {
+    "id": "203551",
+    "name": "Banks Ave at Westfield Dr",
+    "lat": "-33.943383",
+    "lon": "151.222793",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203552",
     "name": "Wentworth Ave after Page St",
     "lat": "-33.939776",
@@ -11536,6 +11536,33 @@
     "name": "Parramatta Rd opp Victoria Park",
     "lat": "-33.884591",
     "lon": "151.191996",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203772",
+    "name": "Glebe Library, Wigram Rd",
+    "lat": "-33.877571",
+    "lon": "151.184882",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203773",
+    "name": "Wigram Rd opp Glebe Library",
+    "lat": "-33.877516",
+    "lon": "151.184786",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203775",
+    "name": "Federal Rd opp Pope Paul VI Reserve",
+    "lat": "-33.871957",
+    "lon": "151.180125",
     "productClass": [
       5
     ]
@@ -21771,6 +21798,24 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -47781,6 +47826,15 @@
     ]
   },
   {
+    "id": "212733",
+    "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
+    "lat": "-33.850129",
+    "lon": "151.062624",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212735",
     "name": "Edwin Flack Ave opp Accor Stadium",
     "lat": "-33.846862",
@@ -47803,6 +47857,15 @@
     "name": "Australia Ave opp Bicentennial Park",
     "lat": "-33.852573",
     "lon": "151.075741",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212739",
+    "name": "Olympic Bvd opp Herb Elliot Ave",
+    "lat": "-33.849167",
+    "lon": "151.067551",
     "productClass": [
       5
     ]
@@ -47871,10 +47934,10 @@
     ]
   },
   {
-    "id": "212767",
+    "id": "212766",
     "name": "Sydney Olympic Park, Aquatic Terminal",
-    "lat": "-33.850096",
-    "lon": "151.068585",
+    "lat": "-33.849733",
+    "lon": "151.068303",
     "productClass": [
       5
     ]
@@ -160470,15 +160533,6 @@
     ]
   },
   {
-    "id": "2021108",
-    "name": "Sydney Cricket Ground, Driver Ave",
-    "lat": "-33.89102",
-    "lon": "151.223485",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2023100",
     "name": "Victoria Rd opp Rivers St",
     "lat": "-33.882047",
@@ -163215,6 +163269,15 @@
     ]
   },
   {
+    "id": "2060100",
+    "name": "Berry St at Miller St",
+    "lat": "-33.836719",
+    "lon": "151.206883",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065100",
     "name": "Brennan Park, King St",
     "lat": "-33.834166",
@@ -164731,6 +164794,15 @@
     "name": "Railway St at Help St",
     "lat": "-33.795879",
     "lon": "151.180456",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -171976,6 +172048,15 @@
     "name": "St Davids Ave at Pittwater Rd",
     "lat": "-33.752351",
     "lon": "151.286416",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2099208",
+    "name": "Pittwater Rd at Howard Ave",
+    "lat": "-33.752353",
+    "lon": "151.287304",
     "productClass": [
       5
     ]
@@ -187048,7 +187129,7 @@
   },
   {
     "id": "2145520",
-    "name": "Finlayson T-Way",
+    "name": "Finlayson, Liverpool-Parramatta Twy",
     "lat": "-33.816661",
     "lon": "150.972825",
     "productClass": [
@@ -187057,7 +187138,7 @@
   },
   {
     "id": "2145521",
-    "name": "Centenary T-Way",
+    "name": "Centenary, Liverpool-Parramatta Twy",
     "lat": "-33.823506",
     "lon": "150.969264",
     "productClass": [
@@ -187066,7 +187147,7 @@
   },
   {
     "id": "2145523",
-    "name": "Mays Hill T-Way",
+    "name": "Mays Hill, Liverpool-Parramatta Twy",
     "lat": "-33.819168",
     "lon": "150.990051",
     "productClass": [
@@ -187075,7 +187156,7 @@
   },
   {
     "id": "2145525",
-    "name": "Coleman T-Way",
+    "name": "Coleman, Liverpool-Parramatta Twy",
     "lat": "-33.818382",
     "lon": "150.982436",
     "productClass": [
@@ -187084,7 +187165,7 @@
   },
   {
     "id": "2145528",
-    "name": "Gipps T-Way",
+    "name": "Gipps, Liverpool-Parramatta Twy",
     "lat": "-33.837012",
     "lon": "150.924986",
     "productClass": [
@@ -202394,7 +202475,7 @@
   },
   {
     "id": "2160218",
-    "name": "Sherwood T-Way",
+    "name": "Sherwood, Liverpool-Parramatta Twy",
     "lat": "-33.834059",
     "lon": "150.96907",
     "productClass": [
@@ -202403,7 +202484,7 @@
   },
   {
     "id": "2160220",
-    "name": "Canal T-Way",
+    "name": "Canal, Liverpool-Parramatta Twy",
     "lat": "-33.839388",
     "lon": "150.967409",
     "productClass": [
@@ -203096,7 +203177,7 @@
   },
   {
     "id": "2161158",
-    "name": "Woodpark T-Way",
+    "name": "Woodpark, Liverpool-Parramatta Twy",
     "lat": "-33.844649",
     "lon": "150.962205",
     "productClass": [
@@ -205994,7 +206075,7 @@
   },
   {
     "id": "2164316",
-    "name": "Smithfield T-Way",
+    "name": "Smithfield, Liverpool-Parramatta Twy",
     "lat": "-33.842454",
     "lon": "150.949699",
     "productClass": [
@@ -206003,7 +206084,7 @@
   },
   {
     "id": "2164317",
-    "name": "Cooper T-Way",
+    "name": "Cooper, Liverpool-Parramatta Twy",
     "lat": "-33.839419",
     "lon": "150.936212",
     "productClass": [
@@ -206021,7 +206102,7 @@
   },
   {
     "id": "2164323",
-    "name": "Warren T-Way",
+    "name": "Warren, Liverpool-Parramatta Twy",
     "lat": "-33.843589",
     "lon": "150.956552",
     "productClass": [
@@ -206030,7 +206111,7 @@
   },
   {
     "id": "2164325",
-    "name": "Hassall T-Way",
+    "name": "Hassall, Liverpool-Parramatta Twy",
     "lat": "-33.83955",
     "lon": "150.910995",
     "productClass": [
@@ -224273,24 +224354,6 @@
     ]
   },
   {
-    "id": "2207267",
-    "name": "Slade Rd before Devon Rd",
-    "lat": "-33.932251",
-    "lon": "151.12523",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2207268",
-    "name": "Slade Rd at Hartill Law Ave",
-    "lat": "-33.931857",
-    "lon": "151.126007",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -227387,6 +227450,15 @@
     ]
   },
   {
+    "id": "2216165",
+    "name": "Bay St after Princes Hwy",
+    "lat": "-33.953049",
+    "lon": "151.138237",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2216177",
     "name": "Bay St opp George St",
     "lat": "-33.954",
@@ -228147,6 +228219,15 @@
     "name": "Bridge St after Forest Rd",
     "lat": "-33.964537",
     "lon": "151.095092",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2220298",
+    "name": "Hurstville Station, Butler Rd",
+    "lat": "-33.968301",
+    "lon": "151.101811",
     "productClass": [
       5
     ]
@@ -253546,42 +253627,6 @@
     "name": "Brooke Ave before Tyrell Pl",
     "lat": "-33.376504",
     "lon": "151.464785",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2261557",
-    "name": "Pacific St at Watkins St",
-    "lat": "-33.358953",
-    "lon": "151.490069",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2261558",
-    "name": "Pacific St before Watkins St",
-    "lat": "-33.359116",
-    "lon": "151.490112",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2261559",
-    "name": "Pacific St before Nirvana St",
-    "lat": "-33.359329",
-    "lon": "151.492741",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2261560",
-    "name": "Pacific St after Nirvana St",
-    "lat": "-33.359457",
-    "lon": "151.492671",
     "productClass": [
       5
     ]
