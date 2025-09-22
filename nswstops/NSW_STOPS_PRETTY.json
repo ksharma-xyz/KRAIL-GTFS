@@ -64434,15 +64434,6 @@
     ]
   },
   {
-    "id": "216313",
-    "name": "Wattle Ave at Waterside Cres",
-    "lat": "-33.88452",
-    "lon": "150.962241",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -65209,7 +65200,7 @@
   },
   {
     "id": "216435",
-    "name": "Elizabeth T-Way",
+    "name": "Elizabeth, Liverpool-Parramatta Twy",
     "lat": "-33.846101",
     "lon": "150.903067",
     "productClass": [
@@ -70127,6 +70118,15 @@
     "name": "Heathcote Rd after Infantry Pde",
     "lat": "-33.954918",
     "lon": "150.954697",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217388",
+    "name": "Watte Grove Dr after Anzac Rd",
+    "lat": "-33.94605",
+    "lon": "150.946",
     "productClass": [
       5
     ]
@@ -206120,7 +206120,7 @@
   },
   {
     "id": "2164327",
-    "name": "Wetherill T-Way",
+    "name": "Wetherill, Liverpool-Parramatta Twy",
     "lat": "-33.846303",
     "lon": "150.909154",
     "productClass": [
@@ -206129,7 +206129,7 @@
   },
   {
     "id": "2164331",
-    "name": "Victoria T-Way",
+    "name": "Victoria, Liverpool-Parramatta Twy",
     "lat": "-33.845151",
     "lon": "150.896556",
     "productClass": [
@@ -206138,7 +206138,7 @@
   },
   {
     "id": "2164333",
-    "name": "Horsley T-Way",
+    "name": "Horsley, Liverpool-Parramatta Twy",
     "lat": "-33.852171",
     "lon": "150.896325",
     "productClass": [
@@ -208279,6 +208279,24 @@
     ]
   },
   {
+    "id": "2166262",
+    "name": "Railway Pde before Hughes St",
+    "lat": "-33.893413",
+    "lon": "150.939007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166263",
+    "name": "Railway Pde at McBurney Rd",
+    "lat": "-33.892425",
+    "lon": "150.939256",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2166283",
     "name": "Cabramatta Bowling Club, Longfield St",
     "lat": "-33.8942",
@@ -209369,7 +209387,7 @@
   },
   {
     "id": "2168226",
-    "name": "Busby T-Way",
+    "name": "Busby, Liverpool-Parramatta Twy",
     "lat": "-33.907986",
     "lon": "150.875548",
     "productClass": [
@@ -209378,7 +209396,7 @@
   },
   {
     "id": "2168227",
-    "name": "Cartwright T-Way",
+    "name": "Cartwright, Liverpool-Parramatta Twy",
     "lat": "-33.91322",
     "lon": "150.874286",
     "productClass": [
@@ -209387,7 +209405,7 @@
   },
   {
     "id": "2168229",
-    "name": "Hinchinbrook T-Way",
+    "name": "Hinchinbrook, Liverpool-Parramatta Twy",
     "lat": "-33.918883",
     "lon": "150.873088",
     "productClass": [
@@ -209396,7 +209414,7 @@
   },
   {
     "id": "2168230",
-    "name": "Maxwells T-Way",
+    "name": "Maxwells, Liverpool-Parramatta Twy",
     "lat": "-33.926524",
     "lon": "150.898406",
     "productClass": [
@@ -209405,7 +209423,7 @@
   },
   {
     "id": "2168231",
-    "name": "Ash T-Way",
+    "name": "Ash, Liverpool-Parramatta Twy",
     "lat": "-33.927596",
     "lon": "150.883254",
     "productClass": [
@@ -209414,7 +209432,7 @@
   },
   {
     "id": "2168232",
-    "name": "Miller T-Way",
+    "name": "Miller, Liverpool-Parramatta Twy",
     "lat": "-33.926648",
     "lon": "150.871226",
     "productClass": [
@@ -209423,7 +209441,7 @@
   },
   {
     "id": "2168236",
-    "name": "Green Valley T-Way",
+    "name": "Green Valley, Liverpool-Parramatta Twy",
     "lat": "-33.899746",
     "lon": "150.876307",
     "productClass": [
@@ -213339,7 +213357,7 @@
   },
   {
     "id": "2170586",
-    "name": "Memorial T-Way",
+    "name": "Memorial, Liverpool-Parramatta Twy",
     "lat": "-33.922961",
     "lon": "150.913209",
     "productClass": [
@@ -213348,7 +213366,7 @@
   },
   {
     "id": "2170587",
-    "name": "Brickmakers T-Way",
+    "name": "Brickmakers, Liverpool-Parramatta Twy",
     "lat": "-33.927594",
     "lon": "150.910697",
     "productClass": [
@@ -213357,7 +213375,7 @@
   },
   {
     "id": "2170593",
-    "name": "Macquarie T-Way",
+    "name": "Macquarie, Liverpool-Parramatta Twy",
     "lat": "-33.922554",
     "lon": "150.923252",
     "productClass": [
@@ -217866,7 +217884,7 @@
   },
   {
     "id": "2176253",
-    "name": "Bonnyrigg T-Way",
+    "name": "Bonnyrigg, Liverpool-Parramatta Twy",
     "lat": "-33.885595",
     "lon": "150.887303",
     "productClass": [
@@ -217875,7 +217893,7 @@
   },
   {
     "id": "2176255",
-    "name": "Orphan School T-Way",
+    "name": "Orphan School, Liverpool-Parramatta Twy",
     "lat": "-33.866339",
     "lon": "150.896832",
     "productClass": [
@@ -217884,7 +217902,7 @@
   },
   {
     "id": "2176256",
-    "name": "Clear Paddock T-Way",
+    "name": "Clear Paddock, Liverpool-Parramatta Twy",
     "lat": "-33.878326",
     "lon": "150.895455",
     "productClass": [
@@ -217893,7 +217911,7 @@
   },
   {
     "id": "2176257",
-    "name": "St Johns T-Way",
+    "name": "St Johns, Liverpool-Parramatta Twy",
     "lat": "-33.87417",
     "lon": "150.9003",
     "productClass": [
@@ -217902,7 +217920,7 @@
   },
   {
     "id": "2176261",
-    "name": "Prairiewood T-Way",
+    "name": "Prairiewood, Liverpool-Parramatta Twy",
     "lat": "-33.858618",
     "lon": "150.896852",
     "productClass": [
@@ -218469,7 +218487,7 @@
   },
   {
     "id": "2177124",
-    "name": "Brown T-Way",
+    "name": "Brown, Liverpool-Parramatta Twy",
     "lat": "-33.892986",
     "lon": "150.879473",
     "productClass": [
@@ -223080,6 +223098,15 @@
     "name": "Dulwich Hill Station, Ewart St",
     "lat": "-33.912294",
     "lon": "151.14045",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2204120",
+    "name": "Railway Pde, Marrickville",
+    "lat": "-33.915115",
+    "lon": "151.16496",
     "productClass": [
       5
     ]
@@ -316664,9 +316691,9 @@
   },
   {
     "id": "2765327",
-    "name": "Alan St after Terry Rd (Hail & Ride)",
-    "lat": "-33.661668",
-    "lon": "150.896696",
+    "name": "Alan St at Treehaven St",
+    "lat": "-33.66196",
+    "lon": "150.8969",
     "productClass": [
       5
     ]
@@ -316835,7 +316862,7 @@
   },
   {
     "id": "2765347",
-    "name": "Old Pitt Town Rd before Nelson Rd (Hail & Ride)",
+    "name": "Old Pitt Town Rd before Nelson Rd",
     "lat": "-33.65503",
     "lon": "150.912686",
     "productClass": [
