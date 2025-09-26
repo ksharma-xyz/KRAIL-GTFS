@@ -6256,6 +6256,15 @@
     ]
   },
   {
+    "id": "202640",
+    "name": "Curlewis St at Glenayr Ave",
+    "lat": "-33.887556",
+    "lon": "151.272024",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202654",
     "name": "South Bondi Beach, Campbell Pde",
     "lat": "-33.894371",
@@ -16599,15 +16608,6 @@
     ]
   },
   {
-    "id": "206088",
-    "name": "Pacific Hwy at Mount St",
-    "lat": "-33.838665",
-    "lon": "151.206646",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206090",
     "name": "Pacific Hwy at Berry St",
     "lat": "-33.836944",
@@ -16621,6 +16621,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -42867,6 +42876,16 @@
     ]
   },
   {
+    "id": "211672",
+    "name": "Rydalmere Wharf",
+    "lat": "-33.817585",
+    "lon": "151.043914",
+    "productClass": [
+      5,
+      9
+    ]
+  },
+  {
     "id": "211711",
     "name": "Telopea Light Rail, Sturt St",
     "lat": "-33.794574",
@@ -56748,6 +56767,15 @@
     ]
   },
   {
+    "id": "215041",
+    "name": "Parramatta Wharf, Phillip St",
+    "lat": "-33.813608",
+    "lon": "151.009447",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "215043",
     "name": "Macarthur St after Thomas St",
     "lat": "-33.810386",
@@ -64429,6 +64457,15 @@
     "name": "Woodville Rd opp Kirrang Ave",
     "lat": "-33.885738",
     "lon": "150.975468",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
     "productClass": [
       5
     ]
@@ -158194,7 +158231,7 @@
   },
   {
     "id": "278027",
-    "name": "KCarrington Hotel, Katoomba St",
+    "name": "Carrington Hotel, Katoomba St",
     "lat": "-33.713142",
     "lon": "150.311673",
     "productClass": [
@@ -159788,8 +159825,8 @@
   {
     "id": "278550",
     "name": "Great Western Hwy opp Blackheath Station",
-    "lat": "-33.633318",
-    "lon": "150.284809",
+    "lat": "-33.634357",
+    "lon": "150.28485",
     "productClass": [
       5
     ]
@@ -163269,15 +163306,6 @@
     ]
   },
   {
-    "id": "2060100",
-    "name": "Berry St at Miller St",
-    "lat": "-33.836719",
-    "lon": "151.206883",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065100",
     "name": "Brennan Park, King St",
     "lat": "-33.834166",
@@ -163467,6 +163495,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163543,6 +163580,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -189280,7 +189335,7 @@
   },
   {
     "id": "2147371",
-    "name": "James Cook T-Way",
+    "name": "James Cook, North West Twy",
     "lat": "-33.739539",
     "lon": "150.918004",
     "productClass": [
@@ -191287,7 +191342,7 @@
   },
   {
     "id": "2148440",
-    "name": "Vardys T-Way",
+    "name": "Vardys, North West Twy",
     "lat": "-33.748438",
     "lon": "150.916386",
     "productClass": [
@@ -191296,7 +191351,7 @@
   },
   {
     "id": "2148442",
-    "name": "Turner T-Way",
+    "name": "Turner, North West Twy",
     "lat": "-33.753603",
     "lon": "150.915371",
     "productClass": [
@@ -191305,7 +191360,7 @@
   },
   {
     "id": "2148444",
-    "name": "Bessemer T-Way",
+    "name": "Bessemer, North West Twy",
     "lat": "-33.756947",
     "lon": "150.914701",
     "productClass": [
@@ -191314,7 +191369,7 @@
   },
   {
     "id": "2148446",
-    "name": "Sackville T-Way",
+    "name": "Sackville, North West Twy",
     "lat": "-33.763996",
     "lon": "150.913317",
     "productClass": [
@@ -191323,7 +191378,7 @@
   },
   {
     "id": "2148448",
-    "name": "Devitt T-Way",
+    "name": "Devitt, North West Twy",
     "lat": "-33.769069",
     "lon": "150.912615",
     "productClass": [
@@ -192458,7 +192513,7 @@
   },
   {
     "id": "2150304",
-    "name": "Pitt T-Way",
+    "name": "Pitt, Liverpool-Parramatta Twy",
     "lat": "-33.818517",
     "lon": "150.99517",
     "productClass": [
@@ -192533,6 +192588,24 @@
     "name": "Hambledon Cottage Reserve, Hassall St",
     "lat": "-33.818437",
     "lon": "151.014229",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150393",
+    "name": "Harris Park Station, Station St East",
+    "lat": "-33.821968",
+    "lon": "151.008026",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150395",
+    "name": "Station St at Marion St",
+    "lat": "-33.822223",
+    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -199900,6 +199973,15 @@
     ]
   },
   {
+    "id": "2155495",
+    "name": "Macquarie Ave at Lucas Cct",
+    "lat": "-33.709293",
+    "lon": "150.9371",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2156100",
     "name": "Greenbank Dr after Grange Rd",
     "lat": "-33.709768",
@@ -201983,15 +202065,6 @@
     "name": "Sherwood Grange Public School, Bruce St",
     "lat": "-33.836043",
     "lon": "150.959783",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2160142",
-    "name": "Merrylands Rd at Railway Tce",
-    "lat": "-33.837054",
-    "lon": "150.992957",
     "productClass": [
       5
     ]
@@ -208229,15 +208302,6 @@
     "name": "Bartley St before Railway Pde",
     "lat": "-33.890353",
     "lon": "150.939478",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2166255",
-    "name": "Railway Pde before Cabramatta Rd W",
-    "lat": "-33.895859",
-    "lon": "150.938261",
     "productClass": [
       5
     ]
@@ -215169,6 +215233,15 @@
     "name": "Kelvin Park Dr after Bringelly Rd",
     "lat": "-33.939975",
     "lon": "150.739658",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2171184",
+    "name": "Camden Valley Way before Park Rd",
+    "lat": "-33.979508",
+    "lon": "150.803429",
     "productClass": [
       5
     ]
@@ -223103,15 +223176,6 @@
     ]
   },
   {
-    "id": "2204120",
-    "name": "Railway Pde, Marrickville",
-    "lat": "-33.915115",
-    "lon": "151.16496",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2205115",
     "name": "Wolli Creek Station, Discovery Point Pl",
     "lat": "-33.928821",
@@ -228246,15 +228310,6 @@
     "name": "Bridge St after Forest Rd",
     "lat": "-33.964537",
     "lon": "151.095092",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2220298",
-    "name": "Hurstville Station, Butler Rd",
-    "lat": "-33.968301",
-    "lon": "151.101811",
     "productClass": [
       5
     ]
@@ -315359,7 +315414,7 @@
   },
   {
     "id": "2765127",
-    "name": "Old Pitt Town Rd before Terry Rd (Hail & Ride)",
+    "name": "Old Pitt Town Rd before Terry Rd",
     "lat": "-33.639321",
     "lon": "150.905231",
     "productClass": [
@@ -316321,6 +316376,16 @@
     ]
   },
   {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -316964,6 +317029,15 @@
     "name": "Fontana Dr after Old Pitt Town Rd",
     "lat": "-33.638337",
     "lon": "150.904451",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765359",
+    "name": "Clarke St after Garfield Rd East",
+    "lat": "-33.670548",
+    "lon": "150.879228",
     "productClass": [
       5
     ]
@@ -318815,7 +318889,7 @@
   },
   {
     "id": "2768150",
-    "name": "Stanhope T-Way",
+    "name": "Stanhope, North West Twy",
     "lat": "-33.721744",
     "lon": "150.932126",
     "productClass": [
@@ -318824,7 +318898,7 @@
   },
   {
     "id": "2768152",
-    "name": "Sorrento T-Way",
+    "name": "Sorrento, North West Twy",
     "lat": "-33.72864",
     "lon": "150.923416",
     "productClass": [
@@ -318833,7 +318907,7 @@
   },
   {
     "id": "2768154",
-    "name": "Wilson T-Way",
+    "name": "Wilson, North West Twy",
     "lat": "-33.735274",
     "lon": "150.91956",
     "productClass": [
@@ -319691,6 +319765,15 @@
     "name": "Debrincat Ave at Wilkes Cres",
     "lat": "-33.751938",
     "lon": "150.794666",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2770191",
+    "name": "Aurora Dr at Hasselburgh Ave",
+    "lat": "-33.751037",
+    "lon": "150.798315",
     "productClass": [
       5
     ]
@@ -322877,15 +322960,6 @@
     "name": "21 Bee Farm Rd",
     "lat": "-33.705054",
     "lon": "150.561388",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2777218",
-    "name": "Hawkesbury Rd after Macquarie Rd",
-    "lat": "-33.698716",
-    "lon": "150.571199",
     "productClass": [
       5
     ]
@@ -328421,15 +328495,6 @@
     ]
   },
   {
-    "id": "21151",
-    "name": "Rydalmere Wharf",
-    "lat": "-33.81799",
-    "lon": "151.043754",
-    "productClass": [
-      9
-    ]
-  },
-  {
     "id": "20882",
     "name": "South Mosman Wharf",
     "lat": "-33.84326831",
@@ -329986,15 +330051,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]
