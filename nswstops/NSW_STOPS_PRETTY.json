@@ -49627,6 +49627,15 @@
     ]
   },
   {
+    "id": "213275",
+    "name": "Paisley Rd after The Strand",
+    "lat": "-33.882846",
+    "lon": "151.114337",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213311",
     "name": "Coronation Pde opp Tangarra St",
     "lat": "-33.894706",
@@ -51949,6 +51958,15 @@
     ]
   },
   {
+    "id": "214011",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866877",
+    "lon": "151.085865",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -52043,15 +52061,6 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214027",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866812",
-    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -52223,6 +52232,15 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214052",
+    "name": "The Crescent opp Flemington Station",
+    "lat": "-33.865328",
+    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -125726,33 +125744,6 @@
     ]
   },
   {
-    "id": "233613",
-    "name": "Macqueen St opp Aberdeen Station",
-    "lat": "-32.166877",
-    "lon": "150.891551",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233619",
-    "name": "Aberdeen Station, Macqueen St",
-    "lat": "-32.166908",
-    "lon": "150.891782",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233721",
-    "name": "Scone Station, Coach Stop",
-    "lat": "-32.046842",
-    "lon": "150.867091",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -181414,6 +181405,24 @@
     ]
   },
   {
+    "id": "2138105",
+    "name": "Marquet St before Mary St",
+    "lat": "-33.83075",
+    "lon": "151.085365",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2138106",
+    "name": "Marquet St after Mary St",
+    "lat": "-33.830734",
+    "lon": "151.08517",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2138107",
     "name": "Gauthorpe St after Shoreline Dr",
     "lat": "-33.828131",
@@ -183430,6 +183439,15 @@
     ]
   },
   {
+    "id": "2142279",
+    "name": "Clyde Station, Berry St",
+    "lat": "-33.835187",
+    "lon": "151.017404",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -184258,10 +184276,10 @@
     ]
   },
   {
-    "id": "2144223",
+    "id": "2144236",
     "name": "Auburn Station, Rawson St",
-    "lat": "-33.849364",
-    "lon": "151.033711",
+    "lat": "-33.849424",
+    "lon": "151.033548",
     "productClass": [
       5
     ]
@@ -223176,6 +223194,15 @@
     ]
   },
   {
+    "id": "2204120",
+    "name": "Railway Pde, Marrickville",
+    "lat": "-33.915115",
+    "lon": "151.16496",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2205115",
     "name": "Wolli Creek Station, Discovery Point Pl",
     "lat": "-33.928821",
@@ -226236,33 +226263,6 @@
     ]
   },
   {
-    "id": "2211109",
-    "name": "Uranus Rd opp Centaur St",
-    "lat": "-33.956181",
-    "lon": "151.02268",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2211110",
-    "name": "Uranus Rd opp Virginius St",
-    "lat": "-33.956397",
-    "lon": "151.024222",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2211111",
-    "name": "Howard Rd before Doyle Rd",
-    "lat": "-33.954708",
-    "lon": "151.027125",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2211112",
     "name": "Howard Rd at Doyle Rd",
     "lat": "-33.953686",
@@ -228315,6 +228315,15 @@
     ]
   },
   {
+    "id": "2220298",
+    "name": "Hurstville Station, Butler Rd",
+    "lat": "-33.968301",
+    "lon": "151.101811",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2220300",
     "name": "Queens Rd after Romani Ave",
     "lat": "-33.959633",
@@ -229301,15 +229310,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -260585,6 +260585,15 @@
     "name": "Northville Dr opp New Heights Christian Church",
     "lat": "-32.926143",
     "lon": "151.603656",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2285115",
+    "name": "Wigeon Ch before Moreton Ave",
+    "lat": "-32.906908",
+    "lon": "151.603455",
     "productClass": [
       5
     ]
@@ -304812,6 +304821,15 @@
     "name": "Kingswood Station, Park Ave",
     "lat": "-33.758347",
     "lon": "150.721003",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2747352",
+    "name": "Park Ave opp Kingswood Station",
+    "lat": "-33.758279",
+    "lon": "150.72121",
     "productClass": [
       5
     ]
