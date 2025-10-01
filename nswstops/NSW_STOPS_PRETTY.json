@@ -9768,6 +9768,15 @@
     ]
   },
   {
+    "id": "203483",
+    "name": "Arden St after Dolphin St",
+    "lat": "-33.919349",
+    "lon": "151.257224",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203511",
     "name": "Bunnerong Rd opp Southpoint Shops",
     "lat": "-33.950902",
@@ -64480,15 +64489,6 @@
     ]
   },
   {
-    "id": "216313",
-    "name": "Wattle Ave at Waterside Cres",
-    "lat": "-33.88452",
-    "lon": "150.962241",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -65327,7 +65327,7 @@
   },
   {
     "id": "216449",
-    "name": "15 Cooper St",
+    "name": "Cooper St after Liverpool-Parramatta Twy",
     "lat": "-33.84038",
     "lon": "150.936222",
     "productClass": [
@@ -65390,7 +65390,7 @@
   },
   {
     "id": "216468",
-    "name": "14 Cooper St",
+    "name": "Cooper St before Liverpool-Parramatta Twy",
     "lat": "-33.840129",
     "lon": "150.936194",
     "productClass": [
@@ -73024,69 +73024,6 @@
     ]
   },
   {
-    "id": "219138",
-    "name": "Baltimore St after Indiana Pl",
-    "lat": "-33.906062",
-    "lon": "151.088473",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219140",
-    "name": "Clarence St opp Rudd Park",
-    "lat": "-33.904023",
-    "lon": "151.089934",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219142",
-    "name": "Clarence St at First Ave",
-    "lat": "-33.902938",
-    "lon": "151.092694",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219144",
-    "name": "Rudd Park, First Ave",
-    "lat": "-33.904487",
-    "lon": "151.093353",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219145",
-    "name": "First Ave at Clarence St",
-    "lat": "-33.90325",
-    "lon": "151.092933",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219147",
-    "name": "Rudd Park, Clarence St",
-    "lat": "-33.904215",
-    "lon": "151.089798",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219149",
-    "name": "Baltimore St opp Indiana Pl",
-    "lat": "-33.90603",
-    "lon": "151.088624",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219151",
     "name": "Baltimore St at Michael Ave",
     "lat": "-33.909005",
@@ -74585,24 +74522,6 @@
     "name": "Bexley Rd opp Cross St",
     "lat": "-33.92049",
     "lon": "151.105922",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219473",
-    "name": "First Ave opp Rudd Park",
-    "lat": "-33.904637",
-    "lon": "151.093534",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219474",
-    "name": "First Ave at Seventh Ave",
-    "lat": "-33.905968",
-    "lon": "151.093979",
     "productClass": [
       5
     ]
@@ -150111,15 +150030,6 @@
     ]
   },
   {
-    "id": "276216",
-    "name": "Railway Tce after Station St",
-    "lat": "-33.696967",
-    "lon": "150.870515",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "276218",
     "name": "Junction Rd after Station St",
     "lat": "-33.693348",
@@ -150196,24 +150106,6 @@
     "name": "Railway Tce opp Station St",
     "lat": "-33.696686",
     "lon": "150.870193",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276231",
-    "name": "Railway Tce opp St Albans Rd",
-    "lat": "-33.694086",
-    "lon": "150.868533",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276232",
-    "name": "Railway Tce opp Kensington Park Rd",
-    "lat": "-33.691294",
-    "lon": "150.867036",
     "productClass": [
       5
     ]
@@ -150426,24 +150318,6 @@
     ]
   },
   {
-    "id": "276262",
-    "name": "Schofields Rd after Railway Tce",
-    "lat": "-33.701272",
-    "lon": "150.87365",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276263",
-    "name": "Schofields Rd before Junction Rd",
-    "lat": "-33.699737",
-    "lon": "150.8772",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "276264",
     "name": "Schofields Rd after Junction Rd",
     "lat": "-33.698393",
@@ -150520,6 +150394,15 @@
     "name": "Schofields Rd before Railway Tce",
     "lat": "-33.700429",
     "lon": "150.876525",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "276274",
+    "name": "Schofields Rd after Railway Tce",
+    "lat": "-33.701893",
+    "lon": "150.873031",
     "productClass": [
       5
     ]
@@ -151609,24 +151492,6 @@
     "name": "Piccadilly St before Riverstone Rd",
     "lat": "-33.682612",
     "lon": "150.871174",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276531",
-    "name": "Riverstone Rd before Railway Tce",
-    "lat": "-33.686271",
-    "lon": "150.865327",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276532",
-    "name": "Riverstone Rd after Railway Tce",
-    "lat": "-33.68612",
-    "lon": "150.865318",
     "productClass": [
       5
     ]
@@ -178950,8 +178815,8 @@
   {
     "id": "2122190",
     "name": "Blaxland Rd after Beattie Ave",
-    "lat": "-33.800435",
-    "lon": "151.100252",
+    "lat": "-33.801468",
+    "lon": "151.10045",
     "productClass": [
       5
     ]
@@ -181406,18 +181271,18 @@
   },
   {
     "id": "2138105",
-    "name": "Marquet St before Mary St",
-    "lat": "-33.83075",
-    "lon": "151.085365",
+    "name": "Rhodes Central, Marquet St",
+    "lat": "-33.8299",
+    "lon": "151.085526",
     "productClass": [
       5
     ]
   },
   {
     "id": "2138106",
-    "name": "Marquet St after Mary St",
-    "lat": "-33.830734",
-    "lon": "151.08517",
+    "name": "Marquet St opp Rhodes Central",
+    "lat": "-33.829724",
+    "lon": "151.085399",
     "productClass": [
       5
     ]
@@ -208356,24 +208221,6 @@
     "name": "The Boulevarde at Delamere St",
     "lat": "-33.877947",
     "lon": "150.936012",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2166262",
-    "name": "Railway Pde before Hughes St",
-    "lat": "-33.893413",
-    "lon": "150.939007",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2166263",
-    "name": "Railway Pde at McBurney Rd",
-    "lat": "-33.892425",
-    "lon": "150.939256",
     "productClass": [
       5
     ]
@@ -253131,8 +252978,8 @@
   {
     "id": "2261466",
     "name": "Tumbi Rd opp Molsten Ave",
-    "lat": "-33.36442",
-    "lon": "151.448412",
+    "lat": "-33.364643",
+    "lon": "151.44855",
     "productClass": [
       5
     ]
@@ -314575,6 +314422,15 @@
     ]
   },
   {
+    "id": "2762103",
+    "name": "Schofields Public School, St Albans Rd",
+    "lat": "-33.692104",
+    "lon": "150.874286",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2762105",
     "name": "Wyndham College, Nirimba Campus, Eastern Rd",
     "lat": "-33.726263",
@@ -314591,15 +314447,6 @@
     "productClass": [
       5,
       1
-    ]
-  },
-  {
-    "id": "2762109",
-    "name": "Schofields Public School, St Albans Rd",
-    "lat": "-33.692104",
-    "lon": "150.874286",
-    "productClass": [
-      5
     ]
   },
   {
@@ -316485,15 +316332,6 @@
     ]
   },
   {
-    "id": "2765271",
-    "name": "Railway Tce opp Gladstone Pde",
-    "lat": "-33.686024",
-    "lon": "150.864178",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2765272",
     "name": "Railway Tce opp Hunter St",
     "lat": "-33.683074",
@@ -316854,42 +316692,6 @@
     ]
   },
   {
-    "id": "2765337",
-    "name": "Edmund St after Garfield Rd East",
-    "lat": "-33.66968",
-    "lon": "150.878009",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765338",
-    "name": "Edmund St before Garfield Rd East",
-    "lat": "-33.669618",
-    "lon": "150.878118",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765339",
-    "name": "Edmund St before Canterbury St",
-    "lat": "-33.667825",
-    "lon": "150.876599",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2765340",
-    "name": "Edmund St opp Canterbury St",
-    "lat": "-33.667774",
-    "lon": "150.876751",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2765341",
     "name": "Edmund St before Crown St",
     "lat": "-33.664326",
@@ -317079,15 +316881,6 @@
     ]
   },
   {
-    "id": "2765362",
-    "name": "Clarke St before Riverstone Rd",
-    "lat": "-33.673819",
-    "lon": "150.881703",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2765363",
     "name": "Clarke St after Riverstone Rd",
     "lat": "-33.676916",
@@ -317101,6 +316894,15 @@
     "name": "Guntawong Rd after Clarke St",
     "lat": "-33.682436",
     "lon": "150.88943",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765365",
+    "name": "Clarke St before Riverstone Rd",
+    "lat": "-33.677195",
+    "lon": "150.884058",
     "productClass": [
       5
     ]
@@ -317206,7 +317008,7 @@
   },
   {
     "id": "2765381",
-    "name": "Windsor Rd after Mt Carmel Dr",
+    "name": "Windsor Rd after Mount Carmel Dr",
     "lat": "-33.659948",
     "lon": "150.882383",
     "productClass": [
@@ -317224,7 +317026,7 @@
   },
   {
     "id": "2765385",
-    "name": "Mt Carmel Dr opp Aaron St",
+    "name": "Mount Carmel Dr opp Aaron St",
     "lat": "-33.650644",
     "lon": "150.888999",
     "productClass": [
@@ -317251,7 +317053,7 @@
   },
   {
     "id": "2765392",
-    "name": "Mt Carmel Dr opp Copenhagen St",
+    "name": "Mount Carmel Dr opp Copenhagen St",
     "lat": "-33.652123",
     "lon": "150.884823",
     "productClass": [
@@ -317278,7 +317080,7 @@
   },
   {
     "id": "2765397",
-    "name": "Brahman Rd after Mt Carmel Dr",
+    "name": "Brahman Rd after Mount Carmel Dr",
     "lat": "-33.648319",
     "lon": "150.889606",
     "productClass": [
@@ -317296,7 +317098,7 @@
   },
   {
     "id": "2765401",
-    "name": "Mt Carmel Dr before Aaron St",
+    "name": "Mount Carmel Dr before Aaron St",
     "lat": "-33.650753",
     "lon": "150.889051",
     "productClass": [
@@ -317305,7 +317107,7 @@
   },
   {
     "id": "2765402",
-    "name": "Mt Carmel Dr after Copenhagen St",
+    "name": "Mount Carmel Dr after Copenhagen St",
     "lat": "-33.652962",
     "lon": "150.884306",
     "productClass": [
@@ -323424,15 +323226,6 @@
     ]
   },
   {
-    "id": "2780153",
-    "name": "St Canices Primary School, Lurline St",
-    "lat": "-33.71637",
-    "lon": "150.312338",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2780155",
     "name": "Blue Mountains Hospital, Great Western Hwy",
     "lat": "-33.70584",
@@ -323464,15 +323257,6 @@
     "name": "Gladstone Rd at Craigend St",
     "lat": "-33.716911",
     "lon": "150.341611",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2780162",
-    "name": "Katoomba Station, Goldsmith Pl",
-    "lat": "-33.711841",
-    "lon": "150.312485",
     "productClass": [
       5
     ]
@@ -323626,15 +323410,6 @@
     "name": "Morven Gardens Centre, Morven Rd",
     "lat": "-33.713223",
     "lon": "150.343417",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2780194",
-    "name": "Bathurst Rd at Katoomba St (Temporary Stop)",
-    "lat": "-33.712443",
-    "lon": "150.311355",
     "productClass": [
       5
     ]
