@@ -11991,15 +11991,6 @@
     ]
   },
   {
-    "id": "203953",
-    "name": "Victoria Rd opp Clubb St",
-    "lat": "-33.861023",
-    "lon": "151.165029",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "203956",
     "name": "White Bay, Victoria Rd",
     "lat": "-33.868605",
@@ -16630,15 +16621,6 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -21816,24 +21798,6 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207182",
-    "name": "Killara Station, Culworth Ave",
-    "lat": "-33.765872",
-    "lon": "151.16175",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207183",
-    "name": "Culworth Ave opp Killara Station",
-    "lat": "-33.765815",
-    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -51859,6 +51823,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -51935,6 +51908,15 @@
     "name": "Walker St opp Meredith Ave",
     "lat": "-33.82452",
     "lon": "151.088079",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
     "productClass": [
       5
     ]
@@ -64489,6 +64471,15 @@
     ]
   },
   {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -72189,8 +72180,8 @@
   {
     "id": "217955",
     "name": "St Anthony's College, Austral",
-    "lat": "-33.929992",
-    "lon": "150.809023",
+    "lat": "-33.929657",
+    "lon": "150.80771",
     "productClass": [
       5
     ]
@@ -161272,15 +161263,6 @@
     ]
   },
   {
-    "id": "2031169",
-    "name": "Perouse Rd before Ivy St",
-    "lat": "-33.922339",
-    "lon": "151.243574",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2031170",
     "name": "Paine Reserve, Rainbow St",
     "lat": "-33.925006",
@@ -161321,15 +161303,6 @@
     "name": "Arden St at Clovelly Rd",
     "lat": "-33.911949",
     "lon": "151.258791",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2031176",
-    "name": "Perouse Rd before Avoca Lane",
-    "lat": "-33.922384",
-    "lon": "151.24344",
     "productClass": [
       5
     ]
@@ -163351,15 +163324,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163436,24 +163400,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -164705,15 +164651,6 @@
     "name": "Railway St at Help St",
     "lat": "-33.795879",
     "lon": "151.180456",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2067137",
-    "name": "Victoria Ave opp Katherine St",
-    "lat": "-33.797403",
-    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -208190,6 +208127,15 @@
     ]
   },
   {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2166257",
     "name": "Avenel St after Sackville St",
     "lat": "-33.881703",
@@ -224319,6 +224265,24 @@
     ]
   },
   {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -229162,6 +229126,15 @@
     ]
   },
   {
+    "id": "2226105",
+    "name": "Como Station, Como Pde",
+    "lat": "-34.004582",
+    "lon": "151.067786",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2226113",
     "name": "Tudar Rd at Jefferson Cres",
     "lat": "-34.014704",
@@ -233608,6 +233581,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233626,10 +233608,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
