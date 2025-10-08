@@ -10110,15 +10110,6 @@
     ]
   },
   {
-    "id": "203551",
-    "name": "Banks Ave at Westfield Dr",
-    "lat": "-33.943383",
-    "lon": "151.222793",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "203552",
     "name": "Wentworth Ave after Page St",
     "lat": "-33.939776",
@@ -11554,33 +11545,6 @@
     "name": "Parramatta Rd opp Victoria Park",
     "lat": "-33.884591",
     "lon": "151.191996",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203772",
-    "name": "Glebe Library, Wigram Rd",
-    "lat": "-33.877571",
-    "lon": "151.184882",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203773",
-    "name": "Wigram Rd opp Glebe Library",
-    "lat": "-33.877516",
-    "lon": "151.184786",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203775",
-    "name": "Federal Rd opp Pope Paul VI Reserve",
-    "lat": "-33.871957",
-    "lon": "151.180125",
     "productClass": [
       5
     ]
@@ -47818,15 +47782,6 @@
     ]
   },
   {
-    "id": "212733",
-    "name": "Sydney Olympic Park Athletic Centre, Edwin Flack Ave",
-    "lat": "-33.850129",
-    "lon": "151.062624",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212735",
     "name": "Edwin Flack Ave opp Accor Stadium",
     "lat": "-33.846862",
@@ -47849,15 +47804,6 @@
     "name": "Australia Ave opp Bicentennial Park",
     "lat": "-33.852573",
     "lon": "151.075741",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "212739",
-    "name": "Olympic Bvd opp Herb Elliot Ave",
-    "lat": "-33.849167",
-    "lon": "151.067551",
     "productClass": [
       5
     ]
@@ -47921,24 +47867,6 @@
     "name": "Avenue of Asia before Holker St",
     "lat": "-33.832784",
     "lon": "151.05783",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "212766",
-    "name": "Sydney Olympic Park, Aquatic Terminal",
-    "lat": "-33.849733",
-    "lon": "151.068303",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "212772",
-    "name": "Sydney Olympic Park, Plaza Terminal",
-    "lat": "-33.84294",
-    "lon": "151.062648",
     "productClass": [
       5
     ]
@@ -51949,15 +51877,6 @@
     ]
   },
   {
-    "id": "214011",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866877",
-    "lon": "151.085865",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -52052,6 +51971,15 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214027",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866812",
+    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -52223,15 +52151,6 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214052",
-    "name": "The Crescent opp Flemington Station",
-    "lat": "-33.865328",
-    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -171901,15 +171820,6 @@
     ]
   },
   {
-    "id": "2099208",
-    "name": "Pittwater Rd at Howard Ave",
-    "lat": "-33.752353",
-    "lon": "151.287304",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2099209",
     "name": "Truman Ave opp Truman Ave Shops",
     "lat": "-33.734461",
@@ -183241,15 +183151,6 @@
     ]
   },
   {
-    "id": "2142279",
-    "name": "Clyde Station, Berry St",
-    "lat": "-33.835187",
-    "lon": "151.017404",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -184078,10 +183979,10 @@
     ]
   },
   {
-    "id": "2144236",
+    "id": "2144223",
     "name": "Auburn Station, Rawson St",
-    "lat": "-33.849424",
-    "lon": "151.033548",
+    "lat": "-33.849364",
+    "lon": "151.033711",
     "productClass": [
       5
     ]
@@ -227352,15 +227253,6 @@
     ]
   },
   {
-    "id": "2216165",
-    "name": "Bay St after Princes Hwy",
-    "lat": "-33.953049",
-    "lon": "151.138237",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2216177",
     "name": "Bay St opp George St",
     "lat": "-33.954",
@@ -228121,15 +228013,6 @@
     "name": "Bridge St after Forest Rd",
     "lat": "-33.964537",
     "lon": "151.095092",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2220298",
-    "name": "Hurstville Station, Butler Rd",
-    "lat": "-33.968301",
-    "lon": "151.101811",
     "productClass": [
       5
     ]
