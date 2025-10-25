@@ -11550,6 +11550,15 @@
     ]
   },
   {
+    "id": "203775",
+    "name": "Federal Rd opp Pope Paul VI Reserve",
+    "lat": "-33.871957",
+    "lon": "151.180125",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203776",
     "name": "Minogue Crescent Reserve, Minogue Cres",
     "lat": "-33.880485",
@@ -21780,6 +21789,24 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -42923,8 +42950,8 @@
   {
     "id": "211722",
     "name": "Fred Robertson Park, Kissing Point Rd",
-    "lat": "-33.803209",
-    "lon": "151.032327",
+    "lat": "-33.80304",
+    "lon": "151.03276",
     "productClass": [
       5
     ]
@@ -224355,6 +224382,24 @@
     ]
   },
   {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -228193,6 +228238,15 @@
     "name": "Bridge St after Forest Rd",
     "lat": "-33.964537",
     "lon": "151.095092",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2220298",
+    "name": "Hurstville Station, Butler Rd",
+    "lat": "-33.968301",
+    "lon": "151.101811",
     "productClass": [
       5
     ]
@@ -233644,6 +233698,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233662,10 +233725,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -272777,7 +272858,7 @@
   },
   {
     "id": "2320143",
-    "name": "Bolwarra Heights Public School Bolwarra Rd",
+    "name": "Bolwarra Public School, Bolwarra Rd",
     "lat": "-32.707524",
     "lon": "151.573589",
     "productClass": [
@@ -317648,8 +317729,8 @@
   {
     "id": "2765448",
     "name": "Melonba Public School, Kaluta Ave",
-    "lat": "-33.699001",
-    "lon": "150.804169",
+    "lat": "-33.698578",
+    "lon": "150.80394",
     "productClass": [
       5
     ]
@@ -318448,7 +318529,7 @@
   },
   {
     "id": "2767109",
-    "name": "St John Vianney School, Cameron St",
+    "name": "St John Vianney Primary School, Cameron St",
     "lat": "-33.758863",
     "lon": "150.8726",
     "productClass": [
