@@ -8,8 +8,8 @@ on:
     branches: [ main ]
     types: [ opened, synchronize, reopened, ready_for_review ]
   schedule:
-    # Runs at 12:00 AM UTC on the 1st, 5th, 10th, 15th, 20th, 25th, and 30th of every month
-    - cron: '0 0 1,5,10,15,20,25,30 * *'
+    # Runs at 12:00 AM UTC every 5 days
+    - cron: '0 0 */5 * *'
 
 jobs:
   build:
