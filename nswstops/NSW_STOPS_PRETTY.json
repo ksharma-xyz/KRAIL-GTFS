@@ -288,15 +288,6 @@
     ]
   },
   {
-    "id": "200088",
-    "name": "Darling Dr opp Convention Centre",
-    "lat": "-33.872503",
-    "lon": "151.198211",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200096",
     "name": "Bridge St at Gresham St",
     "lat": "-33.863625",
@@ -526,15 +517,6 @@
     "name": "Harris St opp Union Square",
     "lat": "-33.86949",
     "lon": "151.193732",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "200914",
-    "name": "Convention Centre, Darling Dr",
-    "lat": "-33.872915",
-    "lon": "151.198343",
     "productClass": [
       5
     ]
@@ -44541,33 +44523,6 @@
     ]
   },
   {
-    "id": "211978",
-    "name": "Wongala Cres opp Beecroft Station",
-    "lat": "-33.749663",
-    "lon": "151.065817",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211979",
-    "name": "The Crescent opp Cheltenham Station",
-    "lat": "-33.755805",
-    "lon": "151.078007",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211980",
-    "name": "Cheltenham Station, The Crescent",
-    "lat": "-33.75588",
-    "lon": "151.078429",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -64411,6 +64366,15 @@
     "name": "Woodville Rd opp Kirrang Ave",
     "lat": "-33.885738",
     "lon": "150.975468",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
     "productClass": [
       5
     ]
@@ -91754,7 +91718,7 @@
   },
   {
     "id": "223076",
-    "name": "Woolooware Rd North at Ambyne St",
+    "name": "Woolooware Rd N at Ambyne St",
     "lat": "-34.045678",
     "lon": "151.141888",
     "productClass": [
@@ -91763,7 +91727,7 @@
   },
   {
     "id": "223077",
-    "name": "Woolooware Rd North opp Taywood St",
+    "name": "Woolooware Rd N opp Taywood St",
     "lat": "-34.04477",
     "lon": "151.142081",
     "productClass": [
@@ -91772,7 +91736,7 @@
   },
   {
     "id": "223078",
-    "name": "Woolooware Rd North at Amber Lane",
+    "name": "Woolooware Rd N at Amber Lane",
     "lat": "-34.043054",
     "lon": "151.142465",
     "productClass": [
@@ -150220,7 +150184,7 @@
   },
   {
     "id": "276254",
-    "name": "Schofields Rd after Canarvon Rd",
+    "name": "South St after Canarvon Rd",
     "lat": "-33.703723",
     "lon": "150.858918",
     "productClass": [
@@ -150229,7 +150193,7 @@
   },
   {
     "id": "276255",
-    "name": "Schofields Rd before Canarvon Rd",
+    "name": "South St before Canarvon Rd",
     "lat": "-33.704133",
     "lon": "150.857845",
     "productClass": [
@@ -157465,15 +157429,6 @@
     ]
   },
   {
-    "id": "277862",
-    "name": "Great Western Hwy opp Woodford Station",
-    "lat": "-33.735238",
-    "lon": "150.481199",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "277863",
     "name": "Great Western Hwy before Glen St",
     "lat": "-33.734569",
@@ -160066,15 +160021,6 @@
     ]
   },
   {
-    "id": "2000109",
-    "name": "Exhibition Centre, Darling Dr",
-    "lat": "-33.877191",
-    "lon": "151.199977",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000111",
     "name": "Art Gallery of NSW, Art Gallery Rd",
     "lat": "-33.868581",
@@ -160250,15 +160196,6 @@
     "name": "Town Hall House, Druitt St",
     "lat": "-33.872796",
     "lon": "151.204573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000308",
-    "name": "Central Station, Forecourt, Coach Bay 4",
-    "lat": "-33.883273",
-    "lon": "151.204442",
     "productClass": [
       5
     ]
@@ -181703,7 +181640,7 @@
   },
   {
     "id": "2141190",
-    "name": "Red Yard Entertainment Centre, Parramatta Rd",
+    "name": "Redyard Entertainment Centre, Parramatta Rd",
     "lat": "-33.846487",
     "lon": "151.04452",
     "productClass": [
@@ -228001,7 +227938,7 @@
   },
   {
     "id": "2220116",
-    "name": "54 Waitara Pde",
+    "name": "Waitara Pde before The Crescent",
     "lat": "-33.980275",
     "lon": "151.092597",
     "productClass": [
@@ -228938,7 +228875,7 @@
   },
   {
     "id": "2223264",
-    "name": "Hurstville Rd opp Georges River College",
+    "name": "Hurstville Rd opp Georges River College Oatley Senior Campus",
     "lat": "-33.978483",
     "lon": "151.081034",
     "productClass": [
@@ -230990,7 +230927,7 @@
   },
   {
     "id": "2230163",
-    "name": "Woolooware Rd opp Amber Lane",
+    "name": "Woolooware Rd N opp Amber Lane",
     "lat": "-34.04302",
     "lon": "151.14265",
     "productClass": [
@@ -230999,7 +230936,7 @@
   },
   {
     "id": "2230164",
-    "name": "Woolooware Rd opp Short St",
+    "name": "Woolooware Rd N opp Short St",
     "lat": "-34.044602",
     "lon": "151.142302",
     "productClass": [
@@ -231008,7 +230945,7 @@
   },
   {
     "id": "2230165",
-    "name": "Woolooware Rd opp Ambyne St",
+    "name": "Woolooware Rd N opp Ambyne St",
     "lat": "-34.045436",
     "lon": "151.142105",
     "productClass": [
@@ -231206,7 +231143,7 @@
   },
   {
     "id": "2230203",
-    "name": "Woolooware High School, Woolooware Rd",
+    "name": "Woolooware High School, Woolooware Rd N",
     "lat": "-34.039763",
     "lon": "151.143219",
     "productClass": [
@@ -233626,15 +233563,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233653,28 +233581,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -245353,6 +245263,15 @@
     ]
   },
   {
+    "id": "2259242",
+    "name": "Warnervale Rd after Minnesota Rd",
+    "lat": "-33.249908",
+    "lon": "151.465543",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2259243",
     "name": "Porters Creek Public School, Warnervale Rd",
     "lat": "-33.248536",
@@ -247580,6 +247499,15 @@
     "name": "Mataram Rd at Forest Oak Rd",
     "lat": "-33.242927",
     "lon": "151.487475",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2259614",
+    "name": "Warnervale Rd before Virginia Rd",
+    "lat": "-33.249358",
+    "lon": "151.461881",
     "productClass": [
       5
     ]
@@ -254240,6 +254168,15 @@
     "name": "83 Sunrise Ave",
     "lat": "-33.22461",
     "lon": "151.552796",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2263100",
+    "name": "Lake Haven Centre, Lake Haven Dr",
+    "lat": "-33.241448",
+    "lon": "151.502471",
     "productClass": [
       5
     ]
@@ -316421,16 +316358,6 @@
     ]
   },
   {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -317911,6 +317838,15 @@
     "name": "Bolwarra Dr before Parkway Dr",
     "lat": "-33.689476",
     "lon": "150.813633",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765473",
+    "name": "Bolwarra Dr opp Northbourne PS",
+    "lat": "-33.687795",
+    "lon": "150.817462",
     "productClass": [
       5
     ]
@@ -322749,15 +322685,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -323644,15 +323571,6 @@
     "name": "Denman Pde at Dorset St",
     "lat": "-33.701029",
     "lon": "150.335068",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2780197",
-    "name": "Katoomba Station, Goldsmith Pl",
-    "lat": "-33.711904",
-    "lon": "150.312229",
     "productClass": [
       5
     ]
@@ -330087,6 +330005,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
