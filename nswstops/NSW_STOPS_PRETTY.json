@@ -16572,6 +16572,15 @@
     ]
   },
   {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -42727,6 +42736,24 @@
     "name": "John Carver Reserve, Victoria Rd",
     "lat": "-33.812272",
     "lon": "151.042185",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211642",
+    "name": "Victoria Rd after Brodie St",
+    "lat": "-33.809773",
+    "lon": "151.030208",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211643",
+    "name": "Dudley St before Crowgey St",
+    "lat": "-33.80943",
+    "lon": "151.030556",
     "productClass": [
       5
     ]
@@ -163279,6 +163306,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163355,6 +163391,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -164606,6 +164660,15 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -191900,6 +191963,33 @@
     ]
   },
   {
+    "id": "2150142",
+    "name": "Smith St after George St",
+    "lat": "-33.815361",
+    "lon": "151.006083",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150144",
+    "name": "Church St after Grose St",
+    "lat": "-33.806378",
+    "lon": "151.005607",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150145",
+    "name": "Church St before Fennell St",
+    "lat": "-33.805158",
+    "lon": "151.005981",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2150150",
     "name": "Parramatta Leagues Club, O'Connell St",
     "lat": "-33.806932",
@@ -191940,6 +192030,15 @@
     "name": "Argyle St before O'Connell St",
     "lat": "-33.815968",
     "lon": "150.998917",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150167",
+    "name": "Victoria Rd before Sorrell St",
+    "lat": "-33.808665",
+    "lon": "151.006756",
     "productClass": [
       5
     ]
@@ -192323,6 +192422,15 @@
     ]
   },
   {
+    "id": "2150388",
+    "name": "Smith St after Darcy St",
+    "lat": "-33.816631",
+    "lon": "151.005844",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2150396",
     "name": "Pitt St after Great Western Hwy",
     "lat": "-33.817826",
@@ -192687,6 +192795,15 @@
     "name": "Barclay Rd opp Mill Dr",
     "lat": "-33.764772",
     "lon": "151.011734",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2151144",
+    "name": "Church St after Factory St",
+    "lat": "-33.799882",
+    "lon": "151.003869",
     "productClass": [
       5
     ]
@@ -274721,7 +274838,7 @@
   },
   {
     "id": "2320486",
-    "name": "Vintage Dr before Claret Ash Dr",
+    "name": "Vintage Dr after Wine Country Dr",
     "lat": "-32.739889",
     "lon": "151.327106",
     "productClass": [
@@ -297446,6 +297563,15 @@
     ]
   },
   {
+    "id": "2565646",
+    "name": "Ingleburn Rd opp Ingleburn Station",
+    "lat": "-33.997575",
+    "lon": "150.864973",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2565648",
     "name": "Campbelltown Rd opp Dickson Rd",
     "lat": "-33.984713",
@@ -314622,7 +314748,7 @@
   },
   {
     "id": "2762120",
-    "name": "Railway Tce before Bingham St",
+    "name": "Railway Tce at Bingham St",
     "lat": "-33.708978",
     "lon": "150.875543",
     "productClass": [
@@ -314640,7 +314766,7 @@
   },
   {
     "id": "2762125",
-    "name": "Burdekin Rd at Quakers Hill Veterinary",
+    "name": "Quakers Hill Veterinary Hospital, Burdekin Rd",
     "lat": "-33.710876",
     "lon": "150.877363",
     "productClass": [
@@ -315144,7 +315270,7 @@
   },
   {
     "id": "2763169",
-    "name": "Burdekin Rd opp Quakers Hill Veterinary",
+    "name": "Burdekin Rd opp Quakers Hill Veterinary Hospital",
     "lat": "-33.710974",
     "lon": "150.877263",
     "productClass": [
@@ -317808,7 +317934,7 @@
   },
   {
     "id": "2765464",
-    "name": "Riverstone Pd before Church St",
+    "name": "Riverstone Pde before Church St",
     "lat": "-33.675248",
     "lon": "150.858955",
     "productClass": [
@@ -317925,7 +318051,7 @@
   },
   {
     "id": "2765477",
-    "name": "Woodgate Pwy at Gelt St",
+    "name": "Woodgate Pkwy at Gelt St",
     "lat": "-33.650373",
     "lon": "150.880395",
     "productClass": [
