@@ -36,7 +36,7 @@ jobs:
 
       - name: Detect changed files
         id: changes
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@v47
 
       - name: Decide build necessity
         id: decision
