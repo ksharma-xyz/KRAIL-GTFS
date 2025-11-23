@@ -1,0 +1,34 @@
+name: Reusable Gradle Build
+description: Sets up JDK, caches Gradle, optionally runs build
+inputs:
+  run-build:
+    description: Whether to execute './gradlew build'
+    required: false
+    default: 'true'
+  java-version:
+    description: Java version
+    required: false
+    default: '21'
+  checkout:
+    description: Perform repository checkout
+    required: false
+    default: 'true'
+runs:
+  using: composite
+  steps:
+    - name: Checkout
+      if: inputs.checkout == 'true'
+      uses: actions/checkout@v4
+
+    - name: Set up JDK
+      uses: actions/setup-java@v4
+      with:
+        distribution: zulu
+        java-version: ${{ inputs.java-version }}
+
+    - name: Gradle build
+      if: inputs.run-build == 'true'
+      uses: gradle/gradle-build-action@v3
+      with:
+        gradle-version: wrapper
+        arguments: build
