@@ -131,7 +131,7 @@ jobs:
           if [ -d "cache" ]; then ls -R cache; else echo "cache directory missing"; fi
 
       - name: Upload generated JSON
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: generated-json-files
           path: |
