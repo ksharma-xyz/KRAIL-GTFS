@@ -73,7 +73,7 @@ jobs:
           checkout: 'false'
 
   pr-validation:
-    name: pr-validation
+    name: PR Validation
     runs-on: ubuntu-latest
     needs: [ pr-checks ]
     if: github.event_name == 'pull_request' && always()
@@ -95,12 +95,15 @@ jobs:
     permissions:
       contents: read
     steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
       - name: Reusable Gradle Build
         uses: ./.github/actions/gradle-build
         with:
           run-build: 'true'
           java-version: ${{ env.JAVA_VERSION }}
-          checkout: 'true'
+          checkout: 'false'
 
   scheduled-tasks:
     name: Scheduled GTFS Refresh
