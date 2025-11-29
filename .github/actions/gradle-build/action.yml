@@ -9,17 +9,9 @@ inputs:
     description: Java version
     required: false
     default: '21'
-  checkout:
-    description: Perform repository checkout
-    required: false
-    default: 'true'
 runs:
   using: composite
   steps:
-    - name: Checkout
-      if: inputs.checkout == 'true'
-      uses: actions/checkout@v6
-
     - name: Set up JDK
       uses: actions/setup-java@v5
       with:
