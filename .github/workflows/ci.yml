@@ -70,7 +70,6 @@ jobs:
         with:
           run-build: 'true'
           java-version: ${{ env.JAVA_VERSION }}
-          checkout: 'false'
 
   pr-validation:
     name: PR Validation
@@ -103,7 +102,6 @@ jobs:
         with:
           run-build: 'true'
           java-version: ${{ env.JAVA_VERSION }}
-          checkout: 'false'
 
   scheduled-tasks:
     name: Scheduled GTFS Refresh
@@ -175,6 +173,7 @@ jobs:
 
       - name: Create Pull Request
         if: env.NO_CHANGES == 'false'
+        id: create-pr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -193,3 +192,4 @@ jobs:
         uses: hmarr/auto-approve-action@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.create-pr.outputs.pull-request-number }}
