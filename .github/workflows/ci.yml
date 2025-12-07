@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 0 */5 * *'
   workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual trigger'
+        required: false
+        type: string
 
 env:
   JAVA_VERSION: '21'
@@ -108,13 +113,18 @@ jobs:
     name: Scheduled GTFS Refresh
     runs-on: ubuntu-latest
     needs: [ build ]
-    if: github.event_name == 'schedule'
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
       pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Log - Trigger Context
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "Reason: ${{ inputs.reason || 'N/A' }}"
 
       - name: Set up JDK
         uses: actions/setup-java@v5
@@ -157,14 +167,29 @@ jobs:
           git fetch origin main
           git checkout main
           git add nswstops/NSW_STOPS*.json nswstops/parkride/NSW_PARKRIDE*.json || true
+          
           if git diff --staged --quiet; then
+            echo "✓ No changes detected in GTFS JSON files - skipping PR creation"
             echo "NO_CHANGES=true" >> $GITHUB_ENV
             exit 0
           fi
+          echo "✓ Changes detected - will create PR"
           echo "NO_CHANGES=false" >> $GITHUB_ENV
 
-      - name: Create branch
+      - name: Check for existing auto-generated PRs
         if: env.NO_CHANGES == 'false'
+        id: check-pr
+        run: |
+          existing=$(gh pr list --label auto-generated --state open --json number -q '.[0].number' || echo "")
+          echo "EXISTING_PR=$existing" >> $GITHUB_ENV
+          if [[ -n "$existing" ]]; then
+            echo "Found existing auto-generated PR #$existing"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create branch
+        if: env.NO_CHANGES == 'false' && env.EXISTING_PR == ''
         run: |
           branch="nsw-gtfs-stops-$(date +'%s')"
           git checkout -b "$branch"
@@ -173,8 +198,8 @@ jobs:
           echo "BRANCH_NAME=$branch" >> $GITHUB_ENV
 
       - name: Create Pull Request
-        if: env.NO_CHANGES == 'false'
-        id: create-pr
+        if: env.NO_CHANGES == 'false' && env.EXISTING_PR == ''
+        id: create_pr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -189,7 +214,7 @@ jobs:
             Auto-generated update.
 
       - name: Auto Approve PR
-        if: env.NO_CHANGES == 'false'
+        if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
         uses: hmarr/auto-approve-action@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
