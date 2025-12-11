@@ -1,5 +1,7 @@
 # GTFS Data for KRAIL App
 
+[![CI Workflow](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml)
+
 This repository contains a Kotlin project designed to process GTFS (General Transit Feed Specification) data to generate
 a list of stops in JSON and Protobuf format. The GTFS stops.txt file is parsed into a StopJson object. This stops data is convereted into a 
 protouf binary / json format data which is used to power stop search functionality in the KRAIL App
