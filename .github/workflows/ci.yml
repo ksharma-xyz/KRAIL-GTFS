@@ -212,9 +212,9 @@ jobs:
           body: |
             Auto-generated update of NSW GTFS stops and park ride data.
 
-      - name: Auto Approve PR
+      - name: Enable auto-merge on PR
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
-        uses: hmarr/auto-approve-action@v4
-        with:
-          github-token: ${{ steps.generate-token.outputs.token }}
-          pull-request-number: ${{ steps.create-pr.outputs.pull-request-number }}
+        run: gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} --auto --squash
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+
