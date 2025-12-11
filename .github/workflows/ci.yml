@@ -121,6 +121,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Generate GitHub App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Log - Trigger Context
         run: |
           echo "Triggered by: ${{ github.event_name }}"
@@ -159,22 +166,20 @@ jobs:
           mv cache/NSW_PARKRIDE*.json nswstops/parkride/ || true
           mv cache/NSW_STOPS*.json nswstops/ || true
 
-      - name: Git diff and stage
+      - name: Check for changes
         id: git-diff
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git checkout main
-          git add nswstops/NSW_STOPS*.json nswstops/parkride/NSW_PARKRIDE*.json || true
           
-          if git diff --staged --quiet; then
+          # Check if there are any changes in the files
+          if git diff --quiet nswstops/NSW_STOPS*.json nswstops/parkride/NSW_PARKRIDE*.json 2>/dev/null; then
             echo "✓ No changes detected in GTFS JSON files - skipping PR creation"
             echo "NO_CHANGES=true" >> $GITHUB_ENV
-            exit 0
+          else
+            echo "✓ Changes detected - will create PR"
+            echo "NO_CHANGES=false" >> $GITHUB_ENV
           fi
-          echo "✓ Changes detected - will create PR"
-          echo "NO_CHANGES=false" >> $GITHUB_ENV
 
       - name: Check for existing auto-generated PRs
         if: env.NO_CHANGES == 'false'
@@ -193,9 +198,12 @@ jobs:
         id: create_pr
         uses: peter-evans/create-pull-request@v8
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ steps.generate-token.outputs.token }}
           branch: nsw-gtfs-stops-${{ github.run_number }}
           base: main
+          add: |
+            nswstops/NSW_STOPS*.json
+            nswstops/parkride/NSW_PARKRIDE*.json
           labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
@@ -208,5 +216,5 @@ jobs:
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
         uses: hmarr/auto-approve-action@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ steps.generate-token.outputs.token }}
           pull-request-number: ${{ steps.create-pr.outputs.pull-request-number }}
