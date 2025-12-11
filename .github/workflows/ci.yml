@@ -188,22 +188,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create branch
-        if: env.NO_CHANGES == 'false' && env.EXISTING_PR == ''
-        run: |
-          branch="nsw-gtfs-stops-$(date +'%s')"
-          git checkout -b "$branch"
-          git commit -m "Update NSW_STOPS and PARKRIDE JSON"
-          git push origin "$branch"
-          echo "BRANCH_NAME=$branch" >> $GITHUB_ENV
-
       - name: Create Pull Request
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == ''
         id: create_pr
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ env.BRANCH_NAME }}
+          branch: nsw-gtfs-stops-${{ github.run_number }}
           base: main
           labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
@@ -211,7 +202,7 @@ jobs:
           commit-message: Update NSW_STOPS and PARKRIDE JSON
           title: Update NSW_STOPS and PARKRIDE JSON
           body: |
-            Auto-generated update.
+            Auto-generated update of NSW GTFS stops and park ride data.
 
       - name: Auto Approve PR
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
