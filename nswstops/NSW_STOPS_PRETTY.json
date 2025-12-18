@@ -72,15 +72,6 @@
     ]
   },
   {
-    "id": "21782",
-    "name": "Cecil Rd after Elizabeth Dr",
-    "lat": "-33.874269",
-    "lon": "150.838376",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "21784",
     "name": "Capitol Hill Dr at Bowood Rd",
     "lat": "-33.858112",
@@ -4081,6 +4072,15 @@
     "name": "Oxford St opp Glenmore Rd",
     "lat": "-33.883753",
     "lon": "151.221656",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202156",
+    "name": "Moore Park Bus Interchange",
+    "lat": "-33.89071",
+    "lon": "151.22191",
     "productClass": [
       5
     ]
@@ -9619,6 +9619,33 @@
     "name": "Carr St at Byron St",
     "lat": "-33.921853",
     "lon": "151.250441",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203463",
+    "name": "Dolphin St before Arden St (Temporary)",
+    "lat": "-33.918723",
+    "lon": "151.256522",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203464",
+    "name": "Dolphin St before Brook St",
+    "lat": "-33.918601",
+    "lon": "151.2553",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203465",
+    "name": "Brook St before Coogee Bay Rd",
+    "lat": "-33.920287",
+    "lon": "151.254542",
     "productClass": [
       5
     ]
@@ -17467,15 +17494,6 @@
     "name": "Wollstonecraft Station, Milner Cres",
     "lat": "-33.831628",
     "lon": "151.192605",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206513",
-    "name": "Pacific Hwy before Christie St",
-    "lat": "-33.823499",
-    "lon": "151.196326",
     "productClass": [
       5
     ]
@@ -32799,6 +32817,15 @@
     "name": "North Steyne at Carlton St",
     "lat": "-33.792509",
     "lon": "151.286901",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "209562",
+    "name": "Gilbert St at Belgrave St",
+    "lat": "-33.798331",
+    "lon": "151.284413",
     "productClass": [
       5
     ]
@@ -51795,6 +51822,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -51871,6 +51907,15 @@
     "name": "Walker St opp Meredith Ave",
     "lat": "-33.82452",
     "lon": "151.088079",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
     "productClass": [
       5
     ]
@@ -64398,6 +64443,15 @@
     ]
   },
   {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -70218,6 +70272,24 @@
     "name": "Bernera Rd after Muir Rd",
     "lat": "-33.958421",
     "lon": "150.863205",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217497",
+    "name": "Croatia Ave at Norbis Rd",
+    "lat": "-33.961784",
+    "lon": "150.864503",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217498",
+    "name": "Croatia after Soldiers",
+    "lat": "-33.966123",
+    "lon": "150.861996",
     "productClass": [
       5
     ]
@@ -78500,6 +78572,15 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "220533",
+    "name": "Princes Hwy after Subway Rd",
+    "lat": "-33.944094",
+    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -160165,6 +160246,33 @@
     ]
   },
   {
+    "id": "2000346",
+    "name": "Hyde Park Temporary Terminal",
+    "lat": "-33.872838",
+    "lon": "151.212823",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2000347",
+    "name": "Hyde Park Event Interchange, Elizabeth St",
+    "lat": "-33.87294",
+    "lon": "151.210057",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2000350",
+    "name": "Hyde Park Event Interchange, College St",
+    "lat": "-33.871958",
+    "lon": "151.212943",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2000410",
     "name": "St Mary's Cathedral, St Marys Rd",
     "lat": "-33.870893",
@@ -160313,6 +160421,15 @@
     "name": "Mascot Station, Coward St",
     "lat": "-33.92437",
     "lon": "151.187818",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2021108",
+    "name": "Sydney Cricket Ground, Driver Ave",
+    "lat": "-33.89102",
+    "lon": "151.223485",
     "productClass": [
       5
     ]
@@ -163049,6 +163166,15 @@
     "name": "Berry St at Miller St",
     "lat": "-33.836719",
     "lon": "151.206883",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2060105",
+    "name": "Berry St after Miller St",
+    "lat": "-33.836846",
+    "lon": "151.207731",
     "productClass": [
       5
     ]
@@ -206246,15 +206372,6 @@
     ]
   },
   {
-    "id": "2165101",
-    "name": "Thorney Rd at Baragoola St",
-    "lat": "-33.874052",
-    "lon": "150.926752",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2165102",
     "name": "Thorney Rd at Hawkesbury St",
     "lat": "-33.873491",
@@ -208050,6 +208167,15 @@
     "name": "Bartley St before Railway Pde",
     "lat": "-33.890353",
     "lon": "150.939478",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
     "productClass": [
       5
     ]
@@ -216597,6 +216723,15 @@
     ]
   },
   {
+    "id": "2174100",
+    "name": "Croatia Ave before Dunkirk Rd",
+    "lat": "-33.963453",
+    "lon": "150.864621",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2174103",
     "name": "Edmondson Park Public School",
     "lat": "-33.96572",
@@ -222919,6 +223054,15 @@
     "name": "Dulwich Hill Station, Ewart St",
     "lat": "-33.912294",
     "lon": "151.14045",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2204120",
+    "name": "Railway Pde after Gleeson Ave",
+    "lat": "-33.915115",
+    "lon": "151.16496",
     "productClass": [
       5
     ]
