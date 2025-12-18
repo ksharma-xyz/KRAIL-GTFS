@@ -165,6 +165,7 @@ jobs:
           mkdir -p nswstops/parkride
           mv cache/NSW_PARKRIDE*.json nswstops/parkride/ || true
           mv cache/NSW_STOPS*.json nswstops/ || true
+          mv cache/NSW_STOPS.pb nswstops/ || true
 
       - name: Check for changes
         id: git-diff
@@ -173,8 +174,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           # Check if there are any changes in the files
-          if git diff --quiet nswstops/NSW_STOPS*.json nswstops/parkride/NSW_PARKRIDE*.json 2>/dev/null; then
-            echo "✓ No changes detected in GTFS JSON files - skipping PR creation"
+          if git diff --quiet nswstops/NSW_STOPS*.json nswstops/NSW_STOPS.pb nswstops/parkride/NSW_PARKRIDE*.json 2>/dev/null; then
+            echo "✓ No changes detected in GTFS files - skipping PR creation"
             echo "NO_CHANGES=true" >> $GITHUB_ENV
           else
             echo "✓ Changes detected - will create PR"
@@ -203,12 +204,13 @@ jobs:
           base: main
           add: |
             nswstops/NSW_STOPS*.json
+            nswstops/NSW_STOPS.pb
             nswstops/parkride/NSW_PARKRIDE*.json
           labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
-          commit-message: Update NSW_STOPS and PARKRIDE JSON
-          title: Update NSW_STOPS and PARKRIDE JSON
+          commit-message: Update NSW GTFS stops and park ride data
+          title: Update NSW GTFS stops and park ride data
           body: |
             Auto-generated update of NSW GTFS stops and park ride data.
 
