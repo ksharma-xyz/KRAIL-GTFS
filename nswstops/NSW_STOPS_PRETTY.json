@@ -657,6 +657,15 @@
     ]
   },
   {
+    "id": "200959",
+    "name": "Harris St at Scott St",
+    "lat": "-33.866679",
+    "lon": "151.192239",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "201011",
     "name": "Flinders St before Albion St",
     "lat": "-33.884282",
@@ -6833,15 +6842,6 @@
     ]
   },
   {
-    "id": "202821",
-    "name": "Steyne Park, William St",
-    "lat": "-33.874508",
-    "lon": "151.241411",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202829",
     "name": "New South Head Rd before Gladswood Gdns",
     "lat": "-33.873553",
@@ -11937,6 +11937,15 @@
     ]
   },
   {
+    "id": "203952",
+    "name": "Crescent St at Robert St",
+    "lat": "-33.866461",
+    "lon": "151.175253",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203956",
     "name": "White Bay, Victoria Rd",
     "lat": "-33.868605",
@@ -16567,6 +16576,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -51867,15 +51885,6 @@
     ]
   },
   {
-    "id": "213863",
-    "name": "Rhodes Station, Walker St",
-    "lat": "-33.83095",
-    "lon": "151.08658",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "213865",
     "name": "Averill St before Cavell Ave",
     "lat": "-33.82567",
@@ -53582,6 +53591,15 @@
     "name": "Princes Rd East after Park Rd",
     "lat": "-33.876543",
     "lon": "151.024452",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214376",
+    "name": "Birrong Station, Hudson Pde",
+    "lat": "-33.893047",
+    "lon": "151.023788",
     "productClass": [
       5
     ]
@@ -70287,7 +70305,7 @@
   },
   {
     "id": "217498",
-    "name": "Croatia after Soldiers",
+    "name": "Croatia Ave after Soldiers Pde",
     "lat": "-33.966123",
     "lon": "150.861996",
     "productClass": [
@@ -72168,6 +72186,24 @@
     ]
   },
   {
+    "id": "217957",
+    "name": "Kelly St after Little St",
+    "lat": "-33.939355",
+    "lon": "150.793943",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217958",
+    "name": "Sixth Ave opp Warrawal Ave",
+    "lat": "-33.942762",
+    "lon": "150.797062",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "217959",
     "name": "Rickard Rd opp Moon St",
     "lat": "-33.967638",
@@ -72199,6 +72235,15 @@
     "name": "Browns after Bringelly",
     "lat": "-33.950856",
     "lon": "150.816659",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217964",
+    "name": "Kelly St before Little St",
+    "lat": "-33.939182",
+    "lon": "150.793867",
     "productClass": [
       5
     ]
@@ -72267,6 +72312,15 @@
     ]
   },
   {
+    "id": "217978",
+    "name": "Bringelly Rd after Eastwood Rd",
+    "lat": "-33.94887",
+    "lon": "150.797355",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "217979",
     "name": "Bringelly Rd opp Skyline Cres",
     "lat": "-33.951768",
@@ -72298,6 +72352,24 @@
     "name": "Edmondson Ave after Twelfth Ave",
     "lat": "-33.928065",
     "lon": "150.81312",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217987",
+    "name": "Fifth Ave before Edmondson Ave",
+    "lat": "-33.947296",
+    "lon": "150.80876",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217988",
+    "name": "Sixteenth Ave after Bullaring St",
+    "lat": "-33.917393",
+    "lon": "150.82573",
     "productClass": [
       5
     ]
@@ -113286,15 +113358,6 @@
     ]
   },
   {
-    "id": "230314",
-    "name": "Smith St at Parkway Ave",
-    "lat": "-32.933094",
-    "lon": "151.75891",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "230315",
     "name": "Tudor St before Gordon Ave",
     "lat": "-32.924708",
@@ -125627,33 +125690,6 @@
     ]
   },
   {
-    "id": "233613",
-    "name": "Macqueen St opp Aberdeen Station",
-    "lat": "-32.166877",
-    "lon": "150.891551",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233619",
-    "name": "Aberdeen Station, Macqueen St",
-    "lat": "-32.166908",
-    "lon": "150.891782",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233721",
-    "name": "Scone Station, Coach Stop",
-    "lat": "-32.046842",
-    "lon": "150.867091",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -125676,52 +125712,6 @@
     "name": "Gresford Rd opp Dungog Rd",
     "lat": "-32.566669",
     "lon": "151.595082",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "242012",
-    "name": "Dungog Station, Coach Stop",
-    "lat": "-32.402645",
-    "lon": "151.759121",
-    "productClass": [
-      7
-    ]
-  },
-  {
-    "id": "242016",
-    "name": "Wallarobba Station",
-    "lat": "-32.496191",
-    "lon": "151.69561",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
-    "id": "242018",
-    "name": "Hilldale Station, Hilldale Rd",
-    "lat": "-32.50357",
-    "lon": "151.650426",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "242054",
-    "name": "Wirragulla Station, Dungog Rd",
-    "lat": "-32.462955",
-    "lon": "151.742394",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "242055",
-    "name": "Martins Creek Station, Grace Ave",
-    "lat": "-32.557389",
-    "lon": "151.617944",
     "productClass": [
       5
     ]
@@ -136982,6 +136972,15 @@
     "name": "Bringelly Rd after King St",
     "lat": "-33.947404",
     "lon": "150.783925",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255793",
+    "name": "Wynyard Av after May Av",
+    "lat": "-33.9325",
+    "lon": "150.75903",
     "productClass": [
       5
     ]
@@ -160273,6 +160272,15 @@
     ]
   },
   {
+    "id": "2000353",
+    "name": "Hyde Park Event Interchange, Park St",
+    "lat": "-33.873531",
+    "lon": "151.212077",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2000410",
     "name": "St Mary's Cathedral, St Marys Rd",
     "lat": "-33.870893",
@@ -163369,6 +163377,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163445,6 +163462,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -201935,6 +201970,15 @@
     ]
   },
   {
+    "id": "2160142",
+    "name": "Merrylands Rd at Railway Tce",
+    "lat": "-33.837054",
+    "lon": "150.992957",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2160143",
     "name": "Merrylands Rd after Ridge St",
     "lat": "-33.832682",
@@ -216291,15 +216335,6 @@
     ]
   },
   {
-    "id": "2171418",
-    "name": "Bringelly Rd after Eastwood Rd",
-    "lat": "-33.949042",
-    "lon": "150.796264",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2171420",
     "name": "Bringelly Rd at Jersey Rd",
     "lat": "-33.941242",
@@ -216724,7 +216759,7 @@
   },
   {
     "id": "2174100",
-    "name": "Croatia Ave before Dunkirk Rd",
+    "name": "Croatia Ave after Poziers Rd",
     "lat": "-33.963453",
     "lon": "150.864621",
     "productClass": [
@@ -223059,15 +223094,6 @@
     ]
   },
   {
-    "id": "2204120",
-    "name": "Railway Pde after Gleeson Ave",
-    "lat": "-33.915115",
-    "lon": "151.16496",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2205115",
     "name": "Wolli Creek Station, Discovery Point Pl",
     "lat": "-33.928821",
@@ -229166,15 +229192,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -245281,6 +245298,15 @@
     ]
   },
   {
+    "id": "2259239",
+    "name": "Warnervale Rd before Minnesota Rd",
+    "lat": "-33.249856",
+    "lon": "151.466096",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2259240",
     "name": "Minnesota Rd before Pacific Hwy",
     "lat": "-33.262111",
@@ -245294,6 +245320,15 @@
     "name": "Minnesota Rd after Pacific Hwy",
     "lat": "-33.261912",
     "lon": "151.464792",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2259242",
+    "name": "Warnervale Rd after Minnesota Rd",
+    "lat": "-33.249908",
+    "lon": "151.465543",
     "productClass": [
       5
     ]
@@ -247531,6 +247566,15 @@
     ]
   },
   {
+    "id": "2259614",
+    "name": "Warnervale Rd before Virginia Rd",
+    "lat": "-33.249358",
+    "lon": "151.461881",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2259615",
     "name": "Mataram Rd opp Waterside Dr",
     "lat": "-33.242097",
@@ -247553,6 +247597,15 @@
     "name": "Louisiana Rd opp 66",
     "lat": "-33.257116",
     "lon": "151.474477",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2259619",
+    "name": "Warnervale Rd after Virginia Rd",
+    "lat": "-33.24912",
+    "lon": "151.461242",
     "productClass": [
       5
     ]
@@ -274517,15 +274570,6 @@
     "name": "Lovedale Rd opp 724",
     "lat": "-32.741857",
     "lon": "151.388895",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2320406",
-    "name": "Mindaribba Station Carpark, Tocal Rd",
-    "lat": "-32.667782",
-    "lon": "151.585275",
     "productClass": [
       5
     ]
@@ -322677,6 +322721,15 @@
     ]
   },
   {
+    "id": "2777177",
+    "name": "Springwood Station, Station St",
+    "lat": "-33.698905",
+    "lon": "150.563507",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -327493,6 +327546,15 @@
     "lon": "148.1176234",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "242020",
+    "name": "Wallarobba Station",
+    "lat": "-32.496118",
+    "lon": "151.695624",
+    "productClass": [
+      1
     ]
   },
   {
