@@ -232,7 +232,7 @@ jobs:
 
   update-krail-app:
     name: Update KRAIL App Repository
-    needs: download-gtfs-stops
+    needs: scheduled-tasks
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     uses: ./.github/workflows/update-krail-app.yml
     secrets:

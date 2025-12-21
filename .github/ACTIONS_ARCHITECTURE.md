@@ -40,7 +40,8 @@ The workflows are organized following GitHub Actions best practices:
 **Jobs:**
 - `pr-checks` - Validates pull requests
 - `pr-validation` - Runs PR validation checks
-- `download-gtfs-stops` - Downloads and processes GTFS data
+- `build` - Builds the project (push/schedule)
+- `scheduled-tasks` - Downloads and processes GTFS data
 - `update-krail-app` - Calls reusable workflow to update KRAIL repo
 
 **Key Features:**

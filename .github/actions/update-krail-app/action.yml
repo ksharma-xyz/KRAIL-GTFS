@@ -87,9 +87,8 @@ runs:
         NEW_VERSION=$((CURRENT_VERSION + 1))
         echo "New NSW_STOPS_VERSION: $NEW_VERSION"
         
-        # Update the file
-        sed -i.bak "s/const val NSW_STOPS_VERSION = ${CURRENT_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
-        rm "${PREFERENCES_FILE}.bak"
+        # Update the file (sed -i works on Ubuntu runners)
+        sed -i "s/const val NSW_STOPS_VERSION = ${CURRENT_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
         
         echo "✓ Bumped NSW_STOPS_VERSION from $CURRENT_VERSION to $NEW_VERSION"
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
@@ -102,11 +101,22 @@ runs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        if git diff --quiet "${{ inputs.target-pb-path }}" "${{ inputs.preferences-file-path }}" 2>/dev/null; then
-          echo "✓ No changes detected - skipping PR creation"
-          echo "has_changes=false" >> $GITHUB_OUTPUT
+        PB_FILE="${{ inputs.target-pb-path }}"
+        PREFS_FILE="${{ inputs.preferences-file-path }}"
+        
+        # Check if files exist
+        if [ -f "$PB_FILE" ] && [ -f "$PREFS_FILE" ]; then
+          # Both files exist, check for changes
+          if git diff --quiet "$PB_FILE" "$PREFS_FILE" 2>/dev/null; then
+            echo "✓ No changes detected - skipping PR creation"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "✓ Changes detected - will create PR"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
         else
-          echo "✓ Changes detected - will create PR"
+          # One or both files don't exist yet (new setup)
+          echo "ℹ️  One or both files do not exist yet; treating as changes"
           echo "has_changes=true" >> $GITHUB_OUTPUT
         fi
 
@@ -170,18 +180,25 @@ runs:
       env:
         GH_TOKEN: ${{ inputs.github-token }}
       run: |
-        PR_NUMBER=$(echo "${{ steps.create-pr.outputs.pr_url }}" | grep -o '[0-9]*$')
+        PR_URL="${{ steps.create-pr.outputs.pr_url }}"
+        # Extract PR number more robustly
+        PR_NUMBER=$(gh pr view "$PR_URL" --json number -q .number)
         gh pr merge "$PR_NUMBER" --auto --squash
         echo "✓ Enabled auto-merge for PR #$PR_NUMBER"
 
     - name: Set outputs
       id: result
       shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
       run: |
         if [ "${{ steps.check-changes.outputs.has_changes }}" == "true" ] && [ -n "${{ steps.create-pr.outputs.pr_url }}" ]; then
           echo "pr-created=true" >> $GITHUB_OUTPUT
-          echo "pr-url=${{ steps.create-pr.outputs.pr_url }}" >> $GITHUB_OUTPUT
-          PR_NUMBER=$(echo "${{ steps.create-pr.outputs.pr_url }}" | grep -o '[0-9]*$')
+          PR_URL="${{ steps.create-pr.outputs.pr_url }}"
+          echo "pr-url=$PR_URL" >> $GITHUB_OUTPUT
+          # Extract PR number robustly using gh CLI
+          cd krail-app
+          PR_NUMBER=$(gh pr view "$PR_URL" --json number -q .number)
           echo "pr-number=$PR_NUMBER" >> $GITHUB_OUTPUT
         else
           echo "pr-created=false" >> $GITHUB_OUTPUT

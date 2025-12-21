@@ -47,6 +47,7 @@ jobs:
       pr-created: ${{ steps.update.outputs.pr-created }}
       pr-url: ${{ steps.update.outputs.pr-url }}
       pr-number: ${{ steps.update.outputs.pr-number }}
+      version-bumped: ${{ steps.update.outputs.version-bumped }}
     steps:
       - name: Generate GitHub App Token
         id: generate-token
@@ -60,17 +61,47 @@ jobs:
       - name: Checkout KRAIL-GTFS repository
         uses: actions/checkout@v6
 
-      - name: Set up JDK
+      - name: Download GTFS artifacts (if available from scheduled-tasks)
+        id: download-artifact
+        uses: actions/download-artifact@v6
+        continue-on-error: true
+        with:
+          name: generated-json-files
+          path: cache
+
+      - name: Set up JDK (for fallback generation)
+        if: steps.download-artifact.outcome != 'success'
         uses: actions/setup-java@v5
         with:
           distribution: zulu
           java-version: ${{ inputs.java-version }}
 
-      - name: Setup environment variables
+      - name: Setup environment variables (for fallback generation)
+        if: steps.download-artifact.outcome != 'success'
         run: echo "NSW_TRANSPORT_API_KEY=${{ secrets.NSW_TRANSPORT_API_KEY }}" >> $GITHUB_ENV
 
-      - name: Download GTFS Data
-        run: ./gradlew runKRAIL-GTFS
+      - name: Generate GTFS Data (fallback if no artifacts)
+        if: steps.download-artifact.outcome != 'success'
+        run: |
+          echo "ℹ️  No artifacts found (manual trigger or artifact expired)"
+          echo "⚙️  Generating GTFS data from scratch..."
+          ./gradlew runKRAIL-GTFS
+
+      - name: Verify PB file exists
+        run: |
+          if [ ! -f "cache/NSW_STOPS.pb" ]; then
+            echo "ERROR: NSW_STOPS.pb not found!"
+            exit 1
+          fi
+          echo "✓ NSW_STOPS.pb found"
+          ls -lh cache/NSW_STOPS.pb
+          
+          # Log whether we used artifacts or generated fresh data
+          if [ "${{ steps.download-artifact.outcome }}" == "success" ]; then
+            echo "✓ Using GTFS data from scheduled-tasks artifacts"
+          else
+            echo "✓ Generated fresh GTFS data"
+          fi
 
       - name: Update KRAIL App
         id: update
