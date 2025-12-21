@@ -63,7 +63,7 @@ jobs:
 
       - name: Download GTFS artifacts (if available from scheduled-tasks)
         id: download-artifact
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         continue-on-error: true
         with:
           name: generated-json-files
