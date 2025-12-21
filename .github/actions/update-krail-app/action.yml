@@ -1,0 +1,208 @@
+name: Update KRAIL App Repository
+description: Updates the KRAIL app repository with latest NSW_STOPS.pb file and bumps version
+
+inputs:
+  krail-repo:
+    description: 'KRAIL repository in owner/repo format'
+    required: false
+    default: 'ksharma-xyz/Krail'
+  github-token:
+    description: 'GitHub token with permissions to create PRs in KRAIL repo'
+    required: true
+  pb-file-path:
+    description: 'Path to the NSW_STOPS.pb file to copy'
+    required: false
+    default: 'cache/NSW_STOPS.pb'
+  target-pb-path:
+    description: 'Target path in KRAIL repo for the .pb file'
+    required: false
+    default: 'io/gtfs/src/commonMain/composeResources/files/NSW_STOPS.pb'
+  preferences-file-path:
+    description: 'Path to SandookPreferences.kt in KRAIL repo'
+    required: false
+    default: 'sandook/src/commonMain/kotlin/xyz/ksharma/krail/sandook/SandookPreferences.kt'
+  run-number:
+    description: 'GitHub run number for branch naming'
+    required: true
+
+outputs:
+  pr-created:
+    description: 'Whether a PR was created (true/false)'
+    value: ${{ steps.result.outputs.pr-created }}
+  pr-url:
+    description: 'URL of the created PR'
+    value: ${{ steps.result.outputs.pr-url }}
+  pr-number:
+    description: 'Number of the created PR'
+    value: ${{ steps.result.outputs.pr-number }}
+  version-bumped:
+    description: 'New version number after bump'
+    value: ${{ steps.bump-version.outputs.new_version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Verify PB file exists
+      shell: bash
+      run: |
+        if [ ! -f "${{ inputs.pb-file-path }}" ]; then
+          echo "ERROR: NSW_STOPS.pb not found at ${{ inputs.pb-file-path }}"
+          exit 1
+        fi
+        echo "✓ NSW_STOPS.pb found"
+        ls -lh "${{ inputs.pb-file-path }}"
+
+    - name: Checkout KRAIL repository
+      uses: actions/checkout@v6
+      with:
+        repository: ${{ inputs.krail-repo }}
+        token: ${{ inputs.github-token }}
+        path: krail-app
+
+    - name: Copy PB file to KRAIL repository
+      shell: bash
+      run: |
+        TARGET_DIR=$(dirname "krail-app/${{ inputs.target-pb-path }}")
+        mkdir -p "$TARGET_DIR"
+        cp "${{ inputs.pb-file-path }}" "krail-app/${{ inputs.target-pb-path }}"
+        echo "✓ Copied NSW_STOPS.pb to KRAIL repository"
+
+    - name: Bump NSW_STOPS_VERSION
+      id: bump-version
+      shell: bash
+      working-directory: krail-app
+      run: |
+        PREFERENCES_FILE="${{ inputs.preferences-file-path }}"
+        
+        if [ ! -f "$PREFERENCES_FILE" ]; then
+          echo "ERROR: SandookPreferences.kt not found at $PREFERENCES_FILE"
+          exit 1
+        fi
+        
+        # Extract current version
+        CURRENT_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*')
+        echo "Current NSW_STOPS_VERSION: $CURRENT_VERSION"
+        
+        # Increment version
+        NEW_VERSION=$((CURRENT_VERSION + 1))
+        echo "New NSW_STOPS_VERSION: $NEW_VERSION"
+        
+        # Update the file (sed -i works on Ubuntu runners)
+        sed -i "s/const val NSW_STOPS_VERSION = ${CURRENT_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
+        
+        echo "✓ Bumped NSW_STOPS_VERSION from $CURRENT_VERSION to $NEW_VERSION"
+        echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
+    - name: Check for changes
+      id: check-changes
+      shell: bash
+      working-directory: krail-app
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        PB_FILE="${{ inputs.target-pb-path }}"
+        PREFS_FILE="${{ inputs.preferences-file-path }}"
+        
+        # Check if files exist
+        if [ -f "$PB_FILE" ] && [ -f "$PREFS_FILE" ]; then
+          # Both files exist, check for changes
+          if git diff --quiet "$PB_FILE" "$PREFS_FILE" 2>/dev/null; then
+            echo "✓ No changes detected - skipping PR creation"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "✓ Changes detected - will create PR"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+        else
+          # One or both files don't exist yet (new setup)
+          echo "ℹ️  One or both files do not exist yet; treating as changes"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check for existing PRs
+      if: steps.check-changes.outputs.has_changes == 'true'
+      id: check-existing-pr
+      shell: bash
+      working-directory: krail-app
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: |
+        existing=$(gh pr list --label auto-generated-gtfs --state open --json number -q '.[0].number' || echo "")
+        echo "existing_pr=$existing" >> $GITHUB_OUTPUT
+        if [[ -n "$existing" ]]; then
+          echo "⚠️  Found existing auto-generated PR #$existing - skipping new PR creation"
+        fi
+
+    - name: Create Pull Request
+      if: steps.check-changes.outputs.has_changes == 'true' && steps.check-existing-pr.outputs.existing_pr == ''
+      id: create-pr
+      shell: bash
+      working-directory: krail-app
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: |
+        BRANCH_NAME="update-gtfs-stops-${{ inputs.run-number }}"
+        
+        git checkout -b "$BRANCH_NAME"
+        git add "${{ inputs.target-pb-path }}"
+        git add "${{ inputs.preferences-file-path }}"
+        git commit -m "Update NSW GTFS stops data and bump version
+
+        - Updated NSW_STOPS.pb with latest GTFS data
+        - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}"
+        git push -u origin "$BRANCH_NAME"
+        
+        PR_URL=$(gh pr create \
+          --title "Update NSW GTFS stops data" \
+          --body "Auto-generated update of NSW_STOPS.pb file from [KRAIL-GTFS](https://github.com/ksharma-xyz/KRAIL-GTFS) repository.
+        
+        This PR updates the GTFS stops data used for transit stop search functionality in the KRAIL app.
+        
+        **Changes:**
+        - Updated \`${{ inputs.target-pb-path }}\` with latest GTFS data
+        - Bumped \`NSW_STOPS_VERSION\` to **${{ steps.bump-version.outputs.new_version }}** in \`SandookPreferences.kt\`
+        
+        **Source:** Automated workflow from KRAIL-GTFS repository  
+        **Workflow:** \`${{ github.workflow }}\`  
+        **Run:** [\#${{ github.run_number }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})" \
+          --label "auto-generated-gtfs" \
+          --base main \
+          --head "$BRANCH_NAME")
+        
+        echo "pr_url=$PR_URL" >> $GITHUB_OUTPUT
+        echo "✓ Created PR in KRAIL repository: $PR_URL"
+
+    - name: Enable auto-merge
+      if: steps.check-changes.outputs.has_changes == 'true' && steps.check-existing-pr.outputs.existing_pr == '' && steps.create-pr.outputs.pr_url != ''
+      shell: bash
+      working-directory: krail-app
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: |
+        PR_URL="${{ steps.create-pr.outputs.pr_url }}"
+        # Extract PR number more robustly
+        PR_NUMBER=$(gh pr view "$PR_URL" --json number -q .number)
+        gh pr merge "$PR_NUMBER" --auto --squash
+        echo "✓ Enabled auto-merge for PR #$PR_NUMBER"
+
+    - name: Set outputs
+      id: result
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+      run: |
+        if [ "${{ steps.check-changes.outputs.has_changes }}" == "true" ] && [ -n "${{ steps.create-pr.outputs.pr_url }}" ]; then
+          echo "pr-created=true" >> $GITHUB_OUTPUT
+          PR_URL="${{ steps.create-pr.outputs.pr_url }}"
+          echo "pr-url=$PR_URL" >> $GITHUB_OUTPUT
+          # Extract PR number robustly using gh CLI
+          cd krail-app
+          PR_NUMBER=$(gh pr view "$PR_URL" --json number -q .number)
+          echo "pr-number=$PR_NUMBER" >> $GITHUB_OUTPUT
+        else
+          echo "pr-created=false" >> $GITHUB_OUTPUT
+          echo "pr-url=" >> $GITHUB_OUTPUT
+          echo "pr-number=" >> $GITHUB_OUTPUT
+        fi
+

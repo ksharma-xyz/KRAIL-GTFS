@@ -16,7 +16,7 @@ on:
         type: string
 
 env:
-  JAVA_VERSION: '21'
+  JAVA_VERSION: '21'  # Centralized Java version - update here to change across all workflows
 
 concurrency:
   group: ci-${{ github.workflow }}-${{ github.ref }}-${{ github.event_name }}
@@ -68,7 +68,10 @@ jobs:
 
       - name: Skip message
         if: steps.decision.outputs.requires_build == 'false'
-        run: echo "Skipping build. ${{ steps.decision.outputs.skip_reason }}"
+        run: |
+          echo "ℹ️  Skipping build. ${{ steps.decision.outputs.skip_reason }}"
+          echo "✅ This is expected for workflow/documentation changes"
+          echo "✅ PR validation will pass"
 
       - name: Build (changes require build)
         if: steps.decision.outputs.requires_build == 'true'
@@ -85,11 +88,18 @@ jobs:
     steps:
       - name: Report Status
         run: |
-          if [[ "${{ needs.pr-checks.result }}" == "success" ]]; then
-            echo "PR validation passed"
+          result="${{ needs.pr-checks.result }}"
+          echo "PR Checks Result: $result"
+          
+          # Success or Skipped are both acceptable outcomes
+          if [[ "$result" == "success" || "$result" == "skipped" ]]; then
+            echo "✅ PR validation passed"
+            if [[ "$result" == "skipped" ]]; then
+              echo "ℹ️  Build was skipped (no Kotlin files changed)"
+            fi
             exit 0
           else
-            echo "PR validation failed"
+            echo "❌ PR validation failed"
             exit 1
           fi
 
@@ -220,3 +230,15 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
 
+  update-krail-app:
+    name: Update KRAIL App Repository
+    needs: scheduled-tasks
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    uses: ./.github/workflows/update-krail-app.yml
+    secrets:
+      NSW_TRANSPORT_API_KEY: ${{ secrets.NSW_TRANSPORT_API_KEY }}
+      APP_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+    with:
+      krail-repo: 'ksharma-xyz/Krail'
+      java-version: ${{ env.JAVA_VERSION }}
