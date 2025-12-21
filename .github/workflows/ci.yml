@@ -234,6 +234,9 @@ jobs:
     name: Update KRAIL App Repository
     needs: scheduled-tasks
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+      pull-requests: write
     uses: ./.github/workflows/update-krail-app.yml
     secrets:
       NSW_TRANSPORT_API_KEY: ${{ secrets.NSW_TRANSPORT_API_KEY }}
