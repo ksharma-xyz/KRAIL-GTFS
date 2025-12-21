@@ -1,0 +1,101 @@
+name: Update KRAIL App with GTFS Data
+
+on:
+  workflow_call:
+    inputs:
+      krail-repo:
+        description: 'KRAIL repository in owner/repo format'
+        type: string
+        required: false
+        default: 'ksharma-xyz/Krail'
+      java-version:
+        description: 'Java version to use'
+        type: string
+        required: false
+        default: '21'
+    secrets:
+      NSW_TRANSPORT_API_KEY:
+        description: 'NSW Transport API Key'
+        required: true
+      APP_ID:
+        description: 'GitHub App ID for token generation'
+        required: true
+      APP_PRIVATE_KEY:
+        description: 'GitHub App Private Key'
+        required: true
+  workflow_dispatch:
+    inputs:
+      krail-repo:
+        description: 'KRAIL repository in owner/repo format'
+        type: string
+        required: false
+        default: 'ksharma-xyz/Krail'
+      java-version:
+        description: 'Java version to use'
+        type: string
+        required: false
+        default: '21'
+
+jobs:
+  update-krail:
+    name: Update KRAIL Repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      pr-created: ${{ steps.update.outputs.pr-created }}
+      pr-url: ${{ steps.update.outputs.pr-url }}
+      pr-number: ${{ steps.update.outputs.pr-number }}
+    steps:
+      - name: Generate GitHub App Token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ksharma-xyz
+          repositories: KRAIL-GTFS,Krail
+
+      - name: Checkout KRAIL-GTFS repository
+        uses: actions/checkout@v6
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: zulu
+          java-version: ${{ inputs.java-version }}
+
+      - name: Setup environment variables
+        run: echo "NSW_TRANSPORT_API_KEY=${{ secrets.NSW_TRANSPORT_API_KEY }}" >> $GITHUB_ENV
+
+      - name: Download GTFS Data
+        run: ./gradlew runKRAIL-GTFS
+
+      - name: Update KRAIL App
+        id: update
+        uses: ./.github/actions/update-krail-app
+        with:
+          krail-repo: ${{ inputs.krail-repo }}
+          github-token: ${{ steps.generate-token.outputs.token }}
+          pb-file-path: cache/NSW_STOPS.pb
+          run-number: ${{ github.run_number }}
+
+      - name: Summary
+        run: |
+          echo "## KRAIL App Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.update.outputs.pr-created }}" == "true" ]; then
+            echo "✅ **PR Created Successfully**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- **PR URL:** ${{ steps.update.outputs.pr-url }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **PR Number:** #${{ steps.update.outputs.pr-number }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Version Bumped To:** ${{ steps.update.outputs.version-bumped }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "The PR has been configured for auto-merge and will be merged once checks pass." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **No PR Created**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Either no changes were detected or an existing PR is already open." >> $GITHUB_STEP_SUMMARY
+          fi
+
