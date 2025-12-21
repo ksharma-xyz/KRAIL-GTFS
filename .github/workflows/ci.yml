@@ -241,4 +241,4 @@ jobs:
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
     with:
       krail-repo: 'ksharma-xyz/Krail'
-      java-version: ${{ env.JAVA_VERSION }}
+      java-version: '21'  # Note: Must match env.JAVA_VERSION above (GitHub Actions limitation)
