@@ -4086,15 +4086,6 @@
     ]
   },
   {
-    "id": "202156",
-    "name": "Moore Park Bus Interchange",
-    "lat": "-33.89071",
-    "lon": "151.22191",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202159",
     "name": "Oxford St at Glenmore Rd",
     "lat": "-33.883629",
@@ -16581,15 +16572,6 @@
     ]
   },
   {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -21780,24 +21762,6 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207182",
-    "name": "Killara Station, Culworth Ave",
-    "lat": "-33.765872",
-    "lon": "151.16175",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207183",
-    "name": "Culworth Ave opp Killara Station",
-    "lat": "-33.765815",
-    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -28844,15 +28808,6 @@
     ]
   },
   {
-    "id": "208665",
-    "name": "Rodborough Rd after Allambie Rd",
-    "lat": "-33.753548",
-    "lon": "151.242895",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "208667",
     "name": "Lockwood Ave opp Peacock Pde",
     "lat": "-33.739165",
@@ -31310,10 +31265,10 @@
     ]
   },
   {
-    "id": "209256",
+    "id": "209257",
     "name": "Seaforth Public School, Frenchs Forest Rd",
-    "lat": "-33.794586",
-    "lon": "151.250511",
+    "lat": "-33.794731",
+    "lon": "151.250468",
     "productClass": [
       5
     ]
@@ -35144,6 +35099,15 @@
     ]
   },
   {
+    "id": "210038",
+    "name": "Aquatic Drive Frenchs Forest Outside High School",
+    "lat": "-33.755838",
+    "lon": "151.241889",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "210039",
     "name": "Warringah Mall, Green St",
     "lat": "-33.767116",
@@ -35283,6 +35247,15 @@
     "name": "Oliver St at Pittwater Rd",
     "lat": "-33.781482",
     "lon": "151.278672",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "210060",
+    "name": "Aquatic Drive Opp High School",
+    "lat": "-33.755694",
+    "lon": "151.241871",
     "productClass": [
       5
     ]
@@ -35562,15 +35535,6 @@
     "name": "Pittwater Rd at Goodwin St",
     "lat": "-33.721114",
     "lon": "151.298105",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "210113",
-    "name": "Narrabeen Lakes Public School, Pittwater Rd",
-    "lat": "-33.719898",
-    "lon": "151.297874",
     "productClass": [
       5
     ]
@@ -160246,7 +160210,7 @@
   },
   {
     "id": "2000346",
-    "name": "Hyde Park Temporary Terminal",
+    "name": "Hyde Park Event Interchange, College St",
     "lat": "-33.872838",
     "lon": "151.212823",
     "productClass": [
@@ -160258,15 +160222,6 @@
     "name": "Hyde Park Event Interchange, Elizabeth St",
     "lat": "-33.87294",
     "lon": "151.210057",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000350",
-    "name": "Hyde Park Event Interchange, College St",
-    "lat": "-33.871958",
-    "lon": "151.212943",
     "productClass": [
       5
     ]
@@ -160429,15 +160384,6 @@
     "name": "Mascot Station, Coward St",
     "lat": "-33.92437",
     "lon": "151.187818",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2021108",
-    "name": "Sydney Cricket Ground, Driver Ave",
-    "lat": "-33.89102",
-    "lon": "151.223485",
     "productClass": [
       5
     ]
@@ -163377,15 +163323,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -163462,24 +163399,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -164731,15 +164650,6 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2067137",
-    "name": "Victoria Ave opp Katherine St",
-    "lat": "-33.797403",
-    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -171945,15 +171855,6 @@
     ]
   },
   {
-    "id": "2099202",
-    "name": "Inman Rd opp Orlando Rd",
-    "lat": "-33.73668",
-    "lon": "151.286303",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2099204",
     "name": "NBSC Cromer Campus, School Grounds, South Creek Rd",
     "lat": "-33.738424",
@@ -172525,33 +172426,6 @@
     "name": "Mary St at Dresden Ave",
     "lat": "-33.754651",
     "lon": "151.256706",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2100160",
-    "name": "Government Rd after Mary St",
-    "lat": "-33.754339",
-    "lon": "151.252594",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2100161",
-    "name": "Government Rd at Stephen St",
-    "lat": "-33.755933",
-    "lon": "151.252228",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2100162",
-    "name": "Ethie Rd opp Goroka Park",
-    "lat": "-33.757716",
-    "lon": "151.252531",
     "productClass": [
       5
     ]
@@ -183361,15 +183235,6 @@
     "name": "Woodville Rd at Clarke St",
     "lat": "-33.835565",
     "lon": "151.00168",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2142287",
-    "name": "Granville Station, Bridge St",
-    "lat": "-33.832341",
-    "lon": "151.011551",
     "productClass": [
       5
     ]
@@ -224363,6 +224228,24 @@
     ]
   },
   {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -233643,6 +233526,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -233661,10 +233553,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -252597,6 +252507,15 @@
     ]
   },
   {
+    "id": "2261337",
+    "name": "Lakedge Ave at Kingford Smith Dr",
+    "lat": "-33.335767",
+    "lon": "151.438123",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2261338",
     "name": "Lakedge Ave at Blenheim Ave",
     "lat": "-33.334087",
@@ -253186,6 +253105,15 @@
     "name": "Lindsay St after Bonnieview St",
     "lat": "-33.36864",
     "lon": "151.481825",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2261494",
+    "name": "Lakedge Ave after Windsor Rd",
+    "lat": "-33.335663",
+    "lon": "151.438287",
     "productClass": [
       5
     ]
@@ -304789,15 +304717,6 @@
     ]
   },
   {
-    "id": "2747352",
-    "name": "Park Ave opp Kingswood Station",
-    "lat": "-33.758279",
-    "lon": "150.72121",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2747354",
     "name": "Shane Park Rd after Palmyra Ave (Hail & Ride)",
     "lat": "-33.718536",
@@ -313368,24 +313287,6 @@
     ]
   },
   {
-    "id": "2760238",
-    "name": "Nariel St before Queen St (Temporary Station Stop - Interchange Closed)",
-    "lat": "-33.76279",
-    "lon": "150.774431",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2760239",
-    "name": "Nariel St before West La (Temporary Station Stop - Interchange Closed)",
-    "lat": "-33.762726",
-    "lon": "150.77392",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2760240",
     "name": "Glossop St after Brisbane St",
     "lat": "-33.766292",
@@ -314592,15 +314493,6 @@
     ]
   },
   {
-    "id": "2762103",
-    "name": "Schofields Public School, St Albans Rd",
-    "lat": "-33.692104",
-    "lon": "150.874286",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2762105",
     "name": "Wyndham College, Nirimba Campus, Eastern Rd",
     "lat": "-33.726263",
@@ -314617,6 +314509,15 @@
     "productClass": [
       5,
       1
+    ]
+  },
+  {
+    "id": "2762109",
+    "name": "Schofields Public School, St Albans Rd",
+    "lat": "-33.692104",
+    "lon": "150.874286",
+    "productClass": [
+      5
     ]
   },
   {
@@ -316411,16 +316312,6 @@
     ]
   },
   {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -317910,6 +317801,24 @@
     "name": "Hereford St after Manso Cres",
     "lat": "-33.647868",
     "lon": "150.88429",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765479",
+    "name": "Elara Village Shopping Centre, Elara Bvd",
+    "lat": "-33.69474",
+    "lon": "150.82056",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765480",
+    "name": "Elara Bvd opp Elara Village Shopping Centre",
+    "lat": "-33.694588",
+    "lon": "150.82056",
     "productClass": [
       5
     ]
@@ -330059,6 +329968,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
