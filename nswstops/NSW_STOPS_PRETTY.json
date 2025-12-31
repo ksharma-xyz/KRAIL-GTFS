@@ -44586,6 +44586,33 @@
     ]
   },
   {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -53555,15 +53582,6 @@
     "name": "Princes Rd East after Park Rd",
     "lat": "-33.876543",
     "lon": "151.024452",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214376",
-    "name": "Birrong Station, Hudson Pde",
-    "lat": "-33.893047",
-    "lon": "151.023788",
     "productClass": [
       5
     ]
@@ -111288,15 +111306,6 @@
     ]
   },
   {
-    "id": "229638",
-    "name": "Hamilton Station, Beaumont St",
-    "lat": "-32.91808",
-    "lon": "151.748382",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "229711",
     "name": "Maitland Rd at Elizabeth St",
     "lat": "-32.907018",
@@ -115419,15 +115428,6 @@
     ]
   },
   {
-    "id": "230760",
-    "name": "Astra St before Sandgate Rd",
-    "lat": "-32.874016",
-    "lon": "151.702",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "230811",
     "name": "University of Newcastle Western Entrance, University Dr",
     "lat": "-32.896677",
@@ -115542,16 +115542,6 @@
     "lon": "151.70982",
     "productClass": [
       5
-    ]
-  },
-  {
-    "id": "230830",
-    "name": "Warabrook Station",
-    "lat": "-32.888552",
-    "lon": "151.70945",
-    "productClass": [
-      5,
-      1
     ]
   },
   {
@@ -120635,15 +120625,6 @@
     "name": "Beverley Cl at Western Ave",
     "lat": "-32.80997",
     "lon": "151.658001",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232241",
-    "name": "Thornton Station, Karuah St",
-    "lat": "-32.783333",
-    "lon": "151.640192",
     "productClass": [
       5
     ]
@@ -183177,15 +183158,6 @@
     ]
   },
   {
-    "id": "2142279",
-    "name": "Clyde Station, Berry St",
-    "lat": "-33.835187",
-    "lon": "151.017404",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -184005,10 +183977,10 @@
     ]
   },
   {
-    "id": "2144236",
+    "id": "2144223",
     "name": "Auburn Station, Rawson St",
-    "lat": "-33.849424",
-    "lon": "151.033548",
+    "lat": "-33.849364",
+    "lon": "151.033711",
     "productClass": [
       5
     ]
@@ -192317,24 +192289,6 @@
     "name": "Hambledon Cottage Reserve, Hassall St",
     "lat": "-33.818437",
     "lon": "151.014229",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -201830,15 +201784,6 @@
     "name": "Sherwood Grange Public School, Bruce St",
     "lat": "-33.836043",
     "lon": "150.959783",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2160142",
-    "name": "Merrylands Rd at Railway Tce",
-    "lat": "-33.837054",
-    "lon": "150.992957",
     "productClass": [
       5
     ]
@@ -238269,6 +238214,15 @@
     ]
   },
   {
+    "id": "2250632",
+    "name": "Gosford Station, Showground Rd",
+    "lat": "-33.423324",
+    "lon": "151.341356",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2250639",
     "name": "Central Coast Hwy before Barralong Rd",
     "lat": "-33.434829",
@@ -268743,6 +268697,15 @@
     ]
   },
   {
+    "id": "2303136",
+    "name": "Hamilton Station, Beaumont St",
+    "lat": "-32.918923",
+    "lon": "151.748003",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2303137",
     "name": "Beaumont St at Cleary St",
     "lat": "-32.921169",
@@ -273666,15 +273629,6 @@
     ]
   },
   {
-    "id": "2320281",
-    "name": "Telarah Station, Johnson St",
-    "lat": "-32.722687",
-    "lon": "151.540111",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2320284",
     "name": "Anambah Rd before Cagney Rd",
     "lat": "-32.701919",
@@ -274498,15 +274452,6 @@
     "name": "Lovedale Rd opp 724",
     "lat": "-32.741857",
     "lon": "151.388895",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2320407",
-    "name": "Abbot St at Tulloch Ln",
-    "lat": "-32.74046",
-    "lon": "151.563",
     "productClass": [
       5
     ]
@@ -276141,33 +276086,6 @@
     ]
   },
   {
-    "id": "2322208",
-    "name": "Tarro Public School, Anderson Dr",
-    "lat": "-32.809793",
-    "lon": "151.665766",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2322209",
-    "name": "Addison St opp Beresfield Station",
-    "lat": "-32.799718",
-    "lon": "151.658196",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2322210",
-    "name": "Beresfield Station, Addison St",
-    "lat": "-32.799638",
-    "lon": "151.658314",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2322213",
     "name": "Lenaghans Dr after Pacific Mwy",
     "lat": "-32.820171",
@@ -277650,16 +277568,6 @@
     "lon": "151.599361",
     "productClass": [
       5
-    ]
-  },
-  {
-    "id": "2323263",
-    "name": "East Maitland Station",
-    "lat": "-32.744544",
-    "lon": "151.587577",
-    "productClass": [
-      5,
-      1
     ]
   },
   {
@@ -316312,6 +316220,16 @@
     ]
   },
   {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -325368,6 +325286,15 @@
     ]
   },
   {
+    "id": "232330",
+    "name": "East Maitland Station",
+    "lat": "-32.74494",
+    "lon": "151.587433",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "G15107",
     "name": "Echuca Coach Stop",
     "lat": "-36.12403354",
@@ -327489,6 +327416,15 @@
     "name": "Wangaratta Station",
     "lat": "-36.355371",
     "lon": "146.31661",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "230420",
+    "name": "Warabrook Station",
+    "lat": "-32.887184",
+    "lon": "151.709989",
     "productClass": [
       1
     ]
@@ -329968,15 +329904,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]
