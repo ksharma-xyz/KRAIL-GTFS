@@ -1,16 +1,16 @@
 package app.krail.kgtfs.network
 
+import app.krail.kgtfs.AppConstants
 import app.krail.kgtfs.io.suspendSafeResult
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import kotlinx.coroutines.Dispatchers
-import okio.Path.Companion.toPath
-import java.nio.file.Paths
 
-val projectRoot = Paths.get("").toAbsolutePath().toString()
-val cacheDirectory = "$projectRoot/cache"
-val cacheDirPath = cacheDirectory.toPath()
+// Import cache constants from AppConstants
+val projectRoot = AppConstants.PROJECT_ROOT
+val cacheDirectory = AppConstants.CACHE_DIRECTORY
+val cacheDirPath = AppConstants.CACHE_DIR_PATH
 
 /**
  * Source: https://opendata.transport.nsw.gov.au/data/dataset/public-transport-timetables-realtime
