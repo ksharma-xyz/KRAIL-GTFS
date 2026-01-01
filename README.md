@@ -170,3 +170,30 @@ This project is licensed under the Apache License. See `LICENSE` file for more d
 If you have any questions or feedback, feel free to raise an issue or reach out to the maintainers.
 
 Email: hey@krail.app
+
+## Documentation / GitHub Pages
+
+Project documentation is built with MkDocs Material and deployed to GitHub Pages automatically.
+
+- Full setup and troubleshooting: `GITHUB_PAGES_SETUP.md`
+
+Quick local install (recommended):
+
+```bash
+# Use python3 -m pip to ensure pip is available
+python3 -m pip install --user mkdocs-material pymdown-extensions
+# If mkdocs is not found, add user base bin to PATH
+python3 -m site --user-base
+# Serve locally
+mkdocs serve
+```
+
+To deploy docs locally (build output):
+
+```bash
+mkdocs build
+# Output in `site/` directory
+```
+
+The repository includes an Actions workflow `.github/workflows/deploy-docs.yml` which automatically
+builds and deploys the site to the `gh-pages` branch when `docs/` or `mkdocs.yml` changes.

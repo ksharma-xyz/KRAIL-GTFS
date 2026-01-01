@@ -51,6 +51,28 @@ Automated workflow that generates GTFS data and deploys it to the KRAIL mobile a
 
 ---
 
+## Data Flow
+
+Below is the high-level data flow for GTFS processing (Mermaid diagram). Use `mkdocs serve` locally to preview; the `mkdocs-material` theme supports Mermaid when `pymdownx.superfences` and `pymdownx.snippets` are enabled in `mkdocs.yml`.
+
+```mermaid
+graph TB
+  A[NSW Transport API] --> B[Download GTFS Zips]
+  B --> C[Extract to cache/]
+  C --> D[Parse CSV → Kotlin Objects]
+  D --> E{Process Data}
+  E --> F[Process Stops]
+  E --> G[Process Routes]
+  F --> H[NSW_STOPS.pb]
+  G --> I[NSW_BUSES_ROUTES.pb]
+  H --> J[CI/CD Pipeline]
+  I --> J
+  J --> K[Create PR in KRAIL App]
+  K --> L[Auto-Merge]
+```
+
+---
+
 ## Workflows
 
 ### 1. `update-krail-app.yml`
@@ -360,3 +382,57 @@ The PR has been configured for auto-merge and will be merged once checks pass.
 - ❌ PR creation fails → Check GitHub App permissions
 - ❌ No changes detected → Normal, no action needed
 
+## Docs Deployment (MkDocs)
+
+The repository includes a dedicated workflow to build and deploy the MkDocs site to GitHub Pages.
+
+- Workflow: `.github/workflows/deploy-docs.yml`
+- Trigger: push to `main` (when `docs/**`, `mkdocs.yml` or the workflow file itself changes), or manual `workflow_dispatch`.
+
+Key steps the workflow performs:
+
+1. Checkout repository
+2. Configure Git credentials (github-actions[bot])
+3. Install `mkdocs-material` and cache dependencies
+4. Run `mkdocs gh-deploy --force` to publish to `gh-pages`
+
+See `GITHUB_PAGES_SETUP.md` for local install instructions and troubleshooting tips.
+
+### Local preview
+
+```bash
+# If pip missing use python3 -m pip
+python3 -m pip install --user mkdocs-material pymdown-extensions
+# Serve locally
+mkdocs serve
+```
+
+### When to run
+
+- Use the workflow when you update `docs/` content or change `mkdocs.yml`.
+- The workflow will automatically commit to the `gh-pages` branch and publish the site.
+
+---
+
+## Docs / Local MkDocs Notes
+
+If you installed `mkdocs` with `python3 -m pip install --user ...` on macOS you may see the scripts installed to a user-local `bin` directory that is not on your PATH (this is the warning you saw). Add the user-local Python `bin` to your PATH so `mkdocs` and other scripts are available in new terminal sessions.
+
+Recommended (portable) command to add to your `~/.zshrc` (works across Python versions):
+
+```bash
+# Add this line to your ~/.zshrc (one-liner):
+# It prepends the user-base bin directory so user installs work without changing system python
+echo 'export PATH="$(python3 -m site --user-base)/bin:$PATH"' >> ~/.zshrc
+# Then reload your shell
+source ~/.zshrc
+```
+
+After this, `mkdocs` (and `pip`/`pip3` user-installed scripts) should be available in new shells. Alternatively use a virtual environment to avoid changing PATH:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs-material pymdown-extensions
+mkdocs serve
+```
