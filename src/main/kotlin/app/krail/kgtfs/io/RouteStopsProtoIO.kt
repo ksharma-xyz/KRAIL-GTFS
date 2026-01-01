@@ -2,8 +2,8 @@ package app.krail.kgtfs.io
 
 import app.krail.kgtfs.AppConstants
 import app.krail.kgtfs.model.MinimalRouteStopsJson
-import app.krail.kgtfs.proto.NswRoute
-import app.krail.kgtfs.proto.NswRouteList
+import app.krail.kgtfs.proto.KrailRoute
+import app.krail.kgtfs.proto.KrailRouteList
 import kotlinx.datetime.Clock
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
@@ -27,20 +27,20 @@ object RouteStopsProtoIO {
         val start = Clock.System.now()
 
         val routeList = data.routes.map { (routeNumber, stopIds) ->
-            NswRoute(
+            KrailRoute(
                 routeNumber = routeNumber,
                 stopIds = stopIds
             )
         }
 
-        val protobufData = NswRouteList(
+        val protobufData = KrailRouteList(
             transportMode = data.transportMode,
             totalRoutes = data.totalRoutes,
             generatedAt = data.generatedAt,
             routes = routeList
         )
 
-        val adapter = NswRouteList.ADAPTER
+        val adapter = KrailRouteList.ADAPTER
         FileOutputStream(filePath).use { output ->
             output.write(adapter.encode(protobufData))
         }
@@ -58,11 +58,11 @@ object RouteStopsProtoIO {
      * @param filePath Input .pb file path
      * @return Decoded route list
      */
-    fun readProtoFile(filePath: String): NswRouteList {
+    fun readProtoFile(filePath: String): KrailRouteList {
         val start = Clock.System.now()
 
         val decoded = FileInputStream(filePath).use { input ->
-            NswRouteList.ADAPTER.decode(input)
+            KrailRouteList.ADAPTER.decode(input)
         }
 
         val duration = start.until(
@@ -76,12 +76,12 @@ object RouteStopsProtoIO {
     /**
      * Convert decoded protobuf back to MinimalRouteStopsJson.
      */
-    fun toMinimalRouteStopsJson(nswRouteList: NswRouteList): MinimalRouteStopsJson {
+    fun toMinimalRouteStopsJson(krailRouteList: KrailRouteList): MinimalRouteStopsJson {
         return MinimalRouteStopsJson(
-            transportMode = nswRouteList.transportMode,
-            totalRoutes = nswRouteList.totalRoutes,
-            generatedAt = nswRouteList.generatedAt,
-            routes = nswRouteList.routes.associate { route ->
+            transportMode = krailRouteList.transportMode,
+            totalRoutes = krailRouteList.totalRoutes,
+            generatedAt = krailRouteList.generatedAt,
+            routes = krailRouteList.routes.associate { route ->
                 route.routeNumber to route.stopIds
             }
         )

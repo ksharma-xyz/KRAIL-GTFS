@@ -1,5 +1,5 @@
 name: Update KRAIL App Repository
-description: Updates the KRAIL app repository with latest NSW_STOPS.pb file and bumps version
+description: Updates the KRAIL app repository with latest NSW GTFS .pb files (stops + routes) and bumps version
 
 inputs:
   krail-repo:
@@ -9,14 +9,22 @@ inputs:
   github-token:
     description: 'GitHub token with permissions to create PRs in KRAIL repo'
     required: true
-  pb-file-path:
+  stops-pb-file-path:
     description: 'Path to the NSW_STOPS.pb file to copy'
     required: false
     default: 'cache/NSW_STOPS.pb'
-  target-pb-path:
-    description: 'Target path in KRAIL repo for the .pb file'
+  routes-pb-file-path:
+    description: 'Path to the NSW_BUSES_ROUTES.pb file to copy'
+    required: false
+    default: 'cache/NSW_BUSES_ROUTES.pb'
+  target-stops-pb-path:
+    description: 'Target path in KRAIL repo for the stops .pb file'
     required: false
     default: 'io/gtfs/src/commonMain/composeResources/files/NSW_STOPS.pb'
+  target-routes-pb-path:
+    description: 'Target path in KRAIL repo for the routes .pb file'
+    required: false
+    default: 'io/gtfs/src/commonMain/composeResources/files/NSW_BUSES_ROUTES.pb'
   preferences-file-path:
     description: 'Path to SandookPreferences.kt in KRAIL repo'
     required: false
@@ -42,15 +50,24 @@ outputs:
 runs:
   using: composite
   steps:
-    - name: Verify PB file exists
+    - name: Verify PB files exist
       shell: bash
       run: |
-        if [ ! -f "${{ inputs.pb-file-path }}" ]; then
-          echo "ERROR: NSW_STOPS.pb not found at ${{ inputs.pb-file-path }}"
+        echo "Verifying GTFS Protobuf files..."
+        
+        # Check NSW_STOPS.pb
+        if [ ! -f "${{ inputs.stops-pb-file-path }}" ]; then
+          echo "ERROR: NSW_STOPS.pb not found at ${{ inputs.stops-pb-file-path }}"
           exit 1
         fi
-        echo "✓ NSW_STOPS.pb found"
-        ls -lh "${{ inputs.pb-file-path }}"
+        echo "✓ NSW_STOPS.pb found ($(ls -lh "${{ inputs.stops-pb-file-path }}" | awk '{print $5}'))"
+        
+        # Check NSW_BUSES_ROUTES.pb
+        if [ ! -f "${{ inputs.routes-pb-file-path }}" ]; then
+          echo "ERROR: NSW_BUSES_ROUTES.pb not found at ${{ inputs.routes-pb-file-path }}"
+          exit 1
+        fi
+        echo "✓ NSW_BUSES_ROUTES.pb found ($(ls -lh "${{ inputs.routes-pb-file-path }}" | awk '{print $5}'))"
 
     - name: Checkout KRAIL repository
       uses: actions/checkout@v6
@@ -59,13 +76,20 @@ runs:
         token: ${{ inputs.github-token }}
         path: krail-app
 
-    - name: Copy PB file to KRAIL repository
+    - name: Copy PB files to KRAIL repository
       shell: bash
       run: |
-        TARGET_DIR=$(dirname "krail-app/${{ inputs.target-pb-path }}")
-        mkdir -p "$TARGET_DIR"
-        cp "${{ inputs.pb-file-path }}" "krail-app/${{ inputs.target-pb-path }}"
+        # Copy stops .pb file
+        STOPS_TARGET_DIR=$(dirname "krail-app/${{ inputs.target-stops-pb-path }}")
+        mkdir -p "$STOPS_TARGET_DIR"
+        cp "${{ inputs.stops-pb-file-path }}" "krail-app/${{ inputs.target-stops-pb-path }}"
         echo "✓ Copied NSW_STOPS.pb to KRAIL repository"
+        
+        # Copy routes .pb file
+        ROUTES_TARGET_DIR=$(dirname "krail-app/${{ inputs.target-routes-pb-path }}")
+        mkdir -p "$ROUTES_TARGET_DIR"
+        cp "${{ inputs.routes-pb-file-path }}" "krail-app/${{ inputs.target-routes-pb-path }}"
+        echo "✓ Copied NSW_BUSES_ROUTES.pb to KRAIL repository"
 
     - name: Bump NSW_STOPS_VERSION
       id: bump-version
@@ -101,13 +125,18 @@ runs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        PB_FILE="${{ inputs.target-pb-path }}"
+        STOPS_PB_FILE="${{ inputs.target-stops-pb-path }}"
+        ROUTES_PB_FILE="${{ inputs.target-routes-pb-path }}"
         PREFS_FILE="${{ inputs.preferences-file-path }}"
         
-        # Check if files exist
-        if [ -f "$PB_FILE" ] && [ -f "$PREFS_FILE" ]; then
-          # Both files exist, check for changes
-          if git diff --quiet "$PB_FILE" "$PREFS_FILE" 2>/dev/null; then
+        # Check if files exist and have changes
+        FILES_TO_CHECK=""
+        [ -f "$STOPS_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $STOPS_PB_FILE"
+        [ -f "$ROUTES_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $ROUTES_PB_FILE"
+        [ -f "$PREFS_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $PREFS_FILE"
+        
+        if [ -n "$FILES_TO_CHECK" ]; then
+          if git diff --quiet $FILES_TO_CHECK 2>/dev/null; then
             echo "✓ No changes detected - skipping PR creation"
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
@@ -115,8 +144,7 @@ runs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
         else
-          # One or both files don't exist yet (new setup)
-          echo "ℹ️  One or both files do not exist yet; treating as changes"
+          echo "ℹ️  Files do not exist yet; treating as changes"
           echo "has_changes=true" >> $GITHUB_OUTPUT
         fi
 
@@ -142,26 +170,33 @@ runs:
       env:
         GH_TOKEN: ${{ inputs.github-token }}
       run: |
-        BRANCH_NAME="update-gtfs-stops-${{ inputs.run-number }}"
+        BRANCH_NAME="update-gtfs-data-${{ inputs.run-number }}"
         
         git checkout -b "$BRANCH_NAME"
-        git add "${{ inputs.target-pb-path }}"
+        git add "${{ inputs.target-stops-pb-path }}"
+        git add "${{ inputs.target-routes-pb-path }}"
         git add "${{ inputs.preferences-file-path }}"
-        git commit -m "Update NSW GTFS stops data and bump version
+        git commit -m "Update NSW GTFS data (stops + routes) and bump version
 
-        - Updated NSW_STOPS.pb with latest GTFS data
+        - Updated NSW_STOPS.pb with latest GTFS stops data
+        - Updated NSW_BUSES_ROUTES.pb with latest route-to-stops mappings
         - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}"
         git push -u origin "$BRANCH_NAME"
         
         PR_URL=$(gh pr create \
-          --title "Update NSW GTFS stops data" \
-          --body "Auto-generated update of NSW_STOPS.pb file from [KRAIL-GTFS](https://github.com/ksharma-xyz/KRAIL-GTFS) repository.
+          --title "Update NSW GTFS data (stops + routes)" \
+          --body "Auto-generated update of NSW GTFS Protobuf files from [KRAIL-GTFS](https://github.com/ksharma-xyz/KRAIL-GTFS) repository.
         
-        This PR updates the GTFS stops data used for transit stop search functionality in the KRAIL app.
+        This PR updates the GTFS data used for transit functionality in the KRAIL app.
         
         **Changes:**
-        - Updated \`${{ inputs.target-pb-path }}\` with latest GTFS data
+        - Updated \`${{ inputs.target-stops-pb-path }}\` with latest GTFS stops data
+        - Updated \`${{ inputs.target-routes-pb-path }}\` with latest route-to-stops mappings
         - Bumped \`NSW_STOPS_VERSION\` to **${{ steps.bump-version.outputs.new_version }}** in \`SandookPreferences.kt\`
+        
+        **What's included:**
+        - 🚏 **Stops data**: All NSW transport stops with coordinates
+        - 🚌 **Routes data**: Bus route numbers mapped to their stop sequences
         
         **Source:** Automated workflow from KRAIL-GTFS repository  
         **Workflow:** \`${{ github.workflow }}\`  

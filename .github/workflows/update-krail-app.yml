@@ -87,14 +87,23 @@ jobs:
           echo "⚙️  Generating GTFS data from scratch..."
           ./gradlew runKRAIL-GTFS
 
-      - name: Verify PB file exists
+      - name: Verify PB files exist
         run: |
+          echo "Verifying generated Protobuf files..."
+          
+          # Check NSW_STOPS.pb
           if [ ! -f "cache/NSW_STOPS.pb" ]; then
-            echo "ERROR: NSW_STOPS.pb not found!"
+            echo "❌ ERROR: NSW_STOPS.pb not found!"
             exit 1
           fi
-          echo "✓ NSW_STOPS.pb found"
-          ls -lh cache/NSW_STOPS.pb
+          echo "✓ NSW_STOPS.pb found ($(ls -lh cache/NSW_STOPS.pb | awk '{print $5}'))"
+          
+          # Check NSW_BUSES_ROUTES.pb
+          if [ ! -f "cache/NSW_BUSES_ROUTES.pb" ]; then
+            echo "❌ ERROR: NSW_BUSES_ROUTES.pb not found!"
+            exit 1
+          fi
+          echo "✓ NSW_BUSES_ROUTES.pb found ($(ls -lh cache/NSW_BUSES_ROUTES.pb | awk '{print $5}'))"
           
           # Log whether we used artifacts or generated fresh data
           if [ "${{ steps.download-artifact.outcome }}" == "success" ]; then
@@ -109,7 +118,8 @@ jobs:
         with:
           krail-repo: ${{ inputs.krail-repo }}
           github-token: ${{ steps.generate-token.outputs.token }}
-          pb-file-path: cache/NSW_STOPS.pb
+          stops-pb-file-path: cache/NSW_STOPS.pb
+          routes-pb-file-path: cache/NSW_BUSES_ROUTES.pb
           run-number: ${{ github.run_number }}
 
       - name: Summary
