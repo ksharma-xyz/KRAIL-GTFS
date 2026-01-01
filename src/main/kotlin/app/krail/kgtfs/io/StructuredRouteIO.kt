@@ -35,7 +35,7 @@ object StructuredRouteIO {
             writeJsonToFile(
                 data = exportData,
                 path = AppConstants.CACHE_DIR_PATH,
-                fileName = "${filePrefix}_PRETTY",
+                fileName = filePrefix,
                 pretty = true
             )
 
@@ -50,7 +50,12 @@ object StructuredRouteIO {
             // Write Protobuf
             if (exportProtobuf) {
                 try {
-                    writeProtoFile(exportData, "${AppConstants.CACHE_DIR_PATH}/$filePrefix.pb")
+                    val pbFileName = if (filePrefix == AppConstants.OutputFiles.NSW_BUSES_ROUTES) {
+                        AppConstants.OutputFiles.NSW_BUSES_ROUTES_PB
+                    } else {
+                        "$filePrefix${AppConstants.FileExtensions.PROTOBUF}"
+                    }
+                    writeProtoFile(exportData, "${AppConstants.CACHE_DIR_PATH}/$pbFileName")
                 } catch (e: Exception) {
                     println("[$transportMode] ⚠ Failed to export Protobuf: ${e.message}")
                 }

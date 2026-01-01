@@ -1,8 +1,7 @@
 package app.krail.kgtfs.nsw
 
+import app.krail.kgtfs.AppConstants
 import app.krail.kgtfs.csv.CsvReader.readGtfsStops
-import app.krail.kgtfs.io.FileStorage.TXT_EXTENSION
-import app.krail.kgtfs.io.FileStorage.ZIP_EXTENSION
 import app.krail.kgtfs.io.FileStorage.saveFile
 import app.krail.kgtfs.io.ZipFileManager.unzip
 import app.krail.kgtfs.model.GtfsStop
@@ -49,7 +48,7 @@ object NswTransport {
             // Save the data to cache directory
             val data = response.readRawBytes()
             saveFile(
-                fileName = "$modeName$ZIP_EXTENSION",
+                fileName = "$modeName${AppConstants.FileExtensions.ZIP}",
                 data = data,
                 directory = cacheDirectory,
             )
@@ -58,14 +57,14 @@ object NswTransport {
 
         // Unzip the data
         unzip(
-            zipPath = "$cacheDirectory/$modeName$ZIP_EXTENSION".toPath(),
+            zipPath = "$cacheDirectory/$modeName${AppConstants.FileExtensions.ZIP}".toPath(),
             destinationPath = "$cacheDirectory/$modeName".toPath()
         )
 
         // Read the stops from the unzipped data from TXT file.
         // Convert the data to [GtfsStop] list
         val gtfsStops = readGtfsStops(
-            path = "$cacheDirectory/$modeName/stops$TXT_EXTENSION".toPath(),
+            path = "$cacheDirectory/$modeName/stops${AppConstants.FileExtensions.TXT}".toPath(),
             nswTransportModeType = this,
         )
 
@@ -73,7 +72,7 @@ object NswTransport {
         // Convert the data to [GtfsStopTime] list.
         // TODO - This has a issue, stop_times do not have all stopIds
         /*val gtfsStopTimes = readGtfsStopTimes(
-            path = "$cacheDirectory/$modeName/stop_times$TXT_EXTENSION".toPath(),
+            path = "$cacheDirectory/$modeName/stop_times${AppConstants.FileExtensions.TXT}".toPath(),
             nswTransportModeType = this,
         )*/
 

@@ -45,7 +45,11 @@ object RouteProcessor {
 
             // Export (JSON and/or Protobuf)
             if (exportToJson || exportToProtobuf) {
-                val filePrefix = "NSW_${transportMode.modeName.uppercase()}_ROUTES"
+                val filePrefix = if (transportMode == NswTransportModeType.BUSES) {
+                    AppConstants.OutputFiles.NSW_BUSES_ROUTES
+                } else {
+                    "NSW_${transportMode.modeName.uppercase()}_ROUTES"
+                }
                 // Export structured data (New Format, Old Filenames)
                 app.krail.kgtfs.io.StructuredRouteIO.writeStructuredRoutes(
                     repository = repository,

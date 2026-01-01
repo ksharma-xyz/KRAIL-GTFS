@@ -7,6 +7,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.Path
 
+import app.krail.kgtfs.AppConstants
+
 object CsvReader {
 
     suspend inline fun <reified T> readCsvFile(
@@ -33,12 +35,12 @@ object CsvReader {
         val data = mutableListOf<GtfsStop>()
         try {
             data.addAll(readCsvFile(path = path) { dataMap ->
-                val stopId = dataMap[GtfsStopField.STOP_ID]
-                val stopName = dataMap[GtfsStopField.STOP_NAME]
-                val stopLat = dataMap[GtfsStopField.STOP_LAT]?.toDoubleOrNull()
-                val stopLon = dataMap[GtfsStopField.STOP_LON]?.toDoubleOrNull()
-                val locationType = dataMap[GtfsStopField.LOCATION_TYPE]
-                val parentStation = dataMap[GtfsStopField.PARENT_STATION]
+                val stopId = dataMap[AppConstants.GtfsFields.STOP_ID]
+                val stopName = dataMap[AppConstants.GtfsFields.STOP_NAME]
+                val stopLat = dataMap[AppConstants.GtfsFields.STOP_LAT]?.toDoubleOrNull()
+                val stopLon = dataMap[AppConstants.GtfsFields.STOP_LON]?.toDoubleOrNull()
+                val locationType = dataMap[AppConstants.GtfsFields.LOCATION_TYPE]
+                val parentStation = dataMap[AppConstants.GtfsFields.PARENT_STATION]
                 val finalStopId = parentStation?.takeIf { it.isNotEmpty() } ?: stopId
 
                 if (finalStopId != null && stopName != null && stopLat != null && stopLon != null) {
@@ -86,17 +88,17 @@ object CsvReader {
 
         try {
             data.addAll(readCsvFile(path = path) { dataMap ->
-                val stopId = dataMap[GtfsStopTimeField.STOP_ID]
-                val tripId = dataMap[GtfsStopTimeField.TRIP_ID]
-                val arrivalTime = dataMap[GtfsStopTimeField.ARRIVAL_TIME]
-                val departureTime = dataMap[GtfsStopTimeField.DEPARTURE_TIME]
-                val stopSequence = dataMap[GtfsStopTimeField.STOP_SEQUENCE]?.toIntOrNull()
-                val stopHeadsign = dataMap[GtfsStopTimeField.STOP_HEADSIGN]
-                val pickupType = dataMap[GtfsStopTimeField.PICKUP_TYPE]?.toIntOrNull()
-                val dropOffType = dataMap[GtfsStopTimeField.DROP_OFF_TYPE]?.toIntOrNull()
-                val timepoint = dataMap[GtfsStopTimeField.TIMEPOINT]?.toIntOrNull()
-                val stopNote = dataMap[GtfsStopTimeField.STOP_NOTE]
-                val shapeDistTraveled = dataMap[GtfsStopTimeField.SHAPE_DIST_TRAVELED]?.toDoubleOrNull()
+                val stopId = dataMap[AppConstants.GtfsFields.STOP_ID]
+                val tripId = dataMap[AppConstants.GtfsFields.TRIP_ID]
+                val arrivalTime = dataMap[AppConstants.GtfsFields.ARRIVAL_TIME]
+                val departureTime = dataMap[AppConstants.GtfsFields.DEPARTURE_TIME]
+                val stopSequence = dataMap[AppConstants.GtfsFields.STOP_SEQUENCE]?.toIntOrNull()
+                val stopHeadsign = dataMap[AppConstants.GtfsFields.STOP_HEADSIGN]
+                val pickupType = dataMap[AppConstants.GtfsFields.PICKUP_TYPE]?.toIntOrNull()
+                val dropOffType = dataMap[AppConstants.GtfsFields.DROP_OFF_TYPE]?.toIntOrNull()
+                val timepoint = dataMap[AppConstants.GtfsFields.TIMEPOINT]?.toIntOrNull()
+                val stopNote = dataMap[AppConstants.GtfsFields.STOP_NOTE]
+                val shapeDistTraveled = dataMap[AppConstants.GtfsFields.SHAPE_DIST_TRAVELED]?.toDoubleOrNull()
 
                 if (stopId != null && tripId != null && arrivalTime != null && departureTime != null && stopSequence != null) {
                     GtfsStopTime(

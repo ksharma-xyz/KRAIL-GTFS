@@ -4,6 +4,7 @@ import app.krail.kgtfs.filter.BusStopsFilter.filterOutBusStandData
 import app.krail.kgtfs.filter.SydneyFerryFilter.processSydneyFerryData
 import app.krail.kgtfs.io.NswStopsJsonIO.writeStopData
 import app.krail.kgtfs.io.writeParkRideData
+import app.krail.kgtfs.model.StopJson
 import app.krail.kgtfs.nsw.NswGtfsManager
 import app.krail.kgtfs.nsw.NswTransportModeType
 import app.krail.kgtfs.routes.RouteProcessor
@@ -21,31 +22,31 @@ fun main() {
 
         // Process stops and routes in parallel
         coroutineScope {
-            // Stop processing
-            val stopsJob = async {
-                nswData
-                    .let(::filterOutBusStandData)
-                    .let(::processSydneyFerryData)
-                    .let {
-                        writeStopData(it)
-                        writeParkRideData(it)
-                    }
-            }
+            val stopsJob = async { processStops(nswData) }
+            val routesJob = async { processRoutes() }
 
-            // Route processing (parallel) - exports both JSON and Protobuf
-            val routesJob = async {
-                RouteProcessor.processAndExport(
-                    transportMode = NswTransportModeType.BUSES,
-                    exportToJson = true,
-                    exportToProtobuf = true
-                )
-            }
-
-            // Wait for both to complete
             stopsJob.await()
             routesJob.await()
         }
 
         exitProcess(0)
     }
+}
+
+suspend fun processStops(nswData: List<StopJson>) {
+    nswData
+        .let(::filterOutBusStandData)
+        .let(::processSydneyFerryData)
+        .let {
+            writeStopData(it)
+            writeParkRideData(it)
+        }
+}
+
+suspend fun processRoutes() {
+    RouteProcessor.processAndExport(
+        transportMode = NswTransportModeType.BUSES,
+        exportToJson = true,
+        exportToProtobuf = true
+    )
 }
