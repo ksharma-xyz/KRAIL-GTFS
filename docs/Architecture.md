@@ -36,42 +36,56 @@ routes.txt       trips.txt       stop_times.txt       stops.txt
 ## Core Algorithm
 
 ```
-function buildRouteToStopsMap(cacheDirectory, modeName, nswTransportModeType):
+function buildStructuredRouteData(cacheDirectory, modeName, nswTransportModeType):
     // 1. Read all GTFS files
-    stops = readGtfsStops("$cacheDirectory/$modeName/stops.txt")
-    routes = readGtfsRoutes("$cacheDirectory/$modeName/routes.txt")
-    trips = readGtfsTrips("$cacheDirectory/$modeName/trips.txt")
-    stopTimes = readGtfsStopTimes("$cacheDirectory/$modeName/stop_times.txt")
+    stops = readGtfsStops(...)
+    routes = readGtfsRoutes(...)
+    trips = readGtfsTrips(...)
+    stopTimes = readGtfsStopTimes(...)
     
-    // 2. Build lookup indices
-    stopById = stops.associateBy { it.stopId }
-    routeIdToShortName = routes.associate { route_id -> route_short_name }
-    tripsByRoute = trips.groupBy { it.routeId }
-    stopTimesByTrip = stopTimes.groupBy { it.tripId }
+    // 2. Group routes by short name (e.g. "702")
+    routesByShortName = routes.groupBy { it.routeShortName }
     
-    // 3. Aggregate stops per route (across all trip variants)
-    routeToStopsMap = {}
+    // 3. Build structured hierarchy
+    structuredData = {}
     
-    for each (routeId, tripsForRoute) in tripsByRoute:
-        routeShortName = routeIdToShortName[routeId]
-        allStopsForRoute = LinkedHashSet() // preserves order, removes duplicates
+    for each (shortName, variants) in routesByShortName:
+        routeVariants = []
         
-        for each trip in tripsForRoute:
-            stopsForTrip = stopTimesByTrip[trip.tripId]
-                .sortedBy { it.stopSequence }
-                .map { stopById[it.stopId] }
+        for each variant in variants:
+            // Find trips for this specific route_id (e.g. "2504_702")
+            tripsForVariant = trips.filter { it.routeId == variant.routeId }
             
-            allStopsForRoute.addAll(stopsForTrip)
+            // Group by direction/headsign
+            tripsByDirection = tripsForVariant.groupBy { it.headsign }
+            
+            tripOptions = []
+            for each (headsign, trips) in tripsByDirection:
+                // Pick representative trip (longest sequence)
+                representativeTrip = trips.maxBy { it.stopCount }
+                stopIds = getStopsForTrip(representativeTrip)
+                
+                tripOptions.add({
+                    trip_id: representativeTrip.tripId,
+                    headsign: headsign,
+                    stop_ids: stopIds
+                })
+            
+            routeVariants.add({
+                route_id: variant.routeId,
+                route_name: variant.routeLongName,
+                trips: tripOptions
+            })
+            
+        structuredData[shortName] = routeVariants
         
-        routeToStopsMap[routeShortName] = allStopsForRoute.toList()
-    
-    return routeToStopsMap
+    return structuredData
 ```
 
 **Key Points:**
-- Merges all trip variants (inbound/outbound/peak/off-peak) into single stop list per route
-- Uses `LinkedHashSet` to deduplicate while preserving order
-- Pre-builds indices for O(1) lookups instead of O(n) filtering
+- **Solves Route Collisions:** Distinguishes between different routes sharing the same number (e.g. 702 in Sydney vs Newcastle)
+- **Direction Aware:** Provides specific stop lists for each direction/headsign
+- **Representative Trips:** Selects the most complete trip pattern for static display
 
 ---
 
@@ -93,40 +107,40 @@ function buildRouteToStopsMap(cacheDirectory, modeName, nswTransportModeType):
 │  - Builds indices once, caches results      │
 │                                             │
 │  API:                                       │
-│  + getStopsByRoute(routeNum)                │
-│  + getStopsByRouteAndDirection(num, dir)    │
+│  + getStructuredRouteData()                 │
 │  + getAllRoutes()                           │
 │  + getStats()                               │
 └──────────────────┬──────────────────────────┘
-                   │
-                   v
-┌─────────────────────────────────────────────┐
-│          Cached Indices (In-Memory)         │
-│  - routeToStopsMap: Map<String, List<Stop>> │
-│  - routeDirectionToStops: Map<Key, List>    │
-│  - stopById: Map<StopId, GtfsStop>          │
-└─────────────────────────────────────────────┘
 ```
 
-### JSON Export (Minimal Format)
+### JSON Export (Structured Format)
 
 ```kotlin
 // Output: cache/NSW_BUSES_ROUTES.json
 {
   "transport_mode": "Buses",
-  "total_routes": 4702,
-  "generated_at": "2026-01-01T12:00:00Z",
   "routes": {
-    "303": ["2031186", "203256", "203323", ...],  // only stop IDs
-    "M50": ["209512", "209513", ...]               // 97% size reduction
+    "702": [
+      {
+        "route_id": "2504_702",
+        "route_name": "Blacktown to Seven Hills",
+        "trips": [
+          {
+            "trip_id": "2303543",
+            "headsign": "Blacktown to Seven Hills",
+            "stop_ids": ["214818", "214820", ...]
+          }
+        ]
+      }
+    ]
   }
 }
 ```
 
-**Why Minimal:**
-- Mobile app already has stop details (name, lat, lon) in local DB
-- Only need stop IDs in sequence
-- Array position = sequence number (no redundant field)
+**Why Structured:**
+- Enables disambiguation of routes with same short name
+- Provides direction-specific stop lists (TripView style)
+- Optimized for mobile app navigation flow
 
 ---
 
@@ -140,12 +154,11 @@ function buildRouteToStopsMap(cacheDirectory, modeName, nswTransportModeType):
 ### Data Models
 - **`app.krail.kgtfs.model.GtfsRoute`** - Route data class
 - **`app.krail.kgtfs.model.GtfsTrip`** - Trip data class
-- **`app.krail.kgtfs.model.GtfsStopTime`** - Stop time data class
-- **`app.krail.kgtfs.model.RouteStopsJson`** - Minimal JSON export model
+- **`app.krail.kgtfs.model.StructuredRouteData`** - Structured export model
 
 ### File I/O
 - **`app.krail.kgtfs.csv.CsvReader`** - Reads GTFS CSV files
-- **`app.krail.kgtfs.io.RouteStopsJsonIO`** - Exports to JSON
+- **`app.krail.kgtfs.io.StructuredRouteIO`** - Exports to JSON and Protobuf
 - **`app.krail.kgtfs.io.FileStorage`** - Generic JSON writing utility
 
 ### Entry Point

@@ -112,8 +112,6 @@ class InMemoryGtfsRepository(
         // Create lookup maps
         val stopById = stops.associateBy { it.stopId.id }
         val routeIdToShortName = routes.associate { it.routeId to it.routeShortName }
-        val tripIdToRoute = trips.associate { it.tripId to it.routeId }
-        val tripIdToDirection = trips.associate { it.tripId to it.directionId }
 
         // Index stop times by trip for efficient lookup
         val stopTimesByTrip = stopTimes.groupBy { it.tripId }
@@ -214,5 +212,62 @@ class InMemoryGtfsRepository(
             Result.failure(e)
         }
     }
-}
 
+    override suspend fun getStructuredRouteData(): Result<Map<String, List<RouteVariant>>> {
+        return try {
+            ensureInitialized()
+
+            // 1. Group routes by short name (e.g. "702" -> [Route(2504_702), Route(3000_702)])
+            val routesByShortName = routes.groupBy { it.routeShortName }
+
+            // 2. Pre-calculate stop lookups
+            val stopTimesByTrip = stopTimes.groupBy { it.tripId }
+
+            // 3. Build the structure
+            val result = routesByShortName.mapValues { (_, routesWithSameName) ->
+                routesWithSameName.map { route ->
+
+                    // Find all trips for this specific route_id
+                    val tripsForRoute = trips.filter { it.routeId == route.routeId }
+
+                    // Group trips by "route_direction" (or headsign if missing) to identify unique directions
+                    val tripsByDirection = tripsForRoute
+                        .groupBy { it.routeDirection ?: it.tripHeadsign ?: "Unknown Direction" }
+                        .map { (directionName, tripsInDirection) ->
+
+                            // Pick the trip with the most stops as the representative for this direction.
+                            val representativeTrip = tripsInDirection.maxByOrNull { trip ->
+                                stopTimesByTrip[trip.tripId]?.size ?: 0
+                            }
+
+                            val stopIds = if (representativeTrip != null) {
+                                stopTimesByTrip[representativeTrip.tripId]
+                                    ?.sortedBy { it.stopSequence }
+                                    ?.map { it.stopId }
+                                    ?: emptyList()
+                            } else {
+                                emptyList()
+                            }
+
+                            TripOption(
+                                tripId = representativeTrip?.tripId ?: "unknown",
+                                headsign = directionName,
+                                stopIds = stopIds
+                            )
+                        }
+                        .sortedBy { it.headsign }
+
+                    RouteVariant(
+                        routeId = route.routeId,
+                        routeName = route.routeLongName,
+                        trips = tripsByDirection
+                    )
+                }
+            }
+
+            Result.success(result)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+}
