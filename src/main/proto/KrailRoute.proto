@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package app.krail.kgtfs.proto;
+
+/**
+ * Represents a single route with its ordered stop IDs.
+ * Minimal format - mobile app already has stop details in local DB.
+ * Generic naming - can be used for buses, trains, ferries, etc.
+ */
+message KrailRoute {
+  // Route number/identifier (e.g., "303", "M50", "T1")
+  string routeNumber = 1;
+
+  // Ordered list of stop IDs serviced by this route
+  // Array position = sequence (index 0 = stop 1)
+  repeated string stopIds = 2;
+}
+
+/**
+ * Container for all routes in a transport mode.
+ * Generic container - works for any NSW transport type.
+ */
+message KrailRouteList {
+  // Transport mode name (e.g., "Buses", "Trains", "Ferries")
+  string transportMode = 1;
+
+  // Total number of routes
+  int32 totalRoutes = 2;
+
+  // Timestamp when data was generated (ISO 8601 string)
+  string generatedAt = 3;
+
+  // List of all routes
+  repeated KrailRoute routes = 4;
+}
