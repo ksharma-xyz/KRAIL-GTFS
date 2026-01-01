@@ -9,7 +9,7 @@ import okio.Path
 
 object CsvReader {
 
-    private suspend inline fun <reified T> readCsvFile(
+    suspend inline fun <reified T> readCsvFile(
         path: Path,
         crossinline mapper: (Map<String, String>) -> T,
     ): List<T> = withContext(Dispatchers.IO) {
@@ -42,7 +42,6 @@ object CsvReader {
                 val finalStopId = parentStation?.takeIf { it.isNotEmpty() } ?: stopId
 
                 if (finalStopId != null && stopName != null && stopLat != null && stopLon != null) {
-
                     when (nswTransportModeType) {
                         NswTransportModeType.SYDNEY_TRAINS,
                         NswTransportModeType.NSW_TRAINS,
@@ -55,14 +54,9 @@ object CsvReader {
                                     longitude = stopLon,
                                 )
                             } else {
-                                /*
-                           println("Filtered Out $nswTransportModeType Stop($nswTransportModeType): id:$stopId, " +
-                           "name:$stopName, lat:$stopLat, lon:$stopLon - $dataMap")
-                                */
                                 null
                             }
                         }
-
                         else -> {
                             GtfsStop(
                                 stopId = StopId(id = finalStopId),
@@ -73,20 +67,23 @@ object CsvReader {
                         }
                     }
                 } else {
-                    println("Corrupt Data - Stop($nswTransportModeType): id:$stopId, name:$stopName, lat:$stopLat, lon:$stopLon - $dataMap")
                     null
                 }
             }.filterNotNull())
+        } catch (e: java.io.FileNotFoundException) {
+            println("[StopReader] ERROR: File not found: $path")
+            println("[StopReader] Run NswGtfsManager.fetch() to download GTFS data")
         } catch (e: Exception) {
-            println("Error while parsing: ${e.stackTraceToString()}")
+            println("[StopReader] ERROR: Failed to parse stops - ${e.message}")
         }
         println("${nswTransportModeType.modeName}: Valid stops: ${data.size}")
         data
     }
 
     suspend fun readGtfsStopTimes(path: Path, nswTransportModeType: NswTransportModeType): List<GtfsStopTime> {
-        println("Reading Stop Times: $path")
         val data = mutableListOf<GtfsStopTime>()
+        var skippedRows = 0
+
         try {
             data.addAll(readCsvFile(path = path) { dataMap ->
                 val stopId = dataMap[GtfsStopTimeField.STOP_ID]
@@ -101,13 +98,13 @@ object CsvReader {
                 val stopNote = dataMap[GtfsStopTimeField.STOP_NOTE]
                 val shapeDistTraveled = dataMap[GtfsStopTimeField.SHAPE_DIST_TRAVELED]?.toDoubleOrNull()
 
-                if (stopId != null && tripId != null) {
+                if (stopId != null && tripId != null && arrivalTime != null && departureTime != null && stopSequence != null) {
                     GtfsStopTime(
                         tripId = tripId,
                         stopId = stopId,
-                        arrivalTime = arrivalTime!!,
-                        departureTime = departureTime!!,
-                        stopSequence = stopSequence!!,
+                        arrivalTime = arrivalTime,
+                        departureTime = departureTime,
+                        stopSequence = stopSequence,
                         stopHeadsign = stopHeadsign,
                         pickupType = pickupType,
                         dropOffType = dropOffType,
@@ -116,14 +113,21 @@ object CsvReader {
                         shapeDistTraveled = shapeDistTraveled,
                     )
                 } else {
-                    println("Corrupt Data - Stop($nswTransportModeType): id:$stopId, tripId:$tripId, arrivalTime:$arrivalTime, departureTime:$departureTime, stopSequence:$stopSequence - $dataMap")
+                    skippedRows++
                     null
                 }
             }.filterNotNull())
+        } catch (e: java.io.FileNotFoundException) {
+            println("[StopTimeReader] ERROR: File not found: $path")
+            return emptyList()
         } catch (e: Exception) {
-            println("Error while parsing StopTimes[$nswTransportModeType]: ${e.stackTraceToString()}")
+            println("[StopTimeReader] ERROR: Failed to parse stop times - ${e.message}")
+            return emptyList()
         }
 
+        if (skippedRows > 0) {
+            println("[StopTimeReader] WARNING: Skipped $skippedRows corrupt rows")
+        }
         println("${nswTransportModeType.modeName}: Valid stop times: ${data.size}")
         return data
     }
