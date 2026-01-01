@@ -11,6 +11,7 @@ data class GtfsRoute(
     val routeId: String,
     val routeShortName: String,
     val routeLongName: String? = null,
+    val routeDesc: String? = null, // Often contains Agency or Network info
     val routeType: String? = null
 )
 
@@ -18,7 +19,8 @@ data class GtfsTrip(
     val tripId: String,
     val routeId: String,
     val directionId: Int? = null,
-    val tripHeadsign: String? = null
+    val tripHeadsign: String? = null,
+    val routeDirection: String? = null // The specific description user mentioned (last column)
 )
 
 suspend fun readGtfsRoutes(path: Path): List<GtfsRoute> = withContext(Dispatchers.IO) {
@@ -30,6 +32,7 @@ suspend fun readGtfsRoutes(path: Path): List<GtfsRoute> = withContext(Dispatcher
                 routeId = routeId,
                 routeShortName = routeShortName,
                 routeLongName = row["route_long_name"],
+                routeDesc = row["route_desc"],
                 routeType = row["route_type"]
             )
         }.filterNotNull()
@@ -53,11 +56,17 @@ suspend fun readGtfsTrips(path: Path): List<GtfsTrip> = withContext(Dispatchers.
                 return@readCsvFile null
             }
 
+            // Try to find the "route_direction" which user says is the last column.
+            // In standard GTFS this might be mapped differently, but we'll look for "route_direction" header if it exists,
+            // or fall back to trip_headsign.
+            val routeDirection = row["route_direction"]
+
             GtfsTrip(
                 tripId = tripId,
                 routeId = routeId,
                 directionId = row["direction_id"]?.toIntOrNull(),
-                tripHeadsign = row["trip_headsign"]
+                tripHeadsign = row["trip_headsign"],
+                routeDirection = routeDirection
             )
         }.filterNotNull()
         trips

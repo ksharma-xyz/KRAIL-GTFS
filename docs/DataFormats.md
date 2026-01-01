@@ -68,26 +68,37 @@ message NswStopList {
 ## Routes Data Format
 
 ### Purpose
-Maps route numbers to ordered stop IDs. Mobile app has stop details locally, so only IDs are needed.
+Maps bus route numbers to their serviced stops, handling route variants and directions.
 
 ### Files
-- `NSW_BUSES_ROUTES.pb` - **Used by mobile app** (protobuf, smallest)
+- `NSW_BUSES_ROUTES.pb` - **Used by mobile app** (protobuf, structured)
 - `NSW_BUSES_ROUTES.json` - Compact JSON
-- `NSW_BUSES_ROUTES_PRETTY.json` - Human-readable
+- `NSW_BUSES_ROUTES_PRETTY.json` - Human-readable JSON
 
-### Protobuf Schema (`KrailRoute.proto`)
+### Protobuf Schema (`NswBusRoute.proto`)
 
 ```protobuf
-message KrailRoute {
-  string routeNumber = 1;          // "303", "M50", "T1"
-  repeated string stopIds = 2;     // Ordered stop IDs
+message NswBusRouteList {
+  string transportMode = 1;
+  string generatedAt = 2;
+  repeated NswBusRouteGroup routes = 3;
 }
 
-message KrailRouteList {
-  string transportMode = 1;        // "Buses"
-  int32 totalRoutes = 2;          // 4702
-  string generatedAt = 3;          // "2026-01-01T12:00:00Z"
-  repeated KrailRoute routes = 4;
+message NswBusRouteGroup {
+  string routeShortName = 1; // "702"
+  repeated NswBusRouteVariant variants = 2;
+}
+
+message NswBusRouteVariant {
+  string routeId = 1;
+  string routeName = 2;
+  repeated NswBusTripOption trips = 3;
+}
+
+message NswBusTripOption {
+  string tripId = 1;
+  string headsign = 2;
+  repeated string stopIds = 3;
 }
 ```
 
@@ -95,16 +106,24 @@ message KrailRouteList {
 ```json
 {
   "transport_mode": "Buses",
-  "total_routes": 4702,
   "generated_at": "2026-01-01T12:00:00Z",
   "routes": {
-    "303": ["2031186", "203256", "203323"],
-    "M50": ["209512", "209513", "209514"]
+    "702": [
+      {
+        "route_id": "2504_702",
+        "route_name": "Blacktown to Seven Hills",
+        "trips": [
+          {
+            "trip_id": "2303543",
+            "headsign": "Blacktown to Seven Hills",
+            "stop_ids": ["214818", "214820", ...]
+          }
+        ]
+      }
+    ]
   }
 }
 ```
-
-**Note:** Array position = stop sequence (index 0 = first stop)
 
 ---
 

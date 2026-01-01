@@ -77,6 +77,14 @@ The workflows are organized following best practices with reusable components:
     ```
 3. Sync the project and ensure all configurations are applied.
 
+### Development
+
+If you modify the `.proto` files in `src/main/proto/`, you need to regenerate the Kotlin classes:
+
+```bash
+./gradlew generateMainProtos
+```
+
 ---
 
 ## Usage

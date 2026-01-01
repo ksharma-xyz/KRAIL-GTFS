@@ -1,6 +1,7 @@
 package app.krail.kgtfs.repository
 
 import app.krail.kgtfs.model.GtfsStop
+import app.krail.kgtfs.model.RouteVariant
 
 /**
  * Repository interface for accessing GTFS route and stop data.
@@ -43,6 +44,12 @@ interface GtfsRepository {
      * @return Result containing repository stats, or error
      */
     suspend fun getStats(): Result<RepositoryStats>
+
+    /**
+     * Get structured route data for the new user flow.
+     * Grouped by route_short_name -> list of variants (route_id) -> list of directions.
+     */
+    suspend fun getStructuredRouteData(): Result<Map<String, List<RouteVariant>>>
 }
 
 /**
@@ -55,4 +62,3 @@ data class RepositoryStats(
     val totalStopTimes: Int,
     val transportMode: String
 )
-

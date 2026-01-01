@@ -1,7 +1,6 @@
 package app.krail.kgtfs.routes
 
 import app.krail.kgtfs.AppConstants
-import app.krail.kgtfs.io.RouteStopsJsonIO.writeRouteStopsDataByMode
 import app.krail.kgtfs.nsw.NswTransportModeType
 import app.krail.kgtfs.repository.GtfsRepositoryFactory
 
@@ -47,7 +46,8 @@ object RouteProcessor {
             // Export (JSON and/or Protobuf)
             if (exportToJson || exportToProtobuf) {
                 val filePrefix = "NSW_${transportMode.modeName.uppercase()}_ROUTES"
-                writeRouteStopsDataByMode(
+                // Export structured data (New Format, Old Filenames)
+                app.krail.kgtfs.io.StructuredRouteIO.writeStructuredRoutes(
                     repository = repository,
                     transportMode = transportMode.modeName,
                     filePrefix = filePrefix,
