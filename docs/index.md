@@ -93,5 +93,4 @@ graph TB
     I --> J
     J --> K[Create PR in KRAIL App]
     K --> L[Auto-Merge]
-
-
+```
