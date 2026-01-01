@@ -1,5 +1,22 @@
+# Bus Route Data Logic
+
+This document explains the structure of NSW Bus GTFS data and demonstrates how to trace a route from its definition to its stops. This manual process mirrors the logic implemented in the application and helps in understanding how the data is generated.
+
+## Understanding the Data Relationships
+
+The GTFS data for buses is structured as follows:
+
+1.  **Routes (`routes.txt`)**: Defines the route (e.g., "702").
+2.  **Trips (`trips.txt`)**: Defines specific trips for a route. A route can have multiple trips (different directions, variants).
+3.  **Stop Times (`stop_times.txt`)**: Links trips to stops, defining the sequence and timing.
+4.  **Stops (`stops.txt`)**: Defines the physical stop locations.
+
+## Example: Tracing Route 702
+
+The following steps demonstrate how to manually trace a specific bus route (e.g., "702") through the GTFS files. This validates the logic used by the `RouteProcessor` to generate the structured JSON output.
+
 **Step 1:** 
-Find the route_id for bus "702" There are likely multiple "700" buses (e.g., one in Newcastle, one in Western Sydney).
+Find the route_id for bus "702". Note that there are likely multiple "702" buses (e.g., one in Newcastle, one in Western Sydney).
 
 `grep "\"702\" cache/Buses/routes.txt`
 

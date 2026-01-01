@@ -30,6 +30,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - toc.integrate
     - navigation.top
     - navigation.tracking
     - search.suggest
@@ -69,8 +70,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Architecture: Architecture.md
-  - GTFS Processing: GTFSProcessing.md
   - Data Formats: DataFormats.md
+  - Bus Route Logic: BusRouteLogic.md
   - CI/CD Pipeline: CICD.md
 
 extra:
