@@ -1,14 +1,13 @@
 package app.krail.kgtfs.io
 
+import app.krail.kgtfs.AppConstants
 import app.krail.kgtfs.io.FileStorage.writeJsonToFile
 import app.krail.kgtfs.model.StopJson
-import app.krail.kgtfs.network.cacheDirPath
 import app.krail.kgtfs.nsw.parkride.StopIdParkRideMapping
 import app.krail.kgtfs.nsw.parkride.stopIdParkRideMappings
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
-const val NSW_PARK_RIDE_DIR = "nswstops/parkride"
 
 /**
  * Writes the park & ride data to JSON files.
@@ -31,14 +30,14 @@ suspend fun writeParkRideData(
 
     writeJsonToFile(
         data = mergedMappings,
-        path = cacheDirPath,
-        fileName = "NSW_PARKRIDE",
+        path = AppConstants.CACHE_DIR_PATH,
+        fileName = AppConstants.OutputFiles.NSW_PARK_RIDE,
         pretty = true,
     )
     writeJsonToFile(
         data = mergedMappings,
-        path = cacheDirPath,
-        fileName = "NSW_PARKRIDE",
+        path = AppConstants.CACHE_DIR_PATH,
+        fileName = AppConstants.OutputFiles.NSW_PARK_RIDE,
         pretty = false,
     )
 }

@@ -1,27 +1,9 @@
 package app.krail.kgtfs.model
 
+import app.krail.kgtfs.AppConstants
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlin.jvm.JvmInline
-
-/**
- * Reference: https://gtfs.org/reference/static/#stopstxt
- * Fields in stops.txt gtfs static data.
- */
-object GtfsStopField {
-    const val STOP_ID = "stop_id"
-    const val STOP_CODE = "stop_code"
-    const val STOP_NAME = "stop_name"
-    const val STOP_DESC = "stop_desc"
-    const val STOP_LAT = "stop_lat"
-    const val STOP_LON = "stop_lon"
-    const val ZONE_ID = "zone_id"
-    const val STOP_URL = "stop_url"
-    const val LOCATION_TYPE = "location_type"
-    const val PARENT_STATION = "parent_station"
-    const val STOP_TIMEZONE = "stop_timezone"
-    const val WHEELCHAIR_BOARDING = "wheelchair_boarding"
-}
 
 /**
  * Reference: https://gtfs.org/documentation/schedule/reference/#stopstxt
@@ -34,7 +16,7 @@ data class GtfsStop(
      * Uniquely Identifies a location: stop/platform, station, entrance/exit, generic node or
      * boarding area.
      */
-    @SerialName(GtfsStopField.STOP_ID) val stopId: StopId,
+    @SerialName(AppConstants.GtfsFields.STOP_ID) val stopId: StopId,
 
     /**
      * Short text or a number that identifies the location for riders. These codes are often used
@@ -42,41 +24,41 @@ data class GtfsStop(
      * to get information for a particular location. The stop_code may be the same as [stopId] if
      * it is public facing. This field should be left empty for locations without a code presented to riders.
      */
-    @SerialName(GtfsStopField.STOP_CODE) val stopCode: String? = null,
+    @SerialName("stop_code") val stopCode: String? = null,
 
     /**
      * Name of the location. The stop_name should match the agency's rider-facing name for the location
      * as printed on a timetable, published online, or represented on signage
      */
-    @SerialName(GtfsStopField.STOP_NAME) val name: String,
+    @SerialName(AppConstants.GtfsFields.STOP_NAME) val name: String,
 
     /**
      * Description of the location that provides useful, quality information. Should not be a
      * duplicate of stop_name.
      */
-    @SerialName(GtfsStopField.STOP_DESC) val description: String? = null,
+    @SerialName(AppConstants.GtfsFields.STOP_DESC) val description: String? = null,
 
     /**
      * Latitude of the location.
      */
-    @SerialName(GtfsStopField.STOP_LAT) val latitude: Double? = null,
+    @SerialName(AppConstants.GtfsFields.STOP_LAT) val latitude: Double? = null,
 
     /**
      * Longitude of the location.
      */
-    @SerialName(GtfsStopField.STOP_LON) val longitude: Double? = null,
+    @SerialName(AppConstants.GtfsFields.STOP_LON) val longitude: Double? = null,
 
     /**
      * Identifies the fare zone for a stop. If this record represents a station or station entrance,
      * the zone_id is ignored.
      */
-    @SerialName(GtfsStopField.ZONE_ID) val zoneId: String? = null,
+    @SerialName(AppConstants.GtfsFields.ZONE_ID) val zoneId: String? = null,
 
     /**
      * URL of a web page about the location. This should be different from the agency.agency_url
      * and the routes.route_url field values.
      */
-    @SerialName(GtfsStopField.STOP_URL) val url: String? = null,
+    @SerialName(AppConstants.GtfsFields.STOP_URL) val url: String? = null,
 
     /**
      * Location type. Valid options are:
@@ -92,7 +74,7 @@ data class GtfsStop(
      * 4 - Boarding Area. A specific location on a platform, where passengers can board and/or
      * alight vehicles.
      */
-    @SerialName(GtfsStopField.LOCATION_TYPE) val locationType: String? = null,
+    @SerialName(AppConstants.GtfsFields.LOCATION_TYPE) val locationType: String? = null,
 
     /**
      * Defines hierarchy between the different locations defined in stops.txt. It contains the ID
@@ -105,7 +87,7 @@ data class GtfsStop(
      * - Boarding Area (location_type=4): the parent_station field contains ID of a platform.
      *
      */
-    @SerialName(GtfsStopField.PARENT_STATION) val parentStation: StopId? = null,
+    @SerialName(AppConstants.GtfsFields.PARENT_STATION) val parentStation: StopId? = null,
 
     /**
      * Timezone of the location. If the location has a parent station, it inherits the parent
@@ -115,7 +97,7 @@ data class GtfsStop(
      * This ensures that the time values in a trip always increase over the course of a trip,
      * regardless of which timezones the trip crosses.
      */
-    @SerialName(GtfsStopField.STOP_TIMEZONE) val timezone: String? = null,
+    @SerialName(AppConstants.GtfsFields.STOP_TIMEZONE) val timezone: String? = null,
 
     /**
      * Indicates whether wheelchair boardings are possible from the location. Valid options are:
@@ -126,7 +108,7 @@ data class GtfsStop(
      * 2 - Wheelchair boarding is not possible at this stop.
      *
      */
-    @SerialName(GtfsStopField.WHEELCHAIR_BOARDING) val wheelchairBoarding: Int? = null,
+    @SerialName(AppConstants.GtfsFields.WHEELCHAIR_BOARDING) val wheelchairBoarding: Int? = null,
 )
 
 @JvmInline

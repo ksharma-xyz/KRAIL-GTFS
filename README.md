@@ -1,4 +1,4 @@
-# GTFS Data for KRAIL App
+# GTFS Data for KRAIL Appt
 
 [![CI Workflow](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml)
 
@@ -117,6 +117,9 @@ The JSON files are written to the specified directory (`cacheDirectory`) with pr
 - `NSW_STOPS.json`: Compact JSON data.
 - `NSW_STOPS_PRETTY.json`: Pretty-printed JSON data for readability.
 - `NSW_STOPS.pb`: The protobuf binary data for Stops.
+- `NSW_BUSES_ROUTES.json`: Compact JSON data for bus routes (structured).
+- `NSW_BUSES_ROUTES_PRETTY.json`: Pretty-printed JSON data for bus routes.
+- `NSW_BUSES_ROUTES.pb`: The protobuf binary data for bus routes.
 
 ---
 

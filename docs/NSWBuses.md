@@ -76,4 +76,4 @@ trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_t
 
 **Step 4**
 
-Stop IDs from 1st column.
+Stop IDs from 4th column.

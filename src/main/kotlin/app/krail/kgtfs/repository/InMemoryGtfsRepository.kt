@@ -1,5 +1,6 @@
 package app.krail.kgtfs.repository
 
+import app.krail.kgtfs.AppConstants
 import app.krail.kgtfs.csv.CsvReader
 import app.krail.kgtfs.model.*
 import app.krail.kgtfs.nsw.NswTransportModeType
@@ -53,36 +54,37 @@ class InMemoryGtfsRepository(
             withContext(Dispatchers.IO) {
                 println("[$modeName] Initializing repository...")
 
+
                 try {
                     // 1. Load all files
                     stops = CsvReader.readGtfsStops(
-                        path = "$cacheDirectory/$modeName/stops.txt".toPath(),
+                        path = "$cacheDirectory/$modeName/${AppConstants.GtfsFiles.STOPS}${AppConstants.FileExtensions.TXT}".toPath(),
                         nswTransportModeType = nswTransportModeType
                     )
                     if (stops.isEmpty()) {
-                        throw IllegalStateException("No stops loaded from: $cacheDirectory/$modeName/stops.txt")
+                        throw IllegalStateException("No stops loaded from: $cacheDirectory/$modeName/${AppConstants.GtfsFiles.STOPS}${AppConstants.FileExtensions.TXT}")
                     }
 
                     routes = readGtfsRoutes(
-                        path = "$cacheDirectory/$modeName/routes.txt".toPath()
+                        path = "$cacheDirectory/$modeName/${AppConstants.GtfsFiles.ROUTES}${AppConstants.FileExtensions.TXT}".toPath()
                     )
                     if (routes.isEmpty()) {
-                        throw IllegalStateException("No routes loaded from: $cacheDirectory/$modeName/routes.txt")
+                        throw IllegalStateException("No routes loaded from: $cacheDirectory/$modeName/${AppConstants.GtfsFiles.ROUTES}${AppConstants.FileExtensions.TXT}")
                     }
 
                     trips = readGtfsTrips(
-                        path = "$cacheDirectory/$modeName/trips.txt".toPath()
+                        path = "$cacheDirectory/$modeName/${AppConstants.GtfsFiles.TRIPS}${AppConstants.FileExtensions.TXT}".toPath()
                     )
                     if (trips.isEmpty()) {
-                        throw IllegalStateException("No trips loaded from: $cacheDirectory/$modeName/trips.txt")
+                        throw IllegalStateException("No trips loaded from: $cacheDirectory/$modeName/${AppConstants.GtfsFiles.TRIPS}${AppConstants.FileExtensions.TXT}")
                     }
 
                     stopTimes = CsvReader.readGtfsStopTimes(
-                        path = "$cacheDirectory/$modeName/stop_times.txt".toPath(),
+                        path = "$cacheDirectory/$modeName/${AppConstants.GtfsFiles.STOP_TIMES}${AppConstants.FileExtensions.TXT}".toPath(),
                         nswTransportModeType = nswTransportModeType
                     )
                     if (stopTimes.isEmpty()) {
-                        throw IllegalStateException("No stop times loaded from: $cacheDirectory/$modeName/stop_times.txt")
+                        throw IllegalStateException("No stop times loaded from: $cacheDirectory/$modeName/${AppConstants.GtfsFiles.STOP_TIMES}${AppConstants.FileExtensions.TXT}")
                     }
 
                     // 2. Build indices
