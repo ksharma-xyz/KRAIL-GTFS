@@ -34,6 +34,8 @@ After pushing documentation changes:
 
 ### Install MkDocs
 
+If `pip` is available on your system you can use the simple command:
+
 ```bash
 # Install MkDocs with Material theme
 pip install mkdocs-material pymdown-extensions
@@ -41,6 +43,40 @@ pip install mkdocs-material pymdown-extensions
 # Verify installation
 mkdocs --version
 ```
+
+If you see `zsh: command not found: pip`, try one of these alternatives (recommended):
+
+1) Use python's -m pip (works even if `pip`/`pip3` binaries aren't on PATH):
+
+```bash
+python3 --version
+python3 -m pip install --upgrade pip setuptools wheel
+python3 -m pip install --user mkdocs-material pymdown-extensions
+# If `mkdocs` binary not found, add user base bin to PATH (see next step)
+python3 -m site --user-base
+# Example: add to shell rc (zsh):
+# export PATH="$HOME/Library/Python/3.10/bin:$PATH"
+```
+
+2) Use a virtual environment (isolated, recommended for projects):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install mkdocs-material pymdown-extensions
+mkdocs --version
+```
+
+3) If Python isn't installed (or you prefer Homebrew):
+
+```bash
+brew install python
+pip3 install mkdocs-material pymdown-extensions
+mkdocs --version
+```
+
+> Note: On macOS the user-local pip installs place binaries in `~/Library/Python/<version>/bin`. If `mkdocs` is not found after installing with `--user`, add that path to your shell's PATH.
+
 
 ### Preview Locally
 
@@ -175,8 +211,8 @@ theme:
 
 ```bash
 # Reinstall dependencies
-pip uninstall mkdocs-material
-pip install mkdocs-material pymdown-extensions
+python3 -m pip uninstall mkdocs-material -y
+python3 -m pip install mkdocs-material pymdown-extensions
 ```
 
 ### 404 Error on GitHub Pages

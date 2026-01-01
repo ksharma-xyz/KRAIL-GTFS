@@ -36,7 +36,10 @@ jobs:
           restore-keys: |
             mkdocs-material-
 
-      - run: pip install mkdocs-material
+      - name: Install MkDocs & extensions
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install mkdocs-material pymdown-extensions
 
-      - run: mkdocs gh-deploy --force
-
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
