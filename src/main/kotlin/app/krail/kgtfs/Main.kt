@@ -17,7 +17,7 @@ fun main() {
 
     runBlocking {
         // Fetch GTFS data
-        val nswData = NswGtfsManager.fetch(refresh = false)
+        val nswData = NswGtfsManager.fetch(refresh = true)
 
         // Process stops and routes in parallel
         coroutineScope {
