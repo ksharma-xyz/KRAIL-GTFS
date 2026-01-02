@@ -1,4 +1,4 @@
-# GTFS Data for KRAIL Appt
+# GTFS Data for KRAIL App
 
 [![CI Workflow](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ksharma-xyz/KRAIL-GTFS/actions/workflows/ci.yml)
 
