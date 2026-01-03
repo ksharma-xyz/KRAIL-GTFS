@@ -259,8 +259,7 @@ jobs:
     name: Update KRAIL App Repository
     needs: [ build ]
     if: |
-      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || 
-       (github.event_name == 'push' && github.ref == 'refs/heads/main')) &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') &&
       always() && 
       (needs.build.result == 'success')
     permissions:

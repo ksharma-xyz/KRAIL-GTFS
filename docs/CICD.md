@@ -4,6 +4,11 @@
 
 Automated workflow that generates GTFS data and deploys it to the KRAIL mobile app repository via Pull Requests.
 
+**Trigger Behavior:**
+- **Push to main** - Runs build and tests only (no GTFS refresh or KRAIL updates)
+- **Schedule (every 3 days)** - Runs full pipeline: build → GTFS refresh → KRAIL update
+- **Manual dispatch** - Runs full pipeline: build → GTFS refresh → KRAIL update
+
 ---
 
 ## Workflow Architecture
