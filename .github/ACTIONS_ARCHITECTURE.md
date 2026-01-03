@@ -34,7 +34,7 @@ The workflows are organized following GitHub Actions best practices:
 **Triggers:**
 - Push to `main` branch
 - Pull requests
-- Schedule (every 5 days at midnight UTC)
+- Schedule (every 3 days at 13:00 UTC, ~midnight AEDT)
 - Manual dispatch
 
 **Jobs:**

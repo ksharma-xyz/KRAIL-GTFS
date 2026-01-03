@@ -309,18 +309,20 @@ fi
 
 ## Schedule
 
-**Default:** Daily at 2 AM UTC
+**Default:** Every 3 days at 13:00 UTC (~midnight AEDT)
 
 ```yaml
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 13 */3 * *'
 ```
 
-**Why 2 AM?**
-- Low traffic time
+**Why 13:00 UTC?**
+- Approximately midnight in AEDT (UTC+11) / 2 AM in AEST (UTC+10)
+- Low traffic time for Australian users
 - NSW Transport data usually updates overnight
 - Mobile app users unlikely to notice deployment
+- Runs on days 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31 of each month
 
 ---
 

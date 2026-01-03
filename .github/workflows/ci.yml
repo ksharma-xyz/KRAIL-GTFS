@@ -7,9 +7,9 @@ on:
     branches: [ main ]
     types: [ opened, synchronize, reopened, ready_for_review ]
   schedule:
-    # Runs daily at midnight AEST (2:00 PM UTC) / AEDT (1:00 PM UTC)
+    # Runs every 3 days at midnight AEST (2:00 PM UTC) / AEDT (1:00 PM UTC)
     # Using 13:00 UTC to be safe for AEDT (UTC+11), which is ~midnight AEDT
-    - cron: '0 13 * * *'
+    - cron: '0 13 */3 * *'
   workflow_dispatch:
     inputs:
       reason:
