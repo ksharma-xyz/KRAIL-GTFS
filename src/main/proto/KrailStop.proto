@@ -15,6 +15,10 @@ message NswStop {
 
   // The product class is a list of transport modes that the stop is associated with.
   repeated int32 productClass = 5;
+
+  // Optional: false = child (platform/stand), absent/true = parent.
+  // Only bus child stops will have this set to false.
+  optional bool isParent = 6;
 }
 
 message NswStopList {

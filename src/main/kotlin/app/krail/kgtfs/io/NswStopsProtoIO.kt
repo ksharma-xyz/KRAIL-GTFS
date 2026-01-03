@@ -20,7 +20,8 @@ object NswStopsProtoIO {
                 stopName = stop.name,
                 lat = stop.lat.toDouble(),
                 lon = stop.lon.toDouble(),
-                productClass = stop.productClass.map { it }
+                productClass = stop.productClass.map { it },
+                isParent = stop.isParent  // null (parent) or false (child)
             )
         }
         val protobufData = NswStopList(nswStops = stopList)

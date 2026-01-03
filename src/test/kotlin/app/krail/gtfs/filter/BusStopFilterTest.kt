@@ -76,4 +76,31 @@ class BusStopFilterTest {
         assertEquals(setOf(1, 5), sevenHills.productClass)
         assertEquals("214710", sevenHills.id)
     }
+
+    @Test
+    fun `preserveChildren returns parent plus all child stops with isParent flags`() {
+        val input = listOf(
+            StopJson("2148424", "Westpoint Bus Interchange, Stand 10", "-33.770416", "150.906243", mutableSetOf(5)),
+            StopJson("2148425", "Westpoint Bus Interchange, Stand 9", "-33.770591", "150.906186", mutableSetOf(5)),
+            StopJson("2148426", "Westpoint Bus Interchange, Stand 8", "-33.770751", "150.906136", mutableSetOf(5)),
+        )
+
+        val result = filterOutBusStandData(input, preserveChildren = true)
+
+        // Should have 1 parent + 3 children = 4 total
+        assertEquals(4, result.size)
+
+        val parent = result.find { it.isParent == null }
+        val children = result.filter { it.isParent == false }
+
+        // Verify parent
+        assertEquals("Westpoint Bus Interchange", parent?.name)
+        assertEquals(null, parent?.isParent)  // null = default true
+
+        // Verify children
+        assertEquals(3, children.size)
+        assertEquals(true, children.all { it.isParent == false })
+        assertEquals(true, children.all { it.name.contains("Stand") })
+        assertEquals(setOf("2148424", "2148425", "2148426"), children.map { it.id }.toSet())
+    }
 }
