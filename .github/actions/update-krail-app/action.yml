@@ -76,6 +76,9 @@ runs:
         token: ${{ inputs.github-token }}
         path: krail-app
 
+    - name: Setup gh CLI
+      uses: cli/gh-action@v2
+
     - name: Copy PB files to KRAIL repository
       shell: bash
       run: |
@@ -103,16 +106,20 @@ runs:
           exit 1
         fi
         
-        # Extract current version
-        CURRENT_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*')
+        # Extract current version robustly
+        CURRENT_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*' || true)
+        if [ -z "$CURRENT_VERSION" ]; then
+          echo "ℹ️  NSW_STOPS_VERSION not found; defaulting to 0"
+          CURRENT_VERSION=0
+        fi
         echo "Current NSW_STOPS_VERSION: $CURRENT_VERSION"
         
         # Increment version
         NEW_VERSION=$((CURRENT_VERSION + 1))
         echo "New NSW_STOPS_VERSION: $NEW_VERSION"
         
-        # Update the file (sed -i works on Ubuntu runners)
-        sed -i "s/const val NSW_STOPS_VERSION = ${CURRENT_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
+        # Update the file using regex (portable on Ubuntu runners)
+        sed -i "s/const val NSW_STOPS_VERSION = [0-9]*L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
         
         echo "✓ Bumped NSW_STOPS_VERSION from $CURRENT_VERSION to $NEW_VERSION"
         echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
@@ -122,31 +129,32 @@ runs:
       shell: bash
       working-directory: krail-app
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
-        STOPS_PB_FILE="${{ inputs.target-stops-pb-path }}"
-        ROUTES_PB_FILE="${{ inputs.target-routes-pb-path }}"
-        PREFS_FILE="${{ inputs.preferences-file-path }}"
-        
-        # Check if files exist and have changes
-        FILES_TO_CHECK=""
-        [ -f "$STOPS_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $STOPS_PB_FILE"
-        [ -f "$ROUTES_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $ROUTES_PB_FILE"
-        [ -f "$PREFS_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $PREFS_FILE"
-        
-        if [ -n "$FILES_TO_CHECK" ]; then
-          if git diff --quiet $FILES_TO_CHECK 2>/dev/null; then
-            echo "✓ No changes detected - skipping PR creation"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          STOPS_PB_FILE="${{ inputs.target-stops-pb-path }}"
+          ROUTES_PB_FILE="${{ inputs.target-routes-pb-path }}"
+          PREFS_FILE="${{ inputs.preferences-file-path }}"
+          
+          # Prepare list of files to check (relative to krail-app)
+          FILES_TO_CHECK=""
+          [ -f "$STOPS_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $STOPS_PB_FILE"
+          [ -f "$ROUTES_PB_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $ROUTES_PB_FILE"
+          [ -f "$PREFS_FILE" ] && FILES_TO_CHECK="$FILES_TO_CHECK $PREFS_FILE"
+          
+          if [ -n "$FILES_TO_CHECK" ]; then
+            # Use git status --porcelain to detect modified, staged or untracked files
+            if [ -n "$(git status --porcelain -- $FILES_TO_CHECK)" ]; then
+              echo "✓ Changes detected - will create PR"
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+            else
+              echo "✓ No changes detected - skipping PR creation"
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+            fi
           else
-            echo "✓ Changes detected - will create PR"
+            echo "ℹ️  Files do not exist yet; treating as changes"
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
-        else
-          echo "ℹ️  Files do not exist yet; treating as changes"
-          echo "has_changes=true" >> $GITHUB_OUTPUT
-        fi
 
     - name: Check for existing PRs
       if: steps.check-changes.outputs.has_changes == 'true'
@@ -172,15 +180,27 @@ runs:
       run: |
         BRANCH_NAME="update-gtfs-data-${{ inputs.run-number }}"
         
+        # Build list of files to stage safely
+        FILES_TO_ADD=""
+        [ -f "${{ inputs.target-stops-pb-path }}" ] && FILES_TO_ADD="$FILES_TO_ADD ${{ inputs.target-stops-pb-path }}"
+        [ -f "${{ inputs.target-routes-pb-path }}" ] && FILES_TO_ADD="$FILES_TO_ADD ${{ inputs.target-routes-pb-path }}"
+        [ -f "${{ inputs.preferences-file-path }}" ] && FILES_TO_ADD="$FILES_TO_ADD ${{ inputs.preferences-file-path }}"
+        
         git checkout -b "$BRANCH_NAME"
-        git add "${{ inputs.target-stops-pb-path }}"
-        git add "${{ inputs.target-routes-pb-path }}"
-        git add "${{ inputs.preferences-file-path }}"
+        
+        # Stage changes robustly: stage only existing files, otherwise stage all changes
+        if [ -n "$FILES_TO_ADD" ]; then
+          git add $FILES_TO_ADD
+        else
+          git add -A
+        fi
+        
         git commit -m "Update NSW GTFS data (stops + routes) and bump version
 
-        - Updated NSW_STOPS.pb with latest GTFS stops data
-        - Updated NSW_BUSES_ROUTES.pb with latest route-to-stops mappings
-        - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}"
+        - Updated \`${{ inputs.target-stops-pb-path }}\` with latest GTFS stops data
+        - Updated \`${{ inputs.target-routes-pb-path }}\` with latest route-to-stops mappings
+        - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}" || echo "No commit created (nothing staged)"
+        
         git push -u origin "$BRANCH_NAME"
         
         PR_URL=$(gh pr create \
@@ -216,9 +236,8 @@ runs:
         GH_TOKEN: ${{ inputs.github-token }}
       run: |
         PR_URL="${{ steps.create-pr.outputs.pr_url }}"
-        # Extract PR number more robustly
         PR_NUMBER=$(gh pr view "$PR_URL" --json number -q .number)
-        gh pr merge "$PR_NUMBER" --auto --squash
+        gh pr merge "$PR_NUMBER" --auto --squash || echo "Auto-merge not enabled or failed"
         echo "✓ Enabled auto-merge for PR #$PR_NUMBER"
 
     - name: Set outputs

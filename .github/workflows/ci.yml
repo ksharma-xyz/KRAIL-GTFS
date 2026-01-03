@@ -7,7 +7,9 @@ on:
     branches: [ main ]
     types: [ opened, synchronize, reopened, ready_for_review ]
   schedule:
-    - cron: '0 0 */5 * *'
+    # Runs daily at midnight AEST (2:00 PM UTC) / AEDT (1:00 PM UTC)
+    # Using 13:00 UTC to be safe for AEDT (UTC+11), which is ~midnight AEDT
+    - cron: '0 13 * * *'
   workflow_dispatch:
     inputs:
       reason:
@@ -149,6 +151,9 @@ jobs:
           distribution: zulu
           java-version: ${{ env.JAVA_VERSION }}
 
+      - name: Setup gh CLI
+        uses: cli/gh-action@v2
+
       - name: Setup environment variables
         run: echo "NSW_TRANSPORT_API_KEY=${{ secrets.NSW_TRANSPORT_API_KEY }}" >> $GITHUB_ENV
 
@@ -159,7 +164,7 @@ jobs:
         run: |
           if [ -d "cache" ]; then ls -R cache; else echo "cache directory missing"; fi
 
-      - name: Upload generated JSON
+      - name: Upload generated JSON and PB files
         uses: actions/upload-artifact@v6
         with:
           name: generated-json-files
@@ -169,6 +174,9 @@ jobs:
             cache/NSW_STOPS.pb
             cache/NSW_PARKRIDE.json
             cache/NSW_PARKRIDE_PRETTY.json
+            cache/NSW_BUSES_ROUTES.json
+            cache/NSW_BUSES_ROUTES_PRETTY.json
+            cache/NSW_BUSES_ROUTES.pb
 
       - name: Prepare folders
         run: |
@@ -176,6 +184,8 @@ jobs:
           mv cache/NSW_PARKRIDE*.json nswstops/parkride/ || true
           mv cache/NSW_STOPS*.json nswstops/ || true
           mv cache/NSW_STOPS.pb nswstops/ || true
+          mv cache/NSW_BUSES_ROUTES*.json nswstops/ || true
+          mv cache/NSW_BUSES_ROUTES.pb nswstops/ || true
 
       - name: Check for changes
         id: git-diff
@@ -183,12 +193,28 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Check if there are any changes in the files
-          if git diff --quiet nswstops/NSW_STOPS*.json nswstops/NSW_STOPS.pb nswstops/parkride/NSW_PARKRIDE*.json 2>/dev/null; then
-            echo "✓ No changes detected in GTFS files - skipping PR creation"
-            echo "NO_CHANGES=true" >> $GITHUB_ENV
+          # Build list of files to check
+          FILES_TO_CHECK=""
+          [ -f "nswstops/NSW_STOPS.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_STOPS.json"
+          [ -f "nswstops/NSW_STOPS_PRETTY.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_STOPS_PRETTY.json"
+          [ -f "nswstops/NSW_STOPS.pb" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_STOPS.pb"
+          [ -f "nswstops/NSW_BUSES_ROUTES.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_BUSES_ROUTES.json"
+          [ -f "nswstops/NSW_BUSES_ROUTES_PRETTY.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_BUSES_ROUTES_PRETTY.json"
+          [ -f "nswstops/NSW_BUSES_ROUTES.pb" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/NSW_BUSES_ROUTES.pb"
+          [ -f "nswstops/parkride/NSW_PARKRIDE.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/parkride/NSW_PARKRIDE.json"
+          [ -f "nswstops/parkride/NSW_PARKRIDE_PRETTY.json" ] && FILES_TO_CHECK="$FILES_TO_CHECK nswstops/parkride/NSW_PARKRIDE_PRETTY.json"
+          
+          # Use git status --porcelain to detect modified, staged or untracked files
+          if [ -n "$FILES_TO_CHECK" ]; then
+            if [ -n "$(git status --porcelain -- $FILES_TO_CHECK)" ]; then
+              echo "✓ Changes detected - will create PR"
+              echo "NO_CHANGES=false" >> $GITHUB_ENV
+            else
+              echo "✓ No changes detected in GTFS files - skipping PR creation"
+              echo "NO_CHANGES=true" >> $GITHUB_ENV
+            fi
           else
-            echo "✓ Changes detected - will create PR"
+            echo "ℹ️  Files do not exist yet; treating as changes"
             echo "NO_CHANGES=false" >> $GITHUB_ENV
           fi
 
@@ -215,14 +241,16 @@ jobs:
           add: |
             nswstops/NSW_STOPS*.json
             nswstops/NSW_STOPS.pb
+            nswstops/NSW_BUSES_ROUTES*.json
+            nswstops/NSW_BUSES_ROUTES.pb
             nswstops/parkride/NSW_PARKRIDE*.json
           labels: auto-generated
           committer: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
           author: Github Actions Bot <41898282+github-actions[bot]@users.noreply.github.com>
-          commit-message: Update NSW GTFS stops and park ride data
-          title: Update NSW GTFS stops and park ride data
+          commit-message: Update NSW GTFS data (stops, routes, and park ride)
+          title: Update NSW GTFS data (stops, routes, and park ride)
           body: |
-            Auto-generated update of NSW GTFS stops and park ride data.
+            Auto-generated update of NSW GTFS data including stops, bus routes, and park ride information.
 
       - name: Enable auto-merge on PR
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
@@ -232,8 +260,12 @@ jobs:
 
   update-krail-app:
     name: Update KRAIL App Repository
-    needs: scheduled-tasks
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: [ build ]
+    if: |
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || 
+       (github.event_name == 'push' && github.ref == 'refs/heads/main')) &&
+      always() && 
+      (needs.build.result == 'success')
     permissions:
       contents: write
       pull-requests: write
