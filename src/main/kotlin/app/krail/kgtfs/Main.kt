@@ -35,7 +35,7 @@ fun main() {
 
 suspend fun processStops(nswData: List<StopJson>) {
     nswData
-        .let(::filterOutBusStandData)
+        .let { filterOutBusStandData(it, preserveChildren = true) }
         .let(::processSydneyFerryData)
         .let {
             writeStopData(it)
