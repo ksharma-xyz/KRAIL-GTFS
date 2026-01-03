@@ -76,9 +76,6 @@ runs:
         token: ${{ inputs.github-token }}
         path: krail-app
 
-    - name: Setup gh CLI
-      uses: cli/gh-action@v2
-
     - name: Copy PB files to KRAIL repository
       shell: bash
       run: |
