@@ -94,3 +94,21 @@ trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_t
 **Step 4**
 
 Stop IDs from 4th column.
+
+## Bus Routes have multiple Trip ids. Why?
+
+For a given bus route number (e.g., "700"), there may be multiple trips representing different directions:
+- Trip 1: "Blacktown to Parramatta" (44 stops)
+- Trip 2: "Parramatta to Blacktown" (43 stops)
+
+Reverse-direction trips for the same route **likely have different stops** because:
+1. Bus stops are direction-specific (opposite sides of the road)
+2. Stop order is reversed
+3. Routes may take different paths in each direction (one-way streets, different return routes)
+4. Stop IDs in GTFS are unique per physical location
+
+**Example from route 700:**
+- Blacktown→Parramatta: starts at `2148311`, ends at `2150114`
+- Parramatta→Blacktown: starts at `2150107`, ends at `2148451`
+
+These are **different stop IDs**, indicating different physical locations (opposite sides of streets).
