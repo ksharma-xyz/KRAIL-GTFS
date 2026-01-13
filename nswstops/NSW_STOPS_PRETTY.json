@@ -17377,6 +17377,15 @@
     ]
   },
   {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -29941,15 +29950,6 @@
     ]
   },
   {
-    "id": "208665",
-    "name": "Rodborough Rd after Allambie Rd",
-    "lat": "-33.753548",
-    "lon": "151.242895",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "208667",
     "name": "Lockwood Ave opp Peacock Pde",
     "lat": "-33.739165",
@@ -36383,7 +36383,7 @@
   },
   {
     "id": "210038",
-    "name": "Aquatic Drive Frenchs Forest Outside High School",
+    "name": "The Forest High School, Aquatic Dr",
     "lat": "-33.755838",
     "lon": "151.241889",
     "productClass": [
@@ -36536,7 +36536,7 @@
   },
   {
     "id": "210060",
-    "name": "Aquatic Drive Opp High School",
+    "name": "Aquatic Dr opp The Forest High School",
     "lat": "-33.755694",
     "lon": "151.241871",
     "productClass": [
@@ -49543,6 +49543,15 @@
     "name": "Avenue of Asia before Holker St",
     "lat": "-33.832784",
     "lon": "151.05783",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212767",
+    "name": "Sydney Olympic Park, Aquatic Terminal",
+    "lat": "-33.850096",
+    "lon": "151.068585",
     "productClass": [
       5
     ]
@@ -74401,7 +74410,7 @@
   },
   {
     "id": "217963",
-    "name": "Sixth before Hydrus",
+    "name": "Sixth Ave before Hydrus St",
     "lat": "-33.94272",
     "lon": "150.796155",
     "productClass": [
@@ -74455,7 +74464,7 @@
   },
   {
     "id": "217974",
-    "name": "Bringelly Rd after Cowpasture Way",
+    "name": "Bringelly Rd after Cowpasture Rd",
     "lat": "-33.951924",
     "lon": "150.821295",
     "productClass": [
@@ -81120,15 +81129,6 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220533",
-    "name": "Princes Hwy after Subway Rd",
-    "lat": "-33.944094",
-    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -89046,16 +89046,6 @@
     "productClass": [
       5
     ]
-  },
-  {
-    "id": "2220122",
-    "name": "Hurstville Station, Ormonde Pde, Stand N",
-    "lat": "-33.967618",
-    "lon": "151.102121",
-    "productClass": [
-      5
-    ],
-    "isParent": false
   },
   {
     "id": "2220123",
@@ -163671,6 +163661,15 @@
     ]
   },
   {
+    "id": "278631",
+    "name": "Mount Victoria Station, Coach Stop",
+    "lat": "-33.588097",
+    "lon": "150.25663",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "278653",
     "name": "Mount Victoria Public School, Victoria St",
     "lat": "-33.59222",
@@ -163693,6 +163692,15 @@
     "name": "Mt Piddington Rd opp Beck St",
     "lat": "-33.594368",
     "lon": "150.256481",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "279018",
+    "name": "Lithgow Station, Railway Pde",
+    "lat": "-33.480579",
+    "lon": "150.156385",
     "productClass": [
       5
     ]
@@ -167165,6 +167173,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167241,6 +167258,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -174008,7 +174043,7 @@
   },
   {
     "id": "2088216",
-    "name": "Parriwi Rd at Upper Faifax Rd",
+    "name": "Parriwi Rd at Upper Fairfax Rd",
     "lat": "-33.81709",
     "lon": "151.243955",
     "productClass": [
@@ -175152,7 +175187,7 @@
   },
   {
     "id": "2099122",
-    "name": "St John's Primary School before McIntosh Rd",
+    "name": "St John's Primary School, Oliver St",
     "lat": "-33.750492",
     "lon": "151.27449",
     "productClass": [
@@ -203539,7 +203574,7 @@
   },
   {
     "id": "2155420",
-    "name": "Annangrove Rd before Limestone Rd",
+    "name": "Annangrove Rd after Limestone Rd",
     "lat": "-33.665855",
     "lon": "150.91814",
     "productClass": [
@@ -219561,15 +219596,6 @@
     "name": "Horningsea Park Dr before Camden Valley Way",
     "lat": "-33.950201",
     "lon": "150.845658",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2171200",
-    "name": "Bringelly Rd after Cowpasture Rd",
-    "lat": "-33.951979",
-    "lon": "150.821795",
     "productClass": [
       5
     ]
@@ -328047,6 +328073,15 @@
     ]
   },
   {
+    "id": "2780197",
+    "name": "Katoomba Station, Goldsmith Pl",
+    "lat": "-33.711904",
+    "lon": "150.312229",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2780200",
     "name": "Northcote Rd after Gladstone Rd",
     "lat": "-33.718781",
@@ -328645,6 +328680,15 @@
     "name": "Blaxland Rd opp Westbourne Ave",
     "lat": "-33.705972",
     "lon": "150.376196",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2790115",
+    "name": "Zig Zag Station, Chifley Rd",
+    "lat": "-33.477797",
+    "lon": "150.221304",
     "productClass": [
       5
     ]
@@ -331258,15 +331302,6 @@
     "name": "Orange Station",
     "lat": "-33.287182",
     "lon": "149.103704",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "2800216",
-    "name": "Orange East Fork Station",
-    "lat": "-33.299655",
-    "lon": "149.101511",
     "productClass": [
       1
     ]
