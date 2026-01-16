@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-01-13T13:22:41.387049302Z",
+  "generated_at": "2026-01-16T13:21:05.725905362Z",
   "routes": {
     "160": [
       {
@@ -25910,11 +25910,11 @@
       },
       {
         "route_id": "2504_2584",
-        "route_name": "St Bernadettes PS to Parramatta Station",
+        "route_name": "St Bernadettes PS to Baulkham Hills Junction",
         "trips": [
           {
             "trip_id": "2493609",
-            "headsign": "St Bernadettes PS to Parramatta Station",
+            "headsign": "St Bernadettes PS to Baulkham Hills Junction",
             "stop_ids": [
               "2154327",
               "2154324",
@@ -42023,7 +42023,7 @@
         "route_name": "Central Coast Grammar School to The Entrance North",
         "trips": [
           {
-            "trip_id": "2571005",
+            "trip_id": "2585939",
             "headsign": "Central Coast Grammar School to The Entrance North",
             "stop_ids": [
               "2260513",
@@ -42055,6 +42055,7 @@
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -42319,7 +42320,7 @@
         "route_name": "Bateau Bay to Bateau Bay PS via Shelly Beach",
         "trips": [
           {
-            "trip_id": "2515822",
+            "trip_id": "2585912",
             "headsign": "Bateau Bay to Bateau Bay PS via Shelly Beach",
             "stop_ids": [
               "226146",
@@ -42342,6 +42343,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -42393,7 +42395,7 @@
         "route_name": "Tuggerah Lakes SC, The Entrance to Brooke Av PS via Bateau Bay & Berkley Vale",
         "trips": [
           {
-            "trip_id": "2390665",
+            "trip_id": "2585971",
             "headsign": "Tuggerah Lakes SC, The Entrance to Brooke Av PS via Bateau Bay & Berkley Vale",
             "stop_ids": [
               "226134",
@@ -42402,6 +42404,7 @@
               "2261211",
               "2261212",
               "2261213",
+              "2261214",
               "2261215",
               "2261147",
               "2261417",
@@ -42434,6 +42437,9 @@
               "2261223",
               "2261532",
               "2261529",
+              "2261549",
+              "2261547",
+              "226181",
               "2261104",
               "2261467",
               "2261325",
@@ -42502,7 +42508,7 @@
         "route_name": "Central Coast Hwy at Cresthaven Rd to Brooke Av PS",
         "trips": [
           {
-            "trip_id": "2390659",
+            "trip_id": "2585914",
             "headsign": "Central Coast Hwy at Cresthaven Rd to Brooke Av PS",
             "stop_ids": [
               "226144",
@@ -42515,6 +42521,7 @@
               "2261200",
               "2261201",
               "2261202",
+              "2261203",
               "2261183",
               "2261145",
               "2261418",
@@ -42587,7 +42594,7 @@
         "route_name": "Bay Village to Central Coast Adventist School via The Entrance",
         "trips": [
           {
-            "trip_id": "2515815",
+            "trip_id": "2585960",
             "headsign": "Bay Village to Central Coast Adventist School via The Entrance",
             "stop_ids": [
               "2261406",
@@ -42596,6 +42603,8 @@
               "226149",
               "226150",
               "226151",
+              "2261557",
+              "2261559",
               "2261133",
               "2261134",
               "2261135",
@@ -42607,6 +42616,7 @@
               "226124",
               "226125",
               "226126",
+              "226127",
               "226128",
               "226129",
               "226130",
@@ -42619,6 +42629,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -42631,6 +42642,7 @@
               "2260179",
               "2260148",
               "2260180",
+              "2260484",
               "2260136",
               "2260137",
               "2260138",
@@ -42638,6 +42650,7 @@
               "2260140",
               "2260155",
               "2260493",
+              "2260156",
               "2260495",
               "2260158",
               "2260159",
@@ -42649,7 +42662,9 @@
               "2260146",
               "2260506",
               "2260507",
+              "2260445",
               "2260513",
+              "2250708",
               "2250444",
               "2250890"
             ]
@@ -42719,7 +42734,7 @@
         "route_name": "Wyong Station to Central Coast Grammar School",
         "trips": [
           {
-            "trip_id": "2479890",
+            "trip_id": "2585959",
             "headsign": "Wyong Station to Central Coast Grammar School",
             "stop_ids": [
               "225922",
@@ -42727,6 +42742,7 @@
               "2259194",
               "225912",
               "2259534",
+              "2259966",
               "2261296",
               "2261297",
               "2261298",
@@ -42749,6 +42765,7 @@
               "2261310",
               "2261157",
               "2261159",
+              "2261225",
               "2261219",
               "2261220",
               "2261221",
@@ -42863,19 +42880,27 @@
         "route_name": "Hills St at Enta St to Gosford PS via North Gosford",
         "trips": [
           {
-            "trip_id": "2331706",
+            "trip_id": "2585974",
             "headsign": "Hills St at Enta St to Gosford PS via North Gosford",
             "stop_ids": [
               "2250856",
+              "2250857",
               "2250858",
+              "2250729",
               "2250727",
               "2250749",
               "2250220",
+              "225038",
               "2250747",
               "225080",
               "2250863",
+              "2250728",
               "2250865",
+              "2250731",
+              "2250254",
+              "2250892",
               "2250867",
+              "2250255",
               "2250736"
             ]
           }
@@ -42929,13 +42954,33 @@
         "route_name": "Gosford HS to Gosford PS via North Gosford",
         "trips": [
           {
-            "trip_id": "2331601",
+            "trip_id": "2585905",
             "headsign": "Gosford HS to Gosford PS via North Gosford",
             "stop_ids": [
               "2250856",
+              "2250857",
               "2250858",
+              "2250729",
+              "2250730",
+              "2250451",
+              "2250859",
+              "2250860",
+              "2250748",
+              "2250861",
+              "2250767",
+              "2250766",
+              "2250862",
+              "2250452",
               "2250753",
+              "2250759",
+              "2250745",
+              "2250728",
+              "2250865",
               "2250731",
+              "2250254",
+              "2250892",
+              "2250867",
+              "2250255",
               "2250736"
             ]
           }
@@ -42978,7 +43023,7 @@
         "route_name": "Barralong Rd to Gosford PS via Springfield",
         "trips": [
           {
-            "trip_id": "2463404",
+            "trip_id": "2586007",
             "headsign": "Barralong Rd to Gosford PS via Springfield",
             "stop_ids": [
               "2250489",
@@ -43010,6 +43055,7 @@
               "2250440",
               "225047",
               "2250254",
+              "2250892",
               "2250867",
               "2250255",
               "2250736"
@@ -43088,26 +43134,75 @@
         "route_name": "Tuggerah Lakes SC, The Entrance to Green Point Christian College",
         "trips": [
           {
-            "trip_id": "2515758",
+            "trip_id": "2585901",
             "headsign": "Tuggerah Lakes SC, The Entrance to Green Point Christian College",
             "stop_ids": [
               "226134",
+              "2261370",
+              "226172",
+              "226173",
+              "2261190",
               "2261491",
+              "226174",
+              "226175",
               "226177",
+              "226178",
+              "2261489",
+              "226179",
+              "226180",
               "226139",
+              "226140",
+              "226141",
               "2260133",
+              "2260134",
               "2260135",
+              "2260136",
+              "2260137",
               "2260138",
+              "2260139",
               "2260140",
               "2260155",
+              "2260493",
+              "2260156",
+              "2260495",
+              "2260158",
+              "2260159",
+              "2260160",
               "2260142",
+              "2260143",
+              "2260144",
+              "2260145",
               "2260146",
+              "2260506",
+              "2260507",
+              "2260445",
+              "2250844",
               "2250708",
+              "2250444",
+              "2250561",
+              "2250562",
               "225027",
+              "225028",
+              "225029",
               "2250560",
+              "2250762",
+              "2250761",
               "2250542",
+              "2250543",
+              "2250544",
+              "2250545",
               "225159",
+              "225161",
+              "225162",
+              "225163",
+              "225164",
+              "2251349",
               "2251189",
+              "2251190",
+              "2251191",
+              "2251192",
+              "2251193",
+              "2251194",
               "2251351"
             ]
           }
@@ -43255,18 +43350,37 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah PS",
         "trips": [
           {
-            "trip_id": "2581761",
+            "trip_id": "2585894",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah PS",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
               "2261431",
+              "226144",
               "226145",
               "226146",
               "226147",
+              "2261482",
+              "2261406",
+              "2261363",
               "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
               "2261215",
+              "2261216",
+              "2261217",
               "2261161",
+              "2261162",
+              "2261481",
               "2261163",
+              "2261138",
+              "2261139",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
               "2261328",
               "2261329",
@@ -43274,10 +43388,23 @@
               "2261331",
               "2261332",
               "2261315",
+              "2261316",
+              "2261317",
+              "2261318",
+              "2261334",
+              "2261335",
               "2261336",
+              "2261501",
+              "2261337",
+              "2261338",
+              "2261356",
               "2261487",
+              "2261257",
+              "2261259",
               "2261260",
+              "2261343",
               "2259585",
+              "2259689",
               "2259348"
             ]
           }
@@ -44031,11 +44158,11 @@
     "2337": [
       {
         "route_id": "2450_2337",
-        "route_name": "Unknown Long Name",
+        "route_name": "Fletcher to Merewether HS",
         "trips": [
           {
             "trip_id": "2578553",
-            "headsign": "Unknown",
+            "headsign": "Fletcher to Merewether HS",
             "stop_ids": [
               "2287212",
               "2287240",
@@ -71002,7 +71129,7 @@
         "route_name": "Wollongong to Horsley via Unanderra (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765629",
+            "trip_id": "2497017",
             "headsign": "Wollongong to Horsley via Unanderra (Loop Service)",
             "stop_ids": [
               "250028",
@@ -71039,27 +71166,7 @@
               "253018",
               "253019",
               "2530139",
-              "2530140",
-              "2530141",
-              "2530234",
-              "2530199",
-              "2530200",
-              "2530201",
-              "2530202",
-              "2530235",
-              "2530207",
-              "2530208",
-              "2530196",
-              "2530197",
-              "2530198",
-              "2530186",
-              "2530187",
-              "2530188",
-              "2530189",
-              "2530190",
-              "2530191",
-              "2530192",
-              "2530195",
+              "253021",
               "253022",
               "253057",
               "253058",
@@ -75406,6 +75513,52 @@
               "250033",
               "250034",
               "250081"
+            ]
+          }
+        ]
+      },
+      {
+        "route_id": "2504_8",
+        "route_name": "Dural to Sydney Olympic Park via Telopea Shops",
+        "trips": [
+          {
+            "trip_id": "2516666",
+            "headsign": "Dural to Sydney Olympic Park via Telopea Shops",
+            "stop_ids": [
+              "215898",
+              "215817",
+              "215820",
+              "215614",
+              "2158110",
+              "2126131",
+              "2126123",
+              "212565",
+              "2125128",
+              "211831",
+              "211816",
+              "2117180",
+              "211536",
+              "212774"
+            ]
+          },
+          {
+            "trip_id": "2516688",
+            "headsign": "Sydney Olympic Park to Dural via Telopea Shops",
+            "stop_ids": [
+              "212774",
+              "211533",
+              "2117181",
+              "2118189",
+              "211824",
+              "212548",
+              "212549",
+              "212684",
+              "2126143",
+              "2154322",
+              "215613",
+              "215813",
+              "215816",
+              "215849"
             ]
           }
         ]
@@ -85140,7 +85293,7 @@
         "route_name": "Glassop St before Little Rd, Yagoona to Kemps Creek PS",
         "trips": [
           {
-            "trip_id": "2499155",
+            "trip_id": "2586265",
             "headsign": "Glassop St before Little Rd, Yagoona to Kemps Creek PS",
             "stop_ids": [
               "2200196",
@@ -85173,7 +85326,7 @@
               "2171143",
               "2171145",
               "2171120",
-              "2171200",
+              "217974",
               "2171201",
               "2171392",
               "2171418",
@@ -104445,11 +104598,11 @@
     "575s": [
       {
         "route_id": "2459_575s",
-        "route_name": "Homebush Station to Rosebank College",
+        "route_name": "Homebush to Rosebank College",
         "trips": [
           {
             "trip_id": "2037996",
-            "headsign": "Homebush Station to Rosebank College",
+            "headsign": "Homebush to Rosebank College",
             "stop_ids": [
               "214013",
               "214016",
@@ -104671,11 +104824,11 @@
     "581s": [
       {
         "route_id": "2459_581s",
-        "route_name": "St Patricks Strathfield to Belmore Station",
+        "route_name": "St Patricks Strathfield to Earlwood",
         "trips": [
           {
             "trip_id": "2330343",
-            "headsign": "St Patricks Strathfield to Belmore Station",
+            "headsign": "St Patricks Strathfield to Earlwood",
             "stop_ids": [
               "2135154",
               "219113",
@@ -104870,11 +105023,11 @@
     "583s": [
       {
         "route_id": "2459_583s",
-        "route_name": "St Patricks Strathfield to Five Dock Shops",
+        "route_name": "St Patricks Strathfield to Leichhardt",
         "trips": [
           {
             "trip_id": "2579621",
-            "headsign": "St Patricks Strathfield to Five Dock Shops",
+            "headsign": "St Patricks Strathfield to Leichhardt",
             "stop_ids": [
               "2135148",
               "2135162",
@@ -104909,11 +105062,11 @@
     "584s": [
       {
         "route_id": "2459_584s",
-        "route_name": "St Patricks Strathfield to Rhodes Station",
+        "route_name": "St Patricks Strathfield to Concord West",
         "trips": [
           {
             "trip_id": "2477680",
-            "headsign": "St Patricks Strathfield to Rhodes Station",
+            "headsign": "St Patricks Strathfield to Concord West",
             "stop_ids": [
               "2135149",
               "213718",
@@ -104935,11 +105088,11 @@
     "585s": [
       {
         "route_id": "2459_585s",
-        "route_name": "St Patricks Strathfield to Burwood & Parramatta Rds",
+        "route_name": "St Patricks Strathfield to Concord",
         "trips": [
           {
             "trip_id": "2418293",
-            "headsign": "St Patricks Strathfield to Burwood & Parramatta Rds",
+            "headsign": "St Patricks Strathfield to Concord",
             "stop_ids": [
               "2135154",
               "2137116",
@@ -105128,11 +105281,11 @@
     "591s": [
       {
         "route_id": "2459_591s",
-        "route_name": "De La Salle Ashfield to Rodd Point",
+        "route_name": "St Vincents College Ashfield to Haberfield",
         "trips": [
           {
             "trip_id": "2287776",
-            "headsign": "De La Salle Ashfield to Rodd Point",
+            "headsign": "St Vincents College Ashfield to Haberfield",
             "stop_ids": [
               "213143",
               "213145",
@@ -105157,11 +105310,11 @@
     "592s": [
       {
         "route_id": "2459_592s",
-        "route_name": "Bethlehem College to Strathfield Station",
+        "route_name": "St Vincents College Ashfield to Wallis Ave, Strathfield",
         "trips": [
           {
             "trip_id": "2340667",
-            "headsign": "Bethlehem College to Strathfield Station",
+            "headsign": "St Vincents College Ashfield to Wallis Ave, Strathfield",
             "stop_ids": [
               "213143",
               "213145",
@@ -105198,11 +105351,11 @@
     "593s": [
       {
         "route_id": "2459_593s",
-        "route_name": "Haberfield to St Patrick's College Strathfield",
+        "route_name": "Leichhardt to St Patrick's College Strathfield",
         "trips": [
           {
             "trip_id": "2579620",
-            "headsign": "Haberfield to St Patrick's College Strathfield",
+            "headsign": "Leichhardt to St Patrick's College Strathfield",
             "stop_ids": [
               "204020",
               "204022",
@@ -105300,11 +105453,11 @@
     "595s": [
       {
         "route_id": "2459_595s",
-        "route_name": "Parramatta Rd & Dalhousie Sts to Burwood Girls High",
+        "route_name": "Ashfield Station to Burwood Girls High",
         "trips": [
           {
             "trip_id": "2211933",
-            "headsign": "Parramatta Rd & Dalhousie Sts to Burwood Girls High",
+            "headsign": "Ashfield Station to Burwood Girls High",
             "stop_ids": [
               "2131110",
               "213114",
@@ -105581,11 +105734,11 @@
     "602s": [
       {
         "route_id": "2459_602s",
-        "route_name": "Strathfield Girls High to Ashfield Station",
+        "route_name": "Strathfield Girls High to Strathfield",
         "trips": [
           {
             "trip_id": "2348892",
-            "headsign": "Strathfield Girls High to Ashfield Station",
+            "headsign": "Strathfield Girls High to Strathfield",
             "stop_ids": [
               "213540",
               "213577",
@@ -105640,11 +105793,11 @@
     "604s": [
       {
         "route_id": "2459_604s",
-        "route_name": "Burwood Station to Strathfield Girls High",
+        "route_name": "Concord to Strathfield Girls High",
         "trips": [
           {
             "trip_id": "2340826",
-            "headsign": "Burwood Station to Strathfield Girls High",
+            "headsign": "Concord to Strathfield Girls High",
             "stop_ids": [
               "213727",
               "213735",
@@ -105669,11 +105822,11 @@
     "605s": [
       {
         "route_id": "2459_605s",
-        "route_name": "Strathfield Girls High to Burwood Rd & Gipps St,Concord",
+        "route_name": "Strathfield Girls High to Concord",
         "trips": [
           {
             "trip_id": "1917239",
-            "headsign": "Strathfield Girls High to Burwood Rd & Gipps St,Concord",
+            "headsign": "Strathfield Girls High to Concord",
             "stop_ids": [
               "213536",
               "213542",
@@ -105777,11 +105930,11 @@
     "608s": [
       {
         "route_id": "2459_608s",
-        "route_name": "Christian Bros Lewisham to Undercliffe (Cooks River Bridge)",
+        "route_name": "Christian Bros Lewisham to Earlwood",
         "trips": [
           {
             "trip_id": "2037453",
-            "headsign": "Christian Bros Lewisham to Undercliffe (Cooks River Bridge)",
+            "headsign": "Christian Bros Lewisham to Earlwood",
             "stop_ids": [
               "204931",
               "220317",
@@ -106397,11 +106550,11 @@
     "618s": [
       {
         "route_id": "2459_618s",
-        "route_name": "Campsie Station to Christian Bros Lewisham",
+        "route_name": "Campsie to Christian Bros Lewisham",
         "trips": [
           {
             "trip_id": "2038632",
-            "headsign": "Campsie Station to Christian Bros Lewisham",
+            "headsign": "Campsie to Christian Bros Lewisham",
             "stop_ids": [
               "219469",
               "219470",
@@ -106441,11 +106594,11 @@
     "619s": [
       {
         "route_id": "2459_619s",
-        "route_name": "Christian Bros Lewisham to Campsie Station",
+        "route_name": "Christian Bros Lewisham to Campsie",
         "trips": [
           {
             "trip_id": "2211970",
-            "headsign": "Christian Bros Lewisham to Campsie Station",
+            "headsign": "Christian Bros Lewisham to Campsie",
             "stop_ids": [
               "204931",
               "220317",
@@ -106485,11 +106638,11 @@
     "620s": [
       {
         "route_id": "2459_620s",
-        "route_name": "Christian Bros Lewisham to Earlwood",
+        "route_name": "Christian Bros Lewisham to Kingsgrove",
         "trips": [
           {
             "trip_id": "2038288",
-            "headsign": "Christian Bros Lewisham to Earlwood",
+            "headsign": "Christian Bros Lewisham to Kingsgrove",
             "stop_ids": [
               "204931",
               "220317",
@@ -106524,11 +106677,11 @@
     "621s": [
       {
         "route_id": "2459_621s",
-        "route_name": "St Maroun School to Bexley Rd & William St Kingsgrove",
+        "route_name": "St Maroun School to Bexley Rd and William St (Kingsgrove)",
         "trips": [
           {
             "trip_id": "2288743",
-            "headsign": "StMaroun School to Bexley Rd & William St (Kingsgrove)",
+            "headsign": "St Maroun School to Bexley Rd and William St (Kingsgrove)",
             "stop_ids": [
               "2204108",
               "2204107",
@@ -106928,11 +107081,11 @@
     "633s": [
       {
         "route_id": "2459_633s",
-        "route_name": "Dulwich Hill Shops to Canterbury Primary",
+        "route_name": "Hurlstone Park Station to Canterbury PS",
         "trips": [
           {
             "trip_id": "2340970",
-            "headsign": "Dulwich Hill Shops to Canterbury Primary",
+            "headsign": "Hurlstone Park Station to Canterbury PS",
             "stop_ids": [
               "219311",
               "219326",
@@ -106946,11 +107099,11 @@
     "634s": [
       {
         "route_id": "2459_634s",
-        "route_name": "Canterbury Primary to Dulwich Hill Shops",
+        "route_name": "Canterbury PS to Hurlstone Park Station",
         "trips": [
           {
             "trip_id": "2340763",
-            "headsign": "Canterbury Primary to Dulwich Hill Shops",
+            "headsign": "Canterbury PS to Hurlstone Park Station",
             "stop_ids": [
               "219380",
               "219374",
@@ -107004,11 +107157,11 @@
     "636s": [
       {
         "route_id": "2459_636s",
-        "route_name": "Bexley Rd & William St, Kingsgrove to Kingsgrove High",
+        "route_name": "Clemton Park to Kingsgrove High School",
         "trips": [
           {
             "trip_id": "2037786",
-            "headsign": "Bexley Rd & William St, Kingsgrove to Kingsgrove High",
+            "headsign": "Clemton Park to Kingsgrove High School",
             "stop_ids": [
               "220696",
               "220697",
@@ -107034,7 +107187,7 @@
           },
           {
             "trip_id": "1941823",
-            "headsign": "Kingsgrove High to Bexley Rd & William St, Kingsgrove",
+            "headsign": "Kingsgrove High School to Earlwood",
             "stop_ids": [
               "220853",
               "2207155",
@@ -107081,11 +107234,11 @@
     "638s": [
       {
         "route_id": "2459_638s",
-        "route_name": "Canterbury Rd & Tincombe St, Canterbury to Kingsgrove High",
+        "route_name": "Canterbury to Kingsgrove High School",
         "trips": [
           {
             "trip_id": "2283613",
-            "headsign": "Canterbury Rd & Tincombe St, Canterbury to Kingsgrove High",
+            "headsign": "Canterbury to Kingsgrove High School",
             "stop_ids": [
               "2193105",
               "219351",
@@ -107234,11 +107387,11 @@
     "642s": [
       {
         "route_id": "2459_642s",
-        "route_name": "Bexley Rd & William St Kingsgrove to Santa Maria Del Monte",
+        "route_name": "Earlwood to Santa Sabina College",
         "trips": [
           {
             "trip_id": "2288698",
-            "headsign": "Bexley Rd & William St Kingsgrove to Santa Maria Del Monte",
+            "headsign": "Earlwood to Santa Sabina College",
             "stop_ids": [
               "220663",
               "219469",
@@ -107524,11 +107677,11 @@
     "647s": [
       {
         "route_id": "2459_647s",
-        "route_name": "Railway Square to St Scholasticas, Glebe",
+        "route_name": "Central Station to St Scholastica's, Glebe",
         "trips": [
           {
             "trip_id": "2289885",
-            "headsign": "Railway Square to St Scholasticas, Glebe",
+            "headsign": "Central Station to St Scholastica's, Glebe",
             "stop_ids": [
               "200064",
               "200815",
@@ -107544,7 +107697,7 @@
           },
           {
             "trip_id": "2340813",
-            "headsign": "St Scholasticas, Glebe to Millers Point",
+            "headsign": "St Scholastica's, Glebe to Central Station",
             "stop_ids": [
               "203721",
               "203722",
@@ -108084,11 +108237,11 @@
     "671s": [
       {
         "route_id": "2459_671s",
-        "route_name": "Earlwood to Domremy College",
+        "route_name": "Clemton Park to Domremy College",
         "trips": [
           {
             "trip_id": "2211938",
-            "headsign": "Earlwood to Domremy College",
+            "headsign": "Clemton Park to Domremy College",
             "stop_ids": [
               "2208125",
               "220663",
@@ -108664,11 +108817,11 @@
     "685s": [
       {
         "route_id": "2459_685s",
-        "route_name": "Sydney Secondary College, Blackwattle Bay Campus to City Martin Place",
+        "route_name": "Sydney Secondary College, Blackwattle Bay Campus to Central Station",
         "trips": [
           {
             "trip_id": "2340695",
-            "headsign": "Sydney Secondary College, Blackwattle Bay Campus to City Martin Place",
+            "headsign": "Sydney Secondary College, Blackwattle Bay Campus to Central Station",
             "stop_ids": [
               "203746",
               "203725",
@@ -108871,11 +109024,11 @@
     "713s": [
       {
         "route_id": "2459_713s",
-        "route_name": "Broughton St & Parramatta Rd,Burwood to Homebush Boys High",
+        "route_name": "North Strathfield to Homebush Boys High School",
         "trips": [
           {
             "trip_id": "2340986",
-            "headsign": "Broughton St & Parramatta Rd,Burwood to Homebush Boys High",
+            "headsign": "North Strathfield to Homebush Boys High School",
             "stop_ids": [
               "2137111",
               "213711",
@@ -108922,11 +109075,11 @@
     "715s": [
       {
         "route_id": "2459_715s",
-        "route_name": "St Marys Concord to Homebush Station",
+        "route_name": "St Marys Catholic Primary School Concord to North Strathfield Station",
         "trips": [
           {
             "trip_id": "2285004",
-            "headsign": "St Marys Concord to Homebush Station",
+            "headsign": "St Marys Catholic Primary School Concord to North Strathfield Station",
             "stop_ids": [
               "2137101",
               "2137132",
@@ -109111,11 +109264,11 @@
     "726s": [
       {
         "route_id": "2459_726s",
-        "route_name": "De La Salle Ashfield to Earlwood",
+        "route_name": "t Vincents College Ashfield to Earlwood",
         "trips": [
           {
             "trip_id": "2340784",
-            "headsign": "De La Salle Ashfield to Earlwood",
+            "headsign": "t Vincents College Ashfield to Earlwood",
             "stop_ids": [
               "213143",
               "213145",
@@ -109153,11 +109306,11 @@
     "731s": [
       {
         "route_id": "2459_731s",
-        "route_name": "Rockdale Station to Miranda Station",
+        "route_name": "Rockdale Station to Caringbah High School",
         "trips": [
           {
             "trip_id": "2283884",
-            "headsign": "Rockdale Station to Miranda Station",
+            "headsign": "Rockdale Station to Caringbah High School",
             "stop_ids": [
               "221613",
               "221645",
@@ -109627,11 +109780,39 @@
     "750s": [
       {
         "route_id": "2459_750s",
-        "route_name": "Taren Point to Caringbah",
+        "route_name": "Toorak Ave, Taren Point to Caringbah High School",
         "trips": [
           {
+            "trip_id": "2340885",
+            "headsign": "Toorak Ave, Taren Point to Caringbah High School",
+            "stop_ids": [
+              "222940",
+              "2229200",
+              "2229199",
+              "222912",
+              "222913",
+              "222914",
+              "222915",
+              "222916",
+              "222917",
+              "222918",
+              "222919",
+              "222920",
+              "222921",
+              "222923",
+              "222924",
+              "222955",
+              "222927",
+              "222929",
+              "222957",
+              "222956",
+              "222931",
+              "222933"
+            ]
+          },
+          {
             "trip_id": "1964378",
-            "headsign": "Caringbah to Taren Point",
+            "headsign": "Unknown",
             "stop_ids": [
               "222911",
               "222957",
@@ -109663,34 +109844,6 @@
               "222937",
               "2228102",
               "222815"
-            ]
-          },
-          {
-            "trip_id": "2340885",
-            "headsign": "Taren Point to Caringbah",
-            "stop_ids": [
-              "222940",
-              "2229200",
-              "2229199",
-              "222912",
-              "222913",
-              "222914",
-              "222915",
-              "222916",
-              "222917",
-              "222918",
-              "222919",
-              "222920",
-              "222921",
-              "222923",
-              "222924",
-              "222955",
-              "222927",
-              "222929",
-              "222957",
-              "222956",
-              "222931",
-              "222933"
             ]
           }
         ]
@@ -145671,11 +145824,11 @@
     "1009": [
       {
         "route_id": "2502_1009",
-        "route_name": "Hinchinbrook to Hoxton Park PS via Greenway Park PS",
+        "route_name": "Sixteenth Ave Austral to Greenway Park PS via Hoxton Park PS",
         "trips": [
           {
             "trip_id": "2575923",
-            "headsign": "Hinchinbrook to Hoxton Park PS via Greenway Park PS",
+            "headsign": "Sixteenth Ave Austral to Greenway Park PS via Hoxton Park PS",
             "stop_ids": [
               "217988",
               "2171257",
@@ -145707,12 +145860,14 @@
         "route_name": "Rossmore Public School to Rossmore (Loop Service)",
         "trips": [
           {
-            "trip_id": "2575949",
+            "trip_id": "2585796",
             "headsign": "Rossmore Public School to Rossmore (Loop Service)",
             "stop_ids": [
               "2171175",
+              "255795",
               "2171387",
               "255793",
+              "255794",
               "2171175"
             ]
           }
@@ -147403,20 +147558,23 @@
     "2002": [
       {
         "route_id": "2502_2002",
-        "route_name": "Rossmore Public School to Austral",
+        "route_name": "Rossmore PS to Austral via Unity Grammar",
         "trips": [
           {
-            "trip_id": "2584390",
-            "headsign": "Rossmore Public School to Austral",
+            "trip_id": "2585838",
+            "headsign": "Rossmore PS to Austral via Unity Grammar",
             "stop_ids": [
               "2171175",
+              "255795",
               "2171387",
               "255793",
+              "255794",
               "2171208",
               "217978",
               "21791",
-              "217963",
-              "217964",
+              "217989",
+              "217957",
+              "217958",
               "217987"
             ]
           }
@@ -148162,7 +148320,7 @@
         "route_name": "Thomas Hassall College to Horningsea Park",
         "trips": [
           {
-            "trip_id": "2584413",
+            "trip_id": "2585792",
             "headsign": "Thomas Hassall College to Horningsea Park",
             "stop_ids": [
               "2171464",
@@ -148213,6 +148371,7 @@
               "255791",
               "255789",
               "2171175",
+              "255795",
               "255732",
               "2171397",
               "255721",
@@ -148303,7 +148462,7 @@
         "route_name": "Bringelly PS to Rossmore",
         "trips": [
           {
-            "trip_id": "2584402",
+            "trip_id": "2585789",
             "headsign": "Bringelly PS to Rossmore",
             "stop_ids": [
               "2171124",
@@ -148325,6 +148484,8 @@
               "2171319",
               "2171444",
               "255788",
+              "255722",
+              "255794",
               "2171255"
             ]
           }
@@ -151292,7 +151453,7 @@
         "route_name": "Cecil Hills HS to Austral",
         "trips": [
           {
-            "trip_id": "2464603",
+            "trip_id": "2585847",
             "headsign": "Cecil Hills HS to Austral",
             "stop_ids": [
               "2171111",
@@ -151345,6 +151506,7 @@
               "2171459",
               "2171458",
               "2171320",
+              "255794",
               "255737"
             ]
           }
@@ -151980,7 +152142,7 @@
         "route_name": "Conrad Rd after Keirle Rd to Marian College via Kellyville HS",
         "trips": [
           {
-            "trip_id": "2516301",
+            "trip_id": "2585315",
             "headsign": "Conrad Rd after Keirle Rd to Marian College via Kellyville HS",
             "stop_ids": [
               "2155211",
@@ -152268,7 +152430,7 @@
         "route_name": "Old Northern Rd before Gilbert Rd to Marian College via William Clarke College",
         "trips": [
           {
-            "trip_id": "2516588",
+            "trip_id": "2585317",
             "headsign": "Old Northern Rd before Gilbert Rd to Marian College via William Clarke College",
             "stop_ids": [
               "2154178",
@@ -153411,7 +153573,7 @@
         "route_name": "Bramton Dr opp Stafford Way to Marian College",
         "trips": [
           {
-            "trip_id": "2466572",
+            "trip_id": "2585319",
             "headsign": "Bramton Dr opp Stafford Way to Marian College",
             "stop_ids": [
               "2155316",
@@ -161290,7 +161452,7 @@
         "route_name": "Campbelltown to Liverpool",
         "trips": [
           {
-            "trip_id": "2421499",
+            "trip_id": "2585509",
             "headsign": "Campbelltown to Liverpool",
             "stop_ids": [
               "2560596",
@@ -161299,8 +161461,9 @@
               "2560470",
               "2560457",
               "256014",
-              "256026",
-              "2560579",
+              "2560328",
+              "2560117",
+              "256017",
               "256027",
               "256029",
               "2560474",
@@ -161504,7 +161667,7 @@
         "route_name": "Campbelltown to Liverpool via Macquarie Fields",
         "trips": [
           {
-            "trip_id": "2421497",
+            "trip_id": "2585534",
             "headsign": "Campbelltown to Liverpool via Macquarie Fields",
             "stop_ids": [
               "2560596",
@@ -161513,8 +161676,9 @@
               "2560470",
               "2560457",
               "256014",
-              "256026",
-              "2560579",
+              "2560328",
+              "2560117",
+              "256017",
               "256027",
               "256029",
               "2560474",
@@ -162023,13 +162187,15 @@
         "route_name": "Campbelltown to Kearns via Eagle Vale & Eschol Park (Loop Service)",
         "trips": [
           {
-            "trip_id": "2223566",
+            "trip_id": "2585585",
             "headsign": "Campbelltown to Kearns via Eagle Vale & Eschol Park (Loop Service)",
             "stop_ids": [
-              "256028",
+              "2560331",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560577",
               "2560406",
@@ -162042,7 +162208,7 @@
               "255914",
               "255915",
               "255916",
-              "255917",
+              "255934",
               "255918",
               "255919",
               "255834",
@@ -162084,7 +162250,7 @@
               "256047",
               "256048",
               "256049",
-              "2560468"
+              "2560331"
             ]
           }
         ]
@@ -162168,13 +162334,15 @@
         "route_name": "Campelltown to Leumeah Station via Blair Athol",
         "trips": [
           {
-            "trip_id": "2223482",
+            "trip_id": "2585505",
             "headsign": "Campelltown to Leumeah Station via Blair Athol",
             "stop_ids": [
               "256028",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560577",
               "2560406",
@@ -162201,7 +162369,7 @@
             ]
           },
           {
-            "trip_id": "2013745",
+            "trip_id": "2585525",
             "headsign": "Leumeah Station to Campelltown via Blair Athol",
             "stop_ids": [
               "2560667",
@@ -162226,8 +162394,9 @@
               "2560714",
               "2560570",
               "256014",
-              "256026",
-              "2560579",
+              "2560328",
+              "2560117",
+              "256017",
               "256027",
               "2560468"
             ]
@@ -162241,13 +162410,15 @@
         "route_name": "Campbelltown to Minto via Eagle Vale & Kearns",
         "trips": [
           {
-            "trip_id": "2223524",
+            "trip_id": "2585523",
             "headsign": "Campbelltown to Minto via Eagle Vale & Kearns",
             "stop_ids": [
               "256028",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560577",
               "2560406",
@@ -162260,7 +162431,7 @@
               "255914",
               "255915",
               "255916",
-              "255917",
+              "255934",
               "255918",
               "255919",
               "255834",
@@ -162296,8 +162467,7 @@
               "256626",
               "256627",
               "2566204",
-              "256628",
-              "256629"
+              "256628"
             ]
           },
           {
@@ -163488,13 +163658,15 @@
         "route_name": "Campbelltown to Mount Annan via Currans Hill",
         "trips": [
           {
-            "trip_id": "2523172",
+            "trip_id": "2585746",
             "headsign": "Campbelltown to Mount Annan via Currans Hill",
             "stop_ids": [
               "256018",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560576",
               "256022",
@@ -163608,19 +163780,20 @@
         "route_name": "Campbelltown to Mount Annan via Narellan Vale (Loop Service)",
         "trips": [
           {
-            "trip_id": "2223848",
+            "trip_id": "2585504",
             "headsign": "Campbelltown to Mount Annan via Narellan Vale (Loop Service)",
             "stop_ids": [
               "256018",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560576",
               "256022",
               "2560472",
               "256025",
-              "256796",
               "256740",
               "256741",
               "2567116",
@@ -163652,8 +163825,9 @@
               "2560714",
               "2560570",
               "256014",
-              "256026",
-              "2560579",
+              "2560328",
+              "2560117",
+              "256017",
               "256027",
               "256018"
             ]
@@ -163667,13 +163841,15 @@
         "route_name": "Campbelltown to Narellan via Spring Farm & Elderslie",
         "trips": [
           {
-            "trip_id": "2523174",
+            "trip_id": "2585554",
             "headsign": "Campbelltown to Narellan via Spring Farm & Elderslie",
             "stop_ids": [
               "256018",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560576",
               "256022",
@@ -163718,11 +163894,12 @@
             ]
           },
           {
-            "trip_id": "2534986",
+            "trip_id": "2585845",
             "headsign": "Narellan to Campbelltown via Elderslie & Spring Farm",
             "stop_ids": [
               "256761",
               "256763",
+              "256764",
               "256765",
               "256766",
               "256767",
@@ -164082,13 +164259,15 @@
         "route_name": "Campbelltown to Oran Park (Loop Service)",
         "trips": [
           {
-            "trip_id": "2458200",
+            "trip_id": "2585503",
             "headsign": "Campbelltown to Oran Park (Loop Service)",
             "stop_ids": [
               "256018",
               "2560475",
-              "2560452",
-              "2560453",
+              "2560314",
+              "2560119",
+              "256019",
+              "256021",
               "2560551",
               "2560576",
               "256022",
@@ -164152,8 +164331,9 @@
               "2560668",
               "2560570",
               "256014",
-              "256026",
-              "2560579",
+              "2560328",
+              "2560117",
+              "256017",
               "256027",
               "256018"
             ]
@@ -187002,13 +187182,14 @@
         "route_name": "Bateau Bay PS to Killarney Vale PS",
         "trips": [
           {
-            "trip_id": "2515572",
+            "trip_id": "2585909",
             "headsign": "Bateau Bay PS to Killarney Vale PS",
             "stop_ids": [
               "2261419",
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -187065,13 +187246,14 @@
         "route_name": "Bateau Bay PS to Bateau Bay Killarney Vale and Tumbi Rd",
         "trips": [
           {
-            "trip_id": "2570978",
+            "trip_id": "2585888",
             "headsign": "Bateau Bay PS to Bateau Bay Killarney Vale and Tumbi Rd",
             "stop_ids": [
               "2261419",
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "226170",
               "2261551",
@@ -190242,7 +190424,7 @@
         "route_name": "Rouse Hill Station to Santa Sophia College",
         "trips": [
           {
-            "trip_id": "2560479",
+            "trip_id": "2585320",
             "headsign": "Rouse Hill Station to Santa Sophia College",
             "stop_ids": [
               "2155458",
@@ -190511,7 +190693,7 @@
         "route_name": "Rouse Hill Station to Santa Sophia College",
         "trips": [
           {
-            "trip_id": "2450765",
+            "trip_id": "2585314",
             "headsign": "Rouse Hill Station to Santa Sophia College",
             "stop_ids": [
               "2155458",
@@ -196703,7 +196885,7 @@
         "route_name": "Rouse Hill High to Gables via Box Hill",
         "trips": [
           {
-            "trip_id": "2493543",
+            "trip_id": "2585316",
             "headsign": "Rouse Hill High to Gables via Box Hill",
             "stop_ids": [
               "2155306",
@@ -207710,7 +207892,7 @@
         "route_name": "Rouse Hill HS to Dural PS",
         "trips": [
           {
-            "trip_id": "2493597",
+            "trip_id": "2585318",
             "headsign": "Rouse Hill HS to Dural PS",
             "stop_ids": [
               "2155306",
@@ -209482,6 +209664,111 @@
               "207736",
               "207737",
               "207756"
+            ]
+          }
+        ]
+      }
+    ],
+    "5A": [
+      {
+        "route_id": "2504_5A",
+        "route_name": "Hills Showground to Sydney Olympic Park via Baulkham Hills Junction",
+        "trips": [
+          {
+            "trip_id": "2539313",
+            "headsign": "Hills Showground to Sydney Olympic Park via Baulkham Hills Junction",
+            "stop_ids": [
+              "2154399",
+              "2154397",
+              "2153219",
+              "2153226",
+              "2153228",
+              "215232",
+              "215236",
+              "215240",
+              "212772"
+            ]
+          },
+          {
+            "trip_id": "2539310",
+            "headsign": "Sydney Olympic Park to Hills Showground via Baulkham Hills Junction",
+            "stop_ids": [
+              "212772",
+              "215225",
+              "2153178",
+              "2153182",
+              "2153186",
+              "2153206",
+              "2153218",
+              "2154394",
+              "2154398"
+            ]
+          }
+        ]
+      }
+    ],
+    "5B": [
+      {
+        "route_id": "2504_5B",
+        "route_name": "Tallawong to Sydney Olympic Park via Baulkham Hills Junction",
+        "trips": [
+          {
+            "trip_id": "2539314",
+            "headsign": "Sydney Olympic Park to Tallawong via Baulkham Hills Junction",
+            "stop_ids": [
+              "212773",
+              "215225",
+              "2153178",
+              "2153182",
+              "2153186",
+              "2153187",
+              "2153190",
+              "2153380",
+              "2153191",
+              "2153381",
+              "2153140",
+              "2153482",
+              "2153337",
+              "2153348",
+              "2155238",
+              "2153484",
+              "2155219",
+              "2155221",
+              "2155192",
+              "2155224",
+              "2155195",
+              "2155458",
+              "2155459"
+            ]
+          },
+          {
+            "trip_id": "2539338",
+            "headsign": "Tallawong to Sydney Olympic Park via Baulkham Hills Junction",
+            "stop_ids": [
+              "2155459",
+              "2155457",
+              "2155244",
+              "2155252",
+              "2155223",
+              "2155222",
+              "2155220",
+              "2153483",
+              "2153470",
+              "2153148",
+              "2153338",
+              "2153481",
+              "215385",
+              "2154103",
+              "2153200",
+              "2153201",
+              "2153202",
+              "2153205",
+              "2153226",
+              "2153228",
+              "215232",
+              "215236",
+              "215240",
+              "212773"
             ]
           }
         ]
@@ -216792,11 +217079,11 @@
     "8038": [
       {
         "route_id": "2504_8038",
-        "route_name": "Kings Langley to William Clarke College and Kellyville PS",
+        "route_name": "Kings Langley to William Clarke College",
         "trips": [
           {
             "trip_id": "2578560",
-            "headsign": "Kings Langley to William Clarke College and Kellyville PS",
+            "headsign": "Kings Langley to William Clarke College",
             "stop_ids": [
               "2147149",
               "2147150",
@@ -230717,32 +231004,8 @@
         "route_name": "Parramatta Station to James Ruse High School",
         "trips": [
           {
-            "trip_id": "2581687",
-            "headsign": "Parramatta Station to James Ruse High School",
-            "stop_ids": [
-              "2150121",
-              "2150116",
-              "215077",
-              "215076",
-              "215074",
-              "215073",
-              "211783",
-              "211743",
-              "2117165",
-              "2117155",
-              "2117156",
-              "2117158",
-              "211835",
-              "211836",
-              "211837",
-              "211838",
-              "211869",
-              "211870"
-            ]
-          },
-          {
             "trip_id": "2581664",
-            "headsign": "Unknown",
+            "headsign": "Cumberland High School to Parramatta Station",
             "stop_ids": [
               "2118252",
               "2117160",
@@ -230764,6 +231027,30 @@
               "2150108",
               "2150296",
               "2150119"
+            ]
+          },
+          {
+            "trip_id": "2581687",
+            "headsign": "Parramatta Station to James Ruse High School",
+            "stop_ids": [
+              "2150121",
+              "2150116",
+              "215077",
+              "215076",
+              "215074",
+              "215073",
+              "211783",
+              "211743",
+              "2117165",
+              "2117155",
+              "2117156",
+              "2117158",
+              "211835",
+              "211836",
+              "211837",
+              "211838",
+              "211869",
+              "211870"
             ]
           }
         ]
@@ -235665,6 +235952,90 @@
         ]
       }
     ],
+    "1A": [
+      {
+        "route_id": "2508_1A",
+        "route_name": "Narrabeen to Sydney Olympic Park via Dee Why",
+        "trips": [
+          {
+            "trip_id": "2520471",
+            "headsign": "Narrabeen to Sydney Olympic Park via Dee Why",
+            "stop_ids": [
+              "2101104",
+              "210152",
+              "209722",
+              "209724",
+              "209919",
+              "2099208",
+              "209991",
+              "210069",
+              "2086106",
+              "208714",
+              "206969",
+              "206971",
+              "2067135",
+              "205749",
+              "2113304",
+              "2113205",
+              "211398",
+              "211263",
+              "2112208",
+              "211268",
+              "213813",
+              "213855",
+              "212739"
+            ]
+          },
+          {
+            "trip_id": "2548836",
+            "headsign": "Sydney Olympic Park to Narrabeen via Dee Why",
+            "stop_ids": [
+              "212766",
+              "213854",
+              "213845",
+              "211269",
+              "2112247",
+              "2112234",
+              "211396",
+              "2113203",
+              "2113305",
+              "205750",
+              "2067135",
+              "206931",
+              "206966",
+              "208738",
+              "208664",
+              "2100114",
+              "2099108",
+              "209913",
+              "209916",
+              "209715",
+              "209717",
+              "210112",
+              "210115"
+            ]
+          }
+        ]
+      }
+    ],
+    "1SR": [
+      {
+        "route_id": "2508_1SR",
+        "route_name": "Unknown Long Name",
+        "trips": [
+          {
+            "trip_id": "2068379",
+            "headsign": "Unknown",
+            "stop_ids": [
+              "209511",
+              "209541",
+              "2100111",
+              "209913"
+            ]
+          }
+        ]
+      }
+    ],
     "201": [
       {
         "route_id": "2508_201",
@@ -236431,6 +236802,28 @@
               "210340",
               "210353",
               "210339"
+            ]
+          }
+        ]
+      }
+    ],
+    "2SR": [
+      {
+        "route_id": "2508_2SR",
+        "route_name": "Unknown Long Name",
+        "trips": [
+          {
+            "trip_id": "2068391",
+            "headsign": "Unknown",
+            "stop_ids": [
+              "200024",
+              "208947",
+              "208914",
+              "2088180",
+              "209315",
+              "209326",
+              "2100111",
+              "209913"
             ]
           }
         ]
@@ -247095,26 +247488,26 @@
     "778n": [
       {
         "route_id": "2508_778n",
-        "route_name": "Pittwater House to Frenchs Forest",
+        "route_name": "NBSC Cromer Campus to The Forest High School",
         "trips": [
           {
-            "trip_id": "2580108",
-            "headsign": "Pittwater House to Frenchs Forest",
-            "stop_ids": [
-              "210060",
-              "2100128",
-              "2099201"
-            ]
-          },
-          {
             "trip_id": "2580148",
-            "headsign": "Unknown",
+            "headsign": "NBSC Cromer Campus to The Forest High School",
             "stop_ids": [
               "2099204",
               "2099101",
               "2100116",
               "208619",
               "210038"
+            ]
+          },
+          {
+            "trip_id": "2580108",
+            "headsign": "The Forest High School to Pittwater House School",
+            "stop_ids": [
+              "210060",
+              "2100128",
+              "2099201"
             ]
           }
         ]
@@ -247253,22 +247646,22 @@
     "782n": [
       {
         "route_id": "2508_782n",
-        "route_name": "Freshwater Campus to Frenchs Forest",
+        "route_name": "Seaforth to The Forest High School",
         "trips": [
           {
-            "trip_id": "2580257",
-            "headsign": "Freshwater Campus to Frenchs Forest",
-            "stop_ids": [
-              "210038",
-              "209252"
-            ]
-          },
-          {
             "trip_id": "2580111",
-            "headsign": "Unknown",
+            "headsign": "Seaforth to The Forest High School",
             "stop_ids": [
               "209250",
               "210060"
+            ]
+          },
+          {
+            "trip_id": "2580257",
+            "headsign": "The Forest High School to Seaforth",
+            "stop_ids": [
+              "210038",
+              "209252"
             ]
           }
         ]
@@ -247961,6 +248354,22 @@
               "208914",
               "200035",
               "2000136"
+            ]
+          }
+        ]
+      }
+    ],
+    "001": [
+      {
+        "route_id": "2509_001",
+        "route_name": "Moore Park Interchange to Central Chalmers Street",
+        "trips": [
+          {
+            "trip_id": "2017825",
+            "headsign": "Moore Park Interchange to Central Chalmers Street",
+            "stop_ids": [
+              "2021108",
+              "201039"
             ]
           }
         ]
@@ -252023,11 +252432,11 @@
         "route_name": "Bondi Junction to Rose Bay SC",
         "trips": [
           {
-            "trip_id": "2563989",
+            "trip_id": "2092636",
             "headsign": "Bondi Junction to Rose Bay SC",
             "stop_ids": [
               "202279",
-              "202237",
+              "202248",
               "202532",
               "202315",
               "202352",
@@ -252292,46 +252701,19 @@
         ]
       }
     ],
-    "613e": [
-      {
-        "route_id": "2509_613e",
-        "route_name": "Edgecliff to Sydney Girls HS",
-        "trips": [
-          {
-            "trip_id": "1948612",
-            "headsign": "Sydney Girls HS to Edgecliff",
-            "stop_ids": [
-              "202115",
-              "202121",
-              "201086",
-              "201088",
-              "201089",
-              "201126",
-              "201117",
-              "201118",
-              "202755",
-              "202756",
-              "202713"
-            ]
-          }
-        ]
-      }
-    ],
     "615e": [
       {
         "route_id": "2509_615e",
         "route_name": "Kingsford to Marcellin Senior",
         "trips": [
           {
-            "trip_id": "2559582",
+            "trip_id": "2577564",
             "headsign": "Kingsford to Marcellin College",
             "stop_ids": [
               "203236",
               "2031170",
               "2031171",
               "2031172",
-              "2031145",
-              "2031148",
               "203133",
               "2031152",
               "2031153"
@@ -252433,49 +252815,6 @@
               "203613",
               "203614",
               "203615"
-            ]
-          }
-        ]
-      }
-    ],
-    "618e": [
-      {
-        "route_id": "2509_618e",
-        "route_name": "Marcellin College to Maroubra Junction",
-        "trips": [
-          {
-            "trip_id": "2527124",
-            "headsign": "Marcellin College to Maroubra Junction",
-            "stop_ids": [
-              "2031112",
-              "2031174",
-              "2031160",
-              "2031158",
-              "2031159",
-              "203122",
-              "203123",
-              "203411",
-              "203412",
-              "203413",
-              "203414",
-              "203415",
-              "203416",
-              "203417",
-              "203586",
-              "203587",
-              "203588",
-              "203590",
-              "203592",
-              "203594",
-              "203585",
-              "2035180",
-              "2035122",
-              "2035111",
-              "203568",
-              "203569",
-              "203570",
-              "203571",
-              "203572"
             ]
           }
         ]
@@ -252670,12 +253009,11 @@
         "route_name": "Randwick Boys HS to Bondi Junction",
         "trips": [
           {
-            "trip_id": "2559583",
+            "trip_id": "2577443",
             "headsign": "Randwick Boys HS to Bondi Junction",
             "stop_ids": [
               "2031141",
               "2031148",
-              "203133",
               "2031152",
               "2031153",
               "2031117",
@@ -252844,12 +253182,11 @@
         "route_name": "Randwick Boys HS to Clovelly Beach",
         "trips": [
           {
-            "trip_id": "2415410",
+            "trip_id": "2577534",
             "headsign": "Randwick Boys HS to Clovelly Beach",
             "stop_ids": [
               "2031143",
               "2031146",
-              "203133",
               "2031152",
               "2031153",
               "2031117",
@@ -252917,31 +253254,6 @@
         ]
       }
     ],
-    "631e": [
-      {
-        "route_id": "2509_631e",
-        "route_name": "Randwick Boys HS to Racecourse Pl near Gardeners Rd",
-        "trips": [
-          {
-            "trip_id": "1601121",
-            "headsign": "Randwick Boys HS to Racecourse Pl near Gardeners Rd",
-            "stop_ids": [
-              "2031142",
-              "2031147",
-              "2031186",
-              "203216",
-              "203228",
-              "203229",
-              "203230",
-              "201819",
-              "201820",
-              "201821",
-              "201847"
-            ]
-          }
-        ]
-      }
-    ],
     "632e": [
       {
         "route_id": "2509_632e",
@@ -252969,23 +253281,6 @@
               "2031172",
               "2031145",
               "2031148"
-            ]
-          }
-        ]
-      }
-    ],
-    "633e": [
-      {
-        "route_id": "2509_633e",
-        "route_name": "Randwick Girls High to Kingsford",
-        "trips": [
-          {
-            "trip_id": "2358041",
-            "headsign": "Randwick Girls High to Kingsford",
-            "stop_ids": [
-              "2031146",
-              "203216",
-              "203228"
             ]
           }
         ]
@@ -253088,76 +253383,6 @@
               "202223",
               "202224",
               "202267"
-            ]
-          }
-        ]
-      }
-    ],
-    "636e": [
-      {
-        "route_id": "2509_636e",
-        "route_name": "Randwick High Schools to Gardeners & Botany Rds",
-        "trips": [
-          {
-            "trip_id": "2415392",
-            "headsign": "Randwick High Schools to Gardeners & Botany Rds",
-            "stop_ids": [
-              "2031142",
-              "2031147",
-              "2031152",
-              "2031153",
-              "2031112",
-              "2031114",
-              "203118",
-              "203120",
-              "203268",
-              "203216",
-              "203228",
-              "203229",
-              "203230",
-              "201819",
-              "201820",
-              "201821",
-              "201822",
-              "201823",
-              "201824",
-              "201825",
-              "201826",
-              "201827",
-              "201828"
-            ]
-          }
-        ]
-      }
-    ],
-    "637e": [
-      {
-        "route_id": "2509_637e",
-        "route_name": "Randwick High Schools to Waterloo",
-        "trips": [
-          {
-            "trip_id": "2137456",
-            "headsign": "Randwick High Schools to Waterloo",
-            "stop_ids": [
-              "2031143",
-              "2031149",
-              "203135",
-              "203136",
-              "203137",
-              "203138",
-              "203139",
-              "203142",
-              "203143",
-              "202111",
-              "202112",
-              "202136",
-              "201635",
-              "201636",
-              "201638",
-              "201617",
-              "201625",
-              "201626",
-              "201726"
             ]
           }
         ]
@@ -253266,44 +253491,17 @@
         ]
       }
     ],
-    "645e": [
-      {
-        "route_id": "2509_645e",
-        "route_name": "Randwick High Schools to Albion & Macpherson Sts",
-        "trips": [
-          {
-            "trip_id": "2415409",
-            "headsign": "Randwick High Schools to Albion & Macpherson Sts",
-            "stop_ids": [
-              "2031144",
-              "2031147",
-              "203133",
-              "2031152",
-              "2031153",
-              "2031117",
-              "2031119",
-              "203157",
-              "2031124",
-              "2031125",
-              "2031126",
-              "202419"
-            ]
-          }
-        ]
-      }
-    ],
     "647e": [
       {
         "route_id": "2509_647e",
         "route_name": "Randwick High Schools to North Bondi",
         "trips": [
           {
-            "trip_id": "2415405",
+            "trip_id": "2577808",
             "headsign": "Randwick High Schools to North Bondi",
             "stop_ids": [
               "2031144",
               "2031147",
-              "203133",
               "2031152",
               "2031153",
               "2031117",
@@ -253477,7 +253675,7 @@
         "route_name": "Maroubra Junction to Brigidine College Randwick",
         "trips": [
           {
-            "trip_id": "2470782",
+            "trip_id": "2577847",
             "headsign": "Maroubra Junction to Brigidine College Randwick",
             "stop_ids": [
               "203584",
@@ -253496,9 +253694,7 @@
               "203443",
               "203130",
               "203131",
-              "2031143",
-              "2031149",
-              "203133"
+              "2031143"
             ]
           }
         ]
@@ -254200,7 +254396,7 @@
         "route_name": "Randwick Junction to Kincoppal Rose Bay",
         "trips": [
           {
-            "trip_id": "2563994",
+            "trip_id": "2533241",
             "headsign": "Randwick Junction to Kincoppal Rose Bay",
             "stop_ids": [
               "203136",
@@ -254220,7 +254416,7 @@
               "202234",
               "202225",
               "202279",
-              "202237",
+              "202248",
               "202532",
               "202315",
               "202352",
@@ -254565,50 +254761,16 @@
         ]
       }
     ],
-    "678e": [
-      {
-        "route_id": "2509_678e",
-        "route_name": "Scots College to Bondi Junction",
-        "trips": [
-          {
-            "trip_id": "2140400",
-            "headsign": "Scots College to Bondi Junction",
-            "stop_ids": [
-              "202957",
-              "202958",
-              "202959",
-              "202960",
-              "202961",
-              "202381",
-              "202382",
-              "202831",
-              "202832",
-              "202820",
-              "202829",
-              "202326",
-              "202327",
-              "202328",
-              "202329",
-              "202330",
-              "202331",
-              "2023100",
-              "202332",
-              "202334",
-              "202266"
-            ]
-          }
-        ]
-      }
-    ],
     "680e": [
       {
         "route_id": "2509_680e",
         "route_name": "Cranbrook School Bellevue Hill to Randwick Junction",
         "trips": [
           {
-            "trip_id": "2384129",
+            "trip_id": "2578055",
             "headsign": "Cranbrook School Bellevue Hill to Randwick Junction",
             "stop_ids": [
+              "202326",
               "202327",
               "202328",
               "202329",
@@ -254641,9 +254803,10 @@
         "route_name": "Cranbrook School Bellevue Hill to Maroubra Junction",
         "trips": [
           {
-            "trip_id": "2533417",
+            "trip_id": "2577505",
             "headsign": "Cranbrook School Bellevue Hill to Maroubra Junction",
             "stop_ids": [
+              "202326",
               "202327",
               "202328",
               "202329",
@@ -254700,9 +254863,10 @@
         "route_name": "Cranbrook School Bellevue Hill to Bondi Junction",
         "trips": [
           {
-            "trip_id": "2531611",
+            "trip_id": "2577578",
             "headsign": "Cranbrook School Bellevue Hill to Bondi Junction",
             "stop_ids": [
+              "202326",
               "202327",
               "202328",
               "202329",
@@ -254724,7 +254888,7 @@
         "route_name": "Watsons Bay to Emanuel School Randwick",
         "trips": [
           {
-            "trip_id": "2563843",
+            "trip_id": "1787873",
             "headsign": "Emanuel School Randwick to Watsons Bay",
             "stop_ids": [
               "203155",
@@ -254736,7 +254900,7 @@
               "202221",
               "202222",
               "202267",
-              "202237",
+              "202248",
               "202532",
               "202315",
               "202352",
@@ -255020,14 +255184,14 @@
         "route_name": "Woollahra Public School to North Bondi",
         "trips": [
           {
-            "trip_id": "2563885",
+            "trip_id": "1779091",
             "headsign": "Woollahra Public School to North Bondi",
             "stop_ids": [
               "202535",
               "202520",
               "202521",
               "202267",
-              "202237",
+              "202248",
               "202532",
               "202315",
               "202352",
@@ -256169,11 +256333,11 @@
         "route_name": "Bondi Junction to Rose Bay Secondary College",
         "trips": [
           {
-            "trip_id": "1777814",
+            "trip_id": "2564515",
             "headsign": "Bondi Junction to Rose Bay Secondary College",
             "stop_ids": [
               "202279",
-              "202248",
+              "202237",
               "202532",
               "202312",
               "202313",
@@ -257564,11 +257728,11 @@
         "route_name": "Bondi Junction to Kesser Torah College",
         "trips": [
           {
-            "trip_id": "2563863",
+            "trip_id": "2384085",
             "headsign": "Bondi Junction to Kesser Torah College",
             "stop_ids": [
               "202279",
-              "202237",
+              "202248",
               "202532",
               "202312",
               "202313",
@@ -265731,17 +265895,44 @@
         "route_name": "Bundeena Rd to Central Coast Steiner School",
         "trips": [
           {
-            "trip_id": "2581734",
+            "trip_id": "2585897",
             "headsign": "Bundeena Rd to Central Coast Steiner School",
             "stop_ids": [
               "2261478",
+              "2261245",
+              "2261246",
+              "2261247",
               "2261248",
+              "2261249",
+              "2261321",
+              "2261322",
               "2261239",
+              "2261240",
+              "2261474",
+              "2261505",
               "2261337",
+              "2261338",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
+              "2261252",
+              "2261540",
               "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
+              "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261515",
               "2261260",
+              "2258114",
               "225864",
               "2258105"
             ]
@@ -265770,18 +265961,33 @@
         "route_name": "Chittaway Point to Chittaway PS via Tuggerah PS",
         "trips": [
           {
-            "trip_id": "2515671",
+            "trip_id": "2585977",
             "headsign": "Chittaway Point to Chittaway PS via Tuggerah PS",
             "stop_ids": [
               "2261392",
+              "2261296",
+              "2261297",
+              "2261298",
+              "2261299",
+              "2261293",
               "2261294",
               "2261295",
+              "2261300",
               "2261301",
               "2261302",
               "2259962",
               "2259533",
+              "2259685",
+              "2259689",
               "2259348",
+              "2259472",
+              "2259460",
+              "2259867",
+              "2259688",
               "2259534",
+              "2259966",
+              "2261306",
+              "2261261",
               "2261515"
             ]
           }
@@ -265885,17 +266091,34 @@
         "route_name": "Terrigal HS to Erina Heights PS via Ocean View Dr",
         "trips": [
           {
-            "trip_id": "2331705",
+            "trip_id": "2585934",
             "headsign": "Terrigal HS to Erina Heights PS via Ocean View Dr",
             "stop_ids": [
               "2260474",
+              "226015",
+              "2260114",
+              "2260115",
+              "2260106",
+              "2260107",
               "2260108",
+              "226091",
+              "226092",
+              "226093",
+              "226094",
               "2260162",
               "2260163",
+              "2260494",
+              "2260164",
               "2260165",
               "2260155",
+              "2260493",
+              "2260156",
+              "226085",
+              "226086",
+              "226087",
               "226088",
               "2260144",
+              "2260145",
               "2260146"
             ]
           }
@@ -265954,19 +266177,43 @@
         "route_name": "Wyong Rd at Tumbi Creek Rd to Berkeley Vale PS via Tumbi Umbi & Chittaway Bay",
         "trips": [
           {
-            "trip_id": "2581752",
+            "trip_id": "2585929",
             "headsign": "Wyong Rd at Tumbi Creek Rd to Berkeley Vale PS via Tumbi Umbi & Chittaway Bay",
             "stop_ids": [
               "2261477",
+              "2261546",
+              "2261550",
               "2261160",
               "2261429",
               "2261227",
+              "2261345",
               "2261531",
+              "2261235",
               "2261236",
+              "2261336",
+              "2261501",
               "2261337",
+              "2261338",
+              "2261356",
+              "2261271",
               "2261272",
+              "2261273",
+              "2261438",
+              "2261274",
+              "2261275",
               "2261276",
+              "2261277",
+              "2261278",
+              "2261346",
+              "2261279",
+              "2261494",
+              "2261281",
+              "2261282",
               "2261319",
+              "2261320",
+              "2261284",
+              "2261539",
+              "2261286",
               "2261513"
             ]
           }
@@ -266010,13 +266257,26 @@
         "route_name": "Brooke Av PS to Killarney Vale PS",
         "trips": [
           {
-            "trip_id": "2515696",
+            "trip_id": "2586001",
             "headsign": "Brooke Av PS to Killarney Vale PS",
             "stop_ids": [
               "2261556",
+              "2261154",
+              "2261155",
+              "226198",
               "226199",
+              "2261499",
+              "2261156",
               "2261103",
+              "2261231",
+              "2261471",
+              "2261161",
               "2261162",
+              "2261481",
+              "2261163",
+              "2261385",
+              "2261164",
+              "2261147",
               "2261536"
             ]
           }
@@ -266060,22 +266320,58 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Wyong PS",
         "trips": [
           {
-            "trip_id": "2515769",
+            "trip_id": "2585940",
             "headsign": "Tuggerah Lakes College, Berkeley Vale to Wyong PS",
             "stop_ids": [
               "2261314",
+              "2261236",
+              "2261335",
+              "2261336",
               "2261501",
-              "2261506",
+              "2261337",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
               "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
+              "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261260",
+              "2261343",
               "2259585",
+              "2259946",
               "2259510",
+              "2259511",
+              "2259512",
+              "2259513",
+              "2259461",
               "2259514",
+              "2259515",
+              "2259516",
+              "2259952",
               "2259869",
+              "2259173",
+              "2259174",
               "2259868",
               "225946",
+              "2259382",
               "2259866",
+              "2259380",
+              "225947",
+              "225949",
+              "225917",
+              "225960",
               "225961"
             ]
           }
@@ -266156,7 +266452,7 @@
         "route_name": "East Gosford to Erina HS via Holgate",
         "trips": [
           {
-            "trip_id": "2515567",
+            "trip_id": "2585935",
             "headsign": "East Gosford to Erina HS via Holgate",
             "stop_ids": [
               "2250419",
@@ -266228,7 +266524,7 @@
         "route_name": "Bay Village to Central Coast Grammar School via East Gosford",
         "trips": [
           {
-            "trip_id": "2515785",
+            "trip_id": "2585991",
             "headsign": "Bay Village to Central Coast Grammar School via East Gosford",
             "stop_ids": [
               "226135",
@@ -266244,6 +266540,7 @@
               "2261149",
               "2261150",
               "2261556",
+              "2261151",
               "2261486",
               "2261152",
               "2261153",
@@ -266280,6 +266577,8 @@
               "2250547",
               "2250548",
               "2250744",
+              "2250889",
+              "2250659",
               "2250513",
               "2250514",
               "2250515",
@@ -266301,6 +266600,7 @@
               "2250483",
               "2250484",
               "2250485",
+              "2250486",
               "225159"
             ]
           }
@@ -266327,7 +266627,7 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to St Edwards & St Josephs Colleges",
         "trips": [
           {
-            "trip_id": "2566795",
+            "trip_id": "2585983",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to St Edwards & St Josephs Colleges",
             "stop_ids": [
               "2261375",
@@ -266340,11 +266640,29 @@
               "2260139",
               "2260140",
               "2260155",
+              "2260493",
+              "2260156",
+              "2260495",
+              "2260158",
               "2260159",
+              "226085",
+              "226086",
+              "226087",
               "226088",
               "226089",
+              "226090",
+              "2260109",
               "2260110",
+              "2260111",
+              "2260112",
+              "2260113",
               "2260119",
+              "2260120",
+              "2260121",
+              "2260122",
+              "225039",
+              "2250439",
+              "225015",
               "2250459",
               "2250561",
               "2250562",
@@ -266401,7 +266719,7 @@
         "route_name": "Bateau Bay to Wamberal via East Gosford & Terrigal",
         "trips": [
           {
-            "trip_id": "2566801",
+            "trip_id": "2585997",
             "headsign": "Bateau Bay to Wamberal via East Gosford & Terrigal",
             "stop_ids": [
               "226146",
@@ -266432,6 +266750,7 @@
               "2261221",
               "2261222",
               "2261375",
+              "2261401",
               "2260186",
               "2260187",
               "2260137",
@@ -266459,6 +266778,7 @@
               "2250847",
               "2250744",
               "2250889",
+              "2250659",
               "2250513",
               "2250514",
               "2250515",
@@ -266472,7 +266792,15 @@
               "2250484",
               "2250485",
               "2250486",
+              "2250561",
+              "2250562",
+              "2250545",
               "225159",
+              "225161",
+              "225162",
+              "225163",
+              "225164",
+              "2250556",
               "225025",
               "225026",
               "2250434",
@@ -266481,8 +266809,20 @@
               "2250462",
               "2260485",
               "2260508",
+              "2260504",
+              "2260150",
+              "226089",
+              "226090",
+              "226021",
+              "226022",
+              "226023",
+              "226024",
+              "226025",
               "226026",
+              "226073",
+              "226074",
               "226075",
+              "226076",
               "226077",
               "226078",
               "2260164",
@@ -266495,6 +266835,7 @@
               "2260172",
               "2260173",
               "2260174",
+              "2260188",
               "2260512"
             ]
           }
@@ -266542,30 +266883,80 @@
         "route_name": "Bateau Bay to St Josephs HS via Killarney Vale",
         "trips": [
           {
-            "trip_id": "2515575",
+            "trip_id": "2585896",
             "headsign": "Bateau Bay to St Josephs HS via Killarney Vale",
             "stop_ids": [
               "226145",
+              "226146",
+              "226147",
+              "2261140",
               "2261141",
+              "2261142",
+              "2261143",
+              "2261144",
+              "2261145",
+              "2261146",
+              "2261448",
               "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261466",
+              "2261507",
+              "2261182",
               "2261441",
+              "2261111",
+              "2261112",
+              "2261113",
+              "2261114",
+              "2261115",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261181",
+              "2261488",
               "226139",
+              "226140",
+              "226141",
+              "2260133",
+              "2260134",
               "2260135",
+              "2260136",
+              "2260137",
               "2260138",
               "2260139",
               "2260140",
+              "2260155",
+              "2260493",
               "2260156",
               "2260100",
+              "226077",
+              "226078",
               "226079",
+              "226080",
+              "226081",
               "226082",
               "226083",
+              "226084",
               "2260160",
+              "2260142",
               "2260143",
+              "2260144",
+              "2260145",
               "2260146",
+              "2260506",
+              "2260507",
+              "2260445",
+              "2250844",
               "2250708",
+              "2250444",
               "2250561",
+              "2250562",
+              "2250545",
+              "2250546",
               "2250547",
+              "2250548",
+              "2250847",
               "2250744"
             ]
           }
@@ -266608,16 +266999,36 @@
         "route_name": "Tuggerah Lakes SC, The Entrance to Terrigal HS",
         "trips": [
           {
-            "trip_id": "2515738",
+            "trip_id": "2585906",
             "headsign": "Tuggerah Lakes SC, The Entrance to Terrigal HS",
             "stop_ids": [
               "226134",
+              "2261400",
+              "2261483",
+              "226136",
               "226137",
+              "226138",
+              "226139",
+              "226140",
               "226141",
+              "2260516",
+              "2260498",
+              "2260134",
               "2260135",
+              "2260136",
+              "2260137",
               "2260138",
               "2260156",
+              "2260100",
+              "2260101",
               "2260102",
+              "2260103",
+              "2260104",
+              "2260105",
+              "2260116",
+              "2260117",
+              "2260118",
+              "2260123",
               "2260474"
             ]
           }
@@ -266671,13 +267082,30 @@
         "route_name": "Central Coast Grammar School to Terrigal HS",
         "trips": [
           {
-            "trip_id": "2515807",
+            "trip_id": "2585943",
             "headsign": "Central Coast Grammar School to Terrigal HS",
             "stop_ids": [
               "2260513",
+              "2260485",
+              "2260508",
+              "2260504",
               "2260150",
+              "2260152",
+              "2260153",
+              "2260154",
               "2260155",
+              "2260493",
+              "2260156",
+              "2260100",
+              "2260101",
               "2260102",
+              "2260103",
+              "2260104",
+              "2260105",
+              "2260116",
+              "2260117",
+              "2260118",
+              "2260123",
               "2260474"
             ]
           }
@@ -266736,10 +267164,11 @@
         "route_name": "Bateau Bay to Terrigal HS via Tumbi Rd",
         "trips": [
           {
-            "trip_id": "2515747",
+            "trip_id": "2585966",
             "headsign": "Bateau Bay to Terrigal HS via Tumbi Rd",
             "stop_ids": [
               "2261431",
+              "226144",
               "2261174",
               "2261175",
               "2261176",
@@ -266813,7 +267242,7 @@
         "route_name": "Berkeley Vale to Tuggerah Lakes SC, The Entrance",
         "trips": [
           {
-            "trip_id": "2581766",
+            "trip_id": "2585949",
             "headsign": "Berkeley Vale to Tuggerah Lakes SC, The Entrance",
             "stop_ids": [
               "2261494",
@@ -266823,6 +267252,7 @@
               "2261319",
               "2261320",
               "2261284",
+              "2261539",
               "2261286",
               "2261287",
               "2261288",
@@ -266904,15 +267334,18 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes SC, The Entrance",
         "trips": [
           {
-            "trip_id": "2566822",
+            "trip_id": "2585915",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes SC, The Entrance",
             "stop_ids": [
               "2261375",
+              "2260193",
               "226142",
+              "2261431",
               "226144",
               "226145",
               "226146",
               "226147",
+              "2261482",
               "2261406",
               "2261363"
             ]
@@ -266968,14 +267401,12 @@
         "route_name": "St Peters College to Tuggerah PS",
         "trips": [
           {
-            "trip_id": "2566826",
+            "trip_id": "2585907",
             "headsign": "St Peters College to Tuggerah PS",
             "stop_ids": [
               "2259945",
               "2259503",
               "2259504",
-              "2259505",
-              "2259508",
               "2259348"
             ]
           }
@@ -267042,15 +267473,30 @@
         "route_name": "Brooke Av PS to Wamberal PS",
         "trips": [
           {
-            "trip_id": "2390661",
+            "trip_id": "2585976",
             "headsign": "Brooke Av PS to Wamberal PS",
             "stop_ids": [
               "2261556",
+              "2261154",
               "2261155",
+              "2261111",
+              "2261112",
+              "2261113",
+              "2261114",
+              "2261115",
               "2261116",
+              "2261179",
+              "2261180",
               "2261534",
+              "2261488",
+              "226139",
               "226140",
+              "226141",
+              "2260133",
+              "2260134",
               "2260135",
+              "2260136",
+              "2260188",
               "2260512"
             ]
           }
@@ -291942,7 +292388,7 @@
         "route_name": "Green Point College to Bateau Bay via Tumbi Rd",
         "trips": [
           {
-            "trip_id": "2581763",
+            "trip_id": "2586011",
             "headsign": "Green Point College to Bateau Bay via Tumbi Rd",
             "stop_ids": [
               "2251351",
@@ -292003,6 +292449,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -292151,7 +292598,7 @@
         "route_name": "Wyong HS to Bateau Bay via Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2581717",
+            "trip_id": "2585961",
             "headsign": "Wyong HS to Bateau Bay via Berkeley Vale",
             "stop_ids": [
               "225946",
@@ -292212,6 +292659,7 @@
               "2261364",
               "2261365",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -292795,7 +293243,7 @@
         "route_name": "St Josephs HS to The Entrance North",
         "trips": [
           {
-            "trip_id": "2581758",
+            "trip_id": "2585954",
             "headsign": "St Josephs HS to The Entrance North",
             "stop_ids": [
               "2250744",
@@ -292834,6 +293282,7 @@
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -292908,7 +293357,7 @@
         "route_name": "Terrigal HS to Bateau Bay",
         "trips": [
           {
-            "trip_id": "2581726",
+            "trip_id": "2585981",
             "headsign": "Terrigal HS to Bateau Bay",
             "stop_ids": [
               "2260474",
@@ -292940,6 +293389,7 @@
               "2261364",
               "2261365",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -293159,7 +293609,7 @@
         "route_name": "Terrigal HS to Bateau Bay via Tumbi Rd & Yakalla St",
         "trips": [
           {
-            "trip_id": "2581736",
+            "trip_id": "2585995",
             "headsign": "Terrigal HS to Bateau Bay via Tumbi Rd & Yakalla St",
             "stop_ids": [
               "2260474",
@@ -293206,6 +293656,7 @@
               "2261364",
               "2261365",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -293433,7 +293884,7 @@
         "route_name": "The Entrance PS to Long Jetty via Towoon Bay & The Entrance North",
         "trips": [
           {
-            "trip_id": "2581757",
+            "trip_id": "2585936",
             "headsign": "The Entrance PS to Long Jetty via Towoon Bay & The Entrance North",
             "stop_ids": [
               "2261389",
@@ -293459,6 +293910,7 @@
               "2261364",
               "2261365",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -294038,16 +294490,29 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to St Cecilias PS",
         "trips": [
           {
-            "trip_id": "2539270",
+            "trip_id": "2585917",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to St Cecilias PS",
             "stop_ids": [
               "2261314",
               "2261343",
+              "2261296",
+              "2261297",
+              "2261298",
+              "2261299",
+              "2261293",
+              "2261294",
               "2261300",
+              "2261301",
+              "2261302",
               "2259962",
+              "2259533",
               "2259685",
+              "225913",
               "225914",
+              "2259627",
               "2259869",
+              "2259173",
+              "2259174",
               "2259868"
             ]
           }
@@ -294060,14 +294525,31 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Chittaway Bay PS",
         "trips": [
           {
-            "trip_id": "2581764",
+            "trip_id": "2585979",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Chittaway Bay PS",
             "stop_ids": [
               "2261314",
+              "2261505",
               "2261337",
+              "2261338",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
               "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
               "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261515"
             ]
           }
@@ -294080,14 +294562,31 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Chittaway Bay PS",
         "trips": [
           {
-            "trip_id": "2515753",
+            "trip_id": "2586004",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Chittaway Bay PS",
             "stop_ids": [
               "2261314",
+              "2261505",
+              "2261337",
               "2261338",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
               "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
               "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261515"
             ]
           }
@@ -294100,13 +294599,23 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Brooke Av PS",
         "trips": [
           {
-            "trip_id": "2390656",
+            "trip_id": "2586016",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Brooke Av PS",
             "stop_ids": [
               "2261314",
+              "2261402",
+              "2261308",
+              "2261309",
               "2261310",
+              "2261477",
+              "2261169",
+              "2261170",
               "2261171",
+              "2261385",
+              "2261147",
               "2261484",
+              "2261485",
+              "2261150",
               "2261556"
             ]
           }
@@ -294119,13 +294628,24 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Brooke Av PS",
         "trips": [
           {
-            "trip_id": "2390667",
+            "trip_id": "2585996",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Brooke Av PS",
             "stop_ids": [
               "2261314",
+              "2261402",
+              "2261308",
+              "2261309",
               "2261310",
+              "2261477",
+              "2261169",
+              "2261170",
               "2261171",
+              "2261385",
+              "2261164",
+              "2261147",
               "2261484",
+              "2261485",
+              "2261150",
               "2261556"
             ]
           }
@@ -294138,14 +294658,19 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Berkeley Vale PS via Tumbi Creek Rd",
         "trips": [
           {
-            "trip_id": "2515726",
+            "trip_id": "2585932",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Berkeley Vale PS via Tumbi Creek Rd",
             "stop_ids": [
               "2261314",
+              "2261402",
               "2261308",
               "2261309",
+              "2261310",
+              "2261477",
               "2261104",
+              "2261467",
               "2261325",
+              "2261327",
               "2261513"
             ]
           }
@@ -294158,14 +294683,20 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566840",
+            "trip_id": "2585989",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Tuggerah Lakes SC, Tumbi Umbi",
             "stop_ids": [
               "2261314",
+              "2261402",
               "2261308",
               "2261291",
+              "2261292",
+              "2261341",
+              "2261466",
               "2261507",
               "2261220",
+              "2261221",
+              "2261222",
               "2261375"
             ]
           }
@@ -294178,15 +294709,28 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Berkeley Vale PS via Adelaide St",
         "trips": [
           {
-            "trip_id": "2515731",
+            "trip_id": "2585928",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Berkeley Vale PS via Adelaide St",
             "stop_ids": [
               "2261314",
+              "2261402",
               "2261308",
+              "2261287",
+              "2261288",
               "2261289",
+              "2261290",
+              "2261497",
               "2261291",
+              "2261292",
+              "2261341",
+              "2261231",
               "2261471",
+              "2261163",
+              "2261138",
+              "2261139",
+              "2261479",
               "2261232",
+              "2261233",
               "2261513"
             ]
           }
@@ -294236,19 +294780,45 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to The Entrance PS via Wyong Rd & Towoon Bay",
         "trips": [
           {
-            "trip_id": "2515616",
+            "trip_id": "2586005",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to The Entrance PS via Wyong Rd & Towoon Bay",
             "stop_ids": [
               "2261314",
+              "2261402",
+              "2261308",
               "2261309",
+              "2261310",
               "2261477",
+              "2261169",
+              "2261170",
+              "2261171",
+              "2261385",
+              "2261164",
               "2261147",
+              "2261148",
+              "2261149",
               "2261150",
+              "2261167",
               "2261168",
+              "2261370",
+              "2261123",
               "2261124",
+              "2261125",
+              "2261455",
+              "2261456",
+              "2261126",
+              "2261127",
               "2261128",
+              "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132",
+              "2261133",
+              "2261134",
+              "2261135",
               "2261519",
+              "2261518",
               "2261389"
             ]
           }
@@ -294261,15 +294831,40 @@
         "route_name": "Tuggerah Lakes College, Berkeley Vale to The Entrance PS via Eastern Rd",
         "trips": [
           {
-            "trip_id": "2539273",
+            "trip_id": "2585975",
             "headsign": "Tuggerah Lakes College, Berkeley Vale to The Entrance PS via Eastern Rd",
             "stop_ids": [
               "2261314",
+              "2261402",
+              "2261308",
+              "2261309",
               "2261310",
+              "2261477",
               "2261466",
+              "2261507",
+              "2261182",
+              "2261441",
               "2261183",
+              "2261484",
+              "2261485",
+              "2261486",
+              "2261152",
+              "2261153",
               "2261482",
+              "2261406",
+              "2261363",
+              "226148",
+              "226149",
               "226150",
+              "226151",
+              "226152",
+              "226153",
+              "226154",
+              "226155",
+              "2261172",
+              "226156",
+              "2261498",
+              "226157",
               "2261518",
               "2261389"
             ]
@@ -294283,18 +294878,47 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to The Entrance North",
         "trips": [
           {
-            "trip_id": "2539303",
+            "trip_id": "2586015",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to The Entrance North",
             "stop_ids": [
               "2261314",
+              "2261402",
+              "2261308",
+              "2261309",
               "2261310",
+              "2261477",
               "2261466",
+              "2261507",
+              "2261182",
+              "2261441",
               "2261183",
+              "2261484",
+              "2261485",
+              "2261486",
+              "2261152",
+              "2261153",
               "2261482",
+              "2261406",
+              "2261363",
               "226148",
+              "226150",
+              "226151",
               "226152",
+              "226153",
+              "226154",
+              "226155",
+              "2261172",
+              "226156",
+              "2261498",
               "2261389",
+              "226157",
+              "226158",
               "226159",
+              "2261137",
+              "2261205",
+              "2261204",
+              "2261206",
+              "2261208",
               "226111"
             ]
           }
@@ -294307,23 +294931,42 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Central Coast Hwy at Old Gosford Rd",
         "trips": [
           {
-            "trip_id": "2331649",
+            "trip_id": "2585923",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Central Coast Hwy at Old Gosford Rd",
             "stop_ids": [
               "2261314",
+              "2261402",
               "2261308",
+              "2261309",
+              "2261310",
               "2261157",
               "2261159",
+              "2261225",
               "2261219",
+              "2261182",
               "2261441",
               "2261111",
+              "2261112",
               "2261113",
+              "2261114",
+              "2261115",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261181",
+              "2261488",
+              "226139",
               "226140",
+              "226141",
+              "2260133",
+              "2260134",
               "2260135",
               "2260136",
+              "2260137",
+              "2260138",
               "2260139",
               "2260140",
+              "2260141",
               "2260142"
             ]
           }
@@ -294336,23 +294979,42 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Central Coast Hwy at Old Gosford Rd",
         "trips": [
           {
-            "trip_id": "2331653",
+            "trip_id": "2586013",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Central Coast Hwy at Old Gosford Rd",
             "stop_ids": [
               "2261314",
+              "2261402",
               "2261308",
+              "2261309",
+              "2261310",
               "2261157",
               "2261159",
+              "2261225",
               "2261219",
+              "2261182",
               "2261441",
               "2261111",
+              "2261112",
               "2261113",
+              "2261114",
+              "2261115",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261181",
+              "2261488",
+              "226139",
               "226140",
+              "226141",
+              "2260133",
+              "2260134",
               "2260135",
               "2260136",
+              "2260137",
+              "2260138",
               "2260139",
               "2260140",
+              "2260141",
               "2260142"
             ]
           }
@@ -294365,10 +295027,11 @@
         "route_name": "The Entrance to Gosford HS",
         "trips": [
           {
-            "trip_id": "2331655",
+            "trip_id": "2585945",
             "headsign": "The Entrance to Gosford HS",
             "stop_ids": [
               "226119",
+              "226120",
               "226121",
               "226122",
               "226123",
@@ -294379,20 +295042,60 @@
               "226128",
               "226129",
               "226130",
+              "226131",
+              "226132",
+              "226133",
               "2261370",
+              "226172",
+              "226173",
+              "2261190",
+              "2261491",
               "226174",
+              "226175",
+              "226177",
+              "226178",
+              "2261489",
+              "226179",
+              "226180",
               "226139",
+              "226140",
+              "226141",
+              "2260133",
+              "2260134",
               "2260135",
+              "2260136",
+              "2260137",
               "2260138",
+              "2260139",
               "2260140",
               "2260141",
+              "2260142",
+              "2260143",
+              "2260144",
+              "2260145",
               "2260146",
+              "2260506",
+              "2260507",
+              "2260445",
+              "2250844",
               "2250708",
+              "2250444",
               "2250561",
+              "2250562",
+              "2250545",
               "2250546",
+              "2250547",
+              "2250548",
+              "2250847",
               "2250744",
               "2250848",
+              "225014",
+              "225013",
+              "225012",
+              "2250359",
               "2250615",
+              "2250873",
+              "2250737",
               "2250665",
               "2250362"
             ]
@@ -294406,7 +295109,7 @@
         "route_name": "Tuggerah Lakes SC, The Entrance to Green Point Christian College",
         "trips": [
           {
-            "trip_id": "2515743",
+            "trip_id": "2585972",
             "headsign": "Tuggerah Lakes SC, The Entrance to Green Point Christian College",
             "stop_ids": [
               "226134",
@@ -294420,6 +295123,8 @@
               "2261499",
               "2261156",
               "2261103",
+              "2261546",
+              "2261548",
               "2261550",
               "2261219",
               "2261220",
@@ -294447,7 +295152,17 @@
               "2250562",
               "2250545",
               "225159",
+              "225161",
+              "225162",
+              "225163",
+              "225164",
+              "2251349",
               "2251189",
+              "2251190",
+              "2251191",
+              "2251192",
+              "2251193",
+              "2251194",
               "2251351"
             ]
           }
@@ -294460,13 +295175,28 @@
         "route_name": "North Gosford to Henry Kendall HS",
         "trips": [
           {
-            "trip_id": "2515588",
+            "trip_id": "2586010",
             "headsign": "North Gosford to Henry Kendall HS",
             "stop_ids": [
               "2250858",
+              "2250729",
               "2250882",
+              "2250727",
               "2250749",
+              "2250220",
+              "225038",
+              "2250747",
+              "225080",
+              "2250863",
+              "2250728",
+              "2250865",
+              "2250731",
               "2250254",
+              "2250892",
+              "2250867",
+              "2250255",
+              "2250873",
+              "2250737",
               "2250665"
             ]
           }
@@ -294479,7 +295209,7 @@
         "route_name": "Berkeley Vale to Gosford HS via Palm Valley Rd",
         "trips": [
           {
-            "trip_id": "2581739",
+            "trip_id": "2585903",
             "headsign": "Berkeley Vale to Gosford HS via Palm Valley Rd",
             "stop_ids": [
               "2261234",
@@ -294502,11 +295232,12 @@
               "2261276",
               "2261277",
               "2261278",
-              "2261346",
               "2261279",
               "2261494",
               "2261281",
               "2261282",
+              "2261286",
+              "2261287",
               "2261288",
               "2261289",
               "2261290",
@@ -294514,20 +295245,52 @@
               "2261291",
               "2261292",
               "2261341",
+              "2261479",
               "2261157",
               "2261159",
+              "2261225",
+              "2261219",
               "2261220",
+              "2261221",
+              "2261222",
               "2261375",
+              "2261401",
               "2260186",
+              "2260187",
+              "2260137",
+              "2260138",
+              "2260156",
               "2260495",
+              "2260158",
+              "2260159",
+              "2260160",
+              "2260142",
+              "2260143",
+              "2260144",
+              "2260145",
               "2260146",
+              "2260506",
+              "2260507",
+              "2260445",
+              "2250844",
               "2250708",
+              "2250444",
               "2250561",
+              "2250562",
+              "2250545",
               "2250546",
+              "2250547",
+              "2250548",
               "2250847",
               "2250744",
+              "2250848",
+              "225014",
+              "225013",
               "225012",
               "2250359",
+              "2250360",
+              "2250873",
+              "2250737",
               "2250665",
               "2250362"
             ]
@@ -294541,18 +295304,38 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal HS",
         "trips": [
           {
-            "trip_id": "2566812",
+            "trip_id": "2585895",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal HS",
             "stop_ids": [
               "2261512",
+              "2261401",
               "2260186",
+              "2260187",
+              "2260137",
               "2260138",
+              "2260139",
+              "2260140",
               "2260155",
+              "2260493",
+              "2260156",
               "2260495",
               "2260158",
               "2260159",
+              "226085",
+              "226086",
+              "226087",
               "226088",
+              "226089",
+              "226090",
               "226021",
+              "226022",
+              "226023",
+              "226024",
+              "226025",
+              "2260116",
+              "2260117",
+              "2260118",
+              "2260123",
               "2260474"
             ]
           }
@@ -294565,15 +295348,38 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal HS",
         "trips": [
           {
-            "trip_id": "2566839",
+            "trip_id": "2585988",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal HS",
             "stop_ids": [
               "2261375",
+              "2260133",
               "2260179",
+              "2260148",
+              "2260180",
+              "2260181",
+              "2260197",
               "2260511",
+              "2260204",
+              "2260203",
+              "2260484",
+              "2260136",
               "2260137",
+              "2260138",
+              "2260139",
+              "2260140",
+              "2260155",
+              "2260493",
               "2260156",
+              "2260100",
+              "2260101",
               "2260102",
+              "2260103",
+              "2260104",
+              "2260105",
+              "2260116",
+              "2260117",
+              "2260118",
+              "2260123",
               "2260474"
             ]
           }
@@ -294586,7 +295392,7 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal PS via Forresters Beach",
         "trips": [
           {
-            "trip_id": "2566789",
+            "trip_id": "2586008",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Terrigal PS via Forresters Beach",
             "stop_ids": [
               "2261512",
@@ -294614,7 +295420,10 @@
               "2260146",
               "2260476",
               "2250740",
+              "226014",
               "226015",
+              "2260114",
+              "2260115",
               "226026",
               "2260478"
             ]
@@ -294628,7 +295437,7 @@
         "route_name": "Bateau Bay to Tuggerah Lakes SC, The Entrance via Roberta St & Cresthaven Av",
         "trips": [
           {
-            "trip_id": "2515582",
+            "trip_id": "2585958",
             "headsign": "Bateau Bay to Tuggerah Lakes SC, The Entrance via Roberta St & Cresthaven Av",
             "stop_ids": [
               "2261431",
@@ -294672,6 +295481,7 @@
               "2261165",
               "2261166",
               "2261167",
+              "2261168",
               "226134"
             ]
           }
@@ -294684,17 +295494,21 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes SC, The Entrance",
         "trips": [
           {
-            "trip_id": "2566811",
+            "trip_id": "2585990",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes SC, The Entrance",
             "stop_ids": [
               "2261375",
+              "226142",
+              "2261431",
               "226144",
               "226160",
               "226161",
               "226163",
+              "2261185",
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -294713,14 +295527,29 @@
         "route_name": "Bay Village to The Entrance PS via Bay Rd",
         "trips": [
           {
-            "trip_id": "2515562",
+            "trip_id": "2585956",
             "headsign": "Bay Village to The Entrance PS via Bay Rd",
             "stop_ids": [
               "226135",
+              "2261370",
+              "2261123",
               "2261124",
+              "2261125",
+              "2261455",
+              "2261456",
+              "2261126",
+              "2261127",
               "2261128",
+              "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132",
+              "2261133",
+              "2261134",
+              "2261135",
               "2261519",
+              "2261518",
               "2261389"
             ]
           }
@@ -294760,10 +295589,11 @@
         "route_name": "Ourimbah PS to Tuggerah PS",
         "trips": [
           {
-            "trip_id": "2331596",
+            "trip_id": "2585892",
             "headsign": "Ourimbah PS to Tuggerah PS",
             "stop_ids": [
               "225895",
+              "225824",
               "225825",
               "225826",
               "225827",
@@ -294783,14 +295613,24 @@
         "route_name": "St Peters College to Tuggerah PS via Wyong Christian School",
         "trips": [
           {
-            "trip_id": "2193668",
+            "trip_id": "2585908",
             "headsign": "St Peters College to Tuggerah PS via Wyong Christian School",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259946",
+              "2259511",
+              "2259512",
+              "2259513",
+              "2259461",
+              "2259514",
               "2259515",
+              "2259516",
               "2259952",
+              "2259869",
+              "225945",
               "225946",
+              "2259382",
               "2259866",
               "2259964",
               "2259598",
@@ -294799,10 +295639,13 @@
               "2259511",
               "2259512",
               "2259513",
+              "2259461",
               "2259514",
               "2259515",
               "2259516",
               "2259194",
+              "225912",
+              "2259689",
               "2259348"
             ]
           }
@@ -294815,33 +295658,71 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Wyong Station via Old Maitland Rd",
         "trips": [
           {
-            "trip_id": "2566806",
+            "trip_id": "2585899",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Wyong Station via Old Maitland Rd",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
               "2261431",
+              "226144",
               "226145",
+              "226146",
+              "226147",
+              "2261140",
               "2261141",
+              "2261154",
               "2261155",
+              "2261183",
+              "2261484",
+              "2261485",
+              "2261142",
+              "2261143",
+              "2261144",
+              "2261145",
+              "2261146",
               "2261448",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
               "2261328",
               "2261329",
               "2261330",
               "2261331",
               "2261332",
+              "2261234",
+              "2261235",
               "2261311",
+              "2261238",
+              "2261239",
+              "2261240",
               "2261474",
               "2261343",
               "2259585",
               "2259599",
+              "2259634",
               "2259600",
               "2259963",
+              "2259832",
+              "2259968",
+              "2259228",
               "2259866",
               "2259380",
               "225946",
+              "225947",
+              "225949",
               "225917",
+              "225960",
               "225961",
+              "2259865",
+              "225962",
+              "225963",
+              "225944",
               "225922"
             ]
           }
@@ -294854,24 +295735,39 @@
         "route_name": "Chittaway Point to Wyong PS",
         "trips": [
           {
-            "trip_id": "2515678",
+            "trip_id": "2586003",
             "headsign": "Chittaway Point to Wyong PS",
             "stop_ids": [
               "2261296",
+              "2261297",
+              "2261298",
+              "2261299",
               "2261293",
+              "2261294",
               "2261295",
+              "2261300",
+              "2261301",
               "2261302",
               "2259962",
               "2259533",
               "2259685",
+              "2259689",
               "2259348",
               "2259472",
               "2259460",
               "2259688",
+              "225913",
               "225914",
+              "2259627",
+              "2259869",
               "225946",
+              "2259382",
               "2259866",
+              "2259380",
+              "225947",
+              "225949",
               "225917",
+              "225960",
               "225961"
             ]
           }
@@ -294884,12 +295780,14 @@
         "route_name": "Wamberal to Wamberal PS via Lavinia St",
         "trips": [
           {
-            "trip_id": "2331652",
+            "trip_id": "2585969",
             "headsign": "Wamberal to Wamberal PS via Lavinia St",
             "stop_ids": [
               "2260192",
+              "2260193",
               "2260516",
               "2260148",
+              "2260180",
               "2260484",
               "2260136",
               "2260188",
@@ -294905,13 +295803,20 @@
         "route_name": "Berkeley Vale PS to Wamberal PS",
         "trips": [
           {
-            "trip_id": "2331647",
+            "trip_id": "2585887",
             "headsign": "Berkeley Vale PS to Wamberal PS",
             "stop_ids": [
               "2261513",
               "2261291",
+              "2261292",
+              "2261341",
+              "2261546",
+              "2261548",
               "2261529",
+              "2261550",
               "2261219",
+              "2261220",
+              "2261221",
               "2261401",
               "2260186",
               "2260512"
@@ -294926,22 +295831,38 @@
         "route_name": "Wyong Station to Gosford Christian School via Lakedge Av",
         "trips": [
           {
-            "trip_id": "2515625",
+            "trip_id": "2585999",
             "headsign": "Wyong Station to Gosford Christian School via Lakedge Av",
             "stop_ids": [
               "225922",
               "2259626",
               "2259945",
               "2259534",
+              "2259966",
+              "2261306",
               "2261261",
               "2261515",
+              "2261260",
+              "2258114",
+              "225885",
               "2258113",
+              "225849",
               "225812",
+              "225817",
               "225819",
+              "2250541",
               "225053",
+              "225054",
               "225055",
+              "2250645",
+              "225056",
+              "225071",
+              "225058",
+              "225059",
+              "225066",
               "225061",
               "225074",
+              "225075",
               "2250734"
             ]
           }
@@ -294954,10 +295875,11 @@
         "route_name": "Bateau Bay to Central Coast Steiner School via Springfield & North Gosford",
         "trips": [
           {
-            "trip_id": "2515704",
+            "trip_id": "2585891",
             "headsign": "Bateau Bay to Central Coast Steiner School via Springfield & North Gosford",
             "stop_ids": [
               "2261431",
+              "226144",
               "2261174",
               "2261175",
               "2261176",
@@ -294982,6 +295904,7 @@
               "2261149",
               "2261150",
               "2261556",
+              "2261151",
               "2261486",
               "2261152",
               "2261153",
@@ -295059,6 +295982,7 @@
               "2250164",
               "2250165",
               "225074",
+              "225075",
               "2250734",
               "225099",
               "2250100",
@@ -295096,19 +296020,47 @@
         "route_name": "Bateau Bay to Our Lady of the Rosary PS via Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2515576",
+            "trip_id": "2585924",
             "headsign": "Bateau Bay to Our Lady of the Rosary PS",
             "stop_ids": [
               "2261431",
+              "226144",
+              "2261174",
+              "2261175",
+              "2261176",
+              "2261178",
               "2261198",
               "2261141",
+              "2261142",
+              "2261143",
+              "2261144",
+              "2261145",
+              "2261146",
               "2261448",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261479",
               "2261157",
               "2261159",
+              "2261225",
+              "2261532",
               "2261529",
+              "2261550",
               "2261219",
               "2261156",
+              "2261103",
+              "2261169",
+              "2261170",
+              "2261171",
+              "2261385",
+              "2261164",
               "2261165",
+              "2261166",
+              "2261167",
+              "2261168",
+              "226196",
               "226197"
             ]
           }
@@ -295121,15 +296073,38 @@
         "route_name": "Wamberal to Our Lady of the Rosary PS",
         "trips": [
           {
-            "trip_id": "2515629",
+            "trip_id": "2585911",
             "headsign": "Wamberal to Our Lady of the Rosary PS",
             "stop_ids": [
               "2260174",
+              "2260175",
+              "2260208",
+              "2260201",
+              "2260207",
               "2260510",
+              "2260149",
               "2260515",
-              "2261419",
+              "226142",
               "2261431",
+              "226144",
+              "2261184",
+              "2261419",
+              "2261352",
+              "2261372",
+              "2261431",
+              "226144",
+              "2261184",
+              "226163",
+              "2261185",
+              "2261186",
+              "2261187",
               "2261188",
+              "2261189",
+              "226169",
+              "2261490",
+              "2261510",
+              "2261191",
+              "226196",
               "226197"
             ]
           }
@@ -295142,23 +296117,52 @@
         "route_name": "St Peters Catholic College to Our Lady of the Rosary PS via Glenning Valley",
         "trips": [
           {
-            "trip_id": "2515833",
+            "trip_id": "2585973",
             "headsign": "St Peters Catholic College to Our Lady of the Rosary PS via Glenning Valley",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259534",
+              "2259966",
               "2261306",
               "2261478",
+              "2261322",
+              "2261323",
+              "2261324",
               "225897",
+              "2261238",
+              "2261239",
               "2261240",
+              "2261241",
+              "2261508",
               "2261242",
+              "2261243",
+              "2261244",
+              "2261509",
+              "2261474",
               "2261505",
+              "2261281",
               "2261282",
               "2261332",
               "2261513",
+              "2261287",
+              "2261288",
+              "2261289",
               "2261290",
+              "2261497",
+              "2261291",
+              "2261292",
               "2261341",
+              "2261169",
+              "2261170",
+              "2261171",
               "2261385",
+              "2261164",
+              "2261165",
+              "2261166",
+              "2261167",
+              "2261168",
+              "226196",
               "226197"
             ]
           }
@@ -295171,19 +296175,55 @@
         "route_name": "Our Lady of the Rosary PS to Tuggerah Lakes College, Berkeley Vale via The Entrance",
         "trips": [
           {
-            "trip_id": "2515614",
+            "trip_id": "2586006",
             "headsign": "Our Lady of the Rosary PS to Tuggerah Lakes College, Berkeley Vale via The Entrance",
             "stop_ids": [
               "2261370",
+              "2261123",
+              "2261124",
+              "2261125",
+              "2261455",
+              "2261456",
+              "2261126",
+              "2261127",
               "2261128",
               "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132",
+              "2261133",
+              "2261134",
+              "2261135",
               "2261519",
+              "2261459",
               "226121",
+              "226122",
+              "226123",
+              "226124",
+              "226125",
+              "226126",
+              "226127",
+              "226128",
               "226129",
+              "226130",
+              "226131",
+              "226132",
+              "226133",
+              "2261210",
+              "2261211",
+              "2261212",
+              "2261214",
               "2261215",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
               "2261479",
+              "2261232",
+              "2261233",
               "2261234",
+              "2261235",
               "2261314"
             ]
           }
@@ -295196,17 +296236,50 @@
         "route_name": "Tuggerah Lakes SC, The Entrance to Tuggerah Lakes SC, Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2515557",
+            "trip_id": "2585946",
             "headsign": "Tuggerah Lakes SC, The Entrance to Tuggerah Lakes SC, Berkeley Vale",
             "stop_ids": [
               "226134",
+              "2261400",
+              "2261483",
+              "226136",
+              "226137",
               "226138",
+              "2261174",
+              "2261175",
+              "2261176",
+              "2261178",
               "2261198",
+              "2261199",
+              "2261200",
+              "2261201",
+              "2261202",
+              "2261203",
+              "226198",
               "226199",
+              "2261100",
+              "2261101",
+              "2261102",
+              "2261507",
               "2261182",
+              "2261441",
+              "2261183",
+              "2261484",
+              "2261485",
               "2261142",
+              "2261143",
+              "2261144",
+              "2261145",
               "2261418",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261479",
+              "2261232",
+              "2261233",
               "2261234",
+              "2261235",
               "2261314"
             ]
           }
@@ -295219,17 +296292,31 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes College, Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2566835",
+            "trip_id": "2585921",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Tuggerah Lakes College, Berkeley Vale",
             "stop_ids": [
               "2261512",
+              "2250531",
               "2261344",
               "2261156",
+              "2261103",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
+              "2261328",
+              "2261329",
               "2261330",
+              "2261331",
+              "2261332",
               "2261291",
+              "2261292",
+              "2261341",
               "2261479",
+              "2261232",
+              "2261233",
               "2261234",
+              "2261235",
               "2261314"
             ]
           }
@@ -295242,14 +296329,35 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to Tuggerah Lakes SC, Berkeley Vale via Chittaway Bay",
         "trips": [
           {
-            "trip_id": "2515684",
+            "trip_id": "2585904",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to Tuggerah Lakes SC, Berkeley Vale via Chittaway Bay",
             "stop_ids": [
               "2261314",
+              "2261505",
+              "2261337",
               "2261338",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
               "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
+              "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261260",
+              "2261478",
+              "2261322",
+              "2261323",
               "2261324",
               "2261314"
             ]
@@ -295302,14 +296410,30 @@
         "route_name": "Bateau Bay to Tuggerah Lakes SC, Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2515795",
+            "trip_id": "2585986",
             "headsign": "Bateau Bay to Tuggerah Lakes SC, Berkeley Vale",
             "stop_ids": [
               "2261431",
+              "226144",
+              "226145",
               "226146",
+              "226147",
+              "2261140",
+              "2261141",
               "2261142",
+              "2261143",
+              "2261144",
+              "2261145",
               "2261418",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261479",
               "2261232",
+              "2261233",
+              "2261234",
+              "2261235",
               "2261314"
             ]
           }
@@ -295322,10 +296446,11 @@
         "route_name": "Bateau Bay to St Peters Catholic College via Eastern Rd",
         "trips": [
           {
-            "trip_id": "2263199",
+            "trip_id": "2585919",
             "headsign": "Bateau Bay to St Peters Catholic College via Eastern Rd",
             "stop_ids": [
               "2261431",
+              "226144",
               "2261174",
               "2261175",
               "2261176",
@@ -295357,27 +296482,45 @@
         "route_name": "Swadling St opp Lindsay St to St Peters College",
         "trips": [
           {
-            "trip_id": "2515703",
+            "trip_id": "2585930",
             "headsign": "Swadling St opp Lindsay St to St Peters College",
             "stop_ids": [
               "2261455",
+              "2261456",
+              "2261126",
+              "2261127",
               "2261128",
+              "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132",
+              "2261133",
+              "2261134",
+              "2261135",
               "2261519",
+              "2261459",
               "226121",
+              "226122",
+              "226123",
+              "226124",
+              "226125",
+              "226126",
+              "226127",
               "226128",
+              "226129",
+              "226130",
+              "226131",
+              "226132",
               "226133",
               "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
               "2261215",
               "2261216",
-              "2261479",
-              "2261235",
-              "2261343",
-              "2259678",
-              "2259680",
-              "2259682",
-              "2259684",
-              "2259677",
+              "2261217",
               "2259945"
             ]
           }
@@ -295445,7 +296588,7 @@
         "route_name": "Bateau Bay to St Peters College via Wyong Rd",
         "trips": [
           {
-            "trip_id": "2331639",
+            "trip_id": "2585962",
             "headsign": "Bateau Bay to St Peters College via Wyong Rd",
             "stop_ids": [
               "2261431",
@@ -295460,6 +296603,7 @@
               "2261180",
               "2261181",
               "2261488",
+              "226145",
               "226146",
               "2261482",
               "2261406",
@@ -295469,18 +296613,6 @@
               "2261212",
               "2261213",
               "2261215",
-              "2261216",
-              "2261217",
-              "2261138",
-              "2261139",
-              "2261479",
-              "2261232",
-              "2261233",
-              "2261234",
-              "2261235",
-              "2261343",
-              "2259585",
-              "225913",
               "2259945"
             ]
           }
@@ -295493,7 +296625,7 @@
         "route_name": "Bateau Bay to St Peters College via Shelly Beach & Robertson Rd",
         "trips": [
           {
-            "trip_id": "2331615",
+            "trip_id": "2585998",
             "headsign": "Bateau Bay to St Peters College via Shelly Beach & Robertson Rd",
             "stop_ids": [
               "226160",
@@ -295502,6 +296634,7 @@
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -295548,18 +296681,52 @@
         "route_name": "Tuggerah LakesSC, Berkeley Vale to St Peters Catholic College via Chittaway Bay",
         "trips": [
           {
-            "trip_id": "2483784",
+            "trip_id": "2585984",
             "headsign": "Tuggerah LakesSC, Berkeley Vale to St Peters Catholic College via Chittaway Bay",
             "stop_ids": [
               "2261314",
+              "2261236",
+              "2261335",
+              "2261336",
               "2261501",
-              "2261506",
+              "2261337",
+              "2261338",
+              "2261356",
+              "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
               "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261255",
+              "2261256",
+              "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261260",
+              "2261343",
+              "2261296",
+              "2261297",
+              "2261298",
+              "2261299",
+              "2261293",
+              "2261294",
               "2261300",
+              "2261301",
               "2261302",
-              "2259585",
+              "2261392",
+              "2259678",
+              "2259680",
+              "2259682",
+              "2259684",
+              "2259677",
+              "225913",
               "2259945"
             ]
           }
@@ -295572,10 +296739,17 @@
         "route_name": "Wyong Rd at South St to St Peters College",
         "trips": [
           {
-            "trip_id": "2331617",
+            "trip_id": "2585937",
             "headsign": "Wyong Rd at South St to St Peters College",
             "stop_ids": [
               "2261215",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
               "2261328",
               "2261329",
@@ -295583,10 +296757,25 @@
               "2261331",
               "2261332",
               "2261315",
+              "2261316",
+              "2261317",
+              "2261318",
+              "2261334",
+              "2261283",
+              "2261311",
+              "2261238",
               "2261239",
+              "2261240",
+              "2261241",
+              "2261508",
               "2261242",
+              "2261243",
+              "2261244",
+              "2261509",
+              "2261474",
               "2261343",
               "2259585",
+              "225913",
               "2259945"
             ]
           }
@@ -295599,16 +296788,21 @@
         "route_name": "The Entrance to Tuggerah Lakes SC, Tumbi Umbi via Bay Rd",
         "trips": [
           {
-            "trip_id": "2566803",
+            "trip_id": "2585933",
             "headsign": "The Entrance to Tuggerah Lakes SC, Tumbi Umbi via Bay Rd",
             "stop_ids": [
               "226119",
+              "226120",
+              "226121",
+              "226122",
+              "226182",
               "2261517",
+              "226183",
+              "226184",
+              "226185",
+              "226186",
+              "226187",
               "226188",
-              "226130",
-              "226134",
-              "226138",
-              "226140",
               "2261375"
             ]
           }
@@ -295621,15 +296815,30 @@
         "route_name": "Eastern Rd to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566818",
+            "trip_id": "2585965",
             "headsign": "Eastern Rd to Tuggerah Lakes College, Tumbi",
             "stop_ids": [
               "2261155",
+              "2261504",
+              "2261499",
               "2261156",
+              "2261444",
+              "2261107",
+              "2261108",
+              "2261109",
+              "2261110",
+              "2261111",
               "2261112",
+              "2261113",
+              "2261114",
               "2261115",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261488",
+              "226139",
               "226140",
+              "226141",
               "2261375"
             ]
           }
@@ -295642,7 +296851,7 @@
         "route_name": "The Entrance North to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566793",
+            "trip_id": "2585922",
             "headsign": "The Entrance North to Tuggerah Lakes SC, Tumbi Umbi",
             "stop_ids": [
               "226111",
@@ -295652,24 +296861,7 @@
               "2261369",
               "226115",
               "226124",
-              "226125",
-              "226126",
-              "226127",
-              "226128",
-              "226129",
-              "226130",
-              "226131",
-              "226132",
               "226133",
-              "226134",
-              "2261400",
-              "2261483",
-              "226136",
-              "226137",
-              "226138",
-              "226139",
-              "226140",
-              "226141",
               "2261375"
             ]
           }
@@ -295682,7 +296874,7 @@
         "route_name": "Bateau Bay to Tuggerah Lakes SC, Tumbi Umbi via Long Jetty & Killarney Vale",
         "trips": [
           {
-            "trip_id": "2566837",
+            "trip_id": "2585916",
             "headsign": "Bateau Bay to Tuggerah Lakes SC, Tumbi Umbi via Long Jetty & Killarney Vale",
             "stop_ids": [
               "2261431",
@@ -295713,15 +296905,6 @@
               "2261149",
               "2261150",
               "2261556",
-              "2261486",
-              "2261152",
-              "2261153",
-              "226136",
-              "226137",
-              "226138",
-              "226139",
-              "226140",
-              "226141",
               "2261375"
             ]
           }
@@ -295734,16 +296917,23 @@
         "route_name": "Toowoon Bay to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566827",
+            "trip_id": "2585942",
             "headsign": "Toowoon Bay to Tuggerah Lakes SC, Tumbi Umbi",
             "stop_ids": [
               "226186",
+              "226187",
               "226188",
+              "226189",
+              "226190",
+              "226191",
+              "226192",
+              "2261492",
+              "2261453",
+              "226193",
+              "226194",
               "226195",
               "2261493",
               "226196",
-              "226136",
-              "226140",
               "2261375"
             ]
           }
@@ -295756,15 +296946,18 @@
         "route_name": "Central Coast Hwy at Nepean St to Tuggerah Lakes SC, Tumbi Umbi via Bay Rd",
         "trips": [
           {
-            "trip_id": "2566831",
+            "trip_id": "2585978",
             "headsign": "Central Coast Hwy at Nepean St to Tuggerah Lakes SC, Tumbi Umbi via Bay Rd",
             "stop_ids": [
               "226147",
               "2261140",
               "2261141",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261181",
+              "2261488",
               "226139",
-              "226140",
               "2261375"
             ]
           }
@@ -295777,15 +296970,29 @@
         "route_name": "South St after East St to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566794",
+            "trip_id": "2585951",
             "headsign": "South St after East St to Tuggerah Lakes SC, Tumbi Umbi",
             "stop_ids": [
               "2261448",
               "2261165",
+              "2261166",
+              "2261167",
+              "2261168",
               "2261370",
+              "226172",
+              "226173",
+              "2261190",
+              "2261491",
+              "226170",
+              "2261551",
               "2261400",
+              "2261483",
+              "226136",
               "226137",
+              "226138",
+              "226139",
               "226140",
+              "226141",
               "2261375"
             ]
           }
@@ -295798,13 +297005,19 @@
         "route_name": "Bateau Bay Rd to Tuggerah Lakes SC, Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2566797",
+            "trip_id": "2585992",
             "headsign": "Bateau Bay Rd to Tuggerah Lakes SC, Tumbi Umbi",
             "stop_ids": [
               "226174",
+              "226175",
               "226177",
+              "226178",
+              "2261489",
+              "226179",
               "2261352",
+              "226139",
               "226140",
+              "226141",
               "2261375"
             ]
           }
@@ -295817,17 +297030,28 @@
         "route_name": "Central Coast Hwy opp Bateau Bay Rd to Tuggerah Lakes SC, Tumbi Umbi via Cresthaven Av",
         "trips": [
           {
-            "trip_id": "2566836",
+            "trip_id": "2585953",
             "headsign": "Central Coast Hwy opp Bateau Bay Rd to Tuggerah Lakes SC, Tumbi Umbi via Cresthaven Av",
             "stop_ids": [
               "226145",
               "226146",
               "226147",
+              "226136",
               "226137",
+              "226138",
+              "2261174",
+              "2261175",
+              "2261176",
               "2261178",
+              "2261117",
+              "2261118",
               "2261119",
+              "2261120",
               "2261121",
+              "2261122",
+              "226139",
               "226140",
+              "226141",
               "2261375"
             ]
           }
@@ -295876,15 +297100,22 @@
         "route_name": "Wyong Rd to Tuggerah Lakes SC, Tumbi Umbi via Brooke Av",
         "trips": [
           {
-            "trip_id": "2566838",
+            "trip_id": "2585968",
             "headsign": "Wyong Rd to Tuggerah Lakes SC, Tumbi Umbi via Brooke Av",
             "stop_ids": [
               "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
+              "2261215",
               "2261165",
               "2261556",
+              "2261151",
+              "2261486",
+              "2261152",
+              "2261153",
               "226136",
-              "226137",
-              "226140",
               "2261375"
             ]
           }
@@ -295897,26 +297128,63 @@
         "route_name": "Tuggerah Lakes SC, Berkeley Vale to St John Fisher School",
         "trips": [
           {
-            "trip_id": "2515711",
+            "trip_id": "2585918",
             "headsign": "Tuggerah Lakes SC, Berkeley Vale to St John Fisher School",
             "stop_ids": [
               "2261314",
-              "2261506",
+              "2261236",
+              "2261335",
+              "2261336",
+              "2261501",
+              "2261337",
+              "2261338",
+              "2261356",
               "2261339",
+              "2261340",
+              "2261250",
+              "2261251",
+              "2261252",
+              "2261540",
+              "2261253",
+              "2261254",
+              "2261256",
               "2261487",
+              "2261520",
+              "2261267",
               "2261268",
+              "2261269",
+              "2261257",
+              "2261259",
               "2261260",
               "2261343",
+              "2261296",
+              "2261297",
+              "2261298",
               "2261299",
+              "2261293",
+              "2261294",
               "2261300",
+              "2261301",
               "2261302",
+              "2261392",
               "2261306",
               "2261478",
+              "2261245",
+              "2261246",
+              "2261247",
               "2261248",
+              "2261249",
+              "2261321",
+              "2261322",
+              "2261323",
+              "2261324",
               "2261524",
               "2261308",
+              "2261309",
               "2261310",
+              "2261477",
               "2261546",
+              "2261548",
               "2261529"
             ]
           }
@@ -295929,16 +297197,24 @@
         "route_name": "Wyong Station to TLK Alesco School",
         "trips": [
           {
-            "trip_id": "2515816",
+            "trip_id": "2585964",
             "headsign": "Wyong Station to TLK Alesco School",
             "stop_ids": [
               "225922",
+              "2259626",
               "2259194",
+              "225912",
               "2259871",
+              "2259686",
               "225911",
+              "2259533",
+              "2259685",
               "2259534",
+              "2259966",
               "2261306",
+              "2261307",
               "2261402",
+              "2261308",
               "2261446"
             ]
           }
@@ -295951,19 +297227,49 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Central Coast Rudolf Steiner School",
         "trips": [
           {
-            "trip_id": "2566800",
+            "trip_id": "2585963",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Central Coast Rudolf Steiner School",
             "stop_ids": [
               "2261512",
               "2260186",
+              "2260187",
+              "2260175",
               "2260190",
+              "2260191",
               "2260192",
+              "2260193",
+              "226142",
               "2261431",
+              "226144",
+              "226145",
+              "226146",
+              "226147",
+              "2261482",
+              "2261406",
               "2261363",
+              "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
               "2261215",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
+              "2261328",
+              "2261329",
+              "2261330",
+              "2261331",
+              "2261332",
               "2261234",
+              "2261235",
+              "2261311",
               "2261312",
+              "2258114",
               "225864",
               "2258105"
             ]
@@ -295977,7 +297283,7 @@
         "route_name": "Erina HS to Holgate PS via Matcham",
         "trips": [
           {
-            "trip_id": "2515830",
+            "trip_id": "2585980",
             "headsign": "Erina HS to Holgate PS via Matcham",
             "stop_ids": [
               "2260513",
@@ -295987,6 +297293,11 @@
               "2250562",
               "2250545",
               "225159",
+              "225161",
+              "225162",
+              "225163",
+              "225164",
+              "2250556",
               "225025",
               "225026",
               "2250434",
@@ -296011,15 +297322,28 @@
         "route_name": "Gosford Station to Narara Valley HS",
         "trips": [
           {
-            "trip_id": "2515638",
+            "trip_id": "2585944",
             "headsign": "Gosford Station to Narara Valley HS",
             "stop_ids": [
               "225045",
+              "2250856",
+              "2250857",
+              "2250858",
               "2250729",
+              "2250767",
+              "2250766",
               "2250862",
+              "2250452",
+              "2250753",
               "2250759",
+              "2250745",
+              "2250727",
               "2250749",
+              "2250220",
+              "2250164",
               "2250165",
+              "2250102",
+              "2250103",
               "2250741"
             ]
           }
@@ -296032,11 +297356,24 @@
         "route_name": "Bay Village to Mary MacKillop College",
         "trips": [
           {
-            "trip_id": "2483809",
+            "trip_id": "2585993",
             "headsign": "Bay Village to Mary MacKillop College",
             "stop_ids": [
               "226135",
+              "2261363",
+              "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
               "2261215",
+              "2261216",
+              "2261217",
+              "2261138",
+              "2261139",
+              "2261104",
+              "2261467",
+              "2261325",
               "2261327",
               "2261328",
               "2261329",
@@ -296044,19 +297381,57 @@
               "2261331",
               "2261332",
               "2261315",
+              "2261316",
+              "2261317",
+              "2261318",
+              "2261334",
+              "2261283",
+              "2261311",
               "2261238",
+              "2261239",
+              "2261240",
+              "2261474",
+              "2261505",
+              "2261337",
               "2261338",
               "2261356",
+              "2261487",
+              "2261257",
+              "2261259",
               "2261260",
+              "2261343",
               "2259585",
               "2259946",
+              "2259510",
+              "2259511",
+              "2259512",
+              "2259513",
+              "2259461",
               "2259514",
+              "2259515",
+              "2259516",
+              "2259952",
               "2259869",
               "225922",
+              "225916",
+              "225917",
+              "225918",
+              "2259134",
+              "225919",
               "2259358",
+              "225915",
+              "2259604",
+              "2259791",
               "225923",
+              "2259792",
               "2259241",
+              "2259276",
+              "2259270",
+              "2259271",
               "2259863",
+              "2259450",
+              "2259890",
+              "2259762",
               "2259955",
               "2259862"
             ]
@@ -296070,17 +297445,29 @@
         "route_name": "St Edwards College to St Patricks PS via Gosford",
         "trips": [
           {
-            "trip_id": "2515818",
+            "trip_id": "2586019",
             "headsign": "St Edwards College to St Patricks PS via Gosford",
             "stop_ids": [
               "2250744",
+              "225014",
+              "2250851",
+              "2250852",
+              "2250853",
+              "2250456",
               "2250620",
+              "2250854",
+              "2250855",
+              "2250754",
               "2250719",
+              "225012",
               "2250615",
               "2250736",
               "2250665",
               "2250362",
+              "2250632",
               "225018",
+              "225019",
+              "2250437",
               "2250869",
               "2250889"
             ]
@@ -296094,16 +297481,19 @@
         "route_name": "Wyong Station to Central Coast Steiner School",
         "trips": [
           {
-            "trip_id": "2515804",
+            "trip_id": "2585941",
             "headsign": "Wyong Station to Central Coast Steiner School",
             "stop_ids": [
               "225922",
+              "2259626",
               "2259194",
               "2259945",
               "225912",
               "2259871",
               "2259534",
+              "2259966",
               "2261306",
+              "2258114",
               "225864",
               "2258105"
             ]
@@ -296142,7 +297532,7 @@
         "route_name": "Bateau Bay to Lisarow High School",
         "trips": [
           {
-            "trip_id": "2296015",
+            "trip_id": "2585925",
             "headsign": "Bateau Bay to Lisarow HS",
             "stop_ids": [
               "226135",
@@ -296177,6 +297567,7 @@
               "225847",
               "225848",
               "225896",
+              "225812",
               "225817",
               "225819",
               "225067",
@@ -296201,7 +297592,7 @@
         "route_name": "Forresters Beach to TLSC Tumbi Umbi Campus",
         "trips": [
           {
-            "trip_id": "2566830",
+            "trip_id": "2585886",
             "headsign": "Forresters Beach to TLSC Tumbi Umbi Campus",
             "stop_ids": [
               "2260179",
@@ -296215,6 +297606,9 @@
               "2260203",
               "2260202",
               "2260484",
+              "2260190",
+              "2260191",
+              "2260192",
               "2261375"
             ]
           }
@@ -296265,16 +297659,25 @@
         "route_name": "St Peters College to Cresthaven Av at Ireland Dr",
         "trips": [
           {
-            "trip_id": "2539276",
+            "trip_id": "2585898",
             "headsign": "St Peters College to Cresthaven Av at Ireland Dr",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259534",
+              "2259966",
               "2261306",
+              "2261307",
               "2261402",
               "2261308",
+              "2261309",
               "2261310",
+              "2261477",
               "2261466",
+              "2261507",
+              "2261182",
+              "2261441",
+              "2261183",
               "2261484",
               "2261116"
             ]
@@ -296288,26 +297691,67 @@
         "route_name": "St Peters College to Our Lady of the Rosary PS via The Entrance",
         "trips": [
           {
-            "trip_id": "2263360",
+            "trip_id": "2586014",
             "headsign": "St Peters College to Our Lady of the Rosary PS via The Entrance",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259534",
+              "2259966",
               "2261306",
+              "2261307",
               "2261402",
+              "2261308",
+              "2261309",
               "2261310",
+              "2261477",
+              "2261169",
+              "2261170",
+              "2261171",
+              "2261385",
+              "2261164",
               "2261165",
+              "2261166",
+              "2261167",
+              "2261168",
+              "226148",
               "226149",
+              "226150",
               "226151",
+              "226152",
+              "226153",
+              "226154",
+              "226155",
               "2261172",
+              "226156",
+              "2261498",
+              "2261389",
+              "226157",
+              "226158",
               "226159",
               "2261209",
               "226111",
+              "226112",
+              "226113",
+              "226114",
+              "2261369",
               "226115",
               "226119",
+              "226120",
               "226183",
+              "226184",
+              "226185",
+              "226186",
+              "226187",
               "226188",
+              "226189",
+              "226190",
+              "226191",
               "226192",
+              "2261492",
+              "2261453",
+              "226193",
+              "226194",
               "226195",
               "2261493",
               "226196"
@@ -296373,10 +297817,11 @@
         "route_name": "St Peters College to Bateau Bay via Shelly Beach",
         "trips": [
           {
-            "trip_id": "2390666",
+            "trip_id": "2585950",
             "headsign": "St Peters College to Bateau Bay via Shelly Beach",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259534",
               "2259966",
               "2261306",
@@ -296413,6 +297858,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -296470,19 +297916,45 @@
         "route_name": "St Peters College to Bundilla Pde",
         "trips": [
           {
-            "trip_id": "2483771",
+            "trip_id": "2585955",
             "headsign": "St Peters College to Bundilla Pde",
             "stop_ids": [
               "2259945",
+              "225912",
               "2259534",
+              "2259966",
+              "2261296",
+              "2261297",
+              "2261298",
               "2261299",
+              "2261293",
+              "2261294",
               "2261300",
+              "2261301",
               "2261302",
+              "2261392",
+              "2261306",
               "2261261",
+              "2261262",
+              "2261263",
+              "2261264",
               "2261265",
+              "2261266",
+              "2261521",
+              "2261270",
+              "2261271",
+              "2261272",
+              "2261273",
+              "2261438",
               "2261274",
-              "2261505",
+              "2261275",
+              "2261276",
+              "2261277",
+              "2261278",
+              "2261279",
+              "2261494",
               "2261281",
+              "2261282",
               "2261388"
             ]
           }
@@ -296495,18 +297967,42 @@
         "route_name": "St Peters College to Killarney Vale",
         "trips": [
           {
-            "trip_id": "2263060",
+            "trip_id": "2585913",
             "headsign": "St Peters College to Killarney Vale",
             "stop_ids": [
               "2259945",
               "2259534",
+              "2259966",
               "2261306",
+              "2261478",
+              "2261245",
+              "2261246",
+              "2261247",
               "2261248",
+              "2261249",
+              "2261321",
+              "2261322",
               "2261323",
               "2261324",
+              "2261524",
               "2261236",
+              "2261319",
+              "2261320",
+              "2261284",
+              "2261539",
               "2261286",
+              "2261287",
+              "2261288",
+              "2261289",
+              "2261290",
+              "2261497",
               "2261291",
+              "2261292",
+              "2261341",
+              "2261169",
+              "2261170",
+              "2261171",
+              "2261385",
               "2261164",
               "2261165"
             ]
@@ -296520,11 +298016,13 @@
         "route_name": "St Peters College to Wyong Station",
         "trips": [
           {
-            "trip_id": "2193673",
+            "trip_id": "2586017",
             "headsign": "St Peters College to Wyong Station",
             "stop_ids": [
               "2259945",
               "225914",
+              "2259627",
+              "2259869",
               "225922"
             ]
           }
@@ -296537,13 +298035,27 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Cresthaven Av",
         "trips": [
           {
-            "trip_id": "2566824",
+            "trip_id": "2585893",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Cresthaven Av",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
+              "2261431",
               "226144",
+              "226145",
+              "226146",
               "226147",
+              "226136",
+              "226137",
+              "226138",
               "2261192",
+              "2261193",
+              "2261194",
+              "2261195",
+              "2261196",
+              "2261197",
+              "2261198",
               "2261199"
             ]
           }
@@ -296556,16 +298068,26 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Bundeena Rd",
         "trips": [
           {
-            "trip_id": "2566841",
+            "trip_id": "2586018",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Bundeena Rd",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "226147",
               "2261142",
+              "2261213",
+              "2261214",
+              "2261215",
+              "2261216",
               "2261217",
+              "2261138",
+              "2261139",
+              "2261479",
               "2261232",
+              "2261233",
+              "2261234",
               "2261235",
+              "2261478",
+              "2261322",
+              "2261323",
               "2261324"
             ]
           }
@@ -296578,13 +298100,17 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Toowoon Bay",
         "trips": [
           {
-            "trip_id": "2566823",
+            "trip_id": "2585889",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Toowoon Bay",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "226147",
               "226151",
+              "2261127",
+              "2261128",
+              "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132"
             ]
           }
@@ -296597,14 +298123,28 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay via Tumbi Rd",
         "trips": [
           {
-            "trip_id": "2566805",
+            "trip_id": "2585985",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay via Tumbi Rd",
             "stop_ids": [
               "2261512",
+              "2250531",
               "2261344",
               "2261156",
+              "2261444",
+              "2261107",
+              "2261108",
+              "2261109",
+              "2261110",
               "2261111",
+              "2261112",
+              "2261113",
+              "2261114",
+              "2261115",
               "2261116",
+              "2261179",
+              "2261180",
+              "2261181",
+              "2261488",
               "2261184"
             ]
           }
@@ -296617,12 +298157,16 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Robertson Rd",
         "trips": [
           {
-            "trip_id": "2566799",
+            "trip_id": "2586002",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Robertson Rd",
             "stop_ids": [
               "2261375",
-              "2261431",
               "2261174",
+              "2261175",
+              "2261176",
+              "2261178",
+              "2261198",
+              "2261485",
               "2261142",
               "2261143"
             ]
@@ -296636,17 +298180,16 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance North",
         "trips": [
           {
-            "trip_id": "2566814",
+            "trip_id": "2585890",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance North",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "226146",
-              "2261363",
-              "226148",
-              "226152",
               "226156",
               "2261137",
+              "2261205",
+              "2261204",
+              "2261206",
+              "2261208",
               "2261209"
             ]
           }
@@ -296659,17 +298202,34 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay via Robertson Rd",
         "trips": [
           {
-            "trip_id": "2566802",
+            "trip_id": "2585931",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay via Robertson Rd",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "2261363",
+              "2261370",
+              "2261123",
               "2261124",
+              "2261125",
               "226130",
+              "226131",
+              "226132",
+              "226133",
+              "2261210",
+              "2261211",
+              "2261212",
+              "2261213",
+              "2261214",
               "2261215",
+              "2261147",
               "2261417",
+              "2261148",
+              "2261149",
+              "2261150",
               "2261556",
+              "2261486",
+              "2261152",
+              "2261153",
+              "226136",
               "226137"
             ]
           }
@@ -296682,12 +298242,13 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Central Coast Steiner School",
         "trips": [
           {
-            "trip_id": "2566807",
+            "trip_id": "2585910",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Central Coast Steiner School",
             "stop_ids": [
               "2261375",
               "2260193",
               "2260516",
+              "2260498",
               "2260134",
               "2260135",
               "2260136",
@@ -296717,6 +298278,7 @@
               "2261235",
               "2261311",
               "2261312",
+              "2258114",
               "225864",
               "2258105"
             ]
@@ -296730,15 +298292,23 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay Showground",
         "trips": [
           {
-            "trip_id": "2566798",
+            "trip_id": "2585987",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Bateau Bay Showground",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
               "2261431",
+              "226144",
+              "226145",
               "226146",
               "226147",
+              "2261140",
               "2261141",
+              "2261142",
+              "2261167",
               "2261168",
+              "226134",
               "226135"
             ]
           }
@@ -296751,7 +298321,7 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to Brooke Av PS",
         "trips": [
           {
-            "trip_id": "2566832",
+            "trip_id": "2585938",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to Brooke Av PS",
             "stop_ids": [
               "2261375",
@@ -296765,6 +298335,7 @@
               "2261186",
               "2261187",
               "2261188",
+              "2261189",
               "226169",
               "2261490",
               "2261510",
@@ -296786,14 +298357,21 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance PS",
         "trips": [
           {
-            "trip_id": "2566808",
+            "trip_id": "2585900",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance PS",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "226146",
               "226148",
+              "226149",
+              "226150",
+              "226151",
               "226152",
+              "226153",
+              "226154",
+              "226155",
+              "2261172",
+              "226156",
+              "2261498",
               "2261389"
             ]
           }
@@ -296806,14 +298384,21 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance PS",
         "trips": [
           {
-            "trip_id": "2566828",
+            "trip_id": "2585947",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance PS",
             "stop_ids": [
               "2261375",
-              "2261431",
-              "226146",
               "226148",
+              "226149",
+              "226150",
+              "226151",
               "226152",
+              "226153",
+              "226154",
+              "226155",
+              "2261172",
+              "226156",
+              "2261498",
               "2261389"
             ]
           }
@@ -296826,18 +298411,55 @@
         "route_name": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance via Toowoon Bay",
         "trips": [
           {
-            "trip_id": "2566791",
+            "trip_id": "2585920",
             "headsign": "Tuggerah Lakes SC, Tumbi Umbi to The Entrance via Toowoon Bay",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
               "2261431",
+              "226144",
+              "2261174",
+              "2261175",
+              "2261176",
+              "2261178",
               "2261198",
+              "2261199",
+              "2261200",
+              "2261201",
+              "2261202",
+              "2261203",
               "2261183",
+              "2261484",
+              "2261485",
+              "2261486",
+              "2261152",
+              "2261153",
               "2261482",
+              "2261406",
               "2261363",
+              "2261370",
+              "2261123",
               "2261124",
+              "2261125",
+              "2261455",
+              "2261456",
+              "2261126",
+              "2261127",
+              "2261128",
+              "2261129",
+              "2261426",
+              "2261130",
+              "2261131",
               "2261132",
+              "2261133",
+              "2261134",
+              "2261135",
+              "2261519",
               "2261518",
+              "2261136",
+              "2261459",
+              "226158",
               "226159"
             ]
           }
@@ -296850,16 +298472,28 @@
         "route_name": "St John Fisher School to Tumbi Creek Rd via Chittaway Bay",
         "trips": [
           {
-            "trip_id": "2515691",
+            "trip_id": "2585926",
             "headsign": "St John Fisher School to Tumbi Creek Rd via Chittaway Bay",
             "stop_ids": [
               "2261529",
+              "2261550",
+              "2261160",
               "2261429",
               "2261227",
+              "2261345",
               "2261531",
               "2261235",
+              "2261311",
+              "2261238",
+              "2261239",
+              "2261240",
+              "2261241",
+              "2261508",
               "2261242",
+              "2261243",
               "2261244",
+              "2261509",
+              "2261474",
               "2261343",
               "2261296",
               "2261297",
@@ -296873,10 +298507,31 @@
               "2261392",
               "2261306",
               "2261261",
+              "2261262",
+              "2261263",
+              "2261264",
               "2261265",
+              "2261266",
+              "2261521",
+              "2261270",
+              "2261271",
+              "2261272",
+              "2261273",
+              "2261438",
               "2261274",
-              "2261505",
+              "2261275",
+              "2261276",
+              "2261277",
+              "2261278",
+              "2261279",
+              "2261494",
               "2261281",
+              "2261275",
+              "2261276",
+              "2261277",
+              "2261278",
+              "2261279",
+              "2261494",
               "2261291"
             ]
           }
@@ -296889,7 +298544,7 @@
         "route_name": "St John Fisher School to Bateau Bay via Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2515760",
+            "trip_id": "2585994",
             "headsign": "St John Fisher School to Bateau Bay via Berkeley Vale",
             "stop_ids": [
               "2261529",
@@ -296923,6 +298578,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -297007,7 +298663,7 @@
         "route_name": "Ourimbah PS to Bateau Bay via North Gosford",
         "trips": [
           {
-            "trip_id": "2479573",
+            "trip_id": "2585952",
             "headsign": "Ourimbah PS to Bateau Bay via North Gosford",
             "stop_ids": [
               "225895",
@@ -297029,7 +298685,10 @@
               "2250541",
               "225082",
               "2250146",
+              "2250147",
+              "2250148",
               "2250149",
+              "2250150",
               "2250155",
               "2250156",
               "2250225",
@@ -297092,13 +298751,16 @@
         "route_name": "Holgate PS to Central Coast Hwy",
         "trips": [
           {
-            "trip_id": "2515694",
+            "trip_id": "2585927",
             "headsign": "Holgate PS to Central Coast Hwy",
             "stop_ids": [
               "2250470",
               "2250471",
+              "2250756",
               "2250757",
+              "2250874",
               "2250708",
+              "2250444",
               "2250561"
             ]
           }
@@ -297111,10 +298773,12 @@
         "route_name": "Holgate PS to Central Coast Grammar School via Matcham",
         "trips": [
           {
-            "trip_id": "2178540",
+            "trip_id": "2585967",
             "headsign": "Holgate PS to Central Coast Grammar School via Matcham",
             "stop_ids": [
               "2250743",
+              "2250752",
+              "2250469",
               "2250466",
               "2250468",
               "2250876",
@@ -297125,6 +298789,8 @@
               "2250474",
               "2250878",
               "2250880",
+              "2250756",
+              "2250874",
               "2260513"
             ]
           }
@@ -297137,13 +298803,16 @@
         "route_name": "Narara Valley HS to Central Coast Grammar School",
         "trips": [
           {
-            "trip_id": "2331713",
+            "trip_id": "2585982",
             "headsign": "Narara Valley HS to Central Coast Grammar School",
             "stop_ids": [
               "2250883",
+              "2250139",
+              "225073",
               "2250644",
               "2250155",
               "2250156",
+              "2250225",
               "2250882",
               "2250728",
               "2250865",
@@ -297158,6 +298827,7 @@
               "2250437",
               "2250869",
               "2250889",
+              "2250659",
               "2250513",
               "2250514",
               "2250515",
@@ -297194,7 +298864,7 @@
         "route_name": "Lakes Grammar School to Bay Village",
         "trips": [
           {
-            "trip_id": "2581765",
+            "trip_id": "2586000",
             "headsign": "Lakes Grammar School to Bay Village",
             "stop_ids": [
               "2259955",
@@ -297202,9 +298872,14 @@
               "2259806",
               "2259891",
               "2259863",
+              "2259259",
+              "2259260",
+              "2259261",
+              "2259697",
               "2259240",
               "2259749",
               "225937",
+              "225938",
               "2259750",
               "225939",
               "2259360",
@@ -297222,6 +298897,8 @@
               "2259508",
               "2259509",
               "2259534",
+              "2259966",
+              "2261306",
               "2261261",
               "2261262",
               "2261263",
@@ -297234,10 +298911,12 @@
               "2261322",
               "2261323",
               "2261324",
+              "2261524",
               "2261236",
               "2261319",
               "2261320",
               "2261284",
+              "2261539",
               "2261286",
               "2261287",
               "2261288",
@@ -297251,6 +298930,7 @@
               "2261170",
               "2261171",
               "2261385",
+              "2261164",
               "2261165",
               "2261166",
               "2261167",
@@ -297268,11 +298948,14 @@
         "route_name": "Central Coast Steiner School to Berkeley Vale",
         "trips": [
           {
-            "trip_id": "2178758",
+            "trip_id": "2585948",
             "headsign": "Central Coast Steiner School to Berkeley Vale",
             "stop_ids": [
               "2258105",
+              "225884",
+              "225875",
               "2261313",
+              "2261402",
               "2261308",
               "2261287",
               "2261288",
@@ -297280,6 +298963,11 @@
               "2261290",
               "2261497",
               "2261291",
+              "2261292",
+              "2261341",
+              "2261479",
+              "2261232",
+              "2261233",
               "2261234"
             ]
           }
@@ -297292,13 +298980,15 @@
         "route_name": "Wamberal Public School via Tumbi Rd",
         "trips": [
           {
-            "trip_id": "2178660",
+            "trip_id": "2585902",
             "headsign": "Wamberal Public School to Bateau Bay via Tumbi Umbi & Killarney Vale",
             "stop_ids": [
               "2260512",
               "2260195",
               "2260196",
+              "2250531",
               "2261344",
+              "2261156",
               "2261444",
               "2261107",
               "2261108",
@@ -297325,6 +299015,7 @@
               "2261190",
               "2261491",
               "226174",
+              "226175",
               "226177",
               "226178",
               "2261489",
@@ -297340,10 +299031,11 @@
         "route_name": "Wamberal Public School to Tumbi Umbi",
         "trips": [
           {
-            "trip_id": "2178657",
+            "trip_id": "2585957",
             "headsign": "Wamberal PS to Tumbi Umbi",
             "stop_ids": [
               "2260512",
+              "2260187",
               "2260175",
               "2260208",
               "2260201",
@@ -297371,15 +299063,23 @@
         "route_name": "TLSC Tumbi Umbi Campus to Our Lady of the Rosary PS",
         "trips": [
           {
-            "trip_id": "2566833",
+            "trip_id": "2586009",
             "headsign": "TLSC Tumbi Umbi Campus to Our Lady of the Rosary PS",
             "stop_ids": [
               "2261375",
+              "2260193",
+              "226142",
+              "2261431",
+              "226144",
+              "226145",
               "226146",
+              "226147",
+              "2261482",
               "2261406",
               "2261364",
               "2261365",
               "2261490",
+              "2261510",
               "2261191",
               "226196",
               "226197"
@@ -297394,10 +299094,11 @@
         "route_name": "TLSC Tumbi Umbi Campus to Forresters Beach",
         "trips": [
           {
-            "trip_id": "2566821",
+            "trip_id": "2585970",
             "headsign": "TLSC Tumbi Umbi Campus to Forresters Beach",
             "stop_ids": [
               "2261512",
+              "2261401",
               "2260186",
               "2260187",
               "2260175",
@@ -302690,7 +304391,7 @@
         "route_name": "Stockton Ferry",
         "trips": [
           {
-            "trip_id": "641738",
+            "trip_id": "1773831",
             "headsign": "Newcastle to Stockton Ferry",
             "stop_ids": [
               "2300102",
@@ -302698,7 +304399,7 @@
             ]
           },
           {
-            "trip_id": "641685",
+            "trip_id": "2585024",
             "headsign": "Stockton to Newcastle Ferry",
             "stop_ids": [
               "229557",
@@ -302711,7 +304412,7 @@
     "44T2": [
       {
         "route_id": "7016_44T2",
-        "route_name": "Strathfield, then all stations to Stanmore, Central and return",
+        "route_name": "Strathfield, then all stations to Stanmore, Central and return - Jan 24-25",
         "trips": [
           {
             "trip_id": "2256290",
@@ -302730,6 +304431,42 @@
           },
           {
             "trip_id": "2449537",
+            "headsign": "Strathfield, then all stations to Stanmore, Central",
+            "stop_ids": [
+              "2135215",
+              "213464",
+              "213268",
+              "213111",
+              "213039",
+              "204918",
+              "204911",
+              "204816",
+              "201016"
+            ]
+          }
+        ]
+      },
+      {
+        "route_id": "7066_44T2",
+        "route_name": "Strathfield, then all stations to Stanmore, Central and return - Jan 27",
+        "trips": [
+          {
+            "trip_id": "2585113",
+            "headsign": "Central, Stanmore, then all stations to Strathfield",
+            "stop_ids": [
+              "200039",
+              "204811",
+              "204912",
+              "204927",
+              "213040",
+              "2131110",
+              "213275",
+              "213466",
+              "213511"
+            ]
+          },
+          {
+            "trip_id": "2585112",
             "headsign": "Strathfield, then all stations to Stanmore, Central",
             "stop_ids": [
               "2135215",
@@ -303259,6 +304996,102 @@
         ]
       }
     ],
+    "20T4": [
+      {
+        "route_id": "7054_20T4",
+        "route_name": "Bondi Junction, Edgecliff, Kings Cross, then Central and return",
+        "trips": [
+          {
+            "trip_id": "2420145",
+            "headsign": "Bondi Junction, Edgecliff, Kings Cross, then Central",
+            "stop_ids": [
+              "202281",
+              "202726",
+              "201115",
+              "200039"
+            ]
+          },
+          {
+            "trip_id": "2420141",
+            "headsign": "Central, then Kings Cross, Edgecliff, Bondi Junction",
+            "stop_ids": [
+              "200054",
+              "201126",
+              "202721",
+              "202267"
+            ]
+          }
+        ]
+      }
+    ],
+    "23T4": [
+      {
+        "route_id": "7054_23T4",
+        "route_name": "Bondi Junction, then Town Hall and return",
+        "trips": [
+          {
+            "trip_id": "2118767",
+            "headsign": "Bondi Junction, then Town Hall",
+            "stop_ids": [
+              "202281",
+              "2000425"
+            ]
+          },
+          {
+            "trip_id": "2353345",
+            "headsign": "Town Hall, then Bondi Junction",
+            "stop_ids": [
+              "2000426",
+              "202267"
+            ]
+          }
+        ]
+      }
+    ],
+    "47T2": [
+      {
+        "route_id": "7054_47T2",
+        "route_name": "Strathfield, then all stations to Central and return",
+        "trips": [
+          {
+            "trip_id": "2585150",
+            "headsign": "Central, then all stations to Strathfield",
+            "stop_ids": [
+              "200039",
+              "201646",
+              "204320",
+              "204211",
+              "204811",
+              "204912",
+              "204927",
+              "213040",
+              "2131110",
+              "213275",
+              "213466",
+              "213511"
+            ]
+          },
+          {
+            "trip_id": "2466379",
+            "headsign": "Strathfield, then all stations to Central",
+            "stop_ids": [
+              "2135215",
+              "213464",
+              "213268",
+              "213111",
+              "213039",
+              "204918",
+              "204911",
+              "204816",
+              "204243",
+              "204313",
+              "201646",
+              "201016"
+            ]
+          }
+        ]
+      }
+    ],
     "1T9": [
       {
         "route_id": "7057_1T9",
@@ -303324,24 +305157,24 @@
     "50CN": [
       {
         "route_id": "7060_50CN",
-        "route_name": "Berowra, then Cowan, Hawkesbury River (Loop Service)",
+        "route_name": "Hawkesbury River, then Cowan, Berowra and return",
         "trips": [
           {
-            "trip_id": "2584744",
-            "headsign": "Berowra, then Cowan, Hawkesbury River (Loop Service)",
-            "stop_ids": [
-              "208326",
-              "208140",
-              "208111"
-            ]
-          },
-          {
             "trip_id": "2584738",
-            "headsign": "Unknown",
+            "headsign": "Berowra, then Cowan, Hawkesbury River",
             "stop_ids": [
               "208164",
               "208141",
               "208335"
+            ]
+          },
+          {
+            "trip_id": "2584744",
+            "headsign": "Hawkesbury River, then Cowan, Berowra",
+            "stop_ids": [
+              "208326",
+              "208140",
+              "208111"
             ]
           }
         ]
@@ -303432,6 +305265,42 @@
             "stop_ids": [
               "2160142",
               "2142287"
+            ]
+          }
+        ]
+      }
+    ],
+    "2T9": [
+      {
+        "route_id": "7063_2T9",
+        "route_name": "Epping, Eastwood, West Ryde, then all stations to Strathfield and return",
+        "trips": [
+          {
+            "trip_id": "2099315",
+            "headsign": "Epping, Eastwood, West Ryde, then all stations to Strathfield",
+            "stop_ids": [
+              "212111",
+              "212213",
+              "211424",
+              "211431",
+              "213879",
+              "213828",
+              "2137112",
+              "213511"
+            ]
+          },
+          {
+            "trip_id": "2099323",
+            "headsign": "Strathfield, then all stations to West Ryde, Eastwood, Epping",
+            "stop_ids": [
+              "213563",
+              "213718",
+              "213835",
+              "213858",
+              "211431",
+              "211424",
+              "212211",
+              "212112"
             ]
           }
         ]
@@ -303560,17 +305429,89 @@
     "9T1": [
       {
         "route_id": "7063_9T1",
-        "route_name": "Penrith, express to St Marys, then express to Penrith (Loop Service)",
+        "route_name": "Emu Plains, all stations to St Marys and return",
         "trips": [
           {
             "trip_id": "2582282",
-            "headsign": "Unknown",
+            "headsign": "Emu Plains, all stations to St Marys",
             "stop_ids": [
               "2750261",
               "275078",
               "2747352",
               "2747210",
               "2760178"
+            ]
+          },
+          {
+            "trip_id": "2582285",
+            "headsign": "St Marys, all stations to Emu Plains",
+            "stop_ids": [
+              "2760178",
+              "2747210",
+              "2747351",
+              "275078",
+              "2750261"
+            ]
+          }
+        ]
+      }
+    ],
+    "9T2": [
+      {
+        "route_id": "7063_9T2",
+        "route_name": "Leppington, then all stations to Glenfield and return (Loop Service) - Jan 5-6",
+        "trips": [
+          {
+            "trip_id": "2507112",
+            "headsign": "Leppington, then all stations to Glenfield and return (Loop Service)",
+            "stop_ids": [
+              "216711",
+              "217422",
+              "217938",
+              "217421",
+              "216711"
+            ]
+          }
+        ]
+      }
+    ],
+    "9T3": [
+      {
+        "route_id": "7063_9T3",
+        "route_name": "Cabramatta, then all stations to Lidcombe (via Regents Park) and return - Dec 10-11",
+        "trips": [
+          {
+            "trip_id": "2561030",
+            "headsign": "Cabramatta, then all stations to Lidcombe (via Regents Park)",
+            "stop_ids": [
+              "2170805",
+              "2170802",
+              "2166255",
+              "216313",
+              "216394",
+              "2163148",
+              "216287",
+              "216294",
+              "214341",
+              "2141276",
+              "214197"
+            ]
+          },
+          {
+            "trip_id": "2561029",
+            "headsign": "Lidcombe, then all stations to Cabramatta (via Regents Park)",
+            "stop_ids": [
+              "2141286",
+              "2141275",
+              "214321",
+              "216225",
+              "216232",
+              "2163151",
+              "216395",
+              "216313",
+              "216671",
+              "2170803",
+              "2170588"
             ]
           }
         ]
@@ -303588,100 +305529,6 @@
               "214197",
               "212712",
               "2141286"
-            ]
-          }
-        ]
-      }
-    ],
-    "42T4": [
-      {
-        "route_id": "7066_42T4",
-        "route_name": "Cronulla, then all stations to Sutherland, Hurstville and return",
-        "trips": [
-          {
-            "trip_id": "2103608",
-            "headsign": "Cronulla, then all stations to Sutherland, Hurstville",
-            "stop_ids": [
-              "223022",
-              "2230192",
-              "2229196",
-              "222815",
-              "2227104",
-              "2232122",
-              "2232204",
-              "2220123"
-            ]
-          },
-          {
-            "trip_id": "2099987",
-            "headsign": "Hurstville, Sutherland, then all stations to Cronulla",
-            "stop_ids": [
-              "222028",
-              "2232202",
-              "223293",
-              "222792",
-              "222833",
-              "2229197",
-              "2230191",
-              "223021"
-            ]
-          }
-        ]
-      }
-    ],
-    "43T4": [
-      {
-        "route_id": "7066_43T4",
-        "route_name": "Sutherland, then all stations to Hurstville and return",
-        "trips": [
-          {
-            "trip_id": "2112478",
-            "headsign": "Hurstville, then all stations to Sutherland",
-            "stop_ids": [
-              "222028",
-              "222298",
-              "2223285",
-              "2223277",
-              "2226105",
-              "222668",
-              "2232203"
-            ]
-          },
-          {
-            "trip_id": "2099977",
-            "headsign": "Sutherland, then all stations to Hurstville",
-            "stop_ids": [
-              "2232204",
-              "222680",
-              "2226105",
-              "222316",
-              "2223285",
-              "222284",
-              "2220123"
-            ]
-          }
-        ]
-      }
-    ],
-    "45T4": [
-      {
-        "route_id": "7066_45T4",
-        "route_name": "Sutherland, then Hurstville and return",
-        "trips": [
-          {
-            "trip_id": "2424610",
-            "headsign": "Hurstville, then Sutherland",
-            "stop_ids": [
-              "222028",
-              "2232203"
-            ]
-          },
-          {
-            "trip_id": "2424653",
-            "headsign": "Sutherland, then Hurstville",
-            "stop_ids": [
-              "2232202",
-              "222028"
             ]
           }
         ]
@@ -303709,36 +305556,6 @@
               "214288",
               "2150393",
               "2150119"
-            ]
-          }
-        ]
-      }
-    ],
-    "10M": [
-      {
-        "route_id": "7069_10M",
-        "route_name": "Epping, then all stations to Chatswood and return",
-        "trips": [
-          {
-            "trip_id": "2078725",
-            "headsign": "Chatswood, then all stations to Epping",
-            "stop_ids": [
-              "206760",
-              "2113304",
-              "2113206",
-              "2113301",
-              "212113"
-            ]
-          },
-          {
-            "trip_id": "2078722",
-            "headsign": "Epping, then all stations to Chatswood",
-            "stop_ids": [
-              "212111",
-              "2113318",
-              "2113202",
-              "211327",
-              "206760"
             ]
           }
         ]
@@ -303780,6 +305597,36 @@
               "2154398",
               "2154394",
               "2126162",
+              "212111",
+              "2113318",
+              "2113202",
+              "211327",
+              "206760"
+            ]
+          }
+        ]
+      }
+    ],
+    "10M": [
+      {
+        "route_id": "7072_10M",
+        "route_name": "Epping, then all stations to Chatswood and return - Jan 24-25",
+        "trips": [
+          {
+            "trip_id": "2585398",
+            "headsign": "Chatswood, then all stations to Epping",
+            "stop_ids": [
+              "206760",
+              "2113304",
+              "2113206",
+              "2113301",
+              "212112"
+            ]
+          },
+          {
+            "trip_id": "2578608",
+            "headsign": "Epping, then all stations to Chatswood",
+            "stop_ids": [
               "212111",
               "2113318",
               "2113202",

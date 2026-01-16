@@ -903,7 +903,7 @@
   },
   {
     "id": "200929",
-    "name": "Fish Market Light Rail, Miller St",
+    "name": "Bank Street Light Rail, Miller St",
     "lat": "-33.870534",
     "lon": "151.192004",
     "productClass": [
@@ -4452,6 +4452,15 @@
     "name": "Oxford St opp Glenmore Rd",
     "lat": "-33.883753",
     "lon": "151.221656",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202156",
+    "name": "Moore Park Bus Interchange",
+    "lat": "-33.89071",
+    "lon": "151.22191",
     "productClass": [
       5
     ]
@@ -49485,6 +49494,15 @@
     ]
   },
   {
+    "id": "212739",
+    "name": "Olympic Bvd opp Herb Elliot Ave",
+    "lat": "-33.849167",
+    "lon": "151.067551",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212744",
     "name": "Newington Public School, Newington Bvd",
     "lat": "-33.840818",
@@ -49548,13 +49566,52 @@
     ]
   },
   {
-    "id": "212767",
+    "id": "212766",
     "name": "Sydney Olympic Park, Aquatic Terminal",
+    "lat": "-33.849733",
+    "lon": "151.068303",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212767",
+    "name": "Sydney Olympic Park, Aquatic Terminal, Stand 1B",
     "lat": "-33.850096",
     "lon": "151.068585",
     "productClass": [
       5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212772",
+    "name": "Sydney Olympic Park, Plaza Terminal",
+    "lat": "-33.84294",
+    "lon": "151.062648",
+    "productClass": [
+      5
     ]
+  },
+  {
+    "id": "212773",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 5B",
+    "lat": "-33.843095",
+    "lon": "151.06277",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212774",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 8",
+    "lat": "-33.843377",
+    "lon": "151.062989",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "212778",
@@ -53676,6 +53733,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -53743,6 +53809,15 @@
     "name": "Walker St opp Meredith Ave",
     "lat": "-33.82452",
     "lon": "151.088079",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
     "productClass": [
       5
     ]
@@ -66490,6 +66565,15 @@
     ]
   },
   {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -74409,24 +74493,6 @@
     ]
   },
   {
-    "id": "217963",
-    "name": "Sixth Ave before Hydrus St",
-    "lat": "-33.94272",
-    "lon": "150.796155",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "217964",
-    "name": "Kelly St before Little St",
-    "lat": "-33.939182",
-    "lon": "150.793867",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "217965",
     "name": "Tenth after Fourth",
     "lat": "-33.932424",
@@ -74575,6 +74641,15 @@
     "name": "Sixteenth Ave after Bullaring St",
     "lat": "-33.917393",
     "lon": "150.82573",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217989",
+    "name": "Seventh Ave after Contour Rd",
+    "lat": "-33.940628",
+    "lon": "150.80238",
     "productClass": [
       5
     ]
@@ -89048,16 +89123,6 @@
     ]
   },
   {
-    "id": "2220123",
-    "name": "Hurstville Station, Ormonde Pde, Stand P",
-    "lat": "-33.968221",
-    "lon": "151.103413",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2220333",
     "name": "Hurstville Station, Ormonde Pde, Stand L",
     "lat": "-33.967786",
@@ -97815,6 +97880,15 @@
     ]
   },
   {
+    "id": "225073",
+    "name": "Carrington St before Manns Rd",
+    "lat": "-33.401062",
+    "lon": "151.341874",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "225074",
     "name": "Manns Rd at Adam St",
     "lat": "-33.404261",
@@ -102193,6 +102267,15 @@
     ]
   },
   {
+    "id": "226081",
+    "name": "The Brow at Eldon Cl",
+    "lat": "-33.428596",
+    "lon": "151.440557",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "226082",
     "name": "The Brow at Hilltop Rd",
     "lat": "-33.42789",
@@ -102863,6 +102946,15 @@
     "name": "Bateau Bay Rd opp Bias Ave",
     "lat": "-33.374724",
     "lon": "151.483048",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "226175",
+    "name": "Bateau Bay Rd opp Helen St",
+    "lat": "-33.378846",
+    "lon": "151.484046",
     "productClass": [
       5
     ]
@@ -140304,6 +140396,24 @@
     ]
   },
   {
+    "id": "255794",
+    "name": "No 3 Wynyard Ave",
+    "lat": "-33.935486",
+    "lon": "150.78116",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255795",
+    "name": "74 Polo Rd",
+    "lat": "-33.951412",
+    "lon": "150.77103",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "255811",
     "name": "Raby Rd after Hume Mwy",
     "lat": "-34.029577",
@@ -164157,6 +164267,15 @@
     "isParent": false
   },
   {
+    "id": "2021108",
+    "name": "Sydney Cricket Ground, Driver Ave",
+    "lat": "-33.89102",
+    "lon": "151.223485",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2023100",
     "name": "Victoria Rd opp Rivers St",
     "lat": "-33.882047",
@@ -175883,6 +176002,15 @@
     "name": "St Davids Ave at Pittwater Rd",
     "lat": "-33.752351",
     "lon": "151.286416",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2099208",
+    "name": "Pittwater Rd at Howard Ave",
+    "lat": "-33.752353",
+    "lon": "151.287304",
     "productClass": [
       5
     ]
@@ -233623,15 +233751,6 @@
     ]
   },
   {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2226113",
     "name": "Tudar Rd at Jefferson Cres",
     "lat": "-34.014704",
@@ -242781,6 +242900,15 @@
     "name": "Donnison St before Mann St",
     "lat": "-33.426813",
     "lon": "151.341247",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2250632",
+    "name": "Gosford Station, Showground Rd",
+    "lat": "-33.423324",
+    "lon": "151.341356",
     "productClass": [
       5
     ]
@@ -255856,6 +255984,15 @@
     ]
   },
   {
+    "id": "2261189",
+    "name": "Bateau Bay Rd at Moronga St",
+    "lat": "-33.378459",
+    "lon": "151.483953",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2261190",
     "name": "Grandview St after Shelly Beach Rd",
     "lat": "-33.370644",
@@ -258065,6 +258202,24 @@
     "name": "Brooke Ave before Tyrell Pl",
     "lat": "-33.376504",
     "lon": "151.464785",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2261557",
+    "name": "Pacific St at Watkins St",
+    "lat": "-33.358953",
+    "lon": "151.490069",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2261559",
+    "name": "Pacific St before Nirvana St",
+    "lat": "-33.359329",
+    "lon": "151.492741",
     "productClass": [
       5
     ]
@@ -288306,6 +288461,15 @@
     ]
   },
   {
+    "id": "2500308",
+    "name": "Kembla St before Bourke St",
+    "lat": "-34.414514",
+    "lon": "150.899739",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2500311",
     "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
     "lat": "-34.405704",
@@ -288445,6 +288609,15 @@
     "name": "Corrimal St before Gipps St",
     "lat": "-34.419194",
     "lon": "150.901109",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2500333",
+    "name": "Corrimal St after Georges Pl",
+    "lat": "-34.419261",
+    "lon": "150.901247",
     "productClass": [
       5
     ]
