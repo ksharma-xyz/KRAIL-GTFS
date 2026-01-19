@@ -141089,15 +141089,6 @@
     ]
   },
   {
-    "id": "255917",
-    "name": "Dobell Rd opp Claymore Public School",
-    "lat": "-34.043711",
-    "lon": "150.808734",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "255918",
     "name": "Dobell Rd opp Carter Pl",
     "lat": "-34.043284",
@@ -145110,24 +145101,6 @@
     "name": "Remembrance Dr opp 391",
     "lat": "-34.100572",
     "lon": "150.69547",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256817",
-    "name": "Station St after Menangle Rd",
-    "lat": "-34.127062",
-    "lon": "150.738904",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256818",
-    "name": "Station St at Menangle Rd",
-    "lat": "-34.127152",
-    "lon": "150.738654",
     "productClass": [
       5
     ]
@@ -187487,15 +187460,6 @@
     ]
   },
   {
-    "id": "2142279",
-    "name": "Clyde Station, Berry St",
-    "lat": "-33.835187",
-    "lon": "151.017404",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -188324,23 +188288,13 @@
     ]
   },
   {
-    "id": "2144236",
-    "name": "Auburn Station, Rawson St",
-    "lat": "-33.849424",
-    "lon": "151.033548",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2144223",
-    "name": "Auburn Station, Rawson St, Stand E",
+    "name": "Auburn Station, Rawson St",
     "lat": "-33.849364",
     "lon": "151.033711",
     "productClass": [
       5
-    ],
-    "isParent": false
+    ]
   },
   {
     "id": "2144225",
@@ -196806,24 +196760,6 @@
     "name": "Hambledon Cottage Reserve, Hassall St",
     "lat": "-33.818437",
     "lon": "151.014229",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -309335,15 +309271,6 @@
     ]
   },
   {
-    "id": "2747352",
-    "name": "Park Ave opp Kingswood Station",
-    "lat": "-33.758279",
-    "lon": "150.72121",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2747354",
     "name": "Shane Park Rd after Palmyra Ave (Hail & Ride)",
     "lat": "-33.718536",
@@ -327346,15 +327273,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -329638,15 +329556,6 @@
     "lon": "149.1276145",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "G2664",
-    "name": "Canberra Hospital, Gilmore Cr",
-    "lat": "-35.344006",
-    "lon": "149.1017",
-    "productClass": [
-      1
     ]
   },
   {
@@ -332616,7 +332525,7 @@
   },
   {
     "id": "200937",
-    "name": "Fish Market Light Rail",
+    "name": "Bank Street Light Rail",
     "lat": "-33.870881",
     "lon": "151.192321",
     "productClass": [

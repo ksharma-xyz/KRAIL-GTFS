@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-01-16T13:21:05.725905362Z",
+  "generated_at": "2026-01-19T13:24:06.596503918Z",
   "routes": {
     "160": [
       {
@@ -69949,7 +69949,7 @@
         "route_name": "Wollongong to West Wollongong (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765634",
+            "trip_id": "2586289",
             "headsign": "Wollongong to West Wollongong (Loop Service)",
             "stop_ids": [
               "250028",
@@ -70945,10 +70945,10 @@
         "route_name": "Wollongong to Bellambi via Towradgi (Loop Service)",
         "trips": [
           {
-            "trip_id": "2252806",
+            "trip_id": "2507049",
             "headsign": "Wollongong to Bellambi via Towradgi (Loop Service)",
             "stop_ids": [
-              "250028",
+              "2500206",
               "250029",
               "2500326",
               "2500317",
@@ -71261,7 +71261,7 @@
         "route_name": "Dapto to Brooks Reach (Loop Service)",
         "trips": [
           {
-            "trip_id": "2506821",
+            "trip_id": "2586270",
             "headsign": "Dapto to Brooks Reach (Loop Service)",
             "stop_ids": [
               "253019",
@@ -71502,7 +71502,7 @@
         "route_name": "Wollongong to Dapto via Unanderra (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765538",
+            "trip_id": "2586494",
             "headsign": "Wollongong to Dapto via Unanderra (Loop Service)",
             "stop_ids": [
               "250028",
@@ -71747,7 +71747,7 @@
         "route_name": "Wollongong to Warrawong via Unanderra (Loop Service)",
         "trips": [
           {
-            "trip_id": "2507055",
+            "trip_id": "2586900",
             "headsign": "Wollongong to Warrawong via Unanderra (Loop Service)",
             "stop_ids": [
               "250028",
@@ -72052,7 +72052,7 @@
         "route_name": "Wollongong to Kembla Heights via Cordeaux Heights (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765405",
+            "trip_id": "2586269",
             "headsign": "Wollongong to Kembla Heights via Cordeaux Heights (Loop Service)",
             "stop_ids": [
               "250028",
@@ -72894,7 +72894,7 @@
         "route_name": "Dapto to University of Wollongong",
         "trips": [
           {
-            "trip_id": "1731600",
+            "trip_id": "2586341",
             "headsign": "Dapto to University of Wollongong",
             "stop_ids": [
               "253021",
@@ -73546,7 +73546,7 @@
         "route_name": "Oak Flats to Wollongong via Stockland Shellharbour",
         "trips": [
           {
-            "trip_id": "2252601",
+            "trip_id": "2586523",
             "headsign": "Oak Flats to Wollongong via Stockland Shellharbour",
             "stop_ids": [
               "252713",
@@ -73648,7 +73648,7 @@
             ]
           },
           {
-            "trip_id": "2010763",
+            "trip_id": "2586352",
             "headsign": "Wollongong to Oak Flats via Stockland Shellharbour",
             "stop_ids": [
               "2500288",
@@ -73780,7 +73780,7 @@
             ]
           },
           {
-            "trip_id": "1732252",
+            "trip_id": "2586307",
             "headsign": "Shellharbour Junction to Flinders",
             "stop_ids": [
               "2529224",
@@ -73822,7 +73822,7 @@
         "route_name": "Shellharbour to Wollongong via Shell Cove & Warrawong",
         "trips": [
           {
-            "trip_id": "2313006",
+            "trip_id": "2586282",
             "headsign": "Shellharbour to Wollongong via Shell Cove & Warrawong",
             "stop_ids": [
               "2529135",
@@ -73922,7 +73922,7 @@
             ]
           },
           {
-            "trip_id": "2453297",
+            "trip_id": "2586901",
             "headsign": "Wollongong to Shellharbour via Warrawong & Shell Cove",
             "stop_ids": [
               "250066",
@@ -74404,7 +74404,7 @@
         "route_name": "Wollongong to Mount Pleasant (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765764",
+            "trip_id": "2586279",
             "headsign": "Wollongong to Mount Pleasant (Loop Service)",
             "stop_ids": [
               "250028",
@@ -74763,7 +74763,7 @@
         "route_name": "Wollongong to Bellambi (Loop Service)",
         "trips": [
           {
-            "trip_id": "1765486",
+            "trip_id": "1765487",
             "headsign": "Wollongong to Bellambi (Loop Service)",
             "stop_ids": [
               "250028",
@@ -74872,7 +74872,7 @@
         "route_name": "Shellharbour to Kiama (Loop Service)",
         "trips": [
           {
-            "trip_id": "1795165",
+            "trip_id": "2586383",
             "headsign": "Shellharbour to Kiama (Loop Service)",
             "stop_ids": [
               "252956",
@@ -75076,7 +75076,7 @@
         "route_name": "Stockland Shellharbour to Calderwood & Tullimbar (Loop Service)",
         "trips": [
           {
-            "trip_id": "1795125",
+            "trip_id": "1795131",
             "headsign": "Stockland Shellharbour to Calderwood & Tullimbar (Loop Service)",
             "stop_ids": [
               "252956",
@@ -75096,7 +75096,6 @@
               "252788",
               "2527239",
               "2527238",
-              "2527131",
               "2527242",
               "2527226",
               "2527225",
@@ -75109,7 +75108,8 @@
               "2527231",
               "2527232",
               "2527243",
-              "2527131",
+              "2527240",
+              "2527143",
               "2527241",
               "252759",
               "252760",
@@ -75137,7 +75137,7 @@
         "route_name": "Shellharbour Village to Albion Park (Loop Service)",
         "trips": [
           {
-            "trip_id": "2252691",
+            "trip_id": "2586718",
             "headsign": "Shellharbour Village to Albion Park (Loop Service)",
             "stop_ids": [
               "252938",
@@ -75303,7 +75303,7 @@
         "route_name": "Shellharbour to Albion Park (Loop Service)",
         "trips": [
           {
-            "trip_id": "2561544",
+            "trip_id": "2586608",
             "headsign": "Shellharbour to Albion Park (Loop Service)",
             "stop_ids": [
               "252956",
@@ -75412,7 +75412,7 @@
         "route_name": "Wollongong to Bellambi via Balgownie (Loop Service)",
         "trips": [
           {
-            "trip_id": "2392145",
+            "trip_id": "2586622",
             "headsign": "Wollongong to Bellambi via Balgownie (Loop Service)",
             "stop_ids": [
               "250028",
@@ -160807,7 +160807,7 @@
             ]
           },
           {
-            "trip_id": "2544725",
+            "trip_id": "2584007",
             "headsign": "Ingleburn to Edmondson Park Station",
             "stop_ids": [
               "2565134",
@@ -161552,7 +161552,7 @@
             ]
           },
           {
-            "trip_id": "2419053",
+            "trip_id": "2583678",
             "headsign": "Liverpool to Campbelltown",
             "stop_ids": [
               "2170296",
@@ -163371,7 +163371,7 @@
         "route_name": "Campbelltown to Menangle via Menangle Park",
         "trips": [
           {
-            "trip_id": "2223764",
+            "trip_id": "2583797",
             "headsign": "Campbelltown to Menangle via Menangle Park",
             "stop_ids": [
               "2560331",
@@ -163388,7 +163388,7 @@
               "256323",
               "256853",
               "256843",
-              "256817",
+              "256846",
               "256854",
               "256856",
               "256911"
@@ -201140,11 +201140,11 @@
     "3143": [
       {
         "route_id": "2504_3143",
-        "route_name": "Crane Rd opp Maybush Way to Marian College via Gilroy College and Castle Hill",
+        "route_name": "Castlewood Dr before Jasmine Way to Marian College via Gilroy College and Castle Hill",
         "trips": [
           {
             "trip_id": "2273248",
-            "headsign": "Crane Rd opp Maybush Way to Marian College via Gilroy College and Castle Hill",
+            "headsign": "Castlewood Dr before Jasmine Way to Marian College via Gilroy College and Castle Hill",
             "stop_ids": [
               "2154206",
               "2154207",
@@ -213103,7 +213103,7 @@
             ]
           },
           {
-            "trip_id": "2466521",
+            "trip_id": "2585088",
             "headsign": "Rouse Hill to Dural",
             "stop_ids": [
               "2155458",
@@ -213290,7 +213290,7 @@
             ]
           },
           {
-            "trip_id": "2548964",
+            "trip_id": "2585036",
             "headsign": "Rouse Hill to Gables via Box Hill",
             "stop_ids": [
               "2155458",
@@ -236407,7 +236407,7 @@
         "route_name": "Covenant Christian School to Oxford Falls Grammar School",
         "trips": [
           {
-            "trip_id": "2492688",
+            "trip_id": "2587529",
             "headsign": "Covenant Christian School to Oxford Falls Grammar School",
             "stop_ids": [
               "208596",
@@ -236430,7 +236430,6 @@
               "208639",
               "208620",
               "210098",
-              "210074",
               "210099",
               "2100100",
               "2100101",
@@ -248365,7 +248364,7 @@
         "route_name": "Moore Park Interchange to Central Chalmers Street",
         "trips": [
           {
-            "trip_id": "2017825",
+            "trip_id": "2585218",
             "headsign": "Moore Park Interchange to Central Chalmers Street",
             "stop_ids": [
               "2021108",
@@ -258711,7 +258710,7 @@
         "route_name": "Balgowlah to Oxford Falls Grammar School",
         "trips": [
           {
-            "trip_id": "2583320",
+            "trip_id": "2587525",
             "headsign": "Balgowlah to Oxford Falls Grammar School",
             "stop_ids": [
               "209311",
@@ -258740,7 +258739,6 @@
               "210093",
               "210094",
               "210095",
-              "210096",
               "208615",
               "208616",
               "208629",
@@ -258812,7 +258810,7 @@
         "route_name": "Narraweena Public School to Frenchs Forest Public School",
         "trips": [
           {
-            "trip_id": "2583329",
+            "trip_id": "2587527",
             "headsign": "Narraweena Public School to Frenchs Forest Public School",
             "stop_ids": [
               "2099114",
@@ -258835,7 +258833,7 @@
               "2086124",
               "2086125",
               "208645",
-              "208656",
+              "208632",
               "208623"
             ]
           }
@@ -271212,7 +271210,7 @@
         "route_name": "Westfields Warringah Mall to Supa Centa Belrose",
         "trips": [
           {
-            "trip_id": "2579622",
+            "trip_id": "2587530",
             "headsign": "Westfields Warringah Mall to Supa Centa Belrose",
             "stop_ids": [
               "2100112",
@@ -271232,8 +271230,6 @@
               "210093",
               "210094",
               "210095",
-              "210096",
-              "2100177",
               "210013",
               "2086106",
               "208671",
@@ -271267,7 +271263,7 @@
         "route_name": "Covenant Christian School to Westfields Warringah Mall",
         "trips": [
           {
-            "trip_id": "2382714",
+            "trip_id": "2587531",
             "headsign": "Covenant Christian School to Westfields Warringah Mall",
             "stop_ids": [
               "208596",
@@ -271287,7 +271283,6 @@
               "208663",
               "208664",
               "210098",
-              "210074",
               "210099",
               "2100100",
               "2100101",
@@ -304483,23 +304478,6 @@
         ]
       }
     ],
-    "6T1": [
-      {
-        "route_id": "7016_6T1",
-        "route_name": "Parramatta, then Olympic Park and return",
-        "trips": [
-          {
-            "trip_id": "2573036",
-            "headsign": "Parramatta, then Olympic Park",
-            "stop_ids": [
-              "2150114",
-              "212712",
-              "2150119"
-            ]
-          }
-        ]
-      }
-    ],
     "10HU": [
       {
         "route_id": "7024_10HU",
@@ -304835,44 +304813,6 @@
         ]
       }
     ],
-    "1BM": [
-      {
-        "route_id": "7028_1BM",
-        "route_name": "Springwood, then all stations to Penrith, Blacktown and return",
-        "trips": [
-          {
-            "trip_id": "2578239",
-            "headsign": "Blacktown, Penrith, then all stations to Springwood",
-            "stop_ids": [
-              "277748",
-              "2777123",
-              "277414",
-              "277454",
-              "277350",
-              "277366",
-              "2750261",
-              "275078",
-              "2148451"
-            ]
-          },
-          {
-            "trip_id": "2578230",
-            "headsign": "Springwood, then all stations to Penrith, Blacktown",
-            "stop_ids": [
-              "2148147",
-              "275081",
-              "2750261",
-              "277342",
-              "277350",
-              "277472",
-              "277478",
-              "2777179",
-              "2777177"
-            ]
-          }
-        ]
-      }
-    ],
     "33BM": [
       {
         "route_id": "7028_33BM",
@@ -304896,29 +304836,6 @@
               "278550",
               "2780230",
               "2780197"
-            ]
-          }
-        ]
-      }
-    ],
-    "52BM": [
-      {
-        "route_id": "7028_52BM",
-        "route_name": "Unknown Long Name",
-        "trips": [
-          {
-            "trip_id": "2578208",
-            "headsign": "Unknown",
-            "stop_ids": [
-              "2760178",
-              "275081",
-              "2750261",
-              "277342",
-              "277350",
-              "277472",
-              "277478",
-              "2777179",
-              "2777177"
             ]
           }
         ]
@@ -305051,7 +304968,7 @@
     "47T2": [
       {
         "route_id": "7054_47T2",
-        "route_name": "Strathfield, then all stations to Central and return",
+        "route_name": "Strathfield, then all stations to Central and return - Jan 23-25",
         "trips": [
           {
             "trip_id": "2585150",
@@ -305160,7 +305077,7 @@
         "route_name": "Hawkesbury River, then Cowan, Berowra and return",
         "trips": [
           {
-            "trip_id": "2584738",
+            "trip_id": "2584741",
             "headsign": "Berowra, then Cowan, Hawkesbury River",
             "stop_ids": [
               "208164",
@@ -305426,36 +305343,6 @@
         ]
       }
     ],
-    "9T1": [
-      {
-        "route_id": "7063_9T1",
-        "route_name": "Emu Plains, all stations to St Marys and return",
-        "trips": [
-          {
-            "trip_id": "2582282",
-            "headsign": "Emu Plains, all stations to St Marys",
-            "stop_ids": [
-              "2750261",
-              "275078",
-              "2747352",
-              "2747210",
-              "2760178"
-            ]
-          },
-          {
-            "trip_id": "2582285",
-            "headsign": "St Marys, all stations to Emu Plains",
-            "stop_ids": [
-              "2760178",
-              "2747210",
-              "2747351",
-              "275078",
-              "2750261"
-            ]
-          }
-        ]
-      }
-    ],
     "9T2": [
       {
         "route_id": "7063_9T2",
@@ -305517,45 +305404,27 @@
         ]
       }
     ],
-    "40T7": [
+    "36T4": [
       {
-        "route_id": "7066_40T7",
-        "route_name": "Lidcombe to Olympic Park (Loop Service)",
+        "route_id": "7066_36T4",
+        "route_name": "Arncliffe, then Wolli Creek, Sydenham and return",
         "trips": [
           {
-            "trip_id": "2584448",
-            "headsign": "Lidcombe to Olympic Park (Loop Service)",
+            "trip_id": "2497099",
+            "headsign": "Arncliffe, then Wolli Creek, Sydenham",
             "stop_ids": [
-              "214197",
-              "212712",
-              "2141286"
+              "220521",
+              "2205115",
+              "204421"
             ]
-          }
-        ]
-      }
-    ],
-    "5T1": [
-      {
-        "route_id": "7066_5T1",
-        "route_name": "Parramatta, then all stations to Olympic Park (Loop Service)",
-        "trips": [
+          },
           {
-            "trip_id": "2584450",
-            "headsign": "Parramatta, then all stations to Olympic Park (Loop Service)",
+            "trip_id": "2478679",
+            "headsign": "Sydenham, then Wolli Creek, Arncliffe",
             "stop_ids": [
-              "2150114",
-              "2150395",
-              "214288",
-              "2142279",
-              "2144223",
-              "214197",
-              "212712",
-              "2141286",
-              "2144236",
-              "2142279",
-              "214288",
-              "2150393",
-              "2150119"
+              "204439",
+              "2205115",
+              "220521"
             ]
           }
         ]
@@ -305632,23 +305501,6 @@
               "2113202",
               "211327",
               "206760"
-            ]
-          }
-        ]
-      }
-    ],
-    "25T1": [
-      {
-        "route_id": "7073_25T1",
-        "route_name": "Penrith, then express to St. Marys (Loop service)",
-        "trips": [
-          {
-            "trip_id": "2583684",
-            "headsign": "Penrith, then express to St. Marys (Loop service)",
-            "stop_ids": [
-              "275078",
-              "2760178",
-              "275081"
             ]
           }
         ]
@@ -305804,7 +305656,7 @@
         "route_name": "Bankstown to Sydenham (Limited stops)",
         "trips": [
           {
-            "trip_id": "2559629",
+            "trip_id": "2572335",
             "headsign": "Bankstown to Sydenham (Limited stops)",
             "stop_ids": [
               "220080",
@@ -305816,7 +305668,7 @@
             ]
           },
           {
-            "trip_id": "2276142",
+            "trip_id": "2529572",
             "headsign": "Sydenham to Bankstown (Limited stops)",
             "stop_ids": [
               "2204125",
