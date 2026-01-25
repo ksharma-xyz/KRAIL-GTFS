@@ -29803,25 +29803,6 @@
     ]
   },
   {
-    "id": "208646",
-    "name": "The Forest High School, Frenchs Forest Rd",
-    "lat": "-33.749474",
-    "lon": "151.230773",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "208656",
-    "name": "The Forest High School, Frenchs Forest Rd, Stand C",
-    "lat": "-33.749526",
-    "lon": "151.231126",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "208648",
     "name": "Frenchs Forest Rd opp Bluegum Cres",
     "lat": "-33.749416",
@@ -29844,6 +29825,15 @@
     "name": "Wakehurst Pwy opp Yarraman Ave Walkway",
     "lat": "-33.759296",
     "lon": "151.232888",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "208656",
+    "name": "The Forest High School, Frenchs Forest Rd",
+    "lat": "-33.749526",
+    "lon": "151.231126",
     "productClass": [
       5
     ]
@@ -49456,15 +49446,6 @@
     ]
   },
   {
-    "id": "212739",
-    "name": "Olympic Bvd opp Herb Elliot Ave",
-    "lat": "-33.849167",
-    "lon": "151.067551",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212744",
     "name": "Newington Public School, Newington Bvd",
     "lat": "-33.840818",
@@ -49528,23 +49509,13 @@
     ]
   },
   {
-    "id": "212766",
-    "name": "Sydney Olympic Park, Aquatic Terminal",
-    "lat": "-33.849733",
-    "lon": "151.068303",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212767",
-    "name": "Sydney Olympic Park, Aquatic Terminal, Stand 1B",
+    "name": "Sydney Olympic Park, Aquatic Terminal",
     "lat": "-33.850096",
     "lon": "151.068585",
     "productClass": [
       5
-    ],
-    "isParent": false
+    ]
   },
   {
     "id": "212772",
@@ -155336,7 +155307,7 @@
   },
   {
     "id": "276563",
-    "name": "Terry Rd opp Mason Rd",
+    "name": "Terry Rd at Rubidea St",
     "lat": "-33.654977",
     "lon": "150.897228",
     "productClass": [
@@ -165016,43 +164987,13 @@
     "isParent": false
   },
   {
-    "id": "2031193",
-    "name": "Randwick Boys High School, Avoca St, Stand L",
-    "lat": "-33.924586",
-    "lon": "151.239451",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
-    "id": "2031146",
-    "name": "Randwick Girls High School, Avoca St",
-    "lat": "-33.922887",
-    "lon": "151.239843",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2031147",
-    "name": "Randwick Girls High School, Avoca St, Stand E",
-    "lat": "-33.922727",
-    "lon": "151.239886",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2031148",
-    "name": "Randwick Girls High School, Avoca St, Stand D",
+    "name": "Randwick Girls High School, Avoca St",
     "lat": "-33.922502",
     "lon": "151.23995",
     "productClass": [
       5
-    ],
-    "isParent": false
+    ]
   },
   {
     "id": "2031149",
@@ -175924,15 +175865,6 @@
     ]
   },
   {
-    "id": "2099208",
-    "name": "Pittwater Rd at Howard Ave",
-    "lat": "-33.752353",
-    "lon": "151.287304",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2099209",
     "name": "Truman Ave opp Truman Ave Shops",
     "lat": "-33.734461",
@@ -182385,7 +182317,7 @@
   },
   {
     "id": "2122126",
-    "name": "Terry Rd at Tarrants Ave",
+    "name": "Braemar Park, Terry Rd",
     "lat": "-33.789187",
     "lon": "151.072531",
     "productClass": [
@@ -214275,7 +214207,7 @@
   },
   {
     "id": "2170134",
-    "name": "Hammond Village Homes Retirement Village, Judd Ave",
+    "name": "Judd Ave after Cantello Ave",
     "lat": "-33.949314",
     "lon": "150.959832",
     "productClass": [
@@ -217657,7 +217589,7 @@
   },
   {
     "id": "2170580",
-    "name": "Judd Ave opp HammondCare The Pines",
+    "name": "Judd Ave after Spicer Ave",
     "lat": "-33.949593",
     "lon": "150.959629",
     "productClass": [
@@ -300926,6 +300858,42 @@
     ]
   },
   {
+    "id": "2560625",
+    "name": "Dickens Rd Rosemeadow Reserve",
+    "lat": "-34.09616",
+    "lon": "150.80183",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560626",
+    "name": "Dickens Rd opp Billkin Way",
+    "lat": "-34.09433",
+    "lon": "150.80382",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560627",
+    "name": "Dickens Rd before Tapley Way",
+    "lat": "-34.092293",
+    "lon": "150.8036",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560628",
+    "name": "Dickens Rd after Micawber St",
+    "lat": "-34.089355",
+    "lon": "150.802",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2560632",
     "name": "Leumeah Public School, Burrendong Rd",
     "lat": "-34.050466",
@@ -300957,6 +300925,15 @@
     "name": "St Thomas More PS",
     "lat": "-34.07976",
     "lon": "150.824774",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560639",
+    "name": "Little Learning School, Dickens Rd",
+    "lat": "-34.095018",
+    "lon": "150.79917",
     "productClass": [
       5
     ]
@@ -320197,7 +320174,7 @@
   },
   {
     "id": "2765154",
-    "name": "Terry Rd after Alan St",
+    "name": "Homestead Centre, Terry Rd",
     "lat": "-33.660167",
     "lon": "150.89542",
     "productClass": [
@@ -320206,7 +320183,7 @@
   },
   {
     "id": "2765155",
-    "name": "Terry Rd opp Hynds Rd",
+    "name": "Terry Rd opp Sculptor St",
     "lat": "-33.657402",
     "lon": "150.896394",
     "productClass": [
@@ -320251,7 +320228,7 @@
   },
   {
     "id": "2765160",
-    "name": "Terry Rd after Hynds Rd",
+    "name": "Terry Rd opp Homestead Centre",
     "lat": "-33.658763",
     "lon": "150.89609",
     "productClass": [
@@ -320260,7 +320237,7 @@
   },
   {
     "id": "2765161",
-    "name": "Terry Rd before Mason Rd",
+    "name": "Terry Rd at Libra St",
     "lat": "-33.653367",
     "lon": "150.89799",
     "productClass": [
@@ -320269,7 +320246,7 @@
   },
   {
     "id": "2765162",
-    "name": "Terry Rd after Mason Rd",
+    "name": "Terry Rd after Libra St",
     "lat": "-33.652212",
     "lon": "150.897932",
     "productClass": [
@@ -320278,7 +320255,7 @@
   },
   {
     "id": "2765163",
-    "name": "Terry Rd opp Capella St",
+    "name": "Terry Rd opp Andromeda Pkwy",
     "lat": "-33.649589",
     "lon": "150.898545",
     "productClass": [
@@ -320287,7 +320264,7 @@
   },
   {
     "id": "2765164",
-    "name": "Terry Rd after Capella St",
+    "name": "Terry Rd after Andromeda Pkwy",
     "lat": "-33.64978",
     "lon": "150.898627",
     "productClass": [
