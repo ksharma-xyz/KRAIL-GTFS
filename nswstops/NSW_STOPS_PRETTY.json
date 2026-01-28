@@ -273,16 +273,6 @@
     "isParent": false
   },
   {
-    "id": "200036",
-    "name": "Wynyard Station, York St, Stand N",
-    "lat": "-33.865377",
-    "lon": "151.205704",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "200048",
     "name": "Wynyard Station, York St, Stand P",
     "lat": "-33.864755",
@@ -19912,15 +19902,6 @@
     ]
   },
   {
-    "id": "206760",
-    "name": "Railway St at Help St",
-    "lat": "-33.795357",
-    "lon": "151.180414",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206762",
     "name": "Pacific Hwy at Ellis St",
     "lat": "-33.800287",
@@ -29803,6 +29784,25 @@
     ]
   },
   {
+    "id": "208646",
+    "name": "The Forest High School, Frenchs Forest Rd",
+    "lat": "-33.749474",
+    "lon": "151.230773",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "208656",
+    "name": "The Forest High School, Frenchs Forest Rd, Stand C",
+    "lat": "-33.749526",
+    "lon": "151.231126",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "208648",
     "name": "Frenchs Forest Rd opp Bluegum Cres",
     "lat": "-33.749416",
@@ -29825,15 +29825,6 @@
     "name": "Wakehurst Pwy opp Yarraman Ave Walkway",
     "lat": "-33.759296",
     "lon": "151.232888",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "208656",
-    "name": "The Forest High School, Frenchs Forest Rd",
-    "lat": "-33.749526",
-    "lon": "151.231126",
     "productClass": [
       5
     ]
@@ -36235,15 +36226,6 @@
     ]
   },
   {
-    "id": "210023",
-    "name": "Warringah Mall, Cross St",
-    "lat": "-33.765563",
-    "lon": "151.265735",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "210024",
     "name": "Pittwater Rd opp Brookvale Oval",
     "lat": "-33.761257",
@@ -36257,15 +36239,6 @@
     "name": "Pittwater Rd after Chard Rd",
     "lat": "-33.763358",
     "lon": "151.271651",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "210027",
-    "name": "Warringah Mall at Dale St",
-    "lat": "-33.765845",
-    "lon": "151.267825",
     "productClass": [
       5
     ]
@@ -42297,16 +42270,6 @@
     ]
   },
   {
-    "id": "2113301",
-    "name": "Macquarie University Station, Herring Rd, Stand F",
-    "lat": "-33.777871",
-    "lon": "151.117852",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2113319",
     "name": "Macquarie University Station, Herring Rd, Stand D",
     "lat": "-33.776863",
@@ -46035,6 +45998,33 @@
     "name": "Beecroft Rd after Hannah St",
     "lat": "-33.748775",
     "lon": "151.064158",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
     "productClass": [
       5
     ]
@@ -51248,15 +51238,6 @@
     "name": "Presbyterian Ladies College, Young St",
     "lat": "-33.881905",
     "lon": "151.114772",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
     "productClass": [
       5
     ]
@@ -161129,6 +161110,15 @@
     ]
   },
   {
+    "id": "277862",
+    "name": "Great Western Hwy opp Woodford Station",
+    "lat": "-33.735238",
+    "lon": "150.481199",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "277863",
     "name": "Great Western Hwy before Glen St",
     "lat": "-33.734569",
@@ -168533,6 +168523,15 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067134",
+    "name": "Railway St at Help St",
+    "lat": "-33.795879",
+    "lon": "151.180456",
     "productClass": [
       5
     ]
@@ -187390,15 +187389,6 @@
     ]
   },
   {
-    "id": "2142287",
-    "name": "Granville Station, Bridge St",
-    "lat": "-33.832341",
-    "lon": "151.011551",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142288",
     "name": "Halsall St at Woodville Rd",
     "lat": "-33.830578",
@@ -202020,8 +202010,8 @@
   {
     "id": "2155174",
     "name": "William Clarke College, Wrights Rd",
-    "lat": "-33.712728",
-    "lon": "150.977927",
+    "lat": "-33.712955",
+    "lon": "150.97716",
     "productClass": [
       5
     ]
@@ -206218,15 +206208,6 @@
     "name": "Sherwood Grange Public School, Bruce St",
     "lat": "-33.836043",
     "lon": "150.959783",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2160142",
-    "name": "Merrylands Rd at Railway Tce",
-    "lat": "-33.837054",
-    "lon": "150.992957",
     "productClass": [
       5
     ]
@@ -288354,15 +288335,6 @@
     ]
   },
   {
-    "id": "2500308",
-    "name": "Kembla St before Bourke St",
-    "lat": "-34.414514",
-    "lon": "150.899739",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2500311",
     "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
     "lat": "-34.405704",
@@ -288502,15 +288474,6 @@
     "name": "Corrimal St before Gipps St",
     "lat": "-34.419194",
     "lon": "150.901109",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2500333",
-    "name": "Corrimal St after Georges Pl",
-    "lat": "-34.419261",
-    "lon": "150.901247",
     "productClass": [
       5
     ]
@@ -300859,7 +300822,7 @@
   },
   {
     "id": "2560625",
-    "name": "Dickens Rd Rosemeadow Reserve",
+    "name": "Rosemeadow Reserve, Dickens Rd",
     "lat": "-34.09616",
     "lon": "150.80183",
     "productClass": [
@@ -320436,8 +320399,8 @@
   {
     "id": "2765184",
     "name": "Windsor Rd opp Boundary Rd",
-    "lat": "-33.656928",
-    "lon": "150.873935",
+    "lat": "-33.656403",
+    "lon": "150.87352",
     "productClass": [
       5
     ]
@@ -322417,8 +322380,8 @@
   {
     "id": "2765477",
     "name": "Woodgate Pkwy at Gelt St",
-    "lat": "-33.650373",
-    "lon": "150.880395",
+    "lat": "-33.65044",
+    "lon": "150.88039",
     "productClass": [
       5
     ]
@@ -327253,6 +327216,15 @@
     "name": "Roberts Pde before Yvonne Ave",
     "lat": "-33.662853",
     "lon": "150.642903",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2777177",
+    "name": "Springwood Station, Station St",
+    "lat": "-33.698905",
+    "lon": "150.563507",
     "productClass": [
       5
     ]
