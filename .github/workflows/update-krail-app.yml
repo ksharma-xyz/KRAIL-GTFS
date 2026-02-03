@@ -131,7 +131,8 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "- **PR URL:** ${{ steps.update.outputs.pr-url }}" >> $GITHUB_STEP_SUMMARY
             echo "- **PR Number:** #${{ steps.update.outputs.pr-number }}" >> $GITHUB_STEP_SUMMARY
-            echo "- **Version Bumped To:** ${{ steps.update.outputs.version-bumped }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Stops Version Bumped To:** ${{ steps.update.outputs.version-bumped }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Routes Version Bumped To:** ${{ steps.update.outputs.routes-version-bumped }}" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "The PR has been configured for auto-merge and will be merged once checks pass." >> $GITHUB_STEP_SUMMARY
           else
