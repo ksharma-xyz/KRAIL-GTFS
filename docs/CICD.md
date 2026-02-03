@@ -6,7 +6,7 @@ Automated workflow that generates GTFS data and deploys it to the KRAIL mobile a
 
 **Trigger Behavior:**
 - **Push to main** - Runs build and tests only (no GTFS refresh or KRAIL updates)
-- **Schedule (every 3 days)** - Runs full pipeline: build → GTFS refresh → KRAIL update
+- **Schedule (every 5 days)** - Runs full pipeline: build → GTFS refresh → KRAIL update
 - **Manual dispatch** - Runs full pipeline: build → GTFS refresh → KRAIL update
 
 ---
@@ -314,12 +314,12 @@ fi
 
 ## Schedule
 
-**Default:** Every 3 days at 13:00 UTC (~midnight AEDT)
+**Default:** Every 5 days at 13:00 UTC (~midnight AEDT)
 
 ```yaml
 on:
   schedule:
-    - cron: '0 13 */3 * *'
+    - cron: '0 13 */5 * *'
 ```
 
 **Why 13:00 UTC?**
@@ -327,7 +327,7 @@ on:
 - Low traffic time for Australian users
 - NSW Transport data usually updates overnight
 - Mobile app users unlikely to notice deployment
-- Runs on days 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31 of each month
+- Runs on days 1, 6, 11, 16, 21, 26, 31 of each month
 
 ---
 

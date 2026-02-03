@@ -44,8 +44,11 @@ outputs:
     description: 'Number of the created PR'
     value: ${{ steps.result.outputs.pr-number }}
   version-bumped:
-    description: 'New version number after bump'
+    description: 'New stops version number after bump'
     value: ${{ steps.bump-version.outputs.new_version }}
+  routes-version-bumped:
+    description: 'New routes version number after bump'
+    value: ${{ steps.bump-version.outputs.new_routes_version }}
 
 runs:
   using: composite
@@ -91,7 +94,7 @@ runs:
         cp "${{ inputs.routes-pb-file-path }}" "krail-app/${{ inputs.target-routes-pb-path }}"
         echo "✓ Copied NSW_BUSES_ROUTES.pb to KRAIL repository"
 
-    - name: Bump NSW_STOPS_VERSION
+    - name: Bump NSW_STOPS_VERSION and NSW_BUS_ROUTES_VERSION
       id: bump-version
       shell: bash
       working-directory: krail-app
@@ -103,23 +106,36 @@ runs:
           exit 1
         fi
         
-        # Extract current version robustly
-        CURRENT_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*' || true)
-        if [ -z "$CURRENT_VERSION" ]; then
+        # Extract current NSW_STOPS_VERSION
+        CURRENT_STOPS_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*' || true)
+        if [ -z "$CURRENT_STOPS_VERSION" ]; then
           echo "ℹ️  NSW_STOPS_VERSION not found; defaulting to 0"
-          CURRENT_VERSION=0
+          CURRENT_STOPS_VERSION=0
         fi
-        echo "Current NSW_STOPS_VERSION: $CURRENT_VERSION"
+        echo "Current NSW_STOPS_VERSION: $CURRENT_STOPS_VERSION"
         
-        # Increment version
-        NEW_VERSION=$((CURRENT_VERSION + 1))
-        echo "New NSW_STOPS_VERSION: $NEW_VERSION"
+        # Extract current NSW_BUS_ROUTES_VERSION
+        CURRENT_ROUTES_VERSION=$(grep -o 'const val NSW_BUS_ROUTES_VERSION = [0-9]*L' "$PREFERENCES_FILE" | grep -o '[0-9]*' || true)
+        if [ -z "$CURRENT_ROUTES_VERSION" ]; then
+          echo "ℹ️  NSW_BUS_ROUTES_VERSION not found; defaulting to 0"
+          CURRENT_ROUTES_VERSION=0
+        fi
+        echo "Current NSW_BUS_ROUTES_VERSION: $CURRENT_ROUTES_VERSION"
+        
+        # Increment versions
+        NEW_STOPS_VERSION=$((CURRENT_STOPS_VERSION + 1))
+        NEW_ROUTES_VERSION=$((CURRENT_ROUTES_VERSION + 1))
+        echo "New NSW_STOPS_VERSION: $NEW_STOPS_VERSION"
+        echo "New NSW_BUS_ROUTES_VERSION: $NEW_ROUTES_VERSION"
         
         # Update the file using regex (portable on Ubuntu runners)
-        sed -i "s/const val NSW_STOPS_VERSION = [0-9]*L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" "$PREFERENCES_FILE"
+        sed -i "s/const val NSW_STOPS_VERSION = [0-9]*L/const val NSW_STOPS_VERSION = ${NEW_STOPS_VERSION}L/" "$PREFERENCES_FILE"
+        sed -i "s/const val NSW_BUS_ROUTES_VERSION = [0-9]*L/const val NSW_BUS_ROUTES_VERSION = ${NEW_ROUTES_VERSION}L/" "$PREFERENCES_FILE"
         
-        echo "✓ Bumped NSW_STOPS_VERSION from $CURRENT_VERSION to $NEW_VERSION"
-        echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+        echo "✓ Bumped NSW_STOPS_VERSION from $CURRENT_STOPS_VERSION to $NEW_STOPS_VERSION"
+        echo "✓ Bumped NSW_BUS_ROUTES_VERSION from $CURRENT_ROUTES_VERSION to $NEW_ROUTES_VERSION"
+        echo "new_version=$NEW_STOPS_VERSION" >> $GITHUB_OUTPUT
+        echo "new_routes_version=$NEW_ROUTES_VERSION" >> $GITHUB_OUTPUT
 
     - name: Check for changes
       id: check-changes
@@ -192,11 +208,12 @@ runs:
           git add -A
         fi
         
-        git commit -m "Update NSW GTFS data (stops + routes) and bump version
+        git commit -m "Update NSW GTFS data (stops + routes) and bump versions
 
         - Updated \`${{ inputs.target-stops-pb-path }}\` with latest GTFS stops data
         - Updated \`${{ inputs.target-routes-pb-path }}\` with latest route-to-stops mappings
-        - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}" || echo "No commit created (nothing staged)"
+        - Bumped NSW_STOPS_VERSION to ${{ steps.bump-version.outputs.new_version }}
+        - Bumped NSW_BUS_ROUTES_VERSION to ${{ steps.bump-version.outputs.new_routes_version }}" || echo "No commit created (nothing staged)"
         
         git push -u origin "$BRANCH_NAME"
         
@@ -210,6 +227,7 @@ runs:
         - Updated \`${{ inputs.target-stops-pb-path }}\` with latest GTFS stops data
         - Updated \`${{ inputs.target-routes-pb-path }}\` with latest route-to-stops mappings
         - Bumped \`NSW_STOPS_VERSION\` to **${{ steps.bump-version.outputs.new_version }}** in \`SandookPreferences.kt\`
+        - Bumped \`NSW_BUS_ROUTES_VERSION\` to **${{ steps.bump-version.outputs.new_routes_version }}** in \`SandookPreferences.kt\`
         
         **What's included:**
         - 🚏 **Stops data**: All NSW transport stops with coordinates
