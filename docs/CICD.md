@@ -11,12 +11,43 @@ Automated workflow that generates GTFS data and deploys it to the KRAIL mobile a
 
 ---
 
+## Complete CI Process Flow
+
+**Every 5 days, the automated workflow performs the following:**
+
+1. **Downloads GTFS data** from NSW Transport API
+2. **Generates files** in the `cache/` directory:
+   - `NSW_STOPS.pb` (Protobuf for mobile app)
+   - `NSW_BUSES_ROUTES.pb` (Protobuf for mobile app)
+   - `NSW_STOPS.json` + `NSW_STOPS_PRETTY.json`
+   - `NSW_BUSES_ROUTES.json` + `NSW_BUSES_ROUTES_PRETTY.json`
+   - `NSW_PARKRIDE.json` + `NSW_PARKRIDE_PRETTY.json`
+
+3. **Creates PR in KRAIL-GTFS** (this repository):
+   - Moves all JSON files to `nswstops/` directory
+   - Moves park ride files to `nswstops/parkride/`
+   - Includes `.pb` files for version control
+   - **Auto-merges** after creation
+
+4. **Creates PR in KRAIL app** repository:
+   - Copies **ONLY** `.pb` files:
+     - `NSW_STOPS.pb`
+     - `NSW_BUSES_ROUTES.pb`
+   - Bumps version constants:
+     - `NSW_STOPS_VERSION`
+     - `NSW_BUS_ROUTES_VERSION`
+   - **Auto-merges** after CI checks pass
+
+**Result:** Both repositories stay in sync automatically every 5 days.
+
+---
+
 ## Workflow Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
 │ GitHub Actions Trigger                              │
-│ - Schedule: Daily at 2 AM UTC                       │
+│ - Schedule: Every 5 days at 13:00 UTC              │
 │ - Manual: workflow_dispatch                         │
 └──────────────────┬──────────────────────────────────┘
                    │
@@ -25,7 +56,7 @@ Automated workflow that generates GTFS data and deploys it to the KRAIL mobile a
 │ Step 1: Generate GTFS Data                          │
 │ - Checkout KRAIL-GTFS repo                          │
 │ - Run ./gradlew runKRAIL-GTFS                       │
-│ - Produces: cache/*.pb files                        │
+│ - Produces: cache/*.pb, *.json files                │
 └──────────────────┬──────────────────────────────────┘
                    │
                    ▼
@@ -36,22 +67,21 @@ Automated workflow that generates GTFS data and deploys it to the KRAIL mobile a
 │ - Validate file sizes                               │
 └──────────────────┬──────────────────────────────────┘
                    │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│ Step 3: Create PR in KRAIL App Repo                 │
-│ - Checkout ksharma-xyz/Krail                        │
-│ - Copy NSW_STOPS.pb → io/gtfs/.../NSW_STOPS.pb     │
-│ - Copy NSW_BUSES_ROUTES.pb → io/gtfs/...           │
-│ - Bump NSW_STOPS_VERSION in SandookPreferences.kt   │
-│ - Create PR with changes                            │
-└──────────────────┬──────────────────────────────────┘
-                   │
-                   ▼
-┌─────────────────────────────────────────────────────┐
-│ Step 4: Auto-Merge                                  │
-│ - Enable auto-merge on PR                           │
-│ - Merges when checks pass                           │
-└─────────────────────────────────────────────────────┘
+           ┌───────┴───────┐
+           │               │
+           ▼               ▼
+┌──────────────────┐  ┌──────────────────────────────┐
+│ Step 3a:         │  │ Step 3b:                     │
+│ PR in KRAIL-GTFS │  │ PR in KRAIL App              │
+│                  │  │                              │
+│ - Move to        │  │ - Copy ONLY .pb files        │
+│   nswstops/      │  │ - Bump versions:             │
+│ - ALL files:     │  │   * NSW_STOPS_VERSION        │
+│   * .json        │  │   * NSW_BUS_ROUTES_VERSION   │
+│   * .pb          │  │ - Create PR                  │
+│   * parkride/    │  │ - Auto-merge                 │
+│ - Auto-merge     │  │                              │
+└──────────────────┘  └──────────────────────────────┘
 ```
 
 ---
@@ -68,12 +98,17 @@ graph TB
   D --> E{Process Data}
   E --> F[Process Stops]
   E --> G[Process Routes]
-  F --> H[NSW_STOPS.pb]
-  G --> I[NSW_BUSES_ROUTES.pb]
-  H --> J[CI/CD Pipeline]
-  I --> J
-  J --> K[Create PR in KRAIL App]
-  K --> L[Auto-Merge]
+  E --> H[Process Park Ride]
+  F --> I[NSW_STOPS.pb + JSON]
+  G --> J[NSW_BUSES_ROUTES.pb + JSON]
+  H --> K[NSW_PARKRIDE.json]
+  I --> L{CI/CD Pipeline}
+  J --> L
+  K --> L
+  L --> M[PR in KRAIL-GTFS<br/>ALL files]
+  L --> N[PR in KRAIL App<br/>.pb files only]
+  M --> O[Auto-Merge]
+  N --> P[Auto-Merge]
 ```
 
 ---
@@ -170,25 +205,32 @@ cp cache/NSW_STOPS.pb krail-app/io/gtfs/.../NSW_STOPS.pb
 cp cache/NSW_BUSES_ROUTES.pb krail-app/io/gtfs/.../NSW_BUSES_ROUTES.pb
 ```
 
-#### 2. Bump Version
+#### 2. Bump Versions
 ```bash
-# Extract current version
-CURRENT_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' SandookPreferences.kt | grep -o '[0-9]*')
+# Extract current NSW_STOPS_VERSION
+CURRENT_STOPS_VERSION=$(grep -o 'const val NSW_STOPS_VERSION = [0-9]*L' SandookPreferences.kt | grep -o '[0-9]*')
 
-# Increment
-NEW_VERSION=$((CURRENT_VERSION + 1))
+# Extract current NSW_BUS_ROUTES_VERSION
+CURRENT_ROUTES_VERSION=$(grep -o 'const val NSW_BUS_ROUTES_VERSION = [0-9]*L' SandookPreferences.kt | grep -o '[0-9]*')
+
+# Increment both versions
+NEW_STOPS_VERSION=$((CURRENT_STOPS_VERSION + 1))
+NEW_ROUTES_VERSION=$((CURRENT_ROUTES_VERSION + 1))
 
 # Update file
-sed -i "s/const val NSW_STOPS_VERSION = ${CURRENT_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_VERSION}L/" SandookPreferences.kt
+sed -i "s/const val NSW_STOPS_VERSION = ${CURRENT_STOPS_VERSION}L/const val NSW_STOPS_VERSION = ${NEW_STOPS_VERSION}L/" SandookPreferences.kt
+sed -i "s/const val NSW_BUS_ROUTES_VERSION = ${CURRENT_ROUTES_VERSION}L/const val NSW_BUS_ROUTES_VERSION = ${NEW_ROUTES_VERSION}L/" SandookPreferences.kt
 ```
 
 **Example:**
 ```kotlin
 // Before
-const val NSW_STOPS_VERSION = 42L
+const val NSW_STOPS_VERSION = 32L
+const val NSW_BUS_ROUTES_VERSION = 5L
 
 // After
-const val NSW_STOPS_VERSION = 43L
+const val NSW_STOPS_VERSION = 33L
+const val NSW_BUS_ROUTES_VERSION = 6L
 ```
 
 #### 3. Check for Changes
@@ -233,7 +275,8 @@ Auto-generated update from KRAIL-GTFS repository.
 Changes:
 - Updated NSW_STOPS.pb (37,738 stops)
 - Updated NSW_BUSES_ROUTES.pb (4,702 routes)
-- Bumped NSW_STOPS_VERSION to 43
+- Bumped NSW_STOPS_VERSION to 33
+- Bumped NSW_BUS_ROUTES_VERSION to 6
 
 Labels: auto-generated-gtfs
 ```
@@ -246,6 +289,72 @@ gh pr merge $PR_NUMBER --auto --squash
 **Behavior:**
 - PR merges automatically when all checks pass
 - Uses squash merge to keep history clean
+
+---
+
+## Dual Pull Request Strategy
+
+The CI pipeline creates **two separate pull requests** to keep repositories in sync:
+
+### PR #1: KRAIL-GTFS Repository (This Repo)
+
+**Created by:** `scheduled-tasks` job in `ci.yml`
+
+**Files included:**
+```
+nswstops/NSW_STOPS.json
+nswstops/NSW_STOPS_PRETTY.json
+nswstops/NSW_STOPS.pb
+nswstops/NSW_BUSES_ROUTES.json
+nswstops/NSW_BUSES_ROUTES_PRETTY.json
+nswstops/NSW_BUSES_ROUTES.pb
+nswstops/parkride/NSW_PARKRIDE.json
+nswstops/parkride/NSW_PARKRIDE_PRETTY.json
+```
+
+**Purpose:**
+- Keep version-controlled copy of all GTFS data
+- JSON files for debugging and manual inspection
+- Park & Ride data stored in this repo only
+- `.pb` files for historical tracking
+
+**Auto-merge:** ✅ Yes - merges immediately after creation
+
+---
+
+### PR #2: KRAIL App Repository
+
+**Created by:** `update-krail-app` workflow
+
+**Files included:**
+```
+io/gtfs/src/commonMain/composeResources/files/NSW_STOPS.pb
+io/gtfs/src/commonMain/composeResources/files/NSW_BUSES_ROUTES.pb
+sandook/src/commonMain/kotlin/xyz/ksharma/krail/sandook/SandookPreferences.kt
+```
+
+**Purpose:**
+- Update mobile app with latest GTFS data
+- Only `.pb` (Protobuf) files needed for app
+- Bump version constants for cache invalidation:
+  - `NSW_STOPS_VERSION`
+  - `NSW_BUS_ROUTES_VERSION`
+
+**Auto-merge:** ✅ Yes - merges after CI checks pass
+
+---
+
+### Why Two PRs?
+
+| Aspect | KRAIL-GTFS Repo | KRAIL App Repo |
+|--------|----------------|----------------|
+| **File Format** | JSON + Protobuf | Protobuf only |
+| **Park & Ride** | ✅ Included | ❌ Not needed |
+| **Version Bump** | ❌ No versioning | ✅ Bumps constants |
+| **Use Case** | Data storage & debugging | Mobile app runtime |
+| **Size** | Larger (all formats) | Smaller (optimized) |
+
+**Result:** Clean separation of concerns - data repository vs. application deployment.
 
 ---
 
