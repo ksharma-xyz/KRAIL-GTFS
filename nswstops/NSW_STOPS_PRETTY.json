@@ -17404,6 +17404,15 @@
     ]
   },
   {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -36617,15 +36626,6 @@
     "name": "Warringah Rd opp Jones St",
     "lat": "-33.75201",
     "lon": "151.248312",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "210074",
-    "name": "Allambie Rd opp Aquatic Dr",
-    "lat": "-33.756009",
-    "lon": "151.24413",
     "productClass": [
       5
     ]
@@ -81178,15 +81178,6 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220533",
-    "name": "Princes Hwy after Subway Rd",
-    "lat": "-33.944094",
-    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -167238,6 +167229,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167314,6 +167314,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -176610,15 +176628,6 @@
     ]
   },
   {
-    "id": "2100177",
-    "name": "Allambie Rd before Aquatic Dr",
-    "lat": "-33.756097",
-    "lon": "151.243712",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2100178",
     "name": "Jennifer Ave opp Nargong Rd",
     "lat": "-33.769698",
@@ -185748,13 +185757,23 @@
     ]
   },
   {
-    "id": "2141173",
+    "id": "2141286",
     "name": "Lidcombe Station, Church St",
+    "lat": "-33.862714",
+    "lon": "151.04345",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2141173",
+    "name": "Lidcombe Station, Church St, Stand A",
     "lat": "-33.863396",
     "lon": "151.045123",
     "productClass": [
       5
-    ]
+    ],
+    "isParent": false
   },
   {
     "id": "2141280",
@@ -187445,6 +187464,15 @@
     "name": "Woodville Rd at Clarke St",
     "lat": "-33.835565",
     "lon": "151.00168",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2142287",
+    "name": "Granville Station, Bridge St",
+    "lat": "-33.832341",
+    "lon": "151.011551",
     "productClass": [
       5
     ]
@@ -200014,6 +200042,15 @@
     ]
   },
   {
+    "id": "2153495",
+    "name": "Willmott Ave at Huxley Dr",
+    "lat": "-33.776707",
+    "lon": "150.99037",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2154100",
     "name": "Windsor Rd opp Norwest Bvd",
     "lat": "-33.732155",
@@ -204186,6 +204223,24 @@
     ]
   },
   {
+    "id": "2155499",
+    "name": "Severn Vale Dr after Memorial Ave",
+    "lat": "-33.718567",
+    "lon": "150.95493",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2155501",
+    "name": "Severn Vale Dr before Memorial Ave",
+    "lat": "-33.718277",
+    "lon": "150.9547",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2156100",
     "name": "Greenbank Dr after Grange Rd",
     "lat": "-33.709768",
@@ -206269,6 +206324,15 @@
     "name": "Sherwood Grange Public School, Bruce St",
     "lat": "-33.836043",
     "lon": "150.959783",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2160142",
+    "name": "Merrylands Rd at Railway Tce",
+    "lat": "-33.837054",
+    "lon": "150.992957",
     "productClass": [
       5
     ]
@@ -212506,6 +212570,15 @@
     "name": "Bartley St before Railway Pde",
     "lat": "-33.890353",
     "lon": "150.939478",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
     "productClass": [
       5
     ]
@@ -232142,7 +232215,7 @@
   },
   {
     "id": "2217142",
-    "name": "Moorefield Girls High School, Princes Hwy",
+    "name": "Bayside High School, Princes Hwy",
     "lat": "-33.968215",
     "lon": "151.136502",
     "productClass": [
@@ -232340,7 +232413,7 @@
   },
   {
     "id": "2217181",
-    "name": "James Cook Boys Technology High School, Princes Hwy",
+    "name": "Bayside High School near President Ave, Princes Hwy",
     "lat": "-33.966908",
     "lon": "151.136786",
     "productClass": [
@@ -232460,6 +232533,15 @@
     "name": "Hillcrest Ave opp Mabel St",
     "lat": "-33.970047",
     "lon": "151.099485",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2220126",
+    "name": "Dora St at MacMahon St",
+    "lat": "-33.965228",
+    "lon": "151.101671",
     "productClass": [
       5
     ]
@@ -232613,15 +232695,6 @@
     "name": "Westfield Hurstville, Cross St",
     "lat": "-33.96618",
     "lon": "151.103948",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2220302",
-    "name": "Hurstville Fire Station, Butler Rd",
-    "lat": "-33.968042",
-    "lon": "151.101992",
     "productClass": [
       5
     ]
@@ -238115,15 +238188,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -238142,28 +238206,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -252852,8 +252898,8 @@
   {
     "id": "2259762",
     "name": "Sparks Rd opp Bruce Cres",
-    "lat": "-33.242142",
-    "lon": "151.453078",
+    "lat": "-33.242101",
+    "lon": "151.453062",
     "productClass": [
       5
     ]
@@ -282559,6 +282605,15 @@
     "name": "Goldingham St at Crawford Ave",
     "lat": "-32.739899",
     "lon": "151.612025",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2323304",
+    "name": "Turton St before Chifley St",
+    "lat": "-32.7592",
+    "lon": "151.599503",
     "productClass": [
       5
     ]
