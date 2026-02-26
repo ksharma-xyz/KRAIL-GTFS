@@ -12243,6 +12243,15 @@
     ]
   },
   {
+    "id": "203775",
+    "name": "Federal Rd opp Pope Paul VI Reserve",
+    "lat": "-33.871957",
+    "lon": "151.180125",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "203776",
     "name": "Minogue Crescent Reserve, Minogue Cres",
     "lat": "-33.880485",
@@ -12265,6 +12274,15 @@
     "name": "Wigram Rd at Minogue Cres",
     "lat": "-33.882235",
     "lon": "151.176448",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "203785",
+    "name": "Ultimo Public School, Wattle St",
+    "lat": "-33.877922",
+    "lon": "151.19495",
     "productClass": [
       5
     ]
@@ -19924,15 +19942,6 @@
     "name": "Victoria Ave at Gibbes St",
     "lat": "-33.790911",
     "lon": "151.200573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206760",
-    "name": "Railway St at Help St",
-    "lat": "-33.795357",
-    "lon": "151.180414",
     "productClass": [
       5
     ]
@@ -42278,16 +42287,6 @@
     ]
   },
   {
-    "id": "2113301",
-    "name": "Macquarie University Station, Herring Rd, Stand F",
-    "lat": "-33.777871",
-    "lon": "151.117852",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2113319",
     "name": "Macquarie University Station, Herring Rd, Stand D",
     "lat": "-33.776863",
@@ -49499,13 +49498,33 @@
     ]
   },
   {
-    "id": "212767",
+    "id": "212766",
     "name": "Sydney Olympic Park, Aquatic Terminal",
+    "lat": "-33.849733",
+    "lon": "151.068303",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212767",
+    "name": "Sydney Olympic Park, Aquatic Terminal, Stand 1B",
     "lat": "-33.850096",
     "lon": "151.068585",
     "productClass": [
       5
-    ]
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212769",
+    "name": "Sydney Olympic Park, Aquatic Terminal, Stand 2",
+    "lat": "-33.849857",
+    "lon": "151.06803",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "212771",
@@ -49541,6 +49560,26 @@
     "name": "Sydney Olympic Park, Plaza Terminal, Stand 8",
     "lat": "-33.843377",
     "lon": "151.062989",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212775",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 7",
+    "lat": "-33.843312",
+    "lon": "151.063306",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212777",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 6",
+    "lat": "-33.842492",
+    "lon": "151.062294",
     "productClass": [
       5
     ],
@@ -51248,15 +51287,6 @@
     "name": "Presbyterian Ladies College, Young St",
     "lat": "-33.881905",
     "lon": "151.114772",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
     "productClass": [
       5
     ]
@@ -64363,7 +64393,7 @@
   },
   {
     "id": "215997",
-    "name": "Wyldes Rd opp 16 (Hail & Ride)",
+    "name": "Wylds Rd after Halls Rd",
     "lat": "-33.625264",
     "lon": "151.0309",
     "productClass": [
@@ -89262,15 +89292,6 @@
     "name": "Dora St at Stoney Creek Rd",
     "lat": "-33.95155",
     "lon": "151.089984",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "222052",
-    "name": "Westfield Hurstville, Cross St (Lunar New Year)",
-    "lat": "-33.965336",
-    "lon": "151.105345",
     "productClass": [
       5
     ]
@@ -158256,16 +158277,6 @@
     "isParent": false
   },
   {
-    "id": "2770380",
-    "name": "Mount Druitt Station, Stand J",
-    "lat": "-33.768683",
-    "lon": "150.820135",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2770506",
     "name": "Mount Druitt Station, Stand F",
     "lat": "-33.768766",
@@ -161108,15 +161119,6 @@
     "name": "Railway Pde at Park Rd",
     "lat": "-33.733901",
     "lon": "150.470619",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "277862",
-    "name": "Great Western Hwy opp Woodford Station",
-    "lat": "-33.735238",
-    "lon": "150.481199",
     "productClass": [
       5
     ]
@@ -168513,6 +168515,15 @@
     ]
   },
   {
+    "id": "2067134",
+    "name": "Railway St at Help St",
+    "lat": "-33.795879",
+    "lon": "151.180456",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2068101",
     "name": "High St opp Robert St",
     "lat": "-33.799385",
@@ -175840,6 +175851,15 @@
     ]
   },
   {
+    "id": "2099208",
+    "name": "Pittwater Rd at Howard Ave",
+    "lat": "-33.752353",
+    "lon": "151.287304",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2099209",
     "name": "Truman Ave opp Truman Ave Shops",
     "lat": "-33.734461",
@@ -178092,7 +178112,7 @@
   },
   {
     "id": "2112226",
-    "name": "Bowden St at Stone St",
+    "name": "Bowden St after Constitution Rd",
     "lat": "-33.816394",
     "lon": "151.093236",
     "productClass": [
@@ -180842,15 +180862,6 @@
     ]
   },
   {
-    "id": "2120107",
-    "name": "Elouera Rd before Stringybark Cl",
-    "lat": "-33.716171",
-    "lon": "151.066419",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2120108",
     "name": "Elouera Rd opp Duneba Dr",
     "lat": "-33.717476",
@@ -180999,15 +181010,6 @@
     "name": "Elouera Rd at Duneba Dr",
     "lat": "-33.717689",
     "lon": "151.065951",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2120126",
-    "name": "Elouera Rd after Westleigh Dr",
-    "lat": "-33.716151",
-    "lon": "151.066263",
     "productClass": [
       5
     ]
@@ -182867,6 +182869,15 @@
     ]
   },
   {
+    "id": "2122215",
+    "name": "West Pde after Hillview Rd",
+    "lat": "-33.79106",
+    "lon": "151.08192",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2122216",
     "name": "St Philip's Church, Clanalpine St",
     "lat": "-33.79436",
@@ -182907,6 +182918,15 @@
     "name": "Epping Rd at Sobraon Rd",
     "lat": "-33.779442",
     "lon": "151.110269",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2122223",
+    "name": "Hillview Rd at Lakeside Rd",
+    "lat": "-33.78971",
+    "lon": "151.08055",
     "productClass": [
       5
     ]
@@ -230489,6 +230509,33 @@
     ]
   },
   {
+    "id": "2211109",
+    "name": "Uranus Rd opp Centaur St",
+    "lat": "-33.956181",
+    "lon": "151.02268",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2211110",
+    "name": "Uranus Rd opp Virginius St",
+    "lat": "-33.956397",
+    "lon": "151.024222",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2211111",
+    "name": "Howard Rd before Doyle Rd",
+    "lat": "-33.954708",
+    "lon": "151.027125",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2211112",
     "name": "Howard Rd at Doyle Rd",
     "lat": "-33.953686",
@@ -232425,15 +232472,6 @@
     ]
   },
   {
-    "id": "2220126",
-    "name": "Dora St at MacMahon St",
-    "lat": "-33.965228",
-    "lon": "151.101671",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2220280",
     "name": "Gloucester Rd after Stoney Creek Rd",
     "lat": "-33.952539",
@@ -232555,6 +232593,15 @@
     "name": "Bridge St after Forest Rd",
     "lat": "-33.964537",
     "lon": "151.095092",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2220298",
+    "name": "Hurstville Station, Butler Rd",
+    "lat": "-33.968301",
+    "lon": "151.101811",
     "productClass": [
       5
     ]
@@ -238066,6 +238113,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -243306,8 +243362,8 @@
   {
     "id": "2250744",
     "name": "St Edwards College, Russell Drysdale St",
-    "lat": "-33.438465",
-    "lon": "151.347751",
+    "lat": "-33.438739",
+    "lon": "151.348549",
     "productClass": [
       5
     ]
@@ -269949,8 +270005,8 @@
   {
     "id": "2289262",
     "name": "Grinsell St at Gregory Pde",
-    "lat": "-32.940511",
-    "lon": "151.696324",
+    "lat": "-32.940479",
+    "lon": "151.696326",
     "productClass": [
       5
     ]
@@ -269958,8 +270014,8 @@
   {
     "id": "2289263",
     "name": "157 Grinsell St",
-    "lat": "-32.940805",
-    "lon": "151.694233",
+    "lat": "-32.940757",
+    "lon": "151.694252",
     "productClass": [
       5
     ]
@@ -270228,8 +270284,8 @@
   {
     "id": "2289312",
     "name": "Grinsell St opp Gregory Pde",
-    "lat": "-32.940224",
-    "lon": "151.696499",
+    "lat": "-32.940313",
+    "lon": "151.696508",
     "productClass": [
       5
     ]
@@ -306323,15 +306379,6 @@
     ]
   },
   {
-    "id": "2570401",
-    "name": "Elizabeth St at Argyle St",
-    "lat": "-34.053347",
-    "lon": "150.697962",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2570402",
     "name": "Cawdor Rd opp Sheathers Lane",
     "lat": "-34.062143",
@@ -306633,6 +306680,15 @@
     "name": "Oran Park Dr before Peter Brock Dr",
     "lat": "-34.002385",
     "lon": "150.739393",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2570495",
+    "name": "Crookston Dr before Wire Ln",
+    "lat": "-34.089867",
+    "lon": "150.69357",
     "productClass": [
       5
     ]
@@ -309252,15 +309308,6 @@
     "name": "Kingswood Station, Park Ave",
     "lat": "-33.758347",
     "lon": "150.721003",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2747352",
-    "name": "Park Ave opp Kingswood Station",
-    "lat": "-33.758279",
-    "lon": "150.72121",
     "productClass": [
       5
     ]
@@ -316680,6 +316727,15 @@
     "name": "Cook Pde opp Windrush Cct",
     "lat": "-33.801956",
     "lon": "150.777067",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2759182",
+    "name": "Mamre Rd before Banks Dr",
+    "lat": "-33.789469",
+    "lon": "150.77008",
     "productClass": [
       5
     ]
@@ -327241,15 +327297,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -328136,15 +328183,6 @@
     "name": "Denman Pde at Dorset St",
     "lat": "-33.701029",
     "lon": "150.335068",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2780197",
-    "name": "Katoomba Station, Goldsmith Pl",
-    "lat": "-33.711904",
-    "lon": "150.312229",
     "productClass": [
       5
     ]
