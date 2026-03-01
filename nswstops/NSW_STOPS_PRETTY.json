@@ -676,15 +676,6 @@
     ]
   },
   {
-    "id": "200727",
-    "name": "Ultimo Public School, Jones St",
-    "lat": "-33.877492",
-    "lon": "151.196052",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200728",
     "name": "Thomas St after Wattle St",
     "lat": "-33.883151",
@@ -60175,6 +60166,15 @@
     "name": "Caprera Rd before Thirlmere Ave",
     "lat": "-33.782554",
     "lon": "151.005533",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "215267",
+    "name": "Windermere Ave at Windsor Rd",
+    "lat": "-33.777706",
+    "lon": "150.99992",
     "productClass": [
       5
     ]
@@ -165688,7 +165688,7 @@
   },
   {
     "id": "2035152",
-    "name": "Malabar Rd opp Nicol Lane",
+    "name": "Maroubra Rd opp Nicol Lane",
     "lat": "-33.94112",
     "lon": "151.251749",
     "productClass": [
@@ -274247,8 +274247,8 @@
   {
     "id": "2304273",
     "name": "Wallsend Rd opp Sandgate Cemetery",
-    "lat": "-32.872148",
-    "lon": "151.706368",
+    "lat": "-32.872045",
+    "lon": "151.706358",
     "productClass": [
       5
     ]
