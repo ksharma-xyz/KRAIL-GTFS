@@ -162,7 +162,7 @@ jobs:
           if [ -d "cache" ]; then ls -R cache; else echo "cache directory missing"; fi
 
       - name: Upload generated JSON and PB files
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: generated-json-files
           path: |
