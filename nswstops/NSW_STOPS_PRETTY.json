@@ -273,6 +273,16 @@
     "isParent": false
   },
   {
+    "id": "200036",
+    "name": "Wynyard Station, York St, Stand N",
+    "lat": "-33.865377",
+    "lon": "151.205704",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "200048",
     "name": "Wynyard Station, York St, Stand P",
     "lat": "-33.864755",
@@ -17412,6 +17422,15 @@
     ]
   },
   {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -22753,6 +22772,24 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -51283,6 +51320,15 @@
     ]
   },
   {
+    "id": "213275",
+    "name": "Paisley Rd after The Strand",
+    "lat": "-33.882846",
+    "lon": "151.114337",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213311",
     "name": "Coronation Pde opp Tangarra St",
     "lat": "-33.894706",
@@ -66505,15 +66551,6 @@
     "name": "Woodville Rd opp Kirrang Ave",
     "lat": "-33.885738",
     "lon": "150.975468",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "216313",
-    "name": "Wattle Ave at Waterside Cres",
-    "lat": "-33.88452",
-    "lon": "150.962241",
     "productClass": [
       5
     ]
@@ -113371,7 +113408,7 @@
   },
   {
     "id": "229218",
-    "name": "Hunter School Of The Performing Arts, Lambton Rd",
+    "name": "Hunter School of The Performing Arts, Lambton Rd",
     "lat": "-32.92384",
     "lon": "151.727593",
     "productClass": [
@@ -113383,6 +113420,15 @@
     "name": "Broadmeadow Station, Graham Rd",
     "lat": "-32.923123",
     "lon": "151.734842",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "229220",
+    "name": "Hunter School Of The Performing Arts, Lambton Rd",
+    "lat": "-32.923801",
+    "lon": "151.727273",
     "productClass": [
       5
     ]
@@ -128883,6 +128929,33 @@
     ]
   },
   {
+    "id": "233613",
+    "name": "Macqueen St opp Aberdeen Station",
+    "lat": "-32.166877",
+    "lon": "150.891551",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233619",
+    "name": "Aberdeen Station, Macqueen St",
+    "lat": "-32.166908",
+    "lon": "150.891782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233721",
+    "name": "Scone Station, Coach Stop",
+    "lat": "-32.046842",
+    "lon": "150.867091",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -129059,6 +129132,15 @@
     "name": "Paterson Rd at Martins Creek Rd",
     "lat": "-32.613945",
     "lon": "151.611612",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "242533",
+    "name": "Booral Public School, The Bucketts Way",
+    "lat": "-32.471365",
+    "lon": "151.959614",
     "productClass": [
       5
     ]
@@ -142030,8 +142112,8 @@
   {
     "id": "256317",
     "name": "Broughton Anglican College, Senior Learning Centre",
-    "lat": "-34.102656",
-    "lon": "150.767006",
+    "lat": "-34.102543",
+    "lon": "150.76659",
     "productClass": [
       5
     ]
@@ -167163,6 +167245,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167239,6 +167330,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -168519,6 +168628,15 @@
     "name": "Railway St at Help St",
     "lat": "-33.795879",
     "lon": "151.180456",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -182806,15 +182924,6 @@
     ]
   },
   {
-    "id": "2122207",
-    "name": "Eastwood Park, Wingate Ave",
-    "lat": "-33.788193",
-    "lon": "151.081377",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2122208",
     "name": "Balaclava Rd before Lincoln St",
     "lat": "-33.782497",
@@ -182869,15 +182978,6 @@
     ]
   },
   {
-    "id": "2122215",
-    "name": "West Pde after Hillview Rd",
-    "lat": "-33.79106",
-    "lon": "151.08192",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2122216",
     "name": "St Philip's Church, Clanalpine St",
     "lat": "-33.79436",
@@ -182918,15 +183018,6 @@
     "name": "Epping Rd at Sobraon Rd",
     "lat": "-33.779442",
     "lon": "151.110269",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2122223",
-    "name": "Hillview Rd at Lakeside Rd",
-    "lat": "-33.78971",
-    "lon": "151.08055",
     "productClass": [
       5
     ]
@@ -204134,6 +204225,15 @@
     "name": "Severn Vale Dr before Memorial Ave",
     "lat": "-33.718277",
     "lon": "150.9547",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2155502",
+    "name": "Adelphi St before Hassett Pl",
+    "lat": "-33.680992",
+    "lon": "150.91612",
     "productClass": [
       5
     ]
@@ -258149,10 +258249,28 @@
     ]
   },
   {
+    "id": "2261558",
+    "name": "Pacific St before Watkins St",
+    "lat": "-33.359116",
+    "lon": "151.490112",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2261559",
     "name": "Pacific St before Nirvana St",
     "lat": "-33.359329",
     "lon": "151.492741",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2261560",
+    "name": "Pacific St after Nirvana St",
+    "lat": "-33.359457",
+    "lon": "151.492671",
     "productClass": [
       5
     ]
@@ -258792,6 +258910,15 @@
     "name": "83 Sunrise Ave",
     "lat": "-33.22461",
     "lon": "151.552796",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2263100",
+    "name": "Lake Haven Centre, Lake Haven Dr",
+    "lat": "-33.241448",
+    "lon": "151.502471",
     "productClass": [
       5
     ]
@@ -271650,6 +271777,15 @@
     ]
   },
   {
+    "id": "2290305",
+    "name": "Burwood Rd at Cindi Cl",
+    "lat": "-32.981155",
+    "lon": "151.716627",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2290306",
     "name": "Burwood Rd after Finlay Cl",
     "lat": "-32.97787",
@@ -271690,6 +271826,15 @@
     "name": "Burwood Colliery Bowling Club, Burwood Rd",
     "lat": "-32.973953",
     "lon": "151.717886",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2290312",
+    "name": "Burwood Rd opp Cindi Cl",
+    "lat": "-32.981344",
+    "lon": "151.716581",
     "productClass": [
       5
     ]
@@ -288385,6 +288530,15 @@
     ]
   },
   {
+    "id": "2500308",
+    "name": "Kembla St before Bourke St",
+    "lat": "-34.414514",
+    "lon": "150.899739",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2500311",
     "name": "Wollongong High School Performing Arts Centre, Lysaght St, Bay 5",
     "lat": "-34.405704",
@@ -288524,6 +288678,15 @@
     "name": "Corrimal St before Gipps St",
     "lat": "-34.419194",
     "lon": "150.901109",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2500333",
+    "name": "Corrimal St after Georges Pl",
+    "lat": "-34.419261",
+    "lon": "150.901247",
     "productClass": [
       5
     ]
@@ -301348,15 +301511,6 @@
     ]
   },
   {
-    "id": "2564127",
-    "name": "Atchison Rd after Saywell Rd",
-    "lat": "-33.989056",
-    "lon": "150.88264",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2564132",
     "name": "Oakley Rd before Bensley Rd",
     "lat": "-34.002452",
@@ -308894,6 +309048,15 @@
     "name": "The Northern Rd opp Vincent Rd",
     "lat": "-33.705891",
     "lon": "150.723927",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2747275",
+    "name": "O'Connell Lane after Caddens Rd",
+    "lat": "-33.775813",
+    "lon": "150.732271",
     "productClass": [
       5
     ]
