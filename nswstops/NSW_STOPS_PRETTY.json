@@ -4204,15 +4204,6 @@
     ]
   },
   {
-    "id": "202076",
-    "name": "Sydney Domestic Airport, Keith Smith Ave",
-    "lat": "-33.93307",
-    "lon": "151.17845",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -4235,15 +4226,6 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202083",
-    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-    "lat": "-33.935337",
-    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -57340,8 +57322,8 @@
   {
     "id": "214710",
     "name": "Seven Hills Station",
-    "lat": "-33.774383",
-    "lon": "150.936437",
+    "lat": "-33.774430434",
+    "lon": "150.936513359",
     "productClass": [
       5,
       1
@@ -66551,6 +66533,15 @@
     "name": "Woodville Rd opp Kirrang Ave",
     "lat": "-33.885738",
     "lon": "150.975468",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
     "productClass": [
       5
     ]
@@ -83319,7 +83310,7 @@
   },
   {
     "id": "220927",
-    "name": "King Georges Rd at Broad Arrow Rd",
+    "name": "King Georges Rd at Broadarrow Rd",
     "lat": "-33.946829",
     "lon": "151.078527",
     "productClass": [
@@ -89103,16 +89094,6 @@
     "productClass": [
       5
     ]
-  },
-  {
-    "id": "2220123",
-    "name": "Hurstville Station, Ormonde Pde, Stand P",
-    "lat": "-33.968221",
-    "lon": "151.103413",
-    "productClass": [
-      5
-    ],
-    "isParent": false
   },
   {
     "id": "2220333",
@@ -127569,9 +127550,9 @@
   },
   {
     "id": "233011",
-    "name": "Munro St, opp Singleton Station",
-    "lat": "-32.571488",
-    "lon": "151.165514",
+    "name": "Munro St opp Singleton Station",
+    "lat": "-32.571523",
+    "lon": "151.165527",
     "productClass": [
       5
     ]
@@ -128481,8 +128462,8 @@
   {
     "id": "233539",
     "name": "Branxton Station, Railway St",
-    "lat": "-32.662141",
-    "lon": "151.346235",
+    "lat": "-32.662164",
+    "lon": "151.346213",
     "productClass": [
       5
     ]
@@ -131686,8 +131667,8 @@
   {
     "id": "250823",
     "name": "Coalcliff Station, Lawrence Hargrave Dr",
-    "lat": "-34.242608",
-    "lon": "150.977405",
+    "lat": "-34.242996",
+    "lon": "150.97707",
     "productClass": [
       5
     ]
@@ -143257,15 +143238,6 @@
     "name": "Cumberland Rd after Minto Rd",
     "lat": "-34.015027",
     "lon": "150.859873",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256557",
-    "name": "Cumberland Rd before Sackville St",
-    "lat": "-34.012503",
-    "lon": "150.860614",
     "productClass": [
       5
     ]
@@ -228791,24 +228763,6 @@
     ]
   },
   {
-    "id": "2207267",
-    "name": "Slade Rd before Devon Rd",
-    "lat": "-33.932251",
-    "lon": "151.12523",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2207268",
-    "name": "Slade Rd at Hartill Law Ave",
-    "lat": "-33.931857",
-    "lon": "151.126007",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -233748,15 +233702,6 @@
     ]
   },
   {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2226113",
     "name": "Tudar Rd at Jefferson Cres",
     "lat": "-34.014704",
@@ -238213,15 +238158,6 @@
     ]
   },
   {
-    "id": "2233259",
-    "name": "Waterfall Station, Access Rd, McKell Ave",
-    "lat": "-34.135244",
-    "lon": "150.99522",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -238240,28 +238176,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -301639,8 +301557,8 @@
   {
     "id": "2565123",
     "name": "Stennett Rd after Williamson Rd",
-    "lat": "-34.00463",
-    "lon": "150.841076",
+    "lat": "-34.005848",
+    "lon": "150.84343",
     "productClass": [
       5
     ]
@@ -321141,6 +321059,16 @@
     ]
   },
   {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -322045,6 +321973,15 @@
     "name": "Fontana Dr before Old Pitt Town Rd",
     "lat": "-33.638385",
     "lon": "150.904661",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765408",
+    "name": "Bunyarra Pd after Valletta Dr",
+    "lat": "-33.630636",
+    "lon": "150.901259",
     "productClass": [
       5
     ]
@@ -329458,15 +329395,6 @@
     ]
   },
   {
-    "id": "253320",
-    "name": "Bombo Station",
-    "lat": "-34.657949",
-    "lon": "150.854049",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "2425102",
     "name": "Booral Coach Stop",
     "lat": "-32.46671149",
@@ -329925,15 +329853,6 @@
     "lon": "147.1470945",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "250030",
-    "name": "Coniston Station",
-    "lat": "-34.437443",
-    "lon": "150.885469",
-    "productClass": [
-      1
     ]
   },
   {
@@ -330819,15 +330738,6 @@
     ]
   },
   {
-    "id": "253010",
-    "name": "Kembla Grange Station",
-    "lat": "-34.47021836",
-    "lon": "150.8173407",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "24401",
     "name": "Kempsey Station",
     "lat": "-31.076917",
@@ -331296,15 +331206,6 @@
     ]
   },
   {
-    "id": "253310",
-    "name": "Minnamurra Station",
-    "lat": "-34.625722",
-    "lon": "150.852206",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "257510",
     "name": "Mittagong Station",
     "lat": "-34.45268",
@@ -331564,15 +331465,6 @@
     "lon": "147.1968688",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "252920",
-    "name": "Oak Flats Station",
-    "lat": "-34.572243",
-    "lon": "150.820892",
-    "productClass": [
-      1
     ]
   },
   {
@@ -331868,15 +331760,6 @@
     "name": "Seymour Station",
     "lat": "-37.024365",
     "lon": "145.138408",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "2529218",
-    "name": "Shellharbour Junction Station",
-    "lat": "-34.5912",
-    "lon": "150.8448",
     "productClass": [
       1
     ]
@@ -332212,15 +332095,6 @@
     "lon": "153.029194",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "252610",
-    "name": "Unanderra Station",
-    "lat": "-34.454409",
-    "lon": "150.846341",
-    "productClass": [
-      1
     ]
   },
   {
@@ -333650,6 +333524,15 @@
     ]
   },
   {
+    "id": "253320",
+    "name": "Bombo Station",
+    "lat": "-34.6580285016",
+    "lon": "150.853975458",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "251810",
     "name": "Bellambi Station",
     "lat": "-34.363318415",
@@ -333889,6 +333772,15 @@
     "name": "Cronulla Station",
     "lat": "-34.0562517119",
     "lon": "151.151542409",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "250030",
+    "name": "Coniston Station",
+    "lat": "-34.4374548931",
+    "lon": "150.885529169",
     "productClass": [
       1
     ]
@@ -334218,6 +334110,15 @@
     ]
   },
   {
+    "id": "253010",
+    "name": "Kembla Grange Station",
+    "lat": "-34.4702183585",
+    "lon": "150.817340679",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "221710",
     "name": "Kogarah Station",
     "lat": "-33.9621493059",
@@ -334506,6 +334407,15 @@
     ]
   },
   {
+    "id": "253310",
+    "name": "Minnamurra Station",
+    "lat": "-34.625699757",
+    "lon": "150.85225749",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "214820",
     "name": "Marayong Station",
     "lat": "-33.7464511113",
@@ -334591,6 +334501,15 @@
     "name": "North Wollongong Station",
     "lat": "-34.4125932568",
     "lon": "150.891349169",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "252920",
+    "name": "Oak Flats Station",
+    "lat": "-34.572230751",
+    "lon": "150.82090794",
     "productClass": [
       1
     ]
@@ -334785,15 +334704,6 @@
     ]
   },
   {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "221620",
     "name": "Rockdale Station",
     "lat": "-33.9518802725",
@@ -334888,6 +334798,15 @@
     "name": "Sefton Station",
     "lat": "-33.8852361649",
     "lon": "151.011283338",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "2529218",
+    "name": "Shellharbour Junction Station",
+    "lat": "-34.5912",
+    "lon": "150.8448",
     "productClass": [
       1
     ]
@@ -335069,6 +334988,15 @@
     "name": "Towradgi Station",
     "lat": "-34.384686325",
     "lon": "150.901238888",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "252610",
+    "name": "Unanderra Station",
+    "lat": "-34.4544287823",
+    "lon": "150.846262892",
     "productClass": [
       1
     ]
