@@ -4204,6 +4204,15 @@
     ]
   },
   {
+    "id": "202076",
+    "name": "Sydney Domestic Airport, Keith Smith Ave",
+    "lat": "-33.93307",
+    "lon": "151.17845",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -4226,6 +4235,15 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202083",
+    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
+    "lat": "-33.935337",
+    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -4443,15 +4461,6 @@
     "name": "Oxford St opp Glenmore Rd",
     "lat": "-33.883753",
     "lon": "151.221656",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202156",
-    "name": "Moore Park Bus Interchange",
-    "lat": "-33.89071",
-    "lon": "151.22191",
     "productClass": [
       5
     ]
@@ -36739,15 +36748,6 @@
     ]
   },
   {
-    "id": "210096",
-    "name": "Allambie Rd opp Arnhem Rd",
-    "lat": "-33.756577",
-    "lon": "151.244817",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "210098",
     "name": "Allambie Rd after Rodborough Rd",
     "lat": "-33.754134",
@@ -49762,6 +49762,15 @@
     "name": "Holker St after Hill Rd",
     "lat": "-33.83408",
     "lon": "151.063569",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212799",
+    "name": "Dawn Fraser Ave before Park St",
+    "lat": "-33.846359",
+    "lon": "151.07127",
     "productClass": [
       5
     ]
@@ -87055,15 +87064,6 @@
     "name": "Princes Hwy opp Harrow Rd",
     "lat": "-33.959259",
     "lon": "151.138085",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "221650",
-    "name": "West Botany St opp Bruce St",
-    "lat": "-33.954932",
-    "lon": "151.147525",
     "productClass": [
       5
     ]
@@ -164222,15 +164222,6 @@
     "isParent": false
   },
   {
-    "id": "2021108",
-    "name": "Sydney Cricket Ground, Driver Ave",
-    "lat": "-33.89102",
-    "lon": "151.223485",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2023100",
     "name": "Victoria Rd opp Rivers St",
     "lat": "-33.882047",
@@ -167023,6 +167014,15 @@
     "name": "Chiswick Shops, Blackwall Pt Rd, Set Down",
     "lat": "-33.847836",
     "lon": "151.141237",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2060100",
+    "name": "Berry St at Miller St",
+    "lat": "-33.836719",
+    "lon": "151.206883",
     "productClass": [
       5
     ]
@@ -175933,7 +175933,7 @@
   },
   {
     "id": "2099205",
-    "name": "St Davids Ave at Pittwater Rd",
+    "name": "Saint David Ave at Pittwater Rd",
     "lat": "-33.752351",
     "lon": "151.286416",
     "productClass": [
@@ -275523,6 +275523,24 @@
     ]
   },
   {
+    "id": "2315170",
+    "name": "Government Rd after Shoal Bay Rd",
+    "lat": "-32.720486",
+    "lon": "152.172827",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2315171",
+    "name": "Government Rd before Shoal Bay Rd",
+    "lat": "-32.721138",
+    "lon": "152.17255",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2316100",
     "name": "Ocean Ave at Argyle Ave",
     "lat": "-32.7865",
@@ -301996,15 +302014,6 @@
     ]
   },
   {
-    "id": "2565646",
-    "name": "Ingleburn Rd opp Ingleburn Station",
-    "lat": "-33.997575",
-    "lon": "150.864973",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2565648",
     "name": "Campbelltown Rd opp Dickson Rd",
     "lat": "-33.984713",
@@ -308253,8 +308262,8 @@
   {
     "id": "2747158",
     "name": "Werrington County Shopping Village, Dunheved Rd",
-    "lat": "-33.746576",
-    "lon": "150.742826",
+    "lat": "-33.74642",
+    "lon": "150.7418",
     "productClass": [
       5
     ]
@@ -308505,8 +308514,8 @@
   {
     "id": "2747199",
     "name": "Dunheved Rd opp Werrington County Shopping Village",
-    "lat": "-33.746367",
-    "lon": "150.742755",
+    "lat": "-33.74622",
+    "lon": "150.74176",
     "productClass": [
       5
     ]
@@ -321056,16 +321065,6 @@
     "lon": "150.893334",
     "productClass": [
       5
-    ]
-  },
-  {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
     ]
   },
   {
@@ -334699,6 +334698,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
