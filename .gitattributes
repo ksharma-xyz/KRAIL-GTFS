@@ -1,0 +1,2 @@
+# Tell GitHub Linguist that .pb files are binary data (GTFS protobuf), not PureBasic
+*.pb binary linguist-detectable=false
