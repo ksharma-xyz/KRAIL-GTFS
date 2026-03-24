@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.3.0"
+    kotlin("jvm") version "2.3.20"
     id("org.jetbrains.kotlin.plugin.serialization") version "2.3.20"
     id("com.squareup.wire") version "5.5.1"
 }
