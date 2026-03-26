@@ -559,15 +559,6 @@
     ]
   },
   {
-    "id": "200088",
-    "name": "Darling Dr opp Convention Centre",
-    "lat": "-33.872503",
-    "lon": "151.198211",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200096",
     "name": "Bridge St at Gresham St",
     "lat": "-33.863625",
@@ -784,15 +775,6 @@
     ]
   },
   {
-    "id": "200914",
-    "name": "Convention Centre, Darling Dr",
-    "lat": "-33.872915",
-    "lon": "151.198343",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200916",
     "name": "Harris St at Pyrmont Bridge Rd",
     "lat": "-33.871078",
@@ -1004,6 +986,15 @@
     "name": "Bourke St before Burton St",
     "lat": "-33.878259",
     "lon": "151.217391",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "201019",
+    "name": "Prince Alfred Park Pool, Chalmers St",
+    "lat": "-33.887406",
+    "lon": "151.20649",
     "productClass": [
       5
     ]
@@ -2871,6 +2862,15 @@
     ]
   },
   {
+    "id": "201759",
+    "name": "Paul St before Geddes Ave",
+    "lat": "-33.9076",
+    "lon": "151.204838",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "201763",
     "name": "Phillip St opp PCYC South Sydney",
     "lat": "-33.896305",
@@ -4469,6 +4469,15 @@
     "name": "Oxford St opp Glenmore Rd",
     "lat": "-33.883753",
     "lon": "151.221656",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202156",
+    "name": "Moore Park Bus Interchange",
+    "lat": "-33.89071",
+    "lon": "151.22191",
     "productClass": [
       5
     ]
@@ -12676,7 +12685,7 @@
   },
   {
     "id": "204012",
-    "name": "Balmain Rd opp Sydney College of the Arts",
+    "name": "Balmain Rd before Cecily St",
     "lat": "-33.86646",
     "lon": "151.166135",
     "productClass": [
@@ -12964,7 +12973,7 @@
   },
   {
     "id": "204052",
-    "name": "Sydney College of the Arts, Balmain Rd",
+    "name": "Balmain Rd opp Cecily St",
     "lat": "-33.866487",
     "lon": "151.165865",
     "productClass": [
@@ -16502,15 +16511,6 @@
     ]
   },
   {
-    "id": "205748",
-    "name": "Fullers Rd at Sylvia St",
-    "lat": "-33.796577",
-    "lon": "151.170252",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "205749",
     "name": "Fullers Rd at Greville St",
     "lat": "-33.796919",
@@ -17416,6 +17416,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -19177,15 +19186,6 @@
     "name": "Ross Smith Pde after Matthews Ave",
     "lat": "-33.81498",
     "lon": "151.158377",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206650",
-    "name": "Burns Bay Rd at Garthowen Ave",
-    "lat": "-33.815195",
-    "lon": "151.156108",
     "productClass": [
       5
     ]
@@ -49534,23 +49534,13 @@
     ]
   },
   {
-    "id": "212766",
-    "name": "Sydney Olympic Park, Aquatic Terminal",
-    "lat": "-33.849733",
-    "lon": "151.068303",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212767",
-    "name": "Sydney Olympic Park, Aquatic Terminal, Stand 1B",
+    "name": "Sydney Olympic Park, Aquatic Terminal",
     "lat": "-33.850096",
     "lon": "151.068585",
     "productClass": [
       5
-    ],
-    "isParent": false
+    ]
   },
   {
     "id": "212769",
@@ -101807,15 +101797,6 @@
     ]
   },
   {
-    "id": "226030",
-    "name": "Scenic Hwy opp Ash St",
-    "lat": "-33.453242",
-    "lon": "151.447435",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "226031",
     "name": "Tramway Rd after Coast Rd",
     "lat": "-33.45381",
@@ -138723,8 +138704,8 @@
   {
     "id": "253022",
     "name": "Dapto Leagues Club, Bong Bong Rd",
-    "lat": "-34.49377",
-    "lon": "150.7924",
+    "lat": "-34.493752",
+    "lon": "150.792409",
     "productClass": [
       5
     ]
@@ -143264,6 +143245,15 @@
     "name": "Cumberland Rd after Minto Rd",
     "lat": "-34.015027",
     "lon": "150.859873",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256557",
+    "name": "Cumberland Rd before Sackville St",
+    "lat": "-34.012503",
+    "lon": "150.860614",
     "productClass": [
       5
     ]
@@ -158339,6 +158329,16 @@
     "isParent": false
   },
   {
+    "id": "2770380",
+    "name": "Mount Druitt Station, Stand J",
+    "lat": "-33.768683",
+    "lon": "150.820135",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "2770506",
     "name": "Mount Druitt Station, Stand F",
     "lat": "-33.768766",
@@ -160495,8 +160495,8 @@
   {
     "id": "277731",
     "name": "Homedale St after Springwood Ave",
-    "lat": "-33.702716",
-    "lon": "150.562563",
+    "lat": "-33.702329",
+    "lon": "150.562411",
     "productClass": [
       5
     ]
@@ -162007,8 +162007,8 @@
   {
     "id": "278057",
     "name": "Great Western Hwy opp Medlow Bath Station",
-    "lat": "-33.673697",
-    "lon": "150.280229",
+    "lat": "-33.674379",
+    "lon": "150.280574",
     "productClass": [
       5
     ]
@@ -163788,15 +163788,6 @@
     ]
   },
   {
-    "id": "2000109",
-    "name": "Exhibition Centre, Darling Dr",
-    "lat": "-33.877191",
-    "lon": "151.199977",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000111",
     "name": "Art Gallery of NSW, Art Gallery Rd",
     "lat": "-33.868581",
@@ -164057,15 +164048,6 @@
     "isParent": false
   },
   {
-    "id": "2000308",
-    "name": "Central Station, Forecourt, Coach Bay 4",
-    "lat": "-33.883273",
-    "lon": "151.204442",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000319",
     "name": "Wentworth Ave after Elizabeth St",
     "lat": "-33.878891",
@@ -164246,6 +164228,15 @@
       5
     ],
     "isParent": false
+  },
+  {
+    "id": "2021108",
+    "name": "Sydney Cricket Ground, Driver Ave",
+    "lat": "-33.89102",
+    "lon": "151.223485",
+    "productClass": [
+      5
+    ]
   },
   {
     "id": "2023100",
@@ -165035,13 +165026,43 @@
     "isParent": false
   },
   {
-    "id": "2031148",
+    "id": "2031193",
+    "name": "Randwick Boys High School, Avoca St, Stand L",
+    "lat": "-33.924586",
+    "lon": "151.239451",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "2031146",
     "name": "Randwick Girls High School, Avoca St",
+    "lat": "-33.922887",
+    "lon": "151.239843",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2031147",
+    "name": "Randwick Girls High School, Avoca St, Stand E",
+    "lat": "-33.922727",
+    "lon": "151.239886",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "2031148",
+    "name": "Randwick Girls High School, Avoca St, Stand D",
     "lat": "-33.922502",
     "lon": "151.23995",
     "productClass": [
       5
-    ]
+    ],
+    "isParent": false
   },
   {
     "id": "2031149",
@@ -167243,6 +167264,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167319,6 +167349,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -168356,15 +168404,6 @@
     "name": "Epping Rd before Johnston Cres",
     "lat": "-33.808559",
     "lon": "151.15534",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2066247",
-    "name": "Epping Rd after Fraser St",
-    "lat": "-33.809656",
-    "lon": "151.157946",
     "productClass": [
       5
     ]
@@ -175940,15 +175979,6 @@
     ]
   },
   {
-    "id": "2099208",
-    "name": "Pittwater Rd at Howard Ave",
-    "lat": "-33.752353",
-    "lon": "151.287304",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2099209",
     "name": "Truman Ave opp Truman Ave Shops",
     "lat": "-33.734461",
@@ -182449,15 +182479,6 @@
     "name": "Balaclava Rd opp Daughters of Charity",
     "lat": "-33.779088",
     "lon": "151.105286",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2122141",
-    "name": "Balaclava Rd after Epping Rd",
-    "lat": "-33.778571",
-    "lon": "151.106449",
     "productClass": [
       5
     ]
@@ -195097,15 +195118,6 @@
     ]
   },
   {
-    "id": "2148362",
-    "name": "Wall Park Ave opp Burnie St",
-    "lat": "-33.77596",
-    "lon": "150.921291",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2148363",
     "name": "Blacktown Hospital, Blacktown Rd",
     "lat": "-33.774687",
@@ -195137,15 +195149,6 @@
     "name": "Blacktown Rd before Baronta St",
     "lat": "-33.774999",
     "lon": "150.918313",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2148367",
-    "name": "Wall Park Ave at Burnie St",
-    "lat": "-33.77579",
-    "lon": "150.921428",
     "productClass": [
       5
     ]
@@ -248534,15 +248537,6 @@
     ]
   },
   {
-    "id": "2257342",
-    "name": "Mount Ettalong Rd opp Berrima Cres (Hail & Ride)",
-    "lat": "-33.534812",
-    "lon": "151.309745",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2257343",
     "name": "Sydney Ave at Adelaide Ave",
     "lat": "-33.522567",
@@ -295047,8 +295041,8 @@
   {
     "id": "2530139",
     "name": "Bong Bong Rd opp Dapto Leagues Club",
-    "lat": "-34.493917",
-    "lon": "150.792408",
+    "lat": "-34.493899",
+    "lon": "150.792452",
     "productClass": [
       5
     ]
@@ -302437,7 +302431,7 @@
   },
   {
     "id": "2566155",
-    "name": "Hansens Rd opp Ben Lomond Rd",
+    "name": "Hansens Rd after Ben Lomond Rd",
     "lat": "-34.044005",
     "lon": "150.862607",
     "productClass": [
@@ -309375,6 +309369,15 @@
     ]
   },
   {
+    "id": "2747352",
+    "name": "Park Ave opp Kingswood Station",
+    "lat": "-33.758279",
+    "lon": "150.72121",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2747354",
     "name": "Shane Park Rd after Palmyra Ave (Hail & Ride)",
     "lat": "-33.718536",
@@ -314275,7 +314278,7 @@
   },
   {
     "id": "2756173",
-    "name": "Berger Rd at Cardwell St",
+    "name": "Berger Rd at Caldwell St",
     "lat": "-33.631605",
     "lon": "150.809098",
     "productClass": [
@@ -329294,6 +329297,15 @@
     ]
   },
   {
+    "id": "278510",
+    "name": "Blackheath Station",
+    "lat": "-33.63288104",
+    "lon": "150.284345",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "27991",
     "name": "Blayney Station",
     "lat": "-33.527155",
@@ -333436,15 +333448,6 @@
     "name": "Berowra Station",
     "lat": "-33.6236572023",
     "lon": "151.152971085",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "278510",
-    "name": "Blackheath Station",
-    "lat": "-33.6328810405",
-    "lon": "150.284344986",
     "productClass": [
       1
     ]
