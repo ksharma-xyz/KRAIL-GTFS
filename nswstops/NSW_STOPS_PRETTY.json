@@ -16511,6 +16511,15 @@
     ]
   },
   {
+    "id": "205748",
+    "name": "Fullers Rd at Sylvia St",
+    "lat": "-33.796577",
+    "lon": "151.170252",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "205749",
     "name": "Fullers Rd at Greville St",
     "lat": "-33.796919",
@@ -17421,15 +17430,6 @@
     ]
   },
   {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -18124,7 +18124,7 @@
   },
   {
     "id": "206412",
-    "name": "Hampden Rd at Jersey Rd",
+    "name": "Hampden Rd opp Artarmon Station",
     "lat": "-33.809605",
     "lon": "151.185856",
     "productClass": [
@@ -18295,7 +18295,7 @@
   },
   {
     "id": "206444",
-    "name": "Artarmon Station, Hampden St",
+    "name": "Artarmon Station, Hampden Rd",
     "lat": "-33.808231",
     "lon": "151.183973",
     "productClass": [
@@ -19186,6 +19186,15 @@
     "name": "Ross Smith Pde after Matthews Ave",
     "lat": "-33.81498",
     "lon": "151.158377",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206650",
+    "name": "Burns Bay Rd at Garthowen Ave",
+    "lat": "-33.815195",
+    "lon": "151.156108",
     "productClass": [
       5
     ]
@@ -22762,24 +22771,6 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207182",
-    "name": "Killara Station, Culworth Ave",
-    "lat": "-33.765872",
-    "lon": "151.16175",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207183",
-    "name": "Culworth Ave opp Killara Station",
-    "lat": "-33.765815",
-    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -51327,15 +51318,6 @@
     ]
   },
   {
-    "id": "213275",
-    "name": "Paisley Rd after The Strand",
-    "lat": "-33.882846",
-    "lon": "151.114337",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "213311",
     "name": "Coronation Pde opp Tangarra St",
     "lat": "-33.894706",
@@ -55102,28 +55084,10 @@
     ]
   },
   {
-    "id": "214312",
-    "name": "Rookwood Rd opp Lewis St",
-    "lat": "-33.887447",
-    "lon": "151.039682",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214313",
     "name": "Rookwood Rd after William Holmes St",
     "lat": "-33.894285",
     "lon": "151.038048",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214314",
-    "name": "Rookwood Rd opp Chullora Industrial Estate",
-    "lat": "-33.889182",
-    "lon": "151.039076",
     "productClass": [
       5
     ]
@@ -118339,6 +118303,15 @@
     ]
   },
   {
+    "id": "230712",
+    "name": "163 Marsden St",
+    "lat": "-32.872596",
+    "lon": "151.686305",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "230713",
     "name": "Marton St at Sandgate Rd",
     "lat": "-32.879416",
@@ -118658,6 +118631,15 @@
     "name": "Bardia Rd before Sandgate Rd",
     "lat": "-32.887038",
     "lon": "151.695001",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "230754",
+    "name": "135 Marsden St",
+    "lat": "-32.872959",
+    "lon": "151.687429",
     "productClass": [
       5
     ]
@@ -126647,6 +126629,24 @@
     ]
   },
   {
+    "id": "232627",
+    "name": "72 Hart Rd",
+    "lat": "-32.799136",
+    "lon": "151.472607",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232628",
+    "name": "Rural Fire Service, Wollombi Rd",
+    "lat": "-32.746203",
+    "lon": "151.467201",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "232630",
     "name": "Hart Rd opp 72",
     "lat": "-32.799057",
@@ -126849,6 +126849,15 @@
     "name": "Old Maitland Rd opp James Lane",
     "lat": "-32.75473",
     "lon": "151.448038",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232673",
+    "name": "Old Maitland Rd after James Lane",
+    "lat": "-32.753576",
+    "lon": "151.448477",
     "productClass": [
       5
     ]
@@ -143250,15 +143259,6 @@
     ]
   },
   {
-    "id": "256557",
-    "name": "Cumberland Rd before Sackville St",
-    "lat": "-34.012503",
-    "lon": "150.860614",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "256558",
     "name": "Cumberland Rd at Sackville St",
     "lat": "-34.010789",
@@ -152960,7 +152960,7 @@
   },
   {
     "id": "276126",
-    "name": "Glendening Reserve, Richmond Rd",
+    "name": "Glendenning Reserve, Richmond Rd",
     "lat": "-33.738746",
     "lon": "150.857454",
     "productClass": [
@@ -152969,7 +152969,7 @@
   },
   {
     "id": "276127",
-    "name": "Richmond Rd opp Golding Dr",
+    "name": "Richmond Rd opp Glendenning Reserve",
     "lat": "-33.738651",
     "lon": "150.857787",
     "productClass": [
@@ -153626,7 +153626,7 @@
   },
   {
     "id": "276221",
-    "name": "Boundary Rd after Gordon Rd",
+    "name": "Boundary Rd before Gordon Rd",
     "lat": "-33.69313",
     "lon": "150.885706",
     "productClass": [
@@ -153842,7 +153842,7 @@
   },
   {
     "id": "276253",
-    "name": "Boundary Rd before Coffey St",
+    "name": "Boundary Rd after Coffey St",
     "lat": "-33.688166",
     "lon": "150.882554",
     "productClass": [
@@ -154301,7 +154301,7 @@
   },
   {
     "id": "276327",
-    "name": "Wilson Rd after Corinne St",
+    "name": "Pye Rd after Corinne St",
     "lat": "-33.731595",
     "lon": "150.906293",
     "productClass": [
@@ -154472,7 +154472,7 @@
   },
   {
     "id": "276346",
-    "name": "Wilson Rd opp Corinne St",
+    "name": "Pye Rd opp Corinne St",
     "lat": "-33.731571",
     "lon": "150.906123",
     "productClass": [
@@ -167066,15 +167066,6 @@
     ]
   },
   {
-    "id": "2060100",
-    "name": "Berry St at Miller St",
-    "lat": "-33.836719",
-    "lon": "151.206883",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065100",
     "name": "Brennan Park, King St",
     "lat": "-33.834166",
@@ -167264,15 +167255,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167349,24 +167331,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -168409,6 +168373,15 @@
     ]
   },
   {
+    "id": "2066247",
+    "name": "Epping Rd after Fraser St",
+    "lat": "-33.809656",
+    "lon": "151.157946",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2066248",
     "name": "Epping Rd at Munro St",
     "lat": "-33.810087",
@@ -168638,15 +168611,6 @@
     "name": "Railway St at Help St",
     "lat": "-33.795879",
     "lon": "151.180456",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2067137",
-    "name": "Victoria Ave opp Katherine St",
-    "lat": "-33.797403",
-    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -182484,6 +182448,15 @@
     ]
   },
   {
+    "id": "2122141",
+    "name": "Balaclava Rd after Epping Rd",
+    "lat": "-33.778571",
+    "lon": "151.106449",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2122142",
     "name": "Balaclava Rd before Epping Rd",
     "lat": "-33.777926",
@@ -185684,15 +185657,6 @@
     ]
   },
   {
-    "id": "2141166",
-    "name": "John St opp Hastings St",
-    "lat": "-33.850843",
-    "lon": "151.049563",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2141167",
     "name": "John St opp Frampton St",
     "lat": "-33.852183",
@@ -185724,15 +185688,6 @@
     "name": "Lidcombe Public School, John St",
     "lat": "-33.8608",
     "lon": "151.045138",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141172",
-    "name": "John St at Mary St",
-    "lat": "-33.862034",
-    "lon": "151.044853",
     "productClass": [
       5
     ]
@@ -185803,15 +185758,6 @@
     ]
   },
   {
-    "id": "2141181",
-    "name": "John St at Hastings St",
-    "lat": "-33.850842",
-    "lon": "151.049381",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2141182",
     "name": "John St before Parramatta Rd",
     "lat": "-33.84958",
@@ -185825,15 +185771,6 @@
     "name": "Parramatta Rd opp Alban St",
     "lat": "-33.846939",
     "lon": "151.045435",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141190",
-    "name": "Redyard Entertainment Centre, Parramatta Rd",
-    "lat": "-33.846487",
-    "lon": "151.04452",
     "productClass": [
       5
     ]
@@ -185969,15 +185906,6 @@
     "name": "Nottinghill Rd at Murray St",
     "lat": "-33.869256",
     "lon": "151.038844",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2141229",
-    "name": "East St opp University of Sydney Cumberland Campus, Gate 2",
-    "lat": "-33.881322",
-    "lon": "151.050309",
     "productClass": [
       5
     ]
@@ -187936,15 +187864,6 @@
     ]
   },
   {
-    "id": "2144167",
-    "name": "Parramatta Rd after Braemar Ave",
-    "lat": "-33.840782",
-    "lon": "151.034426",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2144168",
     "name": "Parramatta Rd after Kihilla Rd",
     "lat": "-33.840126",
@@ -188021,15 +187940,6 @@
     "name": "Parramatta Rd at Stubbs St",
     "lat": "-33.840965",
     "lon": "151.035338",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2144177",
-    "name": "Parramatta Rd opp Macquarie Rd",
-    "lat": "-33.841656",
-    "lon": "151.036915",
     "productClass": [
       5
     ]
@@ -195837,15 +195747,6 @@
     ]
   },
   {
-    "id": "2148544",
-    "name": "Clunies Ross St after Great Western Hwy",
-    "lat": "-33.806135",
-    "lon": "150.927685",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2148545",
     "name": "Doonside Rd after Holbeche Rd",
     "lat": "-33.787897",
@@ -196683,15 +196584,6 @@
     ]
   },
   {
-    "id": "2150387",
-    "name": "Hambledon Cottage Reserve, Hassall St",
-    "lat": "-33.818437",
-    "lon": "151.014229",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2150393",
     "name": "Harris Park Station, Station St East",
     "lat": "-33.821968",
@@ -197128,6 +197020,15 @@
     "name": "The Kings School, School Grounds, Ryrie Rd",
     "lat": "-33.786764",
     "lon": "151.025123",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2151162",
+    "name": "Albert St before Church St",
+    "lat": "-33.803425",
+    "lon": "151.00519",
     "productClass": [
       5
     ]
@@ -225637,15 +225538,6 @@
     "name": "Rookwood Rd before Brunker Rd",
     "lat": "-33.898176",
     "lon": "151.037589",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2199146",
-    "name": "Greyhound Social Club, Rookwood Rd",
-    "lat": "-33.896108",
-    "lon": "151.037683",
     "productClass": [
       5
     ]
@@ -275453,6 +275345,15 @@
     ]
   },
   {
+    "id": "2315158",
+    "name": "Tomaree Sports Field, Palmer Way",
+    "lat": "-32.737787",
+    "lon": "152.120599",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2315159",
     "name": "Tomaree St before Church St",
     "lat": "-32.72322",
@@ -308244,15 +308145,6 @@
     ]
   },
   {
-    "id": "2747160",
-    "name": "Rugby St before Charles Todd Cres",
-    "lat": "-33.748315",
-    "lon": "150.740182",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2747161",
     "name": "Rugby St opp Mawson Ct",
     "lat": "-33.748569",
@@ -308455,15 +308347,6 @@
     "name": "John Oxley Ave opp Eyre St",
     "lat": "-33.749972",
     "lon": "150.7454",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2747197",
-    "name": "Rugby St opp Charles Todd Cres",
-    "lat": "-33.748478",
-    "lon": "150.740396",
     "productClass": [
       5
     ]
