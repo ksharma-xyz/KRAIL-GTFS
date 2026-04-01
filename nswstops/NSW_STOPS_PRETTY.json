@@ -2871,6 +2871,15 @@
     ]
   },
   {
+    "id": "201760",
+    "name": "Green Square, Zetland Ave",
+    "lat": "-33.90731",
+    "lon": "151.20519",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "201763",
     "name": "Phillip St opp PCYC South Sydney",
     "lat": "-33.896305",
@@ -4212,15 +4221,6 @@
     ]
   },
   {
-    "id": "202076",
-    "name": "Sydney Domestic Airport, Keith Smith Ave",
-    "lat": "-33.93307",
-    "lon": "151.17845",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -4243,15 +4243,6 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "202083",
-    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
-    "lat": "-33.935337",
-    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -16511,15 +16502,6 @@
     ]
   },
   {
-    "id": "205748",
-    "name": "Fullers Rd at Sylvia St",
-    "lat": "-33.796577",
-    "lon": "151.170252",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "205749",
     "name": "Fullers Rd at Greville St",
     "lat": "-33.796919",
@@ -19186,15 +19168,6 @@
     "name": "Ross Smith Pde after Matthews Ave",
     "lat": "-33.81498",
     "lon": "151.158377",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206650",
-    "name": "Burns Bay Rd at Garthowen Ave",
-    "lat": "-33.815195",
-    "lon": "151.156108",
     "productClass": [
       5
     ]
@@ -55084,10 +55057,28 @@
     ]
   },
   {
+    "id": "214312",
+    "name": "Rookwood Rd opp Lewis St",
+    "lat": "-33.887447",
+    "lon": "151.039682",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "214313",
     "name": "Rookwood Rd after William Holmes St",
     "lat": "-33.894285",
     "lon": "151.038048",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214314",
+    "name": "Rookwood Rd opp Chullora Industrial Estate",
+    "lat": "-33.889182",
+    "lon": "151.039076",
     "productClass": [
       5
     ]
@@ -168373,15 +168364,6 @@
     ]
   },
   {
-    "id": "2066247",
-    "name": "Epping Rd after Fraser St",
-    "lat": "-33.809656",
-    "lon": "151.157946",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2066248",
     "name": "Epping Rd at Munro St",
     "lat": "-33.810087",
@@ -175218,6 +175200,15 @@
     "name": "McIntosh Rd at Vale Ave",
     "lat": "-33.750641",
     "lon": "151.282533",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2099118",
+    "name": "Fisher Rd before St David Ave",
+    "lat": "-33.75168",
+    "lon": "151.285249",
     "productClass": [
       5
     ]
@@ -182448,15 +182439,6 @@
     ]
   },
   {
-    "id": "2122141",
-    "name": "Balaclava Rd after Epping Rd",
-    "lat": "-33.778571",
-    "lon": "151.106449",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2122142",
     "name": "Balaclava Rd before Epping Rd",
     "lat": "-33.777926",
@@ -187864,6 +187846,15 @@
     ]
   },
   {
+    "id": "2144167",
+    "name": "Parramatta Rd after Braemar Ave",
+    "lat": "-33.840782",
+    "lon": "151.034426",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2144168",
     "name": "Parramatta Rd after Kihilla Rd",
     "lat": "-33.840126",
@@ -187940,6 +187931,15 @@
     "name": "Parramatta Rd at Stubbs St",
     "lat": "-33.840965",
     "lon": "151.035338",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2144177",
+    "name": "Parramatta Rd opp Macquarie Rd",
+    "lat": "-33.841656",
+    "lon": "151.036915",
     "productClass": [
       5
     ]
@@ -196579,6 +196579,15 @@
     "name": "Parkes St before Harris St",
     "lat": "-33.818828",
     "lon": "151.010626",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150387",
+    "name": "Hambledon Cottage Reserve, Hassall St",
+    "lat": "-33.818437",
+    "lon": "151.014229",
     "productClass": [
       5
     ]
