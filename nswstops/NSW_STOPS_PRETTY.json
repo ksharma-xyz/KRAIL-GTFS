@@ -2937,7 +2937,7 @@
   },
   {
     "id": "201760",
-    "name": "Green Square, Zetland Ave",
+    "name": "Zetland Ave at Paul St",
     "lat": "-33.90731",
     "lon": "151.20519",
     "productClass": [
@@ -19004,123 +19004,6 @@
     ]
   },
   {
-    "id": "206576",
-    "name": "St Vincents Rd at Kingslangley Rd",
-    "lat": "-33.826725",
-    "lon": "151.185908",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206577",
-    "name": "Kingslangley Rd opp Lansdowne St",
-    "lat": "-33.824753",
-    "lon": "151.183162",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206578",
-    "name": "Balfour St after Omar St",
-    "lat": "-33.823245",
-    "lon": "151.182375",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206579",
-    "name": "Ronald Ave before Crowther Ave",
-    "lat": "-33.821703",
-    "lon": "151.182585",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206580",
-    "name": "46 Ronald Ave",
-    "lat": "-33.819433",
-    "lon": "151.181811",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206581",
-    "name": "Ronald Ave opp Panorama Rd",
-    "lat": "-33.818837",
-    "lon": "151.180106",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206582",
-    "name": "35 Ronald Ave",
-    "lat": "-33.819751",
-    "lon": "151.182318",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206583",
-    "name": "Ronald Ave before Innes Rd",
-    "lat": "-33.82175",
-    "lon": "151.182766",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206584",
-    "name": "Innes Rd opp Crowther Ave",
-    "lat": "-33.822536",
-    "lon": "151.182618",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206585",
-    "name": "Balfour St after Innes Rd",
-    "lat": "-33.823268",
-    "lon": "151.182523",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206586",
-    "name": "Kingslangley Rd at Lansdowne St",
-    "lat": "-33.824587",
-    "lon": "151.183161",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206587",
-    "name": "Kingslangley Rd opp Greenwich Public School",
-    "lat": "-33.825425",
-    "lon": "151.184386",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206588",
-    "name": "Kingslangley Rd at St Vincents Rd",
-    "lat": "-33.826493",
-    "lon": "151.185918",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206590",
     "name": "Greenwich Rd at Bellevue Ave",
     "lat": "-33.825273",
@@ -19593,24 +19476,6 @@
     "name": "Lane Cove Aquatic Leisure Centre, Little St",
     "lat": "-33.814282",
     "lon": "151.1713",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206683",
-    "name": "Ronald Ave at Panorama Rd",
-    "lat": "-33.818867",
-    "lon": "151.179944",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206684",
-    "name": "Ronald Ave at Osborne Rd",
-    "lat": "-33.818599",
-    "lon": "151.178436",
     "productClass": [
       5
     ]
@@ -53976,6 +53841,15 @@
     ]
   },
   {
+    "id": "213879",
+    "name": "Blaxland Rd opp Rhodes Station",
+    "lat": "-33.830615",
+    "lon": "151.087496",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213896",
     "name": "Walker St opp Timbrol Ave",
     "lat": "-33.826938",
@@ -53998,6 +53872,15 @@
     "name": "Gauthorpe St opp Marquet St",
     "lat": "-33.828267",
     "lon": "151.085428",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214011",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866877",
+    "lon": "151.085865",
     "productClass": [
       5
     ]
@@ -54097,15 +53980,6 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214027",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866812",
-    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -54277,6 +54151,15 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214052",
+    "name": "The Crescent opp Flemington Station",
+    "lat": "-33.865328",
+    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -57493,8 +57376,8 @@
   {
     "id": "214710",
     "name": "Seven Hills Station",
-    "lat": "-33.774430434",
-    "lon": "150.936513359",
+    "lat": "-33.774383",
+    "lon": "150.936437",
     "productClass": [
       5,
       1
@@ -89283,6 +89166,16 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "2220123",
+    "name": "Hurstville Station, Ormonde Pde, Stand P",
+    "lat": "-33.968221",
+    "lon": "151.103413",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "2220333",
@@ -126120,8 +126013,8 @@
   {
     "id": "232524",
     "name": "Wollombi Rd before Francis St",
-    "lat": "-32.840934",
-    "lon": "151.33945",
+    "lat": "-32.841267",
+    "lon": "151.3388",
     "productClass": [
       5
     ]
@@ -126651,8 +126544,8 @@
   {
     "id": "232593",
     "name": "Wollombi Rd at Francis St",
-    "lat": "-32.840863",
-    "lon": "151.339253",
+    "lat": "-32.84114",
+    "lon": "151.33864",
     "productClass": [
       5
     ]
@@ -139910,6 +139803,15 @@
     ]
   },
   {
+    "id": "255619",
+    "name": "The Northern Rd after Belmore Rd",
+    "lat": "-33.948172",
+    "lon": "150.738024",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "255620",
     "name": "The Northern Rd after Bent Rd",
     "lat": "-33.949312",
@@ -139964,6 +139866,42 @@
     ]
   },
   {
+    "id": "255627",
+    "name": "The Northern Rd after Maryland Rd",
+    "lat": "-33.986085",
+    "lon": "150.733224",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255629",
+    "name": "The Northern Rd after Maryland Link Rd 2",
+    "lat": "-33.975856",
+    "lon": "150.73527",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255630",
+    "name": "The Northern Rd after Maryland Link Rd 3",
+    "lat": "-33.968476",
+    "lon": "150.737357",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255631",
+    "name": "The Northern Rd after Lowes Creek Link Rd",
+    "lat": "-33.957971",
+    "lon": "150.738385",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "255632",
     "name": "The Northern Rd after Bringelly Rd",
     "lat": "-33.939233",
@@ -139977,15 +139915,6 @@
     "name": "The Northern Rd after Badgerys Creek Rd",
     "lat": "-33.931074",
     "lon": "150.72758",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "255635",
-    "name": "The Northern Rd after Lowes Creek Link Rd",
-    "lat": "-33.959437",
-    "lon": "150.738713",
     "productClass": [
       5
     ]
@@ -159208,6 +159137,15 @@
     ]
   },
   {
+    "id": "277357",
+    "name": "Burfitt Pde opp Glenbrook Station",
+    "lat": "-33.769053",
+    "lon": "150.621795",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "277359",
     "name": "Mount St after Great Western Hwy",
     "lat": "-33.763593",
@@ -161885,6 +161823,15 @@
     "name": "Katoomba St before Waratah St",
     "lat": "-33.71666",
     "lon": "150.31119",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "278013",
+    "name": "Katoomba St at Goyder Ave",
+    "lat": "-33.724405",
+    "lon": "150.309638",
     "productClass": [
       5
     ]
@@ -185572,6 +185519,15 @@
     "name": "Gauthorpe St before Shoreline Dr",
     "lat": "-33.828075",
     "lon": "151.0839",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2138109",
+    "name": "Blaxland Rd opp Rhodes Station (Trackwork)",
+    "lat": "-33.830375",
+    "lon": "151.087548",
     "productClass": [
       5
     ]
@@ -228631,15 +228587,6 @@
     ]
   },
   {
-    "id": "2207214",
-    "name": "Forest Rd before Frederick St",
-    "lat": "-33.94543",
-    "lon": "151.128271",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2207215",
     "name": "St Mary and St Mina's Coptic Church, Broadford St",
     "lat": "-33.945707",
@@ -228878,6 +228825,24 @@
     "name": "Shaw St at Bexley Rd",
     "lat": "-33.938181",
     "lon": "151.113708",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
     "productClass": [
       5
     ]
@@ -233264,8 +233229,8 @@
   {
     "id": "2221151",
     "name": "West St after Lower West St",
-    "lat": "-33.980232",
-    "lon": "151.114019",
+    "lat": "-33.97946",
+    "lon": "151.11298",
     "productClass": [
       5
     ]
@@ -233817,6 +233782,15 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2226105",
+    "name": "Como Station, Como Pde",
+    "lat": "-34.004582",
+    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -275553,15 +275527,6 @@
     ]
   },
   {
-    "id": "2315158",
-    "name": "Tomaree Sports Field, Palmer Way",
-    "lat": "-32.737787",
-    "lon": "152.120599",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2315159",
     "name": "Tomaree St before Church St",
     "lat": "-32.72322",
@@ -283989,8 +283954,8 @@
   {
     "id": "2325145",
     "name": "Vincent St before Aberdare Rd",
-    "lat": "-32.839151",
-    "lon": "151.355556",
+    "lat": "-32.83899",
+    "lon": "151.35559",
     "productClass": [
       5
     ]
@@ -304123,6 +304088,15 @@
     ]
   },
   {
+    "id": "2567227",
+    "name": "Cobbitty Rd before Governor Dr",
+    "lat": "-34.014",
+    "lon": "150.72044",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2567259",
     "name": "Mount Annan Christian College",
     "lat": "-34.04945",
@@ -306814,24 +306788,6 @@
     ]
   },
   {
-    "id": "2570483",
-    "name": "The Northern Rd after Maryland Link Rd 3",
-    "lat": "-33.969953",
-    "lon": "150.737636",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2570484",
-    "name": "The Northern Rd after Maryland Link Rd 2",
-    "lat": "-33.977375",
-    "lon": "150.735696",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2570485",
     "name": "The Northern Rd after Peter Brock Dr",
     "lat": "-34.007078",
@@ -306854,6 +306810,15 @@
     "name": "Crookston Dr before Wire Ln",
     "lat": "-34.089867",
     "lon": "150.69357",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2570496",
+    "name": "Cobbitty Rd after Governor Dr",
+    "lat": "-34.01392",
+    "lon": "150.72049",
     "productClass": [
       5
     ]
@@ -308353,6 +308318,15 @@
     ]
   },
   {
+    "id": "2747160",
+    "name": "Rugby St before Charles Todd Cres",
+    "lat": "-33.748315",
+    "lon": "150.740182",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2747161",
     "name": "Rugby St opp Mawson Ct",
     "lat": "-33.748569",
@@ -308555,6 +308529,15 @@
     "name": "John Oxley Ave opp Eyre St",
     "lat": "-33.749972",
     "lon": "150.7454",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2747197",
+    "name": "Rugby St opp Charles Todd Cres",
+    "lat": "-33.748478",
+    "lon": "150.740396",
     "productClass": [
       5
     ]
@@ -321116,6 +321099,16 @@
     ]
   },
   {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -327714,6 +327707,15 @@
     ]
   },
   {
+    "id": "2777218",
+    "name": "Hawkesbury Rd after Macquarie Rd",
+    "lat": "-33.698716",
+    "lon": "150.571199",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2777219",
     "name": "Huntley Grange Rd after Frazer Rd",
     "lat": "-33.691803",
@@ -328155,6 +328157,15 @@
     ]
   },
   {
+    "id": "2780153",
+    "name": "St Canices Primary School, Lurline St",
+    "lat": "-33.71637",
+    "lon": "150.312338",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2780155",
     "name": "Blue Mountains Hospital, Great Western Hwy",
     "lat": "-33.70584",
@@ -328186,6 +328197,15 @@
     "name": "Gladstone Rd at Craigend St",
     "lat": "-33.716911",
     "lon": "150.341611",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780162",
+    "name": "Katoomba Station, Goldsmith Pl",
+    "lat": "-33.711841",
+    "lon": "150.312485",
     "productClass": [
       5
     ]
@@ -328339,6 +328359,15 @@
     "name": "Morven Gardens Centre, Morven Rd",
     "lat": "-33.713223",
     "lon": "150.343417",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780194",
+    "name": "Bathurst Rd at Katoomba St (Temporary Stop)",
+    "lat": "-33.712443",
+    "lon": "150.311355",
     "productClass": [
       5
     ]
@@ -334764,15 +334793,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]
