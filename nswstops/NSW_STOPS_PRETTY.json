@@ -53529,6 +53529,15 @@
     ]
   },
   {
+    "id": "213858",
+    "name": "Rhodes Station, Blaxland Rd",
+    "lat": "-33.830698",
+    "lon": "151.087315",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "213859",
     "name": "Rhodes Waterside, Rider Bvd",
     "lat": "-33.834262",
@@ -62654,6 +62663,15 @@
     "name": "Old Northern Rd before Cattai Ridge Rd",
     "lat": "-33.617319",
     "lon": "151.021076",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "215714",
+    "name": "892 Old Northern Rd",
+    "lat": "-33.612001",
+    "lon": "151.019532",
     "productClass": [
       5
     ]
@@ -73926,6 +73944,15 @@
     ]
   },
   {
+    "id": "217835",
+    "name": "Elizabeth Dr before Wallgrove Rd",
+    "lat": "-33.87514",
+    "lon": "150.83618",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "217912",
     "name": "Al Faisal College, School Grounds",
     "lat": "-33.911352",
@@ -84441,15 +84468,6 @@
     "name": "Alma Rd opp Wyatt Ave",
     "lat": "-33.961366",
     "lon": "151.030046",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "221160",
-    "name": "Alma Rd opp Harvey Ave",
-    "lat": "-33.961532",
-    "lon": "151.031285",
     "productClass": [
       5
     ]
@@ -128761,33 +128779,6 @@
     ]
   },
   {
-    "id": "233613",
-    "name": "Macqueen St opp Aberdeen Station",
-    "lat": "-32.166877",
-    "lon": "150.891551",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233619",
-    "name": "Aberdeen Station, Macqueen St",
-    "lat": "-32.166908",
-    "lon": "150.891782",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "233721",
-    "name": "Scone Station, Coach Stop",
-    "lat": "-32.046842",
-    "lon": "150.867091",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -163093,8 +163084,8 @@
   {
     "id": "278533",
     "name": "Hat Hill Rd at Wentworth St",
-    "lat": "-33.632439",
-    "lon": "150.286293",
+    "lat": "-33.632417",
+    "lon": "150.286408",
     "productClass": [
       5
     ]
@@ -166939,6 +166930,15 @@
     "name": "Chiswick Shops, Blackwall Pt Rd, Set Down",
     "lat": "-33.847836",
     "lon": "151.141237",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2046160",
+    "name": "Blackwell Pt Rd before Eaton Pl",
+    "lat": "-33.848197",
+    "lon": "151.141091",
     "productClass": [
       5
     ]
@@ -220244,6 +220244,15 @@
     ]
   },
   {
+    "id": "2171338",
+    "name": "Elizabeth Dr after Wallgrove Rd",
+    "lat": "-33.875507",
+    "lon": "150.83643",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2171371",
     "name": "Greenway Dr after Cowpasture Rd",
     "lat": "-33.935699",
@@ -230843,6 +230852,15 @@
     "name": "Bransgrove Rd at Presland Ave",
     "lat": "-33.9472",
     "lon": "151.0085",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2212167",
+    "name": "Milperra Rd at Ely St",
+    "lat": "-33.937",
+    "lon": "151.0136",
     "productClass": [
       5
     ]
@@ -307313,7 +307331,7 @@
   },
   {
     "id": "2745174",
-    "name": "Caroline Chisholm Girls High School, The Lakes Dr",
+    "name": "Caroline Chisholm College, The Lakes Dr",
     "lat": "-33.78466",
     "lon": "150.675234",
     "productClass": [
@@ -320257,8 +320275,8 @@
   {
     "id": "2765160",
     "name": "Terry Rd opp Homestead Centre",
-    "lat": "-33.658763",
-    "lon": "150.89609",
+    "lat": "-33.6592",
+    "lon": "150.89592",
     "productClass": [
       5
     ]
