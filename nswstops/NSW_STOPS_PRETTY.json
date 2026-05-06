@@ -2873,7 +2873,7 @@
   },
   {
     "id": "201760",
-    "name": "Zetland Ave at Paul St",
+    "name": "Green Square, Zetland Ave",
     "lat": "-33.90731",
     "lon": "151.20519",
     "productClass": [
@@ -17390,6 +17390,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -45895,6 +45904,33 @@
     ]
   },
   {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "212012",
     "name": "Pennant Hills Rd opp Mount St Benedict College",
     "lat": "-33.74029",
@@ -57126,8 +57162,8 @@
   {
     "id": "214710",
     "name": "Seven Hills Station",
-    "lat": "-33.774383",
-    "lon": "150.936437",
+    "lat": "-33.774430434",
+    "lon": "150.936513359",
     "productClass": [
       5,
       1
@@ -66346,6 +66382,15 @@
     "name": "Woodville Rd opp Kirrang Ave",
     "lat": "-33.885738",
     "lon": "150.975468",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
     "productClass": [
       5
     ]
@@ -106997,7 +107042,7 @@
   },
   {
     "id": "228146",
-    "name": "Nordswarf Public School, Marine Pde",
+    "name": "Nords Wharf Public School, Marine Pde",
     "lat": "-33.13533",
     "lon": "151.604014",
     "productClass": [
@@ -107060,7 +107105,7 @@
   },
   {
     "id": "228153",
-    "name": "Marine pde opp Nordswarf Public School",
+    "name": "Marine Pde opp Nords Wharf Public School",
     "lat": "-33.134768",
     "lon": "151.603993",
     "productClass": [
@@ -125680,42 +125725,6 @@
     ]
   },
   {
-    "id": "232525",
-    "name": "Wollombi Rd opp Desmond St",
-    "lat": "-32.842272",
-    "lon": "151.336906",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232526",
-    "name": "Wollombi Rd at Wangi Ave",
-    "lat": "-32.843043",
-    "lon": "151.335436",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232527",
-    "name": "Wollombi Rd after O'Neill St",
-    "lat": "-32.844076",
-    "lon": "151.333696",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232528",
-    "name": "Wollombi Rd at Lochinvar St",
-    "lat": "-32.845677",
-    "lon": "151.331529",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "232529",
     "name": "Wollombi Rd after Lochinvar St",
     "lat": "-32.846593",
@@ -126166,37 +126175,10 @@
     ]
   },
   {
-    "id": "232587",
-    "name": "Wollombi Rd before Victoria St",
-    "lat": "-32.848268",
-    "lon": "151.329306",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232588",
-    "name": "Wollombi Rd opp Lochinvar St",
-    "lat": "-32.846151",
-    "lon": "151.330754",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "232589",
     "name": "Wollombi Rd opp O'Neill St",
     "lat": "-32.843903",
     "lon": "151.333709",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "232591",
-    "name": "Wollombi Rd before Desmond St",
-    "lat": "-32.842332",
-    "lon": "151.336422",
     "productClass": [
       5
     ]
@@ -161469,6 +161451,24 @@
     ]
   },
   {
+    "id": "278018",
+    "name": "Katoomba St at Birdwood Ave",
+    "lat": "-33.727436",
+    "lon": "150.308871",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "278019",
+    "name": "Katoomba St opp Goyder Ave",
+    "lat": "-33.724461",
+    "lon": "150.309453",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "278021",
     "name": "Catalina Ave opp Katoomba Sports & Aquatic Centre",
     "lat": "-33.71569",
@@ -166997,6 +166997,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167073,6 +167082,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -180453,15 +180480,6 @@
     ]
   },
   {
-    "id": "2118176",
-    "name": "Cumberland High School, Dunmore Ave",
-    "lat": "-33.78477",
-    "lon": "151.0381",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2118177",
     "name": "Marshall Rd at Kenny Pl",
     "lat": "-33.785751",
@@ -180619,6 +180637,15 @@
     "name": "Oakes Rd opp Hillside Lane",
     "lat": "-33.761722",
     "lon": "151.04193",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2118252",
+    "name": "Cumberland High School, Dunmore Ave",
+    "lat": "-33.78547",
+    "lon": "151.0382",
     "productClass": [
       5
     ]
@@ -283296,15 +283323,6 @@
     ]
   },
   {
-    "id": "2325118",
-    "name": "O'Neill St at Wollombi Rd",
-    "lat": "-32.843297",
-    "lon": "151.33516",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2325119",
     "name": "Macquarie Ave at Wangi Ave",
     "lat": "-32.842209",
@@ -285856,15 +285874,6 @@
     "name": "Shedden St before Percy St",
     "lat": "-32.835629",
     "lon": "151.346161",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325485",
-    "name": "Francis St before Catherine St",
-    "lat": "-32.841356",
-    "lon": "151.339375",
     "productClass": [
       5
     ]
@@ -301204,15 +301213,6 @@
     "name": "Kingdon Pde at Wills Rd",
     "lat": "-34.016413",
     "lon": "150.898466",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2564127",
-    "name": "Atchison Rd after Saywell Rd",
-    "lat": "-33.989056",
-    "lon": "150.88264",
     "productClass": [
       5
     ]
@@ -327186,15 +327186,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -327888,6 +327879,15 @@
     ]
   },
   {
+    "id": "2780154",
+    "name": "Katoomba St opp Warialda St",
+    "lat": "-33.721384",
+    "lon": "150.310056",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2780155",
     "name": "Blue Mountains Hospital, Great Western Hwy",
     "lat": "-33.70584",
@@ -328108,6 +328108,15 @@
     "name": "Maple Grove Park, Katoomba Falls Rd",
     "lat": "-33.725264",
     "lon": "150.306882",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780207",
+    "name": "Katoomba Police Station, Katoomba St",
+    "lat": "-33.718634",
+    "lon": "150.310554",
     "productClass": [
       5
     ]
@@ -329631,15 +329640,6 @@
     "name": "Coffs Harbour Station",
     "lat": "-30.306303",
     "lon": "153.137838",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "2450752",
-    "name": "Coffs Harbour Coach Terminal",
-    "lat": "-30.298962",
-    "lon": "153.11185",
     "productClass": [
       1
     ]
