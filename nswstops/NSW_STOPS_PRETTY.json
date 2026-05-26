@@ -22795,6 +22795,24 @@
     ]
   },
   {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "207185",
     "name": "Werona Ave after Locksley St",
     "lat": "-33.76584",
@@ -38829,15 +38847,6 @@
     ]
   },
   {
-    "id": "210519",
-    "name": "141 McCarrs Creek Rd",
-    "lat": "-33.653899",
-    "lon": "151.281683",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "210520",
     "name": "167 McCarrs Creek Rd",
     "lat": "-33.654377",
@@ -41572,15 +41581,6 @@
     "name": "Victoria Rd at Belmore St",
     "lat": "-33.815556",
     "lon": "151.100758",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211234",
-    "name": "St John Paul Catholic Monastery, Victoria Rd",
-    "lat": "-33.81499",
-    "lon": "151.098607",
     "productClass": [
       5
     ]
@@ -54192,6 +54192,15 @@
     ]
   },
   {
+    "id": "214121",
+    "name": "Parramatta Rd at Frances St",
+    "lat": "-33.850098",
+    "lon": "151.052174",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "214124",
     "name": "Mons St after Parramatta Rd",
     "lat": "-33.853354",
@@ -66043,15 +66052,6 @@
     ]
   },
   {
-    "id": "216229",
-    "name": "Proctor Pde opp Veronica St",
-    "lat": "-33.88672",
-    "lon": "151.002615",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "216230",
     "name": "Proctor Pde opp Chester Hill Public School",
     "lat": "-33.886516",
@@ -72547,7 +72547,7 @@
   },
   {
     "id": "217497",
-    "name": "Croatia Ave at Norbis Rd",
+    "name": "Croatia Ave before Norbis Rd",
     "lat": "-33.961784",
     "lon": "150.864503",
     "productClass": [
@@ -72586,6 +72586,15 @@
     "name": "Lincoln Rd before Truman Rd",
     "lat": "-33.853413",
     "lon": "150.831869",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217516",
+    "name": "Johnston before Burley",
+    "lat": "-33.833878",
+    "lon": "150.82281",
     "productClass": [
       5
     ]
@@ -74709,6 +74718,52 @@
     ]
   },
   {
+    "id": "219014",
+    "name": "Rawson Rd at Action St",
+    "lat": "-33.901802",
+    "lon": "151.05014",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219015",
+    "name": "Hillcrest Ave after Boronia Rd",
+    "lat": "-33.906067",
+    "lon": "151.04799",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219016",
+    "name": "Rawson Rd at Lauma Ave",
+    "lat": "-33.90192",
+    "lon": "151.05194",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219017",
+    "name": "Greenacre Shops, Boronia Rd",
+    "lat": "-33.906578",
+    "lon": "151.05635",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2190246",
+    "name": "Greenacre Shops, Boronia Rd, Stand D",
+    "lat": "-33.90679",
+    "lon": "151.056802",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "219022",
     "name": "Greenacre Shops, Waterloo Rd",
     "lat": "-33.907883",
@@ -75380,6 +75435,69 @@
     "name": "Baltimore St opp Michael Ave",
     "lat": "-33.908974",
     "lon": "151.090168",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219138",
+    "name": "Baltimore St after Indiana Pl",
+    "lat": "-33.906062",
+    "lon": "151.088473",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219140",
+    "name": "Clarence St opp Rudd Park",
+    "lat": "-33.904023",
+    "lon": "151.089934",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219142",
+    "name": "Clarence St at First Ave",
+    "lat": "-33.902938",
+    "lon": "151.092694",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219144",
+    "name": "Rudd Park, First Ave",
+    "lat": "-33.904487",
+    "lon": "151.093353",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219145",
+    "name": "First Ave at Clarence St",
+    "lat": "-33.90325",
+    "lon": "151.092933",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219147",
+    "name": "Rudd Park, Clarence St",
+    "lat": "-33.904215",
+    "lon": "151.089798",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219149",
+    "name": "Baltimore St opp Indiana Pl",
+    "lat": "-33.90603",
+    "lon": "151.088624",
     "productClass": [
       5
     ]
@@ -76972,6 +77090,24 @@
     "name": "Bexley Rd opp Cross St",
     "lat": "-33.92049",
     "lon": "151.105922",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219473",
+    "name": "First Ave opp Rudd Park",
+    "lat": "-33.904637",
+    "lon": "151.093534",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "219474",
+    "name": "First Ave at Seventh Ave",
+    "lat": "-33.905968",
+    "lon": "151.093979",
     "productClass": [
       5
     ]
@@ -96962,6 +97098,24 @@
     "name": "Aquinas Catholic College, Menai Rd",
     "lat": "-34.017611",
     "lon": "151.02153",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "223454",
+    "name": "Menai Rd after Forestgrove Dr",
+    "lat": "-34.017938",
+    "lon": "151.018105",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "223455",
+    "name": "Menai Rd before Carter Rd",
+    "lat": "-34.017772",
+    "lon": "151.014514",
     "productClass": [
       5
     ]
@@ -128929,52 +129083,6 @@
     ]
   },
   {
-    "id": "242012",
-    "name": "Dungog Station, Coach Stop",
-    "lat": "-32.402645",
-    "lon": "151.759121",
-    "productClass": [
-      7
-    ]
-  },
-  {
-    "id": "242016",
-    "name": "Wallarobba Station",
-    "lat": "-32.496191",
-    "lon": "151.69561",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
-    "id": "242018",
-    "name": "Hilldale Station, Hilldale Rd",
-    "lat": "-32.50357",
-    "lon": "151.650426",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "242054",
-    "name": "Wirragulla Station, Dungog Rd",
-    "lat": "-32.462955",
-    "lon": "151.742394",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "242055",
-    "name": "Martins Creek Station, Grace Ave",
-    "lat": "-32.557389",
-    "lon": "151.617944",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "242116",
     "name": "Gresford Rd opp Torryburn Rd",
     "lat": "-32.467768",
@@ -142094,10 +142202,28 @@
     ]
   },
   {
+    "id": "256312",
+    "name": "Cummins Rd before Station Rd",
+    "lat": "-34.104001",
+    "lon": "150.749818",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "256313",
     "name": "Racecourse Rd opp Menangle Park Station",
     "lat": "-34.103349",
     "lon": "150.745382",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256314",
+    "name": "Menangle Park Station, Racecourse Ave",
+    "lat": "-34.103498",
+    "lon": "150.745245",
     "productClass": [
       5
     ]
@@ -142161,6 +142287,69 @@
     "name": "Cummins Rd after Station Rd",
     "lat": "-34.101997",
     "lon": "150.75069",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256352",
+    "name": "Danehill Ave after Doriemus Ave",
+    "lat": "-34.110861",
+    "lon": "150.749695",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256353",
+    "name": "Danehill Ave after Peter Pan St",
+    "lat": "-34.112003",
+    "lon": "150.752578",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256354",
+    "name": "Danehill Ave before Pater Pan St",
+    "lat": "-34.112167",
+    "lon": "150.75252",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256355",
+    "name": "Danehill Ave before Doriemus Ave",
+    "lat": "-34.11075",
+    "lon": "150.749473",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256356",
+    "name": "Miricle Mile Blvd before Eurythmic St",
+    "lat": "-34.105709",
+    "lon": "150.756246",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256358",
+    "name": "Cummings Rd after Station Rd",
+    "lat": "-34.104115",
+    "lon": "150.749914",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256360",
+    "name": "Miricle Mile Blvd after Eurithmic St",
+    "lat": "-34.105757",
+    "lon": "150.756443",
     "productClass": [
       5
     ]
@@ -145140,6 +145329,15 @@
     "name": "Cummings Rd at Quirks Lane",
     "lat": "-34.154346",
     "lon": "150.707",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256839",
+    "name": "Menangle Rd opp St Patrick's Catholic Church",
+    "lat": "-34.128135",
+    "lon": "150.738206",
     "productClass": [
       5
     ]
@@ -155377,7 +155575,7 @@
   },
   {
     "id": "276565",
-    "name": "Edwards Rd opp Longmeadow Pkwy",
+    "name": "Edwards Rd after Nelson Rd",
     "lat": "-33.660812",
     "lon": "150.91491",
     "productClass": [
@@ -157313,8 +157511,8 @@
   {
     "id": "276868",
     "name": "Glenwood Park Dr opp Silkyoak Cl",
-    "lat": "-33.738282",
-    "lon": "150.938228",
+    "lat": "-33.738205",
+    "lon": "150.938205",
     "productClass": [
       5
     ]
@@ -187373,15 +187571,6 @@
     ]
   },
   {
-    "id": "2142287",
-    "name": "Granville Station, Bridge St",
-    "lat": "-33.832341",
-    "lon": "151.011551",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142288",
     "name": "Halsall St at Woodville Rd",
     "lat": "-33.830578",
@@ -206242,15 +206431,6 @@
     ]
   },
   {
-    "id": "2160142",
-    "name": "Merrylands Rd at Railway Tce",
-    "lat": "-33.837054",
-    "lon": "150.992957",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2160143",
     "name": "Merrylands Rd after Ridge St",
     "lat": "-33.832682",
@@ -219679,8 +219859,8 @@
   {
     "id": "2171218",
     "name": "Seventh Ave opp Browns Ave",
-    "lat": "-33.942642",
-    "lon": "150.817479",
+    "lat": "-33.942585",
+    "lon": "150.8171",
     "productClass": [
       5
     ]
@@ -221091,9 +221271,9 @@
   },
   {
     "id": "2174100",
-    "name": "Croatia Ave after Poziers Rd",
-    "lat": "-33.963453",
-    "lon": "150.864621",
+    "name": "Croatia Ave before Dunkirk Rd",
+    "lat": "-33.96315",
+    "lon": "150.86461",
     "productClass": [
       5
     ]
@@ -223750,15 +223930,6 @@
     "name": "Hume Hwy at Rawson Rd",
     "lat": "-33.90138",
     "lon": "151.045282",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2190246",
-    "name": "Greenacre Shops, Boronia Rd",
-    "lat": "-33.90679",
-    "lon": "151.056802",
     "productClass": [
       5
     ]
@@ -238120,28 +238291,10 @@
     ]
   },
   {
-    "id": "2233262",
-    "name": "Engadine Station, Railway Pde",
-    "lat": "-34.067478",
-    "lon": "151.014839",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2233264",
-    "name": "Heathcote Station, Princes Hwy",
-    "lat": "-34.087582",
-    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -279157,15 +279310,6 @@
     ]
   },
   {
-    "id": "2320406",
-    "name": "Mindaribba Station Carpark, Tocal Rd",
-    "lat": "-32.667782",
-    "lon": "151.585275",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2320407",
     "name": "Abbot St at Tulloch Ln",
     "lat": "-32.74046",
@@ -301130,6 +301274,24 @@
     ]
   },
   {
+    "id": "2560647",
+    "name": "WSU Goldsmith Ave",
+    "lat": "-34.0704",
+    "lon": "150.79165",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560648",
+    "name": "Goldsmith Ave before Pegasus St",
+    "lat": "-34.07168",
+    "lon": "150.786868",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2560649",
     "name": "Kellerman Dr after St Helens Park Dr",
     "lat": "-34.104154",
@@ -301211,6 +301373,15 @@
     ]
   },
   {
+    "id": "2560663",
+    "name": "Goldsmith Ave before University Dr",
+    "lat": "-34.073311",
+    "lon": "150.783847",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2560664",
     "name": "O'Sullivan Rd opp Illawong Rd",
     "lat": "-34.054624",
@@ -301287,6 +301458,78 @@
     "name": "Farrow Rd after Blaxland Rd (Hail & Ride)",
     "lat": "-34.064533",
     "lon": "150.807585",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560684",
+    "name": "University Dr opp Claremont Park",
+    "lat": "-34.076432",
+    "lon": "150.780782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560685",
+    "name": "Poulton Tce at University Dr",
+    "lat": "-34.078799",
+    "lon": "150.779246",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560686",
+    "name": "Claremont Park University Dr",
+    "lat": "-34.076196",
+    "lon": "150.780989",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560687",
+    "name": "University Dr before Orion St",
+    "lat": "-34.073981",
+    "lon": "150.78316",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560688",
+    "name": "Main Ridge Park, University Dr",
+    "lat": "-34.070623",
+    "lon": "150.782547",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560689",
+    "name": "University Dr after Curie Rd",
+    "lat": "-34.06763",
+    "lon": "150.784185",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560690",
+    "name": "WSU at Pilgrim Ave",
+    "lat": "-34.069574",
+    "lon": "150.792776",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2560695",
+    "name": "Campbelltown Tafe, Goldsmith Ave",
+    "lat": "-34.069555",
+    "lon": "150.79833",
     "productClass": [
       5
     ]
@@ -323498,8 +323741,8 @@
   {
     "id": "2768102",
     "name": "Stanhope Pkwy opp Stanhope Village Shopping Centre",
-    "lat": "-33.717633",
-    "lon": "150.919891",
+    "lat": "-33.717631",
+    "lon": "150.920116",
     "productClass": [
       5
     ]
@@ -332299,6 +332542,15 @@
     "lon": "148.1176234",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "242020",
+    "name": "Wallarobba Station",
+    "lat": "-32.496118",
+    "lon": "151.695624",
+    "productClass": [
+      1
     ]
   },
   {
