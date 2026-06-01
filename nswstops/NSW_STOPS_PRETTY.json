@@ -77761,18 +77761,9 @@
   },
   {
     "id": "219622",
-    "name": "Ron Pate Training Centre, Leslie St",
+    "name": "Leslie St before Legge St",
     "lat": "-33.930088",
     "lon": "151.0869",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219623",
-    "name": "Leslie St before Legge St",
-    "lat": "-33.93055",
-    "lon": "151.08554",
     "productClass": [
       5
     ]
@@ -248654,6 +248645,15 @@
     ]
   },
   {
+    "id": "2257342",
+    "name": "Mount Ettalong Rd opp Berrima Cres (Hail & Ride)",
+    "lat": "-33.534812",
+    "lon": "151.309745",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2257343",
     "name": "Sydney Ave at Adelaide Ave",
     "lat": "-33.522567",
@@ -301540,7 +301540,7 @@
   },
   {
     "id": "2560690",
-    "name": "WSU at Pilgrim Ave",
+    "name": "Western Sydney University, David Pilgrim Ave",
     "lat": "-34.069574",
     "lon": "150.792776",
     "productClass": [
@@ -309751,15 +309751,6 @@
     "name": "Kingswood Station, Park Ave",
     "lat": "-33.758347",
     "lon": "150.721003",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2747352",
-    "name": "Park Ave opp Kingswood Station",
-    "lat": "-33.758279",
-    "lon": "150.72121",
     "productClass": [
       5
     ]
@@ -321418,6 +321409,16 @@
     "lon": "150.893334",
     "productClass": [
       5
+    ]
+  },
+  {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
     ]
   },
   {
@@ -335123,15 +335124,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]

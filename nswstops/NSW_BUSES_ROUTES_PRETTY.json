@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-05-31T13:36:49.972409368Z",
+  "generated_at": "2026-06-01T15:08:00.929801893Z",
   "routes": {
     "160": [
       {
@@ -16029,7 +16029,7 @@
         "route_name": "Cromer Heights to Warringah Mall",
         "trips": [
           {
-            "trip_id": "2392542",
+            "trip_id": "2626691",
             "headsign": "Cromer Heights to Warringah Mall",
             "stop_ids": [
               "2099210",
@@ -16055,7 +16055,7 @@
               "2099115",
               "2099116",
               "2099117",
-              "2099205",
+              "2099118",
               "209922",
               "209923",
               "210021",
@@ -16317,7 +16317,7 @@
             ]
           },
           {
-            "trip_id": "2392541",
+            "trip_id": "2626696",
             "headsign": "Wheeler Heights to Warringah Mall",
             "stop_ids": [
               "209768",
@@ -16347,7 +16347,7 @@
               "2099115",
               "2099116",
               "2099117",
-              "2099205",
+              "2099118",
               "209922",
               "209923",
               "210021",
@@ -22966,7 +22966,7 @@
         "route_name": "Terrigal PS to Brunswick Rd before Terrigal Dr",
         "trips": [
           {
-            "trip_id": "2560210",
+            "trip_id": "2664181",
             "headsign": "Terrigal PS to Brunswick Rd before Terrigal Dr",
             "stop_ids": [
               "2260470",
@@ -23698,7 +23698,7 @@
         "route_name": "St Phillips College to Copacabana Dr at Cullens Rd via Avoca Beach",
         "trips": [
           {
-            "trip_id": "2186633",
+            "trip_id": "2663983",
             "headsign": "St Phillips College to Copacabana Dr at Cullens Rd via Avoca Beach",
             "stop_ids": [
               "2250683",
@@ -23850,7 +23850,7 @@
         "route_name": "Woy Woy Station to Kincumber PS via Bensville",
         "trips": [
           {
-            "trip_id": "2186037",
+            "trip_id": "2664033",
             "headsign": "Woy Woy Station to Kincumber PS via Bensville",
             "stop_ids": [
               "2256477",
@@ -24422,7 +24422,7 @@
         "route_name": "Central Coast Grammar School to Copacabana via Avoca Beach",
         "trips": [
           {
-            "trip_id": "2187133",
+            "trip_id": "2664171",
             "headsign": "Central Coast Grammar School to Copacabana via Avoca Beach",
             "stop_ids": [
               "2250668",
@@ -25450,7 +25450,7 @@
         "route_name": "The Croft Annex to Woy Woy Station via Umina Beach",
         "trips": [
           {
-            "trip_id": "2387421",
+            "trip_id": "2664114",
             "headsign": "The Croft Annex to Woy Woy Station via Umina Beach",
             "stop_ids": [
               "225749",
@@ -27040,7 +27040,7 @@
         "route_name": "Brisbane Waters College, Woy Woy to Castle Cct",
         "trips": [
           {
-            "trip_id": "2187786",
+            "trip_id": "2664108",
             "headsign": "Brisbane Waters College, Woy Woy to Castle Cct",
             "stop_ids": [
               "2256441",
@@ -27433,7 +27433,7 @@
         "route_name": "St Edwards & St Josephs College to Castle Cct",
         "trips": [
           {
-            "trip_id": "2413875",
+            "trip_id": "2664148",
             "headsign": "St Edwards & St Josephs College to Castle Cct",
             "stop_ids": [
               "2250661",
@@ -27666,7 +27666,7 @@
         "route_name": "Lisarow HS to Ourimbah PS",
         "trips": [
           {
-            "trip_id": "2295449",
+            "trip_id": "2664184",
             "headsign": "Lisarow HS to Ourimbah PS",
             "stop_ids": [
               "2250678",
@@ -27997,7 +27997,7 @@
         "route_name": "Kincumber PS to Kincumber Church via Kildare St",
         "trips": [
           {
-            "trip_id": "2187339",
+            "trip_id": "2664172",
             "headsign": "Kincumber PS to Kincumber Church via Kildare St",
             "stop_ids": [
               "2251346",
@@ -71632,7 +71632,7 @@
         "route_name": "Spencer to Gosford",
         "trips": [
           {
-            "trip_id": "2413820",
+            "trip_id": "2664155",
             "headsign": "Gosford to Spencer",
             "stop_ids": [
               "225087",
@@ -71682,7 +71682,7 @@
             ]
           },
           {
-            "trip_id": "2414136",
+            "trip_id": "2664069",
             "headsign": "Spencer to Gosford",
             "stop_ids": [
               "277513",
@@ -72677,7 +72677,7 @@
         "route_name": "Tuggerah to Gosford via Lisarow",
         "trips": [
           {
-            "trip_id": "2295441",
+            "trip_id": "2664042",
             "headsign": "Gosford to Tuggerah via Lisarow",
             "stop_ids": [
               "225087",
@@ -74994,7 +74994,7 @@
             ]
           },
           {
-            "trip_id": "2413886",
+            "trip_id": "2664015",
             "headsign": "Wagstaffe to Gosford via Macmasters Beach & Kincumber",
             "stop_ids": [
               "2257243",
@@ -143765,7 +143765,7 @@
         "route_name": "St Marys School to Blacksmiths",
         "trips": [
           {
-            "trip_id": "2245831",
+            "trip_id": "2303286",
             "headsign": "St. Marys High, Gateshead to Soldiers Rd & Karog St",
             "stop_ids": [
               "229034",
@@ -148270,11 +148270,12 @@
         "route_name": "Springs Rd after George Downes Dr to to Central Coast Adventist",
         "trips": [
           {
-            "trip_id": "2449403",
+            "trip_id": "2664038",
             "headsign": "Springs Rd after George Downes Dr to to Central Coast Adventist",
             "stop_ids": [
               "2250673",
               "2250330",
+              "2250716",
               "2250661",
               "2250659",
               "2250668",
@@ -149336,7 +149337,7 @@
         "route_name": "Wisemans Ferry Rd Opp Berecry Rd to Kariong Mountains HS",
         "trips": [
           {
-            "trip_id": "2187915",
+            "trip_id": "2664139",
             "headsign": "Wisemans Ferry Rd Opp Berecry Rd to Kariong Mountains HS",
             "stop_ids": [
               "2250322",
@@ -149461,7 +149462,7 @@
         "route_name": "Cape Three Points Rd to St Patricks PS",
         "trips": [
           {
-            "trip_id": "2187864",
+            "trip_id": "2664098",
             "headsign": "Cape Three Points Rd to St Patricks PS",
             "stop_ids": [
               "2251137",
@@ -149598,7 +149599,7 @@
         "route_name": "Castle Cct to Umina PS",
         "trips": [
           {
-            "trip_id": "2187415",
+            "trip_id": "2664125",
             "headsign": "Castle Cct to Umina PS",
             "stop_ids": [
               "225727",
@@ -149828,7 +149829,7 @@
         "route_name": "Cape Three Points Rd to Terrigal PS",
         "trips": [
           {
-            "trip_id": "2449398",
+            "trip_id": "2664110",
             "headsign": "Cape Three Points Rd to Terrigal PS",
             "stop_ids": [
               "2251137",
@@ -150684,7 +150685,7 @@
         "route_name": "Kincumber PS to Central Coast Grammar School",
         "trips": [
           {
-            "trip_id": "2470043",
+            "trip_id": "2664053",
             "headsign": "Kincumber PS to Central Coast Grammar School",
             "stop_ids": [
               "2251269",
@@ -150839,7 +150840,7 @@
         "route_name": "Bradleys Rd to Central Coast Grammar School",
         "trips": [
           {
-            "trip_id": "2560339",
+            "trip_id": "2663996",
             "headsign": "Bradleys Rd to Central Coast Grammar School",
             "stop_ids": [
               "226049",
@@ -151767,7 +151768,7 @@
         "route_name": "Kincumber PS to Green Point College",
         "trips": [
           {
-            "trip_id": "2560209",
+            "trip_id": "2664115",
             "headsign": "Kincumber PS to Green Point College",
             "stop_ids": [
               "2251269",
@@ -152141,7 +152142,7 @@
         "route_name": "Woy Woy Station to St Philips College",
         "trips": [
           {
-            "trip_id": "2413982",
+            "trip_id": "2664020",
             "headsign": "Woy Woy Station to St Philips College",
             "stop_ids": [
               "2256477",
@@ -152434,7 +152435,7 @@
         "route_name": "Chico St to Kincumber HS",
         "trips": [
           {
-            "trip_id": "2187653",
+            "trip_id": "2664123",
             "headsign": "Chico St to Kincumber HS",
             "stop_ids": [
               "2251138",
@@ -152733,7 +152734,7 @@
         "route_name": "St Huberts Island to Kincumber HS",
         "trips": [
           {
-            "trip_id": "2187534",
+            "trip_id": "2663987",
             "headsign": "St Huberts Island to Kincumber HS",
             "stop_ids": [
               "2257194",
@@ -153099,7 +153100,7 @@
         "route_name": "Cape Three Points Rd to Kincumber HS",
         "trips": [
           {
-            "trip_id": "2187739",
+            "trip_id": "2664164",
             "headsign": "Cape Three Points Rd to Kincumber HS",
             "stop_ids": [
               "2251137",
@@ -153312,7 +153313,7 @@
         "route_name": "Wisemans Ferry Rd at Berecry Rd to St Patricks PS",
         "trips": [
           {
-            "trip_id": "2414034",
+            "trip_id": "2663978",
             "headsign": "Wisemans Ferry Rd at Berecry Rd to St Patricks PS",
             "stop_ids": [
               "2250322",
@@ -153652,7 +153653,7 @@
         "route_name": "Del Monte Pl at Pampas Av to Kincumber HS",
         "trips": [
           {
-            "trip_id": "2187748",
+            "trip_id": "2664027",
             "headsign": "Del Monte Pl at Pampas Av to Kincumber HS",
             "stop_ids": [
               "2251138",
@@ -169690,7 +169691,7 @@
         "route_name": "Swansea to Belmont High",
         "trips": [
           {
-            "trip_id": "2245496",
+            "trip_id": "2664764",
             "headsign": "Belmont High School to Swansea Heads",
             "stop_ids": [
               "2280246",
@@ -169704,6 +169705,10 @@
               "228045",
               "228046",
               "228047",
+              "2280294",
+              "2280295",
+              "2280296",
+              "2280297",
               "228048",
               "228049",
               "228125",
@@ -190639,7 +190644,7 @@
         "route_name": "Cape Three Points Rd to Gosford Station via Erina",
         "trips": [
           {
-            "trip_id": "2187629",
+            "trip_id": "2664178",
             "headsign": "Cape Three Points Rd to Gosford Station via Erina",
             "stop_ids": [
               "2251137",
@@ -190877,7 +190882,7 @@
         "route_name": "Woy Woy Station to Point Clare PS",
         "trips": [
           {
-            "trip_id": "2565391",
+            "trip_id": "2664146",
             "headsign": "Woy Woy Station to Point Clare PS",
             "stop_ids": [
               "2256477",
@@ -191790,7 +191795,7 @@
         "route_name": "Niagara Park PS to Ourimbah PS",
         "trips": [
           {
-            "trip_id": "2295463",
+            "trip_id": "2664112",
             "headsign": "Niagara Park PS to Ourimbah PS",
             "stop_ids": [
               "2250124",
@@ -192177,7 +192182,7 @@
         "route_name": "Kildare St to St Edwards & St Josephs College",
         "trips": [
           {
-            "trip_id": "2188209",
+            "trip_id": "2664096",
             "headsign": "Kildare St to St Edwards & St Josephs College",
             "stop_ids": [
               "225197",
@@ -192602,7 +192607,7 @@
         "route_name": "Wagstaffe PO to Green Point Shops",
         "trips": [
           {
-            "trip_id": "2187098",
+            "trip_id": "2664011",
             "headsign": "Wagstaffe PO to Green Point Shops",
             "stop_ids": [
               "2257243",
@@ -194973,7 +194978,7 @@
         "route_name": "Somersby PS to Kariong",
         "trips": [
           {
-            "trip_id": "2188121",
+            "trip_id": "2664167",
             "headsign": "Somersby PS to Kariong",
             "stop_ids": [
               "2250716",
@@ -195042,7 +195047,7 @@
         "route_name": "Narara Valley HS to Ourimbah PS",
         "trips": [
           {
-            "trip_id": "2295398",
+            "trip_id": "2664048",
             "headsign": "Narara Valley HS to Ourimbah PS",
             "stop_ids": [
               "2250682",
@@ -195324,7 +195329,7 @@
         "route_name": "St Patricks PS to Cullens Rd before The Scenic Rd via Avoca Beach",
         "trips": [
           {
-            "trip_id": "2186154",
+            "trip_id": "2664175",
             "headsign": "St Patricks PS to Cullens Rd before The Scenic Rd via Avoca Beach",
             "stop_ids": [
               "2250776",
@@ -195766,7 +195771,7 @@
         "route_name": "Ettalong PS to Ettalong Memorial Club, Ocean View Rd via Umina Beach",
         "trips": [
           {
-            "trip_id": "2186494",
+            "trip_id": "2664133",
             "headsign": "Ettalong PS to Ettalong Memorial Club, Ocean View Rd via Umina Beach",
             "stop_ids": [
               "2257119",
@@ -196709,7 +196714,7 @@
         "route_name": "St Patricks PS to Pacific Hwy opp Burns Rd",
         "trips": [
           {
-            "trip_id": "2295342",
+            "trip_id": "2664097",
             "headsign": "St Patricks PS to Pacific Hwy opp Burns Rd",
             "stop_ids": [
               "2250776",
@@ -198391,7 +198396,7 @@
         "route_name": "Kincumber HS to Terrigal Dr before Duffys Rd",
         "trips": [
           {
-            "trip_id": "2401462",
+            "trip_id": "2664072",
             "headsign": "Kincumber HS to Terrigal Dr before Duffys Rd",
             "stop_ids": [
               "2251342",
@@ -198742,7 +198747,7 @@
         "route_name": "Wyoming PS to Old Maitland Rd at Preston Rd",
         "trips": [
           {
-            "trip_id": "2560239",
+            "trip_id": "2664170",
             "headsign": "Wyoming PS to Old Maitland Rd at Preston Rd",
             "stop_ids": [
               "2250230",
@@ -199029,7 +199034,7 @@
         "route_name": "The Croft Annex to Kincumber PS via Woy Woy Station & St Hurberts Island",
         "trips": [
           {
-            "trip_id": "2186097",
+            "trip_id": "2664059",
             "headsign": "The Croft Annex to Kincumber PS via Woy Woy Station & St Hurberts Island",
             "stop_ids": [
               "225749",
@@ -199664,7 +199669,7 @@
         "route_name": "Lisarow HS to Ourimbah PS",
         "trips": [
           {
-            "trip_id": "2295489",
+            "trip_id": "2664003",
             "headsign": "Lisarow HS to Ourimbah PS",
             "stop_ids": [
               "2250678",
@@ -200404,7 +200409,7 @@
         "route_name": "Brisbane Waters College, Umina to Kincumber Shops",
         "trips": [
           {
-            "trip_id": "2187362",
+            "trip_id": "2664032",
             "headsign": "Brisbane Waters College, Umina to Kincumber Shops",
             "stop_ids": [
               "225749",
@@ -226630,7 +226635,7 @@
         "route_name": "Swansea Heads to Newcastle West via Adamstown & Newcastle Interchange",
         "trips": [
           {
-            "trip_id": "2457516",
+            "trip_id": "2664772",
             "headsign": "Newcastle West to Swansea Heads via Adamstown & Newcastle Interchange",
             "stop_ids": [
               "230248",
@@ -230970,7 +230975,7 @@
         "route_name": "Anzac Park Public School, Cammeray to St Leonards Station",
         "trips": [
           {
-            "trip_id": "2555552",
+            "trip_id": "2664755",
             "headsign": "Anzac Park Public School, Cammeray to St Leonards Station",
             "stop_ids": [
               "206232",
@@ -230980,6 +230985,7 @@
               "2065108",
               "2065109",
               "206524",
+              "206530",
               "206521"
             ]
           }
@@ -233868,10 +233874,11 @@
         "route_name": "St Gerard's Catholic Primary School, Carlingford to Beecroft Station",
         "trips": [
           {
-            "trip_id": "1897394",
+            "trip_id": "2664754",
             "headsign": "St Gerard's Catholic Primary School, Carlingford to Beecroft Station",
             "stop_ids": [
               "2118194",
+              "2118164",
               "2118195",
               "211814",
               "211816",
@@ -237353,7 +237360,7 @@
             ]
           },
           {
-            "trip_id": "2597741",
+            "trip_id": "2652754",
             "headsign": "Mona Vale to McCarrs Creek",
             "stop_ids": [
               "210323",
@@ -281797,7 +281804,7 @@
         "route_name": "Copacabana Dr to Holy Cross PS via Cullens Rd",
         "trips": [
           {
-            "trip_id": "2186311",
+            "trip_id": "2664026",
             "headsign": "Copacabana Dr to Holy Cross PS via Cullens Rd",
             "stop_ids": [
               "2251138",
@@ -281868,7 +281875,7 @@
         "route_name": "Castle Cct to Woy Woy South PS",
         "trips": [
           {
-            "trip_id": "2186931",
+            "trip_id": "2664080",
             "headsign": "Castle Cct to Woy Woy South PS",
             "stop_ids": [
               "225727",
@@ -282080,7 +282087,7 @@
         "route_name": "Castle Cct to Brisbane Waters College, Woy Woy",
         "trips": [
           {
-            "trip_id": "2186424",
+            "trip_id": "2664001",
             "headsign": "Castle Cct to Brisbane Waters College, Woy Woy",
             "stop_ids": [
               "225727",
@@ -282223,7 +282230,7 @@
         "route_name": "Terrigal PS to Erina Heights PS",
         "trips": [
           {
-            "trip_id": "2560307",
+            "trip_id": "2664002",
             "headsign": "Terrigal PS to Erina Heights PS",
             "stop_ids": [
               "2260470",
@@ -282342,7 +282349,7 @@
         "route_name": "Kincumber PS to Copacabana PS",
         "trips": [
           {
-            "trip_id": "2449408",
+            "trip_id": "2663990",
             "headsign": "Kincumber PS to Copacabana PS",
             "stop_ids": [
               "2251287",
@@ -282370,7 +282377,7 @@
         "route_name": "Koolewong Station to St Patricks PS",
         "trips": [
           {
-            "trip_id": "2565313",
+            "trip_id": "2664058",
             "headsign": "Koolewong Station to St Patricks PS",
             "stop_ids": [
               "225621",
@@ -282586,7 +282593,7 @@
         "route_name": "59 The Rampart Before Castle Cct to St Edwards Brothers College",
         "trips": [
           {
-            "trip_id": "2414049",
+            "trip_id": "2664065",
             "headsign": "59 The Rampart Before Castle Cct to St Edwards Brothers College",
             "stop_ids": [
               "225727",
@@ -282647,7 +282654,7 @@
         "route_name": "Woy Woy Station to Holy Cross PS via St Huberts Island",
         "trips": [
           {
-            "trip_id": "2188030",
+            "trip_id": "2664016",
             "headsign": "Woy Woy Station to Holy Cross PS via St Huberts Island",
             "stop_ids": [
               "2256477",
@@ -284422,7 +284429,7 @@
         "route_name": "Copacabana PS to Kincumber HS",
         "trips": [
           {
-            "trip_id": "2185897",
+            "trip_id": "2664122",
             "headsign": "Copacabana PS to Kincumber HS",
             "stop_ids": [
               "2251140",
@@ -284453,7 +284460,7 @@
         "route_name": "Kincumber HS to Cape Three Points opp Cullens Rd via Avoca Beach",
         "trips": [
           {
-            "trip_id": "2187223",
+            "trip_id": "2664067",
             "headsign": "Kincumber HS to Cape Three Points opp Cullens Rd via Avoca Beach",
             "stop_ids": [
               "2251342",
@@ -284708,7 +284715,7 @@
         "route_name": "Avoca Beach PS to Kincumber PS",
         "trips": [
           {
-            "trip_id": "2186412",
+            "trip_id": "2663980",
             "headsign": "Avoca Beach PS to Kincumber PS",
             "stop_ids": [
               "2251146",
@@ -286750,7 +286757,7 @@
         "route_name": "Mangrove Mountain to Gosford via Kariong",
         "trips": [
           {
-            "trip_id": "2413927",
+            "trip_id": "2664120",
             "headsign": "Mangrove Mountain to Gosford via Kariong",
             "stop_ids": [
               "2250715",
@@ -286824,7 +286831,7 @@
         "route_name": "Gosford to Somersby industrial Estate and Kariong (Loop Service)",
         "trips": [
           {
-            "trip_id": "2413811",
+            "trip_id": "2664173",
             "headsign": "Gosford to Somersby industrial Estate and Kariong (Loop Service)",
             "stop_ids": [
               "225042",
@@ -287426,7 +287433,7 @@
         "route_name": "Umina Beach to Woy Woy via Pearl Beach",
         "trips": [
           {
-            "trip_id": "2611637",
+            "trip_id": "2186592",
             "headsign": "Umina Beach to Woy Woy via Pearl Beach",
             "stop_ids": [
               "225738",
@@ -287451,6 +287458,7 @@
               "2256135",
               "2256138",
               "2256139",
+              "2257342",
               "2257324",
               "2257100",
               "2257101",
@@ -287840,7 +287848,7 @@
             ]
           },
           {
-            "trip_id": "2306099",
+            "trip_id": "2664052",
             "headsign": "Woy Woy to Wagstaffe via Ettalong, Booker Bay & Empire Bay",
             "stop_ids": [
               "225615",
@@ -289009,7 +289017,7 @@
             ]
           },
           {
-            "trip_id": "2565354",
+            "trip_id": "2664182",
             "headsign": "Gosford to Ettalong Beach via Woy Woy, Pt Clare & Tascott",
             "stop_ids": [
               "225041",
@@ -289936,7 +289944,7 @@
             ]
           },
           {
-            "trip_id": "2632597",
+            "trip_id": "2611428",
             "headsign": "Wyee to Lake Haven via Gwandalan",
             "stop_ids": [
               "225942",
@@ -302233,7 +302241,7 @@
         "route_name": "Swansea Heads to Newcastle via Belmont, Charlestown & Kotara",
         "trips": [
           {
-            "trip_id": "2457439",
+            "trip_id": "2457442",
             "headsign": "Newcastle to Swansea Heads via Kotara, Charlestown & Belmont",
             "stop_ids": [
               "230018",
@@ -307193,62 +307201,6 @@
         ]
       }
     ],
-    "5BM": [
-      {
-        "route_id": "7028_5BM",
-        "route_name": "Katoomba, then all stations to Penrith, Blacktown and return - May 30-31",
-        "trips": [
-          {
-            "trip_id": "2645474",
-            "headsign": "Blacktown, Penrith, then all stations to Katoomba",
-            "stop_ids": [
-              "2148376",
-              "275081",
-              "2750261",
-              "277342",
-              "277350",
-              "277472",
-              "277478",
-              "2777179",
-              "2777177",
-              "277615",
-              "277884",
-              "277864",
-              "277943",
-              "278318",
-              "278413",
-              "278252",
-              "278035",
-              "2780197"
-            ]
-          },
-          {
-            "trip_id": "2461484",
-            "headsign": "Katoomba, then all stations to Penrith, Blacktown",
-            "stop_ids": [
-              "2780197",
-              "278032",
-              "278247",
-              "278412",
-              "278312",
-              "277923",
-              "277862",
-              "277883",
-              "277621",
-              "277748",
-              "2777123",
-              "277414",
-              "277454",
-              "277350",
-              "277366",
-              "2750261",
-              "275078",
-              "2148451"
-            ]
-          }
-        ]
-      }
-    ],
     "7BM": [
       {
         "route_id": "7028_7BM",
@@ -307276,23 +307228,6 @@
               "278544",
               "2780230",
               "2780197"
-            ]
-          }
-        ]
-      }
-    ],
-    "40T7": [
-      {
-        "route_id": "7051_40T7",
-        "route_name": "Lidcombe to Olympic Park (Loop Service)",
-        "trips": [
-          {
-            "trip_id": "2582559",
-            "headsign": "Lidcombe to Olympic Park (Loop Service)",
-            "stop_ids": [
-              "2141286",
-              "212712",
-              "2141280"
             ]
           }
         ]
@@ -307480,36 +307415,6 @@
         ]
       }
     ],
-    "83T1": [
-      {
-        "route_id": "7057_83T1",
-        "route_name": "St Marys, then all stations to Blacktown and return",
-        "trips": [
-          {
-            "trip_id": "2467689",
-            "headsign": "Blacktown, then all stations to St Marys",
-            "stop_ids": [
-              "2148147",
-              "276772",
-              "276613",
-              "2770380",
-              "2760178"
-            ]
-          },
-          {
-            "trip_id": "2467760",
-            "headsign": "St Marys, then all stations to Blacktown",
-            "stop_ids": [
-              "2760178",
-              "2770380",
-              "276613",
-              "2767130",
-              "2148451"
-            ]
-          }
-        ]
-      }
-    ],
     "8T6": [
       {
         "route_id": "7057_8T6",
@@ -307666,56 +307571,10 @@
         ]
       }
     ],
-    "71T1": [
-      {
-        "route_id": "7063_71T1",
-        "route_name": "Penrith, then Blacktown and return",
-        "trips": [
-          {
-            "trip_id": "2655081",
-            "headsign": "Blacktown, then Penrith",
-            "stop_ids": [
-              "2148147",
-              "275081"
-            ]
-          },
-          {
-            "trip_id": "2655080",
-            "headsign": "Penrith, then Blacktown",
-            "stop_ids": [
-              "275078",
-              "2148451"
-            ]
-          }
-        ]
-      },
-      {
-        "route_id": "7073_71T1",
-        "route_name": "Penrith, then Blacktown and return",
-        "trips": [
-          {
-            "trip_id": "2649591",
-            "headsign": "Blacktown, then Penrith",
-            "stop_ids": [
-              "2148147",
-              "275081"
-            ]
-          },
-          {
-            "trip_id": "2649593",
-            "headsign": "Penrith, then Blacktown",
-            "stop_ids": [
-              "275078",
-              "2148451"
-            ]
-          }
-        ]
-      }
-    ],
     "9T2": [
       {
         "route_id": "7063_9T2",
-        "route_name": "Leppington, then all stations to Glenfield and return (Loop Service)",
+        "route_name": "Leppington, then all stations to Glenfield and return (Loop Service) - Jun 22-23",
         "trips": [
           {
             "trip_id": "2507112",
@@ -307732,7 +307591,7 @@
       },
       {
         "route_id": "7073_9T2",
-        "route_name": "Leppington, then all stations to Glenfield and return (Loop Service)",
+        "route_name": "Leppington, then all stations to Glenfield and return (Loop Service) - Jun 16",
         "trips": [
           {
             "trip_id": "2431906",
@@ -307779,6 +307638,48 @@
               "221313",
               "217357",
               "216712"
+            ]
+          }
+        ]
+      }
+    ],
+    "32T8": [
+      {
+        "route_id": "7066_32T8",
+        "route_name": "Sydenham, Kingsgrove, then all stations to Glenfield and return",
+        "trips": [
+          {
+            "trip_id": "2418956",
+            "headsign": "Glenfield, then all stations to Kingsgrove, Sydenham",
+            "stop_ids": [
+              "204439",
+              "220812",
+              "220915",
+              "220957",
+              "221047",
+              "2211107",
+              "221261",
+              "221375",
+              "221313",
+              "217357",
+              "216712"
+            ]
+          },
+          {
+            "trip_id": "2330819",
+            "headsign": "Sydenham, Kingsgrove, then all stations to Glenfield",
+            "stop_ids": [
+              "216711",
+              "217357",
+              "221367",
+              "2213107",
+              "221281",
+              "221115",
+              "2210262",
+              "220970",
+              "2209108",
+              "220811",
+              "204421"
             ]
           }
         ]
@@ -307873,6 +307774,36 @@
               "2223285",
               "222284",
               "2220123"
+            ]
+          }
+        ]
+      }
+    ],
+    "94T1": [
+      {
+        "route_id": "7066_94T1",
+        "route_name": "Gordon, then all stations to Chatswood and return",
+        "trips": [
+          {
+            "trip_id": "2444757",
+            "headsign": "Chatswood, then all stations to Gordon",
+            "stop_ids": [
+              "2067137",
+              "206982",
+              "207048",
+              "207183",
+              "207212"
+            ]
+          },
+          {
+            "trip_id": "2444769",
+            "headsign": "Gordon, then all stations to Chatswood",
+            "stop_ids": [
+              "207214",
+              "207182",
+              "207056",
+              "206992",
+              "206761"
             ]
           }
         ]
@@ -307980,37 +307911,73 @@
         ]
       }
     ],
-    "72T1": [
+    "50T1": [
       {
-        "route_id": "7077_72T1",
-        "route_name": "Penrith, then all stations to Blacktown and return",
+        "route_id": "7077_50T1",
+        "route_name": "Richmond, then all stations to Blacktown and return",
         "trips": [
           {
-            "trip_id": "2654736",
-            "headsign": "Blacktown, then all stations to Penrith",
+            "trip_id": "2664196",
+            "headsign": "Blacktown, then all stations to Richmond",
             "stop_ids": [
-              "2148147",
-              "276772",
-              "276613",
-              "2770380",
-              "2760178",
-              "2747210",
-              "2747351",
-              "275081"
+              "2148307",
+              "2148453",
+              "2763162",
+              "2762106",
+              "2765253",
+              "2765275",
+              "2756418",
+              "2756124",
+              "2756417",
+              "2753654",
+              "2753122"
             ]
           },
           {
-            "trip_id": "2654731",
-            "headsign": "Penrith, then all stations to Blacktown",
+            "trip_id": "2664203",
+            "headsign": "Richmond, then all stations to Blacktown",
             "stop_ids": [
-              "275078",
-              "2747352",
-              "2747210",
-              "2760178",
-              "2770380",
-              "276613",
-              "2767130",
-              "2148451"
+              "2753122",
+              "2753123",
+              "2756417",
+              "2756124",
+              "2756419",
+              "2765276",
+              "2765253",
+              "2762106",
+              "2763166",
+              "2148516",
+              "2148147"
+            ]
+          }
+        ]
+      }
+    ],
+    "52T1": [
+      {
+        "route_id": "7077_52T1",
+        "route_name": "Riverstone, then all stations to Blacktown and return",
+        "trips": [
+          {
+            "trip_id": "2664188",
+            "headsign": "Blacktown, then all stations to Riverstone",
+            "stop_ids": [
+              "2148307",
+              "2148453",
+              "2763162",
+              "2762106",
+              "2765253"
+            ]
+          },
+          {
+            "trip_id": "2664193",
+            "headsign": "Riverstone, then all stations to Blacktown",
+            "stop_ids": [
+              "2765253",
+              "2762106",
+              "2763166",
+              "2148516",
+              "2148147"
             ]
           }
         ]
