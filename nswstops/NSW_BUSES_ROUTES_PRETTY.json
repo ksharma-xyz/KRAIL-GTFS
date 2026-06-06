@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-06-01T15:08:00.929801893Z",
+  "generated_at": "2026-06-06T13:35:56.193403762Z",
   "routes": {
     "160": [
       {
@@ -1991,7 +1991,7 @@
         "route_name": "Murray Run Rd before Wollombi Rd to Congewai PS via St Philips College",
         "trips": [
           {
-            "trip_id": "2657387",
+            "trip_id": "2665130",
             "headsign": "Murray Run Rd before Wollombi Rd to Congewai PS via St Philips College",
             "stop_ids": [
               "2325465",
@@ -2054,7 +2054,8 @@
               "2325310",
               "2325208",
               "2325456",
-              "232518",
+              "2325238",
+              "2325490",
               "2325481",
               "2325112",
               "2325113",
@@ -2088,7 +2089,7 @@
         "route_name": "Mount View HS to Murrays Run Rd after Wollombi Rd via St Philips College",
         "trips": [
           {
-            "trip_id": "2657344",
+            "trip_id": "2665123",
             "headsign": "Mount View HS to Murrays Run Rd after Wollombi Rd via St Philips College",
             "stop_ids": [
               "2325235",
@@ -2107,9 +2108,10 @@
               "2325136",
               "2325138",
               "2325101",
-              "2325102",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325481",
               "2325112",
               "2325113",
@@ -2168,7 +2170,7 @@
         "route_name": "St Philips College to Murrays Run Rd after Wollombi Rd via Mount View HS",
         "trips": [
           {
-            "trip_id": "2657394",
+            "trip_id": "2665127",
             "headsign": "St Philips College to Murrays Run Rd after Wollombi Rd via Mount View HS",
             "stop_ids": [
               "2325324",
@@ -2183,7 +2185,9 @@
               "2325235",
               "2325412",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325481",
               "2325112",
               "2325113",
@@ -3326,7 +3330,7 @@
         "route_name": "St Philips College to Abernethy via Mount View HS",
         "trips": [
           {
-            "trip_id": "2657349",
+            "trip_id": "2665131",
             "headsign": "St Philips College to Abernethy via Mount View HS",
             "stop_ids": [
               "2325324",
@@ -3346,7 +3350,8 @@
               "2325235",
               "2325412",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
               "2325481",
               "2325112",
               "2325482",
@@ -3391,10 +3396,11 @@
         "route_name": "St Philips College to Abernethy",
         "trips": [
           {
-            "trip_id": "2657378",
+            "trip_id": "2665115",
             "headsign": "St Philips College to Abernethy",
             "stop_ids": [
               "2325235",
+              "2325106",
               "2325324",
               "2325434",
               "2325408",
@@ -3411,7 +3417,9 @@
               "2325192",
               "2325412",
               "2325103",
-              "232518",
+              "2325126",
+              "2325214",
+              "2325490",
               "2325481",
               "2325112",
               "2325482",
@@ -3457,7 +3465,7 @@
         "route_name": "St Philips College to Abernethy via Cessnock PS",
         "trips": [
           {
-            "trip_id": "2657366",
+            "trip_id": "2665106",
             "headsign": "St Philips College to Abernethy via Cessnock PS",
             "stop_ids": [
               "2325324",
@@ -3477,7 +3485,8 @@
               "2325235",
               "2325412",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
               "2325481",
               "2325112",
               "2325482",
@@ -4180,7 +4189,7 @@
         "route_name": "Sandy Creek at Quorronbolong Rd to Cessnock HS via Mount View HS",
         "trips": [
           {
-            "trip_id": "2657396",
+            "trip_id": "2665105",
             "headsign": "Sandy Creek at Quorronbolong Rd to Cessnock HS via Mount View HS",
             "stop_ids": [
               "2325269",
@@ -4211,7 +4220,8 @@
               "2325104",
               "2325235",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
               "2325112",
               "2325482",
               "2325480",
@@ -4302,7 +4312,7 @@
         "route_name": "Mount View HS to 165 Wollong Rd, Quorrobolong via Nulkaba",
         "trips": [
           {
-            "trip_id": "2657373",
+            "trip_id": "2665116",
             "headsign": "Mount View HS to 165 Wollong Rd, Quorrobolong via Nulkaba",
             "stop_ids": [
               "2325235",
@@ -4320,7 +4330,9 @@
               "2325317",
               "2325136",
               "2325138",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325481",
               "2325112",
               "2325482",
@@ -4444,7 +4456,7 @@
             ]
           },
           {
-            "trip_id": "2631195",
+            "trip_id": "2665128",
             "headsign": "Lovedale Rd at Camp Rd to Cessnock PS via Hunter Valley",
             "stop_ids": [
               "2320204",
@@ -4473,8 +4485,9 @@
               "2325409",
               "2325102",
               "2325235",
-              "2325110",
-              "2325126"
+              "2325103",
+              "2325214",
+              "2325490"
             ]
           }
         ]
@@ -4984,7 +4997,7 @@
         "route_name": "Rover Depot, Vincent St to Maitland Station",
         "trips": [
           {
-            "trip_id": "2657356",
+            "trip_id": "2665138",
             "headsign": "Rover Depot, Vincent St to Maitland Station",
             "stop_ids": [
               "232511",
@@ -5107,7 +5120,9 @@
               "2325192",
               "2325412",
               "2325103",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325112",
               "2325482",
               "2325480"
@@ -5705,7 +5720,7 @@
         "route_name": "Cessnock HS to Quorrobolong via St Philips College",
         "trips": [
           {
-            "trip_id": "2657367",
+            "trip_id": "2665126",
             "headsign": "Cessnock HS to Quorrobolong via St Philips College",
             "stop_ids": [
               "2325247",
@@ -5725,7 +5740,9 @@
               "2325317",
               "2325136",
               "2325138",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325481",
               "2325112",
               "2325482",
@@ -5796,7 +5813,7 @@
         "route_name": "St Philips College to Quorrobolong via Cessnock HS",
         "trips": [
           {
-            "trip_id": "2657360",
+            "trip_id": "2665104",
             "headsign": "St Philips College to Quorrobolong via Cessnock HS",
             "stop_ids": [
               "2325324",
@@ -5805,7 +5822,9 @@
               "2325317",
               "2325136",
               "2325138",
-              "232518",
+              "2325214",
+              "2325490",
+              "2325222",
               "2325481",
               "2325112",
               "2325482",
@@ -6090,7 +6109,7 @@
         "route_name": "Quorrobolong to St Patricks PS",
         "trips": [
           {
-            "trip_id": "2657361",
+            "trip_id": "2665133",
             "headsign": "All Saints College to Quorrobolong",
             "stop_ids": [
               "232137",
@@ -6112,7 +6131,9 @@
               "2325317",
               "2325136",
               "2325138",
-              "232518",
+              "2325214",
+              "2325238",
+              "2325222",
               "2325113",
               "2325476",
               "2325480",
@@ -6148,7 +6169,7 @@
             ]
           },
           {
-            "trip_id": "2657381",
+            "trip_id": "2665110",
             "headsign": "Quorrobolong to St Patricks PS",
             "stop_ids": [
               "2325269",
@@ -6177,15 +6198,16 @@
               "232511",
               "232512",
               "232513",
-              "232518",
-              "232519",
+              "2325127",
               "232521",
               "232522",
               "232523",
               "232594",
               "2325476",
               "2325480",
-              "2325126",
+              "2325223",
+              "2325490",
+              "2325237",
               "2325127",
               "2325131",
               "2325137",
@@ -6260,7 +6282,7 @@
             ]
           },
           {
-            "trip_id": "2657395",
+            "trip_id": "2665102",
             "headsign": "All Saints College to Ellalong",
             "stop_ids": [
               "2325324",
@@ -6287,7 +6309,8 @@
               "2325317",
               "2325136",
               "2325138",
-              "232518",
+              "2325214",
+              "2325222",
               "2325481",
               "2325112",
               "2325113",
@@ -24085,7 +24108,7 @@
         "route_name": "Northmead HS to Gooden Dr opp Model Farms HS via Winston Hills",
         "trips": [
           {
-            "trip_id": "2272521",
+            "trip_id": "2657805",
             "headsign": "Northmead HS to Gooden Dr opp Model Farms HS via Winston Hills",
             "stop_ids": [
               "215251",
@@ -24132,7 +24155,6 @@
               "2153133",
               "2153135",
               "2153304",
-              "2153305",
               "2153243",
               "2153244",
               "2153245",
@@ -24515,7 +24537,7 @@
         "route_name": "Baulkham Hills HS to Merindah Rd before Kananagra Av via Winston Hills",
         "trips": [
           {
-            "trip_id": "2493699",
+            "trip_id": "2657826",
             "headsign": "Baulkham Hills HS to Merindah Rd before Kananagra Av via Winston Hills",
             "stop_ids": [
               "2153372",
@@ -24544,7 +24566,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -25188,7 +25209,7 @@
         "route_name": "Northmead HS to Old Windsor Rd after Myee Cr",
         "trips": [
           {
-            "trip_id": "2493668",
+            "trip_id": "2657901",
             "headsign": "Northmead HS to Old Windsor Rd after Myee Cr",
             "stop_ids": [
               "215251",
@@ -25211,7 +25232,6 @@
               "2153133",
               "2153135",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -38851,7 +38871,7 @@
         "route_name": "Green Point Rd at Riverview Rd, Oyster Bay to Sylvania HS",
         "trips": [
           {
-            "trip_id": "1883397",
+            "trip_id": "2665505",
             "headsign": "Green Point Rd at Riverview Rd, Oyster Bay to Sylvania HS",
             "stop_ids": [
               "222533",
@@ -38880,6 +38900,7 @@
               "222527",
               "222528",
               "222529",
+              "2232267",
               "222782",
               "222793",
               "222711",
@@ -55660,7 +55681,7 @@
         "route_name": "The Ponds HS to Sentry Dr opp Parklea Dr",
         "trips": [
           {
-            "trip_id": "2312988",
+            "trip_id": "2664706",
             "headsign": "The Ponds HS to Sentry Dr opp Parklea Dr",
             "stop_ids": [
               "276952",
@@ -55801,7 +55822,7 @@
         "route_name": "The Ponds HS to Parklea",
         "trips": [
           {
-            "trip_id": "2312977",
+            "trip_id": "2664385",
             "headsign": "The Ponds HS to Parklea",
             "stop_ids": [
               "276952",
@@ -55912,7 +55933,7 @@
         "route_name": "Oakhill College to Castle Hill Interchange via Old Northern Rd",
         "trips": [
           {
-            "trip_id": "2358818",
+            "trip_id": "2664516",
             "headsign": "Oakhill College to Castle Hill Interchange via Old Northern Rd",
             "stop_ids": [
               "2154383",
@@ -55974,7 +55995,7 @@
         "route_name": "The Ponds High School to Parklea via Stanhope Gardens",
         "trips": [
           {
-            "trip_id": "2312904",
+            "trip_id": "2664371",
             "headsign": "The Ponds High School to Parklea via Stanhope Gardens",
             "stop_ids": [
               "276952",
@@ -58206,15 +58227,17 @@
         "route_name": "Katoomba to North Wentworth Falls (Loop Service)",
         "trips": [
           {
-            "trip_id": "2479233",
+            "trip_id": "2666008",
             "headsign": "Katoomba to North Wentworth Falls (Loop Service)",
             "stop_ids": [
-              "278067",
-              "2780282",
-              "2780209",
-              "278053",
-              "278026",
-              "278027",
+              "2780197",
+              "278029",
+              "2780155",
+              "278031",
+              "278032",
+              "2780100",
+              "2780101",
+              "2780102",
               "278084",
               "278085",
               "278087",
@@ -58286,13 +58309,13 @@
               "2780102",
               "2780103",
               "2780104",
-              "278066",
-              "278067",
-              "2780282",
-              "2780209",
-              "278053",
-              "278026",
-              "278027"
+              "2780239",
+              "278087",
+              "278088",
+              "278052",
+              "278035",
+              "278036",
+              "2780162"
             ]
           }
         ]
@@ -63767,7 +63790,7 @@
         "route_name": "Our Lady of Mercy College to Kings Lanley via Winston Hills",
         "trips": [
           {
-            "trip_id": "2494088",
+            "trip_id": "2657975",
             "headsign": "Our Lady of Mercy College to Kings Lanley via Winston Hills",
             "stop_ids": [
               "2150150",
@@ -63794,7 +63817,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -69645,7 +69667,7 @@
         "route_name": "Cronulla HS to Marton Park, Kurnell",
         "trips": [
           {
-            "trip_id": "1883805",
+            "trip_id": "1883806",
             "headsign": "Cronulla HS to Marton Park, Kurnell",
             "stop_ids": [
               "2230147",
@@ -82335,7 +82357,7 @@
         "route_name": "Beverly Hills Girls HS to Campsie",
         "trips": [
           {
-            "trip_id": "2651637",
+            "trip_id": "2665573",
             "headsign": "Beverly Hills Girls HS to Campsie",
             "stop_ids": [
               "220926",
@@ -82356,11 +82378,8 @@
               "219274",
               "219134",
               "219136",
-              "219138",
-              "219140",
-              "219142",
-              "219473",
-              "219474",
+              "219156",
+              "219491",
               "219476",
               "219479",
               "219445",
@@ -110128,20 +110147,20 @@
         "route_name": "John St, Pyrmont to Ultimo Primary",
         "trips": [
           {
-            "trip_id": "2604773",
+            "trip_id": "1825965",
             "headsign": "John St, Pyrmont to Ultimo Primary",
             "stop_ids": [
               "200928",
               "200913",
               "200912",
-              "203785"
+              "200727"
             ]
           },
           {
-            "trip_id": "2604774",
+            "trip_id": "2288919",
             "headsign": "Ultimo Primary to John St, Pyrmont",
             "stop_ids": [
-              "203785",
+              "200727",
               "200926",
               "200928",
               "200913",
@@ -126738,7 +126757,7 @@
         "route_name": "Quakers Hill Station to Baulkham Hills HS",
         "trips": [
           {
-            "trip_id": "2453670",
+            "trip_id": "2664685",
             "headsign": "Quakers Hill Station to Baulkham Hills HS",
             "stop_ids": [
               "2763163",
@@ -129208,7 +129227,7 @@
         "route_name": "Alwyn Lindfield Reserve, Glenwood Park Rd to St John Paul II College",
         "trips": [
           {
-            "trip_id": "2028272",
+            "trip_id": "2664214",
             "headsign": "Alwyn Lindfield Reserve, Glenwood Park Rd to St John Paul II College",
             "stop_ids": [
               "2768111",
@@ -130312,7 +130331,7 @@
         "route_name": "The Ponds Bvd at Schofields Rd to Glenwood HS",
         "trips": [
           {
-            "trip_id": "2617279",
+            "trip_id": "2664560",
             "headsign": "The Ponds Bvd  at Schofields Rd to Glenwood HS",
             "stop_ids": [
               "276940",
@@ -131573,7 +131592,7 @@
         "route_name": "Rouse Hill Anglican College to Quakers Hill",
         "trips": [
           {
-            "trip_id": "2606839",
+            "trip_id": "2664596",
             "headsign": "Rouse Hill Anglican College to Quakers Hill",
             "stop_ids": [
               "2155359",
@@ -132890,7 +132909,7 @@
         "route_name": "Baulkham Hills HS to Adrienne St at Martin Pl via Quakers Hill",
         "trips": [
           {
-            "trip_id": "2453666",
+            "trip_id": "2664249",
             "headsign": "Baulkham Hills HS to Adrienne St at Martin Pl via Quakers Hill",
             "stop_ids": [
               "2153401",
@@ -133939,7 +133958,7 @@
         "route_name": "St Mark's College & John XXIII PS to Kings Langley Shops",
         "trips": [
           {
-            "trip_id": "2224455",
+            "trip_id": "2664325",
             "headsign": "St Mark's College & John XXIII PS to Kings Langley Shops",
             "stop_ids": [
               "2768162",
@@ -138775,7 +138794,7 @@
             ]
           },
           {
-            "trip_id": "2358521",
+            "trip_id": "2664189",
             "headsign": "Castle Hill to Blacktown via Norwest & Glenwood",
             "stop_ids": [
               "215422",
@@ -139001,7 +139020,7 @@
             ]
           },
           {
-            "trip_id": "2025667",
+            "trip_id": "2664400",
             "headsign": "Rouse Hill Station to Blacktown via Stanhope Gardens",
             "stop_ids": [
               "2155457",
@@ -139373,16 +139392,16 @@
             ]
           },
           {
-            "trip_id": "2617413",
+            "trip_id": "2664211",
             "headsign": "Riverstone to Blacktown via Schofields",
             "stop_ids": [
-              "276551",
               "276227",
               "2762107",
               "2762120",
               "2762125",
               "2762116",
               "276384",
+              "276223",
               "276385",
               "276386",
               "276387",
@@ -139521,7 +139540,7 @@
         "route_name": "Rouse Hill to Blacktown (Loop Service)",
         "trips": [
           {
-            "trip_id": "2202278",
+            "trip_id": "2664618",
             "headsign": "Rouse Hill to Blacktown (Loop Service)",
             "stop_ids": [
               "2148147",
@@ -143336,7 +143355,7 @@
         "route_name": "Swansea Heads to St Marys Gateshead",
         "trips": [
           {
-            "trip_id": "2457518",
+            "trip_id": "2664773",
             "headsign": "St. Marys High, Gateshead to Swansea Heads",
             "stop_ids": [
               "229034",
@@ -143765,7 +143784,7 @@
         "route_name": "St Marys School to Blacksmiths",
         "trips": [
           {
-            "trip_id": "2303286",
+            "trip_id": "2664770",
             "headsign": "St. Marys High, Gateshead to Soldiers Rd & Karog St",
             "stop_ids": [
               "229034",
@@ -148967,7 +148986,7 @@
         "route_name": "Winston Hills to James Ruse Agricultural HS via Gilroy College",
         "trips": [
           {
-            "trip_id": "2271741",
+            "trip_id": "2657862",
             "headsign": "Winston Hills to James Ruse Agricultural HS via Gilroy College",
             "stop_ids": [
               "2153166",
@@ -148983,7 +149002,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -149706,7 +149724,7 @@
         "route_name": "John Edmondson HS to Leppington",
         "trips": [
           {
-            "trip_id": "2464500",
+            "trip_id": "2667293",
             "headsign": "John Edmondson HS to Leppington",
             "stop_ids": [
               "2171124",
@@ -149728,15 +149746,23 @@
               "2171261",
               "2171263",
               "217985",
-              "2171453",
+              "217955",
+              "217965",
+              "217927",
               "217921",
               "217983",
+              "2171452",
               "2171454",
               "2171164",
+              "2171455",
+              "217925",
+              "217938",
               "2171166",
-              "255732",
-              "2171397",
-              "255721"
+              "217959",
+              "217948",
+              "217946",
+              "2171212",
+              "2565128"
             ]
           }
         ]
@@ -149959,7 +149985,7 @@
         "route_name": "Lalor Park to Baulkham Hills North PS via Kings Langley",
         "trips": [
           {
-            "trip_id": "2457287",
+            "trip_id": "2657827",
             "headsign": "Lalor Park to Baulkham Hills North PS via Kings Langley",
             "stop_ids": [
               "214744",
@@ -149992,7 +150018,6 @@
               "215315",
               "2153479",
               "2153475",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -158838,7 +158863,7 @@
         "route_name": "Oran Park to Campbelltown Hospital",
         "trips": [
           {
-            "trip_id": "2662718",
+            "trip_id": "2666878",
             "headsign": "Campbelltown Hospital to Oran Park",
             "stop_ids": [
               "2560596",
@@ -158846,6 +158871,7 @@
               "2560405",
               "2560470",
               "2560683",
+              "2560589",
               "256058",
               "255932",
               "255929",
@@ -158874,14 +158900,13 @@
               "2171185",
               "2171435",
               "2171382",
-              "217945",
               "217942",
               "217966",
-              "217939"
+              "217986"
             ]
           },
           {
-            "trip_id": "2662723",
+            "trip_id": "2666880",
             "headsign": "Oran Park to Campbelltown Hospital",
             "stop_ids": [
               "217938",
@@ -158893,12 +158918,12 @@
               "217943",
               "255734",
               "2171137",
-              "2171138",
               "2570494",
               "2570339",
               "2570326",
               "2570327",
               "2570345",
+              "2570216",
               "2570340",
               "2570343",
               "2570342",
@@ -158908,10 +158933,12 @@
               "255751",
               "255749",
               "255778",
+              "255933",
               "255928",
               "256059",
               "2560590",
               "256050",
+              "2560681",
               "2560470",
               "2560332",
               "2560333",
@@ -164854,14 +164881,13 @@
         "route_name": "Campbelltown to Menangle via Menangle Park",
         "trips": [
           {
-            "trip_id": "2662779",
+            "trip_id": "2662891",
             "headsign": "Campbelltown to Menangle via Menangle Park",
             "stop_ids": [
               "2560570",
               "2560668",
               "2560407",
               "2560422",
-              "256317",
               "256352",
               "256353",
               "256354",
@@ -164884,10 +164910,11 @@
               "256353",
               "256354",
               "256355",
+              "256317",
               "2560423",
               "2560424",
               "2560425",
-              "2560576"
+              "2560599"
             ]
           },
           {
@@ -190979,7 +191006,7 @@
         "route_name": "Winston Hills to William Clarke College",
         "trips": [
           {
-            "trip_id": "2341614",
+            "trip_id": "2657859",
             "headsign": "Winston Hills to William Clarke College",
             "stop_ids": [
               "2153166",
@@ -190994,7 +191021,6 @@
               "2153301",
               "2153302",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -191212,7 +191238,7 @@
         "route_name": "Winston Hills to Oakhill College",
         "trips": [
           {
-            "trip_id": "2591502",
+            "trip_id": "2657993",
             "headsign": "Winston Hills to Oakhill College",
             "stop_ids": [
               "2153166",
@@ -191228,7 +191254,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -193831,7 +193856,7 @@
         "route_name": "Castle Hill Station to Mount St Benedict College via Cherrybrook Station",
         "trips": [
           {
-            "trip_id": "2633470",
+            "trip_id": "2611030",
             "headsign": "Castle Hill Station to Mount St Benedict College via Cherrybrook Station",
             "stop_ids": [
               "2154394",
@@ -195395,7 +195420,7 @@
         "route_name": "Metella Rd PS to Windsor Rd after Railway St via Winston Hills",
         "trips": [
           {
-            "trip_id": "2493576",
+            "trip_id": "2657940",
             "headsign": "Metella Rd PS to Windsor Rd after Railway St via Winston Hills",
             "stop_ids": [
               "214694",
@@ -195444,7 +195469,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -195861,7 +195885,7 @@
         "route_name": "Northmead HS to Windsor Rd after Windermere Av via Seven Hills Station",
         "trips": [
           {
-            "trip_id": "2493953",
+            "trip_id": "2657988",
             "headsign": "Northmead HS to Windsor Rd after Windermere Av via Seven Hills Station",
             "stop_ids": [
               "215251",
@@ -195897,7 +195921,6 @@
               "2153214",
               "2153215",
               "2153304",
-              "2153305",
               "2153306",
               "2153307",
               "2153308",
@@ -197728,7 +197751,7 @@
         "route_name": "Wentworthville PS to Barina Downs Rd before Windsor Rd",
         "trips": [
           {
-            "trip_id": "2494256",
+            "trip_id": "2657959",
             "headsign": "Wentworthville PS to Barina Downs Rd before Windsor Rd",
             "stop_ids": [
               "2145575",
@@ -197756,7 +197779,6 @@
               "2145608",
               "2153479",
               "2153475",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -199337,7 +199359,7 @@
         "route_name": "Our Lady of the Rosary PS to Stanhope Gardens via Rouse Hill Stn",
         "trips": [
           {
-            "trip_id": "2549091",
+            "trip_id": "2658007",
             "headsign": "Our Lady of the Rosary PS to Stanhope Gardens via Rouse Hill Stn",
             "stop_ids": [
               "2155286",
@@ -212561,6 +212583,47 @@
               "211929",
               "211918"
             ]
+          },
+          {
+            "trip_id": "2648537",
+            "headsign": "Unknown",
+            "stop_ids": [
+              "211918",
+              "211947",
+              "211948",
+              "211949",
+              "211950",
+              "211934",
+              "211935",
+              "211936",
+              "211861",
+              "211862",
+              "211863",
+              "211864",
+              "211825",
+              "2118111",
+              "2118112",
+              "2118113",
+              "2125134",
+              "2125158",
+              "2125159",
+              "2125160",
+              "2125161",
+              "2125162",
+              "2118164",
+              "2118165",
+              "2118166",
+              "211938",
+              "211939",
+              "211940",
+              "211941",
+              "211942",
+              "211943",
+              "211944",
+              "211945",
+              "211928",
+              "211918"
+            ]
           }
         ]
       },
@@ -213686,7 +213749,7 @@
         "route_name": "Parramatta to North Parramatta (Loop Service)",
         "trips": [
           {
-            "trip_id": "2623583",
+            "trip_id": "2623627",
             "headsign": "Parramatta to North Parramatta (Loop Service)",
             "stop_ids": [
               "2150111",
@@ -214017,7 +214080,7 @@
             ]
           },
           {
-            "trip_id": "2540849",
+            "trip_id": "2657799",
             "headsign": "City Clarence St to Baulkham Hills (Express Service)",
             "stop_ids": [
               "2000427",
@@ -214042,7 +214105,6 @@
               "2153302",
               "2153303",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -214186,7 +214248,7 @@
         "route_name": "Kellyville Ridge to City QVB (Express Service)",
         "trips": [
           {
-            "trip_id": "2540752",
+            "trip_id": "2657791",
             "headsign": "City QVB to Kellyville Ridge (Express Service)",
             "stop_ids": [
               "2000427",
@@ -214225,7 +214287,7 @@
             ]
           },
           {
-            "trip_id": "2540784",
+            "trip_id": "2657815",
             "headsign": "Kellyville Ridge to City QVB (Express Service)",
             "stop_ids": [
               "2155259",
@@ -214827,7 +214889,7 @@
         "route_name": "Blacktown to Epping via Baulkham Hills",
         "trips": [
           {
-            "trip_id": "2615793",
+            "trip_id": "2657828",
             "headsign": "Blacktown to Epping via Baulkham Hills",
             "stop_ids": [
               "2148307",
@@ -214852,7 +214914,6 @@
               "2153214",
               "2153215",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -216539,7 +216600,7 @@
             ]
           },
           {
-            "trip_id": "2540694",
+            "trip_id": "2541046",
             "headsign": "Parramatta to Castle Hill via Crestwood",
             "stop_ids": [
               "2150109",
@@ -216812,7 +216873,7 @@
         "route_name": "Rouse Hill Station to Parramatta via Glenwood",
         "trips": [
           {
-            "trip_id": "2273627",
+            "trip_id": "2657954",
             "headsign": "Parramatta to Rouse Hill Station via Glenwood",
             "stop_ids": [
               "2150109",
@@ -216862,7 +216923,7 @@
             ]
           },
           {
-            "trip_id": "2413248",
+            "trip_id": "2657844",
             "headsign": "Rouse Hill Station to Parramatta via Glenwood",
             "stop_ids": [
               "2155457",
@@ -219749,7 +219810,7 @@
         "route_name": "Seven Hills Station to Matthew Pearce PS via Model Farms HS",
         "trips": [
           {
-            "trip_id": "2588059",
+            "trip_id": "2657899",
             "headsign": "Seven Hills Station to Matthew Pearce PS via Model Farms HS",
             "stop_ids": [
               "214732",
@@ -219762,7 +219823,6 @@
               "215315",
               "2153479",
               "2153475",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -220265,7 +220325,7 @@
         "route_name": "Redeemer School to Baulkham Hills via The King's School",
         "trips": [
           {
-            "trip_id": "2634445",
+            "trip_id": "2657857",
             "headsign": "Redeemer School to Baulkham Hills via The King's School",
             "stop_ids": [
               "2151212",
@@ -220282,7 +220342,6 @@
               "2153214",
               "2153215",
               "2153304",
-              "2153305",
               "2153173",
               "2153174",
               "2153175",
@@ -220307,7 +220366,7 @@
         "route_name": "Girraween HS to Glenwood & Kellyville Ridge",
         "trips": [
           {
-            "trip_id": "2494035",
+            "trip_id": "2657854",
             "headsign": "Girraween HS to Glenwood & Kellyville Ridge",
             "stop_ids": [
               "2145153",
@@ -222369,7 +222428,7 @@
         "route_name": "Northern Beaches Christian School to Supa Centa Belrose",
         "trips": [
           {
-            "trip_id": "2604357",
+            "trip_id": "2666801",
             "headsign": "Northern Beaches Christian School to Supa Centa Belrose",
             "stop_ids": [
               "208466",
@@ -222387,7 +222446,29 @@
               "208457",
               "208458",
               "208459",
-              "208513"
+              "208513",
+              "208514",
+              "207552",
+              "207553",
+              "207554",
+              "207555",
+              "207556",
+              "207557",
+              "2075109",
+              "2075110",
+              "2075111",
+              "207558",
+              "207536",
+              "207537",
+              "207538",
+              "207539",
+              "2073134",
+              "2073151",
+              "2073142",
+              "207346",
+              "207234",
+              "207214",
+              "207235"
             ]
           }
         ]
@@ -225104,7 +225185,7 @@
             ]
           },
           {
-            "trip_id": "2447575",
+            "trip_id": "2667191",
             "headsign": "West Ryde to Carlingford via Dundas Valley",
             "stop_ids": [
               "2114107",
@@ -225144,7 +225225,6 @@
               "211770",
               "211771",
               "211723",
-              "211724",
               "211725",
               "211726",
               "211834",
@@ -251651,7 +251731,7 @@
             ]
           },
           {
-            "trip_id": "2531209",
+            "trip_id": "2582131",
             "headsign": "Watsons Bay to City Walsh Bay via Old South Head Rd",
             "stop_ids": [
               "203070",
@@ -251699,8 +251779,9 @@
               "2000420",
               "2000419",
               "2000440",
-              "200019",
-              "2000129"
+              "2000154",
+              "2000100",
+              "200099"
             ]
           }
         ]
@@ -251771,7 +251852,7 @@
             ]
           },
           {
-            "trip_id": "2531164",
+            "trip_id": "2582137",
             "headsign": "Watsons Bay to City Walsh Bay via Vaucluse Rd",
             "stop_ids": [
               "203070",
@@ -251826,8 +251907,9 @@
               "2000420",
               "2000419",
               "2000440",
-              "200019",
-              "2000129"
+              "2000154",
+              "2000100",
+              "200099"
             ]
           }
         ]
@@ -253030,7 +253112,7 @@
         "route_name": "Coogee to City Museum (Loop Service)",
         "trips": [
           {
-            "trip_id": "2355903",
+            "trip_id": "2399350",
             "headsign": "Coogee to City Museum (Loop Service)",
             "stop_ids": [
               "203471",
@@ -253047,9 +253129,9 @@
               "203138",
               "203139",
               "203142",
-              "203348",
-              "202138",
-              "202144",
+              "203143",
+              "202111",
+              "202112",
               "201011",
               "201051",
               "201053",
@@ -253061,9 +253143,10 @@
               "201050",
               "201013",
               "201014",
-              "202143",
-              "202145",
-              "202146",
+              "202123",
+              "202128",
+              "202129",
+              "203337",
               "203111",
               "203112",
               "203113",
@@ -262192,7 +262275,7 @@
             ]
           },
           {
-            "trip_id": "2663075",
+            "trip_id": "2665737",
             "headsign": "Mount Lewis to Lakemba",
             "stop_ids": [
               "2196128",
@@ -262234,6 +262317,8 @@
               "2196266",
               "2196264",
               "219666",
+              "219622",
+              "219618",
               "219683",
               "219684",
               "2196152",
@@ -264725,7 +264810,7 @@
         "route_name": "Como West to Miranda via Oyster Bay",
         "trips": [
           {
-            "trip_id": "2328487",
+            "trip_id": "2665585",
             "headsign": "Como West to Miranda via Oyster Bay",
             "stop_ids": [
               "222669",
@@ -264764,6 +264849,7 @@
               "222527",
               "222528",
               "222529",
+              "2232267",
               "223297",
               "2232131",
               "2232132",
@@ -264867,7 +264953,7 @@
         "route_name": "Bonnet Bay to Miranda via Kareela",
         "trips": [
           {
-            "trip_id": "2452455",
+            "trip_id": "2665601",
             "headsign": "Bonnet Bay to Miranda via Kareela",
             "stop_ids": [
               "222650",
@@ -264922,6 +265008,7 @@
               "222525",
               "222528",
               "222529",
+              "2232267",
               "223297",
               "2232131",
               "2232132",
@@ -267996,7 +268083,7 @@
         "route_name": "Jannali Station to St Patricks PS via Kareela",
         "trips": [
           {
-            "trip_id": "2328564",
+            "trip_id": "2665529",
             "headsign": "Jannali Station to St Patricks PS via Kareela",
             "stop_ids": [
               "222611",
@@ -268010,6 +268097,7 @@
               "222530",
               "222528",
               "222529",
+              "2232267",
               "223297",
               "2232131",
               "2232132",
@@ -306320,7 +306408,7 @@
         "route_name": "St Patricks to Belmont Christian College",
         "trips": [
           {
-            "trip_id": "2303451",
+            "trip_id": "2664811",
             "headsign": "Belmont Christian College to Swansea High School",
             "stop_ids": [
               "228067",
@@ -306879,6 +306967,102 @@
         ]
       }
     ],
+    "33T8": [
+      {
+        "route_id": "7016_33T8",
+        "route_name": "Glenfield, Revesby, Padstow, Sydenham and return",
+        "trips": [
+          {
+            "trip_id": "2416490",
+            "headsign": "Glenfield, Revesby, Padstow, Sydenham",
+            "stop_ids": [
+              "216711",
+              "221281",
+              "221115",
+              "204421"
+            ]
+          },
+          {
+            "trip_id": "2449576",
+            "headsign": "Sydenham, Padstow,  Revesby, Glenfield",
+            "stop_ids": [
+              "204439",
+              "2211107",
+              "221261",
+              "216712"
+            ]
+          }
+        ]
+      }
+    ],
+    "62T8": [
+      {
+        "route_id": "7016_62T8",
+        "route_name": "Mascot, then Green Square, Central and return",
+        "trips": [
+          {
+            "trip_id": "2666101",
+            "headsign": "Central, then Green Square, Mascot",
+            "stop_ids": [
+              "202084",
+              "201511",
+              "201016"
+            ]
+          },
+          {
+            "trip_id": "2666104",
+            "headsign": "Mascot, then Green Square, Central",
+            "stop_ids": [
+              "200054",
+              "201715",
+              "202085"
+            ]
+          }
+        ]
+      }
+    ],
+    "7AT4": [
+      {
+        "route_id": "7016_7AT4",
+        "route_name": "Hurstville, then all stations to Sydenham, Redfern and return",
+        "trips": [
+          {
+            "trip_id": "2588591",
+            "headsign": "Hurstville, then all stations to Sydenham, Redfern",
+            "stop_ids": [
+              "2220334",
+              "221880",
+              "221870",
+              "221712",
+              "221611",
+              "220533",
+              "220571",
+              "220564",
+              "204424",
+              "204439",
+              "201646"
+            ]
+          },
+          {
+            "trip_id": "2588592",
+            "headsign": "Redfern, Sydenham, then all stations to Hurstville",
+            "stop_ids": [
+              "201646",
+              "204439",
+              "204442",
+              "220561",
+              "220578",
+              "221622",
+              "221615",
+              "221781",
+              "221871",
+              "221879",
+              "2220302"
+            ]
+          }
+        ]
+      }
+    ],
     "10HU": [
       {
         "route_id": "7024_10HU",
@@ -307075,7 +307259,7 @@
         "route_name": "Warabrook Station to University Shuttle",
         "trips": [
           {
-            "trip_id": "2446902",
+            "trip_id": "2426691",
             "headsign": "University Shuttle to Warabrook Station",
             "stop_ids": [
               "230814",
@@ -307083,7 +307267,7 @@
             ]
           },
           {
-            "trip_id": "2446907",
+            "trip_id": "2426718",
             "headsign": "Warabrook Station to University Shuttle",
             "stop_ids": [
               "230830",
@@ -307181,7 +307365,7 @@
         "route_name": "Unknown Long Name",
         "trips": [
           {
-            "trip_id": "2661076",
+            "trip_id": "2666064",
             "headsign": "Unknown",
             "stop_ids": [
               "275078",
@@ -307194,7 +307378,7 @@
               "278057",
               "278514",
               "278631",
-              "2790115",
+              "2790448",
               "279018"
             ]
           }
@@ -307207,23 +307391,23 @@
         "route_name": "Lithgow, then all stations to Katoomba and return",
         "trips": [
           {
-            "trip_id": "2660640",
+            "trip_id": "2665939",
             "headsign": "Katoomba, then all stations to Lithgow",
             "stop_ids": [
               "2780197",
               "2780230",
               "278514",
               "278631",
-              "2790115",
+              "2790448",
               "279018"
             ]
           },
           {
-            "trip_id": "2660638",
+            "trip_id": "2665938",
             "headsign": "Lithgow, then all stations to Katoomba",
             "stop_ids": [
               "279018",
-              "2790115",
+              "2790448",
               "278631",
               "278544",
               "2780230",
@@ -307239,7 +307423,7 @@
         "route_name": "Chatswood, all stations to Milsons Pt via Crows Nest and Victoria Cross Stns",
         "trips": [
           {
-            "trip_id": "2453337",
+            "trip_id": "2448065",
             "headsign": "Chatswood, all stations to Milsons Pt via Crows Nest and Victoria Cross Stns",
             "stop_ids": [
               "206761",
@@ -307268,6 +307452,25 @@
               "2065147",
               "206412",
               "2067137"
+            ]
+          }
+        ]
+      }
+    ],
+    "13T4": [
+      {
+        "route_id": "7054_13T4",
+        "route_name": "Kogarah, Rockdale, Wolli Creek (Loop Service)",
+        "trips": [
+          {
+            "trip_id": "2180110",
+            "headsign": "Kogarah, Rockdale, Wolli Creek (Loop Service)",
+            "stop_ids": [
+              "221712",
+              "221611",
+              "2205115",
+              "221668",
+              "221711"
             ]
           }
         ]
@@ -307325,61 +307528,159 @@
         ]
       }
     ],
-    "42T4": [
+    "60T8": [
       {
-        "route_id": "7054_42T4",
-        "route_name": "Cronulla, then all stations to Sutherland, Hurstville and return",
+        "route_id": "7054_60T8",
+        "route_name": "Sydenham, then Wolli Creek, Int Airport, Domestic Airport, Mascot, Green Square, Central and return",
         "trips": [
           {
-            "trip_id": "2638243",
-            "headsign": "Cronulla, then all stations to Sutherland, Hurstville",
+            "trip_id": "2486194",
+            "headsign": "Central, then Green Square, Mascot, Domestic Airport,  Int Airport, Wolli Creek, Sydenham",
             "stop_ids": [
-              "223022",
-              "2230192",
-              "2229196",
-              "222815",
-              "2227104",
-              "2232122",
-              "2232204",
-              "2220123"
+              "200054",
+              "201715",
+              "202085",
+              "202076",
+              "202083",
+              "220564",
+              "204421"
             ]
           },
           {
-            "trip_id": "2638242",
-            "headsign": "Hurstville, Sutherland, then all stations to Cronulla",
+            "trip_id": "2486193",
+            "headsign": "Sydenham, then Wolli Creek, Int Airport, Domestic Airport, Mascot, Green Square, Central",
             "stop_ids": [
-              "222028",
-              "2232202",
-              "223293",
-              "222792",
-              "222833",
-              "2229197",
-              "2230191",
-              "223021"
+              "204439",
+              "220561",
+              "202083",
+              "202076",
+              "202084",
+              "201511",
+              "201016"
             ]
           }
         ]
       }
     ],
-    "45T4": [
+    "10L1": [
       {
-        "route_id": "7054_45T4",
-        "route_name": "Sutherland, then Hurstville and return",
+        "route_id": "7056_10L1",
+        "route_name": "The Star to Central",
         "trips": [
           {
-            "trip_id": "2638272",
-            "headsign": "Hurstville, then Sutherland",
+            "trip_id": "2545876",
+            "headsign": "Central to The Star",
             "stop_ids": [
-              "222028",
-              "2232203"
+              "2000308",
+              "200088",
+              "200919"
             ]
           },
           {
-            "trip_id": "2638273",
-            "headsign": "Sutherland, then Hurstville",
+            "trip_id": "2545955",
+            "headsign": "The Star to Central",
             "stop_ids": [
-              "2232202",
-              "222028"
+              "200931",
+              "200914",
+              "2000109",
+              "2000308"
+            ]
+          }
+        ]
+      }
+    ],
+    "1L4": [
+      {
+        "route_id": "7056_1L4",
+        "route_name": "Parramatta to Westmead Childrens Hospital",
+        "trips": [
+          {
+            "trip_id": "2665000",
+            "headsign": "Parramatta to Westmead Childrens Hospital",
+            "stop_ids": [
+              "2150388",
+              "215066",
+              "215089",
+              "2150144",
+              "2151144",
+              "2145559",
+              "214515"
+            ]
+          },
+          {
+            "trip_id": "2664999",
+            "headsign": "Westmead Childrens Hospital to Parramatta",
+            "stop_ids": [
+              "214515",
+              "214518",
+              "215194",
+              "2150145",
+              "2150167",
+              "2150296",
+              "2150142"
+            ]
+          }
+        ]
+      }
+    ],
+    "80L2": [
+      {
+        "route_id": "7056_80L2",
+        "route_name": "Randwick to Central",
+        "trips": [
+          {
+            "trip_id": "1813861",
+            "headsign": "Central to Randwick",
+            "stop_ids": [
+              "201016",
+              "202128",
+              "2031189",
+              "203112",
+              "2031158"
+            ]
+          },
+          {
+            "trip_id": "1813737",
+            "headsign": "Randwick to Central",
+            "stop_ids": [
+              "203135",
+              "203142",
+              "202112",
+              "201016"
+            ]
+          }
+        ]
+      }
+    ],
+    "80L3": [
+      {
+        "route_id": "7056_80L3",
+        "route_name": "Kingsford to Central",
+        "trips": [
+          {
+            "trip_id": "2049119",
+            "headsign": "Central to Kingsford",
+            "stop_ids": [
+              "201016",
+              "202128",
+              "203319",
+              "203320",
+              "203311",
+              "203274",
+              "203245"
+            ]
+          },
+          {
+            "trip_id": "1965342",
+            "headsign": "Kingsford to Central",
+            "stop_ids": [
+              "203245",
+              "203215",
+              "203351",
+              "203314",
+              "203316",
+              "202112",
+              "201016"
             ]
           }
         ]
@@ -307495,7 +307796,7 @@
         "route_name": "Hornsby, then all stations to Chatswood, Wynyard and return",
         "trips": [
           {
-            "trip_id": "2485159",
+            "trip_id": "2519048",
             "headsign": "Hornsby, then all stations to Chatswood, Wynyard",
             "stop_ids": [
               "207760",
@@ -307513,7 +307814,7 @@
             ]
           },
           {
-            "trip_id": "2485156",
+            "trip_id": "2519073",
             "headsign": "Wynyard, Chatswood, then all stations to Hornsby",
             "stop_ids": [
               "2000230",
@@ -307643,6 +307944,44 @@
         ]
       }
     ],
+    "29T2": [
+      {
+        "route_id": "7066_29T2",
+        "route_name": "Leppington, then all stations to Fairfield and return",
+        "trips": [
+          {
+            "trip_id": "2529881",
+            "headsign": "Fairfield, then all stations to Leppington",
+            "stop_ids": [
+              "216529",
+              "216643",
+              "216671",
+              "2170803",
+              "2170805",
+              "2170560",
+              "216712",
+              "217422",
+              "217938"
+            ]
+          },
+          {
+            "trip_id": "2517793",
+            "headsign": "Leppington, then all stations to Fairfield",
+            "stop_ids": [
+              "217938",
+              "217421",
+              "216711",
+              "2170363",
+              "2170805",
+              "2170802",
+              "2166255",
+              "2166242",
+              "216529"
+            ]
+          }
+        ]
+      }
+    ],
     "32T8": [
       {
         "route_id": "7066_32T8",
@@ -307745,40 +308084,6 @@
         ]
       }
     ],
-    "43T4": [
-      {
-        "route_id": "7066_43T4",
-        "route_name": "Sutherland, then all stations to Hurstville and return",
-        "trips": [
-          {
-            "trip_id": "2112478",
-            "headsign": "Hurstville, then all stations to Sutherland",
-            "stop_ids": [
-              "222028",
-              "222298",
-              "2223285",
-              "2223277",
-              "2226105",
-              "222668",
-              "2232203"
-            ]
-          },
-          {
-            "trip_id": "2099977",
-            "headsign": "Sutherland, then all stations to Hurstville",
-            "stop_ids": [
-              "2232204",
-              "222680",
-              "2226105",
-              "222316",
-              "2223285",
-              "222284",
-              "2220123"
-            ]
-          }
-        ]
-      }
-    ],
     "94T1": [
       {
         "route_id": "7066_94T1",
@@ -307812,7 +308117,7 @@
     "10M": [
       {
         "route_id": "7069_10M",
-        "route_name": "Epping, then all stations to Chatswood and return",
+        "route_name": "Epping, then all stations to Chatswood and return - Jun 27-28",
         "trips": [
           {
             "trip_id": "2168294",
@@ -307828,6 +308133,23 @@
           {
             "trip_id": "2168291",
             "headsign": "Epping, then all stations to Chatswood",
+            "stop_ids": [
+              "212111",
+              "2113318",
+              "2113202",
+              "211327",
+              "206760"
+            ]
+          }
+        ]
+      },
+      {
+        "route_id": "7070_10M",
+        "route_name": "Unknown Long Name",
+        "trips": [
+          {
+            "trip_id": "2666663",
+            "headsign": "Unknown",
             "stop_ids": [
               "212111",
               "2113318",
@@ -308147,7 +308469,7 @@
             ]
           },
           {
-            "trip_id": "2529572",
+            "trip_id": "2276142",
             "headsign": "Sydenham to Bankstown (Limited stops)",
             "stop_ids": [
               "2204125",
