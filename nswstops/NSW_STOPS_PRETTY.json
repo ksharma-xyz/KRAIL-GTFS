@@ -569,6 +569,15 @@
     ]
   },
   {
+    "id": "200088",
+    "name": "Darling Dr opp Convention Centre",
+    "lat": "-33.872503",
+    "lon": "151.198211",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "200089",
     "name": "Martin Place Station, Macquarie St",
     "lat": "-33.868087",
@@ -695,6 +704,15 @@
     ]
   },
   {
+    "id": "200727",
+    "name": "Ultimo Public School, Jones St",
+    "lat": "-33.877492",
+    "lon": "151.196052",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "200728",
     "name": "Thomas St after Wattle St",
     "lat": "-33.883151",
@@ -789,6 +807,15 @@
     "name": "Harris St opp Union Square",
     "lat": "-33.86949",
     "lon": "151.193732",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "200914",
+    "name": "Convention Centre, Darling Dr",
+    "lat": "-33.872915",
+    "lon": "151.198343",
     "productClass": [
       5
     ]
@@ -4231,6 +4258,15 @@
     ]
   },
   {
+    "id": "202076",
+    "name": "Sydney Domestic Airport, Keith Smith Ave",
+    "lat": "-33.93307",
+    "lon": "151.17845",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202078",
     "name": "Control Tower, General Holmes Dr",
     "lat": "-33.946903",
@@ -4253,6 +4289,15 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202083",
+    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
+    "lat": "-33.935337",
+    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -12266,15 +12311,6 @@
     "name": "Wigram Rd at Minogue Cres",
     "lat": "-33.882235",
     "lon": "151.176448",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "203785",
-    "name": "Ultimo Public School, Wattle St",
-    "lat": "-33.877922",
-    "lon": "151.19495",
     "productClass": [
       5
     ]
@@ -74226,6 +74262,16 @@
     "isParent": false
   },
   {
+    "id": "217986",
+    "name": "Leppington Station Stand C",
+    "lat": "-33.954894",
+    "lon": "150.807752",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "217941",
     "name": "Ingleburn Rd after Rickard Rd",
     "lat": "-33.963087",
@@ -81277,6 +81323,15 @@
     ]
   },
   {
+    "id": "220533",
+    "name": "Princes Hwy after Subway Rd",
+    "lat": "-33.944094",
+    "lon": "151.142099",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "220534",
     "name": "Wollongong Rd opp Macquarie Lodge",
     "lat": "-33.940258",
@@ -83021,15 +83076,6 @@
     "name": "Kingsgrove Public School, Stoney Creek Rd",
     "lat": "-33.949104",
     "lon": "151.105294",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220852",
-    "name": "Kingsgrove Public School, Caroline St",
-    "lat": "-33.94852",
-    "lon": "151.105343",
     "productClass": [
       5
     ]
@@ -89180,16 +89226,6 @@
     "productClass": [
       5
     ]
-  },
-  {
-    "id": "2220123",
-    "name": "Hurstville Station, Ormonde Pde, Stand P",
-    "lat": "-33.968221",
-    "lon": "151.103413",
-    "productClass": [
-      5
-    ],
-    "isParent": false
   },
   {
     "id": "2220333",
@@ -142289,7 +142325,7 @@
   },
   {
     "id": "256354",
-    "name": "Danehill Ave before Pater Pan St",
+    "name": "Danehill Ave before Peter Pan St",
     "lat": "-34.112167",
     "lon": "150.75252",
     "productClass": [
@@ -142310,15 +142346,6 @@
     "name": "Miracle Mile Bvd before Octagonal Dr",
     "lat": "-34.105709",
     "lon": "150.756246",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256358",
-    "name": "Cummings Rd after Station Rd",
-    "lat": "-34.104115",
-    "lon": "150.749914",
     "productClass": [
       5
     ]
@@ -161916,6 +161943,15 @@
     ]
   },
   {
+    "id": "278019",
+    "name": "Katoomba St opp Goyder Ave",
+    "lat": "-33.724461",
+    "lon": "150.309453",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "278021",
     "name": "Catalina Ave opp Katoomba Sports & Aquatic Centre",
     "lat": "-33.71569",
@@ -163996,6 +164032,15 @@
     ]
   },
   {
+    "id": "2000109",
+    "name": "Exhibition Centre, Darling Dr",
+    "lat": "-33.877191",
+    "lon": "151.199977",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2000111",
     "name": "Art Gallery of NSW, Art Gallery Rd",
     "lat": "-33.868581",
@@ -164260,6 +164305,24 @@
     "name": "St Mary's Cathedral, College St",
     "lat": "-33.87245",
     "lon": "151.212891",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2000308",
+    "name": "Central Station, Forecourt, Coach Bay 4",
+    "lat": "-33.883273",
+    "lon": "151.204442",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2000313",
+    "name": "Bathurst St before Pitt St",
+    "lat": "-33.874373",
+    "lon": "151.207699",
     "productClass": [
       5
     ]
@@ -196386,6 +196449,33 @@
     ]
   },
   {
+    "id": "2150142",
+    "name": "Smith St after George St",
+    "lat": "-33.815361",
+    "lon": "151.006083",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150144",
+    "name": "Church St after Grose St",
+    "lat": "-33.806378",
+    "lon": "151.005607",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150145",
+    "name": "Church St before Fennell St",
+    "lat": "-33.805158",
+    "lon": "151.005981",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2150150",
     "name": "Parramatta Leagues Club, O'Connell St",
     "lat": "-33.806932",
@@ -196426,6 +196516,15 @@
     "name": "Argyle St before O'Connell St",
     "lat": "-33.815968",
     "lon": "150.998917",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150167",
+    "name": "Victoria Rd before Sorrell St",
+    "lat": "-33.808665",
+    "lon": "151.006756",
     "productClass": [
       5
     ]
@@ -196786,6 +196885,15 @@
     "name": "Parkes St before Harris St",
     "lat": "-33.818828",
     "lon": "151.010626",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2150388",
+    "name": "Smith St after Darcy St",
+    "lat": "-33.816631",
+    "lon": "151.005844",
     "productClass": [
       5
     ]
@@ -197155,6 +197263,15 @@
     "name": "Barclay Rd opp Mill Dr",
     "lat": "-33.764772",
     "lon": "151.011734",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2151144",
+    "name": "Church St after Factory St",
+    "lat": "-33.799882",
+    "lon": "151.003869",
     "productClass": [
       5
     ]
@@ -212673,6 +212790,15 @@
     ]
   },
   {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2166257",
     "name": "Avenel St after Sackville St",
     "lat": "-33.881703",
@@ -220987,6 +221113,15 @@
     ]
   },
   {
+    "id": "2171452",
+    "name": "Edmondson Ave at Eighth Ave",
+    "lat": "-33.93872",
+    "lon": "150.810967",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2171453",
     "name": "Edmondson Ave before Tenth Ave",
     "lat": "-33.932369",
@@ -229008,15 +229143,6 @@
     ]
   },
   {
-    "id": "2208127",
-    "name": "Our Lady of Fatima Primary School, Caroline St",
-    "lat": "-33.94195",
-    "lon": "151.103978",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2208128",
     "name": "Richland St opp Kingsgrove North High School",
     "lat": "-33.934553",
@@ -232735,6 +232861,15 @@
     ]
   },
   {
+    "id": "2220302",
+    "name": "Hurstville Fire Station, Butler Rd",
+    "lat": "-33.968042",
+    "lon": "151.101992",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2220303",
     "name": "Waitara Pde at The Crescent",
     "lat": "-33.981057",
@@ -233789,15 +233924,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -237039,6 +237165,15 @@
     "name": "Pollard Park, President Ave",
     "lat": "-34.035532",
     "lon": "151.069978",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2232267",
+    "name": "Bates Dr before Box Rd",
+    "lat": "-34.0178",
+    "lon": "151.08006",
     "productClass": [
       5
     ]
@@ -286353,6 +286488,15 @@
     ]
   },
   {
+    "id": "2325490",
+    "name": "North Av bf Don Schofield Wy",
+    "lat": "-32.8363",
+    "lon": "151.35164",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2326101",
     "name": "Sawyers Gully Rd before Gingers Lane",
     "lat": "-32.802268",
@@ -288985,6 +289129,15 @@
     "name": "Crown St opp Wollongong Hospital",
     "lat": "-34.425408",
     "lon": "150.884065",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2500373",
+    "name": "Harbour St after Crown St",
+    "lat": "-34.426504",
+    "lon": "150.902131",
     "productClass": [
       5
     ]
@@ -327401,8 +327554,8 @@
   {
     "id": "2777130",
     "name": "Green Pde before Cambridge St",
-    "lat": "-33.712517",
-    "lon": "150.589828",
+    "lat": "-33.712504",
+    "lon": "150.589665",
     "productClass": [
       5
     ]
@@ -328497,6 +328650,15 @@
     ]
   },
   {
+    "id": "2780154",
+    "name": "Katoomba St opp Warialda St",
+    "lat": "-33.721384",
+    "lon": "150.310056",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2780155",
     "name": "Blue Mountains Hospital, Great Western Hwy",
     "lat": "-33.70584",
@@ -328528,6 +328690,15 @@
     "name": "Gladstone Rd at Craigend St",
     "lat": "-33.716911",
     "lon": "150.341611",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780162",
+    "name": "Katoomba Station, Goldsmith Pl",
+    "lat": "-33.711841",
+    "lon": "150.312485",
     "productClass": [
       5
     ]
@@ -328695,15 +328866,6 @@
     ]
   },
   {
-    "id": "2780197",
-    "name": "Katoomba Station, Goldsmith Pl",
-    "lat": "-33.711904",
-    "lon": "150.312229",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2780200",
     "name": "Northcote Rd after Gladstone Rd",
     "lat": "-33.718781",
@@ -328726,6 +328888,24 @@
     "name": "Maple Grove Park, Katoomba Falls Rd",
     "lat": "-33.725264",
     "lon": "150.306882",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780206",
+    "name": "Narrow Neck Rd after Farnells Rd",
+    "lat": "-33.714956",
+    "lon": "150.297526",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2780207",
+    "name": "Katoomba Police Station, Katoomba St",
+    "lat": "-33.718634",
+    "lon": "150.310554",
     "productClass": [
       5
     ]
@@ -329307,10 +329487,10 @@
     ]
   },
   {
-    "id": "2790115",
-    "name": "Zig Zag Station, Chifley Rd",
-    "lat": "-33.477797",
-    "lon": "150.221304",
+    "id": "2790448",
+    "name": "Zig Zag Rail Clarence Station",
+    "lat": "-33.476646",
+    "lon": "150.222035",
     "productClass": [
       5
     ]
