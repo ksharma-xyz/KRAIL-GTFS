@@ -68,6 +68,23 @@ tasks.register<JavaExec>("runKRAIL-GTFS") {
     classpath = sourceSets["main"].runtimeClasspath
 }
 
+// Build the KRAIL-BFF tracking datasets (platform stop directory + per-mode
+// shapes polylines + manifest). Standalone — does not touch the stops/routes
+// pipeline. Used by .github/workflows/track-dataset.yml (weekly cron).
+// Args (positional): <outDir> <version> <releaseUrlBase> — all optional.
+tasks.register<JavaExec>("buildTrackDataset") {
+    group = "application"
+    description = "Build track_stops.pb + shapes_<mode>.pb + track_manifest.json for KRAIL-BFF tracking"
+    mainClass.set("app.krail.kgtfs.track.TrackDatasetBuilderKt")
+    classpath = sourceSets["main"].runtimeClasspath
+    args = listOf(
+        project.findProperty("outDir")?.toString() ?: "",
+        // NOT "version" — that collides with Gradle's built-in project.version.
+        project.findProperty("datasetVersion")?.toString() ?: "",
+        project.findProperty("releaseUrlBase")?.toString() ?: "",
+    )
+}
+
 wire {
     kotlin {
         javaInterop = true

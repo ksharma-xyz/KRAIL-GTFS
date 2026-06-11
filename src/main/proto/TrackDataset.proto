@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package app.krail.kgtfs.proto;
+
+// Tracking datasets consumed by the KRAIL-BFF live-trip-tracking feature
+// (KRAIL-BFF docs/reference/TRACKING_DESIGN.md §7a). Built weekly by
+// .github/workflows/track-dataset.yml and published to the rolling
+// `track-latest` GitHub Release; the BFF fetches them via
+// track_manifest.json (sha256-verified) and holds them in memory.
+//
+// WIRE-FORMAT CONTRACT: field numbers and types must stay identical to
+// the BFF's decoder schema (KRAIL-BFF server/src/main/proto/nsw/
+// track-dataset.proto). The Kotlin package differs per repo; the bytes
+// must not.
+
+// Platform-level stop directory: every stop row from the NSW GTFS static
+// bundles (location_type 0 stops/platforms AND 1 stations), raw GTFS ids.
+// Exists because GTFS-R reports PLATFORM ids for trains while the app's
+// search dataset carries parents + bus stops only.
+message TrackStopsDataset {
+  string version = 1;       // YYYYMMDD (Sydney time)
+  string generated_at = 2;  // ISO-8601 UTC
+  string attribution = 3;
+  repeated TrackStop stops = 4;
+}
+
+message TrackStop {
+  string stop_id = 1;    // raw GTFS id, exactly as GTFS-R reports it
+  string name = 2;       // render-ready, e.g. "Central Station Platform 16"
+  string parent_id = 3;  // stops.txt parent_station; empty for top-level
+  double lat = 4;
+  double lon = 5;
+}
+
+// Per-mode route geometry: trips.txt + shapes.txt joined and deduped.
+// Thousands of trips share a handful of shapes — shapes are stored once,
+// trips index into them.
+message ShapesDataset {
+  string version = 1;
+  string feed = 2;  // bundle key: "sydneytrains", "metro", "lightrail", ...
+
+  // shape_id -> Google encoded polyline, precision 5.
+  map<string, string> shapes = 3;
+
+  // trip_id -> shape_id. The GTFS-R realtime trip_id is the lookup key.
+  map<string, string> trip_index = 4;
+}

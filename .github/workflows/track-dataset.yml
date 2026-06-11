@@ -1,0 +1,70 @@
+name: Build Track Datasets
+
+# Builds the tracking datasets consumed by KRAIL-BFF live trip tracking
+# (platform-level stop directory + per-mode shapes polylines) and publishes
+# them to the rolling `track-latest` GitHub Release.
+#
+# The BFF points TRACK_DATASET_MANIFEST_URL at
+#   https://github.com/ksharma-xyz/KRAIL-GTFS/releases/download/track-latest/track_manifest.json
+# and hot-swaps in memory when the manifest version bumps — no PR or deploy
+# needed on the BFF side. A failed run here is harmless: the BFF keeps
+# serving the previous release and falls back gracefully if none exists.
+#
+# Standalone and additive: does NOT touch the stops/routes pipeline (ci.yml).
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Reason for manual trigger'
+        required: false
+        type: string
+  schedule:
+    # Weekly, Sundays 16:00 UTC ≈ Mon 03:00 AEDT / 02:00 AEST
+    - cron: '0 16 * * 0'
+
+permissions:
+  contents: write  # create/update the track-latest release
+
+concurrency:
+  group: track-dataset
+  cancel-in-progress: false
+
+env:
+  JAVA_VERSION: '21'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up JDK
+        uses: actions/setup-java@v5
+        with:
+          distribution: zulu
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Build track datasets
+        env:
+          NSW_TRANSPORT_API_KEY: ${{ secrets.NSW_TRANSPORT_API_KEY }}
+        run: ./gradlew buildTrackDataset -PoutDir=cache/track
+
+      - name: Inspect output
+        run: |
+          ls -la cache/track
+          cat cache/track/track_manifest.json
+
+      - name: Publish to rolling track-latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Recreate the rolling release so stale assets never linger.
+          gh release delete track-latest --yes --cleanup-tag || true
+          gh release create track-latest \
+            --title "Track datasets (rolling)" \
+            --notes "KRAIL-BFF tracking datasets. Regenerated $(date -u +'%Y-%m-%d %H:%M UTC') from NSW Open Data GTFS. Version: see track_manifest.json." \
+            cache/track/*.pb \
+            cache/track/track_manifest.json
