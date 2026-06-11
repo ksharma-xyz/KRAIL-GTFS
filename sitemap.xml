@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/Architecture/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/BusRouteLogic/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/CICD/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/DataFormats/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+    <url>
+         <loc>https://ksharma-xyz.github.io/KRAIL-GTFS/TrackDatasets/</loc>
+         <lastmod>2026-06-11</lastmod>
+    </url>
+</urlset>
