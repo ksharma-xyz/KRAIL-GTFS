@@ -44474,15 +44474,6 @@
     ]
   },
   {
-    "id": "211724",
-    "name": "Marshall Rd after Field Pl",
-    "lat": "-33.79259",
-    "lon": "151.044285",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "211725",
     "name": "Marshall Rd opp Sophie St",
     "lat": "-33.79085",
@@ -75372,33 +75363,6 @@
     ]
   },
   {
-    "id": "219138",
-    "name": "Baltimore St after Indiana Pl",
-    "lat": "-33.906062",
-    "lon": "151.088473",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219140",
-    "name": "Clarence St opp Rudd Park",
-    "lat": "-33.904023",
-    "lon": "151.089934",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219142",
-    "name": "Clarence St at First Ave",
-    "lat": "-33.902938",
-    "lon": "151.092694",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219144",
     "name": "Rudd Park, First Ave",
     "lat": "-33.904487",
@@ -77032,24 +76996,6 @@
     "name": "Bexley Rd opp Cross St",
     "lat": "-33.92049",
     "lon": "151.105922",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219473",
-    "name": "First Ave opp Rudd Park",
-    "lat": "-33.904637",
-    "lon": "151.093534",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219474",
-    "name": "First Ave at Seventh Ave",
-    "lat": "-33.905968",
-    "lon": "151.093979",
     "productClass": [
       5
     ]
@@ -89226,6 +89172,16 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "2220123",
+    "name": "Hurstville Station, Ormonde Pde, Stand P",
+    "lat": "-33.968221",
+    "lon": "151.103413",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "2220333",
@@ -104020,7 +103976,7 @@
   },
   {
     "id": "2263101",
-    "name": "Lake Haven Centre, Stand 5",
+    "name": "Lake Haven Centre, Stand E",
     "lat": "-33.241643",
     "lon": "151.505152",
     "productClass": [
@@ -104030,7 +103986,7 @@
   },
   {
     "id": "2263148",
-    "name": "Lake Haven Centre, Stand 1",
+    "name": "Lake Haven Centre, Stand A",
     "lat": "-33.241895",
     "lon": "151.50509",
     "productClass": [
@@ -104040,7 +103996,7 @@
   },
   {
     "id": "2263161",
-    "name": "Lake Haven Centre, Stand 2",
+    "name": "Lake Haven Centre, Stand B",
     "lat": "-33.24184",
     "lon": "151.504931",
     "productClass": [
@@ -104050,7 +104006,7 @@
   },
   {
     "id": "2263188",
-    "name": "Lake Haven Centre, Stand 4",
+    "name": "Lake Haven Centre, Stand D",
     "lat": "-33.241745",
     "lon": "151.505117",
     "productClass": [
@@ -104060,7 +104016,7 @@
   },
   {
     "id": "2263189",
-    "name": "Lake Haven Centre, Stand 3",
+    "name": "Lake Haven Centre, Stand C",
     "lat": "-33.241815",
     "lon": "151.505086",
     "productClass": [
@@ -140566,6 +140522,42 @@
     ]
   },
   {
+    "id": "255796",
+    "name": "Springfield Rd after Lukes Ln",
+    "lat": "-33.999615",
+    "lon": "150.76067",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255797",
+    "name": "Springfield Rd before Curtis Ln",
+    "lat": "-33.997646",
+    "lon": "150.75888",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255798",
+    "name": "Springfield Rd after Bonnie Field Cl",
+    "lat": "-33.991352",
+    "lon": "150.76096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "255799",
+    "name": "86 Catherine Fields Rd",
+    "lat": "-33.998016",
+    "lon": "150.7703",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "255811",
     "name": "Raby Rd after Hume Mwy",
     "lat": "-34.029577",
@@ -164314,15 +164306,6 @@
     "name": "Central Station, Forecourt, Coach Bay 4",
     "lat": "-33.883273",
     "lon": "151.204442",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000313",
-    "name": "Bathurst St before Pitt St",
-    "lat": "-33.874373",
-    "lon": "151.207699",
     "productClass": [
       5
     ]
@@ -228981,6 +228964,24 @@
     ]
   },
   {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -233924,6 +233925,15 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2226105",
+    "name": "Como Station, Como Pde",
+    "lat": "-34.004582",
+    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -289134,15 +289144,6 @@
     ]
   },
   {
-    "id": "2500373",
-    "name": "Harbour St after Crown St",
-    "lat": "-34.426504",
-    "lon": "150.902131",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2500405",
     "name": "Ralph Black Dr before Montague St",
     "lat": "-34.406367",
@@ -297131,6 +297132,78 @@
     "name": "Austin Ave at Rangoon Rd",
     "lat": "-34.628124",
     "lon": "150.855225",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557100",
+    "name": "64 Catherine Fields Rd",
+    "lat": "-33.999283",
+    "lon": "150.77264",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557101",
+    "name": "57 Catherine Fields Rd",
+    "lat": "-33.99968",
+    "lon": "150.77313",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557102",
+    "name": "117 Catherine Fields Rd",
+    "lat": "-33.994682",
+    "lon": "150.76573",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557103",
+    "name": "Catherine Fields Rd after Centenary Pl",
+    "lat": "-33.9929",
+    "lon": "150.764",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557104",
+    "name": "Springfield Rd before Bonnie Field Cl",
+    "lat": "-33.991753",
+    "lon": "150.7604",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557105",
+    "name": "Springfield Rd after Upfield Ln",
+    "lat": "-33.995228",
+    "lon": "150.75816",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557106",
+    "name": "Springfield Rd after Curtis Ln",
+    "lat": "-33.99764",
+    "lon": "150.75902",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2557107",
+    "name": "Springfield Rd before Lukes Ln",
+    "lat": "-34.000034",
+    "lon": "150.76117",
     "productClass": [
       5
     ]
@@ -307294,6 +307367,15 @@
     "name": "Cobbitty Rd after Governor Dr",
     "lat": "-34.01392",
     "lon": "150.72049",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2570497",
+    "name": "Oran Park Dr after Dan Cleary Dr",
+    "lat": "-34.012142",
+    "lon": "150.74089",
     "productClass": [
       5
     ]
@@ -321565,16 +321647,6 @@
     ]
   },
   {
-    "id": "2765253",
-    "name": "Riverstone Station",
-    "lat": "-33.67922",
-    "lon": "150.860599",
-    "productClass": [
-      5,
-      1
-    ]
-  },
-  {
     "id": "2765254",
     "name": "Robert St before Garfield Rd W",
     "lat": "-33.690994",
@@ -329147,8 +329219,8 @@
   {
     "id": "2780247",
     "name": "Gladstone Rd at Cook St",
-    "lat": "-33.714317",
-    "lon": "150.342134",
+    "lat": "-33.713998",
+    "lon": "150.342204",
     "productClass": [
       5
     ]
@@ -335304,6 +335376,15 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone Station",
+    "lat": "-33.6790433699",
+    "lon": "150.860267864",
     "productClass": [
       1
     ]
