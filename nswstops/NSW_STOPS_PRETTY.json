@@ -578,15 +578,6 @@
     ]
   },
   {
-    "id": "200089",
-    "name": "Martin Place Station, Macquarie St",
-    "lat": "-33.868087",
-    "lon": "151.212159",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "200096",
     "name": "Bridge St at Gresham St",
     "lat": "-33.863625",
@@ -1032,15 +1023,6 @@
     "name": "Bourke St before Burton St",
     "lat": "-33.878259",
     "lon": "151.217391",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "201019",
-    "name": "Prince Alfred Park Pool, Chalmers St",
-    "lat": "-33.887406",
-    "lon": "151.20649",
     "productClass": [
       5
     ]
@@ -17435,15 +17417,6 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -49581,24 +49554,6 @@
     ]
   },
   {
-    "id": "212782",
-    "name": "Wentworth Pl after Footbridge Bvd",
-    "lat": "-33.825275",
-    "lon": "151.07896",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "212783",
-    "name": "Wentworth Pl before Footbridge Bvd",
-    "lat": "-33.825487",
-    "lon": "151.078945",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "212784",
     "name": "Pierre de Coubertin Park, Avenue of Oceania",
     "lat": "-33.835783",
@@ -75358,42 +75313,6 @@
     "name": "Baltimore St opp Michael Ave",
     "lat": "-33.908974",
     "lon": "151.090168",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219144",
-    "name": "Rudd Park, First Ave",
-    "lat": "-33.904487",
-    "lon": "151.093353",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219145",
-    "name": "First Ave at Clarence St",
-    "lat": "-33.90325",
-    "lon": "151.092933",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219147",
-    "name": "Rudd Park, Clarence St",
-    "lat": "-33.904215",
-    "lon": "151.089798",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219149",
-    "name": "Baltimore St opp Indiana Pl",
-    "lat": "-33.90603",
-    "lon": "151.088624",
     "productClass": [
       5
     ]
@@ -164293,15 +164212,6 @@
     "isParent": false
   },
   {
-    "id": "2000287",
-    "name": "St Mary's Cathedral, College St",
-    "lat": "-33.87245",
-    "lon": "151.212891",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2000308",
     "name": "Central Station, Forecourt, Coach Bay 4",
     "lat": "-33.883273",
@@ -167508,15 +167418,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167593,24 +167494,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -168918,15 +168801,6 @@
     "name": "Mowbray Rd opp Ward St",
     "lat": "-33.803332",
     "lon": "151.197567",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2068108",
-    "name": "Mowbray Rd opp Wallace St",
-    "lat": "-33.803125",
-    "lon": "151.196016",
     "productClass": [
       5
     ]
@@ -204430,6 +204304,15 @@
     ]
   },
   {
+    "id": "2155504",
+    "name": "Withers Rd after Mungerie Rd",
+    "lat": "-33.688072",
+    "lon": "150.93724",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2156100",
     "name": "Greenbank Dr after Grange Rd",
     "lat": "-33.709768",
@@ -219755,15 +219638,6 @@
     ]
   },
   {
-    "id": "2171184",
-    "name": "Camden Valley Way before Park Rd",
-    "lat": "-33.979508",
-    "lon": "150.803429",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2171185",
     "name": "Camden Valley Way after Heath Rd",
     "lat": "-33.975228",
@@ -220990,8 +220864,8 @@
   {
     "id": "2171431",
     "name": "Edmondson Ave opp Austral Public School",
-    "lat": "-33.933249",
-    "lon": "150.811942",
+    "lat": "-33.934048",
+    "lon": "150.81177",
     "productClass": [
       5
     ]
@@ -301523,7 +301397,7 @@
   },
   {
     "id": "2560647",
-    "name": "WSU Goldsmith Ave",
+    "name": "Goldsmith Ave opp Western Sydney University",
     "lat": "-34.0704",
     "lon": "150.79165",
     "productClass": [
@@ -330348,6 +330222,15 @@
     "lon": "149.1276145",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "G2664",
+    "name": "Canberra Hospital, Gilmore Cr",
+    "lat": "-35.344006",
+    "lon": "149.1017",
+    "productClass": [
+      1
     ]
   },
   {
