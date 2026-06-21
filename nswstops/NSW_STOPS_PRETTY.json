@@ -2953,15 +2953,6 @@
     ]
   },
   {
-    "id": "201774",
-    "name": "Bourke St opp Lachlan St",
-    "lat": "-33.899606",
-    "lon": "151.210743",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "201775",
     "name": "Bourke St opp Powell St",
     "lat": "-33.90182",
@@ -3943,15 +3934,6 @@
     ]
   },
   {
-    "id": "202015",
-    "name": "Sydney Airport, Terminal 1 International",
-    "lat": "-33.935375",
-    "lon": "151.165568",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202017",
     "name": "Mascot Shops, Botany Rd",
     "lat": "-33.931253",
@@ -4244,6 +4226,15 @@
     "name": "Sydney Domestic Airport, Keith Smith Ave",
     "lat": "-33.93307",
     "lon": "151.17845",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202077",
+    "name": "Sydney Airport, Terminal 1 International",
+    "lat": "-33.936275",
+    "lon": "151.16449",
     "productClass": [
       5
     ]
@@ -29920,15 +29911,6 @@
     ]
   },
   {
-    "id": "208656",
-    "name": "The Forest High School, Frenchs Forest Rd",
-    "lat": "-33.749526",
-    "lon": "151.231126",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "208657",
     "name": "Frenchs Forest Bushland Cemetery, Hakea Ave",
     "lat": "-33.742385",
@@ -41551,7 +41533,7 @@
   },
   {
     "id": "211230",
-    "name": "Blaxland Rd opp Top Ryde Community Health Centre",
+    "name": "Blaxland Rd opp Top Ryde City Shopping Centre",
     "lat": "-33.814114",
     "lon": "151.106455",
     "productClass": [
@@ -42848,48 +42830,30 @@
     ]
   },
   {
-    "id": "211421",
-    "name": "West Ryde Station (Set Down)",
-    "lat": "-33.806821",
-    "lon": "151.09",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211423",
-    "name": "West Pde opp West Ryde Station",
-    "lat": "-33.806946",
-    "lon": "151.089335",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211420",
+    "id": "211425",
     "name": "West Ryde Station",
-    "lat": "-33.8071721307",
-    "lon": "151.09022893",
+    "lat": "-33.806956",
+    "lon": "151.089799",
     "productClass": [
       5,
       1
     ]
   },
   {
-    "id": "211424",
-    "name": "West Ryde Station, Stand A",
-    "lat": "-33.807093",
-    "lon": "151.089509",
+    "id": "211421",
+    "name": "West Ryde Station, Stand C",
+    "lat": "-33.806821",
+    "lon": "151.09",
     "productClass": [
       5
     ],
     "isParent": false
   },
   {
-    "id": "211425",
-    "name": "West Ryde Station, Stand C",
-    "lat": "-33.806956",
-    "lon": "151.089799",
+    "id": "211424",
+    "name": "West Ryde Station, Stand A",
+    "lat": "-33.807093",
+    "lon": "151.089509",
     "productClass": [
       5
     ],
@@ -42999,12 +42963,22 @@
   },
   {
     "id": "211440",
-    "name": "Victoria Rd at Gaza Rd",
+    "name": "West Ryde Station, Victoria Rd",
     "lat": "-33.807742",
     "lon": "151.088258",
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "211473",
+    "name": "West Ryde Station, Victoria Rd, Stand E",
+    "lat": "-33.807569",
+    "lon": "151.088324",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "211441",
@@ -43254,15 +43228,6 @@
     "name": "Victoria Rd before Chatham Rd",
     "lat": "-33.807219",
     "lon": "151.086469",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211473",
-    "name": "Victoria Rd before West Pde",
-    "lat": "-33.807569",
-    "lon": "151.088324",
     "productClass": [
       5
     ]
@@ -43611,7 +43576,7 @@
   },
   {
     "id": "211533",
-    "name": "Victoria Rd at Spurway St",
+    "name": "Victoria Rd opp Ermington Shops",
     "lat": "-33.814208",
     "lon": "151.055922",
     "productClass": [
@@ -43629,7 +43594,7 @@
   },
   {
     "id": "211536",
-    "name": "Betty Cuthbert Ave Shops, Victoria Rd",
+    "name": "Ermington Shops, Victoria Rd",
     "lat": "-33.814415",
     "lon": "151.055511",
     "productClass": [
@@ -44043,7 +44008,7 @@
   },
   {
     "id": "211611",
-    "name": "Victoria Rd at Anderson Ave",
+    "name": "Victoria Rd opp Yallamundi Light Rail",
     "lat": "-33.808924",
     "lon": "151.028287",
     "productClass": [
@@ -44052,7 +44017,7 @@
   },
   {
     "id": "211612",
-    "name": "Victoria Rd before Railway St",
+    "name": "Yallamundi Light Rail, Victoria Rd",
     "lat": "-33.809179",
     "lon": "151.028241",
     "productClass": [
@@ -45216,15 +45181,6 @@
     "name": "Pennant Pde at Mars St",
     "lat": "-33.776753",
     "lon": "151.060401",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "211846",
-    "name": "Pennant Hills Rd opp Baker St",
-    "lat": "-33.785294",
-    "lon": "151.040996",
     "productClass": [
       5
     ]
@@ -49684,15 +49640,6 @@
     "name": "Holker St after Hill Rd",
     "lat": "-33.83408",
     "lon": "151.063569",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "212799",
-    "name": "Dawn Fraser Ave before Park St",
-    "lat": "-33.846359",
-    "lon": "151.07127",
     "productClass": [
       5
     ]
@@ -66478,6 +66425,15 @@
     ]
   },
   {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -72461,8 +72417,17 @@
   {
     "id": "217516",
     "name": "5 Johnston Cres",
-    "lat": "-33.833878",
-    "lon": "150.82281",
+    "lat": "-33.833416",
+    "lon": "150.82175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "217517",
+    "name": "Old Walgrove Rd after Keystone Dr",
+    "lat": "-33.82494",
+    "lon": "150.82584",
     "productClass": [
       5
     ]
@@ -74596,15 +74561,6 @@
     ]
   },
   {
-    "id": "219014",
-    "name": "Rawson Rd at Action St",
-    "lat": "-33.901802",
-    "lon": "151.05014",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219015",
     "name": "Hillcrest Ave after Boronia Rd",
     "lat": "-33.906067",
@@ -74967,24 +74923,6 @@
     ]
   },
   {
-    "id": "219082",
-    "name": "Chiswick Rd at Highview Ave",
-    "lat": "-33.903113",
-    "lon": "151.045085",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219083",
-    "name": "Highview Ave before Boronia Rd",
-    "lat": "-33.904417",
-    "lon": "151.044571",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "219084",
     "name": "Boronia Rd before Hume Hwy",
     "lat": "-33.904787",
@@ -75007,33 +74945,6 @@
     "name": "Hume Hwy after Boronia Rd",
     "lat": "-33.904666",
     "lon": "151.042624",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219087",
-    "name": "Highview Ave after Boronia Rd",
-    "lat": "-33.904362",
-    "lon": "151.04444",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219088",
-    "name": "Highview Ave opp Chiswick Rd",
-    "lat": "-33.90305",
-    "lon": "151.044718",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "219089",
-    "name": "Gosling Park, Chiswick Rd",
-    "lat": "-33.903389",
-    "lon": "151.047943",
     "productClass": [
       5
     ]
@@ -79745,15 +79656,6 @@
     "name": "Chapel Rd opp Bankstown Court House",
     "lat": "-33.916416",
     "lon": "151.033212",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220034",
-    "name": "Chapel Rd opp Bankstown Library and Knowledge Centre",
-    "lat": "-33.914848",
-    "lon": "151.034048",
     "productClass": [
       5
     ]
@@ -129108,6 +129010,15 @@
     "isParent": false
   },
   {
+    "id": "250013",
+    "name": "Keira St at Crown St",
+    "lat": "-34.425108",
+    "lon": "150.892947",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "250014",
     "name": "Keira St at Victoria St",
     "lat": "-34.422629",
@@ -141316,8 +141227,8 @@
   {
     "id": "256015",
     "name": "Koshigaya Park, Camden Rd",
-    "lat": "-34.071271",
-    "lon": "150.807517",
+    "lat": "-34.071693",
+    "lon": "150.80882",
     "productClass": [
       5
     ]
@@ -142930,8 +142841,8 @@
   {
     "id": "256491",
     "name": "Macquarie Fields Station, Railway Pde",
-    "lat": "-33.985188",
-    "lon": "150.87865",
+    "lat": "-33.984726",
+    "lon": "150.87923",
     "productClass": [
       5
     ]
@@ -154171,15 +154082,6 @@
     "name": "Tallawong Rd after Macquarie Rd",
     "lat": "-33.689699",
     "lon": "150.89923",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "276288",
-    "name": "Tallawong Station, Implexa Pde",
-    "lat": "-33.691751",
-    "lon": "150.904563",
     "productClass": [
       5
     ]
@@ -173193,15 +173095,6 @@
     "name": "Rangers Retreat Rd opp Garner Ave",
     "lat": "-33.755802",
     "lon": "151.229835",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2086112",
-    "name": "Grattan Cres opp Ararat Reserve",
-    "lat": "-33.762363",
-    "lon": "151.229537",
     "productClass": [
       5
     ]
@@ -203998,6 +203891,15 @@
     ]
   },
   {
+    "id": "2155460",
+    "name": "Tallawong Station, Implexa Pde",
+    "lat": "-33.691242",
+    "lon": "150.906155",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2155463",
     "name": "North Kellyville Public School, Hezlett Rd",
     "lat": "-33.691358",
@@ -210851,6 +210753,15 @@
     "name": "Thorney Rd opp Fairvale High School",
     "lat": "-33.874556",
     "lon": "150.928933",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2165101",
+    "name": "Thorney Rd at Baragoola St",
+    "lat": "-33.874052",
+    "lon": "150.926752",
     "productClass": [
       5
     ]
@@ -223472,15 +223383,6 @@
     ]
   },
   {
-    "id": "2190162",
-    "name": "Acacia Ave opp Roberts Park",
-    "lat": "-33.913783",
-    "lon": "151.058864",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2190163",
     "name": "Waterloo Rd opp Roberts Park",
     "lat": "-33.912998",
@@ -225238,15 +225140,6 @@
     ]
   },
   {
-    "id": "2196260",
-    "name": "Roselands Dr opp Lantern Club",
-    "lat": "-33.936589",
-    "lon": "151.071535",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2196263",
     "name": "Karne St opp Leigh Ave",
     "lat": "-33.939519",
@@ -225917,15 +225810,6 @@
     "name": "Glassop St at Dutton St",
     "lat": "-33.911328",
     "lon": "151.021292",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2200100",
-    "name": "Northam Ave at Chelmsford Ave",
-    "lat": "-33.922256",
-    "lon": "151.029096",
     "productClass": [
       5
     ]
@@ -230759,6 +230643,15 @@
     "name": "Uranus Rd at Centaur St",
     "lat": "-33.956299",
     "lon": "151.02262",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2211130",
+    "name": "Churchill Rd opp Bernard Rd",
+    "lat": "-33.971497",
+    "lon": "151.03618",
     "productClass": [
       5
     ]
@@ -283852,15 +283745,6 @@
     ]
   },
   {
-    "id": "2325125",
-    "name": "Wollombi Rd before Percy St",
-    "lat": "-32.836852",
-    "lon": "151.345958",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2325126",
     "name": "Wollombi Rd at Helen St",
     "lat": "-32.834486",
@@ -286331,33 +286215,6 @@
     "name": "Daniel St before James St",
     "lat": "-32.840896",
     "lon": "151.345713",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325483",
-    "name": "Florence St before Shedden St",
-    "lat": "-32.835021",
-    "lon": "151.347542",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325484",
-    "name": "Shedden St before Percy St",
-    "lat": "-32.835629",
-    "lon": "151.346161",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2325486",
-    "name": "Shedden St before Florence St",
-    "lat": "-32.835119",
-    "lon": "151.346632",
     "productClass": [
       5
     ]
@@ -289018,6 +288875,15 @@
     ]
   },
   {
+    "id": "2500374",
+    "name": "Keira St before Market St",
+    "lat": "-34.422755",
+    "lon": "150.893704",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2500405",
     "name": "Ralph Black Dr before Montague St",
     "lat": "-34.406367",
@@ -290084,6 +289950,15 @@
     "name": "Towradgi Rd at Carr St",
     "lat": "-34.383559",
     "lon": "150.901337",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2518136",
+    "name": "Underwood St at Tarrawanna Rd",
+    "lat": "-34.374369",
+    "lon": "150.895069",
     "productClass": [
       5
     ]
@@ -304478,6 +304353,15 @@
     "name": "Cobbitty Rd before Governor Dr",
     "lat": "-34.014",
     "lon": "150.72044",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2567229",
+    "name": "Australian Botanic Garden, Mount Annan",
+    "lat": "-34.054778",
+    "lon": "150.775186",
     "productClass": [
       5
     ]
@@ -331721,10 +331605,10 @@
     ]
   },
   {
-    "id": "G37133",
-    "name": "Mildura Base Hospital",
-    "lat": "-34.183476",
-    "lon": "142.144556",
+    "id": "G44245",
+    "name": "Mildura Base Hospital Stop 2",
+    "lat": "-34.1850685",
+    "lon": "142.1432098",
     "productClass": [
       1
     ]
@@ -331943,6 +331827,15 @@
     "lon": "150.839231",
     "productClass": [
       1
+    ]
+  },
+  {
+    "id": "233867",
+    "name": "Murrurundi Town Coach Stop",
+    "lat": "-31.762965",
+    "lon": "150.833491",
+    "productClass": [
+      7
     ]
   },
   {
