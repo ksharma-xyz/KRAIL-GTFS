@@ -47,7 +47,7 @@
   },
   {
     "id": "21721",
-    "name": "Boronia Dr opp Lomandra Ct",
+    "name": "Boronia Dr before Lomandra Ct",
     "lat": "-33.9629",
     "lon": "150.9781",
     "productClass": [
@@ -17390,6 +17390,15 @@
     "name": "Wenona Girls School, Walker St",
     "lat": "-33.833878",
     "lon": "151.20979",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "206094",
+    "name": "Waverton Station, Crows Nest Rd",
+    "lat": "-33.837018",
+    "lon": "151.198083",
     "productClass": [
       5
     ]
@@ -38784,6 +38793,33 @@
     ]
   },
   {
+    "id": "210518",
+    "name": "137 McCarrs Creek Rd",
+    "lat": "-33.65278",
+    "lon": "151.28139",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "210519",
+    "name": "141 McCarrs Creek Rd",
+    "lat": "-33.653893",
+    "lon": "151.28223",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "210520",
+    "name": "167 McCarrs Creek Rd",
+    "lat": "-33.654167",
+    "lon": "151.28166",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "210521",
     "name": "McCarrs Creek Rd opp Walker Pl",
     "lat": "-33.653336",
@@ -49427,6 +49463,35 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "212772",
+    "name": "Sydney Olympic Park, Plaza Terminal",
+    "lat": "-33.84294",
+    "lon": "151.062648",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212773",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 5B",
+    "lat": "-33.843095",
+    "lon": "151.06277",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212774",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 8",
+    "lat": "-33.843377",
+    "lon": "151.062989",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "212778",
@@ -75761,16 +75826,6 @@
     "isParent": false
   },
   {
-    "id": "2193108",
-    "name": "Canterbury Station, Canterbury Rd, Stand G",
-    "lat": "-33.912318",
-    "lon": "151.118983",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "219322",
     "name": "Canterbury Station, Broughton St",
     "lat": "-33.911871",
@@ -80986,15 +81041,6 @@
     "name": "Turrella St opp Turrella Station",
     "lat": "-33.929928",
     "lon": "151.140873",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "220533",
-    "name": "Princes Hwy after Subway Rd",
-    "lat": "-33.944094",
-    "lon": "151.142099",
     "productClass": [
       5
     ]
@@ -128630,6 +128676,33 @@
     ]
   },
   {
+    "id": "233613",
+    "name": "Macqueen St opp Aberdeen Station",
+    "lat": "-32.166877",
+    "lon": "150.891551",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233619",
+    "name": "Aberdeen Station, Macqueen St",
+    "lat": "-32.166908",
+    "lon": "150.891782",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "233721",
+    "name": "Scone Station, Coach Stop",
+    "lat": "-32.046842",
+    "lon": "150.867091",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "234011",
     "name": "Maison Dieu Rd opp Country Acres Caravan Park",
     "lat": "-32.553803",
@@ -145027,7 +145100,7 @@
   },
   {
     "id": "256846",
-    "name": "TEMP Station St after Central Creamery Ave",
+    "name": "Station St after Central Creamery Ave",
     "lat": "-34.127388",
     "lon": "150.74123",
     "productClass": [
@@ -145036,7 +145109,7 @@
   },
   {
     "id": "256847",
-    "name": "TEMP Station St before Riversford Cl",
+    "name": "Station St before Riversford Cl",
     "lat": "-34.12753",
     "lon": "150.7415",
     "productClass": [
@@ -164838,8 +164911,8 @@
   {
     "id": "2031141",
     "name": "Randwick Boys High School, Avoca St",
-    "lat": "-33.924335",
-    "lon": "151.239531",
+    "lat": "-33.924626",
+    "lon": "151.239434",
     "productClass": [
       5
     ]
@@ -164847,8 +164920,8 @@
   {
     "id": "2031142",
     "name": "Randwick Boys High School, Avoca St, Stand J",
-    "lat": "-33.924104",
-    "lon": "151.239577",
+    "lat": "-33.924599",
+    "lon": "151.239432",
     "productClass": [
       5
     ],
@@ -164857,8 +164930,8 @@
   {
     "id": "2031143",
     "name": "Randwick Boys High School, Avoca St, Stand I",
-    "lat": "-33.923848",
-    "lon": "151.239636",
+    "lat": "-33.924581",
+    "lon": "151.239431",
     "productClass": [
       5
     ],
@@ -164867,8 +164940,8 @@
   {
     "id": "2031144",
     "name": "Randwick Boys High School, Avoca St, Stand H",
-    "lat": "-33.923536",
-    "lon": "151.239723",
+    "lat": "-33.924584",
+    "lon": "151.239453",
     "productClass": [
       5
     ],
@@ -164877,8 +164950,8 @@
   {
     "id": "2031145",
     "name": "Randwick Boys High School, Avoca St, Stand G",
-    "lat": "-33.923272",
-    "lon": "151.239773",
+    "lat": "-33.924334",
+    "lon": "151.239528",
     "productClass": [
       5
     ],
@@ -164887,8 +164960,8 @@
   {
     "id": "2031193",
     "name": "Randwick Boys High School, Avoca St, Stand L",
-    "lat": "-33.924586",
-    "lon": "151.239451",
+    "lat": "-33.924653",
+    "lon": "151.239435",
     "productClass": [
       5
     ],
@@ -164897,8 +164970,8 @@
   {
     "id": "2031146",
     "name": "Randwick Girls High School, Avoca St",
-    "lat": "-33.922887",
-    "lon": "151.239843",
+    "lat": "-33.923847",
+    "lon": "151.239634",
     "productClass": [
       5
     ]
@@ -164906,8 +164979,8 @@
   {
     "id": "2031147",
     "name": "Randwick Girls High School, Avoca St, Stand E",
-    "lat": "-33.922727",
-    "lon": "151.239886",
+    "lat": "-33.923537",
+    "lon": "151.239716",
     "productClass": [
       5
     ],
@@ -164916,8 +164989,8 @@
   {
     "id": "2031148",
     "name": "Randwick Girls High School, Avoca St, Stand D",
-    "lat": "-33.922502",
-    "lon": "151.23995",
+    "lat": "-33.923273",
+    "lon": "151.239779",
     "productClass": [
       5
     ],
@@ -164926,8 +164999,8 @@
   {
     "id": "2031150",
     "name": "Randwick Girls High School, Avoca St, Stand B",
-    "lat": "-33.922024",
-    "lon": "151.240031",
+    "lat": "-33.922241",
+    "lon": "151.239978",
     "productClass": [
       5
     ],
@@ -167104,6 +167177,15 @@
     ]
   },
   {
+    "id": "2065131",
+    "name": "St Leonards Station, Pacific Hwy (NightRide)",
+    "lat": "-33.823221",
+    "lon": "151.194545",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167180,6 +167262,24 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065147",
+    "name": "Herbert St at Pacific Hwy",
+    "lat": "-33.823207",
+    "lon": "151.193662",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2065150",
+    "name": "Milner Cres at Shirley Rd",
+    "lat": "-33.831924",
+    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -181885,8 +181985,8 @@
   {
     "id": "2121181",
     "name": "Vimiera Rd at Raymond St",
-    "lat": "-33.78116",
-    "lon": "151.093628",
+    "lat": "-33.779335",
+    "lon": "151.09512",
     "productClass": [
       5
     ]
@@ -232327,15 +232427,6 @@
     "name": "Westfield Hurstville, Cross St",
     "lat": "-33.96618",
     "lon": "151.103948",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2220302",
-    "name": "Hurstville Fire Station, Butler Rd",
-    "lat": "-33.968042",
-    "lon": "151.101992",
     "productClass": [
       5
     ]
@@ -301991,6 +302082,15 @@
     ]
   },
   {
+    "id": "2565646",
+    "name": "Ingleburn Rd opp Ingleburn Station",
+    "lat": "-33.997575",
+    "lon": "150.864973",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2565648",
     "name": "Campbelltown Rd opp Dickson Rd",
     "lat": "-33.984713",
@@ -329479,6 +329579,15 @@
     ]
   },
   {
+    "id": "253320",
+    "name": "Bombo Station",
+    "lat": "-34.657949",
+    "lon": "150.854049",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "2425102",
     "name": "Booral Coach Stop",
     "lat": "-32.46671149",
@@ -329937,6 +330046,15 @@
     "lon": "147.1470945",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "250030",
+    "name": "Coniston Station",
+    "lat": "-34.437443",
+    "lon": "150.885469",
+    "productClass": [
+      1
     ]
   },
   {
@@ -331299,6 +331417,15 @@
     ]
   },
   {
+    "id": "253310",
+    "name": "Minnamurra Station",
+    "lat": "-34.625722",
+    "lon": "150.852206",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "257510",
     "name": "Mittagong Station",
     "lat": "-34.45268",
@@ -331567,6 +331694,15 @@
     "lon": "147.1968688",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "252920",
+    "name": "Oak Flats Station",
+    "lat": "-34.572243",
+    "lon": "150.820892",
+    "productClass": [
+      1
     ]
   },
   {
@@ -331862,6 +331998,15 @@
     "name": "Seymour Station",
     "lat": "-37.024365",
     "lon": "145.138408",
+    "productClass": [
+      1
+    ]
+  },
+  {
+    "id": "2529218",
+    "name": "Shellharbour Junction Station",
+    "lat": "-34.5912",
+    "lon": "150.8448",
     "productClass": [
       1
     ]
@@ -332197,6 +332342,15 @@
     "lon": "153.029194",
     "productClass": [
       7
+    ]
+  },
+  {
+    "id": "252610",
+    "name": "Unanderra Station",
+    "lat": "-34.454409",
+    "lon": "150.846341",
+    "productClass": [
+      1
     ]
   },
   {
@@ -333617,15 +333771,6 @@
     ]
   },
   {
-    "id": "253320",
-    "name": "Bombo Station",
-    "lat": "-34.6580285016",
-    "lon": "150.853975458",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "251810",
     "name": "Bellambi Station",
     "lat": "-34.363318415",
@@ -333865,15 +334010,6 @@
     "name": "Cronulla Station",
     "lat": "-34.0562517119",
     "lon": "151.151542409",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "250030",
-    "name": "Coniston Station",
-    "lat": "-34.4374548931",
-    "lon": "150.885529169",
     "productClass": [
       1
     ]
@@ -334500,15 +334636,6 @@
     ]
   },
   {
-    "id": "253310",
-    "name": "Minnamurra Station",
-    "lat": "-34.625699757",
-    "lon": "150.85225749",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "214820",
     "name": "Marayong Station",
     "lat": "-33.7464511113",
@@ -334594,15 +334721,6 @@
     "name": "North Wollongong Station",
     "lat": "-34.4125932568",
     "lon": "150.891349169",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "252920",
-    "name": "Oak Flats Station",
-    "lat": "-34.572230751",
-    "lon": "150.82090794",
     "productClass": [
       1
     ]
@@ -334905,15 +335023,6 @@
     ]
   },
   {
-    "id": "2529218",
-    "name": "Shellharbour Junction Station",
-    "lat": "-34.5912",
-    "lon": "150.8448",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "252910",
     "name": "Dunmore Station",
     "lat": "-34.6059132924",
@@ -335090,15 +335199,6 @@
     "name": "Towradgi Station",
     "lat": "-34.384686325",
     "lon": "150.901238888",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "252610",
-    "name": "Unanderra Station",
-    "lat": "-34.4544287823",
-    "lon": "150.846262892",
     "productClass": [
       1
     ]
