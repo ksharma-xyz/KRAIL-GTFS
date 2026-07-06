@@ -4231,6 +4231,15 @@
     ]
   },
   {
+    "id": "202076",
+    "name": "Sydney Domestic Airport, Keith Smith Ave",
+    "lat": "-33.93307",
+    "lon": "151.17845",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "202077",
     "name": "Sydney Airport, Terminal 1 International",
     "lat": "-33.936275",
@@ -4262,6 +4271,15 @@
     "name": "Wentworth Ave at Alfred Lane",
     "lat": "-33.93405",
     "lon": "151.197498",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "202083",
+    "name": "Sydney Airport, International Terminal (T1), Arrival Ct",
+    "lat": "-33.935337",
+    "lon": "151.165745",
     "productClass": [
       5
     ]
@@ -45035,8 +45053,8 @@
   {
     "id": "211825",
     "name": "Pennant Hills Rd opp Roselea Community Centre",
-    "lat": "-33.76301",
-    "lon": "151.047628",
+    "lat": "-33.763283",
+    "lon": "151.04764",
     "productClass": [
       5
     ]
@@ -45991,6 +46009,33 @@
     "name": "Beecroft Rd after Hannah St",
     "lat": "-33.748775",
     "lon": "151.064158",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
     "productClass": [
       5
     ]
@@ -66445,6 +66490,15 @@
     ]
   },
   {
+    "id": "216313",
+    "name": "Wattle Ave at Waterside Cres",
+    "lat": "-33.88452",
+    "lon": "150.962241",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "216316",
     "name": "Hume Hwy at Tillet Pde",
     "lat": "-33.891644",
@@ -69340,15 +69394,6 @@
     "name": "Newtown rd at Harrow Rd",
     "lat": "-33.979634",
     "lon": "150.890754",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "216758",
-    "name": "Seddon Park, Railway Pde",
-    "lat": "-33.977086",
-    "lon": "150.888088",
     "productClass": [
       5
     ]
@@ -88922,16 +88967,6 @@
     "productClass": [
       5
     ]
-  },
-  {
-    "id": "2220123",
-    "name": "Hurstville Station, Ormonde Pde, Stand P",
-    "lat": "-33.968221",
-    "lon": "151.103413",
-    "productClass": [
-      5
-    ],
-    "isParent": false
   },
   {
     "id": "2220333",
@@ -139931,7 +139966,7 @@
   },
   {
     "id": "255746",
-    "name": "Village Cct Shops",
+    "name": "Gregory Hills Town Centre, Village Cct",
     "lat": "-34.026134",
     "lon": "150.776603",
     "productClass": [
@@ -139949,18 +139984,9 @@
   },
   {
     "id": "255749",
-    "name": "Kavanagh St at Junee St",
+    "name": "Champagnat Park, Kavanagh St",
     "lat": "-34.028179",
     "lon": "150.782027",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "255750",
-    "name": "Kavanagh St opp Junee St",
-    "lat": "-34.028279",
-    "lon": "150.781998",
     "productClass": [
       5
     ]
@@ -140021,7 +140047,7 @@
   },
   {
     "id": "255757",
-    "name": "Village Cct at Gregory Hills Dr",
+    "name": "Village Cct opp Gregory Hills Town Centre",
     "lat": "-34.02615",
     "lon": "150.776433",
     "productClass": [
@@ -141119,7 +141145,7 @@
   },
   {
     "id": "256012",
-    "name": "Narellan Rd opp Campbelltown TAFE",
+    "name": "Narellan Rd opp TAFE NSW Campbelltown",
     "lat": "-34.065657",
     "lon": "150.797979",
     "productClass": [
@@ -141131,15 +141157,6 @@
     "name": "Marketfair, Kellicar Rd",
     "lat": "-34.072581",
     "lon": "150.804516",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256015",
-    "name": "Koshigaya Park, Camden Rd",
-    "lat": "-34.071693",
-    "lon": "150.80882",
     "productClass": [
       5
     ]
@@ -141940,15 +141957,6 @@
     ]
   },
   {
-    "id": "256311",
-    "name": "Broughton Anglican College, Menangle Rd",
-    "lat": "-34.102538",
-    "lon": "150.765367",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "256312",
     "name": "Cummins Rd before Station Rd",
     "lat": "-34.104001",
@@ -141994,15 +142002,6 @@
     ]
   },
   {
-    "id": "256320",
-    "name": "Broughton Anglican College, Admin Building",
-    "lat": "-34.101557",
-    "lon": "150.767158",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "256323",
     "name": "Menangle River Reserve, Menangle Rd",
     "lat": "-34.117193",
@@ -142016,24 +142015,6 @@
     "name": "Menangle Rd opp Menangle River Reserve",
     "lat": "-34.11701",
     "lon": "150.742143",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256326",
-    "name": "Menangle Rd after Cummins Rd",
-    "lat": "-34.108266",
-    "lon": "150.750861",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256350",
-    "name": "Cummins Rd after Station Rd",
-    "lat": "-34.101997",
-    "lon": "150.75069",
     "productClass": [
       5
     ]
@@ -142079,6 +142060,15 @@
     "name": "Miracle Mile Bvd before Octagonal Dr",
     "lat": "-34.105709",
     "lon": "150.756246",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "256358",
+    "name": "Cummins Rd after Station Rd",
+    "lat": "-34.104115",
+    "lon": "150.749914",
     "productClass": [
       5
     ]
@@ -142304,15 +142294,6 @@
     "name": "Macquarie Fields Public School, Fields Rd",
     "lat": "-33.995151",
     "lon": "150.881436",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256437",
-    "name": "Atchison Rd before Fraser St",
-    "lat": "-33.979826",
-    "lon": "150.885591",
     "productClass": [
       5
     ]
@@ -142736,15 +142717,6 @@
     "name": "Victoria Rd opp Macarthur Adventist College",
     "lat": "-33.98368",
     "lon": "150.884207",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256489",
-    "name": "Atchison Rd after Victoria Rd",
-    "lat": "-33.982314",
-    "lon": "150.884003",
     "productClass": [
       5
     ]
@@ -145099,15 +145071,6 @@
     ]
   },
   {
-    "id": "256846",
-    "name": "Station St after Central Creamery Ave",
-    "lat": "-34.127388",
-    "lon": "150.74123",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "256847",
     "name": "Station St before Riversford Cl",
     "lat": "-34.12753",
@@ -145126,42 +145089,6 @@
     ]
   },
   {
-    "id": "256854",
-    "name": "565 Moreton Park Rd",
-    "lat": "-34.142718",
-    "lon": "150.742892",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256855",
-    "name": "Moreton Park Rd opp 565",
-    "lat": "-34.142788",
-    "lon": "150.742839",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256856",
-    "name": "551 Morton Park Rd",
-    "lat": "-34.16104",
-    "lon": "150.743233",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256857",
-    "name": "Opp 482 Morton Park Rd",
-    "lat": "-34.160957",
-    "lon": "150.743204",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "256858",
     "name": "Finns Rd opp Carrolls Rd",
     "lat": "-34.1398",
@@ -145175,15 +145102,6 @@
     "name": "Carrolls Rd at Finns Rd",
     "lat": "-34.140121",
     "lon": "150.713997",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256911",
-    "name": "Moreton Park Rd (Spaniards Main)",
-    "lat": "-34.176737",
-    "lon": "150.736173",
     "productClass": [
       5
     ]
@@ -158996,8 +158914,8 @@
   {
     "id": "277363",
     "name": "Glenbrook Rd at Olivet St",
-    "lat": "-33.75674",
-    "lon": "150.618798",
+    "lat": "-33.756585",
+    "lon": "150.61886",
     "productClass": [
       5
     ]
@@ -160661,8 +160579,8 @@
   {
     "id": "277759",
     "name": "Buckland Dr at Cowper Cir",
-    "lat": "-33.693459",
-    "lon": "150.577262",
+    "lat": "-33.693515",
+    "lon": "150.577466",
     "productClass": [
       5
     ]
@@ -162966,8 +162884,8 @@
   {
     "id": "278511",
     "name": "Evans Lookout Rd after Great Western Hwy",
-    "lat": "-33.649957",
-    "lon": "150.285509",
+    "lat": "-33.649922",
+    "lon": "150.285698",
     "productClass": [
       5
     ]
@@ -164918,50 +164836,10 @@
     ]
   },
   {
-    "id": "2031142",
-    "name": "Randwick Boys High School, Avoca St, Stand J",
-    "lat": "-33.924599",
-    "lon": "151.239432",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
-    "id": "2031143",
-    "name": "Randwick Boys High School, Avoca St, Stand I",
-    "lat": "-33.924581",
-    "lon": "151.239431",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
-    "id": "2031144",
-    "name": "Randwick Boys High School, Avoca St, Stand H",
-    "lat": "-33.924584",
-    "lon": "151.239453",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2031145",
     "name": "Randwick Boys High School, Avoca St, Stand G",
     "lat": "-33.924334",
     "lon": "151.239528",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
-    "id": "2031193",
-    "name": "Randwick Boys High School, Avoca St, Stand L",
-    "lat": "-33.924653",
-    "lon": "151.239435",
     "productClass": [
       5
     ],
@@ -164991,6 +164869,16 @@
     "name": "Randwick Girls High School, Avoca St, Stand D",
     "lat": "-33.923273",
     "lon": "151.239779",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "2031149",
+    "name": "Randwick Girls High School, Avoca St, Stand C",
+    "lat": "-33.9225",
+    "lon": "151.239948",
     "productClass": [
       5
     ],
@@ -175914,24 +175802,6 @@
     "name": "Cromer Public School, Waroon Rd",
     "lat": "-33.738548",
     "lon": "151.275932",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2099214",
-    "name": "Pacific Pde at Monash Pde",
-    "lat": "-33.756159",
-    "lon": "151.297676",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2099215",
-    "name": "Monash Pde opp Boronia St",
-    "lat": "-33.75819",
-    "lon": "151.29926",
     "productClass": [
       5
     ]
@@ -212415,6 +212285,15 @@
     ]
   },
   {
+    "id": "2166255",
+    "name": "Railway Pde before Cabramatta Rd W",
+    "lat": "-33.895859",
+    "lon": "150.938261",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2166257",
     "name": "Avenel St after Sackville St",
     "lat": "-33.881703",
@@ -215276,7 +215155,7 @@
   },
   {
     "id": "2170276",
-    "name": "Moore St after Beale St",
+    "name": "Moore St opp Collimore Park",
     "lat": "-33.921646",
     "lon": "150.915566",
     "productClass": [
@@ -215870,7 +215749,7 @@
   },
   {
     "id": "2170351",
-    "name": "Hume Hwy opp De Meyrick Ave",
+    "name": "Hume Hwy opp Casula Shops",
     "lat": "-33.943925",
     "lon": "150.911146",
     "productClass": [
@@ -219218,7 +219097,7 @@
   },
   {
     "id": "2171152",
-    "name": "Camden Valley Way opp Catherine Fields Rd",
+    "name": "Camden Valley Way at Lady Josephine Grange",
     "lat": "-34.003295",
     "lon": "150.777519",
     "productClass": [
@@ -219227,7 +219106,7 @@
   },
   {
     "id": "2171153",
-    "name": "Camden Valley Way opp Springfield Rd",
+    "name": "Camden Valley Way at The Hermitage Way",
     "lat": "-34.010597",
     "lon": "150.769971",
     "productClass": [
@@ -220469,7 +220348,7 @@
   },
   {
     "id": "2171392",
-    "name": "Bringelly Rd opp Edmondson Ave",
+    "name": "Bringelly Rd after Rickard Rd",
     "lat": "-33.950597",
     "lon": "150.807924",
     "productClass": [
@@ -222548,7 +222427,7 @@
   },
   {
     "id": "2176314",
-    "name": "Elizabeth Dr after M7 Mwy",
+    "name": "Elizabeth Dr after M7 Motorway",
     "lat": "-33.879559",
     "lon": "150.847599",
     "productClass": [
@@ -233468,15 +233347,6 @@
     "name": "Jannali Public School, Sutherland Rd",
     "lat": "-34.018495",
     "lon": "151.061514",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2226105",
-    "name": "Como Station, Como Pde",
-    "lat": "-34.004582",
-    "lon": "151.067786",
     "productClass": [
       5
     ]
@@ -267829,6 +267699,15 @@
     ]
   },
   {
+    "id": "2287254",
+    "name": "Neilson St after Wentworth St",
+    "lat": "-32.900082",
+    "lon": "151.662834",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2287257",
     "name": "Bousfield St after Kokera St",
     "lat": "-32.902894",
@@ -298661,7 +298540,7 @@
   },
   {
     "id": "2560332",
-    "name": "Gilchrist Dr opp Macarthur Square",
+    "name": "Gilchrist Rd before Therry Rd",
     "lat": "-34.077511",
     "lon": "150.799453",
     "productClass": [
@@ -299264,7 +299143,7 @@
   },
   {
     "id": "2560405",
-    "name": "Macarthur Square, Gilchrist Dr",
+    "name": "Gilchrist Rd after Therry Rd",
     "lat": "-34.077444",
     "lon": "150.799133",
     "productClass": [
@@ -299786,7 +299665,7 @@
   },
   {
     "id": "2560472",
-    "name": "Campbelltown TAFE, Narellan Rd",
+    "name": "TAFE NSW Campbelltown, Narellan Rd",
     "lat": "-34.066065",
     "lon": "150.798628",
     "productClass": [
@@ -303370,7 +303249,7 @@
   },
   {
     "id": "2567129",
-    "name": "Narellan Rd opp Maxwell Pl",
+    "name": "Narellan Rd before Camden Valley Way",
     "lat": "-34.040052",
     "lon": "150.742436",
     "productClass": [
@@ -304144,7 +304023,7 @@
   },
   {
     "id": "2567229",
-    "name": "Australian Botanic Garden, Mount Annan",
+    "name": "Australian Botanic Garden Mount Annan, Narellan Rd",
     "lat": "-34.054778",
     "lon": "150.775186",
     "productClass": [
@@ -304372,15 +304251,6 @@
     "name": "Smeaton Grange Rd after Camden Valley Way",
     "lat": "-34.036941",
     "lon": "150.747377",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2567304",
-    "name": "Oran Park Dr before Forestgrove Dr",
-    "lat": "-34.019343",
-    "lon": "150.754222",
     "productClass": [
       5
     ]
@@ -306762,15 +306632,6 @@
     ]
   },
   {
-    "id": "2570427",
-    "name": "O'Keefe Dr opp Banfield Dr",
-    "lat": "-34.00618",
-    "lon": "150.748625",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2570428",
     "name": "Lodges Rd at Romney St",
     "lat": "-34.054757",
@@ -308194,7 +308055,7 @@
   },
   {
     "id": "2747132",
-    "name": "Bringelly Rd after Smith St",
+    "name": "Bringelly Rd opp Peppermint Reserve",
     "lat": "-33.768368",
     "lon": "150.718265",
     "productClass": [
@@ -322756,6 +322617,24 @@
     ]
   },
   {
+    "id": "2765487",
+    "name": "Boundary Rd after Menin Rd",
+    "lat": "-33.638935",
+    "lon": "150.88564",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2765488",
+    "name": "Boundary Rd opp Bluegate St",
+    "lat": "-33.635674",
+    "lon": "150.88792",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2766103",
     "name": "Rupertswood Rd opp Charlotte Rd",
     "lat": "-33.775564",
@@ -327563,15 +327442,6 @@
     ]
   },
   {
-    "id": "2777177",
-    "name": "Springwood Station, Station St",
-    "lat": "-33.698905",
-    "lon": "150.563507",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777179",
     "name": "Valley Heights Station, Great Western Hwy",
     "lat": "-33.703974",
@@ -329750,15 +329620,6 @@
     ]
   },
   {
-    "id": "G300017",
-    "name": "Burleigh Heads Primary School",
-    "lat": "-28.087496",
-    "lon": "153.449805",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "273912",
     "name": "Buronga Coach Stop",
     "lat": "-34.17118725",
@@ -329862,15 +329723,6 @@
     "name": "Canberra Hospital, Gilmore Cr",
     "lat": "-35.344006",
     "lon": "149.1017",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "G2382",
-    "name": "Canberra Hospital, Yamba Dr",
-    "lat": "-35.346484",
-    "lon": "149.09975",
     "productClass": [
       1
     ]
@@ -330202,15 +330054,6 @@
     ]
   },
   {
-    "id": "262834",
-    "name": "Dalgety Coach Stop",
-    "lat": "-36.504307",
-    "lon": "148.834367",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "253020",
     "name": "Dapto Station",
     "lat": "-34.491967",
@@ -330337,15 +330180,6 @@
     ]
   },
   {
-    "id": "24801096",
-    "name": "Eltham Coach Stop",
-    "lat": "-28.7560456",
-    "lon": "153.3943396",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "283614",
     "name": "Emmdale Coach Stop",
     "lat": "-31.65320753",
@@ -330436,15 +330270,6 @@
     ]
   },
   {
-    "id": "257984",
-    "name": "Exeter Oval, Exeter Rd",
-    "lat": "-34.612906",
-    "lon": "150.317082",
-    "productClass": [
-      1
-    ]
-  },
-  {
     "id": "228330",
     "name": "Fassifern Station",
     "lat": "-32.985982",
@@ -330469,15 +330294,6 @@
     "lon": "148.008041",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "2871689",
-    "name": "Forbes Historic Railway Station",
-    "lat": "-33.37917738",
-    "lon": "148.0117062",
-    "productClass": [
-      1
     ]
   },
   {
@@ -331516,15 +331332,6 @@
     ]
   },
   {
-    "id": "236057",
-    "name": "Mount Russell turnoff Coach Stop",
-    "lat": "-29.726474",
-    "lon": "150.9370834",
-    "productClass": [
-      7
-    ]
-  },
-  {
     "id": "278610",
     "name": "Mount Victoria Station",
     "lat": "-33.588033",
@@ -331676,15 +331483,6 @@
     "lon": "149.2837157",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "G4803",
-    "name": "North Canberra Hospital",
-    "lat": "-35.252516",
-    "lon": "149.087001",
-    "productClass": [
-      1
     ]
   },
   {
@@ -331892,15 +331690,6 @@
     "lon": "150.5978025",
     "productClass": [
       7
-    ]
-  },
-  {
-    "id": "G42261",
-    "name": "Robina Station",
-    "lat": "-28.07108491",
-    "lon": "153.3775092",
-    "productClass": [
-      1
     ]
   },
   {
