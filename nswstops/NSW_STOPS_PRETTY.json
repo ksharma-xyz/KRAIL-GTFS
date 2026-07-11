@@ -300,16 +300,6 @@
     "isParent": false
   },
   {
-    "id": "200036",
-    "name": "Wynyard Station, York St, Stand N",
-    "lat": "-33.865377",
-    "lon": "151.205704",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "200048",
     "name": "Wynyard Station, York St, Stand P",
     "lat": "-33.864755",
@@ -9593,7 +9583,7 @@
   },
   {
     "id": "203275",
-    "name": "Rainbow St opp Randwick Boys High School",
+    "name": "Rainbow St opp Randwick High School",
     "lat": "-33.925646",
     "lon": "151.238882",
     "productClass": [
@@ -17413,15 +17403,6 @@
     ]
   },
   {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -22772,24 +22753,6 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207182",
-    "name": "Killara Station, Culworth Ave",
-    "lat": "-33.765872",
-    "lon": "151.16175",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "207183",
-    "name": "Culworth Ave opp Killara Station",
-    "lat": "-33.765815",
-    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -34261,6 +34224,15 @@
     ]
   },
   {
+    "id": "209594",
+    "name": "Belgrave St opp Gilbert St",
+    "lat": "-33.79874",
+    "lon": "151.28471",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "209611",
     "name": "Oliver St before Cavill St",
     "lat": "-33.779864",
@@ -38804,8 +38776,8 @@
   {
     "id": "210517",
     "name": "McCarrs Creek Rd opp 46",
-    "lat": "-33.650438",
-    "lon": "151.27873",
+    "lat": "-33.650265",
+    "lon": "151.27863",
     "productClass": [
       5
     ]
@@ -49505,6 +49477,15 @@
     "name": "Avenue of Asia before Holker St",
     "lat": "-33.832784",
     "lon": "151.05783",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212767",
+    "name": "Sydney Olympic Park, Aquatic Terminal",
+    "lat": "-33.850096",
+    "lon": "151.068585",
     "productClass": [
       5
     ]
@@ -88967,6 +88948,16 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "2220123",
+    "name": "Hurstville Station, Ormonde Pde, Stand P",
+    "lat": "-33.968221",
+    "lon": "151.103413",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "2220333",
@@ -130629,6 +130620,24 @@
     ]
   },
   {
+    "id": "250533",
+    "name": "Flinders St opp Port Kembla North Station",
+    "lat": "-34.473208",
+    "lon": "150.88771",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "250534",
+    "name": "Port Kembla North Station, Flinders St",
+    "lat": "-34.473042",
+    "lon": "150.887723",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "250538",
     "name": "Springhill Rd before Entry Rd",
     "lat": "-34.45584",
@@ -164810,7 +164819,7 @@
   },
   {
     "id": "2031139",
-    "name": "Avoca St opp Randwick Girls High School",
+    "name": "Avoca St after Barker St",
     "lat": "-33.921758",
     "lon": "151.240279",
     "productClass": [
@@ -164819,7 +164828,7 @@
   },
   {
     "id": "2031140",
-    "name": "Avoca St opp Randwick Boys High School",
+    "name": "Avoca St before Rainbow St",
     "lat": "-33.925241",
     "lon": "151.239535",
     "productClass": [
@@ -164827,36 +164836,27 @@
     ]
   },
   {
-    "id": "2031141",
-    "name": "Randwick Boys High School, Avoca St",
-    "lat": "-33.924626",
-    "lon": "151.239434",
+    "id": "2031145",
+    "name": "Randwick High School, Avoca St",
+    "lat": "-33.924334",
+    "lon": "151.239528",
     "productClass": [
       5
     ]
   },
   {
-    "id": "2031145",
-    "name": "Randwick Boys High School, Avoca St, Stand G",
-    "lat": "-33.924334",
-    "lon": "151.239528",
+    "id": "2031146",
+    "name": "Randwick High School, Avoca St, Stand F",
+    "lat": "-33.923847",
+    "lon": "151.239634",
     "productClass": [
       5
     ],
     "isParent": false
   },
   {
-    "id": "2031146",
-    "name": "Randwick Girls High School, Avoca St",
-    "lat": "-33.923847",
-    "lon": "151.239634",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2031147",
-    "name": "Randwick Girls High School, Avoca St, Stand E",
+    "name": "Randwick High School, Avoca St, Stand E",
     "lat": "-33.923537",
     "lon": "151.239716",
     "productClass": [
@@ -164866,7 +164866,7 @@
   },
   {
     "id": "2031148",
-    "name": "Randwick Girls High School, Avoca St, Stand D",
+    "name": "Randwick High School, Avoca St, Stand D",
     "lat": "-33.923273",
     "lon": "151.239779",
     "productClass": [
@@ -164876,7 +164876,7 @@
   },
   {
     "id": "2031149",
-    "name": "Randwick Girls High School, Avoca St, Stand C",
+    "name": "Randwick High School, Avoca St, Stand C",
     "lat": "-33.9225",
     "lon": "151.239948",
     "productClass": [
@@ -164886,7 +164886,7 @@
   },
   {
     "id": "2031150",
-    "name": "Randwick Girls High School, Avoca St, Stand B",
+    "name": "Randwick High School, Avoca St, Stand B",
     "lat": "-33.922241",
     "lon": "151.239978",
     "productClass": [
@@ -164896,7 +164896,7 @@
   },
   {
     "id": "2031151",
-    "name": "Randwick Girls High School, Avoca St, Stand A",
+    "name": "Randwick High School, Avoca St, Stand A",
     "lat": "-33.9218",
     "lon": "151.240072",
     "productClass": [
@@ -165005,7 +165005,7 @@
   },
   {
     "id": "2031172",
-    "name": "Randwick Boys High School, Rainbow St",
+    "name": "Randwick High School, Rainbow St",
     "lat": "-33.92546",
     "lon": "151.238742",
     "productClass": [
@@ -167065,15 +167065,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -167150,24 +167141,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -168430,15 +168403,6 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2067137",
-    "name": "Victoria Ave opp Katherine St",
-    "lat": "-33.797403",
-    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -228431,6 +228395,24 @@
     ]
   },
   {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2208102",
     "name": "Homer St at Beaconsfield Ave",
     "lat": "-33.933088",
@@ -264085,6 +264067,15 @@
     "name": "Sunderland St at High St",
     "lat": "-33.003242",
     "lon": "151.573515",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2283237",
+    "name": "Awaba Rd opp Awaba Station",
+    "lat": "-33.013504",
+    "lon": "151.542432",
     "productClass": [
       5
     ]
@@ -301956,15 +301947,6 @@
     "name": "Campbelltown Rd after Blomfield Rd",
     "lat": "-33.982613",
     "lon": "150.846948",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2565646",
-    "name": "Ingleburn Rd opp Ingleburn Station",
-    "lat": "-33.997575",
-    "lon": "150.864973",
     "productClass": [
       5
     ]
