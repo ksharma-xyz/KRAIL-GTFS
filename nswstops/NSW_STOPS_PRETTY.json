@@ -130640,24 +130640,6 @@
     ]
   },
   {
-    "id": "250533",
-    "name": "Flinders St opp Port Kembla North Station",
-    "lat": "-34.473208",
-    "lon": "150.88771",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "250534",
-    "name": "Port Kembla North Station, Flinders St",
-    "lat": "-34.473042",
-    "lon": "150.887723",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "250538",
     "name": "Springhill Rd before Entry Rd",
     "lat": "-34.45584",
@@ -143556,15 +143538,6 @@
     "name": "Mumu Reserve, Raby Rd",
     "lat": "-34.03034",
     "lon": "150.827848",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "256614",
-    "name": "Stromeferry Reserve, Raby Rd",
-    "lat": "-34.030135",
-    "lon": "150.826448",
     "productClass": [
       5
     ]
@@ -187145,15 +187118,6 @@
     ]
   },
   {
-    "id": "2142287",
-    "name": "Granville Station, Bridge St",
-    "lat": "-33.832341",
-    "lon": "151.011551",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142288",
     "name": "Halsall St at Woodville Rd",
     "lat": "-33.830578",
@@ -196355,24 +196319,6 @@
     "name": "Parkes St before Harris St",
     "lat": "-33.818828",
     "lon": "151.010626",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -214823,6 +214769,16 @@
     ]
   },
   {
+    "id": "2170556",
+    "name": "Westfield Liverpool, Elizabeth Dr Stand A",
+    "lat": "-33.920181",
+    "lon": "150.924635",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "2170233",
     "name": "Moore St opp TAFE South Western Sydney",
     "lat": "-33.922808",
@@ -233058,9 +233014,9 @@
   },
   {
     "id": "2223236",
-    "name": "Short St at Douglas Haig St",
-    "lat": "-33.981338",
-    "lon": "151.06709",
+    "name": "Douglas Haig St after Short St",
+    "lat": "-33.981354",
+    "lon": "151.0673",
     "productClass": [
       5
     ]
@@ -296580,7 +296536,7 @@
   },
   {
     "id": "2557105",
-    "name": "Springfield Rd after Upfield Ln",
+    "name": "Springfield Rd after Upfield Lane",
     "lat": "-33.995228",
     "lon": "150.75816",
     "productClass": [
@@ -317032,15 +316988,6 @@
     ]
   },
   {
-    "id": "2760105",
-    "name": "Sydney St before Adelaide St",
-    "lat": "-33.771033",
-    "lon": "150.787314",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2760106",
     "name": "Sydney St after Canberra St",
     "lat": "-33.768567",
@@ -320721,7 +320668,7 @@
   },
   {
     "id": "2765210",
-    "name": "22 Mason Rd",
+    "name": "Mason Rd at Capricorn Pkwy",
     "lat": "-33.655649",
     "lon": "150.904419",
     "productClass": [
@@ -320739,7 +320686,7 @@
   },
   {
     "id": "2765212",
-    "name": "37 Mason Rd",
+    "name": "Mason Rd opp Galileo St",
     "lat": "-33.656786",
     "lon": "150.9087",
     "productClass": [
@@ -320748,7 +320695,7 @@
   },
   {
     "id": "2765213",
-    "name": "32 Mason Rd",
+    "name": "Mason Rd after Galileo St",
     "lat": "-33.656795",
     "lon": "150.909789",
     "productClass": [
