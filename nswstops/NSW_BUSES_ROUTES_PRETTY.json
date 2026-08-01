@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-07-31T13:36:56.945946521Z",
+  "generated_at": "2026-08-01T13:33:53.014942904Z",
   "routes": {
     "160": [
       {
@@ -1973,7 +1973,7 @@
         "route_name": "Murray Run Rd before Wollombi Rd to Congewai PS via St Philips College",
         "trips": [
           {
-            "trip_id": "2665130",
+            "trip_id": "2688826",
             "headsign": "Murray Run Rd before Wollombi Rd to Congewai PS via St Philips College",
             "stop_ids": [
               "2325465",
@@ -2036,8 +2036,7 @@
               "2325310",
               "2325208",
               "2325456",
-              "2325238",
-              "2325490",
+              "2325479",
               "2325481",
               "2325112",
               "2325113",
@@ -2151,7 +2150,7 @@
         "route_name": "St Philips College to Murrays Run Rd after Wollombi Rd via Mount View HS",
         "trips": [
           {
-            "trip_id": "2665127",
+            "trip_id": "2688808",
             "headsign": "St Philips College to Murrays Run Rd after Wollombi Rd via Mount View HS",
             "stop_ids": [
               "2325324",
@@ -2166,8 +2165,7 @@
               "2325235",
               "2325412",
               "2325103",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325222",
               "2325481",
               "2325112",
@@ -3224,7 +3222,7 @@
         "route_name": "Millfield Rd opp Irwin Cr to Cessnock PS via Abernethy",
         "trips": [
           {
-            "trip_id": "2665099",
+            "trip_id": "2688822",
             "headsign": "Millfield Rd opp Irwin Cr to Cessnock PS via Abernethy",
             "stop_ids": [
               "2325309",
@@ -3297,7 +3295,7 @@
         "route_name": "St Philips College to Abernethy via Mount View HS",
         "trips": [
           {
-            "trip_id": "2665131",
+            "trip_id": "2688824",
             "headsign": "St Philips College to Abernethy via Mount View HS",
             "stop_ids": [
               "2325324",
@@ -3317,8 +3315,7 @@
               "2325235",
               "2325412",
               "2325103",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325481",
               "2325112",
               "2325482",
@@ -3891,7 +3888,7 @@
         "route_name": "Branxton to Cessnock PS via North Rothbury & Nulkaba",
         "trips": [
           {
-            "trip_id": "2665107",
+            "trip_id": "2688816",
             "headsign": "Branxton to Cessnock PS via North Rothbury & Nulkaba",
             "stop_ids": [
               "233543",
@@ -3926,8 +3923,7 @@
               "2325199",
               "2325235",
               "2325103",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325222",
               "2325112",
               "2325482",
@@ -3953,10 +3949,10 @@
         "route_name": "St Patricks PS to Branxton via North Rothbury",
         "trips": [
           {
-            "trip_id": "2665098",
+            "trip_id": "2688831",
             "headsign": "St Patricks PS to Branxton via North Rothbury",
             "stop_ids": [
-              "2325490",
+              "2325479",
               "2325222",
               "2325481",
               "2325112",
@@ -4146,7 +4142,7 @@
         "route_name": "Sandy Creek at Quorronbolong Rd to Cessnock HS via Mount View HS",
         "trips": [
           {
-            "trip_id": "2665105",
+            "trip_id": "2688835",
             "headsign": "Sandy Creek at Quorronbolong Rd to Cessnock HS via Mount View HS",
             "stop_ids": [
               "2325269",
@@ -4177,8 +4173,7 @@
               "2325104",
               "2325235",
               "2325103",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325112",
               "2325482",
               "2325480",
@@ -4209,7 +4204,7 @@
         "route_name": "St Philips College to 165 Wollong Rd, Quorrobolong",
         "trips": [
           {
-            "trip_id": "2665121",
+            "trip_id": "2688830",
             "headsign": "St Philips College to 165 Wollong Rd, Quorrobolong",
             "stop_ids": [
               "2325324",
@@ -4218,9 +4213,7 @@
               "2325317",
               "2325136",
               "2325138",
-              "2325214",
-              "2325490",
-              "2325222",
+              "2325479",
               "2325481",
               "2325112",
               "2325482",
@@ -4229,6 +4222,7 @@
               "2325235",
               "2325412",
               "2325110",
+              "2325486",
               "2325311",
               "2325177",
               "2325319",
@@ -4410,7 +4404,7 @@
             ]
           },
           {
-            "trip_id": "2665128",
+            "trip_id": "2688809",
             "headsign": "Lovedale Rd at Camp Rd to Cessnock PS via Hunter Valley",
             "stop_ids": [
               "2320204",
@@ -4440,8 +4434,7 @@
               "2325102",
               "2325235",
               "2325103",
-              "2325214",
-              "2325490"
+              "2325479"
             ]
           }
         ]
@@ -4927,7 +4920,7 @@
         "route_name": "Rover Depot, Vincent St to Maitland Station",
         "trips": [
           {
-            "trip_id": "2665138",
+            "trip_id": "2688812",
             "headsign": "Rover Depot, Vincent St to Maitland Station",
             "stop_ids": [
               "232511",
@@ -5050,8 +5043,7 @@
               "2325192",
               "2325412",
               "2325103",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325222",
               "2325112",
               "2325482",
@@ -5067,7 +5059,7 @@
         "route_name": "St Philips College to Heddon Greta via Pokolbin",
         "trips": [
           {
-            "trip_id": "2665113",
+            "trip_id": "2688810",
             "headsign": "St Philips College to Heddon Greta via Pokolbin",
             "stop_ids": [
               "2325324",
@@ -5076,8 +5068,7 @@
               "2325317",
               "2325136",
               "2325138",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325222",
               "2325481",
               "2325112",
@@ -5609,23 +5600,11 @@
         "route_name": "Mount View HS to Bellbird",
         "trips": [
           {
-            "trip_id": "2665120",
+            "trip_id": "2688836",
             "headsign": "Mount View HS to Bellbird",
             "stop_ids": [
               "2325235",
               "2325111",
-              "2325481",
-              "2325112",
-              "2325113",
-              "2325114",
-              "2325115",
-              "2325116",
-              "2325117",
-              "2325470",
-              "2325468",
-              "232531",
-              "232532",
-              "232533",
               "232534",
               "232535",
               "232537",
@@ -5735,7 +5714,7 @@
         "route_name": "St Philips College to Quorrobolong via Cessnock HS",
         "trips": [
           {
-            "trip_id": "2665104",
+            "trip_id": "2688807",
             "headsign": "St Philips College to Quorrobolong via Cessnock HS",
             "stop_ids": [
               "2325324",
@@ -5744,8 +5723,7 @@
               "2325317",
               "2325136",
               "2325138",
-              "2325214",
-              "2325490",
+              "2325479",
               "2325222",
               "2325481",
               "2325112",
@@ -6091,7 +6069,7 @@
             ]
           },
           {
-            "trip_id": "2665110",
+            "trip_id": "2688817",
             "headsign": "Quorrobolong to St Patricks PS",
             "stop_ids": [
               "2325269",
@@ -39380,7 +39358,7 @@
             ]
           },
           {
-            "trip_id": "2059171",
+            "trip_id": "2491277",
             "headsign": "Woonona High to Corrimal",
             "stop_ids": [
               "251769",
@@ -39419,53 +39397,6 @@
               "231716",
               "231717",
               "231771"
-            ]
-          }
-        ]
-      },
-      {
-        "route_id": "2458_S412",
-        "route_name": "North Wollongong to Woonona High School",
-        "trips": [
-          {
-            "trip_id": "2581774",
-            "headsign": "North Wollongong to Woonona High School",
-            "stop_ids": [
-              "251911",
-              "251912",
-              "251913",
-              "251914",
-              "251915",
-              "251916",
-              "251917",
-              "251918",
-              "251919",
-              "251920",
-              "251818",
-              "251819",
-              "2518102",
-              "251769"
-            ]
-          },
-          {
-            "trip_id": "1000792",
-            "headsign": "Woonona High School to North Wollongong",
-            "stop_ids": [
-              "251769",
-              "251817",
-              "251826",
-              "251827",
-              "251828",
-              "251921",
-              "251922",
-              "251923",
-              "251924",
-              "251925",
-              "251926",
-              "251927",
-              "251928",
-              "251929",
-              "251930"
             ]
           }
         ]
@@ -39569,91 +39500,6 @@
               "229511",
               "229512",
               "229513"
-            ]
-          }
-        ]
-      },
-      {
-        "route_id": "2458_S413",
-        "route_name": "Woonona to Smiths Hill High",
-        "trips": [
-          {
-            "trip_id": "2491221",
-            "headsign": "Smiths Hill High to Woonona",
-            "stop_ids": [
-              "2500316",
-              "250016",
-              "250017",
-              "250018",
-              "2519119",
-              "251911",
-              "251912",
-              "251913",
-              "251914",
-              "251915",
-              "251916",
-              "251917",
-              "251918",
-              "251919",
-              "251920",
-              "251818",
-              "251819",
-              "2518102",
-              "251821",
-              "251822",
-              "251823",
-              "251824",
-              "251825",
-              "251721",
-              "251722",
-              "251723",
-              "251724",
-              "251725",
-              "251726",
-              "251727",
-              "251728",
-              "251729",
-              "251730",
-              "251617"
-            ]
-          },
-          {
-            "trip_id": "2352016",
-            "headsign": "Woonona to Smiths Hill High",
-            "stop_ids": [
-              "251616",
-              "251711",
-              "251712",
-              "251714",
-              "251715",
-              "251716",
-              "251717",
-              "251718",
-              "251719",
-              "251720",
-              "251811",
-              "251812",
-              "251813",
-              "251814",
-              "251815",
-              "251816",
-              "251817",
-              "251826",
-              "251827",
-              "251828",
-              "251921",
-              "251922",
-              "251923",
-              "251924",
-              "251925",
-              "251926",
-              "251927",
-              "251928",
-              "251929",
-              "251930",
-              "250039",
-              "2500325",
-              "2500316"
             ]
           }
         ]
@@ -76771,11 +76617,10 @@
         "route_name": "Heathcote HS to Wollybutt Rd after Achilles Rd, Engadine",
         "trips": [
           {
-            "trip_id": "1883131",
+            "trip_id": "2687347",
             "headsign": "Heathcote HS to Wollybutt Rd after Achilles Rd, Engadine",
             "stop_ids": [
               "2233233",
-              "2233215",
               "2233205",
               "2233293",
               "2233241",
@@ -81348,7 +81193,7 @@
         "route_name": "Inaburra School to Oatley",
         "trips": [
           {
-            "trip_id": "2665654",
+            "trip_id": "2687366",
             "headsign": "Inaburra School to Oatley",
             "stop_ids": [
               "2234230",
@@ -98533,44 +98378,10 @@
         "route_name": "Austinmer Station to Keira High and Wollongong High",
         "trips": [
           {
-            "trip_id": "2581772",
-            "headsign": "Austinmer Station to Keira High and Wollongong High",
-            "stop_ids": [
-              "251542",
-              "251529",
-              "251532",
-              "251533",
-              "251534",
-              "251535",
-              "251536",
-              "251537",
-              "251538",
-              "251551",
-              "251539",
-              "251543",
-              "251544",
-              "251611",
-              "251612",
-              "251613",
-              "251614",
-              "251616",
-              "251711",
-              "251712",
-              "251714",
-              "251715",
-              "251716",
-              "251717",
-              "251718",
-              "251719",
-              "251720",
-              "2519119"
-            ]
-          },
-          {
-            "trip_id": "2491227",
+            "trip_id": "2671044",
             "headsign": "Keira High and Wollongong High to Austinmer Station",
             "stop_ids": [
-              "2500312",
+              "2519119",
               "251856",
               "251857",
               "251824",
@@ -98651,37 +98462,10 @@
         "route_name": "Bellambi to Keira High and Wollongong High",
         "trips": [
           {
-            "trip_id": "2059170",
-            "headsign": "Bellambi to Keira High and Wollongong High",
-            "stop_ids": [
-              "251811",
-              "251812",
-              "251813",
-              "251814",
-              "251815",
-              "251816",
-              "251817",
-              "251826",
-              "251827",
-              "251828",
-              "251921",
-              "251922",
-              "251923",
-              "251924",
-              "251925",
-              "251926",
-              "251927",
-              "251928",
-              "251929",
-              "251930",
-              "2500312"
-            ]
-          },
-          {
-            "trip_id": "2491148",
+            "trip_id": "2670930",
             "headsign": "Keira High and Wollongong High to Bellambi",
             "stop_ids": [
-              "2500312",
+              "2519119",
               "251917",
               "251918",
               "251919",
@@ -98809,7 +98593,7 @@
             ]
           },
           {
-            "trip_id": "2491217",
+            "trip_id": "2670929",
             "headsign": "Illawarra Christian School to Austinmer Station via East Corrimal",
             "stop_ids": [
               "252655",
@@ -98873,110 +98657,13 @@
         ]
       }
     ],
-    "S414": [
-      {
-        "route_id": "2458_S414",
-        "route_name": "Bulli to St Mary Star of the Sea College",
-        "trips": [
-          {
-            "trip_id": "2491263",
-            "headsign": "Bulli to St Mary Star of the Sea College",
-            "stop_ids": [
-              "251632",
-              "251633",
-              "251635",
-              "251636",
-              "251637",
-              "251638",
-              "251650",
-              "251639",
-              "251640",
-              "251749",
-              "251766",
-              "251714",
-              "251715",
-              "251716",
-              "251717",
-              "251718",
-              "251719",
-              "251720",
-              "251811",
-              "251812",
-              "251813",
-              "251814",
-              "251815",
-              "251816",
-              "251817",
-              "251826",
-              "251827",
-              "2500206"
-            ]
-          },
-          {
-            "trip_id": "2491183",
-            "headsign": "St Mary Star of the Sea College to Bulli",
-            "stop_ids": [
-              "2500301",
-              "251818",
-              "251819",
-              "2518102",
-              "251821",
-              "251822",
-              "251823",
-              "251824",
-              "251825",
-              "251721",
-              "251722",
-              "251723",
-              "251724",
-              "251725",
-              "251726",
-              "251727",
-              "251728",
-              "251752",
-              "251764",
-              "251622",
-              "251623",
-              "251624",
-              "251625",
-              "251626",
-              "251627",
-              "251628",
-              "251629",
-              "251630",
-              "251631"
-            ]
-          }
-        ]
-      },
-      {
-        "route_id": "2503_S414",
-        "route_name": "St Peter Chanel Catholic PS to Birrong PS",
-        "trips": [
-          {
-            "trip_id": "2507110",
-            "headsign": "St Peter Chanel Catholic PS to Birrong PS",
-            "stop_ids": [
-              "214193",
-              "214360",
-              "214359",
-              "214321",
-              "214329",
-              "214367",
-              "214394",
-              "214369"
-            ]
-          }
-        ]
-      }
-    ],
     "S416": [
       {
         "route_id": "2458_S416",
         "route_name": "Woonona to Holy Spirit College",
         "trips": [
           {
-            "trip_id": "1688177",
+            "trip_id": "2670961",
             "headsign": "Holy Spirit College to Woonona",
             "stop_ids": [
               "2518120",
@@ -98990,7 +98677,7 @@
             ]
           },
           {
-            "trip_id": "2581775",
+            "trip_id": "2687004",
             "headsign": "Woonona Holy Spirit College",
             "stop_ids": [
               "251715",
@@ -99033,7 +98720,7 @@
             ]
           },
           {
-            "trip_id": "2615498",
+            "trip_id": "2670978",
             "headsign": "Holy Spirit College to Bulli via Bulli Beach",
             "stop_ids": [
               "2518120",
@@ -99177,43 +98864,6 @@
               "251638",
               "251639",
               "251640"
-            ]
-          }
-        ]
-      }
-    ],
-    "S420": [
-      {
-        "route_id": "2458_S420",
-        "route_name": "Austinmer to Woonona High School",
-        "trips": [
-          {
-            "trip_id": "2491136",
-            "headsign": "Woonona High School to Austinmer",
-            "stop_ids": [
-              "251769",
-              "251729",
-              "251730",
-              "251617",
-              "251618",
-              "251619",
-              "251659",
-              "251620",
-              "251660",
-              "251514",
-              "251515",
-              "2515102",
-              "251516",
-              "251517",
-              "251518",
-              "251519",
-              "251523",
-              "251524",
-              "251525",
-              "251526",
-              "251527",
-              "251528",
-              "251541"
             ]
           }
         ]
@@ -112631,11 +112281,10 @@
         "route_name": "Victoria St at Richmond Rd to Glenmore Park HS",
         "trips": [
           {
-            "trip_id": "2641093",
+            "trip_id": "2640641",
             "headsign": "Victoria St at Richmond Rd to Glenmore Park HS",
             "stop_ids": [
               "2747350",
-              "2747160",
               "2747205",
               "2747206",
               "2747194",
@@ -113309,7 +112958,7 @@
         "route_name": "Bringelly Rd after The Northern Rd to Xavier College",
         "trips": [
           {
-            "trip_id": "2617816",
+            "trip_id": "2625038",
             "headsign": "Bringelly Rd after The Northern Rd to Xavier College",
             "stop_ids": [
               "2747255",
@@ -113331,7 +112980,6 @@
               "2747412",
               "2747217",
               "2747350",
-              "2747160",
               "2747161",
               "274781",
               "2747158",
@@ -115625,7 +115273,7 @@
         "route_name": "Penrith Christian Community School to Trinity Dr at Cleeve Pl",
         "trips": [
           {
-            "trip_id": "2633405",
+            "trip_id": "2639418",
             "headsign": "Penrith Christian Community School to Trinity Dr at Cleeve Pl",
             "stop_ids": [
               "274845",
@@ -115636,7 +115284,6 @@
               "2747397",
               "2747315",
               "2747350",
-              "2747160",
               "2747205",
               "2747206",
               "2747194",
@@ -117182,11 +116829,10 @@
         "route_name": "Xavier College to Victoria St at Richmond Rd",
         "trips": [
           {
-            "trip_id": "2158059",
+            "trip_id": "2625101",
             "headsign": "Xavier College to Victoria St at Richmond Rd",
             "stop_ids": [
               "2747314",
-              "2747197",
               "274797",
               "274798",
               "274799",
@@ -124112,7 +123758,7 @@
         "route_name": "Xavier College to Penrith Station via Cambridge Gardens",
         "trips": [
           {
-            "trip_id": "2617964",
+            "trip_id": "2625086",
             "headsign": "Xavier College to Penrith Station via Cambridge Gardens",
             "stop_ids": [
               "2747314",
@@ -124126,7 +123772,6 @@
               "274780",
               "2747140",
               "2747199",
-              "2747197",
               "2747231",
               "2747232",
               "2747234",
@@ -144371,7 +144016,7 @@
         "route_name": "St Marys to Penrith via Werrington",
         "trips": [
           {
-            "trip_id": "2617924",
+            "trip_id": "2625092",
             "headsign": "Penrith to St Marys via Werrington",
             "stop_ids": [
               "275076",
@@ -144414,7 +144059,6 @@
               "2747158",
               "2747159",
               "2747350",
-              "2747160",
               "2747161",
               "274781",
               "274782",
@@ -144446,7 +144090,7 @@
             ]
           },
           {
-            "trip_id": "2616927",
+            "trip_id": "2617022",
             "headsign": "St Marys to Penrith via Werrington",
             "stop_ids": [
               "2760232",
@@ -144469,8 +144113,8 @@
               "2747210",
               "2747186",
               "2747187",
-              "2747203",
-              "2747204",
+              "2747194",
+              "2747195",
               "2747196",
               "2747197",
               "2747198",
@@ -144493,7 +144137,6 @@
               "2747248",
               "2747249",
               "2747250",
-              "2747251",
               "2747252",
               "2747253",
               "2747254",
@@ -186087,6 +185730,28 @@
               "214492",
               "214493",
               "214459"
+            ]
+          }
+        ]
+      }
+    ],
+    "S414": [
+      {
+        "route_id": "2503_S414",
+        "route_name": "St Peter Chanel Catholic PS to Birrong PS",
+        "trips": [
+          {
+            "trip_id": "2507110",
+            "headsign": "St Peter Chanel Catholic PS to Birrong PS",
+            "stop_ids": [
+              "214193",
+              "214360",
+              "214359",
+              "214321",
+              "214329",
+              "214367",
+              "214394",
+              "214369"
             ]
           }
         ]
@@ -262023,9 +261688,10 @@
             ]
           },
           {
-            "trip_id": "1955706",
+            "trip_id": "2670799",
             "headsign": "Kogarah to Hurstville via Carss Park",
             "stop_ids": [
+              "2216153",
               "221781",
               "221783",
               "221778",
@@ -262036,7 +261702,6 @@
               "221788",
               "221789",
               "221790",
-              "221791",
               "221792",
               "221721",
               "221723",
@@ -262062,8 +261727,7 @@
               "222123",
               "222124",
               "222027",
-              "222028",
-              "2220319"
+              "222028"
             ]
           }
         ]
@@ -264575,7 +264239,7 @@
         "route_name": "Engadine to Heathcote East (Loop Service)",
         "trips": [
           {
-            "trip_id": "1879932",
+            "trip_id": "2687349",
             "headsign": "Engadine to Heathcote East (Loop Service)",
             "stop_ids": [
               "2233117",
@@ -264607,7 +264271,6 @@
               "2233202",
               "2233203",
               "2233204",
-              "2233215",
               "2233205",
               "223311"
             ]
@@ -265536,7 +265199,7 @@
         "route_name": "Sutherland Shire School to Marton PS via Heathcote",
         "trips": [
           {
-            "trip_id": "1880553",
+            "trip_id": "2687341",
             "headsign": "Sutherland Shire School to Marton PS via Heathcote",
             "stop_ids": [
               "2234237",
@@ -265552,7 +265215,6 @@
               "223346",
               "2233189",
               "2233233",
-              "2233215",
               "2233205",
               "2233261",
               "2233187",
@@ -266367,11 +266029,10 @@
         "route_name": "Heathcote HS to Cassandra Cr at Dalley Rd, Heathcote",
         "trips": [
           {
-            "trip_id": "1880561",
+            "trip_id": "2687371",
             "headsign": "Heathcote HS to Cassandra Cr at Dalley Rd, Heathcote",
             "stop_ids": [
               "2233233",
-              "2233215",
               "223325",
               "2233265",
               "223326",
@@ -305373,13 +305034,13 @@
         "route_name": "Bankstown to Sydenham",
         "trips": [
           {
-            "trip_id": "2412460",
+            "trip_id": "2558632",
             "headsign": "Bankstown to Sydenham",
             "stop_ids": [
               "220080",
               "2196295",
               "2195110",
-              "219515",
+              "2195118",
               "219226",
               "219414",
               "219321",

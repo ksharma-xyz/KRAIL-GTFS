@@ -88010,15 +88010,6 @@
     ]
   },
   {
-    "id": "221791",
-    "name": "Princes Hwy before Lacey St",
-    "lat": "-33.977078",
-    "lon": "151.12482",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "221792",
     "name": "Princes Hwy before Park Rd",
     "lat": "-33.978199",
@@ -132920,60 +132911,6 @@
     ]
   },
   {
-    "id": "251622",
-    "name": "Farrell Rd at Franklin Ave",
-    "lat": "-34.338708",
-    "lon": "150.914065",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251623",
-    "name": "Farrell Rd at Artis St",
-    "lat": "-34.339116",
-    "lon": "150.917082",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251624",
-    "name": "Farrell Rd opp Carrington St",
-    "lat": "-34.339521",
-    "lon": "150.920229",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251625",
-    "name": "Farrell Rd opp Bulli Beach Tourist Park",
-    "lat": "-34.339706",
-    "lon": "150.92252",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251626",
-    "name": "Trinity Row opp Bulli Beach",
-    "lat": "-34.338885",
-    "lon": "150.924684",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251627",
-    "name": "Trinity Row at Alroy St",
-    "lat": "-34.337117",
-    "lon": "150.924444",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "251628",
     "name": "Point St after Southview St",
     "lat": "-34.330497",
@@ -132996,15 +132933,6 @@
     "name": "Point St after Blackbutt Pl",
     "lat": "-34.329863",
     "lon": "150.915515",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251631",
-    "name": "Uniting Church, Point St",
-    "lat": "-34.329974",
-    "lon": "150.91446",
     "productClass": [
       5
     ]
@@ -133140,15 +133068,6 @@
     "name": "Park Rd before Trinity Row",
     "lat": "-34.334909",
     "lon": "150.923407",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "251650",
-    "name": "Farrell Rd at Carrington St",
-    "lat": "-34.339711",
-    "lon": "150.920596",
     "productClass": [
       5
     ]
@@ -332348,8 +332267,8 @@
   {
     "id": "235461",
     "name": "Walcha Coach Stop",
-    "lat": "-30.9853824",
-    "lon": "151.5910152",
+    "lat": "-30.985625",
+    "lon": "151.591108",
     "productClass": [
       7
     ]
