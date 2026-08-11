@@ -6907,15 +6907,6 @@
     ]
   },
   {
-    "id": "202655",
-    "name": "Bondi Rd at Sandridge St",
-    "lat": "-33.895581",
-    "lon": "151.273022",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "202656",
     "name": "Bondi Rd at Dudley St",
     "lat": "-33.89531",
@@ -20059,15 +20050,6 @@
     "name": "Victoria Ave at Gibbes St",
     "lat": "-33.790911",
     "lon": "151.200573",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "206760",
-    "name": "Railway St at Help St",
-    "lat": "-33.795357",
-    "lon": "151.180414",
     "productClass": [
       5
     ]
@@ -42413,16 +42395,6 @@
     ]
   },
   {
-    "id": "2113301",
-    "name": "Macquarie University Station, Herring Rd, Stand F",
-    "lat": "-33.777871",
-    "lon": "151.117852",
-    "productClass": [
-      5
-    ],
-    "isParent": false
-  },
-  {
     "id": "2113319",
     "name": "Macquarie University Station, Herring Rd, Stand D",
     "lat": "-33.776863",
@@ -53835,15 +53807,6 @@
     ]
   },
   {
-    "id": "214011",
-    "name": "Homebush Station, The Crescent",
-    "lat": "-33.866877",
-    "lon": "151.085865",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "214013",
     "name": "Homebush Station, Loftus Cres",
     "lat": "-33.86638",
@@ -53938,6 +53901,15 @@
     "name": "Parramatta Rd opp Knight St",
     "lat": "-33.864838",
     "lon": "151.08493",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "214027",
+    "name": "Homebush Station, The Crescent",
+    "lat": "-33.866812",
+    "lon": "151.085708",
     "productClass": [
       5
     ]
@@ -54109,15 +54081,6 @@
     "name": "Parramatta Rd at George St",
     "lat": "-33.865085",
     "lon": "151.088395",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "214052",
-    "name": "The Crescent opp Flemington Station",
-    "lat": "-33.865328",
-    "lon": "151.070651",
     "productClass": [
       5
     ]
@@ -163590,6 +163553,15 @@
     ]
   },
   {
+    "id": "278631",
+    "name": "Mount Victoria Station, Coach Stop",
+    "lat": "-33.588097",
+    "lon": "150.25663",
+    "productClass": [
+      7
+    ]
+  },
+  {
     "id": "278653",
     "name": "Mount Victoria Public School, Victoria St",
     "lat": "-33.59222",
@@ -163612,6 +163584,15 @@
     "name": "Mt Piddington Rd opp Beck St",
     "lat": "-33.594368",
     "lon": "150.256481",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "279018",
+    "name": "Lithgow Station, Railway Pde",
+    "lat": "-33.480579",
+    "lon": "150.156385",
     "productClass": [
       5
     ]
@@ -163899,15 +163880,6 @@
     "name": "Central Station, Forecourt, Coach Bay 4",
     "lat": "-33.883273",
     "lon": "151.204442",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2000313",
-    "name": "Bathurst St before Pitt St",
-    "lat": "-33.874373",
-    "lon": "151.207699",
     "productClass": [
       5
     ]
@@ -164221,28 +164193,10 @@
     ]
   },
   {
-    "id": "2026116",
-    "name": "Warners Ave after Wairoa Ave (Temp - City 2 Surf)",
-    "lat": "-33.888309",
-    "lon": "151.277365",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2026121",
     "name": "Fletcher St at Silva St",
     "lat": "-33.897348",
     "lon": "151.270708",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2026123",
-    "name": "Sandridge St before Wilga St",
-    "lat": "-33.896231",
-    "lon": "151.27286",
     "productClass": [
       5
     ]
@@ -166910,7 +166864,7 @@
   },
   {
     "id": "2046160",
-    "name": "Blackwell Pt Rd before Eaton Pl",
+    "name": "Blackwell Pt Rd opp Eaton Pl",
     "lat": "-33.848197",
     "lon": "151.141091",
     "productClass": [
@@ -168445,6 +168399,15 @@
     "name": "Anderson St opp Chatswood Presbyterian Church",
     "lat": "-33.794383",
     "lon": "151.18224",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2067134",
+    "name": "Railway St at Help St",
+    "lat": "-33.795879",
+    "lon": "151.180456",
     "productClass": [
       5
     ]
@@ -187104,15 +187067,6 @@
     ]
   },
   {
-    "id": "2142279",
-    "name": "Clyde Station, Berry St",
-    "lat": "-33.835187",
-    "lon": "151.017404",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2142281",
     "name": "Delany College, Bennalong St",
     "lat": "-33.83321",
@@ -187162,6 +187116,15 @@
     "name": "Woodville Rd at Clarke St",
     "lat": "-33.835565",
     "lon": "151.00168",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2142287",
+    "name": "Granville Station, Bridge St",
+    "lat": "-33.832341",
+    "lon": "151.011551",
     "productClass": [
       5
     ]
@@ -187914,23 +187877,13 @@
     ]
   },
   {
-    "id": "2144236",
-    "name": "Auburn Station, Rawson St",
-    "lat": "-33.849424",
-    "lon": "151.033548",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2144223",
-    "name": "Auburn Station, Rawson St, Stand E",
+    "name": "Auburn Station, Rawson St",
     "lat": "-33.849364",
     "lon": "151.033711",
     "productClass": [
       5
-    ],
-    "isParent": false
+    ]
   },
   {
     "id": "2144225",
@@ -196378,24 +196331,6 @@
     "name": "Parkes St before Harris St",
     "lat": "-33.818828",
     "lon": "151.010626",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150393",
-    "name": "Harris Park Station, Station St East",
-    "lat": "-33.821968",
-    "lon": "151.008026",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2150395",
-    "name": "Station St at Marion St",
-    "lat": "-33.822223",
-    "lon": "151.008097",
     "productClass": [
       5
     ]
@@ -204984,15 +204919,6 @@
     ]
   },
   {
-    "id": "2156229",
-    "name": "2 Shoplands Rd",
-    "lat": "-33.655693",
-    "lon": "150.946661",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2156230",
     "name": "6 Shoplands Rd",
     "lat": "-33.653663",
@@ -205366,6 +205292,15 @@
     "name": "Blue Gum Rd at Shoplands Rd",
     "lat": "-33.658653",
     "lon": "150.9471",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2156274",
+    "name": "Blue Gum Rd after Shoplands Rd",
+    "lat": "-33.659363",
+    "lon": "150.9469",
     "productClass": [
       5
     ]
@@ -206041,6 +205976,15 @@
     "name": "Sherwood Grange Public School, Bruce St",
     "lat": "-33.836043",
     "lon": "150.959783",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2160142",
+    "name": "Merrylands Rd at Railway Tce",
+    "lat": "-33.837054",
+    "lon": "150.992957",
     "productClass": [
       5
     ]
@@ -296604,7 +296548,7 @@
   },
   {
     "id": "2557109",
-    "name": "Gregory Hills Dr opp Mudgee St",
+    "name": "Gregory Hills Dr before Verdant Dr",
     "lat": "-34.02952",
     "lon": "150.78711",
     "productClass": [
@@ -320215,8 +320159,8 @@
   {
     "id": "2765143",
     "name": "Elara Bvd before Parkway Dr",
-    "lat": "-33.695166",
-    "lon": "150.817222",
+    "lat": "-33.695255",
+    "lon": "150.81583",
     "productClass": [
       5
     ]
@@ -321047,6 +320991,16 @@
     "lon": "150.893334",
     "productClass": [
       5
+    ]
+  },
+  {
+    "id": "2765253",
+    "name": "Riverstone Station",
+    "lat": "-33.67922",
+    "lon": "150.860599",
+    "productClass": [
+      5,
+      1
     ]
   },
   {
@@ -323265,7 +323219,7 @@
   },
   {
     "id": "2767125",
-    "name": "Doonside Rd After Mountview Av",
+    "name": "Doonside Rd after Kareela St",
     "lat": "-33.767484",
     "lon": "150.870515",
     "productClass": [
@@ -323301,7 +323255,7 @@
   },
   {
     "id": "2767129",
-    "name": "36 Doonside Rd Opp Mountview Av",
+    "name": "Doonside Rd before Kareela St",
     "lat": "-33.767316",
     "lon": "150.870195",
     "productClass": [
@@ -327315,15 +327269,6 @@
     ]
   },
   {
-    "id": "2777162",
-    "name": "Singles Ridge Rd before Newport Rd",
-    "lat": "-33.695291",
-    "lon": "150.626991",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2777163",
     "name": "Yellow Rock Rd opp Marau Pl",
     "lat": "-33.69826",
@@ -328939,6 +328884,15 @@
     "name": "Blaxland Rd opp Westbourne Ave",
     "lat": "-33.705972",
     "lon": "150.376196",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2790448",
+    "name": "Zig Zag Heritage Railway",
+    "lat": "-33.476646",
+    "lon": "150.222035",
     "productClass": [
       5
     ]
@@ -334689,15 +334643,6 @@
     "name": "Richmond Station",
     "lat": "-33.5991116405",
     "lon": "150.753211003",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "276510",
-    "name": "Riverstone Station",
-    "lat": "-33.6790433699",
-    "lon": "150.860267864",
     "productClass": [
       1
     ]
