@@ -300,6 +300,16 @@
     "isParent": false
   },
   {
+    "id": "200036",
+    "name": "Wynyard Station, York St, Stand N",
+    "lat": "-33.865377",
+    "lon": "151.205704",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "200048",
     "name": "Wynyard Station, York St, Stand P",
     "lat": "-33.864755",
@@ -524,6 +534,15 @@
     "name": "Museum Station, Liverpool St",
     "lat": "-33.876976",
     "lon": "151.210322",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "200075",
+    "name": "Elizabeth St at Wentworth Ave",
+    "lat": "-33.879364",
+    "lon": "151.209259",
     "productClass": [
       5
     ]
@@ -1081,6 +1100,16 @@
     ]
   },
   {
+    "id": "201032",
+    "name": "Prince Alfred Park Pool, Chalmers St, Stand C",
+    "lat": "-33.887726",
+    "lon": "151.206425",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "201021",
     "name": "Crown St at Miles St",
     "lat": "-33.889517",
@@ -1629,6 +1658,15 @@
     "name": "Bayswater Rd opp McLachlan Ave",
     "lat": "-33.876145",
     "lon": "151.228468",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "201120",
+    "name": "Bayswater Rd after Ward Ave",
+    "lat": "-33.875132",
+    "lon": "151.223947",
     "productClass": [
       5
     ]
@@ -20055,6 +20093,15 @@
     ]
   },
   {
+    "id": "206760",
+    "name": "Railway St at Help St",
+    "lat": "-33.795357",
+    "lon": "151.180414",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "206762",
     "name": "Pacific Hwy at Ellis St",
     "lat": "-33.800287",
@@ -22870,6 +22917,24 @@
     "name": "Calvert Ave before Fitzroy St",
     "lat": "-33.7655",
     "lon": "151.15002",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207182",
+    "name": "Killara Station, Culworth Ave",
+    "lat": "-33.765872",
+    "lon": "151.16175",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "207183",
+    "name": "Culworth Ave opp Killara Station",
+    "lat": "-33.765815",
+    "lon": "151.161492",
     "productClass": [
       5
     ]
@@ -42395,6 +42460,16 @@
     ]
   },
   {
+    "id": "2113301",
+    "name": "Macquarie University Station, Herring Rd, Stand F",
+    "lat": "-33.777871",
+    "lon": "151.117852",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "2113319",
     "name": "Macquarie University Station, Herring Rd, Stand D",
     "lat": "-33.776863",
@@ -46079,6 +46154,33 @@
     "name": "Beecroft Rd after Hannah St",
     "lat": "-33.748775",
     "lon": "151.064158",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211978",
+    "name": "Wongala Cres opp Beecroft Station",
+    "lat": "-33.749663",
+    "lon": "151.065817",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211979",
+    "name": "The Crescent opp Cheltenham Station",
+    "lat": "-33.755805",
+    "lon": "151.078007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "211980",
+    "name": "Cheltenham Station, The Crescent",
+    "lat": "-33.75588",
+    "lon": "151.078429",
     "productClass": [
       5
     ]
@@ -69432,7 +69534,7 @@
   },
   {
     "id": "216757",
-    "name": "Newtown rd at Harrow Rd",
+    "name": "Newtown Rd at Harrow Rd",
     "lat": "-33.979634",
     "lon": "150.890754",
     "productClass": [
@@ -82675,7 +82777,7 @@
   },
   {
     "id": "220819",
-    "name": "Stoney Creek Rd opp Croot St",
+    "name": "Stoney Creek Rd after Maluka Pl",
     "lat": "-33.950797",
     "lon": "151.094182",
     "productClass": [
@@ -89026,6 +89128,16 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "2220123",
+    "name": "Hurstville Station, Ormonde Pde, Stand P",
+    "lat": "-33.968221",
+    "lon": "151.103413",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "2220333",
@@ -132687,6 +132799,16 @@
     ]
   },
   {
+    "id": "251593",
+    "name": "Thirroul Station",
+    "lat": "-34.318013",
+    "lon": "150.91872",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "251611",
     "name": "Princes Hwy opp Bulli Public School",
     "lat": "-34.326741",
@@ -132939,6 +133061,15 @@
     ]
   },
   {
+    "id": "251658",
+    "name": "Bulli Station, Franklin Ave",
+    "lat": "-34.334643",
+    "lon": "150.914861",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "251659",
     "name": "Princes Hwy opp Point St",
     "lat": "-34.329525",
@@ -132952,6 +133083,15 @@
     "name": "Lawrence Hargrave Dr after George Ave",
     "lat": "-34.324412",
     "lon": "150.912444",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "251661",
+    "name": "Bulli Station (Trackwork)",
+    "lat": "-34.334604",
+    "lon": "150.915212",
     "productClass": [
       5
     ]
@@ -133879,6 +134019,15 @@
     "name": "Bellambi Station, Union St",
     "lat": "-34.362669",
     "lon": "150.910724",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "251867",
+    "name": "Brompton Rd at Union St",
+    "lat": "-34.362625",
+    "lon": "150.909484",
     "productClass": [
       5
     ]
@@ -168404,10 +168553,10 @@
     ]
   },
   {
-    "id": "2067134",
-    "name": "Railway St at Help St",
-    "lat": "-33.795879",
-    "lon": "151.180456",
+    "id": "2067137",
+    "name": "Victoria Ave opp Katherine St",
+    "lat": "-33.797403",
+    "lon": "151.179068",
     "productClass": [
       5
     ]
@@ -232254,6 +232403,15 @@
     ]
   },
   {
+    "id": "2220302",
+    "name": "Hurstville Fire Station, Butler Rd",
+    "lat": "-33.968042",
+    "lon": "151.101992",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2220303",
     "name": "Waitara Pde at The Crescent",
     "lat": "-33.981057",
@@ -237787,6 +237945,15 @@
     ]
   },
   {
+    "id": "2233259",
+    "name": "Waterfall Station, Access Rd, McKell Ave",
+    "lat": "-34.135244",
+    "lon": "150.99522",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233260",
     "name": "Engadine West Public School, Ridge Rd",
     "lat": "-34.058815",
@@ -237805,10 +237972,28 @@
     ]
   },
   {
+    "id": "2233262",
+    "name": "Engadine Station, Railway Pde",
+    "lat": "-34.067478",
+    "lon": "151.014839",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2233263",
     "name": "Princes Hwy at Oliver St",
     "lat": "-34.087921",
     "lon": "151.007096",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2233264",
+    "name": "Heathcote Station, Princes Hwy",
+    "lat": "-34.087582",
+    "lon": "151.007895",
     "productClass": [
       5
     ]
@@ -289580,6 +289765,15 @@
     ]
   },
   {
+    "id": "2518149",
+    "name": "Bellambi Lane at Brompton Rd",
+    "lat": "-34.362436",
+    "lon": "150.909123",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2518153",
     "name": "Alpini Park, Caldwell Ave",
     "lat": "-34.38177",
@@ -296335,6 +296529,15 @@
     "name": "Gibraltar Ave after Riverside Dr",
     "lat": "-34.642522",
     "lon": "150.851575",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2533193",
+    "name": "Minnamurra Station, Railway Ave",
+    "lat": "-34.626335",
+    "lon": "150.853057",
     "productClass": [
       5
     ]
@@ -334859,15 +335062,6 @@
     "name": "Toongabbie Station",
     "lat": "-33.7872629962",
     "lon": "150.951437323",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "251550",
-    "name": "Thirroul Station",
-    "lat": "-34.3184243988",
-    "lon": "150.918652366",
     "productClass": [
       1
     ]
