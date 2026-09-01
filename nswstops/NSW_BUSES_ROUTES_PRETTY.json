@@ -1,6 +1,6 @@
 {
   "transport_mode": "Buses",
-  "generated_at": "2026-08-31T19:24:41.504714336Z",
+  "generated_at": "2026-09-01T17:10:38.268722101Z",
   "routes": {
     "160": [
       {
@@ -66354,7 +66354,7 @@
         "route_name": "Winmalee HS & PS to Hawkesbury Heights",
         "trips": [
           {
-            "trip_id": "841769",
+            "trip_id": "2718215",
             "headsign": "Winmalee HS & PS to Hawkesbury Heights",
             "stop_ids": [
               "2777146",
@@ -141427,22 +141427,6 @@
               "2290493",
               "2290490"
             ]
-          },
-          {
-            "trip_id": "2715650",
-            "headsign": "Unknown",
-            "stop_ids": [
-              "229049",
-              "2290285",
-              "229050",
-              "229051",
-              "229052",
-              "2290479",
-              "229053",
-              "229054",
-              "2290493",
-              "2290490"
-            ]
           }
         ]
       }
@@ -197702,7 +197686,7 @@
         "route_name": "Glenwood HS to Kellyville Ridge via Parklea",
         "trips": [
           {
-            "trip_id": "2493746",
+            "trip_id": "2711132",
             "headsign": "Glenwood HS to Kellyville Ridge via Parklea",
             "stop_ids": [
               "2768163",
@@ -300350,26 +300334,6 @@
               "229266",
               "229219"
             ]
-          },
-          {
-            "trip_id": "2716280",
-            "headsign": "Unknown",
-            "stop_ids": [
-              "2298116",
-              "229850",
-              "229851",
-              "229852",
-              "229853",
-              "229834",
-              "229817",
-              "230525",
-              "230523",
-              "230524",
-              "229265",
-              "229212",
-              "229266",
-              "229219"
-            ]
           }
         ]
       }
@@ -303462,7 +303426,7 @@
             ]
           },
           {
-            "trip_id": "2711447",
+            "trip_id": "2712519",
             "headsign": "Telarah, then all stations to Newcastle Interchange",
             "stop_ids": [
               "2320281",
@@ -303953,7 +303917,7 @@
             ]
           },
           {
-            "trip_id": "2352168",
+            "trip_id": "2352183",
             "headsign": "Wynyard, Chatswood, then all stations to Hornsby",
             "stop_ids": [
               "2000230",
