@@ -1862,15 +1862,6 @@
     ]
   },
   {
-    "id": "201517",
-    "name": "Euston Rd after Maddox St",
-    "lat": "-33.905548",
-    "lon": "151.192292",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "201519",
     "name": "Botany Rd opp Harcourt Pde",
     "lat": "-33.918936",
@@ -156213,8 +156204,8 @@
   {
     "id": "276741",
     "name": "Bungarribee Rd after Monash Rd",
-    "lat": "-33.773823",
-    "lon": "150.881544",
+    "lat": "-33.773994",
+    "lon": "150.88243",
     "productClass": [
       5
     ]
@@ -166715,7 +166706,7 @@
   },
   {
     "id": "2046160",
-    "name": "Blackwell Pt Rd opp Eaton Pl",
+    "name": "Blackwall Point Rd opp Chiswick Shops",
     "lat": "-33.848197",
     "lon": "151.141091",
     "productClass": [
@@ -279693,7 +279684,7 @@
   },
   {
     "id": "2321370",
-    "name": "Glenayr Ave opp Shalistan St",
+    "name": "Glen Ayr Ave opp Shalistan St",
     "lat": "-32.792705",
     "lon": "151.511908",
     "productClass": [
@@ -279702,7 +279693,7 @@
   },
   {
     "id": "2321371",
-    "name": "Glen Ayr Av after Shalistan St",
+    "name": "Glen Ayr Ave after Shalistan St",
     "lat": "-32.792772",
     "lon": "151.511993",
     "productClass": [
@@ -279720,7 +279711,7 @@
   },
   {
     "id": "2321373",
-    "name": "Glen Ayr Ave af Moorebank Rd",
+    "name": "Glen Ayr Ave at Moorebank Rd",
     "lat": "-32.790704",
     "lon": "151.51075",
     "productClass": [
@@ -279729,7 +279720,7 @@
   },
   {
     "id": "2321374",
-    "name": "Clifetn Av opp Ridgeview Dr",
+    "name": "Cliften Ave opp Ridgeview Dr",
     "lat": "-32.786932",
     "lon": "151.509747",
     "productClass": [
@@ -279738,7 +279729,7 @@
   },
   {
     "id": "2321375",
-    "name": "Cliften Ave af Ridgeview Dr",
+    "name": "Cliften Ave at Ridgeview Dr",
     "lat": "-32.787089",
     "lon": "151.509803",
     "productClass": [
@@ -279756,7 +279747,7 @@
   },
   {
     "id": "2321377",
-    "name": "William Tester af Grivillea St",
+    "name": "William Tester at Grevillea St",
     "lat": "-32.78499",
     "lon": "151.513278",
     "productClass": [
@@ -279774,7 +279765,7 @@
   },
   {
     "id": "2321379",
-    "name": "William Tester Dr af Ridgeview Dr",
+    "name": "William Tester Dr at Ridgeview Dr",
     "lat": "-32.787682",
     "lon": "151.518092",
     "productClass": [
@@ -327807,6 +327798,15 @@
     "name": "21 Bee Farm Rd",
     "lat": "-33.705054",
     "lon": "150.561388",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2777218",
+    "name": "Hawkesbury Rd after Macquarie Rd",
+    "lat": "-33.698716",
+    "lon": "150.571199",
     "productClass": [
       5
     ]
