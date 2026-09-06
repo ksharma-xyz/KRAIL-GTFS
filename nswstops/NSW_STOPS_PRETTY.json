@@ -17431,15 +17431,6 @@
     ]
   },
   {
-    "id": "206094",
-    "name": "Waverton Station, Crows Nest Rd",
-    "lat": "-33.837018",
-    "lon": "151.198083",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "206113",
     "name": "Milsons Point Station, Broughton St",
     "lat": "-33.846624",
@@ -42342,6 +42333,16 @@
     ]
   },
   {
+    "id": "2113301",
+    "name": "Macquarie University Station, Herring Rd, Stand F",
+    "lat": "-33.777871",
+    "lon": "151.117852",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
     "id": "2113319",
     "name": "Macquarie University Station, Herring Rd, Stand D",
     "lat": "-33.776863",
@@ -49498,6 +49499,35 @@
     "productClass": [
       5
     ]
+  },
+  {
+    "id": "212772",
+    "name": "Sydney Olympic Park, Plaza Terminal",
+    "lat": "-33.84294",
+    "lon": "151.062648",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "212773",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 5B",
+    "lat": "-33.843095",
+    "lon": "151.06277",
+    "productClass": [
+      5
+    ],
+    "isParent": false
+  },
+  {
+    "id": "212774",
+    "name": "Sydney Olympic Park, Plaza Terminal, Stand 8",
+    "lat": "-33.843377",
+    "lon": "151.062989",
+    "productClass": [
+      5
+    ],
+    "isParent": false
   },
   {
     "id": "212778",
@@ -64019,7 +64049,7 @@
   },
   {
     "id": "215940",
-    "name": "38 Bay Rd",
+    "name": "34 Bay Rd",
     "lat": "-33.616063",
     "lon": "151.080968",
     "productClass": [
@@ -124074,6 +124104,33 @@
     ]
   },
   {
+    "id": "232288",
+    "name": "Haussman Dr opp Woolley Cl",
+    "lat": "-32.774274",
+    "lon": "151.631781",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232289",
+    "name": "Haussman Dr opp Hulot Cl",
+    "lat": "-32.777265",
+    "lon": "151.632744",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "232290",
+    "name": "Haussman Dr opp Tripp Cl",
+    "lat": "-32.779438",
+    "lon": "151.635309",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "232291",
     "name": "Beresfield Public School, Lawson Ave",
     "lat": "-32.803888",
@@ -132583,6 +132640,16 @@
     ]
   },
   {
+    "id": "251593",
+    "name": "Thirroul Station",
+    "lat": "-34.318013",
+    "lon": "150.91872",
+    "productClass": [
+      5,
+      1
+    ]
+  },
+  {
     "id": "251611",
     "name": "Princes Hwy opp Bulli Public School",
     "lat": "-34.326741",
@@ -132835,6 +132902,15 @@
     ]
   },
   {
+    "id": "251658",
+    "name": "Bulli Station, Franklin Ave",
+    "lat": "-34.334643",
+    "lon": "150.914861",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "251659",
     "name": "Princes Hwy opp Point St",
     "lat": "-34.329525",
@@ -132848,6 +132924,15 @@
     "name": "Lawrence Hargrave Dr after George Ave",
     "lat": "-34.324412",
     "lon": "150.912444",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "251661",
+    "name": "Bulli Station (Trackwork)",
+    "lat": "-34.334604",
+    "lon": "150.915212",
     "productClass": [
       5
     ]
@@ -133775,6 +133860,15 @@
     "name": "Bellambi Station, Union St",
     "lat": "-34.362669",
     "lon": "150.910724",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "251867",
+    "name": "Brompton Rd at Union St",
+    "lat": "-34.362625",
+    "lon": "150.909484",
     "productClass": [
       5
     ]
@@ -166903,15 +166997,6 @@
     ]
   },
   {
-    "id": "2065131",
-    "name": "St Leonards Station, Pacific Hwy (NightRide)",
-    "lat": "-33.823221",
-    "lon": "151.194545",
-    "productClass": [
-      5
-    ]
-  },
-  {
     "id": "2065132",
     "name": "Pacific Hwy before Falcon St",
     "lat": "-33.827007",
@@ -166988,24 +167073,6 @@
     "name": "Ernest St after Miller St",
     "lat": "-33.826926",
     "lon": "151.208755",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065147",
-    "name": "Herbert St at Pacific Hwy",
-    "lat": "-33.823207",
-    "lon": "151.193662",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2065150",
-    "name": "Milner Cres at Shirley Rd",
-    "lat": "-33.831924",
-    "lon": "151.192753",
     "productClass": [
       5
     ]
@@ -212168,6 +212235,24 @@
     ]
   },
   {
+    "id": "2166262",
+    "name": "Railway Pde before Hughes St",
+    "lat": "-33.893413",
+    "lon": "150.939007",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2166263",
+    "name": "Railway Pde at McBurney Rd",
+    "lat": "-33.892425",
+    "lon": "150.939256",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2166283",
     "name": "Cabramatta Bowling Club, Longfield St",
     "lat": "-33.8942",
@@ -228247,6 +228332,24 @@
     "name": "Shaw St at Bexley Rd",
     "lat": "-33.938181",
     "lon": "151.113708",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207267",
+    "name": "Slade Rd before Devon Rd",
+    "lat": "-33.932251",
+    "lon": "151.12523",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2207268",
+    "name": "Slade Rd at Hartill Law Ave",
+    "lat": "-33.931857",
+    "lon": "151.126007",
     "productClass": [
       5
     ]
@@ -248064,15 +248167,6 @@
     "name": "Mt Ettalong Rd at Berrima Cres",
     "lat": "-33.53469",
     "lon": "151.309995",
-    "productClass": [
-      5
-    ]
-  },
-  {
-    "id": "2257342",
-    "name": "Mount Ettalong Rd opp Berrima Cres (Hail & Ride)",
-    "lat": "-33.534812",
-    "lon": "151.309745",
     "productClass": [
       5
     ]
@@ -279774,7 +279868,7 @@
   },
   {
     "id": "2321380",
-    "name": "Saddlers Dr af Acmena St",
+    "name": "Saddlers Dr at Acmena St",
     "lat": "-32.766614",
     "lon": "151.531147",
     "productClass": [
@@ -279783,7 +279877,7 @@
   },
   {
     "id": "2321381",
-    "name": "Saddlers Dr af Lime St",
+    "name": "Saddlers Dr at Lime St",
     "lat": "-32.767002",
     "lon": "151.53087",
     "productClass": [
@@ -279792,7 +279886,7 @@
   },
   {
     "id": "2321382",
-    "name": "Saddlers Dr bf Redwood Dr",
+    "name": "Saddlers Dr at Redwood Dr",
     "lat": "-32.769435",
     "lon": "151.529909",
     "productClass": [
@@ -279801,7 +279895,7 @@
   },
   {
     "id": "2321383",
-    "name": "Saddlers Dr af Mulberry St",
+    "name": "Saddlers Dr at Mulberry St",
     "lat": "-32.769077",
     "lon": "151.530056",
     "productClass": [
@@ -279810,7 +279904,7 @@
   },
   {
     "id": "2321384",
-    "name": "Cartwright St bf Fanning St",
+    "name": "Cartwright St at Fanning St",
     "lat": "-32.759899",
     "lon": "151.525581",
     "productClass": [
@@ -280061,6 +280155,15 @@
     ]
   },
   {
+    "id": "2322136",
+    "name": "Haussman Dr opp Taylor Ave",
+    "lat": "-32.772503",
+    "lon": "151.632103",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2322137",
     "name": "Maitland Rd opp Shamrock St",
     "lat": "-32.847222",
@@ -280160,6 +280263,15 @@
     ]
   },
   {
+    "id": "2322151",
+    "name": "Haussman Dr before Government Rd",
+    "lat": "-32.781448",
+    "lon": "151.639638",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2322152",
     "name": "Haussman Dr at Government Rd",
     "lat": "-32.781724",
@@ -280191,6 +280303,15 @@
     "name": "Forest Dr before Grey Gum Cres",
     "lat": "-32.766289",
     "lon": "151.631892",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2322157",
+    "name": "Taylor Ave at Sharp St",
+    "lat": "-32.773085",
+    "lon": "151.634456",
     "productClass": [
       5
     ]
@@ -280758,6 +280879,24 @@
     "name": "Taylor Ave before Griffin Cl",
     "lat": "-32.774838",
     "lon": "151.636298",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2322269",
+    "name": "Haussman Dr after Garnier Cl",
+    "lat": "-32.777166",
+    "lon": "151.632888",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2322270",
+    "name": "Haussman Dr after Tripp Cl",
+    "lat": "-32.779328",
+    "lon": "151.63541",
     "productClass": [
       5
     ]
@@ -289719,6 +289858,15 @@
     ]
   },
   {
+    "id": "2518149",
+    "name": "Bellambi Lane at Brompton Rd",
+    "lat": "-34.362436",
+    "lon": "150.909123",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2518153",
     "name": "Alpini Park, Caldwell Ave",
     "lat": "-34.38177",
@@ -296479,6 +296627,15 @@
     ]
   },
   {
+    "id": "2533193",
+    "name": "Minnamurra Station, Railway Ave",
+    "lat": "-34.626335",
+    "lon": "150.853057",
+    "productClass": [
+      5
+    ]
+  },
+  {
     "id": "2533208",
     "name": "Kiama High School, School Grounds, Shoalhaven St",
     "lat": "-34.68028",
@@ -302038,6 +302195,15 @@
     "name": "Campbelltown Rd after Blomfield Rd",
     "lat": "-33.982613",
     "lon": "150.846948",
+    "productClass": [
+      5
+    ]
+  },
+  {
+    "id": "2565646",
+    "name": "Ingleburn Rd opp Ingleburn Station",
+    "lat": "-33.997575",
+    "lon": "150.864973",
     "productClass": [
       5
     ]
@@ -307885,7 +308051,7 @@
   },
   {
     "id": "2745233",
-    "name": "Ridgetop Dr after Bluestone Dr",
+    "name": "Ridgetop Dr opp Monarch Cct",
     "lat": "-33.797104",
     "lon": "150.678202",
     "productClass": [
@@ -331423,6 +331589,15 @@
     ]
   },
   {
+    "id": "278617_4T",
+    "name": "Mount Victoria Coach",
+    "lat": "-33.590907",
+    "lon": "150.255294",
+    "productClass": [
+      1
+    ]
+  },
+  {
     "id": "285042",
     "name": "Mudgee Station",
     "lat": "-32.60108104",
@@ -333234,7 +333409,7 @@
     ]
   },
   {
-    "id": "202972",
+    "id": "202973",
     "name": "Rose Bay Public Wharf",
     "lat": "-33.87094819",
     "lon": "151.2621217",
@@ -335024,15 +335199,6 @@
     "name": "Toongabbie Station",
     "lat": "-33.7872629962",
     "lon": "150.951437323",
-    "productClass": [
-      1
-    ]
-  },
-  {
-    "id": "251550",
-    "name": "Thirroul Station",
-    "lat": "-34.3184243988",
-    "lon": "150.918652366",
     "productClass": [
       1
     ]
