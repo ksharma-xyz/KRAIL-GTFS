@@ -215,14 +215,36 @@ jobs:
             echo "NO_CHANGES=false" >> $GITHUB_ENV
           fi
 
+      # An open auto-generated PR used to block every later refresh. That is only right while it
+      # is going to merge on its own. If its "Enable auto-merge" step failed (6 Nov 2026: PR #379,
+      # `fatal: couldn't find remote ref`), it sits open forever and no data PR is ever created
+      # again. So only a PR with auto-merge armed, or one created within the last hour (its job
+      # may still be about to arm it), blocks a new PR. Older PRs without auto-merge are closed
+      # as superseded by the data this run just generated.
       - name: Check for existing auto-generated PRs
         if: env.NO_CHANGES == 'false'
         id: check-pr
         run: |
-          existing=$(gh pr list --label auto-generated --state open --json number -q '.[0].number' || echo "")
-          echo "EXISTING_PR=$existing" >> $GITHUB_ENV
+          open_prs=$(gh pr list --label auto-generated --state open --json number,createdAt,autoMergeRequest)
+
+          existing=$(echo "$open_prs" | jq -r '
+            [.[] | select(.autoMergeRequest != null or ((now - (.createdAt | fromdateiso8601)) <= 3600))]
+            | .[0].number // empty')
+
+          stuck=$(echo "$open_prs" | jq -r '
+            .[] | select(.autoMergeRequest == null and ((now - (.createdAt | fromdateiso8601)) > 3600))
+            | .number')
+
+          while read -r pr; do
+            [ -z "$pr" ] && continue
+            echo "Closing stuck auto-generated PR #$pr (auto-merge was never enabled)"
+            gh pr close "$pr" --delete-branch \
+              --comment "Closing: auto-merge was never enabled on this PR, so it would never merge and would block newer data PRs. This run regenerated the data."
+          done <<< "$stuck"
+
+          echo "EXISTING_PR=$existing" >> "$GITHUB_ENV"
           if [[ -n "$existing" ]]; then
-            echo "Found existing auto-generated PR #$existing"
+            echo "Found existing auto-generated PR #$existing that will merge on its own, skipping PR creation"
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -251,9 +273,21 @@ jobs:
 
       - name: Enable auto-merge on PR
         if: env.NO_CHANGES == 'false' && env.EXISTING_PR == '' && steps.create_pr.outputs.pull-request-number != ''
-        run: gh pr merge ${{ steps.create_pr.outputs.pull-request-number }} --auto --squash
+        # Retried: right after the PR is created, `gh` can fail to see the new branch
+        # (`fatal: couldn't find remote ref ...`). One miss must not leave the PR unarmed.
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if gh pr merge "$PR_NUMBER" --auto --squash; then
+              exit 0
+            fi
+            echo "Enabling auto-merge on PR #$PR_NUMBER failed (attempt $attempt of 5), retrying in 15s"
+            sleep 15
+          done
+          echo "::error::Could not enable auto-merge on PR #$PR_NUMBER. The next refresh closes it as stuck and opens a new one."
+          exit 1
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          PR_NUMBER: ${{ steps.create_pr.outputs.pull-request-number }}
 
   update-krail-app:
     name: Update KRAIL App Repository
